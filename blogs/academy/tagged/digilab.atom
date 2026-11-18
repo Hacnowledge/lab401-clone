@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/academy.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/academy/tagged/digilab.atom"/>
+  <title>Lab401 - Academy</title>
+  <updated>2026-06-04T15:04:58+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/academy/i2c-sensor-seduction-digilab-flipper</id>
+    <published>2025-09-15T07:00:06+02:00</published>
+    <updated>2025-09-15T07:00:06+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/i2c-sensor-seduction-digilab-flipper"/>
+    <title>I2C Sensor Seduction: DigiLab + Flipper</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p>Seduce sensors into spilling secrets, with the DigiLab by Lab401 and the FlipperZero. Within minutes, you can peek and poke directly into the memory of millions of modules.</p>
+<p>In this hands on tutorial, we pull temperature data directly from a LM75A temperature sensor - without anything but the DigiLab and Flipper. No Arduinos, no code, no fuss!</p><p><a class="read-more" href="https://lab401.com/blogs/academy/i2c-sensor-seduction-digilab-flipper">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>The DigiLab is an accessory for FlipperZero made by Lab401 and tixlegeek, that aims to be the first tool you reach for when exploring electronics. It's got a built-in scope tool &amp; probe tool, and leverages sound, light and vibrations as physical feedback tools - enabling an entirely new and curiously intuitive way to explore circuits.</p>
+<p>It's also got an <b>I2C Probe</b> tool. You've probably heard of I2C, and if you've built any Arduino or RaspberryPi-based gadgets that have attached gizmos, you've probably even used I2C.</p>
+<p>I2C is a communication protocol, built in the 1980s, but remains the defacto protocol today for lower-speed communications between modules and sensors because of its simplicity (it only uses two wires), flexibility (you can have up to 127+ devices on the same lines, and speak to them individually!) and ubiquity (almost everything speaks I2C).</p>
+<p><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Sensors.png?v=1756417990" alt=""></p>
+<p>Before you fall asleep, here's the key question: <i>why should I get excited about a tool that speaks 40-year old protocol?</i></p>
+<p>The reality is, working with I2C devices, even today, can be very frustrating. Most I2C sensors are just micro computers that you can communicate with. Let's say you've got a temperature sensor, and you want to know what the temperature is. In theory, you can just ask it what the temperature is, and it will tell you. In reality, you need to wire the sensor up to some type of computer - an Arduino, an ESP-32, a Raspberry PI. Then need to setup a programming environment for the host device, and then find a library or write code to try to interface with the sensor. <i>It's super inefficient, and feels awkward.</i> Why can't you just reach into the sensor, grab the data and be done, no fuss?</p>
+<p>With the DigiLab's <b>I2C Probe</b>, working with I2C is a breeze. Hook up the module, and it's automatically detected (and even supports multiple modules at the same time). It also identifies each module with its inbuilt Predictive Engine. Sending and Retrieving data is done via the built-in UI and hex-editor. All in all, you can connect, detect, identify and interact with an I2C module in minutes, as opposed to hours.</p>
+<p><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab---Connected---Cropped.png?v=1756295963"></p>
+<h2>Let's get started</h2>
+<p>In this tutorial, we're going to learn how to connect and read data from a sensor in under under a minute. We're going to work with the LM75A sensor - a very popular temperature sensor. We'll see how we can connect the module, identify it, and read temperature data directly from the sensor - no code, no debugging.</p>
+<div style="text-align: center; font-size: .8em;">
+<img style="margin-bottom: 16px; float: none; display: block; margin-left: auto; margin-right: auto;" alt="The LM75ADPSensor on a breakout board." src="https://cdn.shopify.com/s/files/1/2175/8571/files/Module_240x240.png?v=1756249815"><i>There are many LM75A breakout boards, but this is my own.</i>
+</div>
+<p>At the end of the tutorial, you'll have acquired the following <b>skills</b>:</p>
+<ul>
+<li>How to communicate with unknown modules via first-principles</li>
+<li>How to leverage data-sheets to use unknown modules</li>
+<li>How to use the DigiLab to identify unknown I2C modules</li>
+<li>How to directly read the memory / registers of I2C modules</li>
+<li>Leveraging AI to build useful tools</li>
+</ul>
+<p>In this tutorial, we'll cover the following <b>steps</b>:</p>
+<ol>
+<li>Connecting the LM75ADP to the DigiLab</li>
+<li>Detecting and identifying the LM75ADP</li>
+<li>Obtaining and using the data-sheet</li>
+<li>Reading temperature data</li>
+<li>Building a tool to interpret retrieved data</li>
+</ol>
+<p><i><i>Please note</i>: The DigiLab can also write data to I2C devices, giving you complete control to configure sensors, write to memory chips, etc. We've got another tutorial on <i>Using the DigiLab with a BMP280 Sensor</i> - a much more complex sensor, which requires reading and writing. It's a bit more involved, but nevertheless you can control it completely with the DigiLab. If you want to learn how to interact completely with sensors and modules, it's a recommended read!</i></p>
+<p>In order to play along at home, you'll only need three things:<br></p>
+<ul>
+<li>The <a rel="noopener" href="/products/digilab-for-flipperzero" target="_blank">Lab401 DigiLab accessory</a> for FlipperZero®</li>
+<li>A <a rel="noopener" href="https://www.aliexpress.us/w/wholesale-LM75-I2C-.html" target="_blank">LM75A Breakout board</a>
+</li>
+<li>Some <a rel="noopener" href="https://www.aliexpress.us/w/wholesale-dupont-cables.html" target="_blank">dupont cables</a>
+</li>
+</ul>
+<h2>Connecting the LM75A to the DigiLab</h2>
+<p>First, we'll connect the LM75A Breakout module to the DigiLab. We'll connect:</p>
+<ul>
+<li>The <u>DigiLab</u> 3.3V pin to the <u>LM75A</u>'s VCC/3.3v pin</li>
+<li>The <u>DigiLab</u> GND pin to the <u>LM75A</u>'s GND pin</li>
+<li>The <u>DigiLab</u> SCL pin to the <u>LM75A</u>'s SCL pin</li>
+<li>The <u>DigiLab</u> SDA pin to the <u>LM75A</u>'s SDA pin</li>
+</ul>
+<p><i><img style="display: block; margin-left: auto; margin-right: auto;" alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Flipper---Wiring-Diagram_e7614cf6-344c-4604-aa70-59ccf00162d7.png?v=1756415079"></i></p>
+<p><i>That's all the wiring that we need to do! <b>Important</b> - if you're using a different board, please ensure that you follow what's printed on the PCB to avoid frying your module!</i></p>
+<h2>Detecting and identifying the LM75</h2>
+<p>Now, connect your DigiLab to your FlipperZero, and head into <b>Apps › GPIO › Lab401/DigiLab</b>. If you haven't already installed the App, you can get it from the Flipper App Store: <a href="https://lab.flipper.net/apps/401_digilab" target="_blank">https://lab.flipper.net/apps/401_digilab</a>.</p>
+<p>If it's the first time you've used the DigiLab app, you'll be asked to <b>Calibrate</b> your DigiLab. Follow the instructions on screen - touch the red probe to the +5V pad, and click OK.</p>
+<p>In the DigiLab App, head to <b>I2C Probe</b>. The device will rapidly scan for devices, and present you with a list of results. You can navigate the list with the left and right arrows.<br>If everything was connected properly, you should see <b>two</b> found devices. The DigiLab has an I2C memory chip on it, so there'll always be one device found.</p>
+<p>Navigate the list until you see the device <b>0x46</b>. This number is the address of the device, and it's "somewhat" unique. Click on <b>Info Button</b>.</p>
+<p>The DigiLab uses its predictive engine to try to guess the type of module it's connected to. There may be multiple types of module - but it helps you narrow down what you're dealing with. If you <b>navigate the list</b>, you'll see that the <b>LM75B</b> is found, and that it's a "Temperature Sensor" from NXP. Cool!</p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Detection-Animation_6b242ab9-2c56-4c29-8486-cc0607359416.gif?v=1756417313"></p>
+<p>At this point, you could click the <b>R/W</b> button to read and write values from the module's memory slots ("registers") - but where would you begin? This is where <b>data-sheets</b> come in.</p>
+<h2>Obtaining and using the datasheet</h2>
+<p>A quick web-search brings up a copy of the <a href="https://www.ti.com/product/LM75A" target="_blank">datasheet</a> for the LM75A sensor.</p>
+<p>Scanning the document, we see that the sensor can actually do a bunch of interesting things (it can also be used as a thermostat, which will trigger at specific temperatures). However, what we're most interested in is on page 6, with the Register List (Table 5). A <i>Register</i> is the name for a chunk of memory where data is stored. Think of it like a postbox. It has a number, you can put things into it, take things out of it, and depending on the size, store different amounts in it.</p>
+<p><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Register-List.png?v=1756417366"></p>
+<p>The LM75A stores the temperature data in the Register with the address: <code>0x00</code>. The register has a total size of 2-bytes.</p>
+<p>Page 8 describes how the data is encoded, and gives some examples on how to decode it. Now, we know where to get the data, how much data to get, and how to convert it to something human-readable!</p>
+<p><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Data-Format.png?v=1756417472"></p>
+<h2>Reading temperature data</h2>
+<p>In the <b>DigiLab App</b>, go to <b>I2C Probe</b>, and select the device with the address of <b>0x48</b>. This time, click on the <b>R/W Button</b> - and you'll be taken to a screen where you can enter the register we want to read.</p>
+<p>Enter the register <b>00</b> (you can type it in, or use the arrow keys to increase the address) and click <b>OK</b>. Now we're prompted how much data we should read from the register. From the document, we know that it's <b>2-bytes</b>, so we enter 2 and click <b>OK</b>.</p>
+<p><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Read-Animation.gif?v=1756415863" alt="" style="display: block; margin-left: auto; margin-right: auto;"></p>
+<p>We're now inside the DigiLab's built in hex-editor, and peering <i>directly into the memory of the LM75</i>. We can see that there's two bytes of data. This is the temperature response from the module!</p>
+<p>Take note of these two bytes: In our example, <code>1E 20</code></p>
+<h2>Building a tool to interpret retrieved data</h2>
+<p>Now we've retrieved the data, we need to convert it to a human readable form. The datasheet gave us information on how the data is encoded, and a bunch of examples. We can leverage this data and an AI engine to build a tool to decode the data</p>
+<blockquote>We are working with an LM75A temperature sensor. <br>The sensor holds the temperature data in two 8-bit data bytes, consisting of one Most Signiﬁcant Byte (MSByte) and one Least Signiﬁcant Byte (LSByte).<br><br>- Only 11 bits of those two bytes are used to store the Temp data in 2's complement format with the resolution of 0.125 °C.<br>- In the MSByte, all bits are used.<br>- In the LSByte, only bits 7, 6, 5 are used. <br><br>The remaining bits are discarded. <br><br>The bits are mapped as follows:
+<pre>MSByte Bit 7: `D10`
+MSByte Bit 6: `D9`
+MSByte Bit 5: `D8`
+MSByte Bit 4: `D7`
+MSByte Bit 3: `D6`
+MSByte Bit 2: `D5`
+MSByte Bit 1: `D4`
+MSByte Bit 0: `D3`
+LSByte Bit 7: `D2`
+MSByte Bit 6: `D1`
+MSByte Bit 5: `D0` </pre>
+Temperature is calculated with the following method:<br>1. If the Temp data MSByte bit <code>D10 = 0</code>, then the temperature is positive and <br><br><code>Temp value (°C) = +(Temp data) * 0.125 °C.</code><br><br>2. If the Temp data MSByte bit <code>D10 = 1</code>, then the temperature is negative and <br><br><code>Temp value (°C) = -(2’s complement of Temp data) * 0.125 °C</code>. <br><br>Build a Javascript tool that takes two Hexadecimal bytes as input, and decodes the corresponding temperature. Remember to convert the hexadecimal to binary, discard the bits 4, 3, 2, 1 and 0 from LSByte. Then map the bit values of MSByte and LSByte as per the above table, and perform the conversion.</blockquote>
+<p>AI will gurgle away for a while, and then you'll hopefully end up with a tool that will convert the temperature data from the module into something human readable. While we're hesitant to declare AI a net-positive, LLMs allow us to rapidly iterate tools that would previously have distracted from the main task at hand.</p>
+<p><a href="https://lab-401.github.io/digilab-tutorial-lm75a/lm75adp-calculator.html" target="_blank"><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Conversion-Tool.png?v=1756417751" alt="" style="display: block; margin-left: auto; margin-right: auto;"></a></p>
+<h2>Congratulations!</h2>
+<p>Congratulations - you've just learned how to use the DigiLab to tame I2C modules. As you can see, the DigiLab abstracts multiple layers of complexity, allowing you to work directly with modules. While in this tutorial we only read data, you can just as easily write data. We've got an upcoming article on using the DigiLab to configure a more complex module by writing directly to the module.</p>
+<h2>Homework task</h2>
+<p>We mentioned that the DigiLab has a <b>on-board</b> I2C memory chip! With everything you've learned, your homework task is to use the DigiLab to detect and identify the memory chip, and then write some values to it. You can check if it worked - by disconnecting the DigiLab and reconnecting it - the data you've written will still be saved in memory. If you ever need to secretly store some data that you don't want your Flipper to know about, now you've got a hiding spot!</p>
+<h2>Resources</h2>
+<p>Our tool for interpreting the LM75A sensor data is available on GitHub for experimentation and adaptation : <a href="https://github.com/lab-401/digilab-tutorial-lm75a">https://github.com/lab-401/digilab-tutorial-lm75a</a></p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/academy/digilab-pulling-data-from-thin-air-and-a-bmp280-module</id>
+    <published>2025-09-15T07:00:06+02:00</published>
+    <updated>2025-09-15T13:45:41+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/digilab-pulling-data-from-thin-air-and-a-bmp280-module"/>
+    <title>DigiLab : Pulling Data from thin air (and a BMP280 module)</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p>With Lab401's DigiLab and the FlipperZero you can interact directly with millions of modules that use I2C. What took hours now takes minutes! </p>
+<p>In this in-depth tutorial, we target a BMP280 barometric sensor: detection, identification, communication and data interpretation!</p><p><a class="read-more" href="https://lab401.com/blogs/academy/digilab-pulling-data-from-thin-air-and-a-bmp280-module">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>One of the amazing features of Lab401's DigiLab accessory for FlipperZero® is its <b>I2C Probe</b>. If you've ever played around with electronics, microcontrollers or embedded computers like the ESP-32, you'll have no doubt come across I2C.</p>
+<p><em>You can follow along with this tutorial (and the introductory <a href="/blogs/academy/i2c-sensor-seduction-digilab-flipper" rel="noopener" target="_blank">LM75A tutorial</a>) with the <a href="/products/digilab-module-kit" target="_blank">DigiLab Module Kit</a> - it has all the modules (with presoldered headers) and cables you need. </em></p>
+<p>It's a communication protocol that works over just two wires that allows for multiple (in theory thousands..) of devices and sensors to be attached to the same lines, and yet still be able to handle direct communication.</p>
+<p>Although invented in the 1980s, it's an <i>incredibly important and popular</i> technology. It's no exaggeration that there are literally thousands of types of I2C sensors, and millions of devices that use them!<br></p>
+<div style="text-align: center; font-size: .8em;">
+<img src="https://cdn.shopify.com/s/files/1/2175/8571/files/I2C-Sensors.png?v=1756249587" alt="" style="margin-bottom: 16px; float: none; display: block; margin-left: auto; margin-right: auto;"><i>Modules, modules, modules. </i>
+</div>
+<p>But if you've got an I2C sensor sitting on your desk, how do you interact with it?</p>
+<p>Today, you'd typically <a href="https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/i2c-sensors-and-devices" target="_blank">reach for an Ardunio or Raspberry Pi</a>, and hope someone has written a library for it. Maybe you'll fight with breadboards and jumpers, and maybe you'll wish for a way to talk to the module <i>directly</i>. Or maybe it's an unmarked AliExpress Magical Mystery Chip, and you've got no idea what it does. Or worse, maybe you've need to do something special that the libraries don't cover - and there's no simple way to do it.<br></p>
+<p><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab---Connected---Cropped.png?v=1756295963"></p>
+<p><strong>Enter the <a rel="noopener" href="/products/digilab-for-flipperzero" target="_blank">DigiLab</a></strong>, and its <b>I2C Probe</b> tool. You can easily detect devices on the I2C bus, and use the in-built predictive engine to guess what they are. And then - you can get your hands dirty and poke around directly inside the module itself.</p>
+<h2>Let's get started</h2>
+<p>In this tutorial, we're going to be investigating the <b>BMP280</b>, an air-pressure sensor from Bosch. These sensors are fairly ubiquitous - but don't be deceived, they are incredibly powerful sensors that can be configured in literally thousands of ways to meet the requirements of millions of devices. At Lab401, we believe that <i>understanding</i> is more important than just <i>doing</i>. The deeper your understanding, the more you'll be able to do.</p>
+<div style="text-align: center; font-size: .8em;">
+<img src="https://cdn.shopify.com/s/files/1/2175/8571/files/BMP280---Sensor_240x240.png?v=1756249815" alt="The BMP280 Sensor on a breakout board." style="margin-bottom: 16px; float: none; display: block; margin-left: auto; margin-right: auto;"><i>The BMP280 module, on a breakout board.</i>
+</div>
+<p>At the end of the tutorial, you'll have acquired the following <b>skills</b>:</p>
+<ul>
+<li>How to communicate with unknown modules via first-principles</li>
+<li>How to leverage data-sheets to use unknown modules</li>
+<li>How to use the DigiLab to identify unknown I2C modules</li>
+<li>How to directly modify the memory / registers of I2C modules</li>
+<li>Leveraging AI to build useful tools</li>
+</ul>
+<p>In this tutorial, we'll cover the following <b>steps</b>:</p>
+<ol>
+<li>Connecting the BMP280 to the DigiLab</li>
+<li>Detecting and identifying the BMP280</li>
+<li>Obtaining and using the data-sheet</li>
+<li>Configuring the BMP280</li>
+<li>Pulling temperature data</li>
+<li>Pulling pressure data</li>
+<li>Pulling calibration data</li>
+<li>Building a tool to interpret retrieved data</li>
+</ol>
+<p>In order to play along at home, you'll only need three things:<br></p>
+<ul>
+<li>The <a rel="noopener" href="/products/digilab-for-flipperzero" target="_blank">Lab401 DigiLab accessory</a> for FlipperZero®</li>
+<li>A <a rel="noopener" href="https://www.aliexpress.us/w/wholesale-BMP280.html" target="_blank">BMP280 Breakout board</a>
+</li>
+<li>Some <a rel="noopener" href="https://www.aliexpress.us/w/wholesale-dupont-cables.html" target="_blank">dupont cables</a>
+</li>
+</ul>
+<h2>Connecting the BMP280 to the DigiLab</h2>
+<p>First, we'll connect the BMP280 Breakout module to the DigiLab. We'll connect:</p>
+<ul>
+<li>The <u>DigiLab</u> 3.3V pin to the <u>BMP280</u>'s VCC/3.3v pin</li>
+<li>The <u>DigiLab</u> GND pin to the <u>BMP280</u>'s GND pin</li>
+<li>The <u>DigiLab</u> SCL pin to the <u>BMP280</u>'s SCL pin</li>
+<li>The <u>DigiLab</u> SDA pin to the <u>BMP280</u>'s SDA pin</li>
+</ul>
+<p>That's all the wiring that we need to do! <b>Important</b> - if you're using a different board, please ensure that you follow what's printed on the PCB to avoid frying your module!</p>
+<p><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Flipper---Wiring-Diagram.png?v=1756249177" alt=""></p>
+<h2>Detecting and identifying the BMP280</h2>
+<p>Now, connect your DigiLab to your FlipperZero, and head into <b>Apps › GPIO › Lab401/DigiLab</b>. If you haven't already installed the App, you can get it from the Flipper App Store: <a href="https://lab.flipper.net/apps/401_digilab" target="_blank">https://lab.flipper.net/apps/401_digilab</a>.</p>
+<p>If it's the first time you've used the DigiLab app, you'll be asked to <b>Calibrate</b> your DigiLab. Follow the instructions on screen - touch the red probe to the +5V pad, and click OK.</p>
+<p>In the DigiLab App, head to <b>I2C Probe</b>. The device will rapidly scan for devices, and present you with a list of results. You can navigate the list with the left and right arrows.<br>If everything was connected properly, you should see <b>two</b> found devices. The DigiLab has an I2C memory chip on it, so there'll always be one device found.</p>
+<p>Navigate the list until you see the device <b>0x76</b>. This number is the address of the device, and it's "somewhat" unique. Click on <b>Info Button</b>.</p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Detection-Animation_926a5ad8-3e4a-4bdf-8d8e-789cd6b2b734.gif?v=1756284148"></p>
+<p>The DigiLab uses its predictive engine to try to guess the type of module it's connected to. There may be multiple types of module - but it helps you narrow down what you're dealing with. If you <b>navigate the list</b>, you'll see that the <b>BMP280</b> is found, and that it's a "Temperature and Pressure Sensor" from Bosch. Cool!</p>
+<p>At this point, you could click the <b>R/W</b> button to read and write values from the module's memory slots ("registers") - but where would you begin? This is where <b>data-sheets</b> come in.</p>
+<h2>Obtaining and using the datasheet</h2>
+<p>A quick web-search brings up a copy of the <a href="https://www.digikey.com/htmldatasheets/production/2394371/0/0/1/bmp280-datasheet.html" target="_blank">datasheet</a> for the BMP280 sensor. Perusing the document shows that the sensor is actually quite complex - there's a great deal of functionality tucked into a tiny package. It has multiple filters to deal with spikes, can be polled slowly but accurately, or (very) quickly, has multiple different power modes and resolutions.</p>
+<p>More specifically, we're going to have to <b>configure</b> the sensor (ie, write our preferred settings to it) before we can pull data from it.</p>
+<p>For our purposes, the document gets really interesting around page 25, when it discusses the different <i>registers</i>. A <i>register</i> is another way to refer to a chunk of memory. According to the documentation, each register in the BMP280 is 8-bits, or 1-byte of data. Each <i>Register</i> has an address (typically referred to in hexadecimal).</p>
+<div style="text-align: center; font-size: .8em;">
+<img src="https://cdn.shopify.com/s/files/1/2175/8571/files/BMP280---Memory-Map.png?v=1756295376" alt="" style="display: block; margin-left: auto; margin-right: auto;"><i>Good to see Bosch is looking out for customer using CGA graphics.</i>
+</div>
+<p>In Table 18, we can see the memory layout. There are four sections that seem to be interesting:</p>
+<ol>
+<li>
+<code>0xF5</code>: The register containing the device configuration data</li>
+<li>
+<code>0xF4</code>: The register containing the measurement configuration</li>
+<li>
+<code>0x88 - 0xA1</code>: The registers holding the calibration values</li>
+<li>
+<code>0xF7 - 0xF9</code>: The registers holding the pressure values</li>
+<li>
+<code>0xFA - 0xFC</code>: The registers holding the temperature values</li>
+</ol>
+<p>With the information from this table, we can now complete <strong>steps </strong><b>3 - 6</b>:</p>
+<ul>
+<li>Configuring the BMP280</li>
+<li>Pulling temperature data</li>
+<li>Pulling pressure data</li>
+<li>Pulling calibration data</li>
+</ul>
+<h2>Configuring the BMP280</h2>
+<p>Let's start by <b>configuring the BMP280</b>. We don't have any highly technical requirements (ie, we don't need ultra-low-power mode, or ultra-quick polling). We can check on page 26 for details on how this configuration value is built up. A run-of-the-mill configuration value is composed as follows:</p>
+<p><b>0xF5 - Device Configuration</b></p>
+<ul>
+<li>
+<b>Bit 7,6,5</b> -&gt; <code>101</code> (1000ms standby time)</li>
+<li>
+<b>Bit 4,3,2</b> -&gt; <code>000</code> (filter coefficient = off)</li>
+<li>
+<b>Bit 1</b> -&gt; <code>0</code>
+</li>
+<li>
+<b>Bit 0</b> -&gt; <code>0</code> (disables 3-wire SPI)</li>
+<li>
+<b>Final Value: </b><code>10100000</code> in binary, or <code>0xA0</code> in hex.</li>
+</ul>
+<p><strong> 0xF4 - Measurement Configuration</strong></p>
+<ul>
+<li>
+<b>Bit 7,6,5</b> -&gt; <code>001</code> (Temperature oversampling x1)</li>
+<li>
+<b>Bit 4,3,2</b> -&gt; <code>001</code> (Pressure oversampling x1)</li>
+<li>
+<b>Bit 1,0</b> -&gt; <code>11</code> (Normal mode - continuous measurements)</li>
+<li>
+<b>Final Value: </b><code>00100111</code> in binary, or <code>0x27</code> in hex.</li>
+</ul>
+<p>OK - now we know that if we write those values into their corresponding registers, the module will start measuring data, and we'll be able to read it back! Let's head back to the DigiLab to write the values!</p>
+<p>In the <b>DigiLab App</b>, go to <b>I2C Probe</b>, and select the device with the address of <b>0x76</b>. This time, click on the <b>R/W Button</b> - and you'll be taken to a screen where you can enter the register you want to modify.</p>
+<p>Enter the register <b>F5</b> (you can type it in, or use the arrow keys to increase the address) and click <b>OK</b>. Now we're prompted how much data we should read from the register. From the document, we know that it's <b>1-byte</b>, so we enter 1 and click <b>OK</b>.</p>
+<p>We're now inside the DigiLab's built in hex-editor, and peering <i>directly into the memory of the BMP280</i>. Using the arrow keys, set the value of the register to <b><code>A0</code></b> and click <b>OK</b>. You'll get a confirmation that the chip was programmed.</p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Configuration-Animation.gif?v=1756287164"></p>
+<p>Now, do the same for the 0xF4 register, setting its value to <b><code>27</code></b> and click <b>OK</b>. Again, you'll get a confirmation that the chip was programmed. <b>Congratulations!</b> The BMP280 is now configured and measuring data according to your configuration values. Next step - let's read out the values!</p>
+<h2>Pulling the temperature data</h2>
+<p>You might have guessed it - to pull out the temperature data, we need to check out the values in the registers <code>0xFA - 0xFC</code>. Go through each register, and note the data down somewhere.</p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Data-Animation.gif?v=1756293107"></p>
+<h2>Pulling the pressure data</h2>
+<p>Repeat the process for the pressure data, in registers <code>0xF7 - 0xF9</code>. Again, go through each register, and note the data down somewhere.</p>
+<h2>Pulling the calibration data</h2>
+<p>The BMP280 self-calibrates using a variety of different data-points. In order to correctly translate the pressure and temperature values, we also need to note the calibration data. So, repeat the process a final time, for registers <code>0x88 - 0xA1</code>.</p>
+<p>All in all, you should have a 3 bytes of temperature data, 3 bytes of pressure data, and 26-ytes of calibration values - something like:</p>
+<blockquote>
+<pre>Temperature Data<br>0xFA: 0x88
+0xFB: 0x27
+0xFC: 0x00
+<br>Pressure Data
+0xF7: 0x54
+0xF8: 0x8C
+0xF9: 0x00
+Calibration Data
+0x88: 37
+0x89: 70
+0x8A: d0
+0x8B: 68
+0x8C: 32
+0x8D: 00
+0x8E: 1C
+0x8F: 90
+0x90: 25
+0x91: D6
+0x92: D0
+0x93: 0B
+0x94: 04
+0x95: 1B
+0x96: 40
+0x97: 00
+0x98: F9
+0x99: FF
+0x9A: B4
+0x9B: 2D
+0x9C: E8
+0x9D: D1
+0x9E: 88
+0x9F: 13
+0xA0: 00
+0xA1: 4B
+</pre>
+</blockquote>
+<h2>Building a tool to interpret retrieved data</h2>
+<p>We're ready to transform the data into something human readable. According to the spec-sheet (on page 21), the data is stored in a format called "16-bit two's complement". Instead of spending hours fighting to build a tool, we're leverage AI to build us out an interpreter. We used the agent / cli tool <a href="https://aider.chat/" target="_blank">Aider</a> with Claude Opus, but any model or means would work just fine.</p>
+<blockquote>
+<p>Make a javascript calculator tool that takes temperature values from 0xFA-0xFC and pressure values from 0xF7-0xF9, and the calibration values from 0x88-0xA1 - from a BMP280 module, and provides a temperature output (in °C) and a pressure output in hectoPascals.</p>
+</blockquote>
+<div style="text-align: center; font-size: .8em;">
+<a href="https://lab-401.github.io/digilab-tutorial-bmp280/DigiLab-BMP280-Calculator.html" title="Tool for calculating temperature and pressure from BMP280 registers" rel="noopener" target="_blank"><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Conversion-Tool---1.png?v=1756294534" alt="" style="display: block; margin-left: auto; margin-right: auto;"></a><i>Visit the calculator online <a href="https://lab-401.github.io/digilab-tutorial-bmp280/DigiLab-BMP280-Calculator.html" target="_blank">here</a></i>
+</div>
+<p>We can feed our data into the resulting tool, and it will output the correct temperature and pressure values from the sensor.</p>
+<p>We can even extend the tool to estimate altitude. Calculating altitude is fairly simple: <br><code></code></p>
+<p><code>altitude = 44330 * (1 - (pressure/sea_level_pressure)^0.1903)</code><br></p>
+<p>The only variable we're missing is "sea_level_pressure". We can either use a "global average", 1013.25hPa, but the results will have a large margin of error. Alternatively, we can retreive the sea_level_pressure from a nearby weather-station!</p>
+<blockquote>
+<p><em>Modify the Calculator form as follows:</em><br>1) When <em>Calculate Temperature and Pressure</em> has been clicked, and results have been calculated, add a button under the "Debug Information" frame: "<em>Estimate Altitude (Requires Localisation)</em>".</p>
+<p>Under this button, add in italics: "<em>Localisation data is used to send an anonymous request to the Open-Meteo API, to retrieve the QNH/Sea-level air pressure value nearest to you. This allows us to estimate your current altitude.</em>"</p>
+<p>When the user clicks this button, request their localisation data via the browser. If they decline, show an error frame that says: "<em>Sorry, we cannot estimate the altitude without localisation data."</em></p>
+<p>If we have the user's localisation data, send a request to Open-Meteo to retrieve the QNH value closest to their location.</p>
+<p>If there's an error, show it in a frame If we get successful information, use all the data to estimate the user's current altitude.</p>
+</blockquote>
+<div style="text-align: center; font-size: .8em;">
+<a rel="noopener" title="Tool for calculating temperature and pressure from BMP280 registers" href="https://lab-401.github.io/digilab-tutorial-bmp280/DigiLab-BMP280-Calculator-Altitude.html" target="_blank"><img style="display: block; margin-left: auto; margin-right: auto;" alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Conversion-Tool---2.png?v=1756294535"></a><i>Visit the calculator online <a href="https://lab-401.github.io/digilab-tutorial-bmp280/DigiLab-BMP280-Calculator-Altitude.html" target="_blank">here</a></i>
+</div>
+<p><strong>Now, the tool can even estimate elevation!</strong> In our opinion, the ability to rapidly accomplish side-quests is a perfect tool for AI. Traditionally, this type of tool would have taken at least an hour to finish - removing focus from our primary goals.</p>
+<h2>Summing Up</h2>
+<p>We've seen the <b>Lab401 DigiLab</b>'s <b>I2C Probe</b> function is incredible useful. It's powerful, versatile, but simple to use. It abstracts all the hard parts of communication, and uses its "Prediction Engine" to identify different modules, and even lets you read and write values directly to the module.</p>
+<p>Exploring I2C modules has traditionally been pretty clunky, or requires more expensive tools, writing code and is generally not an easy experience. The DigiLab makes I2C exploration not only simple, but accessible to anyone, so your curiosity isn't blocked by frustrations.</p>
+<h2>Homework task</h2>
+<p>We mentioned that the DigiLab has a <b>on-board</b> I2C memory chip! With everything you've learned, your homework task is to use the DigiLab to detect and identify the memory chip, and then write some values to it. You can check if it's worked - by disconnecting the DigiLab and reconnecting it - the data you've written will still be saved in memory. If you ever need to secretly store some data that you don't want your Flipper to know about, now you've got a hiding spot!</p>
+<h2>Resources</h2>
+<p>The two tools for interpreting the BMP280 sensor data are available on GitHub for experimentation and adaptation : <a href="https://github.com/lab-401/digilab-tutorial-bmp280">https://github.com/lab-401/digilab-tutorial-bmp280</a></p>]]>
+    </content>
+  </entry>
+</feed>

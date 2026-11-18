@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/news.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/news/tagged/proxmark-3.atom"/>
+  <title>Lab401 - News</title>
+  <updated>2026-04-22T16:48:54+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/news/back-to-work-sale-10-store-wide</id>
+    <published>2019-09-15T20:48:00+02:00</published>
+    <updated>2019-09-15T22:52:38+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/back-to-work-sale-10-store-wide"/>
+    <title>Back to work sale: 10% Store-wide</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p><span style="font-size: 16px;" data-start-index="17754" data-end-index="17785">Lab401 has been working hard over the holidays to add dozens of new products: The <b data-start-index="17867" data-end-index="17870">full range</b> of Proxmark 3 RDV 4.01 accessories, new USB RFID readers, and more.</span></p>
+<p><span style="font-size: 16px;" data-start-index="17754" data-end-index="17785">Get <strong>﻿10% Off</strong>﻿ from Sept 16 - Sept 21 with the promo code: <strong>﻿B2W2019</strong></span></p><p><a class="read-more" href="https://lab401.com/blogs/news/back-to-work-sale-10-store-wide">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<div style="color: #61626f; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; line-height: 150%; padding: 0px 10px 10px 10px;" data-start-index="17023" data-end-index="17200">
+<div style="line-height: 18px; font-size: 12px; color: #61626f; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;" data-start-index="17213" data-end-index="17339">
+<p style="line-height: 24px; text-align: justify; font-size: 12px; margin: 0;" data-start-index="17353" data-end-index="17432"><span style="font-size: 16px;" data-start-index="17432" data-end-index="17463"><strong data-start-index="17463" data-end-index="17471">European Summer holidays are over - which means many of us are back at the desk. </strong></span></p>
+<p style="line-height: 18px; text-align: justify; font-size: 12px; margin: 0;" data-start-index="17577" data-end-index="17656"> </p>
+<p style="line-height: 24px; text-align: justify; font-size: 12px; margin: 0;" data-start-index="17675" data-end-index="17754"><span style="font-size: 16px;" data-start-index="17754" data-end-index="17785">Lab401 has been working hard over the holidays to add dozens of new products: The <b data-start-index="17867" data-end-index="17870">full range</b> of Proxmark 3 RDV 4.01 accessories, new USB RFID readers, and more.</span></p>
+<p style="line-height: 24px; text-align: justify; font-size: 12px; margin: 0;" data-start-index="17675" data-end-index="17754"> </p>
+<p style="line-height: 24px; text-align: justify; font-size: 12px; margin: 0;" data-start-index="17675" data-end-index="17754"><span style="font-size: 16px;" data-start-index="17754" data-end-index="17785">Simply use the promo code <strong>B2W2019</strong> to apply your discount.<br></span></p>
+<p style="line-height: 24px; text-align: justify; font-size: 12px; margin: 0;" data-start-index="17675" data-end-index="17754"> </p>
+<p style="line-height: 24px; text-align: justify; font-size: 12px; margin: 0;" data-start-index="17675" data-end-index="17754"><span style="font-size: 16px;"><strong>Check out the product</strong> <strong>updates:</strong></span></p>
+<ul>
+<li><span style="font-size: 16px;"><strong>RFID Pentester Pack </strong><span style="color: #cc0000;"><sup>Updated!</sup></span><br><br>We have overhauled the RFID Pentester Pack, to include the latest Proxmark 3 RDV4.01 Device, Antennas and accessories. All packs come with the SIM/SAM adaptors, and the Full pack has a deep discount.<br><br><a href="https://lab401.com/products/rfid-pentester-pack">Read more ⤑</a><br><br></span></li>
+<li><span style="font-size: 16px;"><strong>Proxmark Antenna Update Pack </strong><span style="color: #cc0000;"><sup>New!</sup></span><br><br>The new RDV4.01 has updated antennas, boasting better performance and the new 125KHz Q-Switch and F-Switch.<br>If you've got the RDV 4 - there's no need to buy a new device, you can grab the new antennas at a great price.<br><br><a href="https://lab401.com/collections/rfid-tools/products/proxmark-3-rdv4-01-upgraded-replacement-antenna?lshst=collection">Read more ⤑</a><br></span></li>
+<li><span style="font-size: 16px;"><strong>Long Range Antennas </strong><span style="color: #cc0000;"><sup>New!</sup></span><br><br>High performance, <a href="https://lab401.com/collections/rfid-tools/products/proxmark-3-rdv4-long-range-hf-antenna-1">long range 13.56MHz</a> and <a href="https://lab401.com/collections/rfid-tools/products/proxmark-3-rdv4-01-long-range-lf-antenna-pack">125KHz </a>Antennas - delivery highly optimised, long range performance for your in-field operations.<br><br><a href="https://lab401.com/collections/rfid-tools/products/proxmark-3-rdv4-long-range-hf-antenna-1">Read more ⤑</a><br></span></li>
+</ul>
+<p> </p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QJARmTUYyZ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p> </p>
+</div>
+</div>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/tesla-s-hack-powered-by-open-source-tools</id>
+    <published>2018-09-17T05:41:00+02:00</published>
+    <updated>2018-09-17T09:44:18+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/tesla-s-hack-powered-by-open-source-tools"/>
+    <title>Tesla S hack powered by Open Source tools</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[The recent Tesla Model S hack is exclusively powered by Open Source hardware. Read how a Proxmark 3, Yardstick One and Raspberry Pi were used to pull of this feat.<p><a class="read-more" href="https://lab401.com/blogs/news/tesla-s-hack-powered-by-open-source-tools">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p><span><iframe width="560" height="315" src="https://www.youtube.com/embed/fJDuMeaocj4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>It's been widely reported that the <strong>Tesla Model S has been successfully hacked</strong> - keyfobs can be snatched and emulated rapidly and easily.</span></p>
+<div></div>
+<div>Even more interesting is the use of 'off the shelf' hardware - a <a href="https://proxmark.com" title="Proxmark 3">Proxmark</a>, Yardstick one and Raspberry Pi formed the hardware backbone of the hack.</div>
+<div></div>
+<div></div>
+<div>Lab401 congratulates COSIC's researchers for their hard work and responsible disclosure.</div>
+<div></div>
+<div>By the way - we noticed that @COSIC are using V1 Proxmarks - if you'd like to upgrade to RDV4s - send us an email!</div>
+<div></div>
+<div><iframe width="560" height="315" src="https://www.youtube.com/embed/aVlYuPzmJoY?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></div>
+<div></div>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/proxmark-3-rdv2-bypasses-millions-of-hotel-rooms</id>
+    <published>2018-04-26T07:10:00+02:00</published>
+    <updated>2018-04-26T07:40:03+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/proxmark-3-rdv2-bypasses-millions-of-hotel-rooms"/>
+    <title>Proxmark 3 RDV2 Bypasses Millions of Hotel Rooms</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<meta charset="utf-8">
+<p>Assa Abloy's Ving Card system using the <a href="https://lab401.com/collections/hardware/products/proxmark-3-rdv2">Proxmark 3 RDV2</a> by InfoSec firm F-Secure.</p>
+<p><span>The Proxmark 3, operating in Stand-Alone mode, is able to determine the Site Master Key, and generate a master pa..</span></p><p><a class="read-more" href="https://lab401.com/blogs/news/proxmark-3-rdv2-bypasses-millions-of-hotel-rooms">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<meta charset="utf-8">
+<p>InfoSec firm F-Secure, as <a href="https://www.f-secure.com/en/web/business_global/electronic-lock-systems-are-vulnerable">widely reported</a>, have managed to cracked Assa Abloy's Ving Card system using the <a href="https://lab401.com/collections/hardware/products/proxmark-3-rdv2">Proxmark</a> 3 RDV2.</p>
+<p>The <a href="/collections/hardware/products/proxmark-3-rdv2">Proxmark 3 RDV</a> appears to:</p>
+<ul>
+<li>Read an original hotel card in Stand-Alone mode</li>
+<li>Determine the Master Key for the Site Installation</li>
+<li>Use this Master Key to generate a Master Badge for the Site</li>
+<li>Emulate the badge in Stand Alone Mode.</li>
+</ul>
+<p><span>From the information and videos surfacing in the press, it would appear that F-Secure have cracked the Ving Card encryption algorithm, allowing for unfettered access to any site.</span></p>
+<p><span>In theory, this attack could be used to:</span></p>
+<ul>
+<li>Snatch a card from a hotel patron, and access any room / area</li>
+<li>Upgrade your own hotel card to an all-access card</li>
+</ul>
+<p>A full explanation video can be seen here:</p>
+<p><iframe width="640" height="360" src="https://www.youtube.com/embed/CAYRAFPnWUg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></p>
+<p>Implementations aside, this is a testament to the Proxmark's flexibility as a device, and its Open-Source framework, easily allowing for security professionals to adapt the device to their own requirements.</p>
+<p style="text-align: left;"><img src="//cdn.shopify.com/s/files/1/2175/8571/files/Access_large.png?v=1524719842" alt="Proxmark Ving Card Crack Demonstration"><img alt="Proxmark Ving Card Crack Demonstration" src="//cdn.shopify.com/s/files/1/2175/8571/files/hotel-1-gif-clone-slim_large.gif?v=1524718841" style="float: none;"></p>
+<p style="text-align: left;"><img alt="Hotel Room Proxmark Master Card" src="//cdn.shopify.com/s/files/1/2175/8571/files/hotel-2-gif-elevator-slim_large.gif?v=1524718859" style="float: none;"></p>]]>
+    </content>
+  </entry>
+</feed>

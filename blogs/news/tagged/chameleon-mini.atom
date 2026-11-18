@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/news.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/news/tagged/chameleon-mini.atom"/>
+  <title>Lab401 - News</title>
+  <updated>2026-04-22T16:48:54+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/news/new-generation-chameleons-lea-products</id>
+    <published>2020-02-18T16:32:00+01:00</published>
+    <updated>2020-02-18T16:32:23+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/new-generation-chameleons-lea-products"/>
+    <title>New generation Chameleons &amp; LEA Products</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[New generation Chameleon products are in stock; Pentester packs have been updated; Law Enforcement and Enterprise Tools have been created - and we even made some great stickers.<p><a class="read-more" href="https://lab401.com/blogs/news/new-generation-chameleons-lea-products">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<h2>Lab401 in 2020</h2>
+<p><strong>It's been a busy start to the year at Lab401.</strong> The new generation Chameleon products are in stock; all our pentester packs have been updated to the latest generation tools, and we've also launched the Law Enforcement and Enterprise tools.</p>
+<h2>LEA Products</h2>
+<p>In order to support the needs to the Law Enforcement and Government Services, Lab401 has opened its <a href="https://lab401.com/collections/lea-tools"><strong>LEA Tools</strong></a> section.</p>
+<p>We have high performance tools for demanding situations - RF, RFID and Automotive solutions.</p>
+<p>Access to LEA products is restricted to verified Law Enforcement bodies, Government Services and their suppliers. For access, <strong><a href="mailto:support@lab401.com">please contact customer support</a></strong> from an official email account, or with your credentials, and we will grant access.</p>
+<p>We have also opened our <a href="https://lab401.com/collections/enterprise-tools"><strong>Enterprise Tools</strong></a> section, with tools restricted to verifiable enterprise clients in the pentesting industry. Our tools are exclusive to Lab401, highly specialised, and already used in the field and lab for special operations.</p>
+<p>As with the LEA Tools, <a href="mailto:support@lab401.com"><strong>please send an email to Lab401 support</strong></a> to get access to the Enterprise Tools.</p>
+<h2>Brand New Chameleons</h2>
+<p>The new generation of Chameleon devices are finally available. The Proxgrind Chameleon devices are the latest evolution of the KAOS RevG devices.</p>
+<p>There are two flavours of device: the RevG and the ChameleonTiny.</p>
+<p><img src="//cdn.shopify.com/s/files/1/2175/8571/files/ChameleonMini-vs-ChameleonTiny_large.png?v=1581684932" alt=""></p>
+<h3>Product Comparison</h3>
+<p>There are several ChameleonMini devices available. The table below breaks down the differences in detail.</p>
+<p>If your are a <strong>penetration tester </strong>/ researcher, or require wireless functionality, Lab401 recommends the <strong>ChameleonMini RevG by Proxgrind.</strong></p>
+<p>If <strong></strong>you are looking to store all your tags in one device, or size is the most important factor for you, Lab401 recommends the <a href="https://lab401.com/products/chameleontiny"><strong>ChameleonTiny.</strong></a></p>
+<style type="text/css"><!--
+.tg  {width: 100%; margin: 2em 0 2em 0; border-collapse:collapse;border-spacing:0;border-color:#9ABAD9;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#9ABAD9;color:#444;background-color:#EBF5FF;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#9ABAD9;color:#fff;background-color:#409cff;}
+.tg .tg-cly1{text-align:left;vertical-align:middle}
+.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-5lax{background-color:#D2E4FC;text-align:left;vertical-align:middle}
+.tg .tg-kl5c{font-weight:bold;background-color:#eff7fc;color:#000000;text-align:left;vertical-align:middle}
+.tg .tg-hmp3{background-color:#D2E4FC;text-align:left;vertical-align:top}
+.tg .tg-ni40{font-weight:bold;background-color:#eff7fc;color:#000000;text-align:left;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg .tg-yla0{font-weight:bold;text-align:left;vertical-align:middle}
+.tg .tg-8nr7{font-weight:bold;background-color:#ffffff;text-align:left;vertical-align:middle}
+--></style>
+<table class="tg">
+<tbody>
+<tr>
+<th class="tg-kl5c">Feature</th>
+<th class="tg-kl5c">RevG<br>(Proxgrind)</th>
+<th class="tg-kl5c">RevG<br>(Original)</th>
+<th class="tg-ni40">RevG Tiny</th>
+<th class="tg-ni40">RevE Rebooted<br><strong><em>(Depreciated)</em></strong>
+</th>
+</tr>
+<tr>
+<td class="tg-1wig">Overview</td>
+<td class="tg-hmp3">⭐⭐⭐⭐⭐</td>
+<td class="tg-0lax">⭐⭐⭐</td>
+<td class="tg-hmp3">⭐⭐⭐⭐</td>
+<td class="tg-0lax">⭐⭐⭐</td>
+</tr>
+<tr>
+<td class="tg-yla0">Performance</td>
+<td class="tg-5lax">10/10</td>
+<td class="tg-cly1">5/10</td>
+<td class="tg-hmp3">8/10</td>
+<td class="tg-0lax">6/10</td>
+</tr>
+<tr>
+<td class="tg-yla0">Compatibility</td>
+<td class="tg-5lax">10/10</td>
+<td class="tg-cly1">8/10</td>
+<td class="tg-hmp3">10/10</td>
+<td class="tg-0lax">4/10</td>
+</tr>
+<tr>
+<td class="tg-yla0">Read Distance</td>
+<td class="tg-5lax">10/10</td>
+<td class="tg-cly1">3/10</td>
+<td class="tg-hmp3">8/10</td>
+<td class="tg-0lax">6/10</td>
+</tr>
+<tr>
+<td class="tg-1wig">Bluetooth</td>
+<td class="tg-hmp3">✔️</td>
+<td class="tg-0lax">❌</td>
+<td class="tg-hmp3">❌</td>
+<td class="tg-0lax">❌</td>
+</tr>
+<tr>
+<td class="tg-8nr7" colspan="5">Technical Features</td>
+</tr>
+<tr>
+<td class="tg-yla0">MF32Key Crack</td>
+<td class="tg-5lax">✔️</td>
+<td class="tg-cly1">❌</td>
+<td class="tg-hmp3">✔️</td>
+<td class="tg-0lax">✔️</td>
+</tr>
+<tr>
+<td class="tg-yla0">Low Power Sleep</td>
+<td class="tg-5lax">✔️</td>
+<td class="tg-cly1">❌</td>
+<td class="tg-hmp3">✔️</td>
+<td class="tg-0lax">❌</td>
+</tr>
+<tr>
+<td class="tg-yla0">RF Field Wakeup</td>
+<td class="tg-5lax">✔️</td>
+<td class="tg-cly1">❌</td>
+<td class="tg-hmp3">✔️</td>
+<td class="tg-0lax">✔️</td>
+</tr>
+<tr>
+<td class="tg-yla0">Button Wakeup</td>
+<td class="tg-5lax">✔️</td>
+<td class="tg-cly1">❌</td>
+<td class="tg-hmp3">✔️</td>
+<td class="tg-0lax">✔️</td>
+</tr>
+<tr>
+<td class="tg-1wig">
+<br>Auto-Power Off</td>
+<td class="tg-hmp3">✔️</td>
+<td class="tg-0lax">❌</td>
+<td class="tg-hmp3">✔️</td>
+<td class="tg-0lax">✔️</td>
+</tr>
+<tr>
+<td class="tg-8nr7" colspan="5">Product Features</td>
+</tr>
+<tr>
+<td class="tg-0lax"><span style="font-weight: bold;">Case</span></td>
+<td class="tg-hmp3">✔️</td>
+<td class="tg-0lax">❌</td>
+<td class="tg-hmp3">✔️</td>
+<td class="tg-0lax">✔️</td>
+</tr>
+<tr>
+<td class="tg-yla0">Li-ion Battery</td>
+<td class="tg-5lax">✔️</td>
+<td class="tg-cly1">✔️</td>
+<td class="tg-hmp3">✔️</td>
+<td class="tg-0lax">❌</td>
+</tr>
+<tr>
+<td class="tg-1wig">Replaceable Antenna</td>
+<td class="tg-hmp3">✔️</td>
+<td class="tg-0lax">❌</td>
+<td class="tg-hmp3">❌</td>
+<td class="tg-0lax">❌</td>
+</tr>
+<tr>
+<td class="tg-1wig">8 LED Slots</td>
+<td class="tg-hmp3">✔️</td>
+<td class="tg-0lax">❌</td>
+<td class="tg-hmp3">✔️</td>
+<td class="tg-0lax">✔️</td>
+</tr>
+<tr>
+<td class="tg-1wig">Battery Indicator</td>
+<td class="tg-hmp3">✔️</td>
+<td class="tg-0lax">❌</td>
+<td class="tg-hmp3">❌</td>
+<td class="tg-0lax">❌</td>
+</tr>
+<tr>
+<td class="tg-1wig">Android App</td>
+<td class="tg-hmp3">✔️</td>
+<td class="tg-0lax">❌</td>
+<td class="tg-hmp3">❌</td>
+<td class="tg-0lax">❌</td>
+</tr>
+</tbody>
+</table>
+<style type="text/css"><!--
+.tg  {width: 100%; margin: 2em 0 2em 0; border-collapse:collapse;border-spacing:0;border-color:#9ABAD9;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#9ABAD9;color:#444;background-color:#EBF5FF;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#9ABAD9;color:#fff;background-color:#409cff;}
+.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-hmp3{background-color:#D2E4FC;text-align:left;vertical-align:top}
+.tg .tg-n1ot{font-weight:bold;background-color:#ebf5ff;color:#000000;text-align:left;vertical-align:middle}
+.tg .tg-6v43{font-weight:bold;background-color:#ffffff;text-align:left;vertical-align:top}
+.tg .tg-6sgx{background-color:#ffffff;text-align:left;vertical-align:top}
+.tg .tg-s425{font-weight:bold;background-color:#ebf5ff;color:#000000;text-align:left;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+--></style>
+<h2>Tag Compatibility</h2>
+<h3>Emulation</h3>
+<table class="tg">
+<tbody>
+<tr>
+<th class="tg-n1ot">Card</th>
+<th class="tg-n1ot">Codec</th>
+<th class="tg-n1ot">Hardware Support</th>
+<th class="tg-s425">Software Support</th>
+<th class="tg-s425">Application Support</th>
+</tr>
+<tr>
+<td class="tg-1wig">Mifare Ultralight</td>
+<td class="tg-hmp3">ISO 14443 A 106 kbit/s</td>
+<td class="tg-0lax">✔️</td>
+<td class="tg-hmp3">✔️</td>
+<td class="tg-0lax">✔️</td>
+</tr>
+<tr>
+<td class="tg-1wig">Mifare Ultralight EV1</td>
+<td class="tg-hmp3">ISO 14443 A 106 kbit/s</td>
+<td class="tg-0lax">✔️</td>
+<td class="tg-hmp3">✔️</td>
+<td class="tg-0lax">✔️</td>
+</tr>
+<tr>
+<td class="tg-1wig">Mifare Classic 1K/4K 4B/7B</td>
+<td class="tg-hmp3">ISO 14443 A 106 kbit/s</td>
+<td class="tg-0lax">✔️</td>
+<td class="tg-hmp3">✔️</td>
+<td class="tg-0lax">✔️</td>
+</tr>
+<tr>
+<td class="tg-1wig">Mifare DESFire</td>
+<td class="tg-hmp3">ISO 14443 A with higher data rates</td>
+<td class="tg-0lax">🔵<br><span style="font-style: italic;">Lower Bitrates</span><br><span style="font-style: italic;">Possibly High Bitrate</span>
+</td>
+<td class="tg-hmp3">🔵<br><span style="font-style: italic;">Lower Bitrates</span>
+</td>
+<td class="tg-0lax">❌<br><span style="font-style: italic;">Work in progress</span>
+</td>
+</tr>
+<tr>
+<td class="tg-1wig">Mifare DESFire EV1</td>
+<td class="tg-hmp3">ISO 14443 A with higher data rates</td>
+<td class="tg-0lax">🔵<br><span style="font-style: italic;">Lower Bitrates</span><br><span style="font-style: italic;">Possibly High Bitrate</span>
+</td>
+<td class="tg-hmp3">🔵<br><span style="font-style: italic;">Lower Bitrates</span>
+</td>
+<td class="tg-0lax">❌</td>
+</tr>
+<tr>
+<td class="tg-1wig">Mifare DESFire EV2</td>
+<td class="tg-hmp3">ISO 14443 A with higher data rates</td>
+<td class="tg-0lax">🔵<br><span style="font-style: italic;">Lower Bitrates</span><br><span style="font-style: italic;">Possibly High Bitrate</span>
+</td>
+<td class="tg-hmp3">🔵<br><span style="font-style: italic;">Lower Bitrates</span>
+</td>
+<td class="tg-0lax">❌</td>
+</tr>
+<tr>
+<td class="tg-1wig">Mifare PLUS</td>
+<td class="tg-hmp3">ISO 14443 A with higher data rates</td>
+<td class="tg-0lax">🔵<br><span style="font-style: italic;">Lower Bitrates</span><br><span style="font-style: italic;">Possibly High Bitrate</span>
+</td>
+<td class="tg-hmp3">🔵<br><span style="font-style: italic;">Lower Bitrates</span>
+</td>
+<td class="tg-0lax">❌</td>
+</tr>
+<tr>
+<td class="tg-1wig">NTAG (all types)</td>
+<td class="tg-hmp3">ISO 14443 A 106 kbit/s</td>
+<td class="tg-0lax">✔️</td>
+<td class="tg-hmp3">✔️</td>
+<td class="tg-0lax">❌</td>
+</tr>
+<tr>
+<td class="tg-1wig">LEGIC prime</td>
+<td class="tg-hmp3">LEGIC prime<br>ISO 14443 A<br>ISO 15693</td>
+<td class="tg-0lax">🔵 <span style="font-style: italic;">Possible</span><br>✔️<br>✔️</td>
+<td class="tg-hmp3">❌ <br>🔵 <span style="font-style: italic;">Work in progress</span><br>❌</td>
+<td class="tg-0lax">❌<br>❌<br>❌</td>
+</tr>
+<tr>
+<td class="tg-1wig">HID iCLASS</td>
+<td class="tg-hmp3">125 kHz<br>ISO 15693<br>ISO 14443 B</td>
+<td class="tg-0lax">❌<br>✔️<br>✔️</td>
+<td class="tg-hmp3">❌ <br>🔵 <span style="font-style: italic;">Work in progress</span><br>❌</td>
+<td class="tg-0lax">❌<br>❌<br>❌</td>
+</tr>
+<tr>
+<td class="tg-1wig">ePass</td>
+<td class="tg-hmp3">ISO 14443 A<br>ISO 14443 B</td>
+<td class="tg-0lax">✔️<br>✔️</td>
+<td class="tg-hmp3">🔵 <span style="font-style: italic;">Lower Bitrates</span><br>❌</td>
+<td class="tg-0lax">❌<br>❌</td>
+</tr>
+<tr>
+<td class="tg-1wig">ISO 15693 (All)</td>
+<td class="tg-hmp3">ISO 15693</td>
+<td class="tg-0lax">✔️</td>
+<td class="tg-hmp3">🔵 Work in progress</td>
+<td class="tg-0lax">❌</td>
+</tr>
+</tbody>
+</table>
+<h3>Sniffing</h3>
+<table class="tg">
+<tbody>
+<tr>
+<td class="tg-1wig">Non 13.36MHz Tags</td>
+<td class="tg-6sgx" colspan="4"><span style="font-style: italic;">The ChameleonMini framework only supports 13.56MHz tags</span></td>
+</tr>
+<tr>
+<td class="tg-1wig">ISO 14443 A 106 kbit/s</td>
+<td class="tg-hmp3"></td>
+<td class="tg-0lax">✔️ <span style="font-style: italic;">PCD-&gt;PICC direction</span><br>🔵 <span style="font-style: italic;">PICC &gt; PCD Possible</span><br><br>
+</td>
+<td class="tg-hmp3">✔️ <span style="font-style: italic;">PCD-&gt;PICC direction</span>
+</td>
+<td class="tg-0lax">✔️</td>
+</tr>
+<tr>
+<td class="tg-1wig">ISO 14443 A High bitrates</td>
+<td class="tg-hmp3"></td>
+<td class="tg-0lax">🔵 <span style="font-style: italic;">Possible</span>
+</td>
+<td class="tg-hmp3">❌</td>
+<td class="tg-0lax">❌</td>
+</tr>
+</tbody>
+</table>
+<h3>Reading</h3>
+<table class="tg">
+<tbody>
+<tr>
+<td class="tg-1wig">Non 13.36MHz Tags</td>
+<td class="tg-6sgx" colspan="4"><span style="font-style: italic;">The ChameleonMini framework only supports 13.56MHz tags</span></td>
+</tr>
+<tr>
+<td class="tg-1wig">Mifare Ultralight</td>
+<td class="tg-hmp3"></td>
+<td class="tg-0lax">✔️</td>
+<td class="tg-hmp3">✔️</td>
+<td class="tg-0lax">✔️</td>
+</tr>
+<tr>
+<td class="tg-1wig">Mifare Classic 1K/4K 4B/7B</td>
+<td class="tg-hmp3"></td>
+<td class="tg-0lax">✔️</td>
+<td class="tg-hmp3">✔️</td>
+<td class="tg-0lax">✔️</td>
+</tr>
+<tr>
+<td class="tg-1wig">Mifare DESFire</td>
+<td class="tg-hmp3"></td>
+<td class="tg-0lax">✔️</td>
+<td class="tg-hmp3">✔️</td>
+<td class="tg-0lax">🔵 <span style="font-style: italic;">Work in progress</span>
+</td>
+</tr>
+</tbody>
+</table>
+The ChameleonMini devices are available separately, or in the Lab401 Pentester Packs.]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/chameleon-mini-reve-rebooted-latest-release</id>
+    <published>2019-08-18T19:20:00+02:00</published>
+    <updated>2019-08-18T19:21:01+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/chameleon-mini-reve-rebooted-latest-release"/>
+    <title>Chameleon Mini RevE Rebooted Latest Release</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <content type="html">
+      <![CDATA[<p>We have compiled and released the latest version of the Chameleon Mini RevE Rebooted firmware. The binaries can be <a href="https://lab401.com/products/chameleon-mini/firmware/latest.zip">downloaded here</a>.</p>
+<p>Please refer to the <a href="https://lab401.com/blogs/academy/chameleon-mini-reve-rebooted-flashing-to-latest-firmware" target="_blank" rel="noopener noreferrer">flashing guide</a> before flashing in order to avoid bricking your device.</p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/chameleonmini-ui-1-1-0-1-released</id>
+    <published>2018-03-29T15:46:00+02:00</published>
+    <updated>2018-04-14T09:32:08+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/chameleonmini-ui-1-1-0-1-released"/>
+    <title>ChameleonMini UI 1.1.0.1 Released!</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<meta charset="utf-8">
+<p>Lab401 is excited to present the latest version of its ChameleonMini UI Tool, version 1.1.0.1</p>
+<p>With a<span> </span><strong>huge thanks to iceman</strong>, who has put in a huge amount of work over the last few months, the Chameleon Mini UI tool is a powerful update on the previous version, and is also <a href="https://github.com/iceman1001/ChameleonMini-rebootedGUI">open source.</a>...</p><p><a class="read-more" href="https://lab401.com/blogs/news/chameleonmini-ui-1-1-0-1-released">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<meta charset="utf-8">
+<p>Lab401 is excited to present the latest version of its ChameleonMini UI Tool, version 1.1.0.1</p>
+<p>With a<span> </span><strong>huge thanks to iceman</strong>, who has put in a huge amount of work over the last few months, the Chameleon Mini UI tool is a powerful update on the previous version, and is also <a href="https://github.com/iceman1001/ChameleonMini-rebootedGUI">open source.</a></p>
+<p>The changelog is as follows:</p>
+<ul>
+<li>User-friendly dump file management with the option to byte-wise compare two different dump files</li>
+<li>Color templating of binary files (templates included: Mifare Classic s20, s50, Mifare UL-ev1 164b)</li>
+<li>Long button press action support</li>
+<li>Improved GUI layout (drag 'n drop)</li>
+<li>Multilanguage support (includes english, greek, french, italian, swedish, chinese)</li>
+</ul>
+<p>As before, the version supports<span> </span><strong>automagic detection of</strong>:</p>
+<ul>
+<li>Chameleon Mini RevE</li>
+<li>Chameleon Mini RevE Rebooted</li>
+<li>Chameleon Mini RevG</li>
+</ul>
+<p>The software allows for:</p>
+<ul>
+<li>Slot management</li>
+<li>Bulk-actions</li>
+<li>Uploading / Downloading of dumps</li>
+<li>mfkey32 aka "reader attack"</li>
+</ul>
+<p>The settings tab provides:</p>
+<ul>
+<li>Keep-Alive functionality</li>
+<li>RSSI Voltage monitoring</li>
+<li>Default downloading locations</li>
+<li>Intelligent Bootloader, Flashing and Default Firmware Restoration functions</li>
+</ul>
+<p><strong>Grab a copy of the new software<span> </span><a href="https://lab401.com/products/chameleon-mini/software.zip?x=nocache">here.</a></strong></p>
+<p>If you enjoy the software, find a bug, or wish to contribute, the source is available on github: <a href="https://github.com/iceman1001/ChameleonMini-rebootedGUI">https://github.com/iceman1001/ChameleonMini-rebootedGUI</a></p>
+<p>Want to get a Chameleon Mini to get started? We've got them in stock - in our<span> </span><a href="https://lab401.com/products/rfid-pentester-pack">Pen Tester Pack</a>, or as a<span> </span><a href="https://lab401.com/collections/hardware/products/chameleon-mini-reve-rebooted">standalone Chameleon Mini package</a> - get yours shipped today.</p>
+<p><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Cham-1_grande.png?v=1516660927"></p>
+<p><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Cham-2_grande.png?v=1516660933"></p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/new-chameleon-mini-reve-gui-tool</id>
+    <published>2018-01-22T23:30:00+01:00</published>
+    <updated>2018-01-23T12:24:14+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/new-chameleon-mini-reve-gui-tool"/>
+    <title>New Chameleon Mini RevE GUI Tool</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p><span>Lab401 is </span><span>excited to present a brand new UI tool for the Chameleon Mini RevE.<br>Open-source and available for immediate download, get your copy here..</span></p><p><a class="read-more" href="https://lab401.com/blogs/news/new-chameleon-mini-reve-gui-tool">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>Lab401 is excited to present a brand new UI tool for the Chameleon Mini RevE.</p>
+<p>With a <strong>huge thanks to iceman</strong>, who has put in a huge amount of work over the last few months, the Chameleon Mini UI tool is a powerful update on the previous version, and is also <a href="https://github.com/iceman1001/ChameleonMini-rebootedGUI">open source.</a></p>
+<p>The new version supports <strong>automagic detection of</strong>:</p>
+<ul>
+<li>Chameleon Mini RevE</li>
+<li>Chameleon Mini RevE Rebooted</li>
+<li>Chameleon Mini RevG</li>
+</ul>
+<p>The software allows for:</p>
+<ul>
+<li>Slot management</li>
+<li>Bulk-actions</li>
+<li>Uploading / Downloading of dumps</li>
+<li>mfkey32 aka "reader attack"</li>
+</ul>
+<p>The settings tab provides:</p>
+<ul>
+<li>Keep-Alive functionality</li>
+<li>RSSI Voltage monitoring</li>
+<li>Default downloading locations</li>
+<li>Intelligent Bootloader, Flashing and Default Firmware Restoration functions</li>
+</ul>
+<p><strong>Grab a copy of the new software <a href="https://lab401.com/products/chameleon-mini/software.zip?x=nocache">here.</a></strong></p>
+<p>If you enjoy the software, find a bug, or wish to contribute, the source is available on github: <a href="https://github.com/iceman1001/ChameleonMini-rebootedGUI">https://github.com/iceman1001/ChameleonMini-rebootedGUI</a></p>
+<p>Want to get a Chameleon Mini to get started? We've got them in stock - in our <a href="https://lab401.com/products/rfid-pentester-pack">Pen Tester Pack</a>, or as a <a href="https://lab401.com/collections/hardware/products/chameleon-mini-reve-rebooted">standalone Chameleon Mini package</a> - get yours shipped today.</p>
+<p style="text-align: left;"><img alt="" src="//cdn.shopify.com/s/files/1/2175/8571/files/Cham-1_grande.png?v=1516660927" style="float: none;"></p>
+<p style="text-align: left;"><img alt="" src="//cdn.shopify.com/s/files/1/2175/8571/files/Cham-2_grande.png?v=1516660933" style="float: none;"></p>]]>
+    </content>
+  </entry>
+</feed>

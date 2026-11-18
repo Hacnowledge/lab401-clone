@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/academy.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/academy/tagged/mifare-crack.atom"/>
+  <title>Lab401 - Academy</title>
+  <updated>2026-06-04T15:04:58+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/academy/proxmark-basics-cloning-mifare</id>
+    <published>2022-02-01T15:27:58+01:00</published>
+    <updated>2023-03-14T09:25:21+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/proxmark-basics-cloning-mifare"/>
+    <title>Proxmark Basics: Cloning MIFARE</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[Episode 4 of Proxmark 3 Basics: Learn how to identify, crack, read and clone MIFARE Classic® cards.<p><a class="read-more" href="https://lab401.com/blogs/academy/proxmark-basics-cloning-mifare">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p><em>This video comes from Lab401 contributor <strong>Dominic Villeneuve</strong> of <strong><a href="https://www.youtube.com/channel/UCngpVvZNgVRD-OzbP0TY9GA" target="_blank" title="DHack Security: RFID Tutorials" rel="noopener noreferrer">DHack Security</a>, </strong>and is part of the <a href="/blogs/academy/tagged/proxmark-basics" title="Proxmark Basics Series: Proxmark 3 &amp; RFID Tutorials">Proxmark Basics</a> series.</em></p>
+<p>Episode 4 in the Proxmark Basics series introduces the MIFARE Classic® 1K : introduced in 1994, there are over 10 billion cards in circulation.</p>
+<p>The MIFARE Classic® uses a custom cryptographic algorithm, CRYPTO-1 to protect the card's data. Over the years, there has been a cat-and-mouse game between security researchers and the card's manufacturer.</p>
+<p>Today, there are multiple variations of the MIFARE Classic® card in circulation, some of which use updated techniques to thwart unauthorised reading.</p>
+<p>The Proxmark 3 RDV4.01 main firmware branches integrate all known MIFARE Classic® cracking techniques, and this episode deep dives into each one.</p>
+<p>At the end of the video, you'll be familiar with the MIFARE Classic® family of cards, and how to identify, crack and clone each type.</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/Vwfn6XnTlnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></p>
+<p><strong>Tools Used:</strong></p>
+<ul>
+<li><a href="/products/proxmark-3-rdv4" title="Proxmark 3 RDV4">Proxmark 3 RDV4.01</a></li>
+<li><a href="/products/rfid-pentester-tag-pack" title="Blank RFID Tags for the Proxmark">MIFARE Classic® Compatible "Magic" Blank RFID Cards</a></li>
+</ul>
+<p><strong>Episode Resources:</strong></p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/MIFARE" target="_blank" rel="noopener noreferrer">MIFARE History</a></li>
+</ul>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/academy/pentestips-loading-a-custom-sak-with-the-chameleontiny</id>
+    <published>2021-07-09T12:40:04+02:00</published>
+    <updated>2021-07-09T12:40:48+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/pentestips-loading-a-custom-sak-with-the-chameleontiny"/>
+    <title>#pentestips - Loading a Custom SAK with the ChameleonTiny</title>
+    <author>
+      <name>Lab401 Lee</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<span>In today's #pentestips we learn how to Load a Custom SAK with the ChameleonTiny.</span><p><a class="read-more" href="https://lab401.com/blogs/academy/pentestips-loading-a-custom-sak-with-the-chameleontiny">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>Loading a Custom SAK with the ChameleonTiny</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/eopJ0Jx4LjY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe><br> - <strong>SAK Values</strong>, or "Select Acknowledge" values, are manufacturer defined values found in the header of ISO 14443 Type A cards, which include the Mifare family (Ultralight, Mifare 1K, DesFire, etc)</p>
+<p><br> - These values are <strong>hard-written</strong> during production, and <strong>cannot be changed on original badges</strong>.</p>
+<p><br> - <strong>Non-standard SAK values are rejected by many readers</strong>, and most blank badges have fixed SAK values. Some access cards use custom SAK values to attempt to thwart card reading and cloning.</p>
+<p><br> - The ChameleonTiny has a <strong>new SAK Mode</strong>, which makes using custom SAK values very easy.</p>
+<p><br> - When the "SAK Mode" is enabled, the ChameleonMini will take the SAK mode from the Block0 configuration.<br><br> <strong>[Load Hex-editor with Mifare 1K dump] (StandardSAK.dmp / png)</strong></p>
+<p>- In this Mifare Classic 1K dump, we see that byte 0x5 has a value of "0x08" - the default value for a MIFARE Card.</p>
+<p>- If we want to change the SAK value to "88", a code commonly used in Chinese Access Control products, we modify this value to "88". <br><br> - In order for the ChameleonTiny to respect this custom SAK value, we need to enable the special SAK Mode<br><br> <strong>[Load APP]</strong><br><strong> [Connect Device]</strong><br><strong> [Select Badge Slot]</strong><br><strong> [Upload Dump File ModifiedSak.dmp]</strong><br><strong> [Click "SAK Mode"]</strong><br><br> - The Chameleon is now emulating our Custom SAK mode. <br> - We can verify this by reading the ChameleonTiny on our phone, while still in the Chameleon Application<br><br> [Place ChameleonTiny on the phone, badge will be read with the custom SAK value]</p>
+<p>Get your Chameleon tiny Professional: <strong><a href="https://lab401.com/products/chameleontiny" target="_blank" title="Purchase your ChameleonTiny professional" rel="noopener noreferrer">click here</a></strong></p>
+<p><span>Do you have #pentestips to submit yourself? </span></p>
+<p><span> </span><span>We would love to partner with you, contact us at support@lab401.com</span></p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/academy/pentestips-chameleon-mini-standalone-mifare-cloning</id>
+    <published>2021-04-16T00:00:00+02:00</published>
+    <updated>2021-04-16T00:00:00+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/pentestips-chameleon-mini-standalone-mifare-cloning"/>
+    <title>#Pentestips : Chameleon Mini: Standalone Mifare Cloning</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <content type="html">
+      <![CDATA[<p>This week's pentestip demonstrates using the <a href="https://lab401.com/products/proxgrind-chameleon-mini-revg">ChameleonMini</a> to perform a standalone clone of a Mifare 1K tag. The <a href="https://lab401.com/products/proxgrind-chameleon-mini-revg">ChameleonMini</a>, and the <a href="https://lab401.com/products/chameleontiny">ChameleonTiny</a> are high-frequency RFID emulation devices - capable of emulating multiple chipsets, including Mifare 1K / 4K tags (with 4 &amp; 7 byte UIDs), Ultralight &amp; NTAG.</p>
+<p>Beyond their emulation functionality, they can also perform MF32Key sniffing and cracking, which allows them to perform standalone cloning in certain circumstances. In this video, we show you how to perform a standalone Mifare 1K clone with the Chameleon Mini.</p>
+<p>Check back every Friday for a new video. If you've got a tip that you'd like to see featured, just send us a <a href="https://twitter.com/Lab_401" target="_blank" rel="noopener noreferrer">tweet</a>.</p>
+<p><iframe src="https://www.youtube.com/embed/lf7Kx-bs468" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="1210" height="551" frameborder="0"></iframe></p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/academy/chameleon-mini-mifare-cracking-via-the-reader-attack</id>
+    <published>2017-08-28T00:48:00+02:00</published>
+    <updated>2022-03-18T16:54:28+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/chameleon-mini-mifare-cracking-via-the-reader-attack"/>
+    <title>Chameleon Mini: Mifare Cracking via the Reader Attack</title>
+    <author>
+      <name>Lab401 Lee</name>
+    </author>
+    <summary type="html">
+      <![CDATA[Learn how to crack a MIFARE card via the Reader Attack with our Chameleon Mini, Proxmark 3 and SCL-3711. Discount code for these tools also available!<p><a class="read-more" href="https://lab401.com/blogs/academy/chameleon-mini-mifare-cracking-via-the-reader-attack">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<h3><strong>LAB401 ACADEMY: Mifare Cracking: Reader Attack with Chameleon Mini RevE Rebooted</strong></h3>
+<h3>
+<strong></strong><strong>INTRODUCTION:</strong>
+</h3>
+<p>Lab401's <a href="/products/chameleontiny">Chameleon Tiny</a> is a compact, highly capable tool typically used for 13.56MHz emulation (Mifare, Ultralight, etc). </p>
+<p><span>When a reader begins communication with a Mifare Tag, it will send a series of keys to attempt card decryption. The first of these keys can be sniffed by the Chameleon Mini and easily decoded.</span></p>
+<p>Armed with this key, we are able to use LibNFC's mfoc tool with the <a href="/products/usb-rfid-reader-writer-dl533n">DL-533N</a>, or the <a href="/products/proxmark-3-rdv4">Proxmark 3</a> to perform a nested / hardnested attack to successfully crack all keys and dump the card.</p>
+<p><span>This attack is especially useful when we have:</span></p>
+<ul>
+<li>A new generation MIFARE tag that resists classic attacks </li>
+<li>Access to the card's reader</li>
+</ul>
+<p>Check out the step by step video below. </p>
+<p>Interested in getting started with these tools? We've made the <a href="/products/rfid-pentester-pack"><strong>Pentester Pack</strong></a> that contains all the tools from this tutorial - and some extra Magic Mifare cards.</p>
+<p>Buying in a pack gives a massive saving of <strong>66 Euros - </strong>check out <a href="/products/rfid-pentester-pack">the pack here.</a></p>
+<p> <iframe src="https://www.youtube.com/embed/1VpXC3-eKhc" allowfullscreen="" width="640" height="360" frameborder="0"></iframe></p>]]>
+    </content>
+  </entry>
+</feed>

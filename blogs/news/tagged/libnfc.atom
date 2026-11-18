@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/news.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/news/tagged/libnfc.atom"/>
+  <title>Lab401 - News</title>
+  <updated>2026-04-22T16:48:54+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/news/new-long-range-miniaturised-rfid-reader-writers</id>
+    <published>2020-01-02T20:59:00+01:00</published>
+    <updated>2020-01-17T07:56:23+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/new-long-range-miniaturised-rfid-reader-writers"/>
+    <title>New Long Range &amp; Miniaturised RFID Reader/Writers</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p>Meet the DL533N XL and DL533N.<br>Two powerful LibNFC-compatible devices. The XL provides long-range (up to 180mm!) reading/writing/sniffing/cracking. It's the world's first long range LibNFC compatible reader...</p><p><a class="read-more" href="https://lab401.com/blogs/news/new-long-range-miniaturised-rfid-reader-writers">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>We're very excited to launch two new, high-performance RFID tools.</p>
+Both readers are LibNFC compatible - so plug and play with your existing toolchain (mfoc, mfcuk, etc)
+<ul>
+<li>
+<a href="https://lab401.com/products/long-range-rfid-reader-writer-dl533n-xl"><strong>DL533N XL</strong></a><br>Long Range Reading / Writing / Sniffing up to 18cm on 13.56Mhz cards: <br>
+<p>MIFARE Classic®,  Ultralight, DESFire, FeliCa, NTAG etc</p>
+<p>Designed for pentesting: place under tables, in backpacks, brief cases, books etc. This is the world's only publicly available long-range 13.56MHz LibNFC-compatible device.</p>
+</li>
+<li>
+<a href="https://lab401.com/products/usb-rfid-reader-writer-dl533n"><strong>DL533N</strong></a><br>USB-Key sized LibNFC-compatible RFID device, providing full toolkit compatibility: Read / Write / Emulate / Crack / Sniff.</li>
+</ul>
+<p>Lab401 has extensively tested both devices, which are available individually or in packs.</p>
+Both products are in-stock, and available now!]]>
+    </content>
+  </entry>
+</feed>

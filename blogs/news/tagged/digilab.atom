@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/news.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/news/tagged/digilab.atom"/>
+  <title>Lab401 - News</title>
+  <updated>2026-04-22T16:48:54+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/news/building-the-digilab-behind-the-scenes</id>
+    <published>2025-09-15T07:00:02+02:00</published>
+    <updated>2025-09-15T07:00:02+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/building-the-digilab-behind-the-scenes"/>
+    <title>Building the DigiLab : Behind the scenes</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p>Check out the complete behind-the-scenes journey of Lab401's DigiLab for Flipper Zero - from initial brainstorming to mass production — including prototype failures, code challenges, and manufacturing lessons learned.</p>
+<p>The DigiLab is a "magic wand" for electronics, allowing you to <em>feel</em> voltages, <em>hear</em> signals, <em>see</em> frequencies, and poke around directly in the brains of modules and sensors!</p>
+<p>✅ Sketches, blueprints and initial planning material<br>✅ Off-the-shelf components vs custom made<br>✅ Designing testing jigs for rapid production testing<br>✅ Behind-the-scenes videos, fumbles and fixes.</p><p><a class="read-more" href="https://lab401.com/blogs/news/building-the-digilab-behind-the-scenes">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>Lab401 recently released its <a href="/products/digilab-for-flipperzero">DigiLab</a> device - a "magic wand" for tinkering with electronics for the Flipper Zero.</p>
+<p>Just like for the <a href="https://lab401.com/products/light-messenger">Lab401 LightMessenger</a> accessory, we're pulling back the curtain on the "making-of" - deep-diving into each step, from conception to distribution.</p>
+<p>This is <strong>Part 3</strong> of our <strong>"<a href="/blogs/news/product-manufacturing-with-lab401">Product Manufacturing with Lab401</a>"</strong> series.</p>
+<ul>
+<li>In the <a href="/blogs/news/product-manufacturing-with-lab401">Part 1</a>, we discussed our approach and methodology to creating, manufacturing and launching products.</li>
+<li>In <a href="/blogs/news/building-the-lightmessenger-product-manufacturing-part-2">Part 2</a>, we shared the manufacturing journey behind the LightMessenger.</li>
+</ul>
+<p>If you're interested in electronics manufacturing, or seeing what's involved behind releasing a product, checkout these articles!</p>
+<p>Huge shoutout to <a href="https://tixlegeek.io/splash">@tixlegeek</a>, the engineer behind the project.</p>
+<h2 id="what-is-the-digilab-">What is the DigiLab?</h2>
+<p>The DigiLab is a device that attaches to the Flipper Zero. It's an electronics multi-tool that allows users to analyze and explore low-power electrical signals: It can detect different aspects of signals and translate them into "real-time" kinetic feedback: audio, light, vibration, etc.</p>
+<p><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab---Rotoscope.gif?v=1757020607" alt=""></p>
+<p>It also enables simple and intuitive detection, identification and direct manipulation of I²C and SPI devices.</p>
+<p>At its core, it's a "magic probe" that processes and splits the signal, paired with a high-level application that displays everything.</p>
+<p>It's not meant to replace dedicated precision tools: it's meant to be a <em>digital nose for electronics</em> - the first tool you turn to when you're exploring electronics.</p>
+<p>You know how some "simple" tasks are actually annoyingly difficult? IE, <em>Is this CAN_HI or CAN_LO? Is there a signal on this line? Is this 9600 baud or 38400 baud ?</em> or <em>Why can't I just read the registers of a temperature module without programming a damned Arduino and fighting with the "improved" Arduino IDE?</em></p>
+<p>The DigiLab solves all of those problems, in a really neat, unique an intuitive way.</p>
+<h1 id="step-0-what-will-we-build-">Step 0: What Will We Build?</h1>
+<p>Initially, we kicked off with a <strong>brainstorming</strong> session. The LightMessenger had allowed us to learn the Flipper hardware, software and API architectures, and we were ready to make a device that pushed the Flipper's hardware further.</p>
+<p>One of the key reasons why the Flipper Zero has become so popular is its versatility. It wasn't designed to be <strong>the best</strong> a every single task: there are other, better tools for almost every functionality: RFID, RF, SDR, etc.). It was designed to be <em>versatile</em>: do a little bit of everything.</p>
+<p>We wanted to follow the same design logic with the DigiLab - and build a versatile tool for electronics hobbyists. The idea was simple: <em>a magic wand for digital electronics</em>. We wanted to leverage the strengths of the Flipper and a custom circuit that would transform the Flipper into the tool you reached for first when you wanted to experiment with electronics.</p>
+<p>In the words of tixlegeek: "<em>As an electronics tinkerer, I tried to imagine the tool I'd love to have in the field—something that could give quick insights without the need for an oscilloscope or a bulky setup. That's where the "magic wand" concept came from.</em>"</p>
+<p>We were not trying to replace more expensive gear, but making a <em>versitile</em> tool that allows you to do most of the tasks you need, without breaking out the oscilloscope, BusPirate, etc.</p>
+<hr>
+<h2 id="design">Design</h2>
+<p>As with previous products, we had several constraining factors to be considered. With the LightMessenger, we had to work within <strong>physical</strong>, <strong>budgetary</strong>, and <strong>logistical</strong> constraints that would steer our technical choices. With the DigiLab, we also added <strong>technical</strong> constraints - what we were trying to do would push the Flipper's hardware to its limits.</p>
+<p>All in all:</p>
+<ul>
+<li>
+<p><strong>Technical Challenges</strong> The electronics would be more complicated. We wanted to be able to see and process frequencies in "real-time", and also perform "real-time" heterodyning (converting a frequency to another - so users could listen to frequencies in their circuits, and see them on the screen). It needed to support voltages ranging up to 12V safely (without endangering the GPIO ports of the Flipper), and also had to have a fairly complex interface.</p>
+</li>
+<li>
+<p><strong>Mechanical Robustness</strong><br>The add-on will be used by <strong>real people</strong>, with large hands and sometimes less than gentle usage. Thus, we needed to design a robust module, especially taking into account the <strong>GPIO limitations</strong> of the Flipper Zero's external port.</p>
+</li>
+<li>
+<p><strong>Development</strong><br>The code must remain <strong>clear</strong> and <strong>accessible</strong> so that anyone can understand and contribute.</p>
+</li>
+<li>
+<p><strong>Production</strong><br>Every element must be easily manufactured with <strong>readily available</strong> components.</p>
+</li>
+<li>
+<p><strong>Cost</strong><br>The approach was to remain <strong>simple</strong> and <strong>efficient</strong>. We prioritize what's necessary to ensure that the final product is available at a <strong>reasonable price</strong>.</p>
+</li>
+<li>
+<p><strong>Aesthetics</strong><br>Aesthetics can often be easily overlooked, but they contribute significantly to the user experience. We wanted to continue the same fun an opinionated design aesthetics as previous times, whilst also ensuring that it was ergonomic.</p>
+</li>
+</ul>
+<hr>
+<h3 id="prototypes-and-direction">Prototypes and Direction</h3>
+<p><em>From tixlegeek:</em></p>
+<p><em>I started by sketching and tinkering with cardboard models to get a better feel for the tool:</em></p>
+<p><em><video loop="loop" muted="muted" autoplay="autoplay"><source src="https://cdn.shopify.com/videos/c/o/v/ab4fac3ee3e1489284fe4b05daf3d559.mp4"></video></em></p>
+<p><em>In parallel, I ordered a circuit board prototype. The goal was to validate the electronics and components, and to see how everything would come together.</em></p>
+<p><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab---ESP32-version.png?v=1757344098" alt=""></p>
+<p><em>At first, I was considering using an ESP32 to handle the signals and provide web-based feedback. But after talking it through with the crew, we realized that wasn't the real point of the project — so the idea was dropped.</em></p>
+<p>If the device was standalone, it could be somewhat self-defeating. In the final product, everything is handled directly by the Flipper Zero.</p>
+<hr>
+<h3 id="connections-probes-and-problems-">Connections, Probes and Problems.</h3>
+<p><em>I worked with a wide variety of tools, each coming with its own set of accessories - some more standard than others. When it comes to connecting probes to a PCB, there are definitely good and bad ways to do it, but in practice it often turns into a nightmare of plugs, sockets, and mismatched connectors.</em></p>
+<p>We wanted to find a middle-ground between price, practicality and robustness. Likewise, we didn't want to dictate how a user should use the tool - so we wanted to keep things as open as possible.</p>
+<p>We went through quite a journey figuring out the best way to make the DigiLab practical while still keeping costs down. At one point, we even tried banana plugs, but they turned out to be far too bulky.</p>
+<p><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab---Probes.png?v=1757344545" alt=""></p>
+<p>While discussing this with the crew, we agreed that SMA was the way to go - it's small, common, and checked all the boxes mechanically. We spent a lot of time dredging through the commodity markets searching for an existing product, but found nothing.</p>
+<div style="text-align: center;">
+<img src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab---Expensive-Cable_240x240.png?v=1757344884" style="margin-bottom: 16px; float: none; display: block; margin-left: auto; margin-right: auto;"><i>$34 for this .. if you're a cable manufacturer .. there's a market opening here!</i>
+</div>
+<p>If we used SMA as the constraining element: the closest product we found was ~$34 per cable - way out of our price range. If we were flexible with the connector, there were thousands of multi-meter cables available - but all with bulky banana connectors. We actually ran a prototype with banana plugs. Based on our tests, these were not only ugly, but they added a huge mechanical lever onto a delicate PCB. In the long-run, this would end up destroying the PCB.</p>
+<p>In the end, we went the custom route: the advantages being that we could create the probes exactly the way we wanted them (compact, cute, useful), and use the SMA connector. Naturally, this meant we needed to build tooling for the probes, and make custom cables - but we're happy with the result, and glad that we didn't concede on this.</p>
+<p><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab---Finished.png?v=1757344105" alt=""></p>
+<p>The only part that remained unchanged between the prototype and the final product was the probe tip. It allows users to (literally) poke around a circuit, pen-sensor style, if they want. At the same time, it's removable, so you can slot in a wire as a holder, giving the user the freedom to decide exactly what they need - or remove it completely. If the user connects the probes, they can use the device in 'desktop' or 'lab' mode.</p>
+<p>In the end, we believe that we came up with a solution that's elegant in its simplicity.</p>
+<hr>
+<h2 id="aesthetic-design">Aesthetic design</h2>
+<p><em>From tixlegeek:</em></p>
+<p><em>When I started working on the artwork for this product, I already knew the story I wanted to tell. The LightMessenger had set the tone, and the DigiLab needed to follow that path. I had a clear vision: a kid with a strainer on their head, wielding a makeshift signal blaster to fend off aliens. Think </em>Commander Keen<em> meets </em>Heart of Darkness<em>, in the grim world of an information dystopia.</em></p>
+<p><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab---Artwork.png?v=1757344098"></p>
+<p><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab---Boards.png?v=1757345174"></p>
+<p><em>I sketched out a bunch of concepts and turned them into illustrations, some of which ended up on the DigiLab's cardboard box.</em></p>
+<p><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab---Box.png?v=1757344102"></p>
+<p><br></p>
+<hr>
+<h2 id="production-ready-prototypes">Production-ready prototypes</h2>
+<p>After weeks (and plenty of iterations), we finally had working hardware, a solid form factor, and a product we were proud of. That was exciting: but really just one-third of the story. Hardware alone means nothing without software, and on top of that, production testing had to be figured out.</p>
+<p>We performed rapid PCB prototyping via JLCPCB.</p>
+<hr>
+<h2 id="the-code">The code</h2>
+<p><em>The code was a bit of a nightmare at first—I was chasing the fastest and most reliable ways to sample and display signals. The Digilab actually splits the probed signals into two parts: a low-frequency analog representation, and a clean rendering of oscillations around 0 V. The idea was to measure frequencies, voltages, and let the software compute some useful metrics on top.</em></p>
+<p><em>I ended up writing custom software for this, using ring buffers, statistical analysis, and a bit of “magic” to make it all click. Given the hardware limitations of the Flipper Zero, I'm really happy with how it turned out. Several tools came out of this, each with clear, practical scenes—so the user barely has to think about what's happening in the background.</em></p>
+<p><em>For I²C and SPI, there's a database-driven component detection system that uses multiple techniques to guess what kind of device is being probed. The I²C app in particular includes a neat little hex editor that I'm especially proud of—I think it's going to be genuinely useful.</em></p>
+<p><em>Finally, the Scope and Probe tools make the best of the hardware while giving the user flexible options to tune the kinetic feedback just the way they like.</em></p>
+<hr>
+<h2 id="testing">Testing</h2>
+<p>As with the LightMessenger, we wanted 100% automated PCB testing. This means that every PCB undergoes a series of tests that it must pass. This requires designing and building testing hardware (called a 'jig'), and also the testing software.</p>
+<p>Naturally, this involves "more work", and it can be tempting to opt for visual inspection only, in order to same some time or cut some corners. Some PCBA factories will even push for visual inspection.</p>
+<p>However, <strong>the</strong> reason that 100% testing is important is <strong>liability shift</strong>. Let's imagine you opt for visible inspection. The PCBAs are completed, and then integrated into a final product, packaged up and shipped to your warehouse. Maybe you send units to your distributors, and then finally, you launch the product.</p>
+<p>You're at the and of the production cycle, and you're relieved. Suddenly, you get feedback from customers. The device fails in a specific situation. You grab a product from stock, and you see that a component was soldered back to front during the production run.</p>
+<p>You call the factory, and complain. They tell you that it passed visual inspection, and you accepted the products. The liability for solving the problem has now shifted from the factory, to you, and even to your customers. Solving this problem is incredibly expensive, in terms of time, money and customer reputation.</p>
+<p>If the PCBs had been <strong>electronically tested</strong>, the failure would have been detected and the liability for solving the problem would have shifted onto the PCBA factory.</p>
+<p><em>If you're manufacturing, invest time in proper testing.</em></p>
+<p>For the DigiLab, we built a a CH32V003-based test jig that checks all functionalities and provides the manufacturer with simple, easy-to-understand feedback. It took some tweaking and a clear step-by-step procedure to make sure it fit smoothly into the manufacturing process.</p>
+<p>Here are a few pictures of the test jig:</p>
+<p><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab---Testing-Jig.png?v=1757344106"></p>
+<p><em>I soldered test points to emulate pogo pins, and fixed several mistakes I made in the first iteration.</em></p>
+<p>Then, our on-house manufacturer integrated it on the test-bench, with custom-made hardware:</p>
+<p><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab---Testing-Jig---2_6a34e8c5-8835-47f6-b802-64f8c984ee5e.png?v=1757345268"></p>
+<hr>
+<h3 id="packaging">Packaging</h3>
+<p>We prefer to use simple packaging:</p>
+<ul>
+<li>Unbleached, uncoated cardboard to minimise our footprint of damaging chemicals</li>
+<li>Soy-based inks, to minimise environmental impact</li>
+<li>Simple foam inserts (no custom cutting, etc) to minimise costs</li>
+</ul>
+<p>We believe this strikes a balance between our ethical engagements, while still providing the customer with a pleasant unboxing experience. Likewise: we're being honest to the customers - they're not paying for something that they're going to throw away.</p>
+<p>We had learned with the LightMessenger that a few extra centimeters in packaging ends up translating to extra palettes in delivery, and we wanted to avoid that problem with the DigiLab.</p>
+<p>So, we went for a much slimmer box. We experimented with different configurations of uncut foam, but we couldn't find a satisfactory way to present the device, the probes and the probe point. With no cutouts, things floated around the box. With multi-layers of uncut foam, users could open a box and think they were missing parts. In the end, we used two layers, with an 'intelligent' cut, so when you opened the box, you could see the probes underneath.</p>
+<p><em><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab---Box---Finished.png?v=1757344105"><br>Our box.</em></p>
+<hr>
+<h3 id="conclusion">Conclusion</h3>
+<p>The DigiLab is a bit difficult to describe: it gives a unique way to "feel" circuits - leveraging light, sound and vibrations. When you've got it in your hands on the device or see it in action, suddenly everything clicks.</p>
+<p>Tasks that previously were difficult or a bit awkward to test (especially things like: <em>Is this CAN_HI or CAN_LO? Is there a signal on this line? Is this 9600 baud or 38400 baud ?</em>) - are just "magically" possible.</p>
+<p>Ironically, we were surprised by just how useful the the device is. During our tests, we discovered more and more use-cases for the tool, and have found ourselves going back to it frequently for day to day tasks.</p>
+<p>One of the surprise favourites is the I2C explorer. In theory, I2C manipulation is "easy", or a "solved problem" - you hook the module up to an I2C equipped platform an interact with the module. In reality, this means writing code on an Arduino, or fighting with drivers on the Raspberry PI. It's not intuitive. With the DigiLab, it detects and identifies the device immediately, and you can poke directly in the registers of a module. When you see how easy it can be, suddenly all the other ways seem incredibly clunky.</p>
+<p>As such, we're really proud of the DigiLab. We've delivered a quality, open-source accessory for the Flipper Zero that solves common problems in a unique way, and hopefully will see daily use by electronics geeks everywhere.</p>
+<p>If you're interested in checking out the final product, the <a href="/products/digilab-for-flipperzero">DigiLab</a>, we'd be humbled.</p>
+<p>The device is fully open-source; please check out the code on <a href="https://github.com/lab-401/fzDigiLab">GitHub</a>.</p>
+<p>Thanks very much</p>
+<p><strong>Lab401 and tixlegeek.</strong></p>
+<style>
+  video { width: 100%; }
+</style>]]>
+    </content>
+  </entry>
+</feed>

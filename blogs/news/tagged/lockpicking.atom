@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/news.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/news/tagged/lockpicking.atom"/>
+  <title>Lab401 - News</title>
+  <updated>2026-04-22T16:48:54+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/news/announcing-lock401-com</id>
+    <published>2021-12-07T15:26:56+01:00</published>
+    <updated>2022-02-15T15:23:50+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/announcing-lock401-com"/>
+    <title>Announcing: Lock401.com 🔑</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p>We are proud to announce the launch of <a href="https://www.lock401.com" target="_blank" title="Lock401: Lockpicking tools for pentesters, locksmiths and locksport enthusiasts. " rel="noopener noreferrer"><strong>Lock401.com</strong></a> - a new site specialising in pentesting in the physical realm: lockpicking tools, packs and accessories for pentesters, locksmiths and locksport enthusiasts. </p><p><a class="read-more" href="https://lab401.com/blogs/news/announcing-lock401-com">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Lock401-Email-Image_600x600.png?v=1638891151" alt=""></p>
+<p><strong>We are proud to announce the launch of <a href="https://www.lock401.com" target="_blank" title="Lock401: Lockpicking tools for pentesters, locksmiths and locksport enthusiasts. ">Lock401.com</a> - specialising in physical security.</strong></p>
+<p>Designed specifically to meet the needs of pentesters, security professionals and locksport enthusiasts. Like Lab401, it features curated products and packs, backed by years of in-the-field experience.</p>
+<p>Lock401 is run by the same team as Lab401, meaning: EU warehousing, rapid shipping, no import duties for EU clients, 2 year product guarantees and incredible customer support.</p>
+<p>If you've been looking to expand your pentesting skills into the physical realm, <a href="https://www.lock401.com" target="_blank" title="Lock401: Lockpicking tools for pentesters, locksmiths and locksport enthusiasts. "><strong>Lock401.com</strong></a> is your perfect partner.</p>]]>
+    </content>
+  </entry>
+</feed>

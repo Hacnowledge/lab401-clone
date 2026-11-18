@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/academy.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/academy/tagged/network-detection.atom"/>
+  <title>Lab401 - Academy</title>
+  <updated>2026-06-04T15:04:58+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/academy/wifi-pineapple-detection-made-easy-pinescan-multissid-in-action-with-the-feberis-pro-for-your-flipper-zero</id>
+    <published>2025-05-22T15:14:36+02:00</published>
+    <updated>2025-06-03T14:22:18+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/wifi-pineapple-detection-made-easy-pinescan-multissid-in-action-with-the-feberis-pro-for-your-flipper-zero"/>
+    <title>WiFi Pineapple Detection Made Easy with Amec0e</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p data-start="254" data-end="534" class="">Looking to boost your Flipper Zero’s wireless detection game? Our latest deep-dive shows how the <strong data-start="351" data-end="366">FEBERIS Pro</strong> — exclusively at LAB401 — now supports two new firmware features: <strong data-start="433" data-end="445">PineScan</strong> and <strong data-start="450" data-end="463">MultiSSID</strong>, purpose-built to detect spoofed networks like the <strong data-start="515" data-end="533">WiFi Pineapple</strong>.</p>
+<p data-start="536" data-end="767" class="">These lightweight detection tools run directly on the ESP32 inside the FEBERIS Pro and identify suspicious access points by analyzing vendor OUIs, tagged parameters, and multi-SSID behaviors — all without needing a full WIDS setup.</p>
+<p data-start="769" data-end="949" class="">✅ Works with Unleashed and Momentum firmware<br data-start="813" data-end="816">✅ Detects spoofed AP pools used by WiFi Pineapple MK7<br data-start="869" data-end="872">✅ Fully open-source, ready to flash<br data-start="907" data-end="910">✅ 5% off with discount code: <strong data-start="939" data-end="949">AMEC0E</strong></p><p><a class="read-more" href="https://lab401.com/blogs/academy/wifi-pineapple-detection-made-easy-pinescan-multissid-in-action-with-the-feberis-pro-for-your-flipper-zero">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<h2>WiFi Pineapple Detection Made Easy</h2>
+<h3>PineScan &amp; MultiSSID in Action with the FEBERIS PRO for your Flipper Zero<br>
+</h3>
+<h5 id="introduction"><strong>Introduction:</strong></h5>
+<p>Hi everyone, Amec0e here and we are back with another article which might be a little shorter than my previous ones, but today I am excited to talk about the FEBERIS PRO By <a href="https://sapsan-sklep.pl/en">Sapsan</a> while also unveiling two new features for both the <a href="https://github.com/bpmcircuits/ESP32Marauder">FEBERIS PRO Firmware</a> (koko fork) and the ESP32 Marauder project by <a href="https://github.com/justcallmekoko">justcallmekoko</a></p>
+<p>Alongside a quick demonstration of the new features, which I have been working on for this article, there is also a discount code at the end you can use towards your FEBERIS Pro orders :)</p>
+<h5 id="so-what-is-the-feberis-pro"><strong>So What is the FEBERIS Pro?</strong></h5>
+<p>The FEBERIS Pro created by <a href="https://sapsan-sklep.pl/en">Sapsan</a> and officially distributed by <a href="%5Bhttps://lab401.com%5D(https://lab401.com/)">LAB401</a> is a fantastic addition for the Flipper Zero. This little thing packs within it 2x CC1101 Radio Modules covering frequencies 433MHz and 868MHz, an NRF24 Radio Module for things like vulnerable mouse and keyboards, an ESP32 with BLE and WiFi, with a built-in GPS Module for things such as wardriving with the Flipper Zero.</p>
+<p>It comes with 4x antennas all of which are 3dBi gain, 2x 2.4GHz, 1x 433MHz and 1x 868MHz which gives a nice horizontal waveform. The C1101 SubGHz modules have a supported frequency range of <strong>300-348 MHz</strong>, <strong>387-464 MHz</strong> and <strong>779-928 MHz</strong> bands.</p>
+<p>Now we will not be going over is the basic usage of operations here, however can find out more about its basic usage <a href="https://sapsan-docs.com/brands/sapsan/feberis-pro/docs/">here</a></p>
+<p>And it can also be purchased from <a href="https://lab401.com/products/feberis-pro">LAB401 here</a>.</p>
+<h5 id="what-are-these-new-features"><strong>What are these New Features?</strong></h5>
+<p>The two new features I will be demonstrating are "pinescan" and "multissid" for detecting the WiFi Pineapple. <strong>All of the testing for this was done using my WiFi Pineapple MK7</strong>.</p>
+<p>Now forewarning, this feature is not a replacement for a proper WIDS like Kismet for example, nor is it fool proof but does serve as a PoC to show that simpler detection can be done on the Flipper Zero and ESP32 Boards like FEBERIS Pro. The Pineapple is also good at what it does too.</p>
+<p><strong>Features of PineScan:</strong></p>
+<ul>
+<li>Detect Pineapple Access points via a hardcoded List of OUI Vendors <strong>(SUSP_OUI).</strong>
+</li>
+<li>Detects Pineapple Spoofed AP Pool via tagged parameters and capabilities <strong>(TAG+SUSP_CAP).</strong>
+</li>
+<li>Extracts the Correct Channel from the beacon (This is to avoid showing the incorrect channel when using a more suited antenna like the FEBERIS Pro has).</li>
+<li>Easy to Add more OUI's in a PR on Github, Can hold up to 20 MACs Per Vendor.</li>
+<li>Limits the display output to avoid Spamming when you have a WiFi Pineapple Broadcasting 50 SSIDs (Yes I stress tested!).</li>
+</ul>
+<p><strong>Features of MultiSSID:</strong></p>
+<ul>
+<li>Detect AP if a Single MAC broadcasts 3 or more SSIDs (This includes the hidden SSID).</li>
+<li>Same as Pinescan this extracts the correct channel from the beacon (This is to avoid showing the incorrect channel when using the FEBERIS Pro).</li>
+<li>Same as Pinescan this limits the display output to avoid Spamming when you have a WiFi Pineapple broadcasting large amounts of SSIDs.</li>
+</ul>
+<p>To summarise both strengths of each scan:</p>
+<p><strong>MultiSSID</strong> - Good for edge cases, more false positive prone. <strong>Pinescan</strong> - Good for detecting WiFi Pineapple Spoofed Pool APs.</p>
+<h5 id="video-demonstration-of-features"><strong>VIDEO DEMONSTRATION OF FEATURES</strong></h5>
+<p><strong><iframe title="YouTube video player" src="https://www.youtube.com/embed/aizG_6gQG0c?si=CiQtBEyF4AA9illn" height="315" width="560"></iframe></strong></p>
+<p><strong>NOTE:</strong> Firmware used was Unleashed 081E, Marauder firmware version used was 1.4.6. There has since been an update which I will likely have already compiled and uploaded for you to download down below.</p>
+<h5 id="the-detection-methods"><strong>The Detection Methods</strong></h5>
+<p>So there are 3 main detections among two new options we demonstrated in the video above. These are:</p>
+<ul>
+<li>SUSP_OUI</li>
+<li>Multi_SSID</li>
+<li>TAG+SUSP_CAP</li>
+</ul>
+<p>Each one has been built and tested using a <a href="https://lab401.com/products/wifi-pineapple-v7">WiFi Pineapple MK7</a> with the OpenAP using the Impersonation Tab/Spoofed AP Pool in the WebUI.</p>
+<p><strong>SUSP_OUI</strong> - This is the first check that is done and this simply extracts the first 6 bytes (00:00:00) of the MAC address which commonly points to a specific vendor/nic manufacturer. For some specific OUI's we also check to see if the privacy bit is set to 0 which would indicate that the access point is not using encryption, if it is 1 then it is a Protected Access Point. This is a simple method to check but it is quite effective.</p>
+<p>Currently this is the list of OUI's it is checking for, their security detection condition along with the vendor name.</p>
+<p><strong>Vendor:</strong> Alfa Inc. <strong>Condition:</strong> SUSPICIOUS_WHEN_OPEN <strong>OUI:</strong> 00:C0:CA</p>
+<p>(WiFi Pineapple MK7) <strong>Vendor:</strong> Orient Power Home Network Ltd <strong>Condition:</strong> SUSPICIOUS_ALWAYS <strong>OUI:</strong> 00:13:37</p>
+<p>(WiFi Pineapple MK7) <strong>Vendor:</strong> IEEE Registration Authority <strong>Condition:</strong> SUSPICIOUS_WHEN_OPEN <strong>OUI:</strong> 0C:EF:AF</p>
+<p>(WiFi Pineapple Management OUIs Locally Administered) <strong>Vendor:</strong> None <strong>Condition:</strong> SUSPICIOUS_WHEN_PROTECTED <strong>OUI:</strong> 02:C0:CA, 02:13:37</p>
+<p>(WiFi Pineapple Nano) <strong>Vendor:</strong> Shenzhen Century Xinyang Technology Co Ltd <strong>Condition:</strong> SUSPICIOUS_WHEN_OPEN <strong>OUI:</strong> 1C:BF:CE</p>
+<p><strong>Vendor:</strong> MediaTek <strong>Condition:</strong> SUSPICIOUS_ALWAYS <strong>OUI:</strong> 00:0A:00, 00:0C:43, 00:0C:E7, 00:17:A5</p>
+<p><strong>Vendor:</strong> Panda Wireless Inc <strong>Condition:</strong> SUSPICIOUS_ALWAYS <strong>OUI:</strong> 9C:EF:D5, 9C:E5:D5</p>
+<p><strong>Vendor:</strong> None <strong>Condition:</strong> SUSPICIOUS_ALWAYS <strong>OUI:</strong> DE:AD:BE</p>
+<p>This can be added too in the source code which I will release with the article.</p>
+<p>Next up we have:</p>
+<p><strong>Multi_SSID</strong> - This keeps a list of all access points seen up to 100, the list is then cleared to make room for more APs. It takes the full SSID and produces a hash and it does this for every unique mac address seen, if a single MAC has more than 3 SSIDs hashes (Including the hidden network) then it is flagged as an AP advertising multiple SSIDs from a single MAC.</p>
+<p>The other detection is:</p>
+<p><strong>TAG+SUSP_CAP</strong> - This uses a combination of extracting the Capabilities of the Access Point and the Tagged Parameters of the Access Point from the beacon frame. If the access point has a capability of 0x0001 and has exactly 2 Tagged Parameters then this triggers the TAG+SUSP_CAP detection.</p>
+<p>The TAG+SUSP_CAP took a little more time to stumble onto because while the Multi_SSID worked great, the downfall is, what if the user simply just clicks "Randomize Source MAC". Well, then the above Multi_SSID will now no longer detect the pineapple, so I again went back to examine the beacon frames the WiFi Pineapple uses to broadcast large numbers of APs comfortably.</p>
+<p>It is worth noting that the "pinescan" and "multissid" sniffer option use two structs each so it has a general AP tracking pool and a confirmed tracking AP pool. This allows the scan to only display one unique MAC address entry as well as clear the AP list once full to keep the lists from growing too much beyond their set limits.</p>
+<p>The general AP pool is set to 100 APs after which it will clear the tracking list and allow you to continue scanning in the same session (you will see a message in the log file when this happens and it is cleared). The confirmed list has a max of 100 APs also.</p>
+<h5 id="finding-tagsusp_cap"><strong>Finding TAG+SUSP_CAP</strong></h5>
+<p>At first I managed to notice a common occurrence that not many access points actually had, which is the capabilities flag set to 0x0001.</p>
+<p><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Field_Data_Legitimate_APs_With_CAP.png?v=1747737737"></p>
+<p>In the above image, there was 7,900 packets only 5 were displayed and only from 3 Different Access Points.</p>
+<p>This already was a strong indication that not many access points commonly use that set capability flag, however it is not 0. This means this alone could not be used as a reliable method of detecting multiple Access Points all from different MAC Addresses like the WiFi Pineapple does.</p>
+<p>Out of 38,000 packets from a rough 1 hour drive, of all the packets combined there was a total of 115 (not APs but packets) that had the same 0x0001 Capability. So I gathered further data and sifted through around 19 different pcaps, this was well over 100,000 packets from different parts of the world (thanks to friends for gathering beacon data from different countries), of which 20 APs used the same capability of 0x0001. This still however was not enough, so back to a pineapple packet I went.</p>
+<p>Now I did after staring at the beacon frame for around a good 20 minutes and a refreshment of coffee (much needed) I noticed something pretty significant, take a look at the Tagged parameters...</p>
+<p><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Pineapple_Tagged_Parameters_And_Cap.png?v=1747737770"></p>
+<p>It has just two tagged parameters, SSID and Channel. This is an absolute bare bone packet to throw up a large amount of access points without slowing down the Pineapple with its limited resources. This itself is uncommon for commercially available Access Points, 100% of the access points that did match the 0x0001 capability flag had MORE than two tagged parameters in every case.</p>
+<p>Now it is not to say you cannot throw up an extremely basic network like this, you can in fact do the same with Marauder. It has a barebone packet it uses with a 0x0401 Capability (so this would not be detected by our detection script) but also only throws up one Tagged Parameter which if we were to only do the detection using Tagged only (searching if there is only 2 tagged parameters) this would trigger the detection. However just because you can throw up an access point with a esp32 with the bare minimum information does not mean it is malicious. It could simply be to make it as efficient and light weight as possible while still providing the user the functionality they require.</p>
+<p>So if you have made it this far you will start to get the picture of what I was really trying to do, which was being memory efficient, reduce false positives and target a specific device like the WiFi Pineapple, and this is why we include the suspicious capability flag that you cannot change with ease on the MK7.</p>
+<p>In any case the false positives you may encounter will likely be from SUSP_OUI and the MULTI_SSID. If you see TAG+SUSP_CAP in PineScan that is a strong indication of a WiFi Pineapple using the Spoofed AP Pool. Though this itself could also still be a false positive because as mentioned, anyone can throw up an access point like this themselves. Albeit very uncommon to use just two tagged parameters and a 0x0001 capability.</p>
+<p>Some detections like the MULTI_SSID and SUSP_OUI could still catch some edge cases outside of the WiFi Pineapple. These types of detections combined, plus a lot more, can be done with ease using something more powerful than the Flipper Zero and a ESP32 and usually when using a WIDS, it is on something more powerful to perform that type of real-time analysis very quickly. However this PoC shows there are other ways we can detect certain types of attacks using small differences between the WiFi Pineapple and a consumer purchased Wireless Access Point.</p>
+<p><strong>NOTE:</strong> You can even check other pcaps you have in wireshark yourself by using</p>
+<pre><code>wlan.fc.type_subtype == 0x0008 &amp;&amp; wlan.fixed.capabilities == 0x0001
+</code></pre>
+<p>Then organising by the lowest packet length first and checking the tagged parameters just as we do above.</p>
+<h5 id="ok-but-what-can-it-not-do"><strong>Ok, but What Can it Not Do?</strong></h5>
+<p>Well I am glad you asked! The WiFi Pineapple is good at what it can do and we do have some limitations with these detection methods. Some of these limitations are:</p>
+<p><strong>EvilWPA</strong> Cannot detect the EvilWPA - The EvilWPA is difficult to automate detection for because this can mimic the real access point even down to the exact MAC Address and password (if you know it), even if you are using a managed access point list that allows you to specify what you <strong>should be seeing</strong> around you VS what you <strong>are seeing</strong> around you, this is still not effective enough by itself.</p>
+<p>As a user we can visually tell the differences if we are looking at something like Kismet, for example my network is all WPA3 security and the WiFi Pineapple MK7 can only use WPA2 or lower. So for me this is an easy red flag to see anything but WPA3 for my network.</p>
+<p>To use a managed access point list with the Flipper Zero will increase processing time by constantly needing to read the list or compare with a list that gets offloaded to memory, however the bigger the list the slower it will be and the more memory you use on the ESP32. You will also need to be stationary for it to work.</p>
+<p>It is not to say it cannot be done, and this would likely need to be the only detection method to really help make this as effective and as memory efficient as possible. Though this can still be a good way to do it though it is not the route I chose myself because it would not help if it replicates an allowed MAC. To locate this in the wild usually results in a fox hunt to locate the broadcasting device physically by signal strength.</p>
+<p><strong>OpenAP (No Spoofed AP Pool)</strong> Cannot detect OpenAP - without the use of an offending OUI, this access point by itself cannot be detected as a Pineapple with the way we detect. This is because it operates and looks like a legitimate open access point and has all of the tagged parameters and capabilities that any normal Open or Protected Consumer Access Point uses.</p>
+<p><strong>Beacon Intervals</strong> Cannot detect by beacon intervals from a beacon frame - This is because the BEACON INTERVAL on the WiFi Pineapple being set to LOW, NORMAL or HIGH and in all cases it will still report in the beacon frame the interval of 102.4ms. The only way this could be done is if the Flipper itself tracks the time between every beacon it sees instead of reading beacon intervals from the packet itself.</p>
+<p><strong>Signal Strength Discrepancies</strong> It cannot detect by signal strength discrepancies such as regularly seeing say -50 RSSI and then -30 RSSI and then back to the -50 range and consistently fluctuating around that strength. You would notice this pretty easily if you are monitoring the airwaves and you are completely static and nothing around you is interfering with that signal strength.</p>
+<p>This would also cause a lot of false positives if you are mobile while detecting as you will see increases and decreases to the signal strength regularly from moving (which of course the Flipper and FEBERIS Pro is just that, mobile platform).</p>
+<h5 id="flashing-instructions"><strong>Flashing Instructions</strong></h5>
+<p><strong>Flashing to the ESP32S2 or Developers Board using the ESP Flasher App:</strong></p>
+<p>To flash a ESP32S2 using ESP flasher on Momentum or Unleashed you will need the following <a href="https://github.com/UberGuidoZ/Marauder_BINs/blob/main/Marauder/bootloader.bin">Bootloader</a> and <a href="https://github.com/UberGuidoZ/Marauder_BINs/blob/main/Marauder/partitions.bin">Partitions Table</a>. You will also need the firmware bins found below the instructions listed here.</p>
+<ol>
+<li>
+<p>First we need to make a new directory in <strong>SD Card &gt; apps_data &gt; esp_flasher &gt; S2bins</strong> then we can put the <strong>bootloader.bin</strong> and <strong>partitions.bin</strong> into this new folder on the Flipper Zero using qFlipper once that is done, then unplug the Flipper from the PC.</p>
+</li>
+<li>
+<p>Next we plug in the ESP32S2 or Developers Board to the Flipper Zero, then once it is plugged in, reboot the Flipper Zero.</p>
+</li>
+<li>
+<p>Then navigate to the ESP Flasher Application.</p>
+</li>
+</ol>
+<p>For Momentum it is: Apps &gt; GPIO &gt; ESP &gt; ESP Flasher</p>
+<p>For Unleashed is it: Apps &gt; GPIO &gt; ESP Flasher</p>
+<ol start="4">
+<li>
+<p>Next Scroll to the bottom of the ESP Flasher and you will see "Enter Bootloader”, press this and then press the back button <strong>once</strong>.</p>
+</li>
+<li>
+<p>Scroll up to "Manual Flash" then press center.</p>
+</li>
+<li>
+<p>Select "Bootlader (0x1000)" and select our Bootloader in the S2Bins directory.</p>
+</li>
+<li>
+<p>Then select the "Part Table (0x8000)" and the go to the S2bins Directory and select "Partitions".</p>
+</li>
+<li>
+<p>Now select "FirmwareA (0x10000)" and then select the custom firmware.</p>
+</li>
+<li>
+<p>Scroll down to the bottom and select "Flash - fast" and wait for it to complete writing.</p>
+</li>
+<li>
+<p>Reboot the Flipper <strong>after it has flashed and after you have exited the ESP Flasher App</strong> and you are done.</p>
+</li>
+</ol>
+<p><strong>Flashing to the FEBERIS Pro using the ESP Flasher App:</strong></p>
+<p>The steps here are the same except <strong>do not select the bootloader files or the partition table</strong> (Steps 1, 6 and 7).</p>
+<ol>
+<li>
+<p>Next we plug in the ESP32S2 or Developers Board to the Flipper Zero, then once it is plugged in, reboot the Flipper Zero.</p>
+</li>
+<li>
+<p>Navigate to the ESP Flasher Application.</p>
+</li>
+</ol>
+<p>On Momentum it is: Apps &gt; GPIO &gt; ESP &gt; ESP Flasher</p>
+<p>On Unleashed is it: Apps &gt; GPIO &gt; ESP Flasher</p>
+<ol start="3">
+<li>
+<p>Next scroll to the bottom of the ESP Flasher and you will see "Enter Bootloader” press this and then press the back button <strong>once</strong>.</p>
+</li>
+<li>
+<p>Scroll up to "Manual Flash", press center.</p>
+</li>
+<li>
+<p>Now Select "FirmwareA (0x10000)" and then select the custom firmware.</p>
+</li>
+<li>
+<p>Scroll down to the bottom and select "Flash - fast" and wait for it to complete writing.</p>
+</li>
+<li>
+<p>Reboot the Flipper <strong>after it has flashed and after you have exited the ESP Flasher App</strong> and you are done.</p>
+</li>
+</ol>
+<p><strong>NOTE:</strong> It is important you wait a few seconds and then reboot the Flipper Zero after you have plugged in the ESP32.</p>
+<h5 id="firmware-fap-and-source-code"></h5>
+<h5 id="firmware-fap-and-source-code"><strong>Firmware, FAP and Source Code</strong></h5>
+<p><strong>Firmware:</strong></p>
+<p>Pinescan and MultiSSID are now merged in version 1.6.0 of the official ESP32Marauder Firmware. This means you can now download the marauder firmware directly from <a href="https://github.com/justcallmekoko/ESP32Marauder">justcallmekoko</a> and install and flash using the instructions here or as you normally would.</p>
+<p><strong>FAP:</strong></p>
+<p>The FAP is updated in both momentum and unleashed latest dev build so you can simply download and install a dev build of either firmwares (assuming you also updated marauder to 1.6.0 or above) and you will have the new options available to you. No need to download the firmware or FAPs linked in this article.</p>
+<p><strong>Source Code:</strong></p>
+<p>This has since been merged into the official ESP32Marauder Firmware. You can view the PR request <a href="https://github.com/justcallmekoko/ESP32Marauder/pull/772" target="_blank" rel="noopener">[here]</a> which contains the source code.</p>
+<h5 id="summary"><strong>Summary:</strong></h5>
+<p>Today we looked at the two new sniffer options as well as some small subtle differences the WiFi Pineapple uses when comparing to a legitimate consumer access point. As well as covered the detection methods and what they are looking for along with flashing instructions for the firmwares and faps.</p>
+<p>Ultimately, with the new "pinescan" and "multissid" options in the sniffer sub menu they can be a good way to detect a WiFi Pineapple only when it is using its Spoofed AP Pool. This is because when run without using the Spoofed AP Pool it looks and functions as a legitimate Open Network.</p>
+<p>Though it is common to spoof a targets separated 2.4GHz and 5GHz network names (XYZ_2G and XYZ_5G) to have them believe they are connecting to their 5GHz network when in fact you will be connecting to a 2.4GHz Open network.</p>
+<p>Pairing this with the <a href="https://lab401.com/products/feberis-pro">FEBERIS Pro</a> has been fantastic because of the 3dBi gain 2.4GHz Wireless Antenna it has given me a lot more range than I previously had with a Flipper Dev Board.</p>
+<p>And I have not even managed to get around to trying out the other 3 built-in radio modules. That is what makes this tool incredibly versatile.</p>
+<p>That pretty much wraps it up, I would like to say a <strong>big thank you to everyone who helped contribute towards testing and gathering beacon data from all walks of areas from residential to business</strong>. And thank you so much for reading this, I hoped you enjoyed the article, the video and new features as much as I enjoyed writing it, recording it and coding it.</p>
+<p>If you feel like picking one up for you or a friend, you can use my discount code: <strong>AMEC0E</strong> on LAB401 for a 5% discount.</p>
+<h4 id="disclaimer"><strong>Disclaimer</strong></h4>
+<p><strong>Code Maintenance &amp; Improvements:</strong></p>
+<p>As with any new feature, there may be issues that were not encountered during testing or may be due to oversight on my part. Therefore, the firmware, FAPs, and source code are provided <strong>"AS IS"</strong> without any warranties or guarantees. Neither I (amec0e) nor LAB401 will be held liable for any problems or damages resulting from the use of these firmwares or FAPs. Additionally, we (amec0e and LAB401) will not be providing support, maintenance, or future improvements for the firmware or FAPs (Flipper Application Packages).</p>
+<p><strong>Usage of Firmware:</strong> Neither I (amec0e) nor LAB401 will be held liable for any misuse or unintended consequences resulting from the use of the provided firmware or FAPs. These are distributed <strong>"AS IS"</strong> and are used entirely <strong>AT YOUR OWN RISK.</strong></p>
+<p><strong>Legal Responsibility:</strong> <strong>You are solely responsible</strong> for complying with all applicable local laws and regulations. We will not be held liable for any legal consequences arising from your failure to do so. These firmwares and FAPs are provided strictly for <strong>educational and research purposes only.</strong></p>
+<h5 id="resources"><strong>Resources</strong></h5>
+<p>C1101 Data Sheet - <a href="https://www.ti.com/lit/ds/symlink/cc1101.pdf">https://www.ti.com/lit/ds/symlink/cc1101.pdf</a></p>
+<p>Feberis Pro Documentation - <a href="https://sapsan-docs.com/brands/sapsan/feberis-pro/docs/">https://sapsan-docs.com/brands/sapsan/feberis-pro/docs/</a></p>
+<p>Feberis Pro Firmware - <a href="https://github.com/bpmcircuits/ESP32Marauder">https://github.com/bpmcircuits/ESP32Marauder</a></p>
+<p>Feberis Pro Firmware Upgrading - <a href="https://www.youtube.com/watch?v=Gl7nSpI6l3w">https://www.youtube.com/watch?v=Gl7nSpI6l3w</a></p>]]>
+    </content>
+  </entry>
+</feed>

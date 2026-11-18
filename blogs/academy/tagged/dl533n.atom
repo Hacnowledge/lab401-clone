@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/academy.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/academy/tagged/dl533n.atom"/>
+  <title>Lab401 - Academy</title>
+  <updated>2026-06-04T15:04:58+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/academy/pentestips-installing-libnfc-on-kali-linux</id>
+    <published>2021-08-06T14:06:50+02:00</published>
+    <updated>2021-08-06T14:06:59+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/pentestips-installing-libnfc-on-kali-linux"/>
+    <title>#pentestips installing libnfc on Kali linux.</title>
+    <author>
+      <name>Lab401 Lee</name>
+    </author>
+    <summary type="html">
+      <![CDATA[#pentestips installing <strong>libnfc</strong> on <strong>Kali linux</strong>.<p><a class="read-more" href="https://lab401.com/blogs/academy/pentestips-installing-libnfc-on-kali-linux">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p data-pm-slice="1 1 []">Hi, in this <strong>#pentestips</strong> we are installing <strong>libnfc</strong>.</p>
+<p>LibNFC is the fundamental tool for RFID manipulation on Windows/Linux/macOS.<br>It is a mature suite of tools that provide read/write/emulate functionality for high-frequency RFID cards, covering ISO/IEC 14443 A and B, FeliCa &amp; Jewel/Topaz.</p>
+<p>It supports most USB-based RFID readers, including Lab401's recommended DL533N.</p>
+<p>For MIFARE card types, there are multiple tools to read, write and manipulate MIFARE Classic, MIFARE Ultralight, NTAG, etc tags.</p>
+<p>It supports all generations of "Magic" card blanks.</p>
+<p>The LibNFC repository is mature. It has a slow release cycle but has an active community - which means that it's important to build from source to have the latest features.</p>
+<p>Some Linux distributions have LibNFC packages, but these are out of date. Specifically, some packages cannot handle newer generations of Magic / Blank tags - meaning that if you run the older packages, you can brick your blanks.</p>
+<p>It is recommended that you install LibNFC from source.</p>
+<p>Whether you're already running Linux, using a VM, or using WSL, it's quick and easy.</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/lmgGAJryzdY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></p>
+<div class="fabric-editor-breakout-mark" data-mode="wide" data-pm-slice="1 1 []">
+<p><code><strong>Following along:</strong><br><br></code></p>
+<div class="fabric-editor-breakout-mark" data-mode="wide" data-pm-slice="1 1 []">
+<pre><code><strong>#Setup the build tools</strong>
+sudo apt-get install build-essential gcc make autoconf libtool automake pkg-config libusb-1.0-0-dev libusb-dev
+<strong>#Pull down the libnfc source</strong>
+mkdir tools
+cd tools
+git clone https://github.com/nfc-tools/libnfc.git 
+cd libnfc
+<strong>#Configure and build the tool</strong>
+autoreconf -vis
+./configure
+make &amp;&amp; sudo make install
+<strong>#Test:</strong>
+nfc-list</code></pre>
+</div>
+<p><code> </code></p>
+</div>]]>
+    </content>
+  </entry>
+</feed>

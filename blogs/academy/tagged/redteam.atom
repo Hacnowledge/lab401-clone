@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/academy.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/academy/tagged/redteam.atom"/>
+  <title>Lab401 - Academy</title>
+  <updated>2026-06-04T15:04:58+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/academy/pentestips-hands-on-the-usb-ninja-professional</id>
+    <published>2021-08-20T16:10:27+02:00</published>
+    <updated>2021-08-20T16:12:17+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/pentestips-hands-on-the-usb-ninja-professional"/>
+    <title>#pentestips Hands on the USB Ninja Professional</title>
+    <author>
+      <name>Lab401 Lee</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<span>In today's PTT, we'll walk through how to use the USBNinja Pro - from unpacking to payloading. Inspired by the NSA Project <strong>"COTTONMOUTH"</strong>, the entire device is hidden inside a USB cable and controlled wirelessly!</span><p><a class="read-more" href="https://lab401.com/blogs/academy/pentestips-hands-on-the-usb-ninja-professional">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p><span dir="auto" class="style-scope yt-formatted-string">The USBNinja is a highly miniaturized, highly covert version of the Rubber Ducky. </span></p>
+<p><span dir="auto" class="style-scope yt-formatted-string">Inspired by the NSA Project <strong>"COTTONMOUTH"</strong>, the entire device is hidden inside a USB cable and controlled wirelessly. </span></p>
+<p><span dir="auto" class="style-scope yt-formatted-string">Besides avoiding suspicion during <span style="color: #ff2a00;">red-team</span> assessments, it also allows for long-term implants - how often do you change your keyboard's USB cable? </span></p>
+<p><span dir="auto" class="style-scope yt-formatted-string">The USBNinja has iOS/Android apps, can be updated over the air, used in real-time mode, exfiltrate data, self-destruct, and more importantly - acts as a real USB cable, supporting USB-3, Lightning, USB-C, QuickCharge technologies, etc. </span></p>
+<p><span dir="auto" class="style-scope yt-formatted-string">In today's PTT, we'll walk through how to use the USBNinja Pro - from unpacking to payloading. - The first step is to configure the USBNinja. Plug the cable into a computer in order to power up the device. <strong>Check out the video</strong>:</span></p>
+<p><span dir="auto" class="style-scope yt-formatted-string"><iframe width="560" height="315" src="https://www.youtube.com/embed/XqyDmFbj0w4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></span></p>
+<p><span dir="auto" class="style-scope yt-formatted-string"></span><span dir="auto" class="style-scope yt-formatted-string">- Download the App (Link in the description) to connect to the cable via Bluetooth. The application allows full control of the USBNinja - payloads, Over-The-Air updates, and configuration. - A Payload is a script that is executed by the USBNinja.</span>The scripting language (ducky script) is intuitive and easy.</p>
+<p><span dir="auto" class="style-scope yt-formatted-string">The USBNinja has multiple payload slots, which can be quickly selected and executed via phone or via a Bluetooth remote control. - </span></p>
+<p><span dir="auto" class="style-scope yt-formatted-string">Payloads can be as simple or as advanced as you require - from simple scripted tasks to full exploit frameworks such as Metasploit and Empire. </span></p>
+<p><span dir="auto" class="style-scope yt-formatted-string">- In this example - we'll simply open a website. </span></p>
+<p><span dir="auto" class="style-scope yt-formatted-string">We select a slot and enter the following code. </span></p>
+<p><span dir="auto" class="style-scope yt-formatted-string">Once uploaded, you can trigger the script while the cable is plugged into the targeted host. </span></p>
+<p><span dir="auto" class="style-scope yt-formatted-string">DELAY 500 </span></p>
+<p><span dir="auto" class="style-scope yt-formatted-string">GUI r </span></p>
+<p><span dir="auto" class="style-scope yt-formatted-string">DELAY 700 </span></p>
+<p><span dir="auto" class="style-scope yt-formatted-string">STRING </span><a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqa3lhbEtUTEIwQlk1d2tNbjlWNWk4dEZEd0EtQXxBQ3Jtc0tsOEVBeVdPU1N0clpXRUFBT0RUZFpyS0Z4a21RaVZ6NXV1WWZia183OHppQmVsdEVOV2xvWXFwVXRhNGlSRm9vczdfcl9VLTI0MjFOQWRUUGtELXAyTEdXRlpCTmdUTmR6QXlPVWhiT0dfeHlmYV9sQQ&amp;q=https%3A%2F%2Flab401.com" rel="nofollow noopener noreferrer" target="_blank" dir="auto">https://lab401.com</a><span dir="auto" class="style-scope yt-formatted-string"> </span></p>
+<p><span dir="auto" class="style-scope yt-formatted-string">DELAY 700 ENTER </span></p>
+<p><span dir="auto" class="style-scope yt-formatted-string">[Connect cable to a machine] </span></p>
+<p><span dir="auto" class="style-scope yt-formatted-string">[Trigger the Payload in the Application] </span></p>
+<p> </p>
+<p><span dir="auto" class="style-scope yt-formatted-string">- The covert nature of the USBNinja makes it ideal for long-term implants. The cables are undetectable visually and electronically, allowing red-teamers and LEA to carry and install the cables without raising suspicion. </span></p>
+<p><span dir="auto" class="style-scope yt-formatted-string">- The USBNinja Pro is available in multiple cable types - USB-C, Lightning, and MicroUSB. </span></p>
+<p><span dir="auto" class="style-scope yt-formatted-string">Check out Lab401 for more details on how to integrate the USBNinja into your pentesting arsenal. </span></p>
+<p><span dir="auto" class="style-scope yt-formatted-string">Get your USBNinja Professional: </span><a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqa29kMFpMWUtOSzg4MUtqMTdjWXJoTDROZ2lpZ3xBQ3Jtc0tsVXRIVHlYS2lBZ3EzRU4zRGMzM2VvRzcyOVplQmpCS1pKYlY5TXdlVXoxazVrSXVtakhQNV9STDRYYWxNcno2bTJYbDNVQUJyN0pSbDlhTzhYdGM3VFFacU54TlhYZG5VZlVkV1NXSUNfTEJhUGFGWQ&amp;q=https%3A%2F%2Flab401.com%2Fproducts%2Fusbninja" rel="nofollow noopener noreferrer" target="_blank" dir="auto">https://lab401.com/products/usbninja</a></p>
+<p> </p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/academy/pentestips-rfid-antenna-extender-covert-use</id>
+    <published>2021-05-07T00:00:00+02:00</published>
+    <updated>2021-05-07T00:00:00+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/pentestips-rfid-antenna-extender-covert-use"/>
+    <title>#Pentestips : RFID Antenna Extender: Covert Use</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <content type="html">
+      <![CDATA[<p>In <a href="/blogs/academy/pentestips-rfid-antenna-extender-how-to-use">last week's pentestip</a> we introduced the <a href="https://lab401.com/products/rfid-antenna-extender">RFID Antenna Extender</a>. This week, we demonstrate how this passive antenna booster can be used in pentesting scenarios to increase read/write/crack ranges to up to 50cm away.</p>
+<p>Check back every Friday for a new video. If you've got a tip that you'd like to see featured, just send us a <a href="https://twitter.com/Lab_401" target="_blank" rel="noopener noreferrer">tweet</a>.</p>
+<p><iframe src="https://www.youtube.com/embed/XsJJglUuqpU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="1210" height="551" frameborder="0"></iframe></p>]]>
+    </content>
+  </entry>
+</feed>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/news.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/news/tagged/troopers-19.atom"/>
+  <title>Lab401 - News</title>
+  <updated>2026-04-22T16:48:54+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/news/lab401-at-troopers19</id>
+    <published>2019-03-20T21:30:00+01:00</published>
+    <updated>2019-03-25T18:32:22+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/lab401-at-troopers19"/>
+    <title>Lab401 at TROOPERS19</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <content type="html">
+      <![CDATA[<p><a href="https://twitter.com/WEareTROOPERS">TROOPERS19</a> just finished - and by all accounts was an incredible experience for everyone involved. </p>
+<p>The legendary <a href="https://twitter.com/doegox">Philippe Teuwen</a> <a href="https://twitter.com/doegox">@doegox</a>, along with Salvador Mendoza and Nahuel Grisolia gave a two-day workshop on getting dirty with RFID/NFC: <a href="https://www.troopers.de/troopers19/trainings/eryskc/"><em>Fully loaded and even dirtier</em></a>. Lab401 was proud to supply  RFID pen-testing - tools for demonstration and assistance with the workshop: the <a href="https://lab401.com/products/usb-rfid-reader-writer-scl-3711">SCL-3711</a> and the awesome <a href="https://lab401.com/products/ntag-compatible-21x">MAGIC NTAG® 21X / NTAG® I2C / MIFARE ULTRALIGHT® EV1 Compatible Emulator tag.</a></p>
+<p>Lab401 is a proud sponsor of industry events, conferences and projects. Got a project, or want to discuss sponsorship? <a href="mailto:support@lab401.com">Shoot us an email.</a></p>]]>
+    </content>
+  </entry>
+</feed>

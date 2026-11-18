@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/news.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/news/tagged/discount.atom"/>
+  <title>Lab401 - News</title>
+  <updated>2026-04-22T16:48:54+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/news/icopy-x-launch</id>
+    <published>2021-09-01T00:00:00+02:00</published>
+    <updated>2021-09-01T00:00:01+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/icopy-x-launch"/>
+    <title>Back to work: Product launch &amp; 10% site-wide promo</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[From September 1 - 5, take advantage of a 10% store-wide sale, as we launch two new incredible products: the iCopy-X, a powerful Proxmark-based RFID Cloner, and the iCS Decoder, an iCLASS SE and iCLASS SEOS cloner and decoder.<p><a class="read-more" href="https://lab401.com/blogs/news/icopy-x-launch">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>To welcome you back to your desk, the Lab401 team has been working hard over summer to launch new &amp; exclusive tools.<br><br>We'll also be running a <strong>10% store-wide promo</strong> from the <strong>1st - 5th of September.</strong> Be sure to take advantage of this promo to get an incredible deal on the new products. Like always - everyone qualifies - there's no limits, no catches, and no coupons to enter - just grab the products you need and get 10% off.</p>
+<p>We're proud to announce the product launch of the <strong>iCopy-X </strong>and <strong>iCS Decoder</strong>.<br>Both tools are exclusive to Lab401 in Europe, Australia and New Zealand.</p>
+<div style="margin: 2em 0px 0 0px;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>iCopy-X</h3>
+<p>It's finally here - the iCopy-X is the powerful portable RFID cloning device that everyone's been talking about.<br>Built on the Proxmark 3, its easy to use interface takes the hassle out of RFID cloning. It supports the majority of HF and LF cards on the market, and is a must have for pentesters and security researchers.</p>
+<p><a href="/products/icopy-x">Check out the iCopy-X here.</a></p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left" style="text-align: center;">
+<p><a href="/products/icopy-x"><img src="https://cdn.shopify.com/s/files/1/2175/8571/products/ICopyX-RFID-Cloner-3-4-1_240x240.png?v=1629380189" style="margin: 0pxpx 0pxpx 0pxpx 0pxpx; float: none;" width="240x240" height="240x240"></a></p>
+</div>
+</div>
+<div style="margin: 2em 0px 0 0px;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>iCLASS SE / SEOS Cloner</h3>
+<p>The iCS Decoder is the world's first device that can decode and clone iCLASS SE and iCLASS SEOS badges. The device leverages an exploit that is enabled by default in SE / SEOS system to create legacy badges dervied from SE / SEOS badges.<br>The iCS Decoder is an accessory for the iCopy-X.</p>
+<p><a href="/products/ics-decoder-iclass-se-seos-cloner-decoder">Check out the iCS Decoder here.</a></p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left" style="text-align: center;">
+<p><a href="/products/ics-decoder-iclass-se-seos-cloner-decoder"><img src="https://cdn.shopify.com/s/files/1/2175/8571/products/iCSDecoder-ICLASS-SEandSEOSDecoder-2_240x240.png?v=1629298269" alt=""></a></p>
+</div>
+</div>
+<div style="margin: 2em 0px 0 0px;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>PandwaRF Marauder Ultimate</h3>
+<p>Purpose built for deaddrop / standalone signal capture, the PandwaRF Marauder Ultimate integrates with the PandwaRF Rogue Pro for full signal analysis, processing, brand and model detection and signal transformation.</p>
+<p><a href="/products/pandwarf-marauder-ultimate">Check out the PandwaRF Marauder Ultimate here.</a></p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left" style="text-align: center;">
+<p><a href="/products/pandwarf-marauder-ultimate"><img src="https://cdn.shopify.com/s/files/1/2175/8571/products/Maurauder-Ultimate-1_d3b4416a-9f06-4cd2-8050-05929833849f_240x240.png?v=1628870147" alt=""></a></p>
+</div>
+</div>
+<div style="margin: 2em 0px 0 0px;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Portapack for the HackRF</h3>
+<p>The PortaPack converts the HackRF One into the ultimate portable SDR multi-tool.<br>Dozens of built-in functions for sniffing, spoofing, recording, replaying and analyzing on the go. No cables or external computer required - the Portapack is a standalone, portable SDR solution.</p>
+<p><a href="/products/portapack-for-hackrf-one">Check out the PortaPack here.</a></p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left" style="text-align: center;">
+<p><a href="/products/portapack-for-hackrf-one"><img src="https://cdn.shopify.com/s/files/1/2175/8571/products/PortaPack_240x240.png?v=1625147894" alt=""></a></p>
+</div>
+</div>
+<p>With 10% off store-wide and new exclusive products - we hope that getting back to work is a little bit less difficult.</p>
+<p>As always - if you have any questions or concerns - please reach out directly to our fantastic customer support: <a href="mailto:support@lab401.com">support@lab401.com</a></p>
+<p>Lab401 Steve.</p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/black-friday-cyber-monday-up-to-20-off-storewide</id>
+    <published>2020-11-25T12:00:00+01:00</published>
+    <updated>2020-11-25T12:00:00+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/black-friday-cyber-monday-up-to-20-off-storewide"/>
+    <title>Black Friday / Cyber Monday: Up to 20% off storewide!</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<strong>LAB401</strong> Black Friday / Cyber Monday sale this year is all about <strong>discount</strong> on<strong> your favorite tools!</strong> check it out now!<p><a class="read-more" href="https://lab401.com/blogs/news/black-friday-cyber-monday-up-to-20-off-storewide">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>From <strong>November 27 to November 30</strong> get up to <strong>20% off store-wide.</strong></p>
+<p style="text-align: center;">Spend 50€ : Get 5% off.<br>Spend 100€ : Get 10% off.<br>Spend 500€ : Get 15% off.<br>Spend 1000€ : Get 20% off.</p>
+<p style="text-align: left;">No gimmicks, no limits and no catches. BFCM is our biggest yearly discount - so don't miss out !</p>
+<p style="text-align: left;"><iframe src="https://www.youtube.com/embed/2nAW19RCEbI" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="1182" height="537" frameborder="0"></iframe></p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/black-friday-cyber-monday-sales</id>
+    <published>2019-10-01T14:35:00+02:00</published>
+    <updated>2019-12-08T14:24:17+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/black-friday-cyber-monday-sales"/>
+    <title>Black Friday / Cyber Monday Sales</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p style="line-height: 24px; text-align: justify; font-size: 12px; margin: 0; padding-bottom: 15px;" data-start-index="16540" data-end-index="16641"><span style="font-size: 16px;" data-start-index="16641" data-end-index="16672">Lab401 Celebrates <strong data-start-index="16690" data-end-index="16698">Black Friday / Cyber Monday</strong> with some incredible deals - available this weekend only!</span></p>
+<p style="line-height: 24px; text-align: justify; font-size: 12px; margin: 0; padding-bottom: 15px;" data-start-index="16540" data-end-index="16641"><span style="font-size: 16px;" data-start-index="16641" data-end-index="16672">The deals are valid from Friday 29th to Monday 2nd. </span></p><p><a class="read-more" href="https://lab401.com/blogs/news/black-friday-cyber-monday-sales">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<div style="color: #61626f; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; line-height: 150%; padding: 0px 10px 10px 10px;" data-start-index="16210" data-end-index="16387">
+<div style="line-height: 18px; font-size: 12px; color: #61626f; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;" data-start-index="16400" data-end-index="16526">
+<p style="line-height: 24px; text-align: justify; font-size: 12px; margin: 0; padding-bottom: 15px;" data-start-index="16540" data-end-index="16641"><span style="font-size: 16px;" data-start-index="16641" data-end-index="16672">Lab401 Celebrates <strong data-start-index="16690" data-end-index="16698">Black Friday / Cyber Monday</strong> with some incredible deals - available this weekend only!</span></p>
+<p style="line-height: 24px; text-align: justify; font-size: 12px; margin: 0; padding-bottom: 15px;" data-start-index="16540" data-end-index="16641"><span style="font-size: 16px;" data-start-index="16641" data-end-index="16672">The deals are valid from Friday 29th to Monday 2nd. </span></p>
+<p style="line-height: 24px; text-align: justify; font-size: 12px; margin: 10px;" data-start-index="16817" data-end-index="16899"><span style="font-size: 16px;" data-start-index="16899" data-end-index="16930"><strong data-start-index="16930" data-end-index="16938"><span style="font-size: 20px;" data-start-index="16938" data-end-index="16967">Deal 1</span></strong><br data-start-index="16989" data-end-index="16995">Free USB RFID <a href="https://lab401.com/products/usb-rfid-reader-writer-dl533" data-start-index="17009" data-end-index="17076" target="_blank" rel="noopener noreferrer">Reader/Writer/Emulator DL533N</a> with every order over 300EU (Worth 55 EU!)<br></span></p>
+<p style="line-height: 24px; text-align: justify; font-size: 12px; margin: 10px;" data-start-index="16817" data-end-index="16899"><span style="font-size: 16px;" data-start-index="16899" data-end-index="16930">Please note: The DL533N will be automatically added to your order at shipment.</span></p>
+<p style="line-height: 24px; text-align: justify; font-size: 12px; margin: 10px;" data-start-index="17177" data-end-index="17259"><span style="font-size: 16px;" data-start-index="17259" data-end-index="17290"><span style="font-size: 20px;" data-start-index="17290" data-end-index="17319"><strong data-start-index="17319" data-end-index="17327">Deal 2</strong></span><br data-start-index="17349" data-end-index="17355">15% off our <a href="https://lab401.com/collections/hardware/products/rfid-pentester-pack" data-start-index="17367" data-end-index="17446" target="_blank" rel="noopener noreferrer">RFID Pentester Packs</a> (60 - 100EU discount!)</span></p>
+<p style="line-height: 24px; text-align: justify; font-size: 12px; margin: 10px;" data-start-index="17177" data-end-index="17259"><span style="font-size: 16px;" data-start-index="17259" data-end-index="17290">Please use the promo code: <strong>BFCM2019</strong> to qualify for the discount.</span></p>
+</div>
+</div>
+<iframe src="https://www.youtube.com/embed/XRxW5xjVQtI" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="717" height="403" frameborder="0"></iframe>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/spring-promo-10-off-until-march-25th-2019</id>
+    <published>2019-03-21T04:05:00+01:00</published>
+    <updated>2019-03-21T04:06:35+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/spring-promo-10-off-until-march-25th-2019"/>
+    <title>SPRING PROMO - 10% OFF until MARCH 25th 2019</title>
+    <author>
+      <name>Lab401 Lee</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<span>From the 21st to the 25th of March 2019, Get 10% discount storewide while using the coupon </span>code :<span> </span><span style="color: #ff0000;"><strong>SPRING401</strong></span><p><a class="read-more" href="https://lab401.com/blogs/news/spring-promo-10-off-until-march-25th-2019">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p><span>Hey pentesters :) </span></p>
+<p><span>From the <strong>21st</strong> to the<strong> 25th</strong> of March 2019, Get <strong><span style="color: #ff0000;">10% discount</span><span style="color: #000000;"> storewide </span></strong>while using the coupon code: <span style="color: #ff0000;"><strong>SPRING401</strong></span> or use the URL below: </span><a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="https://www.youtube.com/redirect?redir_token=eNQ9FPEzckoTGslPAvQbvo_xneB8MTU1MzE2Mjg1MkAxNTUzMDc2NDUy&amp;v=72kcfuLjCj4&amp;q=https%3A%2F%2Flab401.com%2Fdiscount%2FSPRING401&amp;event=video_description" rel="nofollow noopener noreferrer" target="_blank">https://lab401.com/discount/SPRING401</a><span> </span></p>
+<p><span><iframe width="560" height="315" src="https://www.youtube.com/embed/72kcfuLjCj4?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe><br></span></p>
+<p><span>Have a great Spring guys :)</span></p>
+<p> </p>
+<p><strong>LAB401</strong></p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/black-friday-cyber-monday-sales-10-store-wide-for-one-week</id>
+    <published>2018-11-21T12:43:00+01:00</published>
+    <updated>2018-11-22T15:43:23+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/black-friday-cyber-monday-sales-10-store-wide-for-one-week"/>
+    <title>Black Friday / Cyber Monday Sales: 10% Store-wide for one week!</title>
+    <author>
+      <name>Lab401 Lee</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<meta charset="utf-8">
+<p><span>Celebrating </span><strong>Black Friday </strong><span>for 2018, Lab401 is running a </span><strong>10% Sale Store Wide</strong><span>.<br><strong>Everything</strong>, including our Pentester and Tag packs are discounted.. <br></span></p><p><a class="read-more" href="https://lab401.com/blogs/news/black-friday-cyber-monday-sales-10-store-wide-for-one-week">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>Celebrating <strong>Black Friday </strong>for 2018, Lab401 is running a <strong>10% Sale Store Wide</strong>.<br>To take advantage, just use the voucher code: <strong>BFCM.</strong></p>
+<p>From November 21 to November 26 every single product is discounted.<br>It's the perfect time to grab one of the new <strong>Proxmark RDV4</strong>, the hot <strong>Keysy 125KHz Duplicator / Emulator</strong>. </p>
+<p>Likewise, our <strong>RFID Tag Packs </strong>and <strong>RFID Pen Tester Packs</strong> are discounted as well - adding up to over 50% on the Pro packs.</p>
+<p>Everything is in stock, and we're excited to get more gear into your hands.</p>
+<p><iframe width="806" height="453" src="https://www.youtube.com/embed/3r7mRPpMpMk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/lab401-q3-sale-new-products-new-support-huge-discounts</id>
+    <published>2018-09-04T01:08:00+02:00</published>
+    <updated>2018-09-04T01:31:37+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/lab401-q3-sale-new-products-new-support-huge-discounts"/>
+    <title>Lab401 Q3 Sale: New Products, New Support, Huge Discounts</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[From September 5 - 10, enjoy up to 20% at Lab401.<br>Our Pentester Packs and Pentester Tag Packs are on sale - and we've also added some exciting new products: Proxmark 3 RDV4, Proxmark 3 EVO and the Keysy LF Duplicator.<p><a class="read-more" href="https://lab401.com/blogs/news/lab401-q3-sale-new-products-new-support-huge-discounts">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p><iframe width="1279" height="719" src="https://www.youtube.com/embed/oi3Ba9UZMX4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></p>
+<p>Summer is over: September means back to work &amp; university.</p>
+<p>At Lab401, it means our Annual Q3 Sale, new products and better service.</p>
+<p><strong>20% Sale</strong><br>For one week only - <strong>Sept 5 - 10</strong> - enjoy huge discounts on our most popular products:</p>
+<ul>
+<li>
+<strong>Lab401 Pentester Pack</strong>: 10% Discount<br>Including the newly released Proxmark 3 RDV4 - the pentester pack is the must-have pack for getting started with RFID.<br>With the discount, you'll <strong>save over 100 EU</strong> off RRP.<br><br>
+</li>
+<li>
+<strong>Lab401 Pentester Tag Pack:</strong> 10% Discount<br>Our impressive card range is available bundled by usage: Basic, Android and Advanced. <br>During our sale, you'll save an additional 10% across all packs!<br><br>
+</li>
+<li>
+<strong>Proxmark 3 RDV2: </strong>20% Discount<br>The PM3 RDV2 has never been this affordable. We are running low on stock - so be quick to jump on this discount.<br><br>
+</li>
+<li>
+<strong>Segger JTag Tool</strong><br>Invaluable when you need to reflash your Proxmarks - enjoy 20% off these must-have devices.</li>
+</ul>
+<p><strong>New Products<br></strong>We've added three new incredible products:</p>
+<ul>
+<li>
+<strong>Proxmark 3 RDV4</strong><br>The RDV4 is a Proxmark 3 revision optimised for <strong>pen-testers and red-teamers.</strong><br>Featuring exchangeable antennas, SIM/SAM slot, and expansion headers - all fitted into a palm-sized case.<br><br>
+</li>
+<li>
+<strong>Proxmark 3 EVO<br></strong>The Proxmark EVO / Evolution is the latest Proxmark 3 revision for <strong>desktop / university / home </strong>users. Featuring pre-tuned, built-in antennas in a compact case with RGB LED - the EVO is the economical option for users working in the lab or at home. </li>
+<li>
+<b>Keysy RFID Duplicator / Emulator<br></b>The Keysy is a must have for any RFID tester. The size and shape of a car-remote - it can sniff, emulate and duplicate a vast array of LF tags quickly and easily. Powerful yet highly economical - your toolkit needs one of these.</li>
+</ul>
+<p><strong>Customer Support<br></strong>We have listened to your feedback, and are proud to launch a totally new customer support service - 6 days a week with guaranteed reply in under 24 hours.</p>
+<p>As Lab401 has grown, it has been difficult to maintain customer support to the level that you deserve - so we are proud to unveil the new support system - and look forward to hearing your thoughts.</p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/black-friday-cyber-monday-sale-10-store-wide</id>
+    <published>2017-11-21T07:39:00+01:00</published>
+    <updated>2017-11-21T07:41:02+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/black-friday-cyber-monday-sale-10-store-wide"/>
+    <title>Black Friday / Cyber Monday Sale: 10% Store Wide</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<meta charset="utf-8"><span>From November 21 to 28 enjoy a full week of 10% discounts store wide!</span><p><a class="read-more" href="https://lab401.com/blogs/news/black-friday-cyber-monday-sale-10-store-wide">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<meta charset="utf-8">
+<p><span>Hello, Lab401ers! </span><br><span>This year Lab401 is offering a <strong>10% discount storewide</strong> during Black Friday / Cyber Monday period. </span></p>
+<p><span>From November 21 to 28 enjoy a full week to get the best deals in the infosec world!</span></p>
+<p><span><iframe width="640" height="360" src="https://www.youtube.com/embed/DCF5FdOuKBM" frameborder="0" gesture="media" allowfullscreen=""></iframe></span></p>]]>
+    </content>
+  </entry>
+</feed>

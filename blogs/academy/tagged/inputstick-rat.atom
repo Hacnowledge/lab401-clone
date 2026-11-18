@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/academy.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/academy/tagged/inputstick-rat.atom"/>
+  <title>Lab401 - Academy</title>
+  <updated>2026-06-04T15:04:58+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/academy/pentestips-know-your-badusb</id>
+    <published>2021-08-13T16:49:29+02:00</published>
+    <updated>2021-08-13T17:00:18+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/pentestips-know-your-badusb"/>
+    <title>#pentestips: Know your &quot;BadUSB&quot;</title>
+    <author>
+      <name>Lab401 Lee</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<span><strong>"BadUSB"</strong> devices are innocent-looking USB-based devices that have ulterior motives and are typically found in every pentester's toolkit. today we learn a little more about them in <strong>#pentestips</strong>.</span><p><a class="read-more" href="https://lab401.com/blogs/academy/pentestips-know-your-badusb">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p data-pm-slice="1 1 []">"BadUSB" devices are innocent-looking USB-based devices that have ulterior motives and are typically found in every pentester's toolkit.</p>
+<p>Today’s #pentestips episode is called: Know your BadUSB Devices</p>
+<p> <iframe width="560" height="315" src="https://www.youtube.com/embed/vVX-akQmQpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></p>
+<p>When you plug hardware into a computer, it typically needs to be manually approved and installed.</p>
+<p>But if you're trying to install a device like a keyboard or a mouse - how do you install it if you're unable to click or type?</p>
+<p>To solve this paradox, a new class of devices was designed : the <strong>"HID"</strong>, or "Human Interface Devices" <br>Specific types of hardware automatically install without any interaction from the user: Input Devices (Keyboard, Mouse), Storage (Hard-drives, USB-Drives), Network (Ethernet adaptors).</p>
+<p><strong>Getting Devious</strong><br>The "BadUSB" family of devices takes advantage of this system by emulating HID devices.<br>When plugged in, they can pretend to be a keyboard, a mouse, a storage device, etc - simultaneously. And because they're not limited by fingers, they can "type" and "click" incredibly quickly.</p>
+<p>BadUSB devices are used for multiple purposes: from delivering 'payloads' to exfiltrate or gain access to data during red-team assessments to automating boring tasks for sys-admins.</p>
+<p>At Lab401, we've got multiple types of BadUSB devices, each with different characteristics.</p>
+<p><strong>Rubber Ducky</strong></p>
+<p><strong><a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqa3RoTXJfeVNhRVFNcVdXYUwyMVJGZ3BaQzVjQXxBQ3Jtc0tuYkFKVEZGVVRWaThlWEhZdzdrTk9GeDFTOXBkamx2dGMzSUJ1cGZFYk9DZ1lxYzFMTnVoNTVLNzhiM2dhandhY3lhYnYtaWZraHpZYWt2ZUpqbDltbXdpNjZWSVFadE5pM0JMTkdkUEk2MzFIQkdkTQ&amp;q=https%3A%2F%2Flab401.com%2Fproducts%2Frubber-ducky" rel="nofollow noopener noreferrer" target="_blank" dir="auto">https://lab401.com/products/rubber-ducky</a></strong></p>
+<p><br>Conceived in 2010, the Rubber Ducky is the grandfather of BadUSB devices. It can emulate both storage and keyboard strokes, allowing for payloads to exfiltrate data from computers.</p>
+<p>The Rubber Ducky is easily programmed with "Ducky Script", a simple scripting language, and enjoys an active community with hundreds of pre-made Payloads.</p>
+<p><strong>USBNinja</strong></p>
+<p><strong><a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqa0JpNUEzN0VPTGpNQ0gtMGpSdTJLR0JIa1ItZ3xBQ3Jtc0tueFRxZmV5b0d2bjhUbEhmc3FlaDYtcjBMWVUwUjl5T3l6TDlRYTNKVVdHcExobW1kTnpwRi1yUlNONUxGV2pPVVEzejZPR1Buend3clhrQUNXUTBIaEhHRHdjNmlrR2lVZU1sUHg0OXU1WTFmWHpXQQ&amp;q=https%3A%2F%2Flab401.com%2Fproducts%2Fusbninja" rel="nofollow noopener noreferrer" target="_blank" dir="auto">https://lab401.com/products/usbninja</a></strong></p>
+<p><br>The USBNinja is a highly miniaturized, highly covert version of the Rubber Ducky.<br>Inspired by the NSA Project "COTTONMOUTH", the entire device is hidden inside a USB cable and controlled wirelessly.</p>
+<p>Besides avoiding suspicion during red-team assessments, it also allows for long-term implants - how often do you change your keyboard's USB cable?</p>
+<p>The USBNinja has iOS/Android apps, can be updated over the air, used in real-time mode, exfiltrate data, self-destruct, and more importantly - acts as a real USB cable, supporting USB-3, Lightning, USB-C, QuickCharge technologies, etc.</p>
+<p><strong>InputStick RAT</strong></p>
+<p><strong><a href="https://lab401.com/products/inputstick-rat">https://lab401.com/products/inputstick-ra</a>t</strong></p>
+<p><br>The InputStick takes a different approach from the other devices. It's designed as a wireless, real-time keyboard and mouse tool. Once the InputStick is plugged in, the user can control the host device via the included Windows/Android/iOS applications.</p>
+<p>The 'real-time' / non-payload nature of the device allows for situations where timing is important (waiting for a specific situation), or simply remote administration of devices.</p>
+<p>It also supports macros for an 'entry-level' payload system.</p>
+<p><strong>Summing up</strong><br>Which device is perfect for you depends completely on your task and budget.</p>
+<ul class="ak-ul">
+<li>
+<p>If you need automation, but don't need wireless control</p>
+</li>
+<li>
+<p>If you don't need to make permanent implants</p>
+</li>
+<li>
+<p>Want to benefit from hundreds of pre-written payloads<br><span style="color: #ff8000;"><strong>We recommend the RUBBER DUCKY</strong></span></p>
+</li>
+<li>
+<p>If you need automation and wireless control.</p>
+</li>
+<li>
+<p>If you need highly covert implants and advanced options such as over-the-air updates.<br><strong><span style="color: #ff8000;">We recommend the USBNINJA PROFESSIONAL</span></strong></p>
+</li>
+<li>
+<p>If you don't need to exfiltrate data</p>
+</li>
+<li>
+<p>If you need real-time control/mouse control</p>
+</li>
+<li>
+<p>If you're on a limited budget<br><span style="color: #f98008;"><strong>We recommend the InputStick</strong></span></p>
+</li>
+</ul>
+<p>If you need more information or have any questions, please reach out to us via our awesome customer support: support@lab401.com</p>
+<p> </p>]]>
+    </content>
+  </entry>
+</feed>

@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/academy.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/academy/tagged/flipper-accessories.atom"/>
+  <title>Lab401 - Academy</title>
+  <updated>2026-06-04T15:04:58+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/academy/i2c-sensor-seduction-digilab-flipper</id>
+    <published>2025-09-15T07:00:06+02:00</published>
+    <updated>2025-09-15T07:00:06+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/i2c-sensor-seduction-digilab-flipper"/>
+    <title>I2C Sensor Seduction: DigiLab + Flipper</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p>Seduce sensors into spilling secrets, with the DigiLab by Lab401 and the FlipperZero. Within minutes, you can peek and poke directly into the memory of millions of modules.</p>
+<p>In this hands on tutorial, we pull temperature data directly from a LM75A temperature sensor - without anything but the DigiLab and Flipper. No Arduinos, no code, no fuss!</p><p><a class="read-more" href="https://lab401.com/blogs/academy/i2c-sensor-seduction-digilab-flipper">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>The DigiLab is an accessory for FlipperZero made by Lab401 and tixlegeek, that aims to be the first tool you reach for when exploring electronics. It's got a built-in scope tool &amp; probe tool, and leverages sound, light and vibrations as physical feedback tools - enabling an entirely new and curiously intuitive way to explore circuits.</p>
+<p>It's also got an <b>I2C Probe</b> tool. You've probably heard of I2C, and if you've built any Arduino or RaspberryPi-based gadgets that have attached gizmos, you've probably even used I2C.</p>
+<p>I2C is a communication protocol, built in the 1980s, but remains the defacto protocol today for lower-speed communications between modules and sensors because of its simplicity (it only uses two wires), flexibility (you can have up to 127+ devices on the same lines, and speak to them individually!) and ubiquity (almost everything speaks I2C).</p>
+<p><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Sensors.png?v=1756417990" alt=""></p>
+<p>Before you fall asleep, here's the key question: <i>why should I get excited about a tool that speaks 40-year old protocol?</i></p>
+<p>The reality is, working with I2C devices, even today, can be very frustrating. Most I2C sensors are just micro computers that you can communicate with. Let's say you've got a temperature sensor, and you want to know what the temperature is. In theory, you can just ask it what the temperature is, and it will tell you. In reality, you need to wire the sensor up to some type of computer - an Arduino, an ESP-32, a Raspberry PI. Then need to setup a programming environment for the host device, and then find a library or write code to try to interface with the sensor. <i>It's super inefficient, and feels awkward.</i> Why can't you just reach into the sensor, grab the data and be done, no fuss?</p>
+<p>With the DigiLab's <b>I2C Probe</b>, working with I2C is a breeze. Hook up the module, and it's automatically detected (and even supports multiple modules at the same time). It also identifies each module with its inbuilt Predictive Engine. Sending and Retrieving data is done via the built-in UI and hex-editor. All in all, you can connect, detect, identify and interact with an I2C module in minutes, as opposed to hours.</p>
+<p><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab---Connected---Cropped.png?v=1756295963"></p>
+<h2>Let's get started</h2>
+<p>In this tutorial, we're going to learn how to connect and read data from a sensor in under under a minute. We're going to work with the LM75A sensor - a very popular temperature sensor. We'll see how we can connect the module, identify it, and read temperature data directly from the sensor - no code, no debugging.</p>
+<div style="text-align: center; font-size: .8em;">
+<img style="margin-bottom: 16px; float: none; display: block; margin-left: auto; margin-right: auto;" alt="The LM75ADPSensor on a breakout board." src="https://cdn.shopify.com/s/files/1/2175/8571/files/Module_240x240.png?v=1756249815"><i>There are many LM75A breakout boards, but this is my own.</i>
+</div>
+<p>At the end of the tutorial, you'll have acquired the following <b>skills</b>:</p>
+<ul>
+<li>How to communicate with unknown modules via first-principles</li>
+<li>How to leverage data-sheets to use unknown modules</li>
+<li>How to use the DigiLab to identify unknown I2C modules</li>
+<li>How to directly read the memory / registers of I2C modules</li>
+<li>Leveraging AI to build useful tools</li>
+</ul>
+<p>In this tutorial, we'll cover the following <b>steps</b>:</p>
+<ol>
+<li>Connecting the LM75ADP to the DigiLab</li>
+<li>Detecting and identifying the LM75ADP</li>
+<li>Obtaining and using the data-sheet</li>
+<li>Reading temperature data</li>
+<li>Building a tool to interpret retrieved data</li>
+</ol>
+<p><i><i>Please note</i>: The DigiLab can also write data to I2C devices, giving you complete control to configure sensors, write to memory chips, etc. We've got another tutorial on <i>Using the DigiLab with a BMP280 Sensor</i> - a much more complex sensor, which requires reading and writing. It's a bit more involved, but nevertheless you can control it completely with the DigiLab. If you want to learn how to interact completely with sensors and modules, it's a recommended read!</i></p>
+<p>In order to play along at home, you'll only need three things:<br></p>
+<ul>
+<li>The <a rel="noopener" href="/products/digilab-for-flipperzero" target="_blank">Lab401 DigiLab accessory</a> for FlipperZero®</li>
+<li>A <a rel="noopener" href="https://www.aliexpress.us/w/wholesale-LM75-I2C-.html" target="_blank">LM75A Breakout board</a>
+</li>
+<li>Some <a rel="noopener" href="https://www.aliexpress.us/w/wholesale-dupont-cables.html" target="_blank">dupont cables</a>
+</li>
+</ul>
+<h2>Connecting the LM75A to the DigiLab</h2>
+<p>First, we'll connect the LM75A Breakout module to the DigiLab. We'll connect:</p>
+<ul>
+<li>The <u>DigiLab</u> 3.3V pin to the <u>LM75A</u>'s VCC/3.3v pin</li>
+<li>The <u>DigiLab</u> GND pin to the <u>LM75A</u>'s GND pin</li>
+<li>The <u>DigiLab</u> SCL pin to the <u>LM75A</u>'s SCL pin</li>
+<li>The <u>DigiLab</u> SDA pin to the <u>LM75A</u>'s SDA pin</li>
+</ul>
+<p><i><img style="display: block; margin-left: auto; margin-right: auto;" alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Flipper---Wiring-Diagram_e7614cf6-344c-4604-aa70-59ccf00162d7.png?v=1756415079"></i></p>
+<p><i>That's all the wiring that we need to do! <b>Important</b> - if you're using a different board, please ensure that you follow what's printed on the PCB to avoid frying your module!</i></p>
+<h2>Detecting and identifying the LM75</h2>
+<p>Now, connect your DigiLab to your FlipperZero, and head into <b>Apps › GPIO › Lab401/DigiLab</b>. If you haven't already installed the App, you can get it from the Flipper App Store: <a href="https://lab.flipper.net/apps/401_digilab" target="_blank">https://lab.flipper.net/apps/401_digilab</a>.</p>
+<p>If it's the first time you've used the DigiLab app, you'll be asked to <b>Calibrate</b> your DigiLab. Follow the instructions on screen - touch the red probe to the +5V pad, and click OK.</p>
+<p>In the DigiLab App, head to <b>I2C Probe</b>. The device will rapidly scan for devices, and present you with a list of results. You can navigate the list with the left and right arrows.<br>If everything was connected properly, you should see <b>two</b> found devices. The DigiLab has an I2C memory chip on it, so there'll always be one device found.</p>
+<p>Navigate the list until you see the device <b>0x46</b>. This number is the address of the device, and it's "somewhat" unique. Click on <b>Info Button</b>.</p>
+<p>The DigiLab uses its predictive engine to try to guess the type of module it's connected to. There may be multiple types of module - but it helps you narrow down what you're dealing with. If you <b>navigate the list</b>, you'll see that the <b>LM75B</b> is found, and that it's a "Temperature Sensor" from NXP. Cool!</p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Detection-Animation_6b242ab9-2c56-4c29-8486-cc0607359416.gif?v=1756417313"></p>
+<p>At this point, you could click the <b>R/W</b> button to read and write values from the module's memory slots ("registers") - but where would you begin? This is where <b>data-sheets</b> come in.</p>
+<h2>Obtaining and using the datasheet</h2>
+<p>A quick web-search brings up a copy of the <a href="https://www.ti.com/product/LM75A" target="_blank">datasheet</a> for the LM75A sensor.</p>
+<p>Scanning the document, we see that the sensor can actually do a bunch of interesting things (it can also be used as a thermostat, which will trigger at specific temperatures). However, what we're most interested in is on page 6, with the Register List (Table 5). A <i>Register</i> is the name for a chunk of memory where data is stored. Think of it like a postbox. It has a number, you can put things into it, take things out of it, and depending on the size, store different amounts in it.</p>
+<p><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Register-List.png?v=1756417366"></p>
+<p>The LM75A stores the temperature data in the Register with the address: <code>0x00</code>. The register has a total size of 2-bytes.</p>
+<p>Page 8 describes how the data is encoded, and gives some examples on how to decode it. Now, we know where to get the data, how much data to get, and how to convert it to something human-readable!</p>
+<p><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Data-Format.png?v=1756417472"></p>
+<h2>Reading temperature data</h2>
+<p>In the <b>DigiLab App</b>, go to <b>I2C Probe</b>, and select the device with the address of <b>0x48</b>. This time, click on the <b>R/W Button</b> - and you'll be taken to a screen where you can enter the register we want to read.</p>
+<p>Enter the register <b>00</b> (you can type it in, or use the arrow keys to increase the address) and click <b>OK</b>. Now we're prompted how much data we should read from the register. From the document, we know that it's <b>2-bytes</b>, so we enter 2 and click <b>OK</b>.</p>
+<p><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Read-Animation.gif?v=1756415863" alt="" style="display: block; margin-left: auto; margin-right: auto;"></p>
+<p>We're now inside the DigiLab's built in hex-editor, and peering <i>directly into the memory of the LM75</i>. We can see that there's two bytes of data. This is the temperature response from the module!</p>
+<p>Take note of these two bytes: In our example, <code>1E 20</code></p>
+<h2>Building a tool to interpret retrieved data</h2>
+<p>Now we've retrieved the data, we need to convert it to a human readable form. The datasheet gave us information on how the data is encoded, and a bunch of examples. We can leverage this data and an AI engine to build a tool to decode the data</p>
+<blockquote>We are working with an LM75A temperature sensor. <br>The sensor holds the temperature data in two 8-bit data bytes, consisting of one Most Signiﬁcant Byte (MSByte) and one Least Signiﬁcant Byte (LSByte).<br><br>- Only 11 bits of those two bytes are used to store the Temp data in 2's complement format with the resolution of 0.125 °C.<br>- In the MSByte, all bits are used.<br>- In the LSByte, only bits 7, 6, 5 are used. <br><br>The remaining bits are discarded. <br><br>The bits are mapped as follows:
+<pre>MSByte Bit 7: `D10`
+MSByte Bit 6: `D9`
+MSByte Bit 5: `D8`
+MSByte Bit 4: `D7`
+MSByte Bit 3: `D6`
+MSByte Bit 2: `D5`
+MSByte Bit 1: `D4`
+MSByte Bit 0: `D3`
+LSByte Bit 7: `D2`
+MSByte Bit 6: `D1`
+MSByte Bit 5: `D0` </pre>
+Temperature is calculated with the following method:<br>1. If the Temp data MSByte bit <code>D10 = 0</code>, then the temperature is positive and <br><br><code>Temp value (°C) = +(Temp data) * 0.125 °C.</code><br><br>2. If the Temp data MSByte bit <code>D10 = 1</code>, then the temperature is negative and <br><br><code>Temp value (°C) = -(2’s complement of Temp data) * 0.125 °C</code>. <br><br>Build a Javascript tool that takes two Hexadecimal bytes as input, and decodes the corresponding temperature. Remember to convert the hexadecimal to binary, discard the bits 4, 3, 2, 1 and 0 from LSByte. Then map the bit values of MSByte and LSByte as per the above table, and perform the conversion.</blockquote>
+<p>AI will gurgle away for a while, and then you'll hopefully end up with a tool that will convert the temperature data from the module into something human readable. While we're hesitant to declare AI a net-positive, LLMs allow us to rapidly iterate tools that would previously have distracted from the main task at hand.</p>
+<p><a href="https://lab-401.github.io/digilab-tutorial-lm75a/lm75adp-calculator.html" target="_blank"><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Conversion-Tool.png?v=1756417751" alt="" style="display: block; margin-left: auto; margin-right: auto;"></a></p>
+<h2>Congratulations!</h2>
+<p>Congratulations - you've just learned how to use the DigiLab to tame I2C modules. As you can see, the DigiLab abstracts multiple layers of complexity, allowing you to work directly with modules. While in this tutorial we only read data, you can just as easily write data. We've got an upcoming article on using the DigiLab to configure a more complex module by writing directly to the module.</p>
+<h2>Homework task</h2>
+<p>We mentioned that the DigiLab has a <b>on-board</b> I2C memory chip! With everything you've learned, your homework task is to use the DigiLab to detect and identify the memory chip, and then write some values to it. You can check if it worked - by disconnecting the DigiLab and reconnecting it - the data you've written will still be saved in memory. If you ever need to secretly store some data that you don't want your Flipper to know about, now you've got a hiding spot!</p>
+<h2>Resources</h2>
+<p>Our tool for interpreting the LM75A sensor data is available on GitHub for experimentation and adaptation : <a href="https://github.com/lab-401/digilab-tutorial-lm75a">https://github.com/lab-401/digilab-tutorial-lm75a</a></p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/academy/digilab-pulling-data-from-thin-air-and-a-bmp280-module</id>
+    <published>2025-09-15T07:00:06+02:00</published>
+    <updated>2025-09-15T13:45:41+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/digilab-pulling-data-from-thin-air-and-a-bmp280-module"/>
+    <title>DigiLab : Pulling Data from thin air (and a BMP280 module)</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p>With Lab401's DigiLab and the FlipperZero you can interact directly with millions of modules that use I2C. What took hours now takes minutes! </p>
+<p>In this in-depth tutorial, we target a BMP280 barometric sensor: detection, identification, communication and data interpretation!</p><p><a class="read-more" href="https://lab401.com/blogs/academy/digilab-pulling-data-from-thin-air-and-a-bmp280-module">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>One of the amazing features of Lab401's DigiLab accessory for FlipperZero® is its <b>I2C Probe</b>. If you've ever played around with electronics, microcontrollers or embedded computers like the ESP-32, you'll have no doubt come across I2C.</p>
+<p><em>You can follow along with this tutorial (and the introductory <a href="/blogs/academy/i2c-sensor-seduction-digilab-flipper" rel="noopener" target="_blank">LM75A tutorial</a>) with the <a href="/products/digilab-module-kit" target="_blank">DigiLab Module Kit</a> - it has all the modules (with presoldered headers) and cables you need. </em></p>
+<p>It's a communication protocol that works over just two wires that allows for multiple (in theory thousands..) of devices and sensors to be attached to the same lines, and yet still be able to handle direct communication.</p>
+<p>Although invented in the 1980s, it's an <i>incredibly important and popular</i> technology. It's no exaggeration that there are literally thousands of types of I2C sensors, and millions of devices that use them!<br></p>
+<div style="text-align: center; font-size: .8em;">
+<img src="https://cdn.shopify.com/s/files/1/2175/8571/files/I2C-Sensors.png?v=1756249587" alt="" style="margin-bottom: 16px; float: none; display: block; margin-left: auto; margin-right: auto;"><i>Modules, modules, modules. </i>
+</div>
+<p>But if you've got an I2C sensor sitting on your desk, how do you interact with it?</p>
+<p>Today, you'd typically <a href="https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/i2c-sensors-and-devices" target="_blank">reach for an Ardunio or Raspberry Pi</a>, and hope someone has written a library for it. Maybe you'll fight with breadboards and jumpers, and maybe you'll wish for a way to talk to the module <i>directly</i>. Or maybe it's an unmarked AliExpress Magical Mystery Chip, and you've got no idea what it does. Or worse, maybe you've need to do something special that the libraries don't cover - and there's no simple way to do it.<br></p>
+<p><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab---Connected---Cropped.png?v=1756295963"></p>
+<p><strong>Enter the <a rel="noopener" href="/products/digilab-for-flipperzero" target="_blank">DigiLab</a></strong>, and its <b>I2C Probe</b> tool. You can easily detect devices on the I2C bus, and use the in-built predictive engine to guess what they are. And then - you can get your hands dirty and poke around directly inside the module itself.</p>
+<h2>Let's get started</h2>
+<p>In this tutorial, we're going to be investigating the <b>BMP280</b>, an air-pressure sensor from Bosch. These sensors are fairly ubiquitous - but don't be deceived, they are incredibly powerful sensors that can be configured in literally thousands of ways to meet the requirements of millions of devices. At Lab401, we believe that <i>understanding</i> is more important than just <i>doing</i>. The deeper your understanding, the more you'll be able to do.</p>
+<div style="text-align: center; font-size: .8em;">
+<img src="https://cdn.shopify.com/s/files/1/2175/8571/files/BMP280---Sensor_240x240.png?v=1756249815" alt="The BMP280 Sensor on a breakout board." style="margin-bottom: 16px; float: none; display: block; margin-left: auto; margin-right: auto;"><i>The BMP280 module, on a breakout board.</i>
+</div>
+<p>At the end of the tutorial, you'll have acquired the following <b>skills</b>:</p>
+<ul>
+<li>How to communicate with unknown modules via first-principles</li>
+<li>How to leverage data-sheets to use unknown modules</li>
+<li>How to use the DigiLab to identify unknown I2C modules</li>
+<li>How to directly modify the memory / registers of I2C modules</li>
+<li>Leveraging AI to build useful tools</li>
+</ul>
+<p>In this tutorial, we'll cover the following <b>steps</b>:</p>
+<ol>
+<li>Connecting the BMP280 to the DigiLab</li>
+<li>Detecting and identifying the BMP280</li>
+<li>Obtaining and using the data-sheet</li>
+<li>Configuring the BMP280</li>
+<li>Pulling temperature data</li>
+<li>Pulling pressure data</li>
+<li>Pulling calibration data</li>
+<li>Building a tool to interpret retrieved data</li>
+</ol>
+<p>In order to play along at home, you'll only need three things:<br></p>
+<ul>
+<li>The <a rel="noopener" href="/products/digilab-for-flipperzero" target="_blank">Lab401 DigiLab accessory</a> for FlipperZero®</li>
+<li>A <a rel="noopener" href="https://www.aliexpress.us/w/wholesale-BMP280.html" target="_blank">BMP280 Breakout board</a>
+</li>
+<li>Some <a rel="noopener" href="https://www.aliexpress.us/w/wholesale-dupont-cables.html" target="_blank">dupont cables</a>
+</li>
+</ul>
+<h2>Connecting the BMP280 to the DigiLab</h2>
+<p>First, we'll connect the BMP280 Breakout module to the DigiLab. We'll connect:</p>
+<ul>
+<li>The <u>DigiLab</u> 3.3V pin to the <u>BMP280</u>'s VCC/3.3v pin</li>
+<li>The <u>DigiLab</u> GND pin to the <u>BMP280</u>'s GND pin</li>
+<li>The <u>DigiLab</u> SCL pin to the <u>BMP280</u>'s SCL pin</li>
+<li>The <u>DigiLab</u> SDA pin to the <u>BMP280</u>'s SDA pin</li>
+</ul>
+<p>That's all the wiring that we need to do! <b>Important</b> - if you're using a different board, please ensure that you follow what's printed on the PCB to avoid frying your module!</p>
+<p><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Flipper---Wiring-Diagram.png?v=1756249177" alt=""></p>
+<h2>Detecting and identifying the BMP280</h2>
+<p>Now, connect your DigiLab to your FlipperZero, and head into <b>Apps › GPIO › Lab401/DigiLab</b>. If you haven't already installed the App, you can get it from the Flipper App Store: <a href="https://lab.flipper.net/apps/401_digilab" target="_blank">https://lab.flipper.net/apps/401_digilab</a>.</p>
+<p>If it's the first time you've used the DigiLab app, you'll be asked to <b>Calibrate</b> your DigiLab. Follow the instructions on screen - touch the red probe to the +5V pad, and click OK.</p>
+<p>In the DigiLab App, head to <b>I2C Probe</b>. The device will rapidly scan for devices, and present you with a list of results. You can navigate the list with the left and right arrows.<br>If everything was connected properly, you should see <b>two</b> found devices. The DigiLab has an I2C memory chip on it, so there'll always be one device found.</p>
+<p>Navigate the list until you see the device <b>0x76</b>. This number is the address of the device, and it's "somewhat" unique. Click on <b>Info Button</b>.</p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Detection-Animation_926a5ad8-3e4a-4bdf-8d8e-789cd6b2b734.gif?v=1756284148"></p>
+<p>The DigiLab uses its predictive engine to try to guess the type of module it's connected to. There may be multiple types of module - but it helps you narrow down what you're dealing with. If you <b>navigate the list</b>, you'll see that the <b>BMP280</b> is found, and that it's a "Temperature and Pressure Sensor" from Bosch. Cool!</p>
+<p>At this point, you could click the <b>R/W</b> button to read and write values from the module's memory slots ("registers") - but where would you begin? This is where <b>data-sheets</b> come in.</p>
+<h2>Obtaining and using the datasheet</h2>
+<p>A quick web-search brings up a copy of the <a href="https://www.digikey.com/htmldatasheets/production/2394371/0/0/1/bmp280-datasheet.html" target="_blank">datasheet</a> for the BMP280 sensor. Perusing the document shows that the sensor is actually quite complex - there's a great deal of functionality tucked into a tiny package. It has multiple filters to deal with spikes, can be polled slowly but accurately, or (very) quickly, has multiple different power modes and resolutions.</p>
+<p>More specifically, we're going to have to <b>configure</b> the sensor (ie, write our preferred settings to it) before we can pull data from it.</p>
+<p>For our purposes, the document gets really interesting around page 25, when it discusses the different <i>registers</i>. A <i>register</i> is another way to refer to a chunk of memory. According to the documentation, each register in the BMP280 is 8-bits, or 1-byte of data. Each <i>Register</i> has an address (typically referred to in hexadecimal).</p>
+<div style="text-align: center; font-size: .8em;">
+<img src="https://cdn.shopify.com/s/files/1/2175/8571/files/BMP280---Memory-Map.png?v=1756295376" alt="" style="display: block; margin-left: auto; margin-right: auto;"><i>Good to see Bosch is looking out for customer using CGA graphics.</i>
+</div>
+<p>In Table 18, we can see the memory layout. There are four sections that seem to be interesting:</p>
+<ol>
+<li>
+<code>0xF5</code>: The register containing the device configuration data</li>
+<li>
+<code>0xF4</code>: The register containing the measurement configuration</li>
+<li>
+<code>0x88 - 0xA1</code>: The registers holding the calibration values</li>
+<li>
+<code>0xF7 - 0xF9</code>: The registers holding the pressure values</li>
+<li>
+<code>0xFA - 0xFC</code>: The registers holding the temperature values</li>
+</ol>
+<p>With the information from this table, we can now complete <strong>steps </strong><b>3 - 6</b>:</p>
+<ul>
+<li>Configuring the BMP280</li>
+<li>Pulling temperature data</li>
+<li>Pulling pressure data</li>
+<li>Pulling calibration data</li>
+</ul>
+<h2>Configuring the BMP280</h2>
+<p>Let's start by <b>configuring the BMP280</b>. We don't have any highly technical requirements (ie, we don't need ultra-low-power mode, or ultra-quick polling). We can check on page 26 for details on how this configuration value is built up. A run-of-the-mill configuration value is composed as follows:</p>
+<p><b>0xF5 - Device Configuration</b></p>
+<ul>
+<li>
+<b>Bit 7,6,5</b> -&gt; <code>101</code> (1000ms standby time)</li>
+<li>
+<b>Bit 4,3,2</b> -&gt; <code>000</code> (filter coefficient = off)</li>
+<li>
+<b>Bit 1</b> -&gt; <code>0</code>
+</li>
+<li>
+<b>Bit 0</b> -&gt; <code>0</code> (disables 3-wire SPI)</li>
+<li>
+<b>Final Value: </b><code>10100000</code> in binary, or <code>0xA0</code> in hex.</li>
+</ul>
+<p><strong> 0xF4 - Measurement Configuration</strong></p>
+<ul>
+<li>
+<b>Bit 7,6,5</b> -&gt; <code>001</code> (Temperature oversampling x1)</li>
+<li>
+<b>Bit 4,3,2</b> -&gt; <code>001</code> (Pressure oversampling x1)</li>
+<li>
+<b>Bit 1,0</b> -&gt; <code>11</code> (Normal mode - continuous measurements)</li>
+<li>
+<b>Final Value: </b><code>00100111</code> in binary, or <code>0x27</code> in hex.</li>
+</ul>
+<p>OK - now we know that if we write those values into their corresponding registers, the module will start measuring data, and we'll be able to read it back! Let's head back to the DigiLab to write the values!</p>
+<p>In the <b>DigiLab App</b>, go to <b>I2C Probe</b>, and select the device with the address of <b>0x76</b>. This time, click on the <b>R/W Button</b> - and you'll be taken to a screen where you can enter the register you want to modify.</p>
+<p>Enter the register <b>F5</b> (you can type it in, or use the arrow keys to increase the address) and click <b>OK</b>. Now we're prompted how much data we should read from the register. From the document, we know that it's <b>1-byte</b>, so we enter 1 and click <b>OK</b>.</p>
+<p>We're now inside the DigiLab's built in hex-editor, and peering <i>directly into the memory of the BMP280</i>. Using the arrow keys, set the value of the register to <b><code>A0</code></b> and click <b>OK</b>. You'll get a confirmation that the chip was programmed.</p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Configuration-Animation.gif?v=1756287164"></p>
+<p>Now, do the same for the 0xF4 register, setting its value to <b><code>27</code></b> and click <b>OK</b>. Again, you'll get a confirmation that the chip was programmed. <b>Congratulations!</b> The BMP280 is now configured and measuring data according to your configuration values. Next step - let's read out the values!</p>
+<h2>Pulling the temperature data</h2>
+<p>You might have guessed it - to pull out the temperature data, we need to check out the values in the registers <code>0xFA - 0xFC</code>. Go through each register, and note the data down somewhere.</p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Data-Animation.gif?v=1756293107"></p>
+<h2>Pulling the pressure data</h2>
+<p>Repeat the process for the pressure data, in registers <code>0xF7 - 0xF9</code>. Again, go through each register, and note the data down somewhere.</p>
+<h2>Pulling the calibration data</h2>
+<p>The BMP280 self-calibrates using a variety of different data-points. In order to correctly translate the pressure and temperature values, we also need to note the calibration data. So, repeat the process a final time, for registers <code>0x88 - 0xA1</code>.</p>
+<p>All in all, you should have a 3 bytes of temperature data, 3 bytes of pressure data, and 26-ytes of calibration values - something like:</p>
+<blockquote>
+<pre>Temperature Data<br>0xFA: 0x88
+0xFB: 0x27
+0xFC: 0x00
+<br>Pressure Data
+0xF7: 0x54
+0xF8: 0x8C
+0xF9: 0x00
+Calibration Data
+0x88: 37
+0x89: 70
+0x8A: d0
+0x8B: 68
+0x8C: 32
+0x8D: 00
+0x8E: 1C
+0x8F: 90
+0x90: 25
+0x91: D6
+0x92: D0
+0x93: 0B
+0x94: 04
+0x95: 1B
+0x96: 40
+0x97: 00
+0x98: F9
+0x99: FF
+0x9A: B4
+0x9B: 2D
+0x9C: E8
+0x9D: D1
+0x9E: 88
+0x9F: 13
+0xA0: 00
+0xA1: 4B
+</pre>
+</blockquote>
+<h2>Building a tool to interpret retrieved data</h2>
+<p>We're ready to transform the data into something human readable. According to the spec-sheet (on page 21), the data is stored in a format called "16-bit two's complement". Instead of spending hours fighting to build a tool, we're leverage AI to build us out an interpreter. We used the agent / cli tool <a href="https://aider.chat/" target="_blank">Aider</a> with Claude Opus, but any model or means would work just fine.</p>
+<blockquote>
+<p>Make a javascript calculator tool that takes temperature values from 0xFA-0xFC and pressure values from 0xF7-0xF9, and the calibration values from 0x88-0xA1 - from a BMP280 module, and provides a temperature output (in °C) and a pressure output in hectoPascals.</p>
+</blockquote>
+<div style="text-align: center; font-size: .8em;">
+<a href="https://lab-401.github.io/digilab-tutorial-bmp280/DigiLab-BMP280-Calculator.html" title="Tool for calculating temperature and pressure from BMP280 registers" rel="noopener" target="_blank"><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Conversion-Tool---1.png?v=1756294534" alt="" style="display: block; margin-left: auto; margin-right: auto;"></a><i>Visit the calculator online <a href="https://lab-401.github.io/digilab-tutorial-bmp280/DigiLab-BMP280-Calculator.html" target="_blank">here</a></i>
+</div>
+<p>We can feed our data into the resulting tool, and it will output the correct temperature and pressure values from the sensor.</p>
+<p>We can even extend the tool to estimate altitude. Calculating altitude is fairly simple: <br><code></code></p>
+<p><code>altitude = 44330 * (1 - (pressure/sea_level_pressure)^0.1903)</code><br></p>
+<p>The only variable we're missing is "sea_level_pressure". We can either use a "global average", 1013.25hPa, but the results will have a large margin of error. Alternatively, we can retreive the sea_level_pressure from a nearby weather-station!</p>
+<blockquote>
+<p><em>Modify the Calculator form as follows:</em><br>1) When <em>Calculate Temperature and Pressure</em> has been clicked, and results have been calculated, add a button under the "Debug Information" frame: "<em>Estimate Altitude (Requires Localisation)</em>".</p>
+<p>Under this button, add in italics: "<em>Localisation data is used to send an anonymous request to the Open-Meteo API, to retrieve the QNH/Sea-level air pressure value nearest to you. This allows us to estimate your current altitude.</em>"</p>
+<p>When the user clicks this button, request their localisation data via the browser. If they decline, show an error frame that says: "<em>Sorry, we cannot estimate the altitude without localisation data."</em></p>
+<p>If we have the user's localisation data, send a request to Open-Meteo to retrieve the QNH value closest to their location.</p>
+<p>If there's an error, show it in a frame If we get successful information, use all the data to estimate the user's current altitude.</p>
+</blockquote>
+<div style="text-align: center; font-size: .8em;">
+<a rel="noopener" title="Tool for calculating temperature and pressure from BMP280 registers" href="https://lab-401.github.io/digilab-tutorial-bmp280/DigiLab-BMP280-Calculator-Altitude.html" target="_blank"><img style="display: block; margin-left: auto; margin-right: auto;" alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Conversion-Tool---2.png?v=1756294535"></a><i>Visit the calculator online <a href="https://lab-401.github.io/digilab-tutorial-bmp280/DigiLab-BMP280-Calculator-Altitude.html" target="_blank">here</a></i>
+</div>
+<p><strong>Now, the tool can even estimate elevation!</strong> In our opinion, the ability to rapidly accomplish side-quests is a perfect tool for AI. Traditionally, this type of tool would have taken at least an hour to finish - removing focus from our primary goals.</p>
+<h2>Summing Up</h2>
+<p>We've seen the <b>Lab401 DigiLab</b>'s <b>I2C Probe</b> function is incredible useful. It's powerful, versatile, but simple to use. It abstracts all the hard parts of communication, and uses its "Prediction Engine" to identify different modules, and even lets you read and write values directly to the module.</p>
+<p>Exploring I2C modules has traditionally been pretty clunky, or requires more expensive tools, writing code and is generally not an easy experience. The DigiLab makes I2C exploration not only simple, but accessible to anyone, so your curiosity isn't blocked by frustrations.</p>
+<h2>Homework task</h2>
+<p>We mentioned that the DigiLab has a <b>on-board</b> I2C memory chip! With everything you've learned, your homework task is to use the DigiLab to detect and identify the memory chip, and then write some values to it. You can check if it's worked - by disconnecting the DigiLab and reconnecting it - the data you've written will still be saved in memory. If you ever need to secretly store some data that you don't want your Flipper to know about, now you've got a hiding spot!</p>
+<h2>Resources</h2>
+<p>The two tools for interpreting the BMP280 sensor data are available on GitHub for experimentation and adaptation : <a href="https://github.com/lab-401/digilab-tutorial-bmp280">https://github.com/lab-401/digilab-tutorial-bmp280</a></p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/academy/wifi-pineapple-detection-made-easy-pinescan-multissid-in-action-with-the-feberis-pro-for-your-flipper-zero</id>
+    <published>2025-05-22T15:14:36+02:00</published>
+    <updated>2025-06-03T14:22:18+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/wifi-pineapple-detection-made-easy-pinescan-multissid-in-action-with-the-feberis-pro-for-your-flipper-zero"/>
+    <title>WiFi Pineapple Detection Made Easy with Amec0e</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p data-start="254" data-end="534" class="">Looking to boost your Flipper Zero’s wireless detection game? Our latest deep-dive shows how the <strong data-start="351" data-end="366">FEBERIS Pro</strong> — exclusively at LAB401 — now supports two new firmware features: <strong data-start="433" data-end="445">PineScan</strong> and <strong data-start="450" data-end="463">MultiSSID</strong>, purpose-built to detect spoofed networks like the <strong data-start="515" data-end="533">WiFi Pineapple</strong>.</p>
+<p data-start="536" data-end="767" class="">These lightweight detection tools run directly on the ESP32 inside the FEBERIS Pro and identify suspicious access points by analyzing vendor OUIs, tagged parameters, and multi-SSID behaviors — all without needing a full WIDS setup.</p>
+<p data-start="769" data-end="949" class="">✅ Works with Unleashed and Momentum firmware<br data-start="813" data-end="816">✅ Detects spoofed AP pools used by WiFi Pineapple MK7<br data-start="869" data-end="872">✅ Fully open-source, ready to flash<br data-start="907" data-end="910">✅ 5% off with discount code: <strong data-start="939" data-end="949">AMEC0E</strong></p><p><a class="read-more" href="https://lab401.com/blogs/academy/wifi-pineapple-detection-made-easy-pinescan-multissid-in-action-with-the-feberis-pro-for-your-flipper-zero">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<h2>WiFi Pineapple Detection Made Easy</h2>
+<h3>PineScan &amp; MultiSSID in Action with the FEBERIS PRO for your Flipper Zero<br>
+</h3>
+<h5 id="introduction"><strong>Introduction:</strong></h5>
+<p>Hi everyone, Amec0e here and we are back with another article which might be a little shorter than my previous ones, but today I am excited to talk about the FEBERIS PRO By <a href="https://sapsan-sklep.pl/en">Sapsan</a> while also unveiling two new features for both the <a href="https://github.com/bpmcircuits/ESP32Marauder">FEBERIS PRO Firmware</a> (koko fork) and the ESP32 Marauder project by <a href="https://github.com/justcallmekoko">justcallmekoko</a></p>
+<p>Alongside a quick demonstration of the new features, which I have been working on for this article, there is also a discount code at the end you can use towards your FEBERIS Pro orders :)</p>
+<h5 id="so-what-is-the-feberis-pro"><strong>So What is the FEBERIS Pro?</strong></h5>
+<p>The FEBERIS Pro created by <a href="https://sapsan-sklep.pl/en">Sapsan</a> and officially distributed by <a href="%5Bhttps://lab401.com%5D(https://lab401.com/)">LAB401</a> is a fantastic addition for the Flipper Zero. This little thing packs within it 2x CC1101 Radio Modules covering frequencies 433MHz and 868MHz, an NRF24 Radio Module for things like vulnerable mouse and keyboards, an ESP32 with BLE and WiFi, with a built-in GPS Module for things such as wardriving with the Flipper Zero.</p>
+<p>It comes with 4x antennas all of which are 3dBi gain, 2x 2.4GHz, 1x 433MHz and 1x 868MHz which gives a nice horizontal waveform. The C1101 SubGHz modules have a supported frequency range of <strong>300-348 MHz</strong>, <strong>387-464 MHz</strong> and <strong>779-928 MHz</strong> bands.</p>
+<p>Now we will not be going over is the basic usage of operations here, however can find out more about its basic usage <a href="https://sapsan-docs.com/brands/sapsan/feberis-pro/docs/">here</a></p>
+<p>And it can also be purchased from <a href="https://lab401.com/products/feberis-pro">LAB401 here</a>.</p>
+<h5 id="what-are-these-new-features"><strong>What are these New Features?</strong></h5>
+<p>The two new features I will be demonstrating are "pinescan" and "multissid" for detecting the WiFi Pineapple. <strong>All of the testing for this was done using my WiFi Pineapple MK7</strong>.</p>
+<p>Now forewarning, this feature is not a replacement for a proper WIDS like Kismet for example, nor is it fool proof but does serve as a PoC to show that simpler detection can be done on the Flipper Zero and ESP32 Boards like FEBERIS Pro. The Pineapple is also good at what it does too.</p>
+<p><strong>Features of PineScan:</strong></p>
+<ul>
+<li>Detect Pineapple Access points via a hardcoded List of OUI Vendors <strong>(SUSP_OUI).</strong>
+</li>
+<li>Detects Pineapple Spoofed AP Pool via tagged parameters and capabilities <strong>(TAG+SUSP_CAP).</strong>
+</li>
+<li>Extracts the Correct Channel from the beacon (This is to avoid showing the incorrect channel when using a more suited antenna like the FEBERIS Pro has).</li>
+<li>Easy to Add more OUI's in a PR on Github, Can hold up to 20 MACs Per Vendor.</li>
+<li>Limits the display output to avoid Spamming when you have a WiFi Pineapple Broadcasting 50 SSIDs (Yes I stress tested!).</li>
+</ul>
+<p><strong>Features of MultiSSID:</strong></p>
+<ul>
+<li>Detect AP if a Single MAC broadcasts 3 or more SSIDs (This includes the hidden SSID).</li>
+<li>Same as Pinescan this extracts the correct channel from the beacon (This is to avoid showing the incorrect channel when using the FEBERIS Pro).</li>
+<li>Same as Pinescan this limits the display output to avoid Spamming when you have a WiFi Pineapple broadcasting large amounts of SSIDs.</li>
+</ul>
+<p>To summarise both strengths of each scan:</p>
+<p><strong>MultiSSID</strong> - Good for edge cases, more false positive prone. <strong>Pinescan</strong> - Good for detecting WiFi Pineapple Spoofed Pool APs.</p>
+<h5 id="video-demonstration-of-features"><strong>VIDEO DEMONSTRATION OF FEATURES</strong></h5>
+<p><strong><iframe title="YouTube video player" src="https://www.youtube.com/embed/aizG_6gQG0c?si=CiQtBEyF4AA9illn" height="315" width="560"></iframe></strong></p>
+<p><strong>NOTE:</strong> Firmware used was Unleashed 081E, Marauder firmware version used was 1.4.6. There has since been an update which I will likely have already compiled and uploaded for you to download down below.</p>
+<h5 id="the-detection-methods"><strong>The Detection Methods</strong></h5>
+<p>So there are 3 main detections among two new options we demonstrated in the video above. These are:</p>
+<ul>
+<li>SUSP_OUI</li>
+<li>Multi_SSID</li>
+<li>TAG+SUSP_CAP</li>
+</ul>
+<p>Each one has been built and tested using a <a href="https://lab401.com/products/wifi-pineapple-v7">WiFi Pineapple MK7</a> with the OpenAP using the Impersonation Tab/Spoofed AP Pool in the WebUI.</p>
+<p><strong>SUSP_OUI</strong> - This is the first check that is done and this simply extracts the first 6 bytes (00:00:00) of the MAC address which commonly points to a specific vendor/nic manufacturer. For some specific OUI's we also check to see if the privacy bit is set to 0 which would indicate that the access point is not using encryption, if it is 1 then it is a Protected Access Point. This is a simple method to check but it is quite effective.</p>
+<p>Currently this is the list of OUI's it is checking for, their security detection condition along with the vendor name.</p>
+<p><strong>Vendor:</strong> Alfa Inc. <strong>Condition:</strong> SUSPICIOUS_WHEN_OPEN <strong>OUI:</strong> 00:C0:CA</p>
+<p>(WiFi Pineapple MK7) <strong>Vendor:</strong> Orient Power Home Network Ltd <strong>Condition:</strong> SUSPICIOUS_ALWAYS <strong>OUI:</strong> 00:13:37</p>
+<p>(WiFi Pineapple MK7) <strong>Vendor:</strong> IEEE Registration Authority <strong>Condition:</strong> SUSPICIOUS_WHEN_OPEN <strong>OUI:</strong> 0C:EF:AF</p>
+<p>(WiFi Pineapple Management OUIs Locally Administered) <strong>Vendor:</strong> None <strong>Condition:</strong> SUSPICIOUS_WHEN_PROTECTED <strong>OUI:</strong> 02:C0:CA, 02:13:37</p>
+<p>(WiFi Pineapple Nano) <strong>Vendor:</strong> Shenzhen Century Xinyang Technology Co Ltd <strong>Condition:</strong> SUSPICIOUS_WHEN_OPEN <strong>OUI:</strong> 1C:BF:CE</p>
+<p><strong>Vendor:</strong> MediaTek <strong>Condition:</strong> SUSPICIOUS_ALWAYS <strong>OUI:</strong> 00:0A:00, 00:0C:43, 00:0C:E7, 00:17:A5</p>
+<p><strong>Vendor:</strong> Panda Wireless Inc <strong>Condition:</strong> SUSPICIOUS_ALWAYS <strong>OUI:</strong> 9C:EF:D5, 9C:E5:D5</p>
+<p><strong>Vendor:</strong> None <strong>Condition:</strong> SUSPICIOUS_ALWAYS <strong>OUI:</strong> DE:AD:BE</p>
+<p>This can be added too in the source code which I will release with the article.</p>
+<p>Next up we have:</p>
+<p><strong>Multi_SSID</strong> - This keeps a list of all access points seen up to 100, the list is then cleared to make room for more APs. It takes the full SSID and produces a hash and it does this for every unique mac address seen, if a single MAC has more than 3 SSIDs hashes (Including the hidden network) then it is flagged as an AP advertising multiple SSIDs from a single MAC.</p>
+<p>The other detection is:</p>
+<p><strong>TAG+SUSP_CAP</strong> - This uses a combination of extracting the Capabilities of the Access Point and the Tagged Parameters of the Access Point from the beacon frame. If the access point has a capability of 0x0001 and has exactly 2 Tagged Parameters then this triggers the TAG+SUSP_CAP detection.</p>
+<p>The TAG+SUSP_CAP took a little more time to stumble onto because while the Multi_SSID worked great, the downfall is, what if the user simply just clicks "Randomize Source MAC". Well, then the above Multi_SSID will now no longer detect the pineapple, so I again went back to examine the beacon frames the WiFi Pineapple uses to broadcast large numbers of APs comfortably.</p>
+<p>It is worth noting that the "pinescan" and "multissid" sniffer option use two structs each so it has a general AP tracking pool and a confirmed tracking AP pool. This allows the scan to only display one unique MAC address entry as well as clear the AP list once full to keep the lists from growing too much beyond their set limits.</p>
+<p>The general AP pool is set to 100 APs after which it will clear the tracking list and allow you to continue scanning in the same session (you will see a message in the log file when this happens and it is cleared). The confirmed list has a max of 100 APs also.</p>
+<h5 id="finding-tagsusp_cap"><strong>Finding TAG+SUSP_CAP</strong></h5>
+<p>At first I managed to notice a common occurrence that not many access points actually had, which is the capabilities flag set to 0x0001.</p>
+<p><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Field_Data_Legitimate_APs_With_CAP.png?v=1747737737"></p>
+<p>In the above image, there was 7,900 packets only 5 were displayed and only from 3 Different Access Points.</p>
+<p>This already was a strong indication that not many access points commonly use that set capability flag, however it is not 0. This means this alone could not be used as a reliable method of detecting multiple Access Points all from different MAC Addresses like the WiFi Pineapple does.</p>
+<p>Out of 38,000 packets from a rough 1 hour drive, of all the packets combined there was a total of 115 (not APs but packets) that had the same 0x0001 Capability. So I gathered further data and sifted through around 19 different pcaps, this was well over 100,000 packets from different parts of the world (thanks to friends for gathering beacon data from different countries), of which 20 APs used the same capability of 0x0001. This still however was not enough, so back to a pineapple packet I went.</p>
+<p>Now I did after staring at the beacon frame for around a good 20 minutes and a refreshment of coffee (much needed) I noticed something pretty significant, take a look at the Tagged parameters...</p>
+<p><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Pineapple_Tagged_Parameters_And_Cap.png?v=1747737770"></p>
+<p>It has just two tagged parameters, SSID and Channel. This is an absolute bare bone packet to throw up a large amount of access points without slowing down the Pineapple with its limited resources. This itself is uncommon for commercially available Access Points, 100% of the access points that did match the 0x0001 capability flag had MORE than two tagged parameters in every case.</p>
+<p>Now it is not to say you cannot throw up an extremely basic network like this, you can in fact do the same with Marauder. It has a barebone packet it uses with a 0x0401 Capability (so this would not be detected by our detection script) but also only throws up one Tagged Parameter which if we were to only do the detection using Tagged only (searching if there is only 2 tagged parameters) this would trigger the detection. However just because you can throw up an access point with a esp32 with the bare minimum information does not mean it is malicious. It could simply be to make it as efficient and light weight as possible while still providing the user the functionality they require.</p>
+<p>So if you have made it this far you will start to get the picture of what I was really trying to do, which was being memory efficient, reduce false positives and target a specific device like the WiFi Pineapple, and this is why we include the suspicious capability flag that you cannot change with ease on the MK7.</p>
+<p>In any case the false positives you may encounter will likely be from SUSP_OUI and the MULTI_SSID. If you see TAG+SUSP_CAP in PineScan that is a strong indication of a WiFi Pineapple using the Spoofed AP Pool. Though this itself could also still be a false positive because as mentioned, anyone can throw up an access point like this themselves. Albeit very uncommon to use just two tagged parameters and a 0x0001 capability.</p>
+<p>Some detections like the MULTI_SSID and SUSP_OUI could still catch some edge cases outside of the WiFi Pineapple. These types of detections combined, plus a lot more, can be done with ease using something more powerful than the Flipper Zero and a ESP32 and usually when using a WIDS, it is on something more powerful to perform that type of real-time analysis very quickly. However this PoC shows there are other ways we can detect certain types of attacks using small differences between the WiFi Pineapple and a consumer purchased Wireless Access Point.</p>
+<p><strong>NOTE:</strong> You can even check other pcaps you have in wireshark yourself by using</p>
+<pre><code>wlan.fc.type_subtype == 0x0008 &amp;&amp; wlan.fixed.capabilities == 0x0001
+</code></pre>
+<p>Then organising by the lowest packet length first and checking the tagged parameters just as we do above.</p>
+<h5 id="ok-but-what-can-it-not-do"><strong>Ok, but What Can it Not Do?</strong></h5>
+<p>Well I am glad you asked! The WiFi Pineapple is good at what it can do and we do have some limitations with these detection methods. Some of these limitations are:</p>
+<p><strong>EvilWPA</strong> Cannot detect the EvilWPA - The EvilWPA is difficult to automate detection for because this can mimic the real access point even down to the exact MAC Address and password (if you know it), even if you are using a managed access point list that allows you to specify what you <strong>should be seeing</strong> around you VS what you <strong>are seeing</strong> around you, this is still not effective enough by itself.</p>
+<p>As a user we can visually tell the differences if we are looking at something like Kismet, for example my network is all WPA3 security and the WiFi Pineapple MK7 can only use WPA2 or lower. So for me this is an easy red flag to see anything but WPA3 for my network.</p>
+<p>To use a managed access point list with the Flipper Zero will increase processing time by constantly needing to read the list or compare with a list that gets offloaded to memory, however the bigger the list the slower it will be and the more memory you use on the ESP32. You will also need to be stationary for it to work.</p>
+<p>It is not to say it cannot be done, and this would likely need to be the only detection method to really help make this as effective and as memory efficient as possible. Though this can still be a good way to do it though it is not the route I chose myself because it would not help if it replicates an allowed MAC. To locate this in the wild usually results in a fox hunt to locate the broadcasting device physically by signal strength.</p>
+<p><strong>OpenAP (No Spoofed AP Pool)</strong> Cannot detect OpenAP - without the use of an offending OUI, this access point by itself cannot be detected as a Pineapple with the way we detect. This is because it operates and looks like a legitimate open access point and has all of the tagged parameters and capabilities that any normal Open or Protected Consumer Access Point uses.</p>
+<p><strong>Beacon Intervals</strong> Cannot detect by beacon intervals from a beacon frame - This is because the BEACON INTERVAL on the WiFi Pineapple being set to LOW, NORMAL or HIGH and in all cases it will still report in the beacon frame the interval of 102.4ms. The only way this could be done is if the Flipper itself tracks the time between every beacon it sees instead of reading beacon intervals from the packet itself.</p>
+<p><strong>Signal Strength Discrepancies</strong> It cannot detect by signal strength discrepancies such as regularly seeing say -50 RSSI and then -30 RSSI and then back to the -50 range and consistently fluctuating around that strength. You would notice this pretty easily if you are monitoring the airwaves and you are completely static and nothing around you is interfering with that signal strength.</p>
+<p>This would also cause a lot of false positives if you are mobile while detecting as you will see increases and decreases to the signal strength regularly from moving (which of course the Flipper and FEBERIS Pro is just that, mobile platform).</p>
+<h5 id="flashing-instructions"><strong>Flashing Instructions</strong></h5>
+<p><strong>Flashing to the ESP32S2 or Developers Board using the ESP Flasher App:</strong></p>
+<p>To flash a ESP32S2 using ESP flasher on Momentum or Unleashed you will need the following <a href="https://github.com/UberGuidoZ/Marauder_BINs/blob/main/Marauder/bootloader.bin">Bootloader</a> and <a href="https://github.com/UberGuidoZ/Marauder_BINs/blob/main/Marauder/partitions.bin">Partitions Table</a>. You will also need the firmware bins found below the instructions listed here.</p>
+<ol>
+<li>
+<p>First we need to make a new directory in <strong>SD Card &gt; apps_data &gt; esp_flasher &gt; S2bins</strong> then we can put the <strong>bootloader.bin</strong> and <strong>partitions.bin</strong> into this new folder on the Flipper Zero using qFlipper once that is done, then unplug the Flipper from the PC.</p>
+</li>
+<li>
+<p>Next we plug in the ESP32S2 or Developers Board to the Flipper Zero, then once it is plugged in, reboot the Flipper Zero.</p>
+</li>
+<li>
+<p>Then navigate to the ESP Flasher Application.</p>
+</li>
+</ol>
+<p>For Momentum it is: Apps &gt; GPIO &gt; ESP &gt; ESP Flasher</p>
+<p>For Unleashed is it: Apps &gt; GPIO &gt; ESP Flasher</p>
+<ol start="4">
+<li>
+<p>Next Scroll to the bottom of the ESP Flasher and you will see "Enter Bootloader”, press this and then press the back button <strong>once</strong>.</p>
+</li>
+<li>
+<p>Scroll up to "Manual Flash" then press center.</p>
+</li>
+<li>
+<p>Select "Bootlader (0x1000)" and select our Bootloader in the S2Bins directory.</p>
+</li>
+<li>
+<p>Then select the "Part Table (0x8000)" and the go to the S2bins Directory and select "Partitions".</p>
+</li>
+<li>
+<p>Now select "FirmwareA (0x10000)" and then select the custom firmware.</p>
+</li>
+<li>
+<p>Scroll down to the bottom and select "Flash - fast" and wait for it to complete writing.</p>
+</li>
+<li>
+<p>Reboot the Flipper <strong>after it has flashed and after you have exited the ESP Flasher App</strong> and you are done.</p>
+</li>
+</ol>
+<p><strong>Flashing to the FEBERIS Pro using the ESP Flasher App:</strong></p>
+<p>The steps here are the same except <strong>do not select the bootloader files or the partition table</strong> (Steps 1, 6 and 7).</p>
+<ol>
+<li>
+<p>Next we plug in the ESP32S2 or Developers Board to the Flipper Zero, then once it is plugged in, reboot the Flipper Zero.</p>
+</li>
+<li>
+<p>Navigate to the ESP Flasher Application.</p>
+</li>
+</ol>
+<p>On Momentum it is: Apps &gt; GPIO &gt; ESP &gt; ESP Flasher</p>
+<p>On Unleashed is it: Apps &gt; GPIO &gt; ESP Flasher</p>
+<ol start="3">
+<li>
+<p>Next scroll to the bottom of the ESP Flasher and you will see "Enter Bootloader” press this and then press the back button <strong>once</strong>.</p>
+</li>
+<li>
+<p>Scroll up to "Manual Flash", press center.</p>
+</li>
+<li>
+<p>Now Select "FirmwareA (0x10000)" and then select the custom firmware.</p>
+</li>
+<li>
+<p>Scroll down to the bottom and select "Flash - fast" and wait for it to complete writing.</p>
+</li>
+<li>
+<p>Reboot the Flipper <strong>after it has flashed and after you have exited the ESP Flasher App</strong> and you are done.</p>
+</li>
+</ol>
+<p><strong>NOTE:</strong> It is important you wait a few seconds and then reboot the Flipper Zero after you have plugged in the ESP32.</p>
+<h5 id="firmware-fap-and-source-code"></h5>
+<h5 id="firmware-fap-and-source-code"><strong>Firmware, FAP and Source Code</strong></h5>
+<p><strong>Firmware:</strong></p>
+<p>Pinescan and MultiSSID are now merged in version 1.6.0 of the official ESP32Marauder Firmware. This means you can now download the marauder firmware directly from <a href="https://github.com/justcallmekoko/ESP32Marauder">justcallmekoko</a> and install and flash using the instructions here or as you normally would.</p>
+<p><strong>FAP:</strong></p>
+<p>The FAP is updated in both momentum and unleashed latest dev build so you can simply download and install a dev build of either firmwares (assuming you also updated marauder to 1.6.0 or above) and you will have the new options available to you. No need to download the firmware or FAPs linked in this article.</p>
+<p><strong>Source Code:</strong></p>
+<p>This has since been merged into the official ESP32Marauder Firmware. You can view the PR request <a href="https://github.com/justcallmekoko/ESP32Marauder/pull/772" target="_blank" rel="noopener">[here]</a> which contains the source code.</p>
+<h5 id="summary"><strong>Summary:</strong></h5>
+<p>Today we looked at the two new sniffer options as well as some small subtle differences the WiFi Pineapple uses when comparing to a legitimate consumer access point. As well as covered the detection methods and what they are looking for along with flashing instructions for the firmwares and faps.</p>
+<p>Ultimately, with the new "pinescan" and "multissid" options in the sniffer sub menu they can be a good way to detect a WiFi Pineapple only when it is using its Spoofed AP Pool. This is because when run without using the Spoofed AP Pool it looks and functions as a legitimate Open Network.</p>
+<p>Though it is common to spoof a targets separated 2.4GHz and 5GHz network names (XYZ_2G and XYZ_5G) to have them believe they are connecting to their 5GHz network when in fact you will be connecting to a 2.4GHz Open network.</p>
+<p>Pairing this with the <a href="https://lab401.com/products/feberis-pro">FEBERIS Pro</a> has been fantastic because of the 3dBi gain 2.4GHz Wireless Antenna it has given me a lot more range than I previously had with a Flipper Dev Board.</p>
+<p>And I have not even managed to get around to trying out the other 3 built-in radio modules. That is what makes this tool incredibly versatile.</p>
+<p>That pretty much wraps it up, I would like to say a <strong>big thank you to everyone who helped contribute towards testing and gathering beacon data from all walks of areas from residential to business</strong>. And thank you so much for reading this, I hoped you enjoyed the article, the video and new features as much as I enjoyed writing it, recording it and coding it.</p>
+<p>If you feel like picking one up for you or a friend, you can use my discount code: <strong>AMEC0E</strong> on LAB401 for a 5% discount.</p>
+<h4 id="disclaimer"><strong>Disclaimer</strong></h4>
+<p><strong>Code Maintenance &amp; Improvements:</strong></p>
+<p>As with any new feature, there may be issues that were not encountered during testing or may be due to oversight on my part. Therefore, the firmware, FAPs, and source code are provided <strong>"AS IS"</strong> without any warranties or guarantees. Neither I (amec0e) nor LAB401 will be held liable for any problems or damages resulting from the use of these firmwares or FAPs. Additionally, we (amec0e and LAB401) will not be providing support, maintenance, or future improvements for the firmware or FAPs (Flipper Application Packages).</p>
+<p><strong>Usage of Firmware:</strong> Neither I (amec0e) nor LAB401 will be held liable for any misuse or unintended consequences resulting from the use of the provided firmware or FAPs. These are distributed <strong>"AS IS"</strong> and are used entirely <strong>AT YOUR OWN RISK.</strong></p>
+<p><strong>Legal Responsibility:</strong> <strong>You are solely responsible</strong> for complying with all applicable local laws and regulations. We will not be held liable for any legal consequences arising from your failure to do so. These firmwares and FAPs are provided strictly for <strong>educational and research purposes only.</strong></p>
+<h5 id="resources"><strong>Resources</strong></h5>
+<p>C1101 Data Sheet - <a href="https://www.ti.com/lit/ds/symlink/cc1101.pdf">https://www.ti.com/lit/ds/symlink/cc1101.pdf</a></p>
+<p>Feberis Pro Documentation - <a href="https://sapsan-docs.com/brands/sapsan/feberis-pro/docs/">https://sapsan-docs.com/brands/sapsan/feberis-pro/docs/</a></p>
+<p>Feberis Pro Firmware - <a href="https://github.com/bpmcircuits/ESP32Marauder">https://github.com/bpmcircuits/ESP32Marauder</a></p>
+<p>Feberis Pro Firmware Upgrading - <a href="https://www.youtube.com/watch?v=Gl7nSpI6l3w">https://www.youtube.com/watch?v=Gl7nSpI6l3w</a></p>]]>
+    </content>
+  </entry>
+</feed>

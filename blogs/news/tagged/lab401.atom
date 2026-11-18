@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/news.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/news/tagged/lab401.atom"/>
+  <title>Lab401 - News</title>
+  <updated>2026-04-22T16:48:54+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/news/elevate-your-security-game-unmissable-black-friday-cyber-monday-deals-at-lab401</id>
+    <published>2023-11-23T16:59:01+01:00</published>
+    <updated>2023-11-24T14:49:16+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/elevate-your-security-game-unmissable-black-friday-cyber-monday-deals-at-lab401"/>
+    <title>🔐🚀 Black Friday &amp; Cyber Monday: 10% + Free Gifts !</title>
+    <author>
+      <name>Lab401 Lee</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<span data-mce-fragment="1">Black Friday and Cyber Monday, LAB401 </span><strong data-mce-fragment="1">10% OFF storewide + a gift per order !</strong><p><a class="read-more" href="https://lab401.com/blogs/news/elevate-your-security-game-unmissable-black-friday-cyber-monday-deals-at-lab401">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p><span data-mce-fragment="1">Hey there, Pentesters! 🌟 Are you ready to take your pentesting and security tools to the next level? This Black Friday and Cyber Monday, LAB401 is rolling out some extraordinary deals that you simply can't afford to miss! 🎉</span></p>
+<p><strong>The Unbeatable Offer:</strong> Starting November 24th, get ready to experience an epic <strong>10% OFF storewide</strong> at LAB401. But wait, there's more! With every order, you're guaranteed to receive an extra gift. That's right, each purchase comes with a special surprise just for you! 🎁</p>
+<p><strong>Please note: Discount does not apply to Flipper products. Only one gift per order.</strong></p>
+<p><strong>Gifts Galore:</strong></p>
+<p>Our special gifts are determined by the price of your order <strong>before tax and shipping</strong>. There is only 1 gift per order. Here's what you can expect:</p>
+<ul>
+<li>
+<strong>Orders under €100:</strong> Receive an <a title="ARD RFID BLOCKER" href="https://lab401.com/products/rfid-blocker-nfc-jammer" target="_blank">ARD RFID Blocker</a>, perfect for enhancing your security measures.</li>
+<li>
+<strong>Orders from €100 to €1000:</strong> Get equipped with a sleek <a title="RFID FIELD DETECTOR" href="https://lab401.com/products/rfid-field-detector" target="_blank">RF Field Detector</a>.</li>
+<li>
+<strong>Orders from €1000 to €2000:</strong> Elevate your toolkit with a<a title="CHAMELEON ULTRA" href="https://lab401.com/products/chameleon-ultra" target="_blank"> Chameleon Ultra</a>.</li>
+<li>
+<strong>Orders above €2000:</strong> Take your skills to the next level with a complimentary <a title="FLIPPER ZERO" href="https://lab401.com/products/flipper-zero" target="_blank">Flipper Zero</a>!</li>
+</ul>
+<p><strong>No Codes, No Hassle:</strong> We believe in keeping things simple. So, there's no need to fumble around for discount codes. The 10% discount is automatically applied at checkout. Easy, right? 🛍️</p>
+<p><strong>For the Geeks and Gurus:</strong> At LAB401, we understand the passion and dedication of pentesters, security professionals, and ethical hackers. Our products are carefully curated to meet the high standards and specific needs of this vibrant community. So, whether you're a seasoned pro or just starting out, our Black Friday deals are tailored just for you! 💻🔍</p>
+<p><strong>Why Choose LAB401?</strong> We pride ourselves on providing top-notch, professional-grade security tools. With a focus on innovation and quality, LAB401 is your trusted partner in cybersecurity. Enhance your toolkit with our range of products, backed by the best service in the industry. 🌐</p>
+<p><strong>Ready, Set, Shop!</strong> Don't let these deals slip away! Visit lab401.com now and level up your gear with the best prices and the best service. Remember, these offers are available only from November 24 to 27, 2023. Grab your gear and join the ranks of satisfied LAB401 customers! 🌟</p>
+<p><strong>Call to Action:</strong> Upgrade your security arsenal today! Head over to <a href="https://lab401.com/" target="_new">LAB401</a> and make the most of our Black Friday and Cyber Monday extravaganza. 🏆🛒</p>
+<p><em>Your LAB401 Team</em></p>
+<p><em><iframe width="560" height="315" src="https://www.youtube.com/embed/vtNknZbUnmI?si=dEXYPqeybnS8Pr7K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></em></p>
+<p> </p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/celebrating-frances-bastille-day-with-lab401</id>
+    <published>2019-07-14T13:54:00+02:00</published>
+    <updated>2019-07-14T14:06:22+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/celebrating-frances-bastille-day-with-lab401"/>
+    <title>Celebrating France&apos;s Bastille Day with Lab401</title>
+    <author>
+      <name>Lab401 Lee</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p><span>At Lab401, we help Penetration Testers on a daily basis get the hardware they need: and to celebrate Bastille Day, you can enjoy a<strong>10% discount store wide.</strong></span></p>
+<p>Use the voucher code:<span> </span><strong>bastilleday19</strong></p><p><a class="read-more" href="https://lab401.com/blogs/news/celebrating-frances-bastille-day-with-lab401">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p><span><strong>La Bastille</strong> was a fortress-prison inside Paris, known for holding political dissidents without trial during the period of the French Revolution.</span></p>
+<p> On the  <strong>14th of July, 1789</strong>, it was stormed and overrun by the people - becoming a turning point in the Revolution, and a date of historical significance.</p>
+<p><span>Today, infiltration would probably take a much different form - Employee Badges, RFID Entry Systems, CCTV and Network penetration.</span></p>
+<p> </p>
+<p><span>At Lab401, we help Penetration Testers on a daily basis get the hardware they need: and to celebrate Bastille Day, you can enjoy a<strong>10% discount store wide.</strong></span></p>
+<p>Use the voucher code: <strong>bastilleday19</strong></p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/f4dNlrkKZgk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></p>]]>
+    </content>
+  </entry>
+</feed>

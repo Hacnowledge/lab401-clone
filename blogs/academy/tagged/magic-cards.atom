@@ -1,0 +1,1881 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/academy.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/academy/tagged/magic-cards.atom"/>
+  <title>Lab401 - Academy</title>
+  <updated>2026-06-04T15:04:58+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/academy/know-your-magic-cards</id>
+    <published>2025-09-14T16:11:00+02:00</published>
+    <updated>2025-11-19T12:54:56+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/know-your-magic-cards"/>
+    <title>Know your magic cards</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <content type="html">
+      <![CDATA[<style>
+        h1, h2, h3, h4 {
+            color: #409cff;
+        }
+        h1 {
+            border-bottom: 3px solid #409cff;
+            padding-bottom: 10px;
+        }
+        h2 {
+            border-bottom: 2px solid #409cff;
+            padding-bottom: 8px;
+            margin-top: 30px;
+        }
+        h3 {
+            margin-top: 25px;
+        }
+        .toc {
+            background-color: #ebf5ff;
+            border: 1px solid #9ABAD9;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        .toc h2 {
+            margin-top: 0;
+            border-bottom: none;
+        }
+        .toc ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .toc ul ul {
+            padding-left: 20px;
+        }
+        .toc a {
+            color: #409cff;
+            text-decoration: none;
+        }
+        .toc a:hover {
+            text-decoration: underline;
+        }
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+            width: 100%;
+            margin: 20px 0;
+            border: 1px solid #9ABAD9;
+        }
+        th {
+            font-weight: bold;
+            padding: 10px 5px;
+            color: #fff;
+            background-color: #409cff;
+            text-align: left;
+            border: 1px solid #9ABAD9;
+        }
+        td {
+            padding: 10px 5px;
+            background-color: #ebf5ff;
+            border: 1px solid #9ABAD9;
+            vertical-align: top;
+        }
+        td ul {
+            margin: 5px 0;
+            padding-left: 20px;
+        }
+        td li {
+            margin: 3px 0;
+        }
+        /* Responsive table styles using flexbox */
+        .responsive-table {
+            display: block;
+            width: 100%;
+            margin: 20px 0;
+        }
+        .table-header {
+            display: none;
+        }
+        .table-row {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 15px;
+            border: 1px solid #9ABAD9;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .table-cell {
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            background-color: #ebf5ff;
+            border-bottom: 1px solid #9ABAD9;
+        }
+        .table-cell:last-child {
+            border-bottom: none;
+        }
+        .cell-label {
+            font-weight: bold;
+            color: #409cff;
+            margin-bottom: 5px;
+        }
+        .cell-content {
+            color: #444;
+        }
+        .cell-content ul {
+            margin: 5px 0;
+            padding-left: 20px;
+        }
+        .cell-content li {
+            margin: 3px 0;
+        }
+        .cell-content a {
+            color: #409cff;
+            text-decoration: none;
+        }
+        .cell-content a:hover {
+            text-decoration: underline;
+        }
+        /* Handle chipset type display in mobile view */
+        .table-cell[data-column="chipset"] .cell-content:empty {
+            display: none;
+        }
+        .table-cell[data-column="chipset"] .cell-content:empty + .chipset-inherited {
+            display: block;
+        }
+        .chipset-inherited {
+            display: none;
+            color: #444;
+        }
+        /* Desktop view */
+        @media (min-width: 768px) {
+            .responsive-table {
+                display: table;
+                border-collapse: collapse;
+                border: 1px solid #9ABAD9;
+                table-layout: fixed;
+            }
+            .table-header {
+                display: table-row;
+            }
+            .table-header .table-cell {
+                display: table-cell;
+                font-weight: bold;
+                padding: 10px 5px;
+                color: #fff;
+                background-color: #409cff;
+                border: 1px solid #9ABAD9;
+            }
+            /* Column widths for desktop view */
+            .table-header .table-cell:nth-child(1),
+            .table-row .table-cell:nth-child(1) {
+                width: 23%;
+            }
+            .table-header .table-cell:nth-child(2),
+            .table-row .table-cell:nth-child(2) {
+                width: 9%;
+            }
+            .table-header .table-cell:nth-child(3),
+            .table-row .table-cell:nth-child(3) {
+                width: 28%;
+            }
+            .table-header .table-cell:nth-child(4),
+            .table-row .table-cell:nth-child(4) {
+                width: 19%;
+            }
+            .table-header .table-cell:nth-child(5),
+            .table-row .table-cell:nth-child(5) {
+                width: 21%;
+                font-size: 0.9em;
+            }
+            .table-row {
+                display: table-row;
+                margin-bottom: 0;
+                border: none;
+                border-radius: 0;
+            }
+            .table-cell {
+                display: table-cell;
+                flex-direction: row;
+                padding: 10px 5px;
+                border: 1px solid #9ABAD9;
+                vertical-align: top;
+            }
+            .cell-label {
+                display: none;
+            }
+            .cell-content {
+                color: #444;
+            }
+            .chipset-inherited {
+                display: none !important;
+            }
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            border: 1px solid #ddd;
+        }
+        pre code {
+            background-color: transparent;
+            padding: 0;
+        }
+        .warning {
+            background-color: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 10px;
+            margin: 15px 0;
+        }
+        .note {
+            background-color: #d1ecf1;
+            border-left: 4px solid #17a2b8;
+            padding: 10px;
+            margin: 15px 0;
+        }
+        .intro {
+            background-color: #ebf5ff;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        ul, ol {
+            margin: 10px 0;
+        }
+        li {
+            margin: 5px 0;
+        }
+        strong {
+            color: #333;
+        }
+        .back-to-top {
+            display: inline-block;
+            margin: 10px 0;
+            color: #409cff;
+            text-decoration: none;
+            font-size: 0.9em;
+        }
+        .back-to-top:hover {
+            text-decoration: underline;
+        }
+    </style>
+<div class="intro">
+<p><strong>Navigating the world of "Magic" RFID Cards can be difficult.</strong> Different suppliers have different badges with different abilities, and each version may have multiple generations.</p>
+<p>This comprehensive guide covers the history, technical details, and characteristics of magic cards across multiple frequency ranges and protocols.</p>
+<p><b>External sources</b> include: the <a href="https://github.com/RfidResearchGroup/proxmark3" target="_blank">Proxmark Repository</a>, <a href="https://discord.com/invite/iceman" target="_blank">RFID Hacking Discord</a>.</p>
+</div>
+<div class="toc">
+<h2>Table of Contents</h2>
+<ul>
+<li><a href="#history">History of Magic Cards</a></li>
+<li><a href="#cheat-sheet">Common Magic Card Cheat Sheet</a></li>
+<li>
+<a href="#low-frequency">Low Frequency Cards</a>
+<ul>
+<li><a href="#t55xx">T55xx</a></li>
+<li><a href="#em4x05">EM4x05</a></li>
+<li><a href="#id82xx">ID82xx Series</a></li>
+<li><a href="#h-series">H Series</a></li>
+</ul>
+</li>
+<li>
+<a href="#iso14443a">ISO14443A Cards</a>
+<ul>
+<li><a href="#mifare-classic">MIFARE Classic</a></li>
+<li><a href="#mifare-ultralight">MIFARE Ultralight</a></li>
+<li><a href="#ntag">NTAG</a></li>
+</ul>
+</li>
+<li><a href="#desfire">DESFire</a></li>
+<li><a href="#iso14443b">ISO14443B</a></li>
+<li><a href="#iso15693">ISO15693</a></li>
+<li>
+<a href="#multi">Multi-Protocol Cards</a>
+<ul>
+<li><a href="#umc">Ultimate Magic Card (UMC)</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<h2 id="history">History of Magic Cards</h2>
+<p><strong>In the beginning</strong> there was the MIFARE CLASSIC® 1K card.<br>Compared to the 125KHz tags at the time, which simply burped out a string of data, the MIFARE CLASSIC® 1K was an advanced card.</p>
+<p>Each individual card had an individual <em>Unique ID</em>. These UIDs blocks were managed between manufacturers to ensure that no two cards ever had the same UID.</p>
+<p>The MIFARE CLASSIC® 1K also featured a plurality of data sectors, access control lists and keys.</p>
+<p>As the MIFARE CLASSIC® 1K became more popular, many companies and access control solutions started using the UID as a security feature - relying on the UID to authenticate cards, users, purchases and more.</p>
+<p>The MIFARE CLASSIC® 1K's cipher system, combined with a poor Pseudo-Random-Number-Generator (PRNG) were cracked - now meaning cards could be cracked and dumped.</p>
+<p>At a similar time, Chinese companies, most notably FUDAN, started creating 'Compatible' chipsets - and some of these chipsets evolved special, even.. magical.. abilities - including forging the sacred UID.</p>
+<p>The original generations of MIFARE CLASSIC® Compatible / Magic chips required a special sequence to 'Unlock' the badge. Once unlocked - the entire card, including the UID and ACL sections could be read and written.</p>
+<p>The unlock code, 0x43 / 0x40 became so well known - that many card reader systems would query this code to all badges. If a tag responded - it was deemed a clone card, and refused.</p>
+<p>In response, "Magic" cards evolved other abilities - some allowed "Direct Writing" to anywhere on the card, without unlock codes - and others allowed the UID to be changed only one time.</p>
+<p>With each iteration, the chipsets also became more and more stable, and could also emulate more and more badge types.</p>
+<p>Today - the most modern "Magic" cards can withstand a fair bit of user abuse (writing incorrect values, corrupting the manufacturer sectors etc) - but should in general be treated with care - as to not 'brick' them.</p>
+<p>Recently, the "<a href="#umc">Ultimate Magic Card</a>" was released. Also known as a "Gen 4", this card is a highly configurable 13.56MHz card emulator.</p>
+<p>It can natively emulate NTAG / MIFARE / Ultralight tags (and all their variations), supports complete control over ATQA/SAK/ATS values, UID and UID length (4, 7 and 10 byte) and has advanced functionality including Recovery Mode, Shadow Mode and automatic BCC Calculation.</p>
+<p><a href="#" class="back-to-top">↑ Back to top</a></p>
+<h2 id="cheat-sheet">Common Magic Card Cheat Sheet</h2>
+<p>Although now literally hundreds of types of magic cards can be found in the wild, for the purposes of cloning cards, the following magic cards are the most <b>commonly available</b>, <b>most supported</b> and <b>most compatible</b> cards/chipsets available.</p>
+<h3>MIFARE Classic Magic Cards</h3>
+<div class="responsive-table">
+<div class="table-header">
+<div class="table-cell">Chipset Type</div>
+<div class="table-cell">Generation</div>
+<div class="table-cell">Features</div>
+<div class="table-cell">Compatibility</div>
+<div class="table-cell">Source</div>
+</div>
+<div class="table-row" data-chipset="MIFARE CLASSIC® 1K">
+<div class="table-cell" data-column="chipset">
+<span class="cell-label">Chipset Type:</span>
+<div class="cell-content"><strong>MIFARE CLASSIC® 1K</strong></div>
+<div class="chipset-inherited"><br></div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Generation:</span>
+<div class="cell-content">1a</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Features:</span>
+<div class="cell-content">Original "Magic Mifare" tag<br>Requires "Unlocking" for 'magic' features<br>
+<ul>
+<li>Unlockable with code 0x43 0x40</li>
+<li>Entire card can be written / read once unlocked</li>
+<li>⚠️ Typically detectable as a "magic" card</li>
+<li>Easily bricked by writing incorrect BCC values</li>
+</ul>
+</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Compatibility:</span>
+<div class="cell-content">✅ Proxmark / iCopy-X<br>❌ Flipper Zero<br>✅ LibNFC<br>❌ Android (MTools)</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Source:</span>
+<div class="cell-content">🛒 <a href="/collections/rfid-badges/products/mifare-compatible-1k-uid-modifiable"><b>Fob</b> (Pack of 5)</a><br>🛒 <a href="/collections/rfid-badges/products/mifare-compatible-1k-uid-modifiable-pack-of-5"><b>Coin Tag</b> (Pack of 5)</a><br>🛒 <a href="/collections/icopy-x-tags/products/mifare-classic-1k-4-byte-compatible"><b>Card Format</b></a><br>🛒 <a href="/products/chameleon-ultra"><b>ChameleonUltra</b></a><br>
+</div>
+</div>
+</div>
+<div class="table-row" data-chipset="MIFARE CLASSIC® 1K">
+<div class="table-cell" data-column="chipset">
+<span class="cell-label">Chipset Type:</span>
+<div class="cell-content"><br></div>
+<div class="chipset-inherited"><strong>MIFARE CLASSIC® 1K</strong></div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Generation:</span>
+<div class="cell-content">1b</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Features:</span>
+<div class="cell-content">Generation 1a tag with <em>custom unlock code</em><br>
+<ul>
+<li>Entire card can be written / read once unlocked</li>
+<li>Easily bricked by writing incorrect BCC values</li>
+<li>⚠️ Typically detectable as a "magic" card</li>
+<li>Requires custom commands</li>
+</ul>
+</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Compatibility:</span>
+<div class="cell-content">✅ Proxmark / iCopy-X<br>❌ Flipper Zero<br>✅ LibNFC<br>❌ Android (MTools)</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Source:</span>
+<div class="cell-content">🛒 <a href="/products/chameleon-ultra"><b>ChameleonUltra</b></a><br>
+</div>
+</div>
+</div>
+<div class="table-row" data-chipset="MIFARE CLASSIC® 1K">
+<div class="table-cell" data-column="chipset">
+<span class="cell-label">Chipset Type:</span>
+<div class="cell-content"><br></div>
+<div class="chipset-inherited"><strong>MIFARE CLASSIC® 1K</strong></div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Generation:</span>
+<div class="cell-content">2</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Features:</span>
+<div class="cell-content">No unlocking required<br>Comes in 4-byte UID and 7-byte UID flavours<br>
+<ul>
+<li>⚠️ Typically detectable as a "magic" card</li>
+</ul>
+</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Compatibility:</span>
+<div class="cell-content">✅ Proxmark / iCopy-X<br>✅ Flipper Zero<br>✅ LibNFC<br>✅ Android (MTools)</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Source:</span>
+<div class="cell-content">🛒 <a href="/collections/rfid-badges/products/mifare-compatible-1k-direct-write-uid">4-byte UID <b>Card</b></a><br>🛒 <a href="/collections/rfid-badges/products/multi-rfid-keyfob">4-byte UID <b>Multi-Fob</b></a><br>🛒 <a href="/collections/icopy-x-tags/products/mifare-classic-compatible-1k-7-byte-direct-write-uid">7-byte UID <b>Card Format</b></a><br>🛒 <a href="/products/chameleon-ultra"><b>ChameleonUltra</b></a><br>
+</div>
+</div>
+</div>
+<div class="table-row" data-chipset="MIFARE CLASSIC® 1K">
+<div class="table-cell" data-column="chipset">
+<span class="cell-label">Chipset Type:</span>
+<div class="cell-content"><br></div>
+<div class="chipset-inherited"><strong>MIFARE CLASSIC® 1K</strong></div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Generation:</span>
+<div class="cell-content">2a (OTW)</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Features:</span>
+<div class="cell-content">One-Time Write UID<br>No unlocking required<br>Comes in 4-byte UID only<br>
+<ul>
+<li>Once written, UID cannot be changed</li>
+<li>✅ Typically not detectable as a "magic" card</li>
+</ul>
+</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Compatibility:</span>
+<div class="cell-content">✅ Proxmark / iCopy-X<br>✅ Flipper Zero<br>✅ LibNFC<br>✅ Android (MTools)</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Source:</span>
+<div class="cell-content">🛒 <a href="/collections/rfid-badges/products/undetectable-mifare-compatible-1k-one-time-write-uid">4-byte UID <b>Fob</b></a><br>🛒 <a href="/collections/rfid-badges/products/mifare-classic-compatible-1k-one-time-write-uid-modifiable-coin-tag-gen2a">4-byte UID <b>Coin Tag</b></a><br>🛒 <a href="/collections/icopy-x-tags/products/mifare-classic-1k-4-byte-compatible-gen2a">4-byte UID <b>Card Format</b></a><br>🛒 <a href="/products/chameleon-ultra"><b>ChameleonUltra</b></a><br>
+</div>
+</div>
+</div>
+<div class="table-row" data-chipset="MIFARE CLASSIC® 4K">
+<div class="table-cell" data-column="chipset">
+<span class="cell-label">Chipset Type:</span>
+<div class="cell-content"><strong>MIFARE CLASSIC® 4K</strong></div>
+<div class="chipset-inherited"><br></div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Generation:</span>
+<div class="cell-content">1a</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Features:</span>
+<div class="cell-content">Original "Magic Mifare" tag<br>Comes in 4-byte UID and 7-byte UID flavours<br>
+<ul>
+<li>Unlockable with code 0x43 0x40</li>
+<li>Entire card can be written / read once unlocked</li>
+<li>⚠️ Typically detectable as a "magic" card</li>
+<li>Easily bricked by writing incorrect BCC values</li>
+</ul>
+</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Compatibility:</span>
+<div class="cell-content">✅ Proxmark / iCopy-X<br>❌ Flipper Zero<br>✅ LibNFC<br>❌ Android (MTools)</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Source:</span>
+<div class="cell-content"><br></div>
+</div>
+</div>
+<div class="table-row" data-chipset="MIFARE CLASSIC® 4K">
+<div class="table-cell" data-column="chipset">
+<span class="cell-label">Chipset Type:</span>
+<div class="cell-content"><br></div>
+<div class="chipset-inherited"><strong>MIFARE CLASSIC® 4K</strong></div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Generation:</span>
+<div class="cell-content">2</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Features:</span>
+<div class="cell-content">No unlocking required<br>
+<ul>
+<li>⚠️ Typically detectable as a "magic" card</li>
+</ul>
+</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Compatibility:</span>
+<div class="cell-content">✅ Proxmark / iCopy-X<br>✅ Flipper Zero<br>✅ LibNFC<br>✅ Android (MTools)</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Source:</span>
+<div class="cell-content">🛒 <a href="/collections/rfid-badges/products/mifare-compatible-4k-direct-write-uid">4K, 4-byte UID <b>Card</b></a><br>🛒 <a href="/collections/rfid-badges/products/mifare-classic-compatible-4k-7-byte-uid-modifiable-by-directwrite">4K, 7-byte UID <b>Card</b></a><br>🛒 <a href="/products/chameleon-ultra"><b>ChameleonUltra</b></a><br>
+</div>
+</div>
+</div>
+<div class="table-row" data-chipset="MIFARE ULTRALIGHT®">
+<div class="table-cell" data-column="chipset">
+<span class="cell-label">Chipset Type:</span>
+<div class="cell-content"><strong>MIFARE ULTRALIGHT®</strong></div>
+<div class="chipset-inherited"><br></div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Generation:</span>
+<div class="cell-content">1a</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Features:</span>
+<div class="cell-content">Original "Magic Ultralight" tag<br>
+<ul>
+<li>Bricked if 0x43 0x40 code is used</li>
+<li>⚠️ Typically detectable as a "magic" card</li>
+</ul>
+</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Compatibility:</span>
+<div class="cell-content">✅ Proxmark / iCopy-X<br>✅ Flipper Zero<br>✅ LibNFC<br>✅ Android (MTools)</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Source:</span>
+<div class="cell-content">🛒 <a href="/collections/rfid-badges/products/ultralight-compatiblr-direct-write-uid"><b>Card</b></a><br>🛒 <a href="/products/chameleon-ultra"><b>ChameleonUltra</b></a><br>
+</div>
+</div>
+</div>
+<div class="table-row" data-chipset="MIFARE ULTRALIGHT®">
+<div class="table-cell" data-column="chipset">
+<span class="cell-label">Chipset Type:</span>
+<div class="cell-content"><br></div>
+<div class="chipset-inherited"><strong>MIFARE ULTRALIGHT®</strong></div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Generation:</span>
+<div class="cell-content">1b</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Features:</span>
+<div class="cell-content">Variation "Magic Ultralight" tag<br>
+<ul>
+<li>
+<em>Requires</em> unlock code 0x43 0x40 to be used</li>
+<li>⚠️ Typically detectable as a "magic" card</li>
+</ul>
+</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Compatibility:</span>
+<div class="cell-content">✅ Proxmark / iCopy-X<br>❌ Flipper Zero<br>✅ LibNFC<br>❌ Android (MTools)</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Source:</span>
+<div class="cell-content">🛒 <a href="/collections/rfid-badges/products/ultralight-compatible-uid-modifiable"><b>Card</b></a>
+</div>
+</div>
+</div>
+<div class="table-row" data-chipset="MIFARE ULTRA LIGHT-C®">
+<div class="table-cell" data-column="chipset">
+<span class="cell-label">Chipset Type:</span>
+<div class="cell-content"><strong>MIFARE ULTRA LIGHT-C®</strong></div>
+<div class="chipset-inherited"><br></div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Generation:</span>
+<div class="cell-content">1</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Features:</span>
+<div class="cell-content">No unlocking required<br>
+<ul>
+<li>⚠️ Typically detectable as a "magic" card</li>
+</ul>
+</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Compatibility:</span>
+<div class="cell-content">✅ Proxmark / iCopy-X<br>✅ Flipper Zero<br>✅ LibNFC<br>✅ Android (MTools)</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Source:</span>
+<div class="cell-content">🛒 <a href="/collections/rfid-badges/products/ultralight-c-compatible-uid-modifiable"><b>Card</b></a> <br>🛒 <a href="/products/chameleon-ultra"><b>ChameleonUltra</b></a><br>
+</div>
+</div>
+</div>
+</div>
+<h3>Advanced Magic Cards</h3>
+<div class="responsive-table">
+<div class="table-header">
+<div class="table-cell">Chipset Type</div>
+<div class="table-cell">Generation</div>
+<div class="table-cell">Features</div>
+<div class="table-cell">Compatibility</div>
+<div class="table-cell">Source</div>
+</div>
+<div class="table-row" data-chipset="Ultimate Magic Card">
+<div class="table-cell" data-column="chipset">
+<span class="cell-label">Chipset Type:</span>
+<div class="cell-content"><strong>Ultimate Magic Card</strong></div>
+<div class="chipset-inherited"><br></div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Generation:</span>
+<div class="cell-content">4 (GTU)</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Features:</span>
+<div class="cell-content">"Gen 4" Card<br>
+<p><strong>Customise:</strong></p>
+<ul>
+<li>UID + Length</li>
+<li>SAK</li>
+<li>ATQA</li>
+<li>ATS</li>
+</ul>
+<p><strong>Built in functionality:</strong></p>
+<ul>
+<li>Shadow Mode</li>
+<li>Auto BCC Calculation</li>
+<li>Password Protection</li>
+<li>Recovery Mode</li>
+</ul>
+<p><strong>Natively emulates:</strong></p>
+<ul>
+<li>MIFARE Mini</li>
+<li>MIFARE 1k S50 4 byte UID</li>
+<li>MIFARE 1k S50 7 byte UID</li>
+<li>MIFARE 1k S50 10 byte UID</li>
+<li>MIFARE 4k S70 4 byte UID</li>
+<li>MIFARE 4k S70 7 byte UID</li>
+<li>MIFARE 4k S70 10 byte UID</li>
+<li>Ultralight</li>
+<li>Ultralight-C</li>
+<li>Ultralight Ev1</li>
+<li>NTAG</li>
+</ul>
+</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Compatibility:</span>
+<div class="cell-content">✅ Proxmark / iCopy-X<br>✅ Flipper Zero<br>✅ LibNFC<br>✅ Mobile (MTools)</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Source:</span>
+<div class="cell-content">🛒 <a href="/collections/rfid-badges/products/ultimate-magic-card-gen4"><b>Card</b></a>
+</div>
+</div>
+</div>
+<div class="table-row" data-chipset="NTAG®️ 213 Compatible">
+<div class="table-cell" data-column="chipset">
+<span class="cell-label">Chipset Type:</span>
+<div class="cell-content"><strong>NTAG® 213 Compatible</strong></div>
+<div class="chipset-inherited"><br></div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Generation:</span>
+<div class="cell-content">-</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Features:</span>
+<div class="cell-content">Allows UID to be set</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Compatibility:</span>
+<div class="cell-content">✅ Proxmark / iCopy-X<br>✅ Flipper Zero<br>✅ LibNFC<br>❌ Android (MTools)</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Source:</span>
+<div class="cell-content">🛒 <a href="/collections/rfid-badges/products/ntag-compatible-213-direct-write-uid"><b>Card</b></a>
+</div>
+</div>
+</div>
+<div class="table-row" data-chipset="NTAG® 2xx / Ultralight Emulator">
+<div class="table-cell" data-column="chipset">
+<span class="cell-label">Chipset Type:</span>
+<div class="cell-content"><strong>NTAG® 2xx / Ultralight Emulator</strong></div>
+<div class="chipset-inherited"><br></div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Generation:</span>
+<div class="cell-content">-</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Features:</span>
+<div class="cell-content">Supported by Proxmark natively<br>Requires special commands to be used with LibNFC<br>
+<p><strong>Natively emulates:</strong><br>MIFARE NTAG® 213<br>NTAG® 215<br>NTAG® 216</p>
+<p><strong>Partially emulates:</strong><br>NTAG® 210<br>NTAG® 212<br>NTAG® I2C 1K<br>NTAG® 12C 2K<br>NTAG® I2C 1K Plus<br>NTAG® 12C 2K Plus<br>MIFARE Ultralight® EV1 48k<br>MIFARE Ultralight® EV1 128k</p>
+</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Compatibility:</span>
+<div class="cell-content">✅ Proxmark / iCopy-X<br>✅ Flipper Zero<br>✅ LibNFC<br>❌ Android (MTools)</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Source:</span>
+<div class="cell-content">🛒 <a href="/collections/rfid-badges/products/ntag-compatible-21x"><b>Card</b></a>
+</div>
+</div>
+</div>
+<div class="table-row" data-chipset="MIFARE DESFire® Emulator">
+<div class="table-cell" data-column="chipset">
+<span class="cell-label">Chipset Type:</span>
+<div class="cell-content"><strong>MIFARE DESFire® EV1 UID Emulator</strong></div>
+<div class="chipset-inherited"><br></div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Generation:</span>
+<div class="cell-content">-</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Features:</span>
+<div class="cell-content">Supported by Proxmark natively<br>Emulates the ATQA/SAK of a DESFire card<br>Emulates the UID of a DESFire card<br><b>EV1:</b> 4-byte UID and 7-byte UID <br><b>EV2:</b> 7-byte UID <br>
+</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Compatibility:</span>
+<div class="cell-content">✅ Proxmark / iCopy-X<br>✅ Flipper Zero<br>✅ LibNFC<br>✅ Android (MTools)</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Source:</span>
+<div class="cell-content">🛒 <a href="/collections/rfid-badges/products/desfire-compatible-emulator-uid-modifiable?variant=18448433545327">EV1, 4-Byte <b>Card</b></a><br>🛒 <a href="/collections/rfid-badges/products/desfire-compatible-emulator-uid-modifiable?variant=12212576780399">EV1, 7-Byte <b>Card</b></a><br>🛒 <a href="/collections/rfid-badges/products/desfire-compatible-emulator-uid-modifiable?variant=42949794398438">EV2, 7-Byte <b>Card</b></a><br>
+</div>
+</div>
+</div>
+<div class="table-row" data-chipset="MIFARE DESFire® Emulator">
+<div class="table-cell" data-column="chipset">
+<span class="cell-label">Chipset Type:</span>
+<div class="cell-content"><strong>MIFARE DESFire® UID / ATQA / SAK / ATS / APDU Emulator</strong></div>
+<div class="chipset-inherited"><br></div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Generation:</span>
+<div class="cell-content">-</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Features:</span>
+<div class="cell-content">Customisable UID / ATQA / SAK / ATS<br>Commands are APDU Commands (LibNFC Compatible)<br>
+</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Compatibility:</span>
+<div class="cell-content">✅ Proxmark / iCopy-X<br>❌ Flipper Zero<br>✅ LibNFC<br>✅ Android (MTools)</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Source:</span>
+<div class="cell-content">🛒 <a href="/collections/rfid-badges/products/mifare-desfire-ev2-compatible-modifiable-uid-atqa-sak-ats-apdu"><b>Card</b></a><br>
+</div>
+</div>
+</div>
+<div class="table-row" data-chipset="Icode SLi / SLix">
+<div class="table-cell" data-column="chipset">
+<span class="cell-label">Chipset Type:</span>
+<div class="cell-content"><strong>Icode SLi / SLix</strong></div>
+<div class="chipset-inherited"><br></div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Generation:</span>
+<div class="cell-content">Gen 1</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Features:</span>
+<div class="cell-content">Supported by Proxmark natively<br>Fixed memory size<br>Allows UID to be set</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Compatibility:</span>
+<div class="cell-content">✅ Proxmark / iCopy-X<br>✅ Flipper Zero<br>✅ LibNFC<br>✅ Mobile (MTools)</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Source:</span>
+<div class="cell-content">🛒 <a href="/collections/rfid-badges/products/icode-sli-slix-compatible-uid-modifiable"><b>Card</b></a>
+</div>
+</div>
+</div>
+<div class="table-row" data-chipset="Icode SLi / SLix">
+<div class="table-cell" data-column="chipset">
+<span class="cell-label">Chipset Type:</span>
+<div class="cell-content"><strong>Icode SLi / SLix</strong></div>
+<div class="chipset-inherited"><br></div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Generation:</span>
+<div class="cell-content">Gen 2</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Features:</span>
+<div class="cell-content">Supported by Proxmark natively<br>Requires special commands to be used with LibNFC<br>
+<ul>
+<li>UID Modification</li>
+<li>Card Size can be reconfigured: 16, 32 or 64 blocks.</li>
+</ul>
+</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Compatibility:</span>
+<div class="cell-content">✅ Proxmark / iCopy-X<br>❌ Flipper Zero<br>✅ LibNFC<br>✅ Mobile (MTools)</div>
+</div>
+<div class="table-cell">
+<span class="cell-label">Source:</span>
+<div class="cell-content">🛒 <a href="/collections/rfid-badges/products/icode-sli-gen2-uid-changeable-iso15693"><b>Sticker</b></a>
+</div>
+</div>
+</div>
+</div>
+<p><a href="#" class="back-to-top">↑ Back to top</a></p>
+<h2 id="low-frequency">Low Frequency Cards</h2>
+<h3 id="t55xx">T55xx</h3>
+<p>The temic T55xx/Atmel ATA5577 is the most commonly used chip for cloning LF RFIDs.</p>
+<h4>Characteristics</h4>
+<ul>
+<li>28/24 bytes of user memory (without/with password)</li>
+<li>Universal output settings (data rate, modulation, etc)</li>
+<li>Password protection (4 bytes), usually "19920427"</li>
+<li>Lock bits per page</li>
+<li>Analog frontend setup</li>
+<li>Other names:
+<ul>
+<li>5577</li>
+<li>5200 (CN) - Cut down version of T55xx chip</li>
+<li>H2 (RU) - Seems to be renamed 5200 chip</li>
+<li>RW125T5 (RU)</li>
+</ul>
+</li>
+</ul>
+<h4>Detect</h4>
+<pre><code>[usb] pm3 --&gt; lf search
+...
+[+] Chipset detection: T55xx</code></pre>
+<div class="note">
+<strong>Note:</strong> This will not work if you have a downlink mode other than fixed bit length!</div>
+<p><a href="#" class="back-to-top">↑ Back to top</a></p>
+<h3 id="em4x05">EM4x05</h3>
+<p>The EM4305 and EM4205 (and 4469/4569) chips are the 2nd most common used chips for cloning LF RFIDs. It is also used by HID Global (but with a custom chip) for HIDProx credentials.</p>
+<h4>Characteristics</h4>
+<ul>
+<li>36 bytes of user memory</li>
+<li>Output settings are limited (ASK only, FSK added on HID variant)</li>
+<li>Password protection (4 bytes), usually "84AC15E2"</li>
+<li>Lock page used</li>
+<li>Other names:
+<ul>
+<li>H3 (RU)</li>
+<li>RW125EM (RU)</li>
+</ul>
+</li>
+</ul>
+<h4>Detect</h4>
+<pre><code>[usb] pm3 --&gt; lf search
+...
+[+] Chipset detection: EM4x05 / EM4x69</code></pre>
+<p><a href="#" class="back-to-top">↑ Back to top</a></p>
+<h3 id="id82xx">ID82xx Series</h3>
+<p>These are custom Chinese chips mainly used to clone EM IDs. Often times, these are redesigned clones of Hitag chips.</p>
+<h4>ID8265</h4>
+<p>This is the cheapest and most common ID82xx chip available. It is usually sold as T55xx on AliExpress, with excuses to use cloners.</p>
+<p><strong>Characteristics:</strong></p>
+<ul>
+<li>Chip is likely a cut down version of Hitag µ (micro) clone</li>
+<li>UID <code>00 00 00 00 00 00</code>
+</li>
+<li>Password protection (4b), usually "00000000"(default) or "9AC4999C"(FURUI)</li>
+<li>Config block 0xFF</li>
+<li>Currently unimplemented in proxmark3 client</li>
+<li>Other names: ID8210 (CN), H-125 (CN), H5 (RU)</li>
+</ul>
+<h4>ID8211</h4>
+<p>This is an "improved" variant of ID82xx chips, bypassing some magic detection in China.</p>
+<p><strong>Characteristics:</strong></p>
+<ul>
+<li>Chip is likely a cut down version of Hitag S2048 clone</li>
+<li>No password protection</li>
+<li>Page 1 fully changeable, default: <code>CA 24 00 00</code>
+</li>
+<li>Pages 41-43 contain unknown readonly data</li>
+<li>Pages 44-63 readonly to <code>00 00 00 00</code>
+</li>
+</ul>
+<h4>ID-F8268</h4>
+<p>This is an "improved" variant of ID82xx chips, bypassing some magic detection in China.</p>
+<p><strong>Characteristics:</strong></p>
+<ul>
+<li>Chip is likely a cut down version of Hitag S2048 clone</li>
+<li>Password protection (4b), usually "BBDD3399"(default) or "AAAAAAAA"</li>
+<li>Page 1 fully changeable, default: <code>DA A4 00 00</code>
+</li>
+<li>Other names: F8278 (CN), F8310 (CN), K8678 manufactured by Hyctec</li>
+</ul>
+<p><a href="#" class="back-to-top">↑ Back to top</a></p>
+<h3 id="h-series">H Series</h3>
+<p>These are chips sold in Russia, manufactured by iKey LLC. Often times these are custom.</p>
+<h4>H1</h4>
+<p>Simplest EM ID cloning chip available. Officially discontinued.</p>
+<p><strong>Characteristics:</strong></p>
+<ul>
+<li>Currently almost all structure is unknown</li>
+<li>No locking or password protection</li>
+<li>"OTP" chip is same chip, but with EM ID of zeroes. Locked after first write</li>
+<li>Other names: RW64bit, RW125FL</li>
+</ul>
+<h4>H5.5 / H7</h4>
+<p>First "advanced" custom chip with H naming.</p>
+<p><strong>Characteristics:</strong></p>
+<ul>
+<li>Currently all structure is unknown</li>
+<li>No password protection</li>
+<li>Only supported by Russian "TMD"/"RFD" cloners</li>
+<li>H7 is advertised to work with "Stroymaster" access control</li>
+<li>Setting ID to "3F0096F87E" will make the chip show up like T55xx</li>
+</ul>
+<p><a href="#" class="back-to-top">↑ Back to top</a></p>
+<h2 id="iso14443a">ISO14443A Cards</h2>
+<h3>Identifying Broken ISO14443A Magic Cards</h3>
+<p>When a magic card configuration is really messed up and the card is not labeled, it may be hard to find out which type of card it is.</p>
+<p>Here are some tips if the card doesn't react or gives error on a simple <code>hf 14a reader</code>:</p>
+<p>Let's force a 4b UID anticollision and see what happens:</p>
+<pre><code>hf 14a config --atqa force --bcc ignore --cl2 skip --rats skip
+hf 14a reader</code></pre>
+<p>If it responds, we know it's a TypeA card. But maybe it's a 7b UID, so let's force a 7b UID anticollision:</p>
+<pre><code>hf 14a config --atqa force --bcc ignore --cl2 force --cl3 skip --rats skip
+hf 14a reader</code></pre>
+<p>At this stage, you know if it's a TypeA 4b or 7b card and you can check further on this page how to reconfigure different types of cards.</p>
+<p>To restore anticollision config of the Proxmark3:</p>
+<pre><code>hf 14a config --std</code></pre>
+<p><a href="#" class="back-to-top">↑ Back to top</a></p>
+<h2 id="mifare-classic">MIFARE Classic</h2>
+<p>Referred as M1, S50 (1k), S70 (4k)</p>
+<h3>MIFARE Classic Block 0</h3>
+<p><strong>UID 4b:</strong> (actually NUID as there are no more "unique" IDs on 4b)</p>
+<pre><code>11223344440804006263646566676869
+^^^^^^^^                         UID
+        ^^                       BCC
+          ^^                     SAK(*)
+            ^^^^                 ATQA
+                ^^^^^^^^^^^^^^^^ Manufacturer data</code></pre>
+<p><em>(*) some cards have a different SAK in their anticollision and in block0: +0x80 in the block0 (e.g. 08-&gt;88, 18-&gt;98)</em></p>
+<p>Computing BCC on UID 11223344: <code>analyse lrc -d 11223344</code> = <code>bf</code></p>
+<p><strong>UID 7b:</strong></p>
+<pre><code>04112233445566884400c82000000000
+^^                               Manufacturer byte
+^^^^^^^^^^^^^^                   UID
+              ^^                 SAK(*)
+                ^^^^             ATQA
+                    ^^^^^^^^^^^^ Manufacturer data</code></pre>
+<p><em>(*) all? cards have a different SAK in their anticollision and in block0: +0x80 in the block0 (e.g. 08-&gt;88, 18-&gt;98)</em></p>
+<p><a href="#" class="back-to-top">↑ Back to top</a></p>
+<h3>MIFARE Classic Gen1A (aka UID)</h3>
+<p>Other names: ZERO (RU)</p>
+<h4>Identify</h4>
+<pre><code>hf mf info
+...
+[+] Magic capabilities... Gen 1a</code></pre>
+<h4>Magic Commands</h4>
+<ul>
+<li>Wipe: <code>40(7)</code>, <code>41</code> (use 2000ms timeout)</li>
+<li>Read: <code>40(7)</code>, <code>43</code>, <code>30xx+crc</code>
+</li>
+<li>Write: <code>40(7)</code>, <code>43</code>, <code>A0xx+crc</code>, <code>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx+crc</code>
+</li>
+</ul>
+<h4>Characteristics</h4>
+<ul>
+<li>
+<strong>UID:</strong> Only 4b versions</li>
+<li>
+<strong>ATQA:</strong> all cards play blindly the block0 ATQA bytes, beware!</li>
+<li>
+<strong>SAK:</strong> behavior varies by flavour</li>
+<li>
+<strong>BCC:</strong> all cards play blindly the block0 BCC byte, beware!</li>
+<li>
+<strong>ATS:</strong> no card with ATS</li>
+</ul>
+<h4>Flavours</h4>
+<table>
+<tbody>
+<tr>
+<th>Flavour</th>
+<th>SAK</th>
+<th>PRNG</th>
+<th>Wipe</th>
+</tr>
+<tr>
+<td>1</td>
+<td>Play blindly block0 SAK</td>
+<td>static 01200145</td>
+<td>filled with 0xFF</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Play blindly block0 SAK</td>
+<td>static 01200145</td>
+<td>filled with 0x00</td>
+</tr>
+<tr>
+<td>3</td>
+<td>08</td>
+<td>static 01200145</td>
+<td>filled with 0xFF</td>
+</tr>
+<tr>
+<td>4</td>
+<td>08</td>
+<td>weak</td>
+<td>timeout, no wipe</td>
+</tr>
+<tr>
+<td>5</td>
+<td>08</td>
+<td>weak</td>
+<td>reply ok but no wipe</td>
+</tr>
+<tr>
+<td>6</td>
+<td>08 or 88 if block0_SAK MSB set</td>
+<td>weak</td>
+<td>timeout, no wipe</td>
+</tr>
+<tr>
+<td>7</td>
+<td>08 or 88 if block0_SAK MSB set</td>
+<td>weak</td>
+<td>filled with 0x00</td>
+</tr>
+</tbody>
+</table>
+<h4>Proxmark3 Commands</h4>
+<pre><code>hf mf csetuid
+hf mf cwipe
+hf mf csetblk
+hf mf cgetblk
+hf mf cgetsc
+hf mf cload
+hf mf csave
+hf mf cview</code></pre>
+<p>When "soft-bricked" (by writing invalid data in block0), these ones may help:</p>
+<pre><code># MFC Gen1A 1k:
+hf mf cwipe -u 11223344 -a 0004 -s 08
+# MFC Gen1A 4k:
+hf mf cwipe -u 11223344 -a 0044 -s 18</code></pre>
+<p>or just fixing block0:</p>
+<pre><code># MFC Gen1A 1k:
+hf mf csetuid -u 11223344 -a 0004 -s 08
+# MFC Gen1A 4k:
+hf mf csetuid -u 11223344 -a 0044 -s 18</code></pre>
+<p><a href="#" class="back-to-top">↑ Back to top</a></p>
+<h3>MIFARE Classic Gen1B</h3>
+<p>Similar to Gen1A, but supports directly read/write after command 40</p>
+<h4>Identify</h4>
+<pre><code>hf mf info
+...
+[+] Magic capabilities... Gen 1b</code></pre>
+<h4>Magic Commands</h4>
+<ul>
+<li>Read: <code>40(7)</code>, <code>30xx</code>
+</li>
+<li>Write: <code>40(7)</code>, <code>A0xx+crc</code>, <code>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx+crc</code>
+</li>
+</ul>
+<p><a href="#" class="back-to-top">↑ Back to top</a></p>
+<h3>MIFARE Classic DirectWrite (Gen2 / CUID)</h3>
+<p>Also referred as MCT compatible by some sellers</p>
+<p>Other names: MF-8 (RU), MF-3 (RU), MF-3.2 (RU)</p>
+<h4>Identify</h4>
+<pre><code>hf mf info
+...
+[+] Magic capabilities... Gen 2 / CUID</code></pre>
+<h4>Magic Commands</h4>
+<p>Android (MTools) compatible - issue regular write to block0</p>
+<h4>Characteristics</h4>
+<ul>
+<li>
+<strong>UID:</strong> 4b and 7b versions</li>
+<li>
+<strong>ATQA:</strong> some cards play blindly the block0 ATQA bytes, some use fixed ATQA</li>
+<li>
+<strong>SAK:</strong> some cards play blindly the block0 SAK byte, some use fixed SAK</li>
+<li>
+<strong>BCC:</strong> some cards play blindly the block0 BCC byte, some compute proper BCC</li>
+<li>
+<strong>ATS:</strong> some cards don't reply to RATS, some reply with an ATS</li>
+</ul>
+<h4>Proxmark3 Commands</h4>
+<pre><code>hf mf wrbl --blk 0 -k FFFFFFFFFFFF -d 11223344440804006263646566676869 --force
+hf mf wipe --gen2</code></pre>
+<p>When "soft-bricked", use <code>hf 14a config</code> to force ATQA/BCC settings.</p>
+<p><a href="#" class="back-to-top">↑ Back to top</a></p>
+<h3>MIFARE Classic Gen3 (APDU)</h3>
+<h4>Identify</h4>
+<pre><code>hf mf info
+...
+[+] Magic capabilities... Gen 3 / APDU ( possibly )</code></pre>
+<h4>Magic Commands</h4>
+<p>Android (MTools) compatible - issue special APDUs</p>
+<pre><code>cla  ins p1  p2  len
+ 90  F0  CC  CC  10 &lt;block0&gt;  - write block 0
+ 90  FB  CC  CC  07 &lt;uid&gt;     - change uid (independently of block0 data)
+ 90  FD  11  11  00           - lock permanently</code></pre>
+<h4>Characteristics</h4>
+<ul>
+<li>
+<strong>UID:</strong> 4b and 7b versions</li>
+<li>
+<strong>ATQA/SAK:</strong> fixed</li>
+<li>
+<strong>BCC:</strong> auto</li>
+<li>
+<strong>ATS:</strong> none</li>
+</ul>
+<h4>Proxmark3 Commands</h4>
+<pre><code># change just UID:
+hf mf gen3uid
+# write block0:
+hf mf gen3blk
+# lock (uid/block0?) forever:
+hf mf gen3freeze</code></pre>
+<p><a href="#" class="back-to-top">↑ Back to top</a></p>
+<h3>MIFARE Classic QL88</h3>
+<p>Tags designed for use with the "CopyKey X5" cloning device. These cards implement custom features as a form of rudimentary DRM (Digital Rights Management) to prevent the CopyKey from working with other blank tags. Manufactured by QinLin neighbor technology, these cards are named after their distinctive SAK value of 88 in Block 0.</p>
+<h4>Identify</h4>
+<pre><code>hf mf info
+...
+[=] --- PRNG Information
+[+] Prng................. hard</code></pre>
+<h4>Characteristics</h4>
+<ul>
+<li>
+<strong>UID:</strong> 4b versions</li>
+<li>
+<strong>ATQA/SAK:</strong> SAK value of 88 stored in Block 0 (not used during anticollision)</li>
+<li>
+<strong>BCC:</strong> computed</li>
+<li>
+<strong>ATS:</strong> none</li>
+<li>
+<strong>PRNG:</strong> hard</li>
+<li>
+<strong>Signature:</strong> Contains signature data in Sector 17</li>
+<li>
+<strong>Custom Keys:</strong> Sector 17 uses custom Key A (<code>0x2612C6DE84CA</code>) and Key B (<code>0x707B11FC1481</code>)</li>
+<li>
+<strong>Manufacturer Data:</strong> Block 0 always contains <code>88980020 000000F8</code>
+</li>
+<li>
+<strong>Sector 16:</strong> Fully user-writable</li>
+</ul>
+<div class="note">
+<strong>Note:</strong> The SAK value of 88 is only present in Block 0 and is not used during the anticollision sequence. This is a key identifying characteristic of QL88 cards.</div>
+<h4>Proxmark3 Commands</h4>
+<pre><code># Read Sector 17 with custom keys:
+hf mf rdsc --sec 17 -a 2612C6DE84CA -b 707B11FC1481
+# Verify manufacturer data in Block 0:
+hf mf rdbl --blk 0 -k FFFFFFFFFFFF</code></pre>
+<p><a href="#" class="back-to-top">↑ Back to top</a></p>
+<h3>MIFARE Classic HUID</h3>
+<p>A variation of the QL88 tag that appears to use a custom Key Derivation Function (KDF) for key generation. Despite the custom keying mechanism, the underlying structure and behavior remain similar to QL88 cards. Analysis suggests these are essentially CUID tags with custom keys applied.</p>
+<h4>Characteristics</h4>
+<ul>
+<li>
+<strong>UID:</strong> 4b versions</li>
+<li>
+<strong>Key Generation:</strong> Uses custom KDF (Key Derivation Function)</li>
+<li>
+<strong>Base Type:</strong> Appears to be CUID tag with custom keys</li>
+<li>
+<strong>Compatibility:</strong> Same key structure as QL88</li>
+</ul>
+<div class="note">
+<strong>Note:</strong> The exact Key Derivation Function used by HUID cards is not fully documented. However, the resulting key structure matches that of QL88 cards, suggesting a common origin or design philosophy.</div>
+<p><a href="#" class="back-to-top">↑ Back to top</a></p>
+<h3>MIFARE Classic USCUID</h3>
+<p>These magic cards have a 16 byte long configuration page, which usually starts with 0x85. All of the known tags using this configuration are listed here.</p>
+<div class="warning">
+<strong>Warning:</strong> You cannot turn a Classic tag into an Ultralight and vice-versa!</div>
+<h4>Characteristics</h4>
+<ul>
+<li>
+<strong>UID:</strong> 4/7 bytes</li>
+<li>
+<strong>ATQA:</strong> always read from block 0</li>
+<li>
+<strong>SAK:</strong> read from backdoor or configuration</li>
+<li>
+<strong>BCC:</strong> read from memory, beware!</li>
+<li>
+<strong>ATS:</strong> no/unknown</li>
+</ul>
+<h4>Identify</h4>
+<pre><code>hf mf info
+...
+[+] Magic capabilities... Gen 4 GDM / USCUID ( Magic Auth/Gen1 Magic Wakeup/Alt Magic Wakeup )</code></pre>
+<h4>Magic Commands</h4>
+<ul>
+<li>Magic authentication: select, <code>8000+crc</code>, <code>[Crypto1 Auth: 000000000000]</code>
+</li>
+<li>Magic wakeup (A: 00): <code>40(7)</code>, <code>43</code>
+</li>
+<li>Magic wakeup (B: 85): <code>20(7)</code>, <code>23</code>
+</li>
+<li>Backdoor read: <code>38xx+crc</code>
+</li>
+<li>Backdoor write: <code>A8xx+crc</code>, <code>[16 bytes data]+crc</code>
+</li>
+<li>Read configuration: <code>E000+crc</code>
+</li>
+<li>Write configuration: <code>E100+crc</code>, <code>[16 bytes data]+crc</code>
+</li>
+</ul>
+<h4>USCUID Configuration Guide</h4>
+<p>Configuration format:</p>
+<pre><code>85000000000000000000000000000008
+      ^^^^^^    ^^          ^^   &gt;&gt; ??? Mystery ???
+^^^^                             &gt;&gt; Gen1a mode (works with bitflip)
+    ^^                           &gt;&gt; Magic wakeup command (00 for 40-43; 85 for 20-23)
+            ^^                   &gt;&gt; Block use of Key B if readable by ACL
+              ^^                 &gt;&gt; CUID mode
+                  ^^             &gt;&gt; MFC EV1 CL2 Perso config
+                    ^^           &gt;&gt; Shadow mode
+                      ^^         &gt;&gt; Magic Auth command
+                        ^^       &gt;&gt; Static encrypted nonce mode
+                          ^^     &gt;&gt; Signature sector
+                              ^^ &gt;&gt; SAK</code></pre>
+<p>To enable an option, set it to 5A.</p>
+<h4>Proxmark3 Commands</h4>
+<pre><code># Read config block from card
+hf mf gdmcfg
+# Write config block to card
+hf mf gdmsetcfg
+# Parse config block to card
+hf mf gdmparsecfg
+# Write block to card
+hf mf gdmsetblk</code></pre>
+<h4>Known Variations</h4>
+<table>
+<tbody>
+<tr>
+<th>Factory Configuration</th>
+<th>Name</th>
+</tr>
+<tr>
+<td><code>850000000000000000005A5A00000008</code></td>
+<td>GDM</td>
+</tr>
+<tr>
+<td><code>850000000000005A00FF005A00000008</code></td>
+<td>GDCUID</td>
+</tr>
+<tr>
+<td><code>850000000000005A0000005A5A5A0008</code></td>
+<td>UCUID</td>
+</tr>
+<tr>
+<td><code>8500000000005A00005A005A005A0008</code></td>
+<td>"7 byte hard"</td>
+</tr>
+<tr>
+<td><code>7AFF850102015A00005A005A005A0008</code></td>
+<td>M1-7B</td>
+</tr>
+<tr>
+<td><code>7AFF85000000000000FF000000000008</code></td>
+<td>FUID</td>
+</tr>
+<tr>
+<td>
+<code>7AFF000000000000BAFA358500000008</code>*</td>
+<td>PFUID</td>
+</tr>
+<tr>
+<td><code>7AFF000000000000BAFA000000000008</code></td>
+<td>UFUID</td>
+</tr>
+<tr>
+<td><code>7AFF0000000000000000000000000008</code></td>
+<td>ZUID</td>
+</tr>
+</tbody>
+</table>
+<p><em>*Not all tags are the same! UFUID, ZUID and PFUID are not full implementations of USCUID.</em></p>
+<p><a href="#" class="back-to-top">↑ Back to top</a></p>
+<h3>MIFARE Classic Super</h3>
+<p>It behaves like regular Mifare Classic but records reader auth attempts.</p>
+<h4>MIFARE Classic Super Gen1</h4>
+<p>Old type of cards, hard to obtain. They are DirectWrite, UID can be changed via 0 block or backdoor commands.</p>
+<ul>
+<li>
+<strong>UID:</strong> 4b version</li>
+<li>
+<strong>ATQA/SAK:</strong> fixed</li>
+<li>
+<strong>BCC:</strong> auto</li>
+<li>
+<strong>ATS:</strong> fixed, 0978009102DABC1910F005</li>
+</ul>
+<p>ATQA/SAK matches 1k card, but works as 4k card.</p>
+<h4>MIFARE Classic Super Gen2</h4>
+<p>New generation of cards, based on limited Gen4 chip. Emulates Gen1 backdoor protocol, but can store up to 7 different traces.</p>
+<p>Card always answers <code>ff ff ff ff</code> as <code>at</code>, so reading/writing it via Mifare protocol is impossible.</p>
+<ul>
+<li>
+<strong>UID:</strong> 4b and 7b versions</li>
+<li>
+<strong>ATQA/SAK:</strong> fixed</li>
+<li>
+<strong>BCC:</strong> auto</li>
+<li>
+<strong>ATS:</strong> changeable, default as Gen1</li>
+</ul>
+<h4>Identify</h4>
+<pre><code>hf mf info
+...
+[+] Magic capabilities... Super card ( Gen ? )</code></pre>
+<h4>Proxmark3 Commands</h4>
+<pre><code>hf mf supercard</code></pre>
+<p><a href="#" class="back-to-top">↑ Back to top</a></p>
+<h2 id="mifare-ultralight">MIFARE Ultralight</h2>
+<h3>MIFARE Ultralight Blocks 0..2</h3>
+<pre><code>SN0  SN1  SN2  BCC0
+SN3  SN4  SN5  SN6
+BCC1 Int  LCK0 LCK1</code></pre>
+<p>UID is made of SN0..SN6 bytes</p>
+<p>Computing BCC0 on UID 04112233445566: <code>analyse lrc -d 88041122</code> = <code>bf</code></p>
+<p>Computing BCC1 on UID 04112233445566: <code>analyse lrc -d 33445566</code> = <code>44</code></p>
+<p>Int is internal, typically 0x48</p>
+<p>Anticol shortcut (CL1/3000) is supported for UL, ULC, NTAG except NTAG I2C</p>
+<p><a href="#" class="back-to-top">↑ Back to top</a></p>
+<h3>MIFARE Ultralight Gen1A</h3>
+<h4>Proxmark3 Commands</h4>
+<pre><code>script run hf_mfu_setuid -h</code></pre>
+<p>When "soft-bricked" (by writing invalid data in block0), these ones may help:</p>
+<pre><code>hf 14a config -h
+script run hf_mf_magicrevive -u</code></pre>
+<p><a href="#" class="back-to-top">↑ Back to top</a></p>
+<h3>MIFARE Ultralight DirectWrite</h3>
+<h4>Identify</h4>
+<pre><code>hf 14a info
+...
+[+] Magic capabilities : Gen 2 / CUID</code></pre>
+<p>It seems so far that all MFUL DW have an ATS response in factory configuration.</p>
+<h4>Magic Commands</h4>
+<p>Issue three regular MFU write commands in a row to write first three blocks.</p>
+<h4>Characteristics</h4>
+<ul>
+<li>
+<strong>UID:</strong> Only 7b versions</li>
+<li>
+<strong>ATQA:</strong> all cards play fix ATQA</li>
+<li>
+<strong>SAK:</strong> all cards play fix SAK</li>
+<li>
+<strong>BCC:</strong> some cards play blindly the block0 BCC0 and block2 BCC1 bytes, some compute proper BCC</li>
+<li>
+<strong>ATS:</strong> all cards reply with an ATS</li>
+</ul>
+<h4>Proxmark3 Commands</h4>
+<pre><code>hf mfu setuid -h</code></pre>
+<p>Equivalent: don't use <code>hf mfu wrbl</code> as you need to write three blocks in a row, but do, with proper BCCx:</p>
+<pre><code>hf 14a raw -s -c -k a2 00 041122bf
+hf 14a raw    -c -k a2 01 33445566
+hf 14a raw    -c    a2 02 44480000</code></pre>
+<h4>libnfc Commands</h4>
+<pre><code>nfc-mfultralight -h</code></pre>
+<p>See <code>--uid</code> and <code>--full</code></p>
+<h4>Android (MTools)</h4>
+<p>MIFARE++ Ultralight</p>
+<p><a href="#" class="back-to-top">↑ Back to top</a></p>
+<h3>MIFARE Ultralight EV1 DirectWrite</h3>
+<p>Similar to MFUL DirectWrite</p>
+<h4>Identify</h4>
+<pre><code>hf 14a info
+...
+[+] Magic capabilities : Gen 2 / CUID</code></pre>
+<h4>Characteristics</h4>
+<ul>
+<li>
+<strong>UID:</strong> Only 7b versions</li>
+<li>
+<strong>ATQA:</strong> all cards play fix ATQA</li>
+<li>
+<strong>SAK:</strong> all cards play fix SAK</li>
+<li>
+<strong>BCC:</strong> cards play blindly the block0 BCC0 and block2 BCC1 bytes, beware!</li>
+<li>
+<strong>ATS:</strong> all cards reply with an ATS</li>
+</ul>
+<p><a href="#" class="back-to-top">↑ Back to top</a></p>
+<h3>MIFARE Ultralight C Gen1A</h3>
+<p>Similar to MFUL Gen1A</p>
+<p><a href="#" class="back-to-top">↑ Back to top</a></p>
+<h3>MIFARE Ultralight C DirectWrite</h3>
+<p>Similar to MFUL DirectWrite</p>
+<h4>Identify</h4>
+<pre><code>hf 14a info
+...
+[+] Magic capabilities : Gen 2 / CUID</code></pre>
+<h4>Characteristics</h4>
+<ul>
+<li>
+<strong>UID:</strong> Only 7b versions</li>
+<li>
+<strong>ATQA:</strong> all cards play fix ATQA</li>
+<li>
+<strong>SAK:</strong> all cards play fix SAK</li>
+<li>
+<strong>BCC:</strong> cards compute proper BCC0 and BCC1 in anticollision</li>
+<li>
+<strong>ATS:</strong> all cards reply with an ATS</li>
+</ul>
+<p><a href="#" class="back-to-top">↑ Back to top</a></p>
+<h3>MIFARE Ultralight USCUID-UL</h3>
+<p>These magic cards, like the MFC USCUIDs have a 16 byte long configuration page, comprised of 4 blocks of 4 bytes each. This usually starts with 0x85.</p>
+<div class="warning">
+<strong>Warning:</strong> You cannot turn a Classic tag into an Ultralight and vice-versa!</div>
+<h4>Characteristics</h4>
+<ul>
+<li>
+<strong>UID:</strong> 7 bytes</li>
+<li>
+<strong>ATQA:</strong> always read from hidden block F6</li>
+<li>
+<strong>SAK:</strong> always read from hidden block F6</li>
+<li>
+<strong>BCC:</strong> read from blocks 0-1 per Ultralight specification</li>
+<li>
+<strong>ATS:</strong> These respond to an ATS request with the config page in factory mode</li>
+</ul>
+<h4>Identify</h4>
+<p>In factory config state:</p>
+<pre><code>hf 14a info
+...
+[=] -------------------------- ATS --------------------------
+[!] ATS may be corrupted. Length of ATS (18 bytes incl. 2 Bytes CRC) doesn't match TL
+[+] ATS: 85 00 85 A0 00 00 0A A5 00 04 04 02 01 00 0F 03 [ 07 00 ]</code></pre>
+<h4>Magic Commands</h4>
+<ul>
+<li>Magic wakeup (A: 00): <code>40(7)</code>, <code>43</code>
+</li>
+<li>Magic wakeup (B: 85): <code>20(7)</code>, <code>23</code>
+</li>
+<li>Backdoor read main and hidden block: <code>30xx+crc</code>
+</li>
+<li>Backdoor write main and hidden block: <code>A2xx[4 bytes data]+crc</code>
+</li>
+<li>Read configuration: <code>E050+crc</code>
+</li>
+<li>Write configuration: <code>E2[offset*4, 1b][data, 4b]+crc</code>
+</li>
+</ul>
+<h4>Known Variations</h4>
+<table>
+<tbody>
+<tr>
+<th>Factory Configuration</th>
+<th>Name</th>
+</tr>
+<tr>
+<td><code>850000A0 00000AC3 00040301 01000B03</code></td>
+<td>UL-11</td>
+</tr>
+<tr>
+<td><code>850000A0 00000A3C 00040301 01000E03</code></td>
+<td>UL-21</td>
+</tr>
+<tr>
+<td><code>850000A0 0A000A00 00000000 00000000</code></td>
+<td>UL-C</td>
+</tr>
+<tr>
+<td><code>850085A0 00000AA5 00040402 01000F03</code></td>
+<td>NTAG213</td>
+</tr>
+<tr>
+<td><code>850000A0 00000A5A 00040402 01001103</code></td>
+<td>NTAG215</td>
+</tr>
+<tr>
+<td><code>850000A0 00000AAA 00040402 01001303</code></td>
+<td>NTAG216</td>
+</tr>
+</tbody>
+</table>
+<p><a href="#" class="back-to-top">↑ Back to top</a></p>
+<h2 id="ntag">NTAG</h2>
+<h3>NTAG213 DirectWrite</h3>
+<p>Similar to MFUL DirectWrite</p>
+<h4>Identify</h4>
+<pre><code>hf 14a info
+...
+[+] Magic capabilities : Gen 2 / CUID</code></pre>
+<h4>Characteristics</h4>
+<ul>
+<li>
+<strong>UID:</strong> Only 7b versions</li>
+<li>
+<strong>ATQA:</strong> all cards play fix ATQA</li>
+<li>
+<strong>SAK:</strong> all cards play fix SAK</li>
+<li>
+<strong>BCC:</strong> cards play blindly the block0 BCC0 and block2 BCC1 bytes, beware!</li>
+<li>
+<strong>ATS:</strong> all cards reply with an ATS</li>
+</ul>
+<p><a href="#" class="back-to-top">↑ Back to top</a></p>
+<h3>NTAG21x</h3>
+<h4>Identify</h4>
+<pre><code>hf 14a info
+...
+[+] Magic capabilities : NTAG21x</code></pre>
+<h4>Characteristics</h4>
+<p>Emulates fully NTAG213, 213F, 215, 216, 216F</p>
+<p>Emulates partially UL EV1 48k/128k, NTAG210, NTAG212, NTAGI2C 1K/2K, NTAGI2C 1K/2K PLUS</p>
+<p>Anticol shortcut (CL1/3000): fails</p>
+<h4>Proxmark3 Commands</h4>
+<pre><code>script run hf_mfu_magicwrite -h</code></pre>
+<h4>Version and Signature</h4>
+<p>Don't forget configure maximum read/write blocks:</p>
+<pre><code>hf 14a raw -s -c -t 1000 CF000000006BFB</code></pre>
+<p>Note: 0xFB = 251</p>
+<p>Ultralight EV1 and NTAG Version info and Signature are stored respectively in blocks 250-251 and 242-249.</p>
+<p><a href="#" class="back-to-top">↑ Back to top</a></p>
+<h2 id="desfire">DESFire</h2>
+<h3>"DESFire" APDU, 7b UID</h3>
+<h4>Magic Commands</h4>
+<p>Android (MTools) compatible - issue special APDUs</p>
+<h4>Characteristics</h4>
+<ul>
+<li>
+<strong>ATQA:</strong> 0344</li>
+<li>
+<strong>SAK:</strong> 20</li>
+<li>
+<strong>ATS:</strong> 0675338102005110 or 06757781028002F0</li>
+</ul>
+<p>Only mimics DESFire anticollision (but wrong ATS), no further DESFire support</p>
+<h4>Proxmark3 Commands</h4>
+<p>UID 04112233445566</p>
+<pre><code>hf 14a raw -s -c 0200ab00000704112233445566</code></pre>
+<p>or equivalently</p>
+<pre><code>hf 14a apdu -s 00ab00000704112233445566</code></pre>
+<p><a href="#" class="back-to-top">↑ Back to top</a></p>
+<h3>"DESFire" APDU, 4b UID</h3>
+<h4>Magic Commands</h4>
+<p>Android (MTools) compatible - issue special APDUs</p>
+<h4>Characteristics</h4>
+<ul>
+<li>
+<strong>ATQA:</strong> 0008 (This is FM1208-9, NOT DESFire!)</li>
+<li>
+<strong>SAK:</strong> 20</li>
+<li>
+<strong>ATS:</strong> 0675338102005110 or 06757781028002F0</li>
+</ul>
+<p>Only mimics DESFire anticollision (but wrong ATS), no further DESFire support</p>
+<h4>Proxmark3 Commands</h4>
+<p>UID 04112233445566</p>
+<pre><code>hf 14a raw -s -c 0200ab00000411223344</code></pre>
+<p>or equivalently</p>
+<pre><code>hf 14a apdu -s 00ab00000411223344</code></pre>
+<p><a href="#" class="back-to-top">↑ Back to top</a></p>
+<h2 id="iso14443b">ISO14443B</h2>
+<h3>Tiananxin TCOS CPU Card</h3>
+<p>This is a card sold on Taobao for testing readers. ISO14443-4 compliant.</p>
+<h4>Identify</h4>
+<pre><code>hf 14a apdu -s 90B2900000 // Get Card OS version
+&gt;&gt;&gt; 90 B2 90 00 00
+&lt;&lt;&lt; 54 43 4F 53 20 56 31 2E 34 2E 30 90 00 | TCOS V1.4.0..</code></pre>
+<h4>Magic Commands</h4>
+<p>All commands in APDU.</p>
+<pre><code>CL IN P1 P2 Lc Data
+90 F4 CC CC 01 [..1 ] // Change protocol used              (1: ISO14443 [AA - type A, BB - type B])
+90 F6 CC CC 01 [TA1 ] // Change TA1 value (transfer speed)
+90 F8 CC CC 01 [..1 ] // Use random UID/PUPI value         (1: FF: static, AB: random)
+90 F8 DD DD 01 [..1 ] // Set UID length                    (1: bytes in UID (04, 07, 0A for 4, 7, 10 bytes accordingly))
+90 F8 EE EE 0B [... ] // Set UID/PUPI value                (FF+enter UID value here). To clear, use Lc=01; data=00.
+90 FA CC CC 01 [FSCI] // Set FSCI                          (1: value 0-8)
+90 FC CC CC 01 [SFGI] // Set SFGI (DO NOT SET TOO HIGH!)   (1: value 0-E)
+90 FE CC CC 01 [FWI ] //  FWI (DO NOT SET BELOW 4!!!)   (value 0-E)</code></pre>
+<p><a href="#" class="back-to-top">↑ Back to top</a></p>
+<h2 id="iso15693">ISO15693</h2>
+<h3>ISO15693 Magic</h3>
+<h4>Proxmark3 Commands</h4>
+<p>Always set a UID starting with <code>E0</code>.</p>
+<pre><code>hf 15 csetuid E011223344556677</code></pre>
+<p>or (ignore errors):</p>
+<pre><code>script run hf_15_magic -u E004013344556677</code></pre>
+<p><a href="#" class="back-to-top">↑ Back to top</a></p>
+<h2 id="multi">Multi-Protocol Cards</h2>
+<h2 id="umc">Ultimate Magic Card (UMC)</h2>
+<p>A.k.a ultimate magic card, most prominent feature is shadow mode (GTU) and optional password protected backdoor commands.</p>
+<p>Can emulate MIFARE Classic, Ultralight/NTAG families, 14b UID &amp; App Data.</p>
+<h3>Identify</h3>
+<div class="note">
+<strong>Note:</strong> If the password is not default, Tag doesn't get identified correctly by latest Proxmark3 client (it might get mislabeled as MFC Gen2/CUID, Gen3/APDU or NTAG21x Modifiable, depending on configured UID/ATQA/SAK/ATS)</div>
+<pre><code>hf 14a info
+[+] Magic capabilities : Gen 4 GTU</code></pre>
+<p>The card will be identified only if the password is the default one. One can identify manually such card if the password is still the default one, with the command to get the current configuration:</p>
+<pre><code>hf 14a raw -s -c -t 1000 CF00000000C6</code></pre>
+<p>If the card is an Ultimate Magic Card, it returns 30 or 32 bytes.</p>
+<h3>Magic Commands</h3>
+<p>There are two ways to program this card:</p>
+<ol>
+<li>Use the raw commands designated by the <code>hf 14a</code> examples.</li>
+<li>Use the hf_mf_ultimatecard.lua script commands. This script is not fully compatible with new version UMC.</li>
+</ol>
+<p>Special raw commands summary:</p>
+<pre><code>CF &lt;passwd&gt; 32 &lt;00-04&gt;                           // Configure GTU shadow mode
+CF &lt;passwd&gt; 34 &lt;1b length&gt;&lt;0-16b ATS&gt;            // Configure ATS
+CF &lt;passwd&gt; 35 &lt;2b ATQA&gt;&lt;1b SAK&gt;                 // Configure ATQA/SAK (swap ATQA bytes)
+CF &lt;passwd&gt; 68 &lt;00-02&gt;                           // Configure UID length
+CF &lt;passwd&gt; 69 &lt;00-01&gt;                           // (De)Activate Ultralight mode
+CF &lt;passwd&gt; 6A &lt;00-03&gt;                           // Select Ultralight mode
+CF &lt;passwd&gt; 6B &lt;1b&gt;                              // Set Ultralight and M1 maximum read/write sectors
+CF &lt;passwd&gt; C6                                   // Dump configuration
+CF &lt;passwd&gt; CC                                   // Version info, returns `00 00 00 [03 A0 (old) / 06 A0 (new) ]`
+CF &lt;passwd&gt; CD &lt;1b block number&gt;&lt;16b block data&gt; // Backdoor write 16b block
+CF &lt;passwd&gt; CE &lt;1b block number&gt;                 // Backdoor read 16b block
+CF &lt;passwd&gt; CF &lt;1b param&gt;                        // (De)Activate direct write to block 0
+CF &lt;passwd&gt; F0 &lt;30b configuration data&gt;          // Configure all params in one cmd
+CF &lt;passwd&gt; F1 &lt;30b configuration data&gt;          // Configure all params in one cmd and fuse the configuration permanently
+CF &lt;passwd&gt; FE &lt;4b new_password&gt;                 // change password</code></pre>
+<p>Default <code>&lt;passwd&gt;</code>: <code>00000000</code></p>
+<h3>Characteristics</h3>
+<ul>
+<li>
+<strong>UID:</strong> 4b, 7b and 10b versions</li>
+<li>
+<strong>ATQA/SAK:</strong> changeable</li>
+<li>
+<strong>BCC:</strong> computed</li>
+<li>
+<strong>ATS:</strong> changeable, can be disabled</li>
+<li>
+<strong>Card Type:</strong> changeable</li>
+<li>
+<strong>Shadow mode:</strong> GTU</li>
+<li><strong>Backdoor password mode</strong></li>
+</ul>
+<h3>Proxmark3 Commands</h3>
+<pre><code># view contents of tag memory:
+hf mf gview
+# Read a specific block via backdoor command:
+hf mf ggetblk
+# Write a specific block via backdoor command:
+hf mf gsetblk
+# Load dump to tag:
+hf mf gload
+# Save dump from tag:
+hf mf gsave</code></pre>
+<h3>Change ATQA / SAK</h3>
+<pre><code>hf 14a raw -s -c -t 1000 CF&lt;passwd&gt;35&lt;2b ATQA&gt;&lt;1b SAK&gt;</code></pre>
+<div class="warning">
+<strong>Warning:</strong>
+<ul>
+<li>ATQA bytes are swapped in the command</li>
+<li>ATQA bytes that result in <code>iso14443a card select failed</code> can be corrected with <code>hf 14a config --atqa force</code>
+</li>
+<li>When SAK bit 6 is set (e.g. SAK=20 or 28), ATS must be turned on, otherwise the card may not be recognized by some readers!</li>
+<li>Never set SAK bit 3 (e.g. SAK=04), it indicates an extra cascade level is required</li>
+</ul>
+</div>
+<p>Example: ATQA 0044 SAK 28, default pwd</p>
+<pre><code>hf 14a raw -s -c -t 1000 CF0000000035440028</code></pre>
+<p>OR (Note the script will correct the ATQA correctly)</p>
+<pre><code>script run hf_mf_ultimatecard -q 004428</code></pre>
+<h3>Change ATS</h3>
+<pre><code>hf 14a raw -s -c -t 1000 CF&lt;passwd&gt;34&lt;1b length&gt;&lt;0-16b ATS&gt;</code></pre>
+<ul>
+<li>
+<code>&lt;length&gt;</code>: ATS length byte, set to <code>00</code> to disable ATS</li>
+<li>When SAK bit 6 is set (e.g. SAK=20 or 28), ATS must be turned on</li>
+<li>ATS CRC will be added automatically, don't configure it</li>
+<li>Max ATS length: 16 bytes (+CRC)</li>
+</ul>
+<p>Example: ATS to 0606757781028002F0, default pwd</p>
+<pre><code>hf 14a raw -s -c -t 1000 CF000000003406067577810280</code></pre>
+<p>Or</p>
+<pre><code>script run hf_mf_ultimatecard -z 06067577810280</code></pre>
+<h3>Set UID Length (4, 7, 10)</h3>
+<pre><code>hf 14a raw -s -c -t 1000 CF&lt;passwd&gt;68&lt;1b param&gt;</code></pre>
+<ul>
+<li>
+<code>&lt;param&gt;</code>
+<ul>
+<li>
+<code>00</code>: 4 bytes</li>
+<li>
+<code>01</code>: 7 bytes</li>
+<li>
+<code>02</code>: 10 bytes</li>
+</ul>
+</li>
+</ul>
+<p>Example: set UID length to 7 bytes, default pwd</p>
+<pre><code>hf 14a raw -s -c -t 1000 CF000000006801</code></pre>
+<h3>Set 14443A UID</h3>
+<p>UID is configured according to block0 with a backdoor write.</p>
+<p>Example: preparing first two blocks:</p>
+<pre><code>hf 14a raw -s -c -t 1000 CF00000000CD00000102030405060708090A0B0C0D0E0F
+hf 14a raw -s -c -t 1000 CF00000000CD01101112131415161718191A1B1C1D1E1F
+hf 14a reader</code></pre>
+<p><strong>MFC mode 4b UID</strong></p>
+<p>⇒ UID <code>00010203</code></p>
+<pre><code>script run hf_mf_ultimatecard -t 4 -u 00010203</code></pre>
+<p><strong>MFC mode 7b UID</strong></p>
+<p>⇒ UID <code>00010203040506</code></p>
+<pre><code>script run hf_mf_ultimatecard -t 5 -u 00010203040506</code></pre>
+<p><strong>MFC mode, 10b UID</strong></p>
+<p>⇒ UID <code>00010203040506070809</code></p>
+<pre><code>script run hf_mf_ultimatecard -t 6 -u 00010203040506070809</code></pre>
+<h3>(De)Activate Ultralight Mode</h3>
+<pre><code>hf 14a raw -s -c -t 1000 CF&lt;passwd&gt;69&lt;1b param&gt;</code></pre>
+<ul>
+<li>
+<code>&lt;param&gt;</code>
+<ul>
+<li>
+<code>00</code>: MIFARE Classic mode</li>
+<li>
+<code>01</code>: MIFARE Ultralight/NTAG mode</li>
+</ul>
+</li>
+</ul>
+<p>Example: activate Ultralight protocol, default pwd</p>
+<pre><code>hf 14a raw -s -c -t 1000 CF000000006901</code></pre>
+<p>Or</p>
+<pre><code>script run hf_mf_ultimatecard -n 01</code></pre>
+<p>In this mode, if SAK=<code>00</code> and ATQA=<code>0044</code>, it acts as an Ultralight card</p>
+<div class="warning">
+<strong>Warning:</strong> Only the first four bytes of each block will be mapped in the Ultralight memory map (so the Ultralight block numbers follow backdoor R/W block numbers).</div>
+<h3>Select Ultralight Mode</h3>
+<pre><code>hf 14a raw -s -c -t 1000 CF&lt;passwd&gt;6A&lt;1b param&gt;</code></pre>
+<ul>
+<li>
+<code>&lt;param&gt;</code>
+<ul>
+<li>
+<code>00</code>: UL EV1</li>
+<li>
+<code>01</code>: NTAG</li>
+<li>
+<code>02</code>: UL-C</li>
+<li>
+<code>03</code>: UL</li>
+</ul>
+</li>
+</ul>
+<div class="warning">
+<strong>Warning:</strong> It supposes Ultralight mode was activated (cf command <code>69</code>)</div>
+<p>Example: set Ultralight mode to Ultralight-C, default pwd</p>
+<pre><code>hf 14a raw -s -c -t 1000 CF000000006A02</code></pre>
+<p>Or</p>
+<pre><code>script run hf_mf_ultimatecard -m 02</code></pre>
+<p>Now the card supports the 3DES UL-C authentication.</p>
+<h3>Set Shadow Mode (GTU)</h3>
+<pre><code>hf 14a raw -s -c -t 1000 CF&lt;passwd&gt;32&lt;1b param&gt;</code></pre>
+<ul>
+<li>
+<code>&lt;param&gt;</code>
+<ul>
+<li>
+<code>00</code>: pre-write, shadow data can be written</li>
+<li>
+<code>01</code>: restore mode (WARNING: new UMC (06a0) cards return garbage data when using 01)</li>
+<li>
+<code>02</code>: disabled</li>
+<li>
+<code>03</code>: disabled, high speed R/W mode for Ultralight?</li>
+<li>
+<code>04</code>: split mode, work with new UMC. With old UMC is untested.</li>
+</ul>
+</li>
+</ul>
+<h3>Direct Block Read and Write</h3>
+<p>Using the backdoor command, one can read and write any area without MFC password, similarly to MFC Gen1 card.</p>
+<p><strong>Backdoor read 16b block:</strong></p>
+<pre><code>hf 14a raw -s -c -t 1000 CF&lt;passwd&gt;CE&lt;1b block number&gt;</code></pre>
+<p><strong>Backdoor write 16b block:</strong></p>
+<pre><code>hf 14a raw -s -c -t 1000 CF&lt;passwd&gt;CD&lt;1b block number&gt;&lt;16b block data&gt;</code></pre>
+<p>Read/Write operations work on 16 bytes, no matter the Ultralight mode.</p>
+<p>Example: read block0, default pwd</p>
+<pre><code>hf 14a raw -s -c -t 1000 CF00000000CE00</code></pre>
+<p>Example: write block0 with factory data, default pwd</p>
+<pre><code>hf 14a raw -s -c -t 1000 CF00000000CD00112233441C000011778185BA18000000</code></pre>
+<h3>(De)Activate Direct Write to Block 0</h3>
+<p>This command enables/disables direct writes to block 0.</p>
+<pre><code>hf 14a raw -s -c -t 1000 CF&lt;passwd&gt;CF&lt;1b param&gt;</code></pre>
+<ul>
+<li>
+<code>&lt;param&gt;</code>
+<ul>
+<li>
+<code>00</code>: Activate direct write to block 0 (Same behaviour of Gen2 cards. Some readers may identify the card as magic)</li>
+<li>
+<code>01</code>: Deactivate direct write to block 0 (Same behaviour of vanilla cards)</li>
+<li>
+<code>02</code>: Default value. (Same behaviour as <code>00</code> (?))</li>
+</ul>
+</li>
+</ul>
+<h3>Change Backdoor Password</h3>
+<p>All backdoor operations are protected by a password. If password is forgotten, it can't be recovered. Default password is <code>00000000</code>.</p>
+<div class="warning">
+<strong>Warning:</strong> New UMC (06A0) returns 6300 when issuing password change command. Please write the password using F0 and entering the full configuration, but with the new password.</div>
+<p>Change password:</p>
+<pre><code>hf 14a raw -s -c -t 1000 CF &lt;passwd&gt; FE &lt;4b new_password&gt;</code></pre>
+<p>Example: change password from 00000000 to AABBCCDD</p>
+<pre><code>hf 14a raw -s -c -t 1000 CF00000000FEAABBCCDD</code></pre>
+<h3>Dump Configuration</h3>
+<pre><code>hf 14a raw -s -c -t 1000 CF&lt;passwd&gt;C6</code></pre>
+<p>Default configuration:</p>
+<pre><code>00000000000002000978009102DABC191010111213141516040008006B024F6B
+                                                            ^^^^ CRC, type unknown
+                                                          ^^ cf cmd cf: block0 direct write setting
+                                                        ^^ cf cmd 6b: maximum read/write sectors
+                                                      ^^ cf cmd 6a: UL mode
+                                                ^^^^^^ cf cmd 35: ATQA/SAK
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ cf cmd 34: ATS length &amp; content
+            ^^ cf cmd 32: GTU mode
+    ^^^^^^^^ cf cmd fe: password
+  ^^ cf cmd 68: UID length
+^^ cf cmd 69: Ultralight protocol</code></pre>
+<h3>Fast Configuration</h3>
+<pre><code>hf 14a raw -s -c -t 1000 CF&lt;passwd&gt;F0&lt;30b configuration data&gt;</code></pre>
+<p>See <strong>Dump configuration</strong> for configuration data description.</p>
+<p>Example: Write factory configuration, using default password</p>
+<pre><code>hf 14a raw -s -c -t 1000 CF00000000F000000000000002000978009102DABC191010111213141516040008004F6B</code></pre>
+<div class="warning">
+<strong>Warning:</strong> Variant with command <code>F1</code> instead of <code>F0</code> will set and fuse permanently the configuration. Backdoor R/W will still work.</div>
+<h3>Presets</h3>
+<p>Here are some presets available in the FuseTool (but with all ATS disabled)</p>
+<p><strong>MIFARE Mini S20 4-byte UID</strong></p>
+<pre><code>hf 14a raw -s -c -t 1000 CF00000000F000000000000002000978009102DABC19101011121314151604000900</code></pre>
+<p><strong>MIFARE Mini S20 7-byte UID</strong></p>
+<pre><code>hf 14a raw -s -c -t 1000 CF00000000F000010000000002000978009102DABC19101011121314151644000900</code></pre>
+<p><strong>MIFARE 1k S50 4-byte UID</strong> (this is the factory setting)</p>
+<pre><code>hf 14a raw -s -c -t 1000 CF00000000F000000000000002000978009102DABC19101011121314151604000800</code></pre>
+<p><strong>MIFARE 1k S50 7-byte UID</strong></p>
+<pre><code>hf 14a raw -s -c -t 1000 CF00000000F000010000000002000978009102DABC19101011121314151644000800</code></pre>
+<p><strong>MIFARE 4k S70 4-byte UID</strong></p>
+<pre><code>hf 14a raw -s -c -t 1000 CF00000000F000000000000002000978009102DABC19101011121314151602001800</code></pre>
+<p><strong>MIFARE 4k S70 7 byte UID</strong></p>
+<pre><code>hf 14a raw -s -c -t 1000 CF00000000F000010000000002000978009102DABC19101011121314151642001800</code></pre>
+<p><strong>Ultralight</strong></p>
+<pre><code>hf 14a raw -s -c -t 1000 CF00000000F001010000000003000978009102DABC19101011121314151644000003FB</code></pre>
+<p><strong>Ultralight-C</strong></p>
+<pre><code>hf 14a raw -s -c -t 1000 CF00000000F001010000000003000978009102DABC19101011121314151644000002FB</code></pre>
+<p><strong>Ultralight EV1</strong></p>
+<pre><code>hf 14a raw -s -c -t 1000 CF00000000F001010000000003000978009102DABC19101011121314151644000000FB</code></pre>
+<p><strong>NTAG21x</strong></p>
+<pre><code>hf 14a raw -s -c -t 1000 CF00000000F001010000000003000978009102DABC19101011121314151644000001FB</code></pre>
+<p><a href="#" class="back-to-top">↑ Back to top</a></p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/academy/pentestips-multi-rfid-keyfob</id>
+    <published>2021-04-23T00:00:00+02:00</published>
+    <updated>2021-04-23T00:00:00+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/pentestips-multi-rfid-keyfob"/>
+    <title>#Pentestips : Multi RFID Keyfob</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <content type="html">
+      <![CDATA[<p>This week's pentestip introduces the <a href="https://lab401.com/products/multi-rfid-keyfob">Multi RFID Keyfob</a>: the "Emergency Chameleon" device.</p>
+<p>The Multi-RFID keyfob is an ingenious low-tech, low-cost solution:  It contains six independant RFID tags: 3x Low Frequency T5577 ("Universal" LF Tags) and 3x MIFARE Classic® Compatible 1K UID Modifiable DirectWrite / Gen2 Tags (Android Compatible).</p>
+<p>We introduce why this tool is a key-chain must-have for pentesters.</p>
+<p>Check back every Friday for a new video. If you've got a tip that you'd like to see featured, just send us a <a href="https://twitter.com/Lab_401" target="_blank" rel="noopener noreferrer">tweet</a>.</p>
+<p><iframe src="https://www.youtube.com/embed/X0NfcHMGlHk" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="1210" height="551" frameborder="0"></iframe></p>]]>
+    </content>
+  </entry>
+</feed>

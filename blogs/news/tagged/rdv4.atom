@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/news.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/news/tagged/rdv4.atom"/>
+  <title>Lab401 - News</title>
+  <updated>2026-04-22T16:48:54+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/news/proxmark-3-rdv4-released-1</id>
+    <published>2018-07-23T16:29:00+02:00</published>
+    <updated>2018-07-23T16:31:45+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/proxmark-3-rdv4-released-1"/>
+    <title>Proxmark 3 RDV4 Released!</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[The Proxmark 3 RDV4 is finally available, launching simultaneously online and at DEF CON 26. For more information about this amazing device, read on!<p><a class="read-more" href="https://lab401.com/blogs/news/proxmark-3-rdv4-released-1">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>After an incredibly successful <a href="https://www.kickstarter.com/projects/1408815241/proxmark3-rdv-40">Kickstarter campaign</a>, the <a href="/collections/hardware/products/proxmark-3-rdv4">Proxmark 3 RDV4</a> is ready for world-wide release at DEF CON 26, and online with Lab401.</p>
+<p>Representing the cumulation of years of hard work and expertise, the Proxmark 3 RDV4 is an entirely refreshed and miniaturised version of the RDV2, boasting a tiny footprint, new functionality, increased stability, and assertive pentesting features.</p>
+<ul>
+<li>New: Additional 2MBit Flash Storage</li>
+<li>New: SIM/SAM reader/writer</li>
+<li>New: External Module Interface, for BLE/Wifi</li>
+<li>New: Pre-tuned, internal antennas</li>
+<li>New: Hot-swappable antennas: Medium + Long Range</li>
+<li>New: External Case<br><br>
+</li>
+<li>Improved: Optimised size, now the size of a stack of 10 business cards</li>
+<li>Improved: Antenna stability and performance</li>
+<li>Improved: Interface: 4x Status LEDs, 4x Power LEDs</li>
+</ul>
+<p>If you're attending DEF CON 26, you can pick up a Proxmark 3 RDV4 at the Hacker Warehouse stand, or you can <a href="/collections/hardware/products/proxmark-3-rdv4">pre-order now from Lab401.</a></p>
+<p>Shipments start on August 9, the same date as DEF CON.</p>]]>
+    </content>
+  </entry>
+</feed>

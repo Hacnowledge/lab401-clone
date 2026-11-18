@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/academy.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/academy/tagged/lab401.atom"/>
+  <title>Lab401 - Academy</title>
+  <updated>2026-06-04T15:04:58+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/academy/pentestips-know-your-badusb</id>
+    <published>2021-08-13T16:49:29+02:00</published>
+    <updated>2021-08-13T17:00:18+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/pentestips-know-your-badusb"/>
+    <title>#pentestips: Know your &quot;BadUSB&quot;</title>
+    <author>
+      <name>Lab401 Lee</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<span><strong>"BadUSB"</strong> devices are innocent-looking USB-based devices that have ulterior motives and are typically found in every pentester's toolkit. today we learn a little more about them in <strong>#pentestips</strong>.</span><p><a class="read-more" href="https://lab401.com/blogs/academy/pentestips-know-your-badusb">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p data-pm-slice="1 1 []">"BadUSB" devices are innocent-looking USB-based devices that have ulterior motives and are typically found in every pentester's toolkit.</p>
+<p>Today’s #pentestips episode is called: Know your BadUSB Devices</p>
+<p> <iframe width="560" height="315" src="https://www.youtube.com/embed/vVX-akQmQpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></p>
+<p>When you plug hardware into a computer, it typically needs to be manually approved and installed.</p>
+<p>But if you're trying to install a device like a keyboard or a mouse - how do you install it if you're unable to click or type?</p>
+<p>To solve this paradox, a new class of devices was designed : the <strong>"HID"</strong>, or "Human Interface Devices" <br>Specific types of hardware automatically install without any interaction from the user: Input Devices (Keyboard, Mouse), Storage (Hard-drives, USB-Drives), Network (Ethernet adaptors).</p>
+<p><strong>Getting Devious</strong><br>The "BadUSB" family of devices takes advantage of this system by emulating HID devices.<br>When plugged in, they can pretend to be a keyboard, a mouse, a storage device, etc - simultaneously. And because they're not limited by fingers, they can "type" and "click" incredibly quickly.</p>
+<p>BadUSB devices are used for multiple purposes: from delivering 'payloads' to exfiltrate or gain access to data during red-team assessments to automating boring tasks for sys-admins.</p>
+<p>At Lab401, we've got multiple types of BadUSB devices, each with different characteristics.</p>
+<p><strong>Rubber Ducky</strong></p>
+<p><strong><a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqa3RoTXJfeVNhRVFNcVdXYUwyMVJGZ3BaQzVjQXxBQ3Jtc0tuYkFKVEZGVVRWaThlWEhZdzdrTk9GeDFTOXBkamx2dGMzSUJ1cGZFYk9DZ1lxYzFMTnVoNTVLNzhiM2dhandhY3lhYnYtaWZraHpZYWt2ZUpqbDltbXdpNjZWSVFadE5pM0JMTkdkUEk2MzFIQkdkTQ&amp;q=https%3A%2F%2Flab401.com%2Fproducts%2Frubber-ducky" rel="nofollow noopener noreferrer" target="_blank" dir="auto">https://lab401.com/products/rubber-ducky</a></strong></p>
+<p><br>Conceived in 2010, the Rubber Ducky is the grandfather of BadUSB devices. It can emulate both storage and keyboard strokes, allowing for payloads to exfiltrate data from computers.</p>
+<p>The Rubber Ducky is easily programmed with "Ducky Script", a simple scripting language, and enjoys an active community with hundreds of pre-made Payloads.</p>
+<p><strong>USBNinja</strong></p>
+<p><strong><a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqa0JpNUEzN0VPTGpNQ0gtMGpSdTJLR0JIa1ItZ3xBQ3Jtc0tueFRxZmV5b0d2bjhUbEhmc3FlaDYtcjBMWVUwUjl5T3l6TDlRYTNKVVdHcExobW1kTnpwRi1yUlNONUxGV2pPVVEzejZPR1Buend3clhrQUNXUTBIaEhHRHdjNmlrR2lVZU1sUHg0OXU1WTFmWHpXQQ&amp;q=https%3A%2F%2Flab401.com%2Fproducts%2Fusbninja" rel="nofollow noopener noreferrer" target="_blank" dir="auto">https://lab401.com/products/usbninja</a></strong></p>
+<p><br>The USBNinja is a highly miniaturized, highly covert version of the Rubber Ducky.<br>Inspired by the NSA Project "COTTONMOUTH", the entire device is hidden inside a USB cable and controlled wirelessly.</p>
+<p>Besides avoiding suspicion during red-team assessments, it also allows for long-term implants - how often do you change your keyboard's USB cable?</p>
+<p>The USBNinja has iOS/Android apps, can be updated over the air, used in real-time mode, exfiltrate data, self-destruct, and more importantly - acts as a real USB cable, supporting USB-3, Lightning, USB-C, QuickCharge technologies, etc.</p>
+<p><strong>InputStick RAT</strong></p>
+<p><strong><a href="https://lab401.com/products/inputstick-rat">https://lab401.com/products/inputstick-ra</a>t</strong></p>
+<p><br>The InputStick takes a different approach from the other devices. It's designed as a wireless, real-time keyboard and mouse tool. Once the InputStick is plugged in, the user can control the host device via the included Windows/Android/iOS applications.</p>
+<p>The 'real-time' / non-payload nature of the device allows for situations where timing is important (waiting for a specific situation), or simply remote administration of devices.</p>
+<p>It also supports macros for an 'entry-level' payload system.</p>
+<p><strong>Summing up</strong><br>Which device is perfect for you depends completely on your task and budget.</p>
+<ul class="ak-ul">
+<li>
+<p>If you need automation, but don't need wireless control</p>
+</li>
+<li>
+<p>If you don't need to make permanent implants</p>
+</li>
+<li>
+<p>Want to benefit from hundreds of pre-written payloads<br><span style="color: #ff8000;"><strong>We recommend the RUBBER DUCKY</strong></span></p>
+</li>
+<li>
+<p>If you need automation and wireless control.</p>
+</li>
+<li>
+<p>If you need highly covert implants and advanced options such as over-the-air updates.<br><strong><span style="color: #ff8000;">We recommend the USBNINJA PROFESSIONAL</span></strong></p>
+</li>
+<li>
+<p>If you don't need to exfiltrate data</p>
+</li>
+<li>
+<p>If you need real-time control/mouse control</p>
+</li>
+<li>
+<p>If you're on a limited budget<br><span style="color: #f98008;"><strong>We recommend the InputStick</strong></span></p>
+</li>
+</ul>
+<p>If you need more information or have any questions, please reach out to us via our awesome customer support: support@lab401.com</p>
+<p> </p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/academy/pentestips-installing-libnfc-on-kali-linux</id>
+    <published>2021-08-06T14:06:50+02:00</published>
+    <updated>2021-08-06T14:06:59+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/pentestips-installing-libnfc-on-kali-linux"/>
+    <title>#pentestips installing libnfc on Kali linux.</title>
+    <author>
+      <name>Lab401 Lee</name>
+    </author>
+    <summary type="html">
+      <![CDATA[#pentestips installing <strong>libnfc</strong> on <strong>Kali linux</strong>.<p><a class="read-more" href="https://lab401.com/blogs/academy/pentestips-installing-libnfc-on-kali-linux">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p data-pm-slice="1 1 []">Hi, in this <strong>#pentestips</strong> we are installing <strong>libnfc</strong>.</p>
+<p>LibNFC is the fundamental tool for RFID manipulation on Windows/Linux/macOS.<br>It is a mature suite of tools that provide read/write/emulate functionality for high-frequency RFID cards, covering ISO/IEC 14443 A and B, FeliCa &amp; Jewel/Topaz.</p>
+<p>It supports most USB-based RFID readers, including Lab401's recommended DL533N.</p>
+<p>For MIFARE card types, there are multiple tools to read, write and manipulate MIFARE Classic, MIFARE Ultralight, NTAG, etc tags.</p>
+<p>It supports all generations of "Magic" card blanks.</p>
+<p>The LibNFC repository is mature. It has a slow release cycle but has an active community - which means that it's important to build from source to have the latest features.</p>
+<p>Some Linux distributions have LibNFC packages, but these are out of date. Specifically, some packages cannot handle newer generations of Magic / Blank tags - meaning that if you run the older packages, you can brick your blanks.</p>
+<p>It is recommended that you install LibNFC from source.</p>
+<p>Whether you're already running Linux, using a VM, or using WSL, it's quick and easy.</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/lmgGAJryzdY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></p>
+<div class="fabric-editor-breakout-mark" data-mode="wide" data-pm-slice="1 1 []">
+<p><code><strong>Following along:</strong><br><br></code></p>
+<div class="fabric-editor-breakout-mark" data-mode="wide" data-pm-slice="1 1 []">
+<pre><code><strong>#Setup the build tools</strong>
+sudo apt-get install build-essential gcc make autoconf libtool automake pkg-config libusb-1.0-0-dev libusb-dev
+<strong>#Pull down the libnfc source</strong>
+mkdir tools
+cd tools
+git clone https://github.com/nfc-tools/libnfc.git 
+cd libnfc
+<strong>#Configure and build the tool</strong>
+autoreconf -vis
+./configure
+make &amp;&amp; sudo make install
+<strong>#Test:</strong>
+nfc-list</code></pre>
+</div>
+<p><code> </code></p>
+</div>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/academy/pentestips-rfid-theory-the-right-tool-for-your-rfid-job</id>
+    <published>2021-07-30T17:52:26+02:00</published>
+    <updated>2021-07-30T17:52:26+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/pentestips-rfid-theory-the-right-tool-for-your-rfid-job"/>
+    <title>#pentestips RFID theory - the right tool for your RFID job</title>
+    <author>
+      <name>Lab401 Lee</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<h1 class="title style-scope ytd-video-primary-info-renderer"><yt-formatted-string force-default-style="" class="style-scope ytd-video-primary-info-renderer"><a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="https://www.youtube.com/hashtag/pentestips" dir="auto">#pentestips</a><span dir="auto" class="style-scope yt-formatted-string"><span> </span>RFID theory - the right tool for your RFID job</span></yt-formatted-string></h1><p><a class="read-more" href="https://lab401.com/blogs/academy/pentestips-rfid-theory-the-right-tool-for-your-rfid-job">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p><b>Lab401 PTT - </b><b>Which tools do I need?</b></p>
+<br>
+<p><span style="font-weight: 400;">When starting out with RFID, most people often have a specific task: </span></p>
+<p><span style="font-weight: 400;">duplicate a specific type of badge, </span><span style="font-weight: 400;">sniff reader communications etc.</span></p>
+<p><span style="font-weight: 400;">There are multiple tools, but which is the right one? </span></p>
+<p><span style="font-weight: 400;">Everyone's heard of a Proxmark, but is there another tool that could be easier for the job at hand? Or, do you need a combination of tools?</span></p>
+<p><span style="font-weight: 400;"> </span></p>
+<p><span style="font-weight: 400;">In this PTT, we'll walk through finding the right tool for your job.</span></p>
+<p><span style="font-weight: 400;"><iframe width="560" height="315" src="https://www.youtube.com/embed/Gnf0o1OI3po" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe><br></span></p>
+<ol>
+<li><strong> Determine the card frequency.</strong></li>
+</ol>
+<p><span style="font-weight: 400;">There are three main types of RFID tags: Low Frequency, High Frequency, and Ultrahigh Frequency.</span></p>
+<p><span style="font-weight: 400;">The most common in access control are Low Frequency (LF) and High Frequency (HF) tags.</span></p>
+<p><span style="font-weight: 400;"> </span></p>
+<p><span style="font-weight: 400;">If you've got access to the card's reader, you can determine the frequency by placing the Lab401 RF Field Detector on the device. A LED will indicate the type of frequency we have to work with. </span></p>
+<p><span style="font-weight: 400;"> </span></p>
+<ol start="2">
+<li><strong> Define your goal.</strong></li>
+</ol>
+<p><span style="font-weight: 400;">Next, you need to have a clear idea of the task you need to accomplish. </span></p>
+<p><span style="font-weight: 400;"> </span></p>
+<p><span style="font-weight: 400;">What Do you need to do exactly:</span></p>
+<p><span style="font-weight: 400;"> - Read / Write the tag?</span></p>
+<p><span style="font-weight: 400;"> - Analyse an unknown tag type?</span></p>
+<p><span style="font-weight: 400;"> - Sniff commands between the reader and the tag?</span></p>
+<p><span style="font-weight: 400;"> - Emulate the tag you have      or variations of the tag?</span></p>
+<p><span style="font-weight: 400;"> - Crack/decrypt the tag?</span></p>
+<p><span style="font-weight: 400;"> </span></p>
+<ol start="3">
+<li><strong> Narrowing it down</strong></li>
+</ol>
+<p><span style="font-weight: 400;">There is a lot of functionality cross-over between RFID tools - but most tools have a core functionality.</span></p>
+<p><span style="font-weight: 400;">- Standard Operations: Read / Write / Clone / Basic Cracking</span></p>
+<p><span style="font-weight: 400;">- Emulation: Emulate / Simulate a tag electronically</span></p>
+<p><span style="font-weight: 400;">- Advanced Operations: Demodulate, Low-Level read / write / interaction</span></p>
+<p><span style="font-weight: 400;"> </span></p>
+<ol start="4">
+<li><strong> Putting it all together</strong></li>
+</ol>
+<p><span style="font-weight: 400;">With this information, finding the right tool is much easier:</span></p>
+<p><span style="font-weight: 400;">For low-frequency tags,</span></p>
+<p><span style="font-weight: 400;">If you need basic operations: Read / Write / Clone / Emulate -  Your best choice is the Keysy</span></p>
+<p><span style="font-weight: 400;">If you need more advanced operations: Demodulate, Sniff, Analyse, and Low-Level Operations (Byte by byte read/write, etc) - Your best choice is the Proxmark 3.</span></p>
+<p><span style="font-weight: 400;">Unsurprisingly, the tools that cater for more simple operations are easier to learn and use, and are also less expensive</span></p>
+<p><span style="font-weight: 400;">For high-frequency tags,</span></p>
+<p><span style="font-weight: 400;">If you need basic operations: Read / Write / Clone -  Your best choice is the DL533N.</span></p>
+<p><span style="font-weight: 400;">If you need to emulate tags: Your best choice is the ChameleonTiny</span></p>
+<p><span style="font-weight: 400;">If you need more advanced operations: Demodulate, Sniff, Analyse, and Low-Level Operations (Byte by byte read/write, etc) - Your best choice is the Proxmark 3.</span></p>
+<p><span style="font-weight: 400;">As with LF Tools, the devices that cater for more simple operations are easier to learn and use, and are also less expensive.</span></p>
+<ol start="5">
+<li><strong> Summing up</strong></li>
+</ol>
+<p><span style="font-weight: 400;">Many of the devices shown have extra functionality: The ChameleonTiny can also perform limited sniffing, the DL533N can perform basic emulation - however, their core functionalities and use cases are quite different.</span></p>
+<p><span style="font-weight: 400;"> </span></p>
+<p><span style="font-weight: 400;">Likewise - the most powerful and expensive tool may not necessarily be the most efficient tool for your use case or learning curve.</span></p>
+<p><span style="font-weight: 400;"> </span></p>
+<p><span style="font-weight: 400;">This is why Lab401 designed the<strong> RFID Pentester Packs</strong> - to give pentesters everything they need to handle almost every situation.</span></p>
+<p><span style="font-weight: 400;"> </span></p>
+<p><span style="font-weight: 400;">If you need specific advice, you can contact us via our awesome customer support: support@lab401.com</span></p>
+<p> </p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/academy/pentestips-loading-a-custom-sak-with-the-chameleontiny</id>
+    <published>2021-07-09T12:40:04+02:00</published>
+    <updated>2021-07-09T12:40:48+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/pentestips-loading-a-custom-sak-with-the-chameleontiny"/>
+    <title>#pentestips - Loading a Custom SAK with the ChameleonTiny</title>
+    <author>
+      <name>Lab401 Lee</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<span>In today's #pentestips we learn how to Load a Custom SAK with the ChameleonTiny.</span><p><a class="read-more" href="https://lab401.com/blogs/academy/pentestips-loading-a-custom-sak-with-the-chameleontiny">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>Loading a Custom SAK with the ChameleonTiny</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/eopJ0Jx4LjY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe><br> - <strong>SAK Values</strong>, or "Select Acknowledge" values, are manufacturer defined values found in the header of ISO 14443 Type A cards, which include the Mifare family (Ultralight, Mifare 1K, DesFire, etc)</p>
+<p><br> - These values are <strong>hard-written</strong> during production, and <strong>cannot be changed on original badges</strong>.</p>
+<p><br> - <strong>Non-standard SAK values are rejected by many readers</strong>, and most blank badges have fixed SAK values. Some access cards use custom SAK values to attempt to thwart card reading and cloning.</p>
+<p><br> - The ChameleonTiny has a <strong>new SAK Mode</strong>, which makes using custom SAK values very easy.</p>
+<p><br> - When the "SAK Mode" is enabled, the ChameleonMini will take the SAK mode from the Block0 configuration.<br><br> <strong>[Load Hex-editor with Mifare 1K dump] (StandardSAK.dmp / png)</strong></p>
+<p>- In this Mifare Classic 1K dump, we see that byte 0x5 has a value of "0x08" - the default value for a MIFARE Card.</p>
+<p>- If we want to change the SAK value to "88", a code commonly used in Chinese Access Control products, we modify this value to "88". <br><br> - In order for the ChameleonTiny to respect this custom SAK value, we need to enable the special SAK Mode<br><br> <strong>[Load APP]</strong><br><strong> [Connect Device]</strong><br><strong> [Select Badge Slot]</strong><br><strong> [Upload Dump File ModifiedSak.dmp]</strong><br><strong> [Click "SAK Mode"]</strong><br><br> - The Chameleon is now emulating our Custom SAK mode. <br> - We can verify this by reading the ChameleonTiny on our phone, while still in the Chameleon Application<br><br> [Place ChameleonTiny on the phone, badge will be read with the custom SAK value]</p>
+<p>Get your Chameleon tiny Professional: <strong><a href="https://lab401.com/products/chameleontiny" target="_blank" title="Purchase your ChameleonTiny professional" rel="noopener noreferrer">click here</a></strong></p>
+<p><span>Do you have #pentestips to submit yourself? </span></p>
+<p><span> </span><span>We would love to partner with you, contact us at support@lab401.com</span></p>]]>
+    </content>
+  </entry>
+</feed>

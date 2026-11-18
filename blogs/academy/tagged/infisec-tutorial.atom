@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/academy.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/academy/tagged/infisec-tutorial.atom"/>
+  <title>Lab401 - Academy</title>
+  <updated>2026-06-04T15:04:58+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/academy/mifare-reader-attack-sniffing-cracking-emulation-open-lab401-academy-chameleon-mini-tutorial</id>
+    <published>2020-07-16T14:26:00+02:00</published>
+    <updated>2020-07-17T11:40:40+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/mifare-reader-attack-sniffing-cracking-emulation-open-lab401-academy-chameleon-mini-tutorial"/>
+    <title>Mifare Reader Attack: Sniffing, Cracking, Emulation, Open! LAB401 Academy - CHAMELEON MINI Tutorial</title>
+    <author>
+      <name>Sam Jenkins</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<span>LAB401 Academy - CHAMELEON MINI Tutorial. Mifare Reader Attack: Sniffing, Cracking, Emulation, Open! </span><p><a class="read-more" href="https://lab401.com/blogs/academy/mifare-reader-attack-sniffing-cracking-emulation-open-lab401-academy-chameleon-mini-tutorial">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p><span>Thanks to Lab401 Academy, learn how Mifare 1K and 4K card security can be defeated with simple tools in minutes via the "Reader Attack". </span></p>
+<p><span>This episode covers not only the theory behind the attacks but also takes you into the field for a real-world example.</span></p>
+<p><span> This episode is run by physical pentesting expert FrenchKey (@FrenchKey_FR) - thank you very much! </span></p>
+<p><span><iframe src="https://www.youtube.com/embed/pI7k5b0yhb0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="560" height="315" frameborder="0"></iframe></span></p>
+<p><span> </span></p>
+<p><span>"Reader Attacks" can be performed with a diverse set of tools, but the <a href="https://lab401.com/collections/hardware/products/proxgrind-chameleon-mini-revg" target="_blank" rel="noopener noreferrer">Proxgrind Chameleon Mini RevG</a> makes the task incredibly simple.</span></p>
+<p><span>Along with the ChameleonMini, you'll need the companion <a href="https://play.google.com/store/apps/details?id=com.proxgrind.chameleon">Chameleon Mini App for Android</a>.<br></span></p>
+<p><span>Let us know in the comments your thoughts - and make sure you subscribe to the Lab401 channel for all our latest videos.</span></p>
+<p><span></span><span>LAB401 Academy team</span></p>]]>
+    </content>
+  </entry>
+</feed>

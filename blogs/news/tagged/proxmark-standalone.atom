@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/news.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/news/tagged/proxmark-standalone.atom"/>
+  <title>Lab401 - News</title>
+  <updated>2026-04-22T16:48:54+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/news/full-range-of-proxmark-3-rdv4-01-accessories-have-arrived</id>
+    <published>2019-08-31T11:19:00+02:00</published>
+    <updated>2019-08-31T11:20:18+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/full-range-of-proxmark-3-rdv4-01-accessories-have-arrived"/>
+    <title>Full Range of Proxmark 3 RDV4.01 Accessories have arrived!</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[After months of development, RRG has released its fully revised range of hardware and accessories for the Proxmark 3, including improved antennas, bluetooth and battery modules, new flashing modules and more.<p><a class="read-more" href="https://lab401.com/blogs/news/full-range-of-proxmark-3-rdv4-01-accessories-have-arrived">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>After months of development, RRG has released its fully revised range of hardware and accessories for the Proxmark 3.</p>
+<p><a href="/collections/rfid-tools/products/proxmark-3-rdv4?lshst=collection"><strong>Proxmark 3 RDV4.01</strong></a><br>Updated routing, improved connectivity, stabilised components and the upgraded HF &amp; LF antennas, the RDV 4.01 is the most advanced Proxmark platform available.</p>
+<p><a href="/collections/rfid-tools/products/proxmark-3-rdv4-standalone-kit"><strong>Proxmark 3 "Blueshark" BLE &amp; Battery Module</strong></a><br>The "Blueshark" module also contains a battery, transforming your Proxmark 3 RDV4.01 and 4 into a fully-standalone pentesting device.</p>
+<p>The Proxmark 'standalone' mode is fully supported, and the CNC'd aluminium case acts as a heatsink, further improving performance of your device.</p>
+<p><strong><a href="/products/proxmark-3-rdv4-01-long-range-lf-antenna-pack">Proxmark 3 Long Range LF Antenna Pack</a><br></strong>There have been significant upgrades made to the LF antennas, notably the introduction of the "Q-Switch" and "F-Switches".</p>
+<p>The F-Switch allows for targeting specific frequencies (125KHz or 134KHz), while the Q-Switch allows optimising the antenna sensitivity for specific tag types or operations.</p>
+<p>The Low Frequency Antenna Pack contains two antennas, Standalone and Long Range, giving reading and sniffing distances up to 130mm.</p>
+<p><strong><a href="/products/proxmark-3-rdv4-long-range-hf-antenna-1">Proxmark 3 Long Range HF Antenna Pack</a><br></strong>The HF antennas have also been updated and improved, allowing for read, write and sniff operations up to</p>
+<p>The Low Frequency Antenna Pack contains two antennas, Standalone and Long Range, giving reading and sniffing distances up to 120mm.</p>
+<p><a href="/products/proxmark-3-rdv4-01-upgraded-replacement-antenna"><strong>Proxmark 3 4.01 Antenna Upgrade Pack</strong></a><br>If you have a Proxmark 3 RDV4, you can upgrade your existing build-in antennas easily and cheaply to the new versions.</p>
+<p><strong>﻿</strong>﻿We're very happy to supply our customers with the full range of high-quality accessories in the Proxmark Range. Should you have any questions, please contact us.</p>]]>
+    </content>
+  </entry>
+</feed>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/news.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/news/tagged/rfid-hacking.atom"/>
+  <title>Lab401 - News</title>
+  <updated>2026-04-22T16:48:54+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/news/flipper-zero-update-wireless-control</id>
+    <published>2022-08-19T14:26:17+02:00</published>
+    <updated>2022-08-19T14:27:18+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/flipper-zero-update-wireless-control"/>
+    <title>Flipper Zero Update : Wireless Control!</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[The latest <strong>Flipper Zero</strong> update allows full wireless RFID + RF remote control. How will you use this on your next pentest engagement ? Tell us on Twitter !<p><a class="read-more" href="https://lab401.com/blogs/news/flipper-zero-update-wireless-control">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>The latest <strong>Flipper Zero</strong> update allows full wireless RFID + RF remote control.</p>
+<p>In the app, all saved RFID (125KHz + 13.56MHz) cards &amp; captured RF signals can be emulated / replayed directly from the application - without touching the Flipper!</p>
+<p>How will you use this on your next pentest engagement ? <a href="https://twitter.com/Lab_401" target="_blank" rel="noopener noreferrer">Tell us on Twitter !</a></p>
+<p>Check the update in action below</p>
+<p> </p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/new-year-new-product-rfid-range-extender</id>
+    <published>2021-01-26T11:54:48+01:00</published>
+    <updated>2021-01-26T11:54:48+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/new-year-new-product-rfid-range-extender"/>
+    <title>New Year, New Product: RFID Range Extender</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[Lab401 is proud to present it's RFID Range Extender Antennas.<br>Boost weak RFID readers, or physically teleport the reading zone up to 50cm away. Works wirelessly - no soldering required.<p><a class="read-more" href="https://lab401.com/blogs/news/new-year-new-product-rfid-range-extender">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>Lab401 is proud to present <a href="/products/rfid-antenna-extender">RFID Range Extender Antennas.</a><br>Boost weak RFID readers, or physically teleport the reading zone up to 50cm away. Totally passive - no batteries required, and no soldering required.</p>
+<p>Initially built the system for a customised hardware project in Europe, we're finally able to release this product publicly!</p>
+<p>Using the device couldn't be more simple: check out the video below:</p>
+<p><iframe src="https://www.youtube.com/embed/jsQ_i18GjW8" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="1234" height="704" frameborder="0"></iframe></p>]]>
+    </content>
+  </entry>
+</feed>

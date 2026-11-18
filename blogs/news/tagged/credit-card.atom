@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/news.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/news/tagged/credit-card.atom"/>
+  <title>Lab401 - News</title>
+  <updated>2026-04-22T16:48:54+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/news/hunt-atm-skimmers-with-hunter-cat</id>
+    <published>2019-11-05T11:56:00+01:00</published>
+    <updated>2019-11-05T13:04:52+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/hunt-atm-skimmers-with-hunter-cat"/>
+    <title>Hunt ATM Skimmers with Hunter Cat</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <content type="html">
+      <![CDATA[<p>Hunt credit card skimmers with the <a href="/products/hunter-cat-card-skimmer-detector">Hunter Cat</a> - The world's only credit card skimmer dectector. Rapidly and reliably audit card readers - ATMs, PoS devices, etc - without risking your real data. Perfect for internal audits, corporate travelers and penetration testers. <a href="/products/hunter-cat-card-skimmer-detector"><strong>Now in stock!</strong></a></p>
+<p>Designed and manufactured in Mexico to help combat rampant ATM / Credit Card skimming fraud, the Hunter Cat is now available in Europe via Lab401!</p>
+<p><strong><img src="//cdn.shopify.com/s/files/1/2175/8571/products/Hunter-Cat---4_large.png?v=1572250339" alt=""></strong></p>
+<p><strong><img src="//cdn.shopify.com/s/files/1/2175/8571/files/HunterCat---Skimmer-Detector---Overview_large.png?v=1572257026" alt=""></strong></p>]]>
+    </content>
+  </entry>
+</feed>

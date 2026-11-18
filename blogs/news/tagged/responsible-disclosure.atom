@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/news.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/news/tagged/responsible-disclosure.atom"/>
+  <title>Lab401 - News</title>
+  <updated>2026-04-22T16:48:54+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/news/proxmark-3-rdv2-bypasses-millions-of-hotel-rooms</id>
+    <published>2018-04-26T07:10:00+02:00</published>
+    <updated>2018-04-26T07:40:03+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/proxmark-3-rdv2-bypasses-millions-of-hotel-rooms"/>
+    <title>Proxmark 3 RDV2 Bypasses Millions of Hotel Rooms</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<meta charset="utf-8">
+<p>Assa Abloy's Ving Card system using the <a href="https://lab401.com/collections/hardware/products/proxmark-3-rdv2">Proxmark 3 RDV2</a> by InfoSec firm F-Secure.</p>
+<p><span>The Proxmark 3, operating in Stand-Alone mode, is able to determine the Site Master Key, and generate a master pa..</span></p><p><a class="read-more" href="https://lab401.com/blogs/news/proxmark-3-rdv2-bypasses-millions-of-hotel-rooms">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<meta charset="utf-8">
+<p>InfoSec firm F-Secure, as <a href="https://www.f-secure.com/en/web/business_global/electronic-lock-systems-are-vulnerable">widely reported</a>, have managed to cracked Assa Abloy's Ving Card system using the <a href="https://lab401.com/collections/hardware/products/proxmark-3-rdv2">Proxmark</a> 3 RDV2.</p>
+<p>The <a href="/collections/hardware/products/proxmark-3-rdv2">Proxmark 3 RDV</a> appears to:</p>
+<ul>
+<li>Read an original hotel card in Stand-Alone mode</li>
+<li>Determine the Master Key for the Site Installation</li>
+<li>Use this Master Key to generate a Master Badge for the Site</li>
+<li>Emulate the badge in Stand Alone Mode.</li>
+</ul>
+<p><span>From the information and videos surfacing in the press, it would appear that F-Secure have cracked the Ving Card encryption algorithm, allowing for unfettered access to any site.</span></p>
+<p><span>In theory, this attack could be used to:</span></p>
+<ul>
+<li>Snatch a card from a hotel patron, and access any room / area</li>
+<li>Upgrade your own hotel card to an all-access card</li>
+</ul>
+<p>A full explanation video can be seen here:</p>
+<p><iframe width="640" height="360" src="https://www.youtube.com/embed/CAYRAFPnWUg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></p>
+<p>Implementations aside, this is a testament to the Proxmark's flexibility as a device, and its Open-Source framework, easily allowing for security professionals to adapt the device to their own requirements.</p>
+<p style="text-align: left;"><img src="//cdn.shopify.com/s/files/1/2175/8571/files/Access_large.png?v=1524719842" alt="Proxmark Ving Card Crack Demonstration"><img alt="Proxmark Ving Card Crack Demonstration" src="//cdn.shopify.com/s/files/1/2175/8571/files/hotel-1-gif-clone-slim_large.gif?v=1524718841" style="float: none;"></p>
+<p style="text-align: left;"><img alt="Hotel Room Proxmark Master Card" src="//cdn.shopify.com/s/files/1/2175/8571/files/hotel-2-gif-elevator-slim_large.gif?v=1524718859" style="float: none;"></p>]]>
+    </content>
+  </entry>
+</feed>

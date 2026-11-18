@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/academy.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/academy/tagged/tutorial.atom"/>
+  <title>Lab401 - Academy</title>
+  <updated>2026-06-04T15:04:58+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/academy/dive-into-rfid-fuzzing-with-flipper-zero-the-rfid-fuzzer-app</id>
+    <published>2023-09-08T15:39:41+02:00</published>
+    <updated>2023-09-08T15:39:41+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/dive-into-rfid-fuzzing-with-flipper-zero-the-rfid-fuzzer-app"/>
+    <title>Dive into RFID Fuzzing with Flipper Zero, the RFID fuzzer app.</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p data-mce-fragment="1"><span data-mce-fragment="1">Curious to know how RFID works and its security? </span><span data-mce-fragment="1">Dive in as we show RFID fuzzing with Flipper Zero.</span></p><p><a class="read-more" href="https://lab401.com/blogs/academy/dive-into-rfid-fuzzing-with-flipper-zero-the-rfid-fuzzer-app">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p><span data-mce-fragment="1">Curious to know how RFID works and its security?</span></p>
+<p><span data-mce-fragment="1">Dive in as we show RFID fuzzing with Flipper Zero! </span></p>
+<p><span data-mce-fragment="1">In this video, we'll break down the ins and outs of this powerful function, showcasing its potential and importance in today's pentesting landscape. </span></p>
+<p><span data-mce-fragment="1">Brought to you by LAB401.com, the experts in RFID technology. </span></p>
+<p><span data-mce-fragment="1">Don't forget to like, share, and comment below with your thoughts.</span></p>
+<p> </p>
+<p><span data-mce-fragment="1"><iframe title="YouTube video player" src="https://www.youtube.com/embed/EcWTFZovNTE?si=fgFYxjhVbZZRw8zd" height="315" width="560" allowfullscreen="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" frameborder="0"></iframe> </span></p>]]>
+    </content>
+  </entry>
+</feed>

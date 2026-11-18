@@ -1,0 +1,1408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/news.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/news.atom"/>
+  <title>Lab401 - News</title>
+  <updated>2026-04-22T16:48:54+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/news/six-months-later-the-icopy-x-got-open-sourced-interview-with-quantum-x-the-man-behind-icopy-x-open</id>
+    <published>2026-04-22T16:48:54+02:00</published>
+    <updated>2026-04-22T16:48:58+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/six-months-later-the-icopy-x-got-open-sourced-interview-with-quantum-x-the-man-behind-icopy-x-open"/>
+    <title>ICopy-X: Open-Sourced by Lab401</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p>After one month of intense work, 400+ hours, and a multi-core testing server: <strong>The iCopy-X has been open-sourced!</strong></p>
+<p>Upgrade your device to run <strong>modern iceman firmware</strong>, open middleware, UI and plugins (Yes, it runs Doom). Upgrade information and an interview with the project's architect after the fold.</p><p><a class="read-more" href="https://lab401.com/blogs/news/six-months-later-the-icopy-x-got-open-sourced-interview-with-quantum-x-the-man-behind-icopy-x-open">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>Previously, we flew to China and<span> </span><a href="https://lab401.com/blogs/news/we-need-to-talk-about-the-icopy-x">told you we needed to talk about the iCopy-X</a>. The device hadn't received a real update in three years. The original team was responsive but couldn't release the source code. </p>
+<p>Six months later, we decided to take matters into our hands - <strong>we rebuilt the iCopy-X firmware from scratch</strong> : UI, logic, middleware, plugin system - and released it as<span> </span><a href="https://github.com/lab-401/icopy-x"><strong>iCopy-X Open</strong></a><span> </span>under <strong>Lab401 GitHub repository</strong>.</p>
+<p>Installation is a breeze: place the IPK on your device and install. It comes in two versions, fully open source, compatible with both legacy factory hardware and modern Iceman firmware.</p>
+<p>We sat down with Lab401's <strong>quantum-x</strong> to talk about how it actually got built, what it cost, and - honestly - how many times he thought the project was going to collapse in the last ten metres.</p>
+<blockquote>
+<p><strong>▶ Watch the full release video:<span> </span></strong></p>
+<p><strong><span><iframe width="560" height="315" src="https://www.youtube.com/embed/WWS-9QdulC0?si=SChFgjdZ9fACNMVw" title="YouTube video player"></iframe></span></strong></p>
+<p><strong><span>The quantum-x Interview (audio)</span></strong></p>
+<p><em><iframe data-testid="embed-iframe" style="border-radius: 12px;" src="https://open.spotify.com/embed/episode/0s1SnnoMSonWIFOymAmjOK?utm_source=generator&amp;t=0" width="100%" height="152" loading="lazy"></iframe></em></p>
+</blockquote>
+<hr>
+<h2>The interview</h2>
+<p><strong>Sandy:</strong><span> </span>Hi, I'm Sandy from LAB401.com. Today I'm sitting down with quantum-x, the man behind the iCopy-X Open. Who are you, and what are you doing exactly?</p>
+<p><strong>quantum-x:</strong><span> </span>I go by the handle quantum-x. I'm a founder and the technical side of LAB401.</p>
+<p><strong>Sandy:</strong><span> </span>And what are you doing exactly at LAB401?</p>
+<p><strong>quantum-x:</strong><span> </span>Typically I'm handling product development, product manufacturing, and the tech stack of the operations - everything that's back-end, back office, that type of thing.</p>
+<hr>
+<p><strong>Sandy:</strong><span> </span>Let's talk about the project - the iCopy-X Open. LAB401 had a plan. It was supposed to be a collaboration with the iCopy-X team. So what happened?</p>
+<p><strong>quantum-x:</strong><span> </span>We sat down with the original project owners to understand if it would be possible to open source the original product. Talks were interesting. They wanted to get feedback from the community to understand if it was really something that was important to them, which was why we built up the videos. However, that didn't translate into the code being released, so we explored other options. We discussed opening up a fee to try to sponsor the code being written.</p>
+<p>The reality is that there was a confluence of a few factors that came together. I had some spare time. It was becoming clear that the source code wasn't going to be released by the original team, or they weren't able to release the code. Throughout the month of April, Anthropic was running a double context promotion for the Opus 4.6 model. So that was a unique opportunity to throw some new tools at the product and take an entirely new approach - leverage the AI plus our knowledge of the system to build something from scratch.</p>
+<p>One fairly intense month. I'd say there's probably about 350 to 400 hours sunk into the project. If you do the math, I was working 10 to 18 hours per day for one month solid.</p>
+<p>The decision of how far to push, how much perfection to look for, how ready the product should be before releasing - that's a difficult question to answer. It's always a sliding scale. I wanted to deliver a product that was more than a proof of concept. I wanted users to be able to do something useful. Let's be clear: there have already been proof of concept applications that run on the iCopy-X, but none of them tried to create an open source version or replicate the functionality.</p>
+<p>I had some clear goals. I wanted users to be able to install one IPK. I wanted there to be a universal IPK - I didn't want the obligation to download a specifically-built IPK for a given serial number. I wanted it to be a drop-in replacement, so users would be able to continue to use the device. They wouldn't have to find themselves in a situation where they need to go back to stock firmware for the functionality, then come into the open source version, play around with it, but can't do anything useful. I needed and wanted it to be functional. And I wanted it to be stable.</p>
+<p>The problem with that is you need extensive testing, and that means you need hundreds of types of badges - which, being on the technical side of LAB401, we do have. However, there are always going to be some gaps. Essentially, the metric for when release was ready was when I could perform all of the installation processes and all of the flows - read, write, auto copy, scanning, diagnosis - over and over without crashes, without bugs. I knew that when we released it, we weren't putting the user's system in danger, and they were going to have an out-of-box experience that was the same or better than the closed source version.</p>
+<hr>
+<p><strong>Sandy:</strong><span> </span>So I have a question about what does LAB401 get out of this actually, and what don't they get?</p>
+<p><strong>quantum-x:</strong><span> </span>LAB401 has visibility. It has a platform that's important to use for this project. It could have been released anonymously, or under my personal repository. Why was it released under LAB401? I believe that LAB401 has a moral obligation and a professional obligation to the customers of the iCopy-X.</p>
+<p>The iCopy-X was sold as a device that would be continuously updated and maintained. We marketed and sold it as a product that would receive maintenance and updates. And so three, four years on, with no more updates, we found ourselves professionally in a strange or awkward situation where we felt the products we'd sold were not living up to the promises we'd made.</p>
+<p>It was also a somewhat strange situation because we have a really well-built, well-designed, well-executed product. We have to be very clear: the iCopy-X is a really, really nice product in terms of hardware, architecture, and software. The original team did an excellent job. But it was becoming very difficult to justify a sale of this product to pentesters.</p>
+<p>Pentesters are not locksmiths. Pentesters are not cloners. Pentesters have specific use cases for this type of product. They need to be able to make a modification. They need to have the latest possible repository or any specific code that they want to run on the device, so it adapts to their daily life - it adapts to the evolving surface of RFID penetration.</p>
+<p>It became this very strange situation where in our hands we had a physical device that was a very useful tool for pentesters, but the software was holding it back. What does LAB401 get out of this? By making this software open source, it allows us to finish the transaction that we promised. It's a delivery of the promise that we made when customers put trust in LAB401 to make that purchase.</p>
+<hr>
+<p><strong>Sandy:</strong><span> </span>Are there any plans to do the same kind of thing with other products?</p>
+<p><strong>quantum-x:</strong><span> </span>To be honest, no, for multiple reasons. But at the same time, we didn't plan - I didn't plan - for this to happen for the iCopy-X either. Until 90% of the way along the product development, I was not sure if we were actually going to be able to deliver it.</p>
+<p><strong>Sandy:</strong><span> </span>Okay.</p>
+<p><strong>quantum-x:</strong><span> </span>The complexity of this project is that it's actually about six projects in one. The first is the notion of "is a proof of concept possible?" It took multiple hours and multiple iterations to say, "Can we actually install an IPK on this?" Okay, yes, we can install a custom IPK - but we're getting stuck in the jail, so now we have to make a jailbreak. Once we proved that we could make a jailbreak and install our own code onto the system, then it was a question of: okay, can we make a UI? Yes, we can make a UI. Okay.</p>
+<p>The real challenge for this product, once all the proof of concept is out of the way, is the logic. This entire machine is basically a gigantic logic tree. If you place a certain type of card and it has a certain type of key or a certain type of behavior, then that goes into a branch. There are literally thousands and thousands of branches and nodes that are possible.</p>
+<p>The real challenge was: are we able to get 100% - or as close to 100% - coverage of the original functionality? Let's be clear: the device is not only closed source, it's compiled. Sure, you could decompile, but you're not decompiling to source code - you decompile to machine code, which is essentially useless. I took one or two different approaches at trying to understand how to attack the problem, and each time it felt very much like walking a tightrope - trying to find this line between the start of the task and the end of the task. There were some very tight passages, and at multiple instances I didn't believe the project was actually going to work.</p>
+<hr>
+<p><strong>Sandy:</strong><span> </span>So how did you actually set this up? What gear are you running?</p>
+<p><strong>quantum-x:</strong><span> </span>The setup is very simple. As I said, I decided I was going to lean on Claude - the Opus 4.6 one million token context model - for some of the heavy lifting. But to be very clear, in a project of this scale, you burn through context very quickly, so you can't rely on the AI system to intuit the project management. I was able to use the 4.6 Claude models for some of the iterative work - like building tests and then building out some of the mechanical code. But the actual project management was very much a human job to get this across the line.</p>
+<p>One of the most challenging parts of this project was working out the correct approach to take. You've got this logic tree, and you have to understand how to give full coverage. If you give 50% coverage of the original functionality, it just means the device is going to be broken 50% of the time. For 50% of the badges you put on it, you're going to break them - you're not going to write them properly, or you're not going to detect them. So the challenge is that you need to get 100%, or as close to 100% functionality and coverage as possible.</p>
+<p>After iterating multiple times, the logical approach - at least for me - is TDD, or test-driven design. TDD is a programming technique where the most important thing is to build tests first. In standard design, you build code, write tests, ensure that your code matches the tests, then iterate from there. Test-driven design puts your tests at the front. The first thing you write is tests.</p>
+<p>The iCopy-X, in terms of a project or a product, has very clearly defined inputs and very clearly defined outputs. If you apply TDD to real-world terms, it's something like: I have one dollar in my hand and I want to buy an egg. The input is that I want to buy an egg and I have one dollar, and the output is going to be me walking away with an egg. If I define my test like this - the input is my desire to have an egg and the fact that I have money, and the output is an egg - I can go into a shop, give the guy a dollar, and ask for an egg. What happens in between is kind of irrelevant. Maybe the guy has a chicken, maybe he has some eggs under the counter, maybe he has to go to a farm, run away, take an hour, come back, and give me an egg. It doesn't really matter as long as the output I've defined is fulfilled. I wanted an egg, now I have an egg. When you refine the definitions more - maybe I want an organic egg - the guy has to go to an organic farm, and at the end, I get an organic egg.</p>
+<p>If you extrapolate this to the iCopy-X, we have very well-defined sequences with the Proxmark. We can sit and look at the data that flows to the Proxmark. We know what the Proxmark source code is, and we also know what output the Proxmark makes. Based on that, and knowing the types of badges that the device supports, I was able to determine fixtures, so we'd be able to provoke every single possible logical path.</p>
+<p>Essentially, you're working backwards and forwards at the same time. You're saying, "I know what the outputs are that I want, so in order to provoke those outputs, I'm going to have to generate certain inputs. I can use the Proxmark layer in the middle to build the data sequences that will provoke those outputs."</p>
+<p>Once that was done - that was the first major challenge: mapping this out. I had to build the logic tree. Once the logic tree was made, it was a question of applying an open source UI map over the top of the product - still using the original product firmware, but putting my own open source interface on it - and then running that through the testing system. When I was able to prove that the UI was matching the original functionality, I was able to go through and start implementing module by module, flow by flow, the actual middleware functionality. Scanning a tag and iterating against the tests until we came out with a result where it passed.</p>
+<p>There were multiple layers to the project. This was just one of them. Once we got to the end of that, there was the other layer of: how do we get compatibility with the Iceman firmware? Can we get the Iceman firmware compiling? Yes, there's built-in community support for that - but there are multiple hardware iterations of the iCopy-X. Are they still compatible? No one knows. No one's looked at it for six or seven years. And then, the small victory: yes, okay, we can compile Iceman source for the iCopy-X. But you've just created another problem, because between the Iceman source and the iCopy-X source there's a five- or six-year gap. So all of the code and everything that was put in place now has to be rewritten to make compatibility between the old and the new.</p>
+<p>For this reason, every single step of the way, there was very much a possibility that by making progress, you'd end up in a situation where you couldn't deliver the product.</p>
+<p>Fortunately, we're in a situation where the firmware that's been open sourced is compatible with the legacy device - let's say the factory device, or the factory-flashed Proxmark module. It's also compatible with the Iceman up-to-date source code, and you're also able to flash the Proxmark module inside the iCopy-X to bring it up to modern Iceman.</p>
+<p><strong>Sandy:</strong><span> </span>That's a little miracle then, that it's there like that.</p>
+<p><strong>quantum-x:</strong><span> </span>One of the core pieces of tech for this project was QEMU. The ability to completely emulate and mock the iCopy-X device allowed us to build up comprehensive testing - what I call flows with scenarios, but essentially testing suites. For each flow - scan, read, auto copy, write, that type of flow - there were literally hundreds, up to thousands, of scenarios. For example, for a scan: is it a MIFARE? Is it a MIFARE 1K? Is it a MIFARE 1K 4-byte? For every logic tree, down to the node, I built out testing scenarios that were then emulated against the real device in emulation. Without that, it would have been a case of working on the real device and trying to build it one by one iteratively, which would have been unfeasible or impossible.</p>
+<p>In the end, we ended up with thousands of tests in the testing suite. So many that actually executing the test suite was taking a very long time. One of the key pieces of hardware I had to deploy was a 48-core, 96GB server that was just running QEMU tests. It could crunch them in parallel and get the testing suite done within about one hour end-to-end. Without that piece of hardware, it was taking half a day to run a testing suite, which meant it was going to be impossible to iterate quickly enough.</p>
+<hr>
+<p><strong>Sandy:</strong><span> </span>How much did it cost?<span> </span><em>(chuckles)</em><span> </span>Between the tokens, the hardware, and the time you spent - how much did it cost?</p>
+<p><strong>quantum-x:</strong><span> </span>The most costly element - but also the hardest element to define - is time. Again, it was about 350 to 400 hours over about a month. It was a large time sink. In terms of real-world costs, it was maybe 400 euros worth of Claude 20x Max subscriptions. There was the QEMU server, which was expensive - about 400 euros a month. So in terms of money out of pocket, there was probably about 1,000 euros placed into the project.</p>
+<p>That's a lot of money in one regard, but if you compare that to a traditional software development process of four or five years ago, pre-AI, getting a development team to do this project would have cost a lot more than 1,000 euros. So it's an interesting exercise to see how AI today can be used - and its shortcomings, because there are definitely shortcomings. On some days, I was burning through the weekly allowance in two hours, which is why we needed to have multiple accounts. Even in some complicated flows, like a read flow or a scan flow, you'd saturate the million token context very quickly, so you'd have to hand off to multiple agents multiple times over one flow. Every time, there's this sort of loss and you end up going round and round in circles.</p>
+<p>I would say that this type of task would have been impossible - or improbable, and therefore no one would do it, so impossible - pre-AI, and even maybe pre-six months ago, when we had smaller context windows.</p>
+<hr>
+<p><strong>Sandy:</strong><span> </span>What's the single hardest bug you fixed during those 350, 400 hours?</p>
+<p><strong>quantum-x:</strong><span> </span>There were two or three times I got stuck on really difficult bugs, and to be honest, I think I have a sense of trauma over this product, so I've already been trying to forget them.</p>
+<p>One of the things I did was keep a chronicle of the entire build process from start to finish. It's an AI-written document. It's hundreds and hundreds of pages, but I thought it was really important to keep a highly technical document of all the techniques we used. If some of the viewers are interested, it's in the repo - go into the docs directory and open up the chronicle document, and you'll see there are two or three days where they're spent just going round and round in circles on what should be a very simple problem but was very, very difficult.</p>
+<hr>
+<p><strong>Sandy:</strong><span> </span>Okay, let's talk about Doom. So - Doom, on the iCopy-X.</p>
+<p><strong>quantum-x:</strong><span> </span>As everybody who's a geek understands, getting Doom on a product is a sign that you've jailbroken it, or you've got a working jailbreak, or that it's open source. But Doom on this device - it's a Linux device, and everybody knows you can run Doom on Linux. Anyone can SSH into this device and run Doom. That wasn't the challenge.</p>
+<p>The reason I wanted to install Doom on this device was because I wanted to have a plugin architecture. The iCopy-X software is really, really complicated, and often complicated software means it's harder for developers to either make contributions or make the modifications they need for themselves. One of the things I wanted to address with the open source version was to have a very clearly-defined UI system, and an easy-to-use plugin framework. The UI is all defined in JSON, so you can quite easily go in and modify the flows and the UI via JSON. Likewise, the plugin system is based on JSON.</p>
+<p>I wanted users to be able to quickly build two or three types of plugins: a plugin where you can speak with the system, a plugin where you can speak with the Proxmark module easily and iterate off the replies from the Proxmark, and a plugin architecture that allows you to run full-screen native binaries.</p>
+<p>The obvious choice for that was Doom. It's a fairly complex flow - you're using FGL, you're using full screen - but at the same time, you have to run that in the safe environment of the iCopy-X. So some things like buttons need to be mapped to Doom, but also mapped back to the iCopy-X. I figured Doom was a really interesting plugin to include on the product. And at the same time, it's Doom. You can't make an open source product without having Doom in it.</p>
+<hr>
+<p><strong>Sandy:</strong><span> </span>Another thing that's really amazing: the graphics you've implemented with the credits.</p>
+<p><strong>quantum-x:</strong><span> </span>Well, don't go and spoil everything. It's a very poorly hidden Easter egg.</p>
+<p>To be fair, I assigned myself side quests while building the device to keep sane - because running hundreds and hundreds and thousands of tests was not only difficult but also quite boring. To keep up motivation, I tried to define a couple of side quests. Doom was one of the milestones I wanted to hit. I wanted to have Doom running in a specific situation. I also wanted to have some type of love letter to the community and to the geeks.</p>
+<p>If you grew up in the era of the demo scene and scrollers, you'll recognize this format instantly. You'll recognize this notion of old-school keygens and cracks where you'd have greets. These things would be fascinating to watch, but they'd also mean nothing to you, because they're just listing random names. Because this is what I would consider an almost personal device to the community - everyone in the pentesting community knows this device - I wanted to give a little bit of something back. So there are some greets and thanks to people who were important to this project, who helped bring it across the line.</p>
+<p>There's an acknowledgement to the original team, because without them this product wouldn't exist. The work the original team did - in terms of hardware, software, product management, and belief in a project to invest enough to make it happen - it can't be overstated.</p>
+<p>And obviously, there are all of the Proxmark co-contributors, whether they've made one contribution or 11,000 contributions, as Iceman has made. It's really important to give recognition to everyone involved.</p>
+<hr>
+<p><strong>Sandy:</strong><span> </span>Before I leave you - anything you want to add?</p>
+<p><strong>quantum-x:</strong><span> </span>I think it's important to discuss what the future of this project is going to be. My goal was to deliver an end-to-end functional, reliable, open source system for the iCopy-X, and I believe that's done. However, I don't have plans to maintain and update this project. That's out of scope for us. I don't have any experience in running and maintaining open source projects, and that's a real skill.</p>
+<p>I've spoken to some of the usual suspects in the community, and hopefully we'll see some of these guys coming on board and becoming administrators on the project. What's really important - and what I'd really hope for - is that if people see value in this project, they consider cloning it, installing it, contributing, and maintaining or assisting to maintain this code base.</p>
+<p><strong>Sandy:</strong><span> </span>Well, thank you for doing this. I'm Sandy from LAB401.com. Take care, and see you next time.</p>
+<hr>
+<h2>Before vs after: what actually changes for your iCopy-X</h2>
+<h3>Before iCopy-X Open</h3>
+<p>The iCopy-X you bought between 2021 and March 2026 was a closed-source device frozen at its 2022 firmware. You had:</p>
+<ul>
+<li>
+<strong>A solid auto-copy flow</strong><span> </span>for the vast majority of LF and HF tags</li>
+<li>
+<strong>An embedded Proxmark client</strong><span> </span>you could drop into via USB-C for advanced work</li>
+<li>
+<strong>LUA scripting</strong><span> </span>- the last feature added, via a 2022 Lab401/iCopy-X collab</li>
+<li>
+<strong>No plugin system</strong><span> </span>- if you wanted to add a flow, fork an attack, or integrate a new tag type, the answer was "no"</li>
+<li>
+<strong>DRM</strong>: Blanks had DRM - you were forced to use iCopy-X blanks</li>
+<li>
+<strong>No way to update the Proxmark firmware inside the device</strong><span> </span>to modern Iceman</li>
+<li>
+<strong>No compatibility with</strong><span> </span>six years of upstream Proxmark improvements: newer nested/hardnested implementations, FM11RF08S static-encrypted-nonce attacks, updated standalone modes, the current Iceman CLI The hardware was fine. The hardware is still fine. The software was the bottleneck.</li>
+</ul>
+<h3>After iCopy-X Open</h3>
+<ul>
+<li>
+<strong>One universal IPK</strong><span> </span>- drop-in install, no serial-number-specific build required, no flashing risk</li>
+<li>
+<strong>Full source code on GitHub</strong><span> </span>under the LAB401 repo - UI, flows, middleware, plugin framework</li>
+<li>
+<strong>No</strong> <strong>DRM </strong>- use whichever blanks you want. </li>
+<li>
+<strong>JSON-driven UI</strong><span> </span>- change labels, flows, or navigation without recompiling anything</li>
+<li>
+<strong>JSON-driven plugin system</strong><span> </span>- three plugin types out of the box: talk to the system, talk to the Proxmark, or run a full-screen native binary</li>
+<li>
+<strong>Modern Iceman proxmark firmware</strong><span> </span>- the iCopy-X gets the last six years of RFID research dropped into its chest cavity</li>
+<li>
+<strong>Easy install / uninstall</strong><span> </span>- still fully compatible with factory firmware and factory-flashed Proxmark, so you're not committing to anything permanent</li>
+<li>
+<strong>Community-maintainable</strong><span> </span>- if the community picks it up (and that's the hope), bugs get fixed and features get added by the people who actually use the device And yes,<span> </span><strong>Doom runs on it</strong>. As it should.</li>
+</ul>
+<hr>
+<h2>How does this compare to a Proxmark 3 RDV4?</h2>
+<p>This is the question most of you will actually be asking, so let's answer it directly.</p>
+<p>The Proxmark 3 RDV4 is the reference - the Iceman-maintained, tethered, bare-metal RFID research platform. It's what every serious RFID researcher has on their desk. The tradeoff has always been:</p>
+<table>
+<thead>
+<tr>
+<th><br></th>
+<th><strong>Proxmark 3 RDV4</strong></th>
+<th><strong>iCopy-X (closed)</strong></th>
+<th><strong>iCopy-X Open</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Proxmark 3 core</td>
+<td>✅</td>
+<td>✅ (older firmware)</td>
+<td>✅ (can flash modern Iceman)</td>
+</tr>
+<tr>
+<td>Standalone (no PC)</td>
+<td><i>Limited</i></td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Built-in screen + buttons</td>
+<td>❌</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Integrated battery</td>
+<td>❌</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Auto-copy "EZ mode"</td>
+<td>❌ (CLI only)</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Iceman fork / latest research</td>
+<td>✅</td>
+<td>❌ (frozen 2022)</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Source code available</td>
+<td>✅</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Plugin architecture</td>
+<td>❌</td>
+<td>❌</td>
+<td>✅ (JSON-based)</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p>The practical version:<span> </span><strong>for a comparable investment, you're now getting a Proxmark 3 with EZ-mode auto-copy, an integrated screen and battery, AND the Iceman fork - in a single field-ready device.</strong><span> </span>That combination didn't exist a month ago.</p>
+<p>If you already own an iCopy-X, iCopy-X Open turns it into that device for free.</p>
+<p>If you're choosing between platforms today: the RDV4 is still the better choice if you live in the CLI and want maximum flexibility on your desk. The iCopy-X with Open firmware is the better choice if you need to work in the field, want the screen and auto-copy flow, and don't want to give up modern Iceman features to get them.</p>
+<p>For most pentesters doing client site work, that second option is the one you've been waiting for.</p>
+<hr>
+<h2>What's next</h2>
+<p>To be clear about scope:<span> </span><strong>our goal</strong><span> <strong>was to open-source  the</strong> <strong>iCopy-X</strong>, not to be the permanent guardians of the project. </span>The iCopy-X is a very complex product; it needs real open source maintainers.</p>
+<p>Today, will we consider it to be feature complete, there are definitely bugs and definitely improvements to make.</p>
+<p><strong>If you see value in this project:</strong></p>
+<ul>
+<li>
+<strong>Clone it.</strong><span> </span>The repo is on<span> <a class="ytAttributedStringLink ytAttributedStringLinkCallToActionColor" href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbnNfcXAxSWRleDBhc0NJekJhelZwYmhFeXVyd3xBQ3Jtc0trLUZ3Z2EtMWhPRFJ5R1gzX0VFSTF0b1RUeXItMDdxV01kQk5zdDZ2TGN0WjhPS0NicGZSY1Jqc2psY2pCbERlakVRRTdNaFVtemRReXg0a0NIM0Z6Q0V1ay05dExVRGxfM0NYczlDbi1kNUROOUEzVQ&amp;q=https%3A%2F%2Fgithub.com%2Flab-401%2Ficopy-x&amp;v=WWS-9QdulC0" rel="nofollow" tabindex="0" target="_blank">https://github.com/lab-401/icopy-x</a></span>
+</li>
+<li>
+<strong>Install it</strong><span> </span>on your iCopy-X. Drop-in, reversible, no risk to your existing firmware.</li>
+<li>
+<strong>Contribute.</strong><span> </span>Badge compatibility, new flows, plugin examples - the framework is there.</li>
+<li>
+<strong>Help maintain it.</strong><span> </span>If you've run an open source project before and this is a device you use, get in touch. Huge shoutout to the original iCopy-X team for building the hardware this is running on, and to Iceman and the RRG/Proxmark contributors whose work we're now able to bring onto the device directly. Without either, there's no iCopy-X Open.</li>
+</ul>
+<hr>
+<h3>Get the iCopy-X</h3>
+<ul>
+<li><a href="https://lab401.com/products/icopy-x">iCopy-XS - €375 and up</a></li>
+<li><a href="https://lab401.com/collections/icopy-x-tags">iCopy-X Tag Packs</a></li>
+</ul>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/we-need-to-talk-about-the-icopy-x</id>
+    <published>2025-11-16T15:00:27+01:00</published>
+    <updated>2025-11-16T15:08:33+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/we-need-to-talk-about-the-icopy-x"/>
+    <title>We need to talk about the iCopy-X.</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p>It's been three years since the iCopy-X's last firmware update. Is it still the ultimate RFID device? Has the project been abandoned? We need to talk about the iCopy-X.</p>
+<p>The Lab401 team flew to China, sat down with the dev-team, and now we need your help to shape the future of the iCopy-X.</p><p><a class="read-more" href="https://lab401.com/blogs/news/we-need-to-talk-about-the-icopy-x">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<div aria-expanded="false" aria-controls=":42g" aria-owns=":42g" spellcheck="false" style="direction: ltr; min-height: 360px;" aria-multiline="true" role="textbox" aria-label="Message Body" class="Am aiL Al editable LW-avf tS-tW tS-tY" id=":3ul" tabindex="1">
+<div dir="ltr">We need to talk about the iCopy-X. It's been<strong> three years</strong> since it received an update.</div>
+<div dir="ltr">Have the promises of the ultimate portable open-source Proxmark faded?</div>
+<div dir="ltr">Is the product abandoned?</div>
+<div dir="ltr">Is it still a must-have product for pentesters ?</div>
+<div dir="ltr"><br></div>
+<div dir="ltr">
+<strong>We flew to China, sat down the the developers, and we have answers.</strong><br><iframe width="1922" height="1081" src="https://www.youtube.com/embed/te2ZWTk3asM" title="We need to talk about the iCopy-X"></iframe><br>The iCopy-X was launched in 2021 as an automated RFID cloning tool specifically for "locksmiths, landlords and other professionals".</div>
+<div dir="ltr" style="text-align: start;">
+<img src="https://cdn.shopify.com/s/files/1/2175/8571/files/quote-1.png?v=1763301405" style="margin-top: 16px; margin-bottom: 16px; float: none;">People quickly realised its potential for pentesters, RFID researchers and security auditors : a completely standalone, battery-powered, stable Proxmark 3. The screen, UI and buttons made previously complex tasks like "clone this unknown badge" quick and easy - but without sacrificing power: advanced users could connect via CLI directly to the Proxmark3 client.<br><br>This dual-usage meant that the iCopy-X was rapidly adopted as a "must-have tool" in the RFID community. The iCopy-X was never open-source, but the device was compelling, and the team promised "constant firmware upgrades", and the release of a "open-source development kit", to allow users to "modify logic" and "add new features to the graphical interface".</div>
+<div dir="ltr" style="text-align: start;">
+<img src="https://cdn.shopify.com/s/files/1/2175/8571/files/quote-3.png?v=1763301405" style="margin-top: 16px; margin-bottom: 16px; float: none;"><br>Five years later, however - these promises haven't been met. While the development team released minimum amounts of code to comply with the Proxmark's GPL licence - the UI, logic and processing layers remain closed source.<br><br>The gap between mainline Proxmark code, and iCopy-Xs' fork has increased; in 2022, Lab401 worked with iCopy-X to add LUA scripting into the UI - and that was the last update the device has received..<br><br>At Lab401, we have a few golden rules: make recommendations that customers can trust, and never disappoint customers. We've sold the iCopy-X as the ideal Proxmark device: convenience without sacrificing power. Throughout 2025, we've been asking ourselves the question: what's the status of the iCopy-X? Is the product abandoned? Can we honestly still recommend it as a must-have product for pentesters? <br><br>We flew to China to sit down with the developers - twice - and discuss the product and its future.<br><br>We'd planned to orient the conversation around how open-source would "save" the product, future-proof the product, and enable the product to evolve.<br>As we started discussed, we were honestly a little humbled: we'd missed a large part of the picture. We'd assumed that the iCopy-X's team had been ignoring _our_ problems, but we were also pretty ignorant of _their_ problems, notably:<br><br> - The iCopy-X was built for locksmiths, not pentesters. And by and large, locksmiths are satisfied with the product. They also make up a significant portion of the sales; and the key markets are not the ones you'd expect.<br><br> - The biggest risk for a manufacturer is investing in development, to have your market sniped by cloners. The iCopy-X has resisted cloners for more than 4 years: an impressive accomplishment, in no small part due to its closed-source policy.<br><br>However, the biggest surprise is that the team fully supports the idea Open Source - but there's an implementation problem.<br><br>The majority of the iCopy-X development was spent on refactoring the Proxmark codebase: making it drivable via UI, and more importantly: stable.<br>The Proxmark is a research device: pentesters can accept a few crashes or inconsistencies, plugging and unplugging and other quirkiness.<br>The iCopy-X is sold as a mainstream product: its target customers (locksmiths) need consistency and stability. <br><br>If you take the approach of putting mainline Proxmark firmware on the iCopy-X, you'll lose the UI, compatibility with the middleware that transports data between the Proxmark client and the UI, and the stability of the iCopy-X. These would have to be re-implemented.<br><br>If you go the other way, and take the iCopy-X code to the Proxmark codebase, aside from the backlog of years of commits to merge, you'll also be asking the Proxmark community to maintain two different hardware configurations - both seem unrealistic.<br><br>At this point, you may be scrambling to yell at us that we've missed something critical, that there's an easy solution, or actually the iCopy-X would be the perfect device, but it's just missing "whatever". <br><br>And that's great news, because that's the same conclusion we came to: let the community decide what needs to be done.<br>If you feel that the iCopy-X is <em>missing features</em> - tell us what they are.<br>If you feel that there's something super obvious that we missed: tell us what it is.<br>If you've got something to say and want to be heard by the iCopy-X developers: tell us.</div>
+<div dir="ltr" style="text-align: start;"></div>
+<div dir="ltr" style="text-align: start;">The best place to leave comments is on the <a href="https://www.youtube.com/watch?v=te2ZWTk3asM" target="_blank" rel="noopener"><strong>youtube video</strong></a> - but you can also send an email to <a href="mailto:support@lab401.com">support@lab401.com</a> and we will collect the results.</div>
+<div dir="ltr" style="text-align: start;">
+<br>Our goal is to collate the most popular <em>missing features</em>, fund development and get new updates pushed out. This has been pre-negociated with the iCopy-X team, and we believe not only achievable, but also realistic for all parties.<br><br>We acknowledge that "missing features" falls <strong>very short </strong>of releasing the full source code and let the community choose its own adventure - but while we're deeply invested in delivering customer satisfaction: the iCopy-X isn't our product, and everyone's interests, including the developers, need to be considered.<br><br>Now you know what's going on with the iCopy-X. Our goal is to start a dialog with everyone involved: the community, the contributors, the customers, the developers and the decision makers. <br><br>If you have an opinion on the iCopy-X, let it be known on the youtube video.</div>
+<div dir="ltr" style="text-align: start;"></div>
+<div dir="ltr" style="text-align: start;">The iCopy-X dev team will be reading these comments - and if there are other interesting threads (reddit, etc) - please let it be known. We'll also be sending out emails to iCopy-X customers to get feedback.<br><br>So let us know - and until then - stay safe.</div>
+</div>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/building-the-digilab-behind-the-scenes</id>
+    <published>2025-09-15T07:00:02+02:00</published>
+    <updated>2025-09-15T07:00:02+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/building-the-digilab-behind-the-scenes"/>
+    <title>Building the DigiLab : Behind the scenes</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p>Check out the complete behind-the-scenes journey of Lab401's DigiLab for Flipper Zero - from initial brainstorming to mass production — including prototype failures, code challenges, and manufacturing lessons learned.</p>
+<p>The DigiLab is a "magic wand" for electronics, allowing you to <em>feel</em> voltages, <em>hear</em> signals, <em>see</em> frequencies, and poke around directly in the brains of modules and sensors!</p>
+<p>✅ Sketches, blueprints and initial planning material<br>✅ Off-the-shelf components vs custom made<br>✅ Designing testing jigs for rapid production testing<br>✅ Behind-the-scenes videos, fumbles and fixes.</p><p><a class="read-more" href="https://lab401.com/blogs/news/building-the-digilab-behind-the-scenes">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>Lab401 recently released its <a href="/products/digilab-for-flipperzero">DigiLab</a> device - a "magic wand" for tinkering with electronics for the Flipper Zero.</p>
+<p>Just like for the <a href="https://lab401.com/products/light-messenger">Lab401 LightMessenger</a> accessory, we're pulling back the curtain on the "making-of" - deep-diving into each step, from conception to distribution.</p>
+<p>This is <strong>Part 3</strong> of our <strong>"<a href="/blogs/news/product-manufacturing-with-lab401">Product Manufacturing with Lab401</a>"</strong> series.</p>
+<ul>
+<li>In the <a href="/blogs/news/product-manufacturing-with-lab401">Part 1</a>, we discussed our approach and methodology to creating, manufacturing and launching products.</li>
+<li>In <a href="/blogs/news/building-the-lightmessenger-product-manufacturing-part-2">Part 2</a>, we shared the manufacturing journey behind the LightMessenger.</li>
+</ul>
+<p>If you're interested in electronics manufacturing, or seeing what's involved behind releasing a product, checkout these articles!</p>
+<p>Huge shoutout to <a href="https://tixlegeek.io/splash">@tixlegeek</a>, the engineer behind the project.</p>
+<h2 id="what-is-the-digilab-">What is the DigiLab?</h2>
+<p>The DigiLab is a device that attaches to the Flipper Zero. It's an electronics multi-tool that allows users to analyze and explore low-power electrical signals: It can detect different aspects of signals and translate them into "real-time" kinetic feedback: audio, light, vibration, etc.</p>
+<p><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab---Rotoscope.gif?v=1757020607" alt=""></p>
+<p>It also enables simple and intuitive detection, identification and direct manipulation of I²C and SPI devices.</p>
+<p>At its core, it's a "magic probe" that processes and splits the signal, paired with a high-level application that displays everything.</p>
+<p>It's not meant to replace dedicated precision tools: it's meant to be a <em>digital nose for electronics</em> - the first tool you turn to when you're exploring electronics.</p>
+<p>You know how some "simple" tasks are actually annoyingly difficult? IE, <em>Is this CAN_HI or CAN_LO? Is there a signal on this line? Is this 9600 baud or 38400 baud ?</em> or <em>Why can't I just read the registers of a temperature module without programming a damned Arduino and fighting with the "improved" Arduino IDE?</em></p>
+<p>The DigiLab solves all of those problems, in a really neat, unique an intuitive way.</p>
+<h1 id="step-0-what-will-we-build-">Step 0: What Will We Build?</h1>
+<p>Initially, we kicked off with a <strong>brainstorming</strong> session. The LightMessenger had allowed us to learn the Flipper hardware, software and API architectures, and we were ready to make a device that pushed the Flipper's hardware further.</p>
+<p>One of the key reasons why the Flipper Zero has become so popular is its versatility. It wasn't designed to be <strong>the best</strong> a every single task: there are other, better tools for almost every functionality: RFID, RF, SDR, etc.). It was designed to be <em>versatile</em>: do a little bit of everything.</p>
+<p>We wanted to follow the same design logic with the DigiLab - and build a versatile tool for electronics hobbyists. The idea was simple: <em>a magic wand for digital electronics</em>. We wanted to leverage the strengths of the Flipper and a custom circuit that would transform the Flipper into the tool you reached for first when you wanted to experiment with electronics.</p>
+<p>In the words of tixlegeek: "<em>As an electronics tinkerer, I tried to imagine the tool I'd love to have in the field—something that could give quick insights without the need for an oscilloscope or a bulky setup. That's where the "magic wand" concept came from.</em>"</p>
+<p>We were not trying to replace more expensive gear, but making a <em>versitile</em> tool that allows you to do most of the tasks you need, without breaking out the oscilloscope, BusPirate, etc.</p>
+<hr>
+<h2 id="design">Design</h2>
+<p>As with previous products, we had several constraining factors to be considered. With the LightMessenger, we had to work within <strong>physical</strong>, <strong>budgetary</strong>, and <strong>logistical</strong> constraints that would steer our technical choices. With the DigiLab, we also added <strong>technical</strong> constraints - what we were trying to do would push the Flipper's hardware to its limits.</p>
+<p>All in all:</p>
+<ul>
+<li>
+<p><strong>Technical Challenges</strong> The electronics would be more complicated. We wanted to be able to see and process frequencies in "real-time", and also perform "real-time" heterodyning (converting a frequency to another - so users could listen to frequencies in their circuits, and see them on the screen). It needed to support voltages ranging up to 12V safely (without endangering the GPIO ports of the Flipper), and also had to have a fairly complex interface.</p>
+</li>
+<li>
+<p><strong>Mechanical Robustness</strong><br>The add-on will be used by <strong>real people</strong>, with large hands and sometimes less than gentle usage. Thus, we needed to design a robust module, especially taking into account the <strong>GPIO limitations</strong> of the Flipper Zero's external port.</p>
+</li>
+<li>
+<p><strong>Development</strong><br>The code must remain <strong>clear</strong> and <strong>accessible</strong> so that anyone can understand and contribute.</p>
+</li>
+<li>
+<p><strong>Production</strong><br>Every element must be easily manufactured with <strong>readily available</strong> components.</p>
+</li>
+<li>
+<p><strong>Cost</strong><br>The approach was to remain <strong>simple</strong> and <strong>efficient</strong>. We prioritize what's necessary to ensure that the final product is available at a <strong>reasonable price</strong>.</p>
+</li>
+<li>
+<p><strong>Aesthetics</strong><br>Aesthetics can often be easily overlooked, but they contribute significantly to the user experience. We wanted to continue the same fun an opinionated design aesthetics as previous times, whilst also ensuring that it was ergonomic.</p>
+</li>
+</ul>
+<hr>
+<h3 id="prototypes-and-direction">Prototypes and Direction</h3>
+<p><em>From tixlegeek:</em></p>
+<p><em>I started by sketching and tinkering with cardboard models to get a better feel for the tool:</em></p>
+<p><em><video loop="loop" muted="muted" autoplay="autoplay"><source src="https://cdn.shopify.com/videos/c/o/v/ab4fac3ee3e1489284fe4b05daf3d559.mp4"></video></em></p>
+<p><em>In parallel, I ordered a circuit board prototype. The goal was to validate the electronics and components, and to see how everything would come together.</em></p>
+<p><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab---ESP32-version.png?v=1757344098" alt=""></p>
+<p><em>At first, I was considering using an ESP32 to handle the signals and provide web-based feedback. But after talking it through with the crew, we realized that wasn't the real point of the project — so the idea was dropped.</em></p>
+<p>If the device was standalone, it could be somewhat self-defeating. In the final product, everything is handled directly by the Flipper Zero.</p>
+<hr>
+<h3 id="connections-probes-and-problems-">Connections, Probes and Problems.</h3>
+<p><em>I worked with a wide variety of tools, each coming with its own set of accessories - some more standard than others. When it comes to connecting probes to a PCB, there are definitely good and bad ways to do it, but in practice it often turns into a nightmare of plugs, sockets, and mismatched connectors.</em></p>
+<p>We wanted to find a middle-ground between price, practicality and robustness. Likewise, we didn't want to dictate how a user should use the tool - so we wanted to keep things as open as possible.</p>
+<p>We went through quite a journey figuring out the best way to make the DigiLab practical while still keeping costs down. At one point, we even tried banana plugs, but they turned out to be far too bulky.</p>
+<p><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab---Probes.png?v=1757344545" alt=""></p>
+<p>While discussing this with the crew, we agreed that SMA was the way to go - it's small, common, and checked all the boxes mechanically. We spent a lot of time dredging through the commodity markets searching for an existing product, but found nothing.</p>
+<div style="text-align: center;">
+<img src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab---Expensive-Cable_240x240.png?v=1757344884" style="margin-bottom: 16px; float: none; display: block; margin-left: auto; margin-right: auto;"><i>$34 for this .. if you're a cable manufacturer .. there's a market opening here!</i>
+</div>
+<p>If we used SMA as the constraining element: the closest product we found was ~$34 per cable - way out of our price range. If we were flexible with the connector, there were thousands of multi-meter cables available - but all with bulky banana connectors. We actually ran a prototype with banana plugs. Based on our tests, these were not only ugly, but they added a huge mechanical lever onto a delicate PCB. In the long-run, this would end up destroying the PCB.</p>
+<p>In the end, we went the custom route: the advantages being that we could create the probes exactly the way we wanted them (compact, cute, useful), and use the SMA connector. Naturally, this meant we needed to build tooling for the probes, and make custom cables - but we're happy with the result, and glad that we didn't concede on this.</p>
+<p><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab---Finished.png?v=1757344105" alt=""></p>
+<p>The only part that remained unchanged between the prototype and the final product was the probe tip. It allows users to (literally) poke around a circuit, pen-sensor style, if they want. At the same time, it's removable, so you can slot in a wire as a holder, giving the user the freedom to decide exactly what they need - or remove it completely. If the user connects the probes, they can use the device in 'desktop' or 'lab' mode.</p>
+<p>In the end, we believe that we came up with a solution that's elegant in its simplicity.</p>
+<hr>
+<h2 id="aesthetic-design">Aesthetic design</h2>
+<p><em>From tixlegeek:</em></p>
+<p><em>When I started working on the artwork for this product, I already knew the story I wanted to tell. The LightMessenger had set the tone, and the DigiLab needed to follow that path. I had a clear vision: a kid with a strainer on their head, wielding a makeshift signal blaster to fend off aliens. Think </em>Commander Keen<em> meets </em>Heart of Darkness<em>, in the grim world of an information dystopia.</em></p>
+<p><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab---Artwork.png?v=1757344098"></p>
+<p><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab---Boards.png?v=1757345174"></p>
+<p><em>I sketched out a bunch of concepts and turned them into illustrations, some of which ended up on the DigiLab's cardboard box.</em></p>
+<p><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab---Box.png?v=1757344102"></p>
+<p><br></p>
+<hr>
+<h2 id="production-ready-prototypes">Production-ready prototypes</h2>
+<p>After weeks (and plenty of iterations), we finally had working hardware, a solid form factor, and a product we were proud of. That was exciting: but really just one-third of the story. Hardware alone means nothing without software, and on top of that, production testing had to be figured out.</p>
+<p>We performed rapid PCB prototyping via JLCPCB.</p>
+<hr>
+<h2 id="the-code">The code</h2>
+<p><em>The code was a bit of a nightmare at first—I was chasing the fastest and most reliable ways to sample and display signals. The Digilab actually splits the probed signals into two parts: a low-frequency analog representation, and a clean rendering of oscillations around 0 V. The idea was to measure frequencies, voltages, and let the software compute some useful metrics on top.</em></p>
+<p><em>I ended up writing custom software for this, using ring buffers, statistical analysis, and a bit of “magic” to make it all click. Given the hardware limitations of the Flipper Zero, I'm really happy with how it turned out. Several tools came out of this, each with clear, practical scenes—so the user barely has to think about what's happening in the background.</em></p>
+<p><em>For I²C and SPI, there's a database-driven component detection system that uses multiple techniques to guess what kind of device is being probed. The I²C app in particular includes a neat little hex editor that I'm especially proud of—I think it's going to be genuinely useful.</em></p>
+<p><em>Finally, the Scope and Probe tools make the best of the hardware while giving the user flexible options to tune the kinetic feedback just the way they like.</em></p>
+<hr>
+<h2 id="testing">Testing</h2>
+<p>As with the LightMessenger, we wanted 100% automated PCB testing. This means that every PCB undergoes a series of tests that it must pass. This requires designing and building testing hardware (called a 'jig'), and also the testing software.</p>
+<p>Naturally, this involves "more work", and it can be tempting to opt for visual inspection only, in order to same some time or cut some corners. Some PCBA factories will even push for visual inspection.</p>
+<p>However, <strong>the</strong> reason that 100% testing is important is <strong>liability shift</strong>. Let's imagine you opt for visible inspection. The PCBAs are completed, and then integrated into a final product, packaged up and shipped to your warehouse. Maybe you send units to your distributors, and then finally, you launch the product.</p>
+<p>You're at the and of the production cycle, and you're relieved. Suddenly, you get feedback from customers. The device fails in a specific situation. You grab a product from stock, and you see that a component was soldered back to front during the production run.</p>
+<p>You call the factory, and complain. They tell you that it passed visual inspection, and you accepted the products. The liability for solving the problem has now shifted from the factory, to you, and even to your customers. Solving this problem is incredibly expensive, in terms of time, money and customer reputation.</p>
+<p>If the PCBs had been <strong>electronically tested</strong>, the failure would have been detected and the liability for solving the problem would have shifted onto the PCBA factory.</p>
+<p><em>If you're manufacturing, invest time in proper testing.</em></p>
+<p>For the DigiLab, we built a a CH32V003-based test jig that checks all functionalities and provides the manufacturer with simple, easy-to-understand feedback. It took some tweaking and a clear step-by-step procedure to make sure it fit smoothly into the manufacturing process.</p>
+<p>Here are a few pictures of the test jig:</p>
+<p><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab---Testing-Jig.png?v=1757344106"></p>
+<p><em>I soldered test points to emulate pogo pins, and fixed several mistakes I made in the first iteration.</em></p>
+<p>Then, our on-house manufacturer integrated it on the test-bench, with custom-made hardware:</p>
+<p><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab---Testing-Jig---2_6a34e8c5-8835-47f6-b802-64f8c984ee5e.png?v=1757345268"></p>
+<hr>
+<h3 id="packaging">Packaging</h3>
+<p>We prefer to use simple packaging:</p>
+<ul>
+<li>Unbleached, uncoated cardboard to minimise our footprint of damaging chemicals</li>
+<li>Soy-based inks, to minimise environmental impact</li>
+<li>Simple foam inserts (no custom cutting, etc) to minimise costs</li>
+</ul>
+<p>We believe this strikes a balance between our ethical engagements, while still providing the customer with a pleasant unboxing experience. Likewise: we're being honest to the customers - they're not paying for something that they're going to throw away.</p>
+<p>We had learned with the LightMessenger that a few extra centimeters in packaging ends up translating to extra palettes in delivery, and we wanted to avoid that problem with the DigiLab.</p>
+<p>So, we went for a much slimmer box. We experimented with different configurations of uncut foam, but we couldn't find a satisfactory way to present the device, the probes and the probe point. With no cutouts, things floated around the box. With multi-layers of uncut foam, users could open a box and think they were missing parts. In the end, we used two layers, with an 'intelligent' cut, so when you opened the box, you could see the probes underneath.</p>
+<p><em><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab---Box---Finished.png?v=1757344105"><br>Our box.</em></p>
+<hr>
+<h3 id="conclusion">Conclusion</h3>
+<p>The DigiLab is a bit difficult to describe: it gives a unique way to "feel" circuits - leveraging light, sound and vibrations. When you've got it in your hands on the device or see it in action, suddenly everything clicks.</p>
+<p>Tasks that previously were difficult or a bit awkward to test (especially things like: <em>Is this CAN_HI or CAN_LO? Is there a signal on this line? Is this 9600 baud or 38400 baud ?</em>) - are just "magically" possible.</p>
+<p>Ironically, we were surprised by just how useful the the device is. During our tests, we discovered more and more use-cases for the tool, and have found ourselves going back to it frequently for day to day tasks.</p>
+<p>One of the surprise favourites is the I2C explorer. In theory, I2C manipulation is "easy", or a "solved problem" - you hook the module up to an I2C equipped platform an interact with the module. In reality, this means writing code on an Arduino, or fighting with drivers on the Raspberry PI. It's not intuitive. With the DigiLab, it detects and identifies the device immediately, and you can poke directly in the registers of a module. When you see how easy it can be, suddenly all the other ways seem incredibly clunky.</p>
+<p>As such, we're really proud of the DigiLab. We've delivered a quality, open-source accessory for the Flipper Zero that solves common problems in a unique way, and hopefully will see daily use by electronics geeks everywhere.</p>
+<p>If you're interested in checking out the final product, the <a href="/products/digilab-for-flipperzero">DigiLab</a>, we'd be humbled.</p>
+<p>The device is fully open-source; please check out the code on <a href="https://github.com/lab-401/fzDigiLab">GitHub</a>.</p>
+<p>Thanks very much</p>
+<p><strong>Lab401 and tixlegeek.</strong></p>
+<style>
+  video { width: 100%; }
+</style>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/building-the-lightmessenger-product-manufacturing-part-2</id>
+    <published>2025-03-23T15:22:00+01:00</published>
+    <updated>2025-05-24T02:57:04+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/building-the-lightmessenger-product-manufacturing-part-2"/>
+    <title>Building the LightMessenger : Manufacturing, Part 2</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p class="whitespace-normal break-words">Check out the complete behind-the-scenes journey of Lab401's LightMessenger  for Flipper Zero - from initial brainstorming to mass production — including prototype failures, code challenges, and manufacturing lessons learned.</p>
+<p class="whitespace-normal break-words">The LightMessenger creates stunning persistence of vision effects with 16 RGB LEDs and an accelerometer, painting text and images through air when swiped - fully open source and open hardware.<br></p>
+<p class="whitespace-normal break-words">✅ Sketches, blueprints and initial planning material<br>✅ Smart component selection in 2025<br>✅ Designing testing jigs for rapid production testing<br>✅ Behind-the-scenes videos, fumbles and fixes.<br></p><p><a class="read-more" href="https://lab401.com/blogs/news/building-the-lightmessenger-product-manufacturing-part-2">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<h1 id="design-prototyping-and-creation"><span>Lab401 Light Messenger : Development Log</span></h1>
+<p><strong>Part 2 </strong>of our <strong>"<a href="/blogs/news/product-manufacturing-with-lab401">Product Manufacturing with Lab401</a>"</strong> series.</p>
+<p>In the <a href="/blogs/news/product-manufacturing-with-lab401">Part 1</a>, we discussed our approach and methodology to creating, manufacturing and launching products.</p>
+<p>In this part, we deep-dive into the behind-the-scenes of producing <a href="https://lab401.com/products/light-messenger" target="_blank">Lab401's Persistence of Vision / Light Painting accessory</a> for the Flipper Zero.</p>
+<h2>What is the Light Messenger?</h2>
+<p>The Light Messenger is a <em>Persistence of Vision</em> and <em>Light Painting</em> accessory for the Flipper Zero. It has 16 RGB LEDs and an accelerometer; when plugged into your Flipper Zero and swiped back and forth, "paints" text and images in the air.</p>
+<p>It's open-source and completely hackable - and the community has already added some great new features.</p>
+<p><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/LightMessenger-_-Flipper---Cropped.png?v=1740053368"></p>
+<p><video loop="loop" muted="muted" autoplay="autoplay"><source src="https://cdn.shopify.com/videos/c/o/v/6c599a21b92a4bd1afec28532ab7e460.mp4"></video></p>
+<p><video loop="loop" muted="muted" autoplay="autoplay"><source src="https://cdn.shopify.com/videos/c/o/v/eb996317e2d943ceb01c3a4fed063e96.mp4"></video></p>
+<p>Huge shoutout to <a href="https://tixlegeek.io/splash" target="_blank">@tixlegeek</a>, the engineer behind the project, and <a href="https://github.com/jamisonderek" target="_blank">@codeallnight</a> for their contributions to the code-base since product release.</p>
+<h2 id="what-will-we-build"><span>Step 0: What Will We Build?</span></h2>
+<p><span>Initially, we kicked off with a </span><strong><span>brainstorming</span></strong><span> session during which we jotted down several ideas. The goal was to find concepts that were </span><strong><span>fun</span></strong><span>, </span><strong><span>interesting</span></strong><span>, and capable of bringing </span><strong><span>real innovations</span></strong><span> to the Flipper Zero, rather than just replicating the same hardware modules that are proliferating as clones. We aimed to create a project that is </span><strong><span>novel</span></strong><span>, </span><strong><span>captivating</span></strong><span>, and </span><strong><span>educational</span></strong><span>.</span></p>
+<p><span>Next, we evaluated each idea to determine where to begin. This was a first for us, so it was crucial that the initial project be </span><strong><span>clearly defined</span></strong><span> and </span><strong><span>accessible</span></strong><span>. </span></p>
+<p><span>In addition to the "Product Metric" defined in the previous post, because this would be our first Flipper Zero accessory, we had several other additional metrics:</span></p>
+<ul>
+<li><span>Learn the Flipper Zero hardware architecture</span></li>
+<li><span>Learn the Flipper Zero software development architecture (<a href="https://github.com/flipperdevices/flipperzero-firmware/issues/59" target="_blank">FURI</a>)</span></li>
+<li>Establish and manage a full supply chain (development, prototyping, production, etc)</li>
+<li>Test the market for Flipper Zero accessories</li>
+</ul>
+<p><span>Because of this additional overhead, it was important that we set achievable goals. As such, we wanted to ensure that the accessory scope was <em>relatively simple</em>, in order that we could concentrate on building knowledge without being overwhelmed.</span><span></span></p>
+<p><span>We settled on the "Persistence of Vision / Light Painting" accessory, as it was relatively simplistic in terms of hardware and production, which would allow us to concentrate on the more complex elements : software development &amp; Flipper architecture.</span></p>
+<p><span>Likewise, if there was no market for Flipper accessories, and the entire project was a failure, we would fail quickly (and therefor more cheaply).</span></p>
+<p><span>In summary: this project allowed us to learn and explore what we could do, and how. <br></span></p>
+<hr>
+<h2 id="design"><span>Design</span></h2>
+<p><span><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/log_proto_00.png?v=1739967903"></span><em>Initial product sketches</em></p>
+<p><span>Before diving into the final design, several factors had to be considered. We had to work within </span><strong><span>physical</span></strong><span>, </span><strong><span>budgetary</span></strong><span>, and </span><strong><span>logistical</span></strong><span> constraints that would steer our technical choices:</span></p>
+<ul>
+<li>
+<p><strong><span>Mechanical Robustness</span></strong><span></span><br><span>The add-on will be used by </span><strong><span>real people</span></strong><span>, with large hands and sometimes dogy usage. Thus, we needed to design a robust module, especially taking into account the </span><strong><span>GPIO limitations</span></strong><span> of the Flipper Zero's external port.</span></p>
+</li>
+<li>
+<p><strong><span>Development</span></strong><span></span><br><span>The code must remain </span><strong><span>clear</span></strong><span> and </span><strong><span>accessible</span></strong><span> so that anyone can understand and contribute. This is why we chose to organize the project into several modules (configuration, accelerometer management, graphics rendering, etc.) and to use proven standards (such as </span><strong><span>JSON</span></strong><span> for configuration and </span><strong><span>Bitmap</span></strong><span> for images).</span></p>
+</li>
+<li>
+<p><strong><span>Production</span></strong><span></span><br><span>Every element must be easily manufacturable with </span><strong><span>readily available</span></strong><span> components. Our choice of the </span><strong><span>LIS2DH12/SK6805</span></strong><span> pair proved to be a sound decision in terms of reliability and sourcing.</span></p>
+</li>
+<li>
+<p><strong><span>Cost</span></strong><span></span><br><span>The approach was to remain </span><strong><span>simple</span></strong><span> and </span><strong><span>efficient</span></strong><span>. We prioritize what’s necessary to ensure that the final product is available at a </span><strong><span>reasonable price</span></strong><span>.</span></p>
+</li>
+<li>
+<p><strong><span>Aesthetics</span></strong><span></span><br><span>Aesthetics can often be easily overlooked, but they contribute significantly to the user experience, the product's appeal, and the creators' image. Both Lab401 and I wanted to be as proud as possible of what is offered to the user, ensuring they feel respected and valued. The aim was to provide something beautiful that shows we truly tried our best.</span></p>
+</li>
+</ul>
+<hr>
+<h3 id="sketching"><span>Sketching</span></h3>
+<p><span>I start with this point because it’s one of my favorite steps. I wanted all the add-ons to share a </span><strong><span>common story</span></strong><span> and a </span><strong><span>red thread</span></strong><span> to create a genuine </span><strong><span>lore</span></strong><span>. This attention to detail strengthens user engagement, even if it isn’t strictly necessary from a technical standpoint.</span></p>
+<p><span>I began on paper, sketching ideas, and then finalized the drafts using </span><strong><span>Inkscape</span></strong><span> (&lt;3).</span></p>
+<p><span><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/log_proto_091.jpg?v=1739967903"></span></p>
+<p><span><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/log_proto_092.png?v=1739967903"></span></p>
+<p><span>For the back of the PCB, I designed a </span><strong><span>cheat sheet</span></strong><span> on “Information Security” focused on </span><strong><span>encoding</span></strong><span>, including the </span><strong><span>Shannon model</span></strong><span>, comparisons between </span><strong><span>Encoding</span></strong><span>, </span><strong><span>Encryption</span></strong><span>, and </span><strong><span>Hashing</span></strong><span>, as well as a condensed </span><strong><span>ASCII table</span></strong><span> and a diagram for </span><strong><span>Morse code</span></strong><span>.</span></p>
+<hr>
+<h3 id="prototypes"><span>Prototypes</span></h3>
+<p><span>We went through numerous iterations, from the </span><strong><span>proof of concept</span></strong><span> to the final version, enabling us to iterate quickly whenever an issue was identified:</span></p>
+<p><span><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/log_proto_102-1739871471253-9.png?v=1739967905" alt=""></span><em>First prototype that allowed us to control the peripheral functions and test various options</em></p>
+<p><span><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/log_proto_101.png?v=1739967905" alt=""><em>Some of the prototypes that were developed</em></span></p>
+<p><span>Each prototype allowed us to test a specific aspect of the module, from motion detection to LED display, and to refine our code. This approach enabled us to kick off </span><strong><span>serious development</span></strong><span> on a robust foundation.</span></p>
+<hr>
+<h3 id="component-selection"><span>Component Selection</span></h3>
+<p><span>To kick off production, we needed to ensure that all components could be </span><strong><span>sourced</span></strong><span> in sufficient quantities. After numerous tests and design iterations, we opted for the </span><strong><span>LIS2DH12/SK6805</span></strong><span> pair:</span></p>
+<ul>
+<li>
+<p><strong><span>LIS2DH12</span></strong><span>: An accelerometer offering all the required functionalities, with excellent reliability and software support provided by </span><strong><span>STMicro</span></strong><span>.</span></p>
+</li>
+<li>
+<p><strong><span>SK6805</span></strong><span>: The only model that emits from the side, which wasn’t initially planned but turned out to be the ideal solution. They are also </span><strong><span>readily available</span></strong><span>.</span></p>
+</li>
+</ul>
+<hr>
+<h3 id="pcb"><span>PCB</span></h3>
+<p><span>The PCB was designed using </span><strong><span>KiCad</span></strong><span> (&lt;3), a free and open source software that is </span><strong><span>extremely powerful</span></strong><span>. Its dynamic community and advanced features allowed us to design a circuit tailored to the project’s specific needs, while maintaining a professional quality.</span></p>
+<hr>
+<h2 id="operation-and-poc"><span>Operation and POC</span></h2>
+<p><span>This section delves into the heart of the project. The </span><strong><span>specifications</span></strong><span> were as follows:</span></p>
+<ul>
+<li>
+<p><strong><span>Text display</span></strong></p>
+</li>
+<li>
+<p><strong><span>Image display</span></strong></p>
+</li>
+<li>
+<p><strong><span>Bidirectional display</span></strong></p>
+</li>
+</ul>
+<p><span>To meet dimensional constraints while ensuring good </span><strong><span>resolution</span></strong><span>, we opted for an array of </span><strong><span>16 RGB LEDs (SK6805)</span></strong><span>.</span></p>
+<p><span>For motion detection, we used an </span><strong><span>accelerometer</span></strong><span> with at least two “tilt” type interrupts. These interrupts detect force inversions and generate pulses on the GPIO pins, which are essential for triggering interrupts in the code.</span></p>
+<p><span>It’s important to keep in mind that the Flipper’s GPIO port is very well designed but also quite limited. We had to run several tests, seek ideas and help from the Flipper teams, but eventually, it worked, and we quickly implemented a satisfactory POC.</span></p>
+<p> </p>
+<p><em><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/log_proto_25.jpg?v=1739967903" alt=""></em><em>First glances of "working" implementation</em></p>
+<p><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/log_proto_111.jpg?v=1739967903" alt=""><br><em>First functional code</em><br></p>
+<hr>
+<h2 id="the-code"><span>The Code</span></h2>
+<p><span>Developing the code was the </span><strong><span>real challenge</span></strong><span>.</span></p>
+<ul>
+<li>
+<p><strong><span>Modular Structure:</span></strong><span></span><br><span>The code is broken down into several clear modules:</span></p>
+<ul>
+<li>
+<p><strong><span>Configuration:</span></strong><span> Reading and parsing the </span><strong><span>JSON</span></strong><span> file to define the display and parameters.</span></p>
+</li>
+<li>
+<p><strong><span>Accelerometer:</span></strong><span> Managing interrupts via the </span><strong><code>zmax_callback</code></strong><span> and </span><strong><code>zmin_callback</code></strong><span> functions, which determine the direction of motion and update the application structure through </span><strong><code>swipes_init</code></strong><span>.</span></p>
+</li>
+<li>
+<p><strong><span>Graphics Rendering:</span></strong><span> A </span><strong><span>shader</span></strong><span> computes in real time the colors of all pixels in a column based on parameters and the accelerometer’s state.</span></p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong><span>Real-Time Optimization:</span></strong><span></span><br><span>The main thread runs continuously to recalculate and update the LED display. Fine-grained microsecond management allows us to balance performance and responsiveness, even on </span><strong><span>limited</span></strong><span> hardware.</span></p>
+</li>
+<li>
+<p><strong><span>Dedicated tools</span></strong><span> for creating text and image easily, given the limitations of the flipper zero (monochrome screen, and a few buttons)</span></p>
+</li>
+<li>
+<p><strong><span>Ease of Contribution:</span></strong><span></span><br><span>We ensured that the project is easily </span><strong><span>extensible</span></strong><span>. By using standards such as </span><strong><span>JSON</span></strong><span> and </span><strong><span>Bitmap</span></strong><span>, users can effortlessly generate, import, and modify files without having to master complex pipelines.</span></p>
+</li>
+</ul>
+<p><img><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/401_lghtmsg_splash.png?v=1739967901" alt=""></p>
+<p><span>The code was designed so that each new feature (like adding colors to images or enhancing the shader) can be integrated without disrupting the overall system.</span></p>
+<p><span><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/log_proto_122.jpg?v=1739967903" alt=""><em>First successful tests of the "bitmap" function</em></span></p>
+<p> </p>
+<hr>
+<h3 id="operating-details"><span>Operating Details</span></h3>
+<p><span>The </span><strong><span>accelerometer</span></strong><span> plays a central role in orchestrating the LED matrix display. Once the </span><strong><span>"SWIPE"</span></strong><span> message is displayed, a dedicated thread (</span><code>app_acc_worker</code><span>) takes over to manage the interrupts and steer the display.</span></p>
+<blockquote>
+<p><strong><span>Note:</span></strong><span></span><br><span>As you peruse the code, you’ll notice that we don’t use traditional mechanisms like mutexes or event queues inside the "display" routine. The Flipper API, based on </span><strong><span>FreeRTOS</span></strong><span>, offers these structures, but way too costly at this level. We opted for more </span><strong><span>direct</span></strong><span> techniques, even if some might call them "dirty." After several weeks of iterations, this approach proved to be the most </span><strong><span>reliable</span></strong><span> for our use case, garanteeing timings and stability</span></p>
+</blockquote>
+<p><span>The two interrupts generated by the accelerometer trigger the </span><strong><code>zmax_callback</code></strong><span> and </span><strong><code>zmin_callback</code></strong><span> functions. These functions update the direction of movement, which is then used by the main thread to animate the </span><strong><span>LEDs</span></strong><span> using a dynamic </span><strong><span>shader</span></strong><span>. This shader is designed to be easily </span><strong><span>modifiable</span></strong><span> via a simple callback function change, allowing for the exploration of different color palettes and visual effects.</span></p>
+<hr>
+<h3 id="the-flipper-ecosystem"><span>The Flipper Ecosystem</span></h3>
+<p><span>Working on the Flipper Zero is both </span><strong><span>stimulating</span></strong><span> and </span><strong><span>challenging</span></strong><span>. The efforts of the community and the development teams are impressive and </span><strong><span>dynamic</span></strong><span>, even though the constantly evolving API sometimes necessitates revisiting parts of the code. This dynamic nature ensures that the project remains cutting-edge and benefits from the latest system improvements.</span></p>
+<hr>
+<h2><span>Manufacturing, Production and Testing</span></h2>
+<p><span>Once we'd iterated to final hardware, we were able to put a few processes into parallel:</span></p>
+<ul>
+<li><span>PCB / PCBA </span></li>
+<li><span>Testing / QC</span></li>
+<li><span>Packaging </span></li>
+</ul>
+<hr>
+<h3>PCB / PCBA</h3>
+<p>When you're manufacturing, the first step is to send your full project files to the selected factory. These are typically the "GERBERS" and "Bill of Material" (BOM).</p>
+<p>This will allow the factory to manufacture the Printed Circuit Boards (PCBs), and prepare the Solder Masks and Silk Screen, and also prepare for Printed Circuit Board Assembly (PCBA) - where the components are picked, placed and soldered onto the PCB.</p>
+<p>We opted to use one of our existing contacts in Shenzhen for the PCB + PCBA.</p>
+<p><em><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/PCB-Test-1.png?v=1739973484" alt=""></em><em>Initial PCB Tests</em></p>
+<p><em><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/PCB-Test-2.png?v=1739973503" alt=""></em></p>
+<p><em>Production PCBs. We opted for the "snap-off ladder style" to make testing easier. Once a PCB was tested, it could be snapped off, so there'd be no confusion on what had been tested or hadn't been tested.</em></p>
+<hr>
+<h3>Testing / QC</h3>
+<p>There are multiple approaches to testing / quality control.<br>In our experience, 100% testing (ie, each product is tested individually) is safer, more reliable, and in the long run, cheaper than random sampling.</p>
+<p>To perform 100% QC, you need to supply the factory with an SOP (Standard Operating Procedure) document, which outlines how a product should be tested, and what the PASS/FAIL conditions are.</p>
+<p>If at all possible, it's preferable that testing is done in a "jig". This is a semi-automated device that will allow the factory to <strong>quickly</strong> test each individual device.</p>
+<p>Typically, if you can supply the schematic + firmware + SOP, the factory will work out how to physically build the jig to meet their needs.</p>
+<p><em><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/SOP.png?v=1739973740" alt=""></em></p>
+<p><em>The SOP document</em></p>
+<p> </p>
+<p><video loop="loop" muted="muted" autoplay="autoplay"><source src="https://cdn.shopify.com/videos/c/o/v/a6b622e99bdf4b6cb95b9f4ca6b893d8.mp4"></video></p>
+<p><em>The factory's implementation of the testing jig (with unexpected alien 👽)</em></p>
+<p><video loop="loop" muted="muted" autoplay="autoplay"><source src="https://cdn.shopify.com/videos/c/o/v/77ac01e77fc441aeaf1837d0f68ca2b8.mp4"></video></p>
+<p><em>Sample of a passing unit</em><br></p>
+<p><video loop="loop" muted="muted" autoplay="autoplay"><source src="https://cdn.shopify.com/videos/c/o/v/a5aa7142b29d45f09d9d168cfba43230.mp4"></video></p>
+<p><em>Sample of a failing unit (accelerometer failed during PCBA)</em><br></p>
+<hr>
+<h3>Packaging</h3>
+<p>Packaging is a fascinating subject: it plays a significant role in a customer's perception of a product; this perception can even taint a customer's first hands-on experiences with a device.</p>
+<p>At the same time, unless it's a collectable device, packages will be almost instantly discarded.<br>Ethically, were is the boundary between providing the customer with a perception of quality, while also not over-charging them for something that will be thrown away?</p>
+<p>Likewise, packaging has a large environmental impact. At production, there are all sorts of chemicals used to bleach and colour raw materials; at reception, it's going to go into landfill.</p>
+<p>We prefer to use simple packaging:</p>
+<ul>
+<li>Unbleached, uncoated cardboard to minimise our footprint of damaging chemicals</li>
+<li>Soy-based inks, to minimise environmental impact</li>
+<li>Simple foam inserts (no custom cutting, etc) to minimise costs</li>
+</ul>
+<p>We believe this strikes a balance between our ethical engagements, while still providing the customer with a pleasant unboxing experience. Likewise: we're being honest to the customers - they're not paying for something that they're going to throw away.</p>
+<p>After making these choices, we selected a format that worked for us, but still remained slim enough to qualify for "envelope" postage prices.</p>
+<p>However, we could and should have made this even slimmer - even a 50% height reduction would have reduced our palette, shipping and storage costs significantly. Lesson learned for the next accessory!</p>
+<p><em><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Lab401-Light-Messenger-Box.png?v=1739974236" alt=""></em></p>
+<p><em>Our box.</em></p>
+<hr>
+<h3 id="conclusion"><span>Conclusion</span></h3>
+<p><span>This project turned out to be far more </span><strong><span>complex</span></strong><span> than anticipated, but we gave it our all to deliver a </span><strong><span>finished</span></strong><span>, </span><strong><span>functional</span></strong><span>, </span><strong><span>extensible</span></strong><span>, </span><strong><span>aesthetic</span></strong><span>, </span><strong><span>educational</span></strong><span>, and </span><strong><span>fun</span></strong><span> product! Every line of code, every technical choice, was made to provide a rich user experience and a solid foundation for future contributions.</span></p>
+<p><span>As we develop new projects, the Lab401 team and I will continue to gain </span><strong><span>confidence</span></strong><span>, </span><strong><span>organization</span></strong><span>, and </span><strong><span>skills</span></strong><span>. </span></p>
+<p><span>Our ambition remains to create devices that fully embody our </span><strong><span>initial vision</span></strong><span>, and we invite you to explore, contribute, and share your ideas on </span><a href="https://github.com/lab-401/fzLightMessenger"><span>GitHub</span></a><span>.</span></p>
+<p><span>If you're interested in checking out the final product, the <a rel="noopener" href="/products/light-messenger" target="_blank">LightMessenger</a>, we'd be humbled - and very interested to see what you do with it!</span><span></span></p>
+<p><span><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Light-Messenger---Social-Proof.png?v=1740070402"><em>Customer shots showing light-painting, bitmaps, text modes and different colour effects.</em></span></p>
+<style>
+  video { width: 100%; }
+</style>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/product-manufacturing-with-lab401</id>
+    <published>2025-02-12T09:15:21+01:00</published>
+    <updated>2025-05-22T15:22:27+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/product-manufacturing-with-lab401"/>
+    <title>Product Manufacturing with Lab401</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p>Want to see behind the scenes of making an accessory for the Flipper Zero? Get an exclusive behind-the-scenes look Lab401's development framework for transforming ideas into market-ready devices.</p>
+<p>Learn about our accessory "Product Metric"'s four core requirements: crystal-clear use cases, plug-and-play functionality, open-source expandability, and built-in educational value. The development process spans five critical phases from conceptualization through mass production.</p>
+<p>✅ Pre-production planning prevents costly manufacturing mistakes<br>✅ Smart component selection avoids export bans and EOL issues<br>✅ Minimized packaging reduces shipping costs and environmental impact<br>✅ Exhaustive QC procedures ensure customer satisfaction</p><p><a class="read-more" href="https://lab401.com/blogs/news/product-manufacturing-with-lab401">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<h3>So you want to make a product</h3>
+<p>Ever since its launch, we were excited about the possibilities for accessories and expansion boards for the <a href="https://lab401.com/products/flipper-zero" target="_blank">Flipper Zero.</a> A few years later, we were slightly surprised that there hadn't been the explosion of weird and wonderful accessories that we'd imagined. </p>
+<p>And so, we decided to build our own family of accessories for the Flipper Zero.<br>As we launch our <a href="/products/light-messenger" target="_blank">first accessory</a> (a persistence of vision / light painting accessory),(and are getting to ready to launch the next device, we thought it would be interesting to pull back the curtain on our experience imagining, designing, debugging and producing our very own accessories.</p>
+<p><strong>In this series:</strong></p>
+<ul>
+<li>
+<strong>Part One</strong> : So you want to make a product <em>(this post)</em>
+</li>
+<li>
+<strong>Part Two</strong> : <a href="/blogs/academy/building-the-lightmessenger-product-manufacturing-part-2" rel="noopener" target="_blank">Building the LightMessenger product</a>
+</li>
+</ul>
+<h3>Product Metric</h3>
+<p>Before heating up the soldering iron or ordering rolls of components, we wanted to examine <strong><em>why</em></strong> we wanted to build accessories, <em><strong>what</strong></em> we wanted to achieve with the devices, and what our <em><strong>definition of "success"</strong></em> would be for each product.</p>
+<p>We used this to build a "<strong>Product Metric</strong>" - a series of core characteristics that each potential product must meet to ensure a "successful" product.</p>
+<ol>
+<li>
+<strong>Clearly defined, unique use-case</strong><br>Each product must have a rapidly identifiable use, which is immediately obvious to our target audience. Ideally, we should be able to explain "What it does" or "why it exists" in under 10 words or 10 seconds.<br><br>
+</li>
+<li>
+<strong>Work out of the box</strong><br>The product must work "out of the box". The user shouldn't have to solder, code or fight to get the product working. Downloading an app and upgrading Flipper Firmware is acceptable, as these well-known procedures to the majority of Flipper users.<br><br>
+</li>
+<li>
+<strong>Expandable</strong><br>The product needs to be open-source, and provide a hardware, firmware and software framework that allows for easy expansion. The device should also have several immediately obvious ways on which it could be expanded.<br><br>
+</li>
+<li> <strong>Educational<br></strong>If the user wishes, the device should be able to teach them something, or be useful in the process of learning something. </li>
+</ol>
+<h3>Product Roadmap</h3>
+<p>With this Product Metric defined, the next step was to define our <strong>Product Roadmap</strong> - the steps that we'd have to take to transform idea into a product in the hands of a user.</p>
+<h4>Conceptualisation<strong> </strong>
+</h4>
+<p>This step should answer the following questions:</p>
+<ul>
+<li>What does this product do?</li>
+<li>Why does it exist?</li>
+<li>Who will use it?</li>
+<li>What is its primary use/s?</li>
+<li>How much should it cost?</li>
+<li>Which features are required for a Minimum Viable Product ?</li>
+<li>Which features are out of scope for a first iteration?</li>
+</ul>
+<h3>Specification</h3>
+<p>The result of the Specification step is a <em><strong>Specification Document</strong></em>, that will provide the roadmap to building the device. The document should be exhaustive, breaking each element of Hardware, Firmware and Software into their smallest logical elements. </p>
+<p>The development team should be able to take this document and have a full list of logical tasks that will serve them as a guide to building, testing and completing the product.</p>
+<p>We find the Specification Document really useful to combat <strong>"Scope Creep"</strong>. It's very easy to add extra features during development, which can cause timelines to blow-out. Likewise, sometimes the last 10% of a project seems impossibly slow. In this circumstances, it's very useful for everyone to be able to refer to the Specification Document to get back on track.</p>
+<h3>Implementation</h3>
+<p>This is the building phase. The developer/s take the Specification Document, and break it down into <em><strong>logical modules</strong></em>, and then build each module. This can be informal (list of post-its on the wall) or very formal (Sprints, Agile, etc).</p>
+<p>We include the following phases in Implementation:<br> a. Building<br> b. Prototyping<br> c. Testing<br> d. Debugging<br> e. Documentation<br>Steps a - e are iterated as many times as necessary to have a final working product.</p>
+<h3>Production</h3>
+<p>At this point, you've got a fully working, fully documented prototype. It's time to mass-produce! In our experience, the more time invested pre-production, the smoother the process will be. Although it's exciting to push the button, it's also the Point of No (Easy) Return.</p>
+<p>From here on rapid iteration is finished. Errors, changes and miscommunications are costly in terms of time and money - and may even kill your project before it even launches.</p>
+<p>Depending on your device, at this point your project will probably need a few elements to become a finished product in a box, waiting to be sent to your adoring fans:</p>
+<ul>
+<li>Electronics Preparation</li>
+<li>Firmware/Software Preparation</li>
+<li>Packaging Preparation</li>
+<li>Compliance Preparation</li>
+</ul>
+<p>More likely than not, you'll need to find partners or factories for the above steps.<br>Typically these tasks can be placed in parallel, but some rely on each other.<br><em><br>For example:</em> If your device needs to have firmware flashed, you need to have the firmware ready to provide to the PCB / PCBA factory.</p>
+<p>Production challenges and risks could easily fill their own article - but below is a quick list list of lessons that we learned the hard way over the years:</p>
+<h4>Component Choice</h4>
+<p>Your choice of key components, specifically critical components such as micro-controllers will may end up controlling or killing your production choices.</p>
+<p>Select components that are convenient for your manufacturer / in the country that you want to manufacture in. Ensure that they're not subject to export bans or excessive tarifs. Ensure that they are not End of Life, or soon to be End of Life.</p>
+<h4>Minimize / Optimise Packaging </h4>
+<p>It's very tempting to go crazy on packaging. <br>In our experience, unless the packaging is an integral part of the device (IE, a case that will last the lifetime of the product) - simple and smallest is best.</p>
+<p>The final price of a product can rapidly increase due to packaging, but not necessarily adding value to the product. </p>
+<p>Minimising the physical size of packaging is important. If the box is too large, it may not longer be eligible to be shipped in an envelope / charged extra. Likewise, logistics companies charge by _volumetric weight_ : you'll be paying extra for what is essentially empty space.</p>
+<p>Finally - most packaging is destined for landfill. Consider using unbleached, recyclable cardboard boxes, and soy-based black ink instead of full-colour inks.</p>
+<p>When you're manufacturing, you're participating in product and waste creation. Take a moment to think about what's important for you, the environment, and your customers.</p>
+<h4>SOP / QC</h4>
+<p>Write an exhaustive, step by step QC Standard Operating Procedure Document for your product.<br>If you can, arrange for / supply a schematic for a Testing Jig, to ensure 100% QC testing for your products.</p>
+<p>Building an exhaustive document is important for multiple reasons:</p>
+<ul>
+<li>Your customers will get a working product</li>
+<li>Rejected products can be triaged by problem and potentially reworked or repaired</li>
+<li>Recurring problems can be identified and resolved</li>
+<li>Forces you to ensure that all aspects of the product have been rigorously tested</li>
+<li>Removes room for error or interpretation during product assembly and testing.</li>
+<li>Resolving disputes with data instead of emotion</li>
+</ul>
+<h4>Certification</h4>
+<p>Determine if your product needs to have <strong>certifications</strong>: FCC, UKCA, CE, RoHS..<br>If your product contains <strong>batteries</strong> - you'll more than likely need <strong>UN3481</strong> certifications for transport (between the factory and your warehouse, and between your warehouse and your customers).</p>
+<p>If your device contains radio elements, you'll probably also need additional certifications (IE, FCC, etc).</p>
+<p>As with the manufacturing steps - it's important to select factories, components and suppliers that offer <strong>pre-certified</strong> components. For example, make sure your battery supplier already has certification for their batteries - otherwise your products might never leave the factory!</p>
+<p>In the end, you need to ensure that all elements of your product are <strong>compliant</strong> with the jurisdictions in which you plan to sell the product.</p>
+<p><strong>Remember</strong> - products that are legal in one country may be wildly illegal in another. For example: a laser pointer that is legal America is probably classified a a firearm in Australia.</p>
+<h3>Distribution</h3>
+<p>Depending on your project's goals, distribution may or may not important. For the accessories we're developing, distribution is a critical part of the flow. While we can rely on our internal distribution, we also have resellers and partners. </p>
+<p>You can only launch a product once - coordination with key partners to ensure that they have stock pre-launch is very important.</p>
+<h3>Promotion</h3>
+<p>Once the product is released, people need to know about it. However, there's a fine line between educating an audience about the availability of a product that may be of interest and annoying your loyal customers. </p>
+<p>In Part Two of this series, <a href="/blogs/academy/building-the-lightmessenger-product-manufacturing-part-2" rel="noopener" target="_blank">Building the LightMessenger product</a> we deep dive Lab401's first ever accessory for the Flipper Zero - the <a href="/products/light-messenger">Light Messenger.</a></p>
+<p>With read developer interviews, check out the concept art and build log from conception to production - it's an in-depth behind the scenes guide on how we made our first accessory.</p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/black-friday-2024-10-instant-discount-5000eu-hamster-hunt</id>
+    <published>2024-11-29T00:00:05+01:00</published>
+    <updated>2024-11-29T14:10:40+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/black-friday-2024-10-instant-discount-5000eu-hamster-hunt"/>
+    <title>Black Friday 2024 : 10% Instant Discount, 5000EU Hamster Hunt!</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <content type="html">
+      <![CDATA[<p>From <strong data-mce-fragment="1">Friday to Monday (November 29 - December 2)</strong>, Lab401 is running its annual <strong data-mce-fragment="1">Black Friday, Cyber Monday sale.</strong></p>
+<h2 style="text-align: center; font-family: 'poppins', sans-serif;"><strong>10% store-wide discount!</strong></h2>
+<p><strong>During BFCM, enjoy a 10% instant discount</strong> : No limits, no vouchers needed! Valid for all customers and all orders.</p>
+<p><em>Big-Brain Tip: </em>While it doesn't apply to Flipper products, it applies to Pentester Packs, that contain Flipper products! 🤓</p>
+<h2 style="text-align: center; font-family: 'poppins', sans-serif;">
+<strong>5000</strong><b>€ Hamster Hunt Giveaway! </b>
+</h2>
+<p><b><img style="display: block; margin-left: auto; margin-right: auto;" height="100" width="100" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Hamster-1_480x480.gif?v=1732821254" alt=""></b></p>
+<p>During BFCM, the <strong>Hamster Hunt</strong> <strong>is back!</strong></p>
+<p>If you haven't played before, it's easy and fun. The Lab401 Hamster will be <strong>hidden on a random product page</strong>. If you <strong>find the hamster</strong> and click on it, you'll <strong>win a 200€ gift-card</strong> in your account!</p>
+<p>To participate, you need to have an account and be logged in. To keep things fair, only one win per person + account.</p>
+<p><strong><span style="color: #ffffff; background-color: #ff2a00;"> Update: </span></strong>  All Hamsters have been found, but in the spirit of the competition, we're adding <strong>2000EU extra</strong> - but with <strong>50EU prizes !</strong></p>
+<p>We also have a <strong>live counter</strong> showing the number of remaining prizes:</p>
+<p align="center"><img src="https://panel.lab401.com/2024-07-30-storeCredit/remaining.php" width="50%"></p>
+<p><iframe width="1039" height="585" src="https://www.youtube.com/embed/EFmiUG00_7A" title="What Makes Pentesters Happy? 🎉 10% OFF &amp; €5000 Hamster Chase at LAB401.com!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/lab401-1000eu-hamster-hunt</id>
+    <published>2024-07-30T13:00:00+02:00</published>
+    <updated>2024-08-05T10:48:51+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/lab401-1000eu-hamster-hunt"/>
+    <title>Lab401 / 1000EU Hamster Hunt !</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <content type="html">
+      <![CDATA[<p><span style="color: #be0000;"><strong>All 20 prizes have been claimed:</strong> congratulations to those who played.</span><br><span style="color: #be0000;">The hamster hunt will be back over summer - if you see the hamster in the site header, the hunt is open!</span></p>
+<p>Who needs summer holidays when you've got the 1000EU Lab401 Hamster Hunt!</p>
+<p>Over the next few weeks, the Lab401 Hamster will be hidden on a product page. Click the hamster, and 50EU will be credited to your account. Once the hamster is found, he'll move to another product.<br><br>The hunt is open until 1000EU has been claimed!<br><br>To qualify, you must be logged into your Lab401 account, and must be subscribed to emails. In the spirit of Lab401 : any and all legal means of winning are on the table!</p>
+<p>Best of luck!</p>
+<p>Some hints:</p>
+<ul>
+<li>
+<strong></strong>You'll know if you're a winner.</li>
+<li>We've scattered some false paths and red herrings around.</li>
+<li>You shouldn't necessarily use your head.</li>
+<li>If you are a winner, but your account isn't credited, please reach out to us. We'll double check the logs and can assist.</li>
+</ul>
+<p>There's a live counter of the number of prizes remaining at the top of the site, and also below:</p>
+<p><img width="150" src="http://panel.lab401.com/2024-07-30-storeCredit/remaining.php"></p>
+<p><em>(If you insist on going outside for your holidays, we recommend checking out the <a href="https://floatingman.ll.land/?utm_source=Lab401&amp;utm_campaign=newsletter" target="_blank">Liberland Floating Man</a> festival.)</em></p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/paris-2024-olympic-games-shipping-impacts-live-updates</id>
+    <published>2024-07-26T12:19:00+02:00</published>
+    <updated>2024-07-26T13:21:52+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/paris-2024-olympic-games-shipping-impacts-live-updates"/>
+    <title>Paris 2024 Olympic Games: Shipping Impacts - Live Updates</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <content type="html">
+      <![CDATA[<p>During the Paris 2024 Olympic Games, like many businesses in the Paris region, Lab401's logistics may be negatively impacted. </p>
+<p><strong>Live Updates</strong></p>
+<ul>
+<li>
+<strong>2024/07/25</strong> : <em>Orders placed after 12PM.</em> <br>Due to transporter restrictions, shipments from today will not be collected by the transporters until Monday (July 29). <br>Even though the circumstances are out of our control, we apologise for any inconvenience caused.</li>
+</ul>
+<p><strong>Shipper Specific Updates<br></strong></p>
+<ul>
+<li>
+<strong>UPS</strong>: <a href="https://solutions.ups.com/2024-Paris-Olympics-shipping-FR-EN-eusp-page.html" target="_blank">Olympics Shipping Information</a>
+</li>
+<li>
+<strong>FEDEX: </strong><a href="https://www.fedex.com/fr-fr/campaign/paris-olympics-2024-plan.html#:~:text=La%20circulation%20est%20interdite%2C%20sauf,sera%20autoris%C3%A9%20sous%20certaines%20conditions" target="_blank">Olympics Shipping Information</a>
+</li>
+<li>
+<strong>DHL</strong>: <a href="https://portail.dhl.fr/informations-livraison-jeux-ete-2024/" target="_blank">Olympics Shipping Information</a>
+</li>
+<li>
+<strong>LaPoste</strong>: <a href="https://www.laposte.fr/entreprise-collectivites/actualites/vos-cotes-pendant-jeux-olympiques-paralympiques-paris-2024#:~:text=Le%2026%20juillet%202024%20%3A%20jour,livraisons%20seront%20report%C3%A9es%20au%20lendemain" target="_blank">Olympics Shipping Information</a>
+</li>
+</ul>
+<p>If you have any questions or concerns, please reach out to our support team: <a href="mailto:support@lab401.com">support@lab401.com</a></p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/flipper-zero-video-game-module-released</id>
+    <published>2024-04-01T11:00:00+02:00</published>
+    <updated>2024-04-24T10:52:45+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/flipper-zero-video-game-module-released"/>
+    <title>Flipper Zero Video Game Module Released!</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p data-mce-fragment="1">That's right, there's an all new accessory for your Flipper Zero : The Raspberry Pi Powered <strong data-mce-fragment="1">Video Game Module</strong> !</p><p><a class="read-more" href="https://lab401.com/blogs/news/flipper-zero-video-game-module-released">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>That's right, there's an all new accessory for your Flipper Zero : The Raspberry Pi Powered <strong>Video Game Module</strong> !</p>
+<p>For gamers: unleash your Flipper onto the big screen with the full-HDMI out, and control games in a new way with the built-in gyro sensor.</p>
+<p>For developers, the Video Game Module works in standalone or pass-through mode, and built on the RP2040 controller - opening the possibility to thousands of project possibilities!</p>
+<p><a href="/products/flipper-zero-video-game-module">Get your Video Game Module now !</a></p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/help-save-flipper</id>
+    <published>2024-03-20T19:31:50+01:00</published>
+    <updated>2024-03-20T19:34:17+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/help-save-flipper"/>
+    <title>Help Save Flipper!</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[The Canadian government has proposed a ban on Flipper Zero because it claims the device is being used to steal cars. This is not true. <a href="https://www.change.org/p/stop-the-absurd-ban-of-flipper-zero-in-canada?ref=blog.flipper.net" data-mce-fragment="1" data-mce-href="https://www.change.org/p/stop-the-absurd-ban-of-flipper-zero-in-canada?ref=blog.flipper.net"><u data-mce-fragment="1">Sign the petition</u></a> before the proposal is passed.<p><a class="read-more" href="https://lab401.com/blogs/news/help-save-flipper">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>Pentesters and geeks - Flipper Zero needs your help. <br>The Canadian government has proposed a ban on Flipper Zero because it claims the device is being used to steal cars. This is not true. <a href="https://www.change.org/p/stop-the-absurd-ban-of-flipper-zero-in-canada?ref=blog.flipper.net" data-mce-href="https://www.change.org/p/stop-the-absurd-ban-of-flipper-zero-in-canada?ref=blog.flipper.net" data-mce-fragment="1"><u data-mce-fragment="1">Sign the petition</u></a> before the proposal is passed.</p>
+<p>In just a few years, Flipper Zero has become so popular that it’s now surrounded by many myths. It’s no wonder that people in power are trying to make Flipper Zero illegal. As you might have seen in the news, the Canadian government plans to ban Flipper Zero as part of their efforts to combat auto theft.</p>
+<p>We believe that proposals like this are harmful to security and slow down technological progress. They are usually made by those who do not really understand how security works and will do nothing to solve the car theft problem. In this post, we’ll explain why banning Flipper Zero instead of fixing security threats is not the solution.</p>
+<p><strong>You can help</strong> by <a href="https://www.change.org/p/stop-the-absurd-ban-of-flipper-zero-in-canada?ref=lab401.com" target="_blank">signing a change.org petition</a>.</p>
+<p><strong>Learn more about what happened</strong>, and the <strong>﻿Flipper Zero's Official Reponse</strong>﻿, and full technical breakdown on why the Proposition is <a href="https://blog.flipper.net/response-to-canadian-government/" target="_blank">factually incorrect.</a></p>
+<p> </p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/elevate-your-security-game-unmissable-black-friday-cyber-monday-deals-at-lab401</id>
+    <published>2023-11-23T16:59:01+01:00</published>
+    <updated>2023-11-24T14:49:16+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/elevate-your-security-game-unmissable-black-friday-cyber-monday-deals-at-lab401"/>
+    <title>🔐🚀 Black Friday &amp; Cyber Monday: 10% + Free Gifts !</title>
+    <author>
+      <name>Lab401 Lee</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<span data-mce-fragment="1">Black Friday and Cyber Monday, LAB401 </span><strong data-mce-fragment="1">10% OFF storewide + a gift per order !</strong><p><a class="read-more" href="https://lab401.com/blogs/news/elevate-your-security-game-unmissable-black-friday-cyber-monday-deals-at-lab401">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p><span data-mce-fragment="1">Hey there, Pentesters! 🌟 Are you ready to take your pentesting and security tools to the next level? This Black Friday and Cyber Monday, LAB401 is rolling out some extraordinary deals that you simply can't afford to miss! 🎉</span></p>
+<p><strong>The Unbeatable Offer:</strong> Starting November 24th, get ready to experience an epic <strong>10% OFF storewide</strong> at LAB401. But wait, there's more! With every order, you're guaranteed to receive an extra gift. That's right, each purchase comes with a special surprise just for you! 🎁</p>
+<p><strong>Please note: Discount does not apply to Flipper products. Only one gift per order.</strong></p>
+<p><strong>Gifts Galore:</strong></p>
+<p>Our special gifts are determined by the price of your order <strong>before tax and shipping</strong>. There is only 1 gift per order. Here's what you can expect:</p>
+<ul>
+<li>
+<strong>Orders under €100:</strong> Receive an <a title="ARD RFID BLOCKER" href="https://lab401.com/products/rfid-blocker-nfc-jammer" target="_blank">ARD RFID Blocker</a>, perfect for enhancing your security measures.</li>
+<li>
+<strong>Orders from €100 to €1000:</strong> Get equipped with a sleek <a title="RFID FIELD DETECTOR" href="https://lab401.com/products/rfid-field-detector" target="_blank">RF Field Detector</a>.</li>
+<li>
+<strong>Orders from €1000 to €2000:</strong> Elevate your toolkit with a<a title="CHAMELEON ULTRA" href="https://lab401.com/products/chameleon-ultra" target="_blank"> Chameleon Ultra</a>.</li>
+<li>
+<strong>Orders above €2000:</strong> Take your skills to the next level with a complimentary <a title="FLIPPER ZERO" href="https://lab401.com/products/flipper-zero" target="_blank">Flipper Zero</a>!</li>
+</ul>
+<p><strong>No Codes, No Hassle:</strong> We believe in keeping things simple. So, there's no need to fumble around for discount codes. The 10% discount is automatically applied at checkout. Easy, right? 🛍️</p>
+<p><strong>For the Geeks and Gurus:</strong> At LAB401, we understand the passion and dedication of pentesters, security professionals, and ethical hackers. Our products are carefully curated to meet the high standards and specific needs of this vibrant community. So, whether you're a seasoned pro or just starting out, our Black Friday deals are tailored just for you! 💻🔍</p>
+<p><strong>Why Choose LAB401?</strong> We pride ourselves on providing top-notch, professional-grade security tools. With a focus on innovation and quality, LAB401 is your trusted partner in cybersecurity. Enhance your toolkit with our range of products, backed by the best service in the industry. 🌐</p>
+<p><strong>Ready, Set, Shop!</strong> Don't let these deals slip away! Visit lab401.com now and level up your gear with the best prices and the best service. Remember, these offers are available only from November 24 to 27, 2023. Grab your gear and join the ranks of satisfied LAB401 customers! 🌟</p>
+<p><strong>Call to Action:</strong> Upgrade your security arsenal today! Head over to <a href="https://lab401.com/" target="_new">LAB401</a> and make the most of our Black Friday and Cyber Monday extravaganza. 🏆🛒</p>
+<p><em>Your LAB401 Team</em></p>
+<p><em><iframe width="560" height="315" src="https://www.youtube.com/embed/vtNknZbUnmI?si=dEXYPqeybnS8Pr7K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></em></p>
+<p> </p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/iceman-unveiled-rfid-hacking-proxmark-and-a-decade-of-discovery</id>
+    <published>2023-09-08T15:29:03+02:00</published>
+    <updated>2023-09-08T15:30:11+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/iceman-unveiled-rfid-hacking-proxmark-and-a-decade-of-discovery"/>
+    <title>Iceman Unveiled: RFID Hacking, Proxmark, and a Decade of Discovery</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<span data-mce-fragment="1">From RFID hacking to Proxmark wizardry, <strong>Iceman</strong> spills the tea on a decade of tech evolution. Don't miss this!</span><p><a class="read-more" href="https://lab401.com/blogs/news/iceman-unveiled-rfid-hacking-proxmark-and-a-decade-of-discovery">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p> 🔥 Hey there, pentesters and hacking enthusiasts! 🔥</p>
+<p>Get ready for an exclusive sit-down with the one and only Iceman.</p>
+<p>From RFID hacking to Proxmark wizardry, Iceman spills the tea on a decade of tech evolution. Don't miss this!</p>
+<p>🔗 ICEMAN LINKS 🔗</p>
+<p>Follow Iceman on X (formerly known as twitter) : https://twitter.com/herrmann1001</p>
+<p>Join the RFID Hacking Guide discord : https://discord.gg/U5egNybc</p>
+<p>👉 Subscribe &amp; hit that bell to never miss out on our future videos! 🔔</p>
+<p>Support Iceman and get 5% off your purchase using the code: <strong>ICEMAN</strong> at checkout.</p>
+<p><iframe title="YouTube video player" src="https://www.youtube.com/embed/neeuo6vfu9I?si=x-6eakraatYLlf1t" height="315" width="560" allowfullscreen="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" frameborder="0"></iframe></p>
+<div id="gtx-trans" style="position: absolute; left: 225px; top: 121px;">
+<div class="gtx-trans-icon"></div>
+</div>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/lab401-meet-the-teen-programmer-behind-chameleonultragui</id>
+    <published>2023-08-31T16:24:41+02:00</published>
+    <updated>2023-11-03T11:18:13+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/lab401-meet-the-teen-programmer-behind-chameleonultragui"/>
+    <title>LAB401 meet the teen programmer behind chameleonultraGui</title>
+    <author>
+      <name>Lab401 Lee</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<span data-mce-fragment="1">LAB</span><span data-mce-fragment="1">401.com is meeting Game Tech Live, an inspiring teen programmer who's behind the ChameleonUltraGUI github project.</span><p><a class="read-more" href="https://lab401.com/blogs/news/lab401-meet-the-teen-programmer-behind-chameleonultragui">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p><span data-mce-fragment="1">Hey pentesters, Ever wondered who's the genius behind the ChameleonUltraGUI? LAB401.com is meeting Game Tech Live, an inspiring teen programmer who's shaking up the RFID world!</span></p>
+<p><span data-mce-fragment="1"><iframe width="560" height="315" src="https://www.youtube.com/embed/M35qNG9Bn1c?si=Rg_1LxcLVYgMUTTn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></span></p>
+<p><span data-mce-fragment="1">👀 Looking Ahead ChameleonultraGui is in beta, More features are coming, please show your support and appreciation to gametec live and his team, donate for this project here: https://opencollective.com/chameleon-ultra-gui </span></p>
+<p><strong>ChameleonUltraGUI Github: </strong></p>
+<p><a href="https://github.com/GameTec-live/ChameleonUltraGUI" target="_blank"><span data-mce-fragment="1">https://github.com/GameTec-live/ChameleonUltraGUI </span></a></p>
+<p><span data-mce-fragment="1">👇 Take Action Smash that like button if you enjoyed the video! Subscribe and hit the bell 🔔 so you don't miss our next update! </span></p>
+<p> </p>
+<p><span data-mce-fragment="1">🤖 get your gear at <strong>lab401.com </strong></span></p>
+<p><strong>Chameleon ULTRA: </strong></p>
+<p><a href="https://lab401.com/products/chameleon-ultra" target="_blank"><span data-mce-fragment="1">https://lab401.com/products/chameleon-ultra </span></a></p>
+<p><strong>Chameleon lite:</strong></p>
+<p><a href="https://lab401.com/products/chameleon-lite" target="_blank"><span data-mce-fragment="1">https://lab401.com/products/chameleon-lite</span></a></p>
+<div id="gtx-trans" style="position: absolute; left: -23px; top: 477px;">
+<div class="gtx-trans-icon"></div>
+</div>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/whats-in-your-flipper</id>
+    <published>2023-08-28T11:11:32+02:00</published>
+    <updated>2023-08-28T11:17:40+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/whats-in-your-flipper"/>
+    <title>What&apos;s in your Flipper?</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[We check in with TalkingSasquach, a FlipperZero hero to see what's in his FlipperZero - and we were very surprised!<p><a class="read-more" href="https://lab401.com/blogs/news/whats-in-your-flipper">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>We check in with TalkingSasquach, a FlipperZero hero to see what's in his FlipperZero - and we were very surprised!</p>
+<iframe width="1239" height="697" src="https://www.youtube.com/embed/FXJ1K-PtYpE" title="LAB401: What is your flipper zero? with Talkingsasquach" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/flipper-zero-stock-updates</id>
+    <published>2023-01-17T10:09:38+01:00</published>
+    <updated>2023-01-17T10:09:38+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/flipper-zero-stock-updates"/>
+    <title>Flipper Zero Stock Updates</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[Due to factory shortages and Chinese New Year, Flipper Zero stock and accessories are scheduled to be back in stock by the end of January.<p><a class="read-more" href="https://lab401.com/blogs/news/flipper-zero-stock-updates">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>Due to factory shortages and Chinese New Year, Flipper Zero stock and accessories are scheduled to be <strong>back in stock by the end of January.</strong></p>
+<p>We will update this thread (and our social media accounts) for any and all updates.</p>
+<p>Steve - Lab401</p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/2022-black-friday-cyber-monday-sale</id>
+    <published>2022-11-24T21:59:44+01:00</published>
+    <updated>2022-11-24T21:59:44+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/2022-black-friday-cyber-monday-sale"/>
+    <title>LAB401 Black Friday / Cyber Monday 2022</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<h2 data-start-index="14343" data-end-index="14580">Black Friday / Cyber Monday Sale</h2>
+<p data-start-index="14343" data-end-index="14580">From<span> </span><strong>Friday to Monday - November 25 - 28</strong><span> </span>- we're celebrating Black Friday / Cyber Monday with<span> </span><strong>15% off all pentesting packs. </strong>Flipper zero is back in stock<strong>!</strong></p><p><a class="read-more" href="https://lab401.com/blogs/news/2022-black-friday-cyber-monday-sale">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<h2 data-start-index="14343" data-end-index="14580">Black Friday / Cyber Monday Sale</h2>
+<p data-start-index="14343" data-end-index="14580">From <strong>Friday to Monday - November 25 - 28</strong> - we're celebrating Black Friday / Cyber Monday with <strong>15% off all pentesting packs.</strong></p>
+<p data-start-index="14707" data-end-index="14944">This includes the <a href="/products/lab401-pentester-pack">Lab401 Pentester Pack</a> (<a href="/products/lab401-pentester-pack">Proxmark</a> &amp; <a href="/products/lab401-pentester-pack?variant=43102049698022">Flipper Zero</a> versions), the <a href="/products/icopy-x">iCopy-X Packs</a>, <a href="/products/rfid-pentester-tag-pack">RFID Pentester Tag Packs</a>, <a href="/collections/rfid-badges-packs/icopy-x">iCopy-X Tag Packs</a>, and the <a href="/products/proxmark-3-rdv4">Proxmark 3 Packs</a>.</p>
+<p>All discounts are applied automatically at the checkout. Stocks are limited (especially for the Flipper Zero) - so don't miss out.</p>
+<p>Please note, due to increased volume during BFCM, there may be some delays in shipments. All <b>Flipper related orders</b> will be dispatched as quickly as possible, in order of receipt. <b>Urgent / Express orders</b> will be expedited with priority.</p>
+<p>Check out the full list of eligible packs below :</p>
+<p><strong>Lab401 Pentester Pack</strong></p>
+<ul>
+<li>
+<a href="/products/lab401-pentester-pack">Basic</a> (with Proxmark 3) : Save €164!</li>
+<li>
+<a href="/products/lab401-pentester-pack?variant=43102049698022">Standard</a> (with Flipper Zero) : Save €172!</li>
+<li>
+<a href="/products/lab401-pentester-pack?variant=43102049730790">Advanced</a> (with Flipper Zero) : Save €278!</li>
+</ul>
+<p><strong>iCopy-X Pack</strong></p>
+<ul>
+<li>
+<a href="/products/icopy-x">Basic</a> : Save €55!</li>
+<li>
+<a href="/products/icopy-x?variant=40650098573512">Intermediate</a> : Save €70!</li>
+<li>
+<a href="/products/icopy-x?variant=40650098606280">Advanced</a> : Save €80!</li>
+</ul>
+<p><strong>Proxmark 3 Pack</strong></p>
+<ul>
+<li>
+<a href="/products/proxmark-3-rdv4?_pos=1&amp;_sid=3d4eccd86&amp;_ss=r">Standard</a> : Save €85!</li>
+<li>
+<a href="/products/proxmark-3-rdv4?_pos=1&amp;_sid=3d4eccd86&amp;_ss=r&amp;variant=19968437911663">Complete</a> : Save €154!</li>
+</ul>
+<p><strong>RFID Pentester Tag Pack</strong></p>
+<ul>
+<li>
+<a href="/products/rfid-pentester-tag-pack">Starter</a> : Save €21!</li>
+<li>
+<a href="/products/rfid-pentester-tag-pack?variant=12212527235183">Android</a> : Save €40!</li>
+<li>
+<a href="/products/rfid-pentester-tag-pack?variant=12212527267951">Advanced</a> : Save €105!</li>
+</ul>
+<p><strong>iCopy-X Tag Pack</strong></p>
+<ul>
+<li>
+<a href="/products/icopy-x-basic-tag-pack">Basic</a> : Save €3!</li>
+<li>
+<a href="/products/icopy-x-intermediate-tag-pack">Intermediate</a> : Save €19!</li>
+<li>
+<a href="/products/icopy-x-advanced-tag-pack">Advanced</a> : Save €28!</li>
+</ul>
+<h2 data-start-index="14343" data-end-index="14580">Flipper Zero : Back in Stock</h2>
+<p data-start-index="20152" data-end-index="20389">After being stuck for two months in customs, Flipper has been released into the wild. If you've been waiting to get your hands on a Flipper, <a href="/collections/flipper-zero">now's the time.</a></p>
+<p data-start-index="20549" data-end-index="20786">Flipper is incredibly talented: RF, RFID, Infrared, BadUSB, GPIO.. and much more. Open-Source and Open-Hardware, the Flipper is an incredibly mature pentest platform with a very strong community.</p>
+<p data-start-index="20549" data-end-index="20786">Grab your <a href="/collections/flipper-zero">Flipper Zero today</a> - or purchase in a Lab401 Pentester Pack and get 15% instant discount during the BFCM sale!</p>
+<p data-start-index="20549" data-end-index="20786"> As always - if you have any questions, please reach out to our <a href="mailto:support@lab401.com">fantastic customer support</a>.</p>
+<p> <iframe src="https://www.youtube.com/embed/ryZ-8N2-AYM" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="560" height="315" frameborder="0"></iframe></p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/flipperzero-stock-update</id>
+    <published>2022-09-28T14:28:39+02:00</published>
+    <updated>2022-10-12T21:59:13+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/flipperzero-stock-update"/>
+    <title>FlipperZero : Stock update</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[Lab401's latest shipment of Flipper Zero devices is <strong>stuck in French Customs</strong> for examination. We don't have an ETA on release, but are working with our Customs Broker to get stock released ASAP. Read on for more information..<p><a class="read-more" href="https://lab401.com/blogs/news/flipperzero-stock-update">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>We know many of you are eager to get your hands on a Flipper Zero - and we're just as eager to get as many devices sent as possible.</p>
+<p>Lab401's latest shipment of Flipper Zero devices is <strong>stuck in French Customs</strong> for examination. Because it's an entirely new type of device, Customs Agents have taken a few samples to test in their laboratory.</p>
+<p>At present, we have not been given an ETA for release, but are in contact on a daily basis with our Customs Broker to ensure a release ASAP.</p>
+<p><strong>Customs Inspections</strong> are routine, and are vital to ensure the security of consumers and the economy. Importers regularly face inspections of new products after two or three shipments.</p>
+<p>The silver-lining is that once Flipper passes inspection, it will be a whitelisted product.</p>
+<p>In the meantime, thank you for your patience, we'll keep you posted as soon as the situation changes.</p>
+<p><strong>Update 11 Oct 2022:</strong> Customs procedure still underway.</p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/flipper-zero-update-wireless-control</id>
+    <published>2022-08-19T14:26:17+02:00</published>
+    <updated>2022-08-19T14:27:18+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/flipper-zero-update-wireless-control"/>
+    <title>Flipper Zero Update : Wireless Control!</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[The latest <strong>Flipper Zero</strong> update allows full wireless RFID + RF remote control. How will you use this on your next pentest engagement ? Tell us on Twitter !<p><a class="read-more" href="https://lab401.com/blogs/news/flipper-zero-update-wireless-control">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>The latest <strong>Flipper Zero</strong> update allows full wireless RFID + RF remote control.</p>
+<p>In the app, all saved RFID (125KHz + 13.56MHz) cards &amp; captured RF signals can be emulated / replayed directly from the application - without touching the Flipper!</p>
+<p>How will you use this on your next pentest engagement ? <a href="https://twitter.com/Lab_401" target="_blank" rel="noopener noreferrer">Tell us on Twitter !</a></p>
+<p>Check the update in action below</p>
+<p> </p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/summer-shipping-modifications</id>
+    <published>2022-07-30T17:45:36+02:00</published>
+    <updated>2022-09-01T22:04:00+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/summer-shipping-modifications"/>
+    <title>Warehouse Update: September</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[Standard warehouse operations have resumed; orders placed on the 31st of August may take up to 72h to process due to increased order rate.<p><a class="read-more" href="https://lab401.com/blogs/news/summer-shipping-modifications">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>Standard warehouse operations have resumed; orders placed on the 31st of August may take up to 72h to process due to increased order rate.</p>
+<p>Urgent shipping will resume when pending orders are processed.</p>
+<p>Throughout this period our <strong>customer service remains unchanged.</strong></p>
+<p><strong>Please note: </strong>Tracking codes may be activated up to 24 after shipment.<strong><br></strong></p>
+<p>Should you have any questions or specific requirements, please reach out to us at <a href="mailto:support@lab401.com">support@lab401.com</a></p>
+<p>Thank you for your understanding.</p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/celebrate-bastille-day-2022</id>
+    <published>2022-07-12T15:51:18+02:00</published>
+    <updated>2022-07-12T21:24:02+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/celebrate-bastille-day-2022"/>
+    <title>Celebrate Bastille Day 2022</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[From July 13 - July 15, Lab401 is celebrating Bastille Day with 10% off the iCopy-X and all iCopy-X and Lab401 RFID Tag Packs!<p><a class="read-more" href="https://lab401.com/blogs/news/celebrate-bastille-day-2022">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p class="esd-ckeditor-start-container">From July 13 - July 15, Lab401 is celebrating Bastille Day, France's national holiday.</p>
+<p>We're celebrating with a 10% immediate discount on some of our most popular products : The <a href="/collections/icopy-x">iCopy-XS</a> and all our <a href="/products/rfid-pentester-tag-pack">RFID Pentester Card Packs</a>, including the iCopy-X <a href="/collections/rfid-badges-packs/icopy-x">Basic, Intermediate and Advanced Packs</a> !</p>
+<p>Like always, there are no promo codes to enter - the discount is automatically applied at checkout.</p>
+<p class="esd-ckeditor-end-container">Also, the <strong><a href="/collections/flipper-zero">Flipper Zero is back in stock!</a> </strong>Stock is strictly limited, so if you missed out on the Flipper the first time - don't miss out the second time!</p>
+<p class="esd-ckeditor-end-container">From all of the Lab401 team, thanks for your support.</p>
+<p class="esd-ckeditor-end-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/y9aFLlZVZdU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/announcing-lock401-com</id>
+    <published>2021-12-07T15:26:56+01:00</published>
+    <updated>2022-02-15T15:23:50+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/announcing-lock401-com"/>
+    <title>Announcing: Lock401.com 🔑</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p>We are proud to announce the launch of <a href="https://www.lock401.com" target="_blank" title="Lock401: Lockpicking tools for pentesters, locksmiths and locksport enthusiasts. " rel="noopener noreferrer"><strong>Lock401.com</strong></a> - a new site specialising in pentesting in the physical realm: lockpicking tools, packs and accessories for pentesters, locksmiths and locksport enthusiasts. </p><p><a class="read-more" href="https://lab401.com/blogs/news/announcing-lock401-com">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Lock401-Email-Image_600x600.png?v=1638891151" alt=""></p>
+<p><strong>We are proud to announce the launch of <a href="https://www.lock401.com" target="_blank" title="Lock401: Lockpicking tools for pentesters, locksmiths and locksport enthusiasts. ">Lock401.com</a> - specialising in physical security.</strong></p>
+<p>Designed specifically to meet the needs of pentesters, security professionals and locksport enthusiasts. Like Lab401, it features curated products and packs, backed by years of in-the-field experience.</p>
+<p>Lock401 is run by the same team as Lab401, meaning: EU warehousing, rapid shipping, no import duties for EU clients, 2 year product guarantees and incredible customer support.</p>
+<p>If you've been looking to expand your pentesting skills into the physical realm, <a href="https://www.lock401.com" target="_blank" title="Lock401: Lockpicking tools for pentesters, locksmiths and locksport enthusiasts. "><strong>Lock401.com</strong></a> is your perfect partner.</p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/black-friday-cyber-monday-2021-get-10-off-free-hardware</id>
+    <published>2021-11-22T12:30:02+01:00</published>
+    <updated>2021-11-23T22:28:16+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/black-friday-cyber-monday-2021-get-10-off-free-hardware"/>
+    <title>Black Friday Cyber Monday 2021: Get 10% off + free hardware!</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p>It's <strong>Black Friday / Cyber Monday!</strong> From November 26 - 29, get<br><strong>10% off storewide</strong>, and <strong>free hardware</strong> with <strong>every single order.</strong></p><p><a class="read-more" href="https://lab401.com/blogs/news/black-friday-cyber-monday-2021-get-10-off-free-hardware">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>It's <strong>Black Friday / Cyber Monday!</strong> From November 26 - 29, get<br><strong>10% off storewide</strong>, and <strong>free hardware</strong> with <strong>every single order.</strong></p>
+<p>As always, there's no limits, no hidden catches and no discount codes to enter - discounts are automatically applied at the checkout!</p>
+<p>On top of the 10% discount, all orders get an RFID Blocker card, and then depending on your order value, one extra free tool - <strong>up to €80 value!</strong></p>
+<ul>
+<li>
+<em>All orders get </em><strong>an RFID Blocker Card free !</strong><br><br>
+</li>
+<li>
+<em>For all orders between €50 and €100</em><br><strong>You get an RFID Detector free !</strong><br><br>
+</li>
+<li>
+<em>For all orders between €100 and €200</em><br><strong>You get an Multi RFID KeyFob Free !</strong><br><br>
+</li>
+<li>
+<em>For all orders over €200</em><br><strong>You get a Chameleon Tiny Standard Free !</strong>
+</li>
+</ul>
+<p><strong>Don't miss out </strong>on our biggest promo event of the year!</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/YTTMlZwYSno" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/new-rfid-pentester-packs</id>
+    <published>2021-10-18T13:03:59+02:00</published>
+    <updated>2021-10-18T13:03:59+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/new-rfid-pentester-packs"/>
+    <title>New RFID Pentester Packs!</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <content type="html">
+      <![CDATA[<p>We're thrilled to announce that the RFID Pentester Packs have been updated with the latest hardware for 2022.</p>
+<p>Buying in a pack unlocks savings of up to €170.</p>
+<p>Check out our presentation video below to work out which pack is right for you - and check out <a href="/products/rfid-pentester-pack">the pentester packs here.</a></p>
+<p><iframe src="https://www.youtube.com/embed/PAADasw31Qc" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="708" height="398" frameborder="0"></iframe></p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/icopy-x-launch</id>
+    <published>2021-09-01T00:00:00+02:00</published>
+    <updated>2021-09-01T00:00:01+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/icopy-x-launch"/>
+    <title>Back to work: Product launch &amp; 10% site-wide promo</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[From September 1 - 5, take advantage of a 10% store-wide sale, as we launch two new incredible products: the iCopy-X, a powerful Proxmark-based RFID Cloner, and the iCS Decoder, an iCLASS SE and iCLASS SEOS cloner and decoder.<p><a class="read-more" href="https://lab401.com/blogs/news/icopy-x-launch">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>To welcome you back to your desk, the Lab401 team has been working hard over summer to launch new &amp; exclusive tools.<br><br>We'll also be running a <strong>10% store-wide promo</strong> from the <strong>1st - 5th of September.</strong> Be sure to take advantage of this promo to get an incredible deal on the new products. Like always - everyone qualifies - there's no limits, no catches, and no coupons to enter - just grab the products you need and get 10% off.</p>
+<p>We're proud to announce the product launch of the <strong>iCopy-X </strong>and <strong>iCS Decoder</strong>.<br>Both tools are exclusive to Lab401 in Europe, Australia and New Zealand.</p>
+<div style="margin: 2em 0px 0 0px;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>iCopy-X</h3>
+<p>It's finally here - the iCopy-X is the powerful portable RFID cloning device that everyone's been talking about.<br>Built on the Proxmark 3, its easy to use interface takes the hassle out of RFID cloning. It supports the majority of HF and LF cards on the market, and is a must have for pentesters and security researchers.</p>
+<p><a href="/products/icopy-x">Check out the iCopy-X here.</a></p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left" style="text-align: center;">
+<p><a href="/products/icopy-x"><img src="https://cdn.shopify.com/s/files/1/2175/8571/products/ICopyX-RFID-Cloner-3-4-1_240x240.png?v=1629380189" style="margin: 0pxpx 0pxpx 0pxpx 0pxpx; float: none;" width="240x240" height="240x240"></a></p>
+</div>
+</div>
+<div style="margin: 2em 0px 0 0px;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>iCLASS SE / SEOS Cloner</h3>
+<p>The iCS Decoder is the world's first device that can decode and clone iCLASS SE and iCLASS SEOS badges. The device leverages an exploit that is enabled by default in SE / SEOS system to create legacy badges dervied from SE / SEOS badges.<br>The iCS Decoder is an accessory for the iCopy-X.</p>
+<p><a href="/products/ics-decoder-iclass-se-seos-cloner-decoder">Check out the iCS Decoder here.</a></p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left" style="text-align: center;">
+<p><a href="/products/ics-decoder-iclass-se-seos-cloner-decoder"><img src="https://cdn.shopify.com/s/files/1/2175/8571/products/iCSDecoder-ICLASS-SEandSEOSDecoder-2_240x240.png?v=1629298269" alt=""></a></p>
+</div>
+</div>
+<div style="margin: 2em 0px 0 0px;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>PandwaRF Marauder Ultimate</h3>
+<p>Purpose built for deaddrop / standalone signal capture, the PandwaRF Marauder Ultimate integrates with the PandwaRF Rogue Pro for full signal analysis, processing, brand and model detection and signal transformation.</p>
+<p><a href="/products/pandwarf-marauder-ultimate">Check out the PandwaRF Marauder Ultimate here.</a></p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left" style="text-align: center;">
+<p><a href="/products/pandwarf-marauder-ultimate"><img src="https://cdn.shopify.com/s/files/1/2175/8571/products/Maurauder-Ultimate-1_d3b4416a-9f06-4cd2-8050-05929833849f_240x240.png?v=1628870147" alt=""></a></p>
+</div>
+</div>
+<div style="margin: 2em 0px 0 0px;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Portapack for the HackRF</h3>
+<p>The PortaPack converts the HackRF One into the ultimate portable SDR multi-tool.<br>Dozens of built-in functions for sniffing, spoofing, recording, replaying and analyzing on the go. No cables or external computer required - the Portapack is a standalone, portable SDR solution.</p>
+<p><a href="/products/portapack-for-hackrf-one">Check out the PortaPack here.</a></p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left" style="text-align: center;">
+<p><a href="/products/portapack-for-hackrf-one"><img src="https://cdn.shopify.com/s/files/1/2175/8571/products/PortaPack_240x240.png?v=1625147894" alt=""></a></p>
+</div>
+</div>
+<p>With 10% off store-wide and new exclusive products - we hope that getting back to work is a little bit less difficult.</p>
+<p>As always - if you have any questions or concerns - please reach out directly to our fantastic customer support: <a href="mailto:support@lab401.com">support@lab401.com</a></p>
+<p>Lab401 Steve.</p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/lab401-summer-break-shipping-modifications</id>
+    <published>2021-07-21T17:14:36+02:00</published>
+    <updated>2021-08-24T17:34:39+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/lab401-summer-break-shipping-modifications"/>
+    <title>LAB401: Summer Break Shipping Modifications</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p><strong>Modified Warehouse Hours, August 16 - 30</strong></p>
+<p>The LAB401 warehouse is open<br>Shipments will be made <strong>twice per week.</strong></p>
+<p>Standard hours resume on September 1.</p><p><a class="read-more" href="https://lab401.com/blogs/news/lab401-summer-break-shipping-modifications">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p><strong>Modified Warehouse Hours, August 16 - 30</strong></p>
+<p>The LAB401 warehouse is open<br>Shipments will be made <strong>twice per week.</strong></p>
+<p>Standard hours resume on September 1.</p>
+For any questions, please contact Lab401 Support: support@lab401.com
+<p> </p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/bastille-day-promo-14-discount-storewide</id>
+    <published>2021-07-11T17:30:00+02:00</published>
+    <updated>2021-07-12T02:39:18+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/bastille-day-promo-14-discount-storewide"/>
+    <title>🥐 Bastille Day Promo: 14% Discount Storewide!</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<span>Lab401 is celebrating its French-heritage, and so on the </span><strong>14th of July,</strong><span> we're running a </span><strong>14% sale, store-wide</strong><span> on the </span><strong>first 14 sale</strong><p><a class="read-more" href="https://lab401.com/blogs/news/bastille-day-promo-14-discount-storewide">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>Lab401 is celebrating its French-heritage, and so on the <strong>14th of July,</strong> we're running a <strong>14% sale, store-wide</strong> on the <strong>first 14 sales.</strong><br><br>Like all our promos, your discount will automatically apply at checkout. There's no catches, no limits, and no coupons to enter - but the coupon is only valid for the first 14 orders - so don't miss out.</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/1XnbZizZew0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/back-in-stock-3-day-sale</id>
+    <published>2021-05-11T12:00:00+02:00</published>
+    <updated>2021-05-11T12:00:00+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/back-in-stock-3-day-sale"/>
+    <title>Back in stock 3 day sale</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[LAB401.com is running an exceptional<strong> 10% promo</strong><span> store wide, from </span><strong>May 11 - May 13</strong><p><a class="read-more" href="https://lab401.com/blogs/news/back-in-stock-3-day-sale">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>Whether it's manufacturing shortages, everyone's favourite virus or floating behemoths blockages, it's been a difficult time keeping high-tech products in stock. Over the last two weeks, <strong>we were out of stock </strong>of our flagship RFID Pentester Packs.<br><br>Thankfully, <u>we're back in stock</u>. In recognition of your patience, we're running a <strong>three-day 10% promo</strong> store wide, from <strong>May 11 - May 13.</strong><br><br>Like all our promos, your discount will automatically apply at checkout. There's no catches, no limits, and no coupons to enter.</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/ucqvr6nBCr0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe><br><br>Thanks again, and stay staying safe.<br>Steve, Lab401</p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/lab401-easter-event-april-3-6-get-extra-goodies</id>
+    <published>2021-04-03T09:40:45+02:00</published>
+    <updated>2021-04-03T09:40:45+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/lab401-easter-event-april-3-6-get-extra-goodies"/>
+    <title>Lab401 easter event. April 3 -6 get extra goodies</title>
+    <author>
+      <name>Lab401 Lee</name>
+    </author>
+    <summary type="html">
+      <![CDATA[Lab401 easter event. April 3 -6 get extra goodies<p><a class="read-more" href="https://lab401.com/blogs/news/lab401-easter-event-april-3-6-get-extra-goodies">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p><span>Hi pentester! </span></p>
+<p><span>For easter this year we will add a free RFID Field detector and a sweet surprise :) </span></p>
+<p><span>Have a great easter!</span></p>
+<p><span><iframe width="560" height="315" src="https://www.youtube.com/embed/Ono9YH8zNWc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></span></p>
+<p><span>LAB401 team</span></p>
+<p> </p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/new-year-new-product-rfid-range-extender</id>
+    <published>2021-01-26T11:54:48+01:00</published>
+    <updated>2021-01-26T11:54:48+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/new-year-new-product-rfid-range-extender"/>
+    <title>New Year, New Product: RFID Range Extender</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[Lab401 is proud to present it's RFID Range Extender Antennas.<br>Boost weak RFID readers, or physically teleport the reading zone up to 50cm away. Works wirelessly - no soldering required.<p><a class="read-more" href="https://lab401.com/blogs/news/new-year-new-product-rfid-range-extender">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>Lab401 is proud to present <a href="/products/rfid-antenna-extender">RFID Range Extender Antennas.</a><br>Boost weak RFID readers, or physically teleport the reading zone up to 50cm away. Totally passive - no batteries required, and no soldering required.</p>
+<p>Initially built the system for a customised hardware project in Europe, we're finally able to release this product publicly!</p>
+<p>Using the device couldn't be more simple: check out the video below:</p>
+<p><iframe src="https://www.youtube.com/embed/jsQ_i18GjW8" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="1234" height="704" frameborder="0"></iframe></p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/end-of-year-gifts-new-site-features</id>
+    <published>2020-12-21T00:00:01+01:00</published>
+    <updated>2020-12-28T04:42:20+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/end-of-year-gifts-new-site-features"/>
+    <title>End of year gifts, new site features</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p>To celebrate the end of the year, from December 21 to December 31, we are including a free <a href="/products/rfid-blocker-nfc-jammer">ARD RFID Blocking Card</a> with every order.</p>
+<p>We've also added several new products.</p><p><a class="read-more" href="https://lab401.com/blogs/news/end-of-year-gifts-new-site-features">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>To celebrate the end of the year, from December 21 to December 31, we are including a free <a href="/products/rfid-blocker-nfc-jammer">ARD RFID Blocking Card</a> with every order.</p>
+<p>We have recently made structural changes to take better care of our business customers - we now bill from an EU entity, allowing for VAT claimable purchases.</p>
+<p>For our non-business EU customers, while VAT is applied during checkout, we've reduced product prices to balance the difference.</p>
+<p>For our non-EU customers, you can purchase VAT free (-20%) site wide.</p>
+<p>We've also added several new products:</p>
+<ul>
+<li><a href="/products/proxrf-125khz-biochip-antenna">ProxRF 125KHz Biochip Antenna</a></li>
+<li><a href="/products/mifare-mini-compatible-uid-modifable-direct-write">MIFARE Mini® Compatible - Gen 2 Tag</a></li>
+<li><a href="/products/mifare-classic-compatible-1k-7-byte-direct-write-uid">MIFARE Classic® Compatible 1K 7-byte Gen 2 Tag</a></li>
+<li><a href="/products/mifare-classic-compatible-4k-7-byte-uid-modifiable-by-directwrite">MIFARE Classic® Compatible 4K 7-byte Gen 2 Tag</a></li>
+</ul>
+<p>We'd be lying if we said it was an easy year - but we're glad to still be here, and grateful for your ongoing support. We've got exciting projects lined up for 2021 - stay tuned !</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/XoAGRXVTQWw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></p>]]>
+    </content>
+  </entry>
+</feed>

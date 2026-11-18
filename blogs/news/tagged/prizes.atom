@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/news.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/news/tagged/prizes.atom"/>
+  <title>Lab401 - News</title>
+  <updated>2026-04-22T16:48:54+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/news/lab401-easter-prize-hunt-keysy-in-stock</id>
+    <published>2019-04-18T15:03:00+02:00</published>
+    <updated>2019-04-18T21:08:42+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/lab401-easter-prize-hunt-keysy-in-stock"/>
+    <title>Lab401 Easter Prize Hunt + Keysy in stock!</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[This easter at Lab401, we're giving away much more than melted chocolate and sugar highs. Starting from Thursday, April 18 - specific orders will win prizes, including the NFCKill, USBKill and Proxmark RDV4!<p><a class="read-more" href="https://lab401.com/blogs/news/lab401-easter-prize-hunt-keysy-in-stock">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p style="line-height: 18px; text-align: justify; font-size: 12px;"><span style="font-size: 16px; line-height: 24px;"><strong>Did you know</strong><span> </span>that in France, it's not the Easter Bunny that delivers Easter Eggs, but<span> </span><em>church bells</em>. Somehow, magical bunnies seems more logical. Regardless - this easter at Lab401, we're giving away much more than melted chocolate and sugar highs.</span></p>
+<p style="line-height: 18px; text-align: justify; font-size: 12px;"><span style="font-size: 16px; line-height: 24px;">Starting from <strong>Thursday, April 18</strong><span> </span>-<span> </span><strong>specific orders will win prizes.</strong></span></p>
+<p style="line-height: 18px; text-align: justify; font-size: 12px;"><span style="font-size: 16px; line-height: 24px;">The <strong>fifth, tenth and fifteenth</strong> orders placed will win a<span> </span><strong>USBKill Pro Kit, NFCKill Pro Edition</strong><span> </span>and a<span> </span><strong>Proxmark 3 RDV4</strong><span> </span>respectively. </span></p>
+<p style="line-height: 18px; text-align: justify; font-size: 12px;"><span style="font-size: 16px; line-height: 24px;">From the Lab401 Team - have a safe and relaxing Easter, and enjoy the hunt!</span></p>
+<p style="line-height: 18px; text-align: justify; font-size: 12px;"><span style="font-size: 16px; line-height: 24px;"><iframe width="1182" height="674" src="https://www.youtube.com/embed/jsG9-zCPhsk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></span></p>]]>
+    </content>
+  </entry>
+</feed>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/academy.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/academy/tagged/infosec.atom"/>
+  <title>Lab401 - Academy</title>
+  <updated>2026-06-04T15:04:58+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/academy/pentestips-icopy-x-how-to-firmware-update</id>
+    <published>2021-09-20T05:56:33+02:00</published>
+    <updated>2021-09-20T05:56:33+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/pentestips-icopy-x-how-to-firmware-update"/>
+    <title>#pentestips: iCopy-X : How to firmware update</title>
+    <author>
+      <name>Lab401 Lee</name>
+    </author>
+    <summary type="html">
+      <![CDATA[How to update the firmware of your iCopy-X ? we got you covered!<p><a class="read-more" href="https://lab401.com/blogs/academy/pentestips-icopy-x-how-to-firmware-update">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p><span dir="auto" class="style-scope yt-formatted-string">Hi, in today's </span><a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="https://www.youtube.com/hashtag/pentestips" dir="auto">#pentestips</a><span dir="auto" class="style-scope yt-formatted-string"> we show you how to update the firmware of your iCopy-x.</span></p>
+<p><span dir="auto" class="style-scope yt-formatted-string"><iframe width="560" height="315" src="https://www.youtube.com/embed/R8ynQgSWDrs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></span></p>
+<p><strong><span dir="auto" class="style-scope yt-formatted-string">Firmware update : <a href="https://icopyx.com/pages/update-your-icopy-x">https://icopyx.com/pages/update-your-icopy-x</a></span></strong></p>
+<p><span dir="auto" class="style-scope yt-formatted-string">Get your iCopy-x: </span><a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbUtMbDdCc19TZXlsaEZrc210UkR5Yk5IcWcyUXxBQ3Jtc0ttSC01ck5yeDJOODVzak11TzVvc3Q1T0lvRHdfQkJYcjVKOUNCeDZ4RUtZckpKYkV5YV8zaThodEZPd25EeGhONmpPZFdCeFJxdjl2bTBsRTJyZTI3VDRoU1QtdlVNSTJzczBvQTJYMTNBellNa1JnRQ&amp;q=https%3A%2F%2Flab401.com%2Fproducts%2Ficopy-x" rel="nofollow noopener noreferrer" target="_blank" dir="auto">https://lab401.com/products/icopy-x</a></p>
+<p> </p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/academy/pentestips-rfid-theory-the-right-tool-for-your-rfid-job</id>
+    <published>2021-07-30T17:52:26+02:00</published>
+    <updated>2021-07-30T17:52:26+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/pentestips-rfid-theory-the-right-tool-for-your-rfid-job"/>
+    <title>#pentestips RFID theory - the right tool for your RFID job</title>
+    <author>
+      <name>Lab401 Lee</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<h1 class="title style-scope ytd-video-primary-info-renderer"><yt-formatted-string force-default-style="" class="style-scope ytd-video-primary-info-renderer"><a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="https://www.youtube.com/hashtag/pentestips" dir="auto">#pentestips</a><span dir="auto" class="style-scope yt-formatted-string"><span> </span>RFID theory - the right tool for your RFID job</span></yt-formatted-string></h1><p><a class="read-more" href="https://lab401.com/blogs/academy/pentestips-rfid-theory-the-right-tool-for-your-rfid-job">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p><b>Lab401 PTT - </b><b>Which tools do I need?</b></p>
+<br>
+<p><span style="font-weight: 400;">When starting out with RFID, most people often have a specific task: </span></p>
+<p><span style="font-weight: 400;">duplicate a specific type of badge, </span><span style="font-weight: 400;">sniff reader communications etc.</span></p>
+<p><span style="font-weight: 400;">There are multiple tools, but which is the right one? </span></p>
+<p><span style="font-weight: 400;">Everyone's heard of a Proxmark, but is there another tool that could be easier for the job at hand? Or, do you need a combination of tools?</span></p>
+<p><span style="font-weight: 400;"> </span></p>
+<p><span style="font-weight: 400;">In this PTT, we'll walk through finding the right tool for your job.</span></p>
+<p><span style="font-weight: 400;"><iframe width="560" height="315" src="https://www.youtube.com/embed/Gnf0o1OI3po" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe><br></span></p>
+<ol>
+<li><strong> Determine the card frequency.</strong></li>
+</ol>
+<p><span style="font-weight: 400;">There are three main types of RFID tags: Low Frequency, High Frequency, and Ultrahigh Frequency.</span></p>
+<p><span style="font-weight: 400;">The most common in access control are Low Frequency (LF) and High Frequency (HF) tags.</span></p>
+<p><span style="font-weight: 400;"> </span></p>
+<p><span style="font-weight: 400;">If you've got access to the card's reader, you can determine the frequency by placing the Lab401 RF Field Detector on the device. A LED will indicate the type of frequency we have to work with. </span></p>
+<p><span style="font-weight: 400;"> </span></p>
+<ol start="2">
+<li><strong> Define your goal.</strong></li>
+</ol>
+<p><span style="font-weight: 400;">Next, you need to have a clear idea of the task you need to accomplish. </span></p>
+<p><span style="font-weight: 400;"> </span></p>
+<p><span style="font-weight: 400;">What Do you need to do exactly:</span></p>
+<p><span style="font-weight: 400;"> - Read / Write the tag?</span></p>
+<p><span style="font-weight: 400;"> - Analyse an unknown tag type?</span></p>
+<p><span style="font-weight: 400;"> - Sniff commands between the reader and the tag?</span></p>
+<p><span style="font-weight: 400;"> - Emulate the tag you have      or variations of the tag?</span></p>
+<p><span style="font-weight: 400;"> - Crack/decrypt the tag?</span></p>
+<p><span style="font-weight: 400;"> </span></p>
+<ol start="3">
+<li><strong> Narrowing it down</strong></li>
+</ol>
+<p><span style="font-weight: 400;">There is a lot of functionality cross-over between RFID tools - but most tools have a core functionality.</span></p>
+<p><span style="font-weight: 400;">- Standard Operations: Read / Write / Clone / Basic Cracking</span></p>
+<p><span style="font-weight: 400;">- Emulation: Emulate / Simulate a tag electronically</span></p>
+<p><span style="font-weight: 400;">- Advanced Operations: Demodulate, Low-Level read / write / interaction</span></p>
+<p><span style="font-weight: 400;"> </span></p>
+<ol start="4">
+<li><strong> Putting it all together</strong></li>
+</ol>
+<p><span style="font-weight: 400;">With this information, finding the right tool is much easier:</span></p>
+<p><span style="font-weight: 400;">For low-frequency tags,</span></p>
+<p><span style="font-weight: 400;">If you need basic operations: Read / Write / Clone / Emulate -  Your best choice is the Keysy</span></p>
+<p><span style="font-weight: 400;">If you need more advanced operations: Demodulate, Sniff, Analyse, and Low-Level Operations (Byte by byte read/write, etc) - Your best choice is the Proxmark 3.</span></p>
+<p><span style="font-weight: 400;">Unsurprisingly, the tools that cater for more simple operations are easier to learn and use, and are also less expensive</span></p>
+<p><span style="font-weight: 400;">For high-frequency tags,</span></p>
+<p><span style="font-weight: 400;">If you need basic operations: Read / Write / Clone -  Your best choice is the DL533N.</span></p>
+<p><span style="font-weight: 400;">If you need to emulate tags: Your best choice is the ChameleonTiny</span></p>
+<p><span style="font-weight: 400;">If you need more advanced operations: Demodulate, Sniff, Analyse, and Low-Level Operations (Byte by byte read/write, etc) - Your best choice is the Proxmark 3.</span></p>
+<p><span style="font-weight: 400;">As with LF Tools, the devices that cater for more simple operations are easier to learn and use, and are also less expensive.</span></p>
+<ol start="5">
+<li><strong> Summing up</strong></li>
+</ol>
+<p><span style="font-weight: 400;">Many of the devices shown have extra functionality: The ChameleonTiny can also perform limited sniffing, the DL533N can perform basic emulation - however, their core functionalities and use cases are quite different.</span></p>
+<p><span style="font-weight: 400;"> </span></p>
+<p><span style="font-weight: 400;">Likewise - the most powerful and expensive tool may not necessarily be the most efficient tool for your use case or learning curve.</span></p>
+<p><span style="font-weight: 400;"> </span></p>
+<p><span style="font-weight: 400;">This is why Lab401 designed the<strong> RFID Pentester Packs</strong> - to give pentesters everything they need to handle almost every situation.</span></p>
+<p><span style="font-weight: 400;"> </span></p>
+<p><span style="font-weight: 400;">If you need specific advice, you can contact us via our awesome customer support: support@lab401.com</span></p>
+<p> </p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/academy/pentestips-loading-a-custom-sak-with-the-chameleontiny</id>
+    <published>2021-07-09T12:40:04+02:00</published>
+    <updated>2021-07-09T12:40:48+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/pentestips-loading-a-custom-sak-with-the-chameleontiny"/>
+    <title>#pentestips - Loading a Custom SAK with the ChameleonTiny</title>
+    <author>
+      <name>Lab401 Lee</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<span>In today's #pentestips we learn how to Load a Custom SAK with the ChameleonTiny.</span><p><a class="read-more" href="https://lab401.com/blogs/academy/pentestips-loading-a-custom-sak-with-the-chameleontiny">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>Loading a Custom SAK with the ChameleonTiny</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/eopJ0Jx4LjY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe><br> - <strong>SAK Values</strong>, or "Select Acknowledge" values, are manufacturer defined values found in the header of ISO 14443 Type A cards, which include the Mifare family (Ultralight, Mifare 1K, DesFire, etc)</p>
+<p><br> - These values are <strong>hard-written</strong> during production, and <strong>cannot be changed on original badges</strong>.</p>
+<p><br> - <strong>Non-standard SAK values are rejected by many readers</strong>, and most blank badges have fixed SAK values. Some access cards use custom SAK values to attempt to thwart card reading and cloning.</p>
+<p><br> - The ChameleonTiny has a <strong>new SAK Mode</strong>, which makes using custom SAK values very easy.</p>
+<p><br> - When the "SAK Mode" is enabled, the ChameleonMini will take the SAK mode from the Block0 configuration.<br><br> <strong>[Load Hex-editor with Mifare 1K dump] (StandardSAK.dmp / png)</strong></p>
+<p>- In this Mifare Classic 1K dump, we see that byte 0x5 has a value of "0x08" - the default value for a MIFARE Card.</p>
+<p>- If we want to change the SAK value to "88", a code commonly used in Chinese Access Control products, we modify this value to "88". <br><br> - In order for the ChameleonTiny to respect this custom SAK value, we need to enable the special SAK Mode<br><br> <strong>[Load APP]</strong><br><strong> [Connect Device]</strong><br><strong> [Select Badge Slot]</strong><br><strong> [Upload Dump File ModifiedSak.dmp]</strong><br><strong> [Click "SAK Mode"]</strong><br><br> - The Chameleon is now emulating our Custom SAK mode. <br> - We can verify this by reading the ChameleonTiny on our phone, while still in the Chameleon Application<br><br> [Place ChameleonTiny on the phone, badge will be read with the custom SAK value]</p>
+<p>Get your Chameleon tiny Professional: <strong><a href="https://lab401.com/products/chameleontiny" target="_blank" title="Purchase your ChameleonTiny professional" rel="noopener noreferrer">click here</a></strong></p>
+<p><span>Do you have #pentestips to submit yourself? </span></p>
+<p><span> </span><span>We would love to partner with you, contact us at support@lab401.com</span></p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/academy/pentestips-proxmark3-rdv4-how-deal-with-problematic-tags</id>
+    <published>2021-07-02T11:13:54+02:00</published>
+    <updated>2021-07-02T11:13:54+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/pentestips-proxmark3-rdv4-how-deal-with-problematic-tags"/>
+    <title>#pentestips - Proxmark3 Rdv4: How Deal with problematic tags ?</title>
+    <author>
+      <name>Lab401 Lee</name>
+    </author>
+    <summary type="html">
+      <![CDATA[How to deal with problematic tags while using a <span>Proxmark3 Rdv4 ?</span><p><a class="read-more" href="https://lab401.com/blogs/academy/pentestips-proxmark3-rdv4-how-deal-with-problematic-tags">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p><span>It's often that <strong>some tags don't respond correctly to the proxmark commands</strong>. </span></p>
+<p><span>One very common problem is that the tag is actually too close to the antennas of the proxmark. </span></p>
+<p><span>In this case, the trick is very simple:<strong> just place a "spacer" between the antenna and the tag</strong>, and run your commands again. </span></p>
+<p><span><iframe width="560" height="315" src="https://www.youtube.com/embed/PUDZK3s4soo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></span></p>
+<p><span>You like the </span><strong>#pentestips</strong><span>? </span></p>
+<p>Make sure to <strong><a href="https://www.youtube.com/c/Lab401" target="_blank" title="LAb401 youtube channel" rel="noopener noreferrer">subscribe to our youtube channel</a></strong> and keep visiting LAB401.com</p>
+<p><span>Do you have </span><strong>#pentestips</strong><span> to submit yourself? </span></p>
+<p><span>We would love to partner with you, contact us at support@lab401.com</span></p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/academy/pentestips-quickly-detect-the-frequency-of-a-rfid-badge</id>
+    <published>2021-05-28T14:45:55+02:00</published>
+    <updated>2021-05-28T14:45:55+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/pentestips-quickly-detect-the-frequency-of-a-rfid-badge"/>
+    <title>#pentestips: quickly detect the frequency of a RFID badge</title>
+    <author>
+      <name>Lab401 Lee</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<span>How to quickly detect the frequency of a RFID badge with a proxmark3?</span><p><a class="read-more" href="https://lab401.com/blogs/academy/pentestips-quickly-detect-the-frequency-of-a-rfid-badge">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>How to quickly detect the frequency of a RFID badge ? How to effectively identify the model of a tag ?<br><br>Using the proxmark 3, connected to a Windows 10 PC, it takes only a few seconds to analyze an RFID card, to identify its technology. <br><br>Using the "lf search" and "hf search" commands, you get all the basic information you need, with additional hints to further analyze Mifare badges for example.</p>
+<p> </p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/zhUEK-hFkKA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></p>
+<p>Stay safe and see you next week for another #pentestips</p>]]>
+    </content>
+  </entry>
+</feed>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/academy.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/academy/tagged/chameleon-mini.atom"/>
+  <title>Lab401 - Academy</title>
+  <updated>2026-06-04T15:04:58+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/academy/pentestips-chameleon-mini-standalone-mifare-cloning</id>
+    <published>2021-04-16T00:00:00+02:00</published>
+    <updated>2021-04-16T00:00:00+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/pentestips-chameleon-mini-standalone-mifare-cloning"/>
+    <title>#Pentestips : Chameleon Mini: Standalone Mifare Cloning</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <content type="html">
+      <![CDATA[<p>This week's pentestip demonstrates using the <a href="https://lab401.com/products/proxgrind-chameleon-mini-revg">ChameleonMini</a> to perform a standalone clone of a Mifare 1K tag. The <a href="https://lab401.com/products/proxgrind-chameleon-mini-revg">ChameleonMini</a>, and the <a href="https://lab401.com/products/chameleontiny">ChameleonTiny</a> are high-frequency RFID emulation devices - capable of emulating multiple chipsets, including Mifare 1K / 4K tags (with 4 &amp; 7 byte UIDs), Ultralight &amp; NTAG.</p>
+<p>Beyond their emulation functionality, they can also perform MF32Key sniffing and cracking, which allows them to perform standalone cloning in certain circumstances. In this video, we show you how to perform a standalone Mifare 1K clone with the Chameleon Mini.</p>
+<p>Check back every Friday for a new video. If you've got a tip that you'd like to see featured, just send us a <a href="https://twitter.com/Lab_401" target="_blank" rel="noopener noreferrer">tweet</a>.</p>
+<p><iframe src="https://www.youtube.com/embed/lf7Kx-bs468" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="1210" height="551" frameborder="0"></iframe></p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/academy/chameleon-mini-reve-rebooted-flashing-to-latest-firmware</id>
+    <published>2018-12-22T18:31:00+01:00</published>
+    <updated>2018-12-22T18:32:00+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/chameleon-mini-reve-rebooted-flashing-to-latest-firmware"/>
+    <title>Chameleon Mini RevE Rebooted: Flashing to latest firmware</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<meta charset="utf-8">
+<p>The firmware for the Chameleon Mini Rev E Rebooted is<span> </span><a href="https://github.com/iceman1001/ChameleonMini-rebooted">open source</a>. However, compiling the latest binaries is somewhat complicated, and requires access to an ARM compiler. </p>
+<p>There have been several improvements recently in the firmware, so Lab401 has compiled the latest commits into a downloadable firmware bundle.</p>
+<p>Flashing the Chameleon Mini on a Windows machine (or emulated environment) is simple - read on for a step by step guide.</p><p><a class="read-more" href="https://lab401.com/blogs/academy/chameleon-mini-reve-rebooted-flashing-to-latest-firmware">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<h3>LAB401<strong> ACADEMY: Chameleon Mini RevE Rebooted: Flashing to latest firmware</strong>
+</h3>
+<h3>
+<strong></strong><strong>INTRODUCTION:</strong> </h3>
+<p>The firmware for the Chameleon Mini Rev E Rebooted is <a href="https://github.com/iceman1001/ChameleonMini-rebooted">open source</a>. However, compiling the latest binaries is somewhat complicated, and requires access to an ARM compiler. </p>
+<p>There have been several improvements recently in the firmware, so Lab401 has compiled the latest commits into a downloadable firmware bundle.</p>
+<p>Flashing the Chameleon Mini on a Windows machine (or emulated environment) is simple, following the steps below:<br><br></p>
+<ol>
+<li>
+<strong>Download</strong> the latest Chameleon Mini Rev E Rebooted tools here:<br><a href="https://github.com/iceman1001/ChameleonMini-rebooted/archive/master.zip">https://github.com/iceman1001/ChameleonMini-rebooted/archive/master.zip<br><br></a>
+</li>
+<li>Unzip the archive, and navigate to the folder:<br>
+<pre>ChamelonMini-rebooted/Software/Win32</pre>
+</li>
+<li>
+<b>Download </b>the latest firmware update: <a href="/products/chameleon-mini/firmware/latest.zip">https://lab401.com/products/chameleon-mini/firmware/latest.zip<br><br></a>
+</li>
+<li>
+<strong>Unzip</strong> the archive into the Win32 folder.<br><br>
+</li>
+<li>
+<strong>Press and hold</strong> the <strong>black button</strong> on the <strong></strong>Chameleon Mini Rev E<br><br>
+</li>
+<li>
+<strong>Connect</strong> the Chameleon Mini Rev E Rebooted <strong>without the battery</strong>, still<strong> holding the button.<br><br></strong>
+</li>
+<li>
+<strong>Run</strong> the application "BOOT_LOADER_EXE.exe" </li>
+</ol>
+<ul>
+<li>You should see text similar to:
+<pre>Erasing flash...  Success
+Checking memory from 0x0 to 0x6FFF...  Empty.
+0%                            100%  Programming 0x40 bytes...
+[&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;]  Success
+0%                            100%  Reading 0x400 bytes...
+0%                            100%  Programming 0x5E00 bytes...
+[&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;]  Success
+0%                            100%  Reading 0x7000 bytes...
+load_success!
+</pre>
+</li>
+<li>If you receive the error 'def-old-driver: no device present'</li>
+<ul>
+<li>
+<strong>Rename</strong> the file libusb0.dll to libusb0.dll.bak</li>
+<li>
+<strong>Retry </strong>step <strong>5</strong>
+</li>
+</ul>
+<li>
+<strong>Disconnect</strong> and <strong>reconnect</strong> the Chameleon Device - you're finished, and your firmware is flashed to the latest version!</li>
+</ul>
+<ul></ul>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/academy/proxmark-3-project-walrus-easier-pentesting</id>
+    <published>2018-06-07T03:34:00+02:00</published>
+    <updated>2022-03-18T16:34:41+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/proxmark-3-project-walrus-easier-pentesting"/>
+    <title>Proxmark 3 &amp; Project Walrus: Easier Pentesting</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<meta charset="utf-8">
+<p><a href="https://project-walrus.io/" target="_blank" rel="noopener noreferrer">Project Walrus</a><span> is an an open-source Android-based tool that aims to provide a unified interface over multiple RFID devices.</span><br><br><span>Designed as a pentesting / red-teaming accessory, it also provides a centralised system for bulk-reading cards, card management, reading, writing and emulation.</span></p>
+<p><span>Learn how to easily sniff, emulate and write LF and HF cards with Project Walrus.<br></span></p><p><a class="read-more" href="https://lab401.com/blogs/academy/proxmark-3-project-walrus-easier-pentesting">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<meta charset="utf-8">
+<h3><strong>LAB401 ACADEMY: Proxmark 3 &amp; Project Walrus: Easier Pentesting</strong></h3>
+<h3>
+<strong></strong><strong>INTRODUCTION:</strong>
+</h3>
+<p><a href="https://project-walrus.io/" target="_blank" rel="noopener noreferrer">Project Walrus</a> is an an open-source Android-based tool that aims to provide a unified interface over multiple RFID devices.<br><br>Designed as a pentesting / red-teaming accessory, it also provides a centralised system for bulk-reading cards, card management, reading, writing and emulation.</p>
+<p>In this video, we cover:</p>
+<p><strong>Project Walrus Overview</strong><br>- Downloading the App<br>- Connecting the Proxmark 3<br>- Bulk-reading HID Prox Tags<br>- Cloning HID Prox</p>
+<p>Interested in getting started with these tools? We've made the <a href="https://lab401.com/products/rfid-pentester-pack"><strong>Pentester Pack</strong></a><span> </span>that contains all the tools from this tutorial.</p>
+<p><strong>Check out the video below.</strong></p>
+<p><strong><iframe src="https://www.youtube.com/embed/7IKT5stTHFw" allow="autoplay; encrypted-media" allowfullscreen="" width="640" height="360" frameborder="0"></iframe></strong></p>
+<p>Many thanks to the Project Walrus guys, and stay tuned for more tutorials coming soon in this series.</p>
+<p><strong>Technical Resources:</strong></p>
+<ul>
+<li><a href="https://walrus.app/" target="_blank" rel="noopener noreferrer">Project Walrus website</a></li>
+<li><a href="https://play.google.com/store/apps/details?id=com.bugfuzz.android.projectwalrus&amp;pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" target="_blank" rel="noopener noreferrer">Project Walrus Play Store link</a></li>
+<li><a href="https://github.com/TeamWalrus/Walrus" target="_blank" rel="noopener noreferrer">Project Walrus Github Repository</a></li>
+</ul>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/academy/chameleon-mini-mifare-cracking-via-the-reader-attack</id>
+    <published>2017-08-28T00:48:00+02:00</published>
+    <updated>2022-03-18T16:54:28+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/chameleon-mini-mifare-cracking-via-the-reader-attack"/>
+    <title>Chameleon Mini: Mifare Cracking via the Reader Attack</title>
+    <author>
+      <name>Lab401 Lee</name>
+    </author>
+    <summary type="html">
+      <![CDATA[Learn how to crack a MIFARE card via the Reader Attack with our Chameleon Mini, Proxmark 3 and SCL-3711. Discount code for these tools also available!<p><a class="read-more" href="https://lab401.com/blogs/academy/chameleon-mini-mifare-cracking-via-the-reader-attack">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<h3><strong>LAB401 ACADEMY: Mifare Cracking: Reader Attack with Chameleon Mini RevE Rebooted</strong></h3>
+<h3>
+<strong></strong><strong>INTRODUCTION:</strong>
+</h3>
+<p>Lab401's <a href="/products/chameleontiny">Chameleon Tiny</a> is a compact, highly capable tool typically used for 13.56MHz emulation (Mifare, Ultralight, etc). </p>
+<p><span>When a reader begins communication with a Mifare Tag, it will send a series of keys to attempt card decryption. The first of these keys can be sniffed by the Chameleon Mini and easily decoded.</span></p>
+<p>Armed with this key, we are able to use LibNFC's mfoc tool with the <a href="/products/usb-rfid-reader-writer-dl533n">DL-533N</a>, or the <a href="/products/proxmark-3-rdv4">Proxmark 3</a> to perform a nested / hardnested attack to successfully crack all keys and dump the card.</p>
+<p><span>This attack is especially useful when we have:</span></p>
+<ul>
+<li>A new generation MIFARE tag that resists classic attacks </li>
+<li>Access to the card's reader</li>
+</ul>
+<p>Check out the step by step video below. </p>
+<p>Interested in getting started with these tools? We've made the <a href="/products/rfid-pentester-pack"><strong>Pentester Pack</strong></a> that contains all the tools from this tutorial - and some extra Magic Mifare cards.</p>
+<p>Buying in a pack gives a massive saving of <strong>66 Euros - </strong>check out <a href="/products/rfid-pentester-pack">the pack here.</a></p>
+<p> <iframe src="https://www.youtube.com/embed/1VpXC3-eKhc" allowfullscreen="" width="640" height="360" frameborder="0"></iframe></p>]]>
+    </content>
+  </entry>
+</feed>

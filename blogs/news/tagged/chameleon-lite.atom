@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/news.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/news/tagged/chameleon-lite.atom"/>
+  <title>Lab401 - News</title>
+  <updated>2026-04-22T16:48:54+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/news/lab401-meet-the-teen-programmer-behind-chameleonultragui</id>
+    <published>2023-08-31T16:24:41+02:00</published>
+    <updated>2023-11-03T11:18:13+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/lab401-meet-the-teen-programmer-behind-chameleonultragui"/>
+    <title>LAB401 meet the teen programmer behind chameleonultraGui</title>
+    <author>
+      <name>Lab401 Lee</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<span data-mce-fragment="1">LAB</span><span data-mce-fragment="1">401.com is meeting Game Tech Live, an inspiring teen programmer who's behind the ChameleonUltraGUI github project.</span><p><a class="read-more" href="https://lab401.com/blogs/news/lab401-meet-the-teen-programmer-behind-chameleonultragui">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p><span data-mce-fragment="1">Hey pentesters, Ever wondered who's the genius behind the ChameleonUltraGUI? LAB401.com is meeting Game Tech Live, an inspiring teen programmer who's shaking up the RFID world!</span></p>
+<p><span data-mce-fragment="1"><iframe width="560" height="315" src="https://www.youtube.com/embed/M35qNG9Bn1c?si=Rg_1LxcLVYgMUTTn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></span></p>
+<p><span data-mce-fragment="1">👀 Looking Ahead ChameleonultraGui is in beta, More features are coming, please show your support and appreciation to gametec live and his team, donate for this project here: https://opencollective.com/chameleon-ultra-gui </span></p>
+<p><strong>ChameleonUltraGUI Github: </strong></p>
+<p><a href="https://github.com/GameTec-live/ChameleonUltraGUI" target="_blank"><span data-mce-fragment="1">https://github.com/GameTec-live/ChameleonUltraGUI </span></a></p>
+<p><span data-mce-fragment="1">👇 Take Action Smash that like button if you enjoyed the video! Subscribe and hit the bell 🔔 so you don't miss our next update! </span></p>
+<p> </p>
+<p><span data-mce-fragment="1">🤖 get your gear at <strong>lab401.com </strong></span></p>
+<p><strong>Chameleon ULTRA: </strong></p>
+<p><a href="https://lab401.com/products/chameleon-ultra" target="_blank"><span data-mce-fragment="1">https://lab401.com/products/chameleon-ultra </span></a></p>
+<p><strong>Chameleon lite:</strong></p>
+<p><a href="https://lab401.com/products/chameleon-lite" target="_blank"><span data-mce-fragment="1">https://lab401.com/products/chameleon-lite</span></a></p>
+<div id="gtx-trans" style="position: absolute; left: -23px; top: 477px;">
+<div class="gtx-trans-icon"></div>
+</div>]]>
+    </content>
+  </entry>
+</feed>

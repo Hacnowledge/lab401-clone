@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/news.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/news/tagged/bastille-day.atom"/>
+  <title>Lab401 - News</title>
+  <updated>2026-04-22T16:48:54+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/news/bastille-day-promo-14-discount-storewide</id>
+    <published>2021-07-11T17:30:00+02:00</published>
+    <updated>2021-07-12T02:39:18+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/bastille-day-promo-14-discount-storewide"/>
+    <title>🥐 Bastille Day Promo: 14% Discount Storewide!</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<span>Lab401 is celebrating its French-heritage, and so on the </span><strong>14th of July,</strong><span> we're running a </span><strong>14% sale, store-wide</strong><span> on the </span><strong>first 14 sale</strong><p><a class="read-more" href="https://lab401.com/blogs/news/bastille-day-promo-14-discount-storewide">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>Lab401 is celebrating its French-heritage, and so on the <strong>14th of July,</strong> we're running a <strong>14% sale, store-wide</strong> on the <strong>first 14 sales.</strong><br><br>Like all our promos, your discount will automatically apply at checkout. There's no catches, no limits, and no coupons to enter - but the coupon is only valid for the first 14 orders - so don't miss out.</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/1XnbZizZew0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/storm-la-bastille-with-lab401-10-store-wide</id>
+    <published>2019-07-12T14:23:00+02:00</published>
+    <updated>2019-07-12T14:24:44+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/storm-la-bastille-with-lab401-10-store-wide"/>
+    <title>Storm La Bastille with Lab401: 10% Store-wide!</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <content type="html">
+      <![CDATA[<p data-start-index="17937" data-end-index="18016"><span data-start-index="18016" data-end-index="18047"><strong data-start-index="18047" data-end-index="18055">La Bastille</strong> was a fortress-prison inside Paris, known for holding political dissidents without trial during the period of the French Revolution.</span></p>
+<p data-start-index="18333" data-end-index="18412"><span data-start-index="18412" data-end-index="18443">On the  <strong data-start-index="18451" data-end-index="18459">14th of July, 1789</strong>, it was stormed and overrun by the people - becoming a turning point in the Revolution, and a date of historical significance.</span></p>
+<p data-start-index="18639" data-end-index="18708"><span data-start-index="18708" data-end-index="18739">Today, infiltration would probably take a much different form - Employee Badges, RFID Entry Systems, CCTV and Network penetration.</span></p>
+<p data-start-index="18994" data-end-index="19073"><span data-start-index="19073" data-end-index="19104">At Lab401, we help Penetration Testers on a daily basis get the hardware they need: and to celebrate Bastille Day, you can enjoy a <strong data-start-index="19235" data-end-index="19243">10% discount store wide </strong>﻿- from <strong>﻿July 14 to July 17.</strong>﻿</span></p>
+<p data-start-index="18994" data-end-index="19073"><span data-start-index="19073" data-end-index="19104"><strong data-start-index="19235" data-end-index="19243">What tools would a modern day Bastille be infiltrated with? </strong>Let us know your thoughts <a href="https://twitter.com/lab_401">on Twitter!</a></span></p>]]>
+    </content>
+  </entry>
+</feed>

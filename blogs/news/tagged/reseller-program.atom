@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/news.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/news/tagged/reseller-program.atom"/>
+  <title>Lab401 - News</title>
+  <updated>2026-04-22T16:48:54+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/news/announcing-global-free-shipping-lab401-reseller-program</id>
+    <published>2019-02-10T18:44:00+01:00</published>
+    <updated>2019-02-11T11:27:17+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/announcing-global-free-shipping-lab401-reseller-program"/>
+    <title>Announcing Global Free Shipping &amp; Lab401 Reseller Program</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p>At Lab401, we strive to continuously deliver high quality and great service to our customers.</p>
+<p>As such, we are excited to start 2019 with the launch of two new features: <strong>Global Free Shipping</strong><span> </span>and <strong></strong>the <strong>Lab401 Reseller Program.</strong></p><p><a class="read-more" href="https://lab401.com/blogs/news/announcing-global-free-shipping-lab401-reseller-program">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>At Lab401, we strive to continuously deliver high quality and great service to our customers.</p>
+<p>As such, we are excited to start 2019 with the launch of two new features: <strong>Global Free Shipping</strong> and <strong></strong>the <strong>Lab401 Reseller Program</strong>.</p>
+<p><strong>Global Free Shipping </strong>is no longer a perk, but a necessity. Any orders over 50EU - the majority of our catalog - will immediately qualify for our rapid, fully tracked, international <strong></strong>free shipping.</p>
+<p>Under development for several months, the <strong>Lab401 Reseller Program</strong> makes our exclusive catalog and logistics available to everyone.</p>
+<p>With attainable MOQs, discounts up to 40% and shipping from our EU or Asia warehouses, the Reseller Program is <strong>open to everyone</strong>.</p>
+<p>For more information, please visit the dedicated <a href="/pages/reseller-program">Reseller Program</a> page.</p>
+<p>On behalf of the Lab401 team, we look forward to partnering with you in 2019.</p>]]>
+    </content>
+  </entry>
+</feed>

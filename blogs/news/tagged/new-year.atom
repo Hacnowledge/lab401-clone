@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/news.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/news/tagged/new-year.atom"/>
+  <title>Lab401 - News</title>
+  <updated>2026-04-22T16:48:54+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/news/free-pocketsprites-holiday-schedule</id>
+    <published>2019-12-18T11:24:00+01:00</published>
+    <updated>2019-12-18T11:36:23+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/free-pocketsprites-holiday-schedule"/>
+    <title>Free PocketSprites &amp; Holiday Schedule</title>
+    <author>
+      <name>Benjamin V</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p>For a limited time, all orders over 500EU will receive a <strong>free PocketSprite</strong> device!<br>Please also note our holiday season delivery timetable.</p><p><a class="read-more" href="https://lab401.com/blogs/news/free-pocketsprites-holiday-schedule">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>Celebrate the end of 2019 with Lab401..</p>
+<p>We're giving away free PocketSprites with every order over 500EU!</p>
+<p>The <a href="https://www.pocketsprite.com" target="_blank" rel="noopener noreferrer">PocketSprite</a> is the world's smallest portable gaming device, and a must-have item for geeks. Based on the ESP32, it emulates GameBoy, Gameboy Colour, NES, Sega Master System.. and is entirely hackable.</p>
+<p>We only have limited stock, so get in before they all disappear.<br>Qualifying orders will have the device automatically placed in their package in the warehouse.</p>
+<p>Our thanks to the <a href="https://www.pocketsprite.com" target="_blank" rel="noopener noreferrer">PocketSprite.com</a> team for helping make this promo happen!</p>
+<p><strong>Holiday Warehouse Closures</strong></p>
+<p>Please note that the <strong>warehouse will be closed from December </strong><br><strong>22 to January 2.</strong> All orders received during this date will be processed and dispatched on January 3.</p>
+<p>On behalf of everyone at Lab401, please have a safe and relaxing new year period. We have many exciting projects coming in 2020 - stay tuned!</p>
+<p> </p>
+<p><iframe src="https://www.youtube.com/embed/Fn6f1vSMh2E" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="640" height="360" frameborder="0"></iframe></p>]]>
+    </content>
+  </entry>
+</feed>

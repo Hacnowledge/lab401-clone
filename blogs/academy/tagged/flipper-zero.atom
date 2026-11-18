@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/academy.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/academy/tagged/flipper-zero.atom"/>
+  <title>Lab401 - Academy</title>
+  <updated>2026-06-04T15:04:58+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/academy/i2c-sensor-seduction-digilab-flipper</id>
+    <published>2025-09-15T07:00:06+02:00</published>
+    <updated>2025-09-15T07:00:06+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/i2c-sensor-seduction-digilab-flipper"/>
+    <title>I2C Sensor Seduction: DigiLab + Flipper</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p>Seduce sensors into spilling secrets, with the DigiLab by Lab401 and the FlipperZero. Within minutes, you can peek and poke directly into the memory of millions of modules.</p>
+<p>In this hands on tutorial, we pull temperature data directly from a LM75A temperature sensor - without anything but the DigiLab and Flipper. No Arduinos, no code, no fuss!</p><p><a class="read-more" href="https://lab401.com/blogs/academy/i2c-sensor-seduction-digilab-flipper">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>The DigiLab is an accessory for FlipperZero made by Lab401 and tixlegeek, that aims to be the first tool you reach for when exploring electronics. It's got a built-in scope tool &amp; probe tool, and leverages sound, light and vibrations as physical feedback tools - enabling an entirely new and curiously intuitive way to explore circuits.</p>
+<p>It's also got an <b>I2C Probe</b> tool. You've probably heard of I2C, and if you've built any Arduino or RaspberryPi-based gadgets that have attached gizmos, you've probably even used I2C.</p>
+<p>I2C is a communication protocol, built in the 1980s, but remains the defacto protocol today for lower-speed communications between modules and sensors because of its simplicity (it only uses two wires), flexibility (you can have up to 127+ devices on the same lines, and speak to them individually!) and ubiquity (almost everything speaks I2C).</p>
+<p><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Sensors.png?v=1756417990" alt=""></p>
+<p>Before you fall asleep, here's the key question: <i>why should I get excited about a tool that speaks 40-year old protocol?</i></p>
+<p>The reality is, working with I2C devices, even today, can be very frustrating. Most I2C sensors are just micro computers that you can communicate with. Let's say you've got a temperature sensor, and you want to know what the temperature is. In theory, you can just ask it what the temperature is, and it will tell you. In reality, you need to wire the sensor up to some type of computer - an Arduino, an ESP-32, a Raspberry PI. Then need to setup a programming environment for the host device, and then find a library or write code to try to interface with the sensor. <i>It's super inefficient, and feels awkward.</i> Why can't you just reach into the sensor, grab the data and be done, no fuss?</p>
+<p>With the DigiLab's <b>I2C Probe</b>, working with I2C is a breeze. Hook up the module, and it's automatically detected (and even supports multiple modules at the same time). It also identifies each module with its inbuilt Predictive Engine. Sending and Retrieving data is done via the built-in UI and hex-editor. All in all, you can connect, detect, identify and interact with an I2C module in minutes, as opposed to hours.</p>
+<p><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab---Connected---Cropped.png?v=1756295963"></p>
+<h2>Let's get started</h2>
+<p>In this tutorial, we're going to learn how to connect and read data from a sensor in under under a minute. We're going to work with the LM75A sensor - a very popular temperature sensor. We'll see how we can connect the module, identify it, and read temperature data directly from the sensor - no code, no debugging.</p>
+<div style="text-align: center; font-size: .8em;">
+<img style="margin-bottom: 16px; float: none; display: block; margin-left: auto; margin-right: auto;" alt="The LM75ADPSensor on a breakout board." src="https://cdn.shopify.com/s/files/1/2175/8571/files/Module_240x240.png?v=1756249815"><i>There are many LM75A breakout boards, but this is my own.</i>
+</div>
+<p>At the end of the tutorial, you'll have acquired the following <b>skills</b>:</p>
+<ul>
+<li>How to communicate with unknown modules via first-principles</li>
+<li>How to leverage data-sheets to use unknown modules</li>
+<li>How to use the DigiLab to identify unknown I2C modules</li>
+<li>How to directly read the memory / registers of I2C modules</li>
+<li>Leveraging AI to build useful tools</li>
+</ul>
+<p>In this tutorial, we'll cover the following <b>steps</b>:</p>
+<ol>
+<li>Connecting the LM75ADP to the DigiLab</li>
+<li>Detecting and identifying the LM75ADP</li>
+<li>Obtaining and using the data-sheet</li>
+<li>Reading temperature data</li>
+<li>Building a tool to interpret retrieved data</li>
+</ol>
+<p><i><i>Please note</i>: The DigiLab can also write data to I2C devices, giving you complete control to configure sensors, write to memory chips, etc. We've got another tutorial on <i>Using the DigiLab with a BMP280 Sensor</i> - a much more complex sensor, which requires reading and writing. It's a bit more involved, but nevertheless you can control it completely with the DigiLab. If you want to learn how to interact completely with sensors and modules, it's a recommended read!</i></p>
+<p>In order to play along at home, you'll only need three things:<br></p>
+<ul>
+<li>The <a rel="noopener" href="/products/digilab-for-flipperzero" target="_blank">Lab401 DigiLab accessory</a> for FlipperZero®</li>
+<li>A <a rel="noopener" href="https://www.aliexpress.us/w/wholesale-LM75-I2C-.html" target="_blank">LM75A Breakout board</a>
+</li>
+<li>Some <a rel="noopener" href="https://www.aliexpress.us/w/wholesale-dupont-cables.html" target="_blank">dupont cables</a>
+</li>
+</ul>
+<h2>Connecting the LM75A to the DigiLab</h2>
+<p>First, we'll connect the LM75A Breakout module to the DigiLab. We'll connect:</p>
+<ul>
+<li>The <u>DigiLab</u> 3.3V pin to the <u>LM75A</u>'s VCC/3.3v pin</li>
+<li>The <u>DigiLab</u> GND pin to the <u>LM75A</u>'s GND pin</li>
+<li>The <u>DigiLab</u> SCL pin to the <u>LM75A</u>'s SCL pin</li>
+<li>The <u>DigiLab</u> SDA pin to the <u>LM75A</u>'s SDA pin</li>
+</ul>
+<p><i><img style="display: block; margin-left: auto; margin-right: auto;" alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Flipper---Wiring-Diagram_e7614cf6-344c-4604-aa70-59ccf00162d7.png?v=1756415079"></i></p>
+<p><i>That's all the wiring that we need to do! <b>Important</b> - if you're using a different board, please ensure that you follow what's printed on the PCB to avoid frying your module!</i></p>
+<h2>Detecting and identifying the LM75</h2>
+<p>Now, connect your DigiLab to your FlipperZero, and head into <b>Apps › GPIO › Lab401/DigiLab</b>. If you haven't already installed the App, you can get it from the Flipper App Store: <a href="https://lab.flipper.net/apps/401_digilab" target="_blank">https://lab.flipper.net/apps/401_digilab</a>.</p>
+<p>If it's the first time you've used the DigiLab app, you'll be asked to <b>Calibrate</b> your DigiLab. Follow the instructions on screen - touch the red probe to the +5V pad, and click OK.</p>
+<p>In the DigiLab App, head to <b>I2C Probe</b>. The device will rapidly scan for devices, and present you with a list of results. You can navigate the list with the left and right arrows.<br>If everything was connected properly, you should see <b>two</b> found devices. The DigiLab has an I2C memory chip on it, so there'll always be one device found.</p>
+<p>Navigate the list until you see the device <b>0x46</b>. This number is the address of the device, and it's "somewhat" unique. Click on <b>Info Button</b>.</p>
+<p>The DigiLab uses its predictive engine to try to guess the type of module it's connected to. There may be multiple types of module - but it helps you narrow down what you're dealing with. If you <b>navigate the list</b>, you'll see that the <b>LM75B</b> is found, and that it's a "Temperature Sensor" from NXP. Cool!</p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Detection-Animation_6b242ab9-2c56-4c29-8486-cc0607359416.gif?v=1756417313"></p>
+<p>At this point, you could click the <b>R/W</b> button to read and write values from the module's memory slots ("registers") - but where would you begin? This is where <b>data-sheets</b> come in.</p>
+<h2>Obtaining and using the datasheet</h2>
+<p>A quick web-search brings up a copy of the <a href="https://www.ti.com/product/LM75A" target="_blank">datasheet</a> for the LM75A sensor.</p>
+<p>Scanning the document, we see that the sensor can actually do a bunch of interesting things (it can also be used as a thermostat, which will trigger at specific temperatures). However, what we're most interested in is on page 6, with the Register List (Table 5). A <i>Register</i> is the name for a chunk of memory where data is stored. Think of it like a postbox. It has a number, you can put things into it, take things out of it, and depending on the size, store different amounts in it.</p>
+<p><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Register-List.png?v=1756417366"></p>
+<p>The LM75A stores the temperature data in the Register with the address: <code>0x00</code>. The register has a total size of 2-bytes.</p>
+<p>Page 8 describes how the data is encoded, and gives some examples on how to decode it. Now, we know where to get the data, how much data to get, and how to convert it to something human-readable!</p>
+<p><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Data-Format.png?v=1756417472"></p>
+<h2>Reading temperature data</h2>
+<p>In the <b>DigiLab App</b>, go to <b>I2C Probe</b>, and select the device with the address of <b>0x48</b>. This time, click on the <b>R/W Button</b> - and you'll be taken to a screen where you can enter the register we want to read.</p>
+<p>Enter the register <b>00</b> (you can type it in, or use the arrow keys to increase the address) and click <b>OK</b>. Now we're prompted how much data we should read from the register. From the document, we know that it's <b>2-bytes</b>, so we enter 2 and click <b>OK</b>.</p>
+<p><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Read-Animation.gif?v=1756415863" alt="" style="display: block; margin-left: auto; margin-right: auto;"></p>
+<p>We're now inside the DigiLab's built in hex-editor, and peering <i>directly into the memory of the LM75</i>. We can see that there's two bytes of data. This is the temperature response from the module!</p>
+<p>Take note of these two bytes: In our example, <code>1E 20</code></p>
+<h2>Building a tool to interpret retrieved data</h2>
+<p>Now we've retrieved the data, we need to convert it to a human readable form. The datasheet gave us information on how the data is encoded, and a bunch of examples. We can leverage this data and an AI engine to build a tool to decode the data</p>
+<blockquote>We are working with an LM75A temperature sensor. <br>The sensor holds the temperature data in two 8-bit data bytes, consisting of one Most Signiﬁcant Byte (MSByte) and one Least Signiﬁcant Byte (LSByte).<br><br>- Only 11 bits of those two bytes are used to store the Temp data in 2's complement format with the resolution of 0.125 °C.<br>- In the MSByte, all bits are used.<br>- In the LSByte, only bits 7, 6, 5 are used. <br><br>The remaining bits are discarded. <br><br>The bits are mapped as follows:
+<pre>MSByte Bit 7: `D10`
+MSByte Bit 6: `D9`
+MSByte Bit 5: `D8`
+MSByte Bit 4: `D7`
+MSByte Bit 3: `D6`
+MSByte Bit 2: `D5`
+MSByte Bit 1: `D4`
+MSByte Bit 0: `D3`
+LSByte Bit 7: `D2`
+MSByte Bit 6: `D1`
+MSByte Bit 5: `D0` </pre>
+Temperature is calculated with the following method:<br>1. If the Temp data MSByte bit <code>D10 = 0</code>, then the temperature is positive and <br><br><code>Temp value (°C) = +(Temp data) * 0.125 °C.</code><br><br>2. If the Temp data MSByte bit <code>D10 = 1</code>, then the temperature is negative and <br><br><code>Temp value (°C) = -(2’s complement of Temp data) * 0.125 °C</code>. <br><br>Build a Javascript tool that takes two Hexadecimal bytes as input, and decodes the corresponding temperature. Remember to convert the hexadecimal to binary, discard the bits 4, 3, 2, 1 and 0 from LSByte. Then map the bit values of MSByte and LSByte as per the above table, and perform the conversion.</blockquote>
+<p>AI will gurgle away for a while, and then you'll hopefully end up with a tool that will convert the temperature data from the module into something human readable. While we're hesitant to declare AI a net-positive, LLMs allow us to rapidly iterate tools that would previously have distracted from the main task at hand.</p>
+<p><a href="https://lab-401.github.io/digilab-tutorial-lm75a/lm75adp-calculator.html" target="_blank"><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Conversion-Tool.png?v=1756417751" alt="" style="display: block; margin-left: auto; margin-right: auto;"></a></p>
+<h2>Congratulations!</h2>
+<p>Congratulations - you've just learned how to use the DigiLab to tame I2C modules. As you can see, the DigiLab abstracts multiple layers of complexity, allowing you to work directly with modules. While in this tutorial we only read data, you can just as easily write data. We've got an upcoming article on using the DigiLab to configure a more complex module by writing directly to the module.</p>
+<h2>Homework task</h2>
+<p>We mentioned that the DigiLab has a <b>on-board</b> I2C memory chip! With everything you've learned, your homework task is to use the DigiLab to detect and identify the memory chip, and then write some values to it. You can check if it worked - by disconnecting the DigiLab and reconnecting it - the data you've written will still be saved in memory. If you ever need to secretly store some data that you don't want your Flipper to know about, now you've got a hiding spot!</p>
+<h2>Resources</h2>
+<p>Our tool for interpreting the LM75A sensor data is available on GitHub for experimentation and adaptation : <a href="https://github.com/lab-401/digilab-tutorial-lm75a">https://github.com/lab-401/digilab-tutorial-lm75a</a></p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/academy/digilab-pulling-data-from-thin-air-and-a-bmp280-module</id>
+    <published>2025-09-15T07:00:06+02:00</published>
+    <updated>2025-09-15T13:45:41+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/digilab-pulling-data-from-thin-air-and-a-bmp280-module"/>
+    <title>DigiLab : Pulling Data from thin air (and a BMP280 module)</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p>With Lab401's DigiLab and the FlipperZero you can interact directly with millions of modules that use I2C. What took hours now takes minutes! </p>
+<p>In this in-depth tutorial, we target a BMP280 barometric sensor: detection, identification, communication and data interpretation!</p><p><a class="read-more" href="https://lab401.com/blogs/academy/digilab-pulling-data-from-thin-air-and-a-bmp280-module">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>One of the amazing features of Lab401's DigiLab accessory for FlipperZero® is its <b>I2C Probe</b>. If you've ever played around with electronics, microcontrollers or embedded computers like the ESP-32, you'll have no doubt come across I2C.</p>
+<p><em>You can follow along with this tutorial (and the introductory <a href="/blogs/academy/i2c-sensor-seduction-digilab-flipper" rel="noopener" target="_blank">LM75A tutorial</a>) with the <a href="/products/digilab-module-kit" target="_blank">DigiLab Module Kit</a> - it has all the modules (with presoldered headers) and cables you need. </em></p>
+<p>It's a communication protocol that works over just two wires that allows for multiple (in theory thousands..) of devices and sensors to be attached to the same lines, and yet still be able to handle direct communication.</p>
+<p>Although invented in the 1980s, it's an <i>incredibly important and popular</i> technology. It's no exaggeration that there are literally thousands of types of I2C sensors, and millions of devices that use them!<br></p>
+<div style="text-align: center; font-size: .8em;">
+<img src="https://cdn.shopify.com/s/files/1/2175/8571/files/I2C-Sensors.png?v=1756249587" alt="" style="margin-bottom: 16px; float: none; display: block; margin-left: auto; margin-right: auto;"><i>Modules, modules, modules. </i>
+</div>
+<p>But if you've got an I2C sensor sitting on your desk, how do you interact with it?</p>
+<p>Today, you'd typically <a href="https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/i2c-sensors-and-devices" target="_blank">reach for an Ardunio or Raspberry Pi</a>, and hope someone has written a library for it. Maybe you'll fight with breadboards and jumpers, and maybe you'll wish for a way to talk to the module <i>directly</i>. Or maybe it's an unmarked AliExpress Magical Mystery Chip, and you've got no idea what it does. Or worse, maybe you've need to do something special that the libraries don't cover - and there's no simple way to do it.<br></p>
+<p><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab---Connected---Cropped.png?v=1756295963"></p>
+<p><strong>Enter the <a rel="noopener" href="/products/digilab-for-flipperzero" target="_blank">DigiLab</a></strong>, and its <b>I2C Probe</b> tool. You can easily detect devices on the I2C bus, and use the in-built predictive engine to guess what they are. And then - you can get your hands dirty and poke around directly inside the module itself.</p>
+<h2>Let's get started</h2>
+<p>In this tutorial, we're going to be investigating the <b>BMP280</b>, an air-pressure sensor from Bosch. These sensors are fairly ubiquitous - but don't be deceived, they are incredibly powerful sensors that can be configured in literally thousands of ways to meet the requirements of millions of devices. At Lab401, we believe that <i>understanding</i> is more important than just <i>doing</i>. The deeper your understanding, the more you'll be able to do.</p>
+<div style="text-align: center; font-size: .8em;">
+<img src="https://cdn.shopify.com/s/files/1/2175/8571/files/BMP280---Sensor_240x240.png?v=1756249815" alt="The BMP280 Sensor on a breakout board." style="margin-bottom: 16px; float: none; display: block; margin-left: auto; margin-right: auto;"><i>The BMP280 module, on a breakout board.</i>
+</div>
+<p>At the end of the tutorial, you'll have acquired the following <b>skills</b>:</p>
+<ul>
+<li>How to communicate with unknown modules via first-principles</li>
+<li>How to leverage data-sheets to use unknown modules</li>
+<li>How to use the DigiLab to identify unknown I2C modules</li>
+<li>How to directly modify the memory / registers of I2C modules</li>
+<li>Leveraging AI to build useful tools</li>
+</ul>
+<p>In this tutorial, we'll cover the following <b>steps</b>:</p>
+<ol>
+<li>Connecting the BMP280 to the DigiLab</li>
+<li>Detecting and identifying the BMP280</li>
+<li>Obtaining and using the data-sheet</li>
+<li>Configuring the BMP280</li>
+<li>Pulling temperature data</li>
+<li>Pulling pressure data</li>
+<li>Pulling calibration data</li>
+<li>Building a tool to interpret retrieved data</li>
+</ol>
+<p>In order to play along at home, you'll only need three things:<br></p>
+<ul>
+<li>The <a rel="noopener" href="/products/digilab-for-flipperzero" target="_blank">Lab401 DigiLab accessory</a> for FlipperZero®</li>
+<li>A <a rel="noopener" href="https://www.aliexpress.us/w/wholesale-BMP280.html" target="_blank">BMP280 Breakout board</a>
+</li>
+<li>Some <a rel="noopener" href="https://www.aliexpress.us/w/wholesale-dupont-cables.html" target="_blank">dupont cables</a>
+</li>
+</ul>
+<h2>Connecting the BMP280 to the DigiLab</h2>
+<p>First, we'll connect the BMP280 Breakout module to the DigiLab. We'll connect:</p>
+<ul>
+<li>The <u>DigiLab</u> 3.3V pin to the <u>BMP280</u>'s VCC/3.3v pin</li>
+<li>The <u>DigiLab</u> GND pin to the <u>BMP280</u>'s GND pin</li>
+<li>The <u>DigiLab</u> SCL pin to the <u>BMP280</u>'s SCL pin</li>
+<li>The <u>DigiLab</u> SDA pin to the <u>BMP280</u>'s SDA pin</li>
+</ul>
+<p>That's all the wiring that we need to do! <b>Important</b> - if you're using a different board, please ensure that you follow what's printed on the PCB to avoid frying your module!</p>
+<p><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Flipper---Wiring-Diagram.png?v=1756249177" alt=""></p>
+<h2>Detecting and identifying the BMP280</h2>
+<p>Now, connect your DigiLab to your FlipperZero, and head into <b>Apps › GPIO › Lab401/DigiLab</b>. If you haven't already installed the App, you can get it from the Flipper App Store: <a href="https://lab.flipper.net/apps/401_digilab" target="_blank">https://lab.flipper.net/apps/401_digilab</a>.</p>
+<p>If it's the first time you've used the DigiLab app, you'll be asked to <b>Calibrate</b> your DigiLab. Follow the instructions on screen - touch the red probe to the +5V pad, and click OK.</p>
+<p>In the DigiLab App, head to <b>I2C Probe</b>. The device will rapidly scan for devices, and present you with a list of results. You can navigate the list with the left and right arrows.<br>If everything was connected properly, you should see <b>two</b> found devices. The DigiLab has an I2C memory chip on it, so there'll always be one device found.</p>
+<p>Navigate the list until you see the device <b>0x76</b>. This number is the address of the device, and it's "somewhat" unique. Click on <b>Info Button</b>.</p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Detection-Animation_926a5ad8-3e4a-4bdf-8d8e-789cd6b2b734.gif?v=1756284148"></p>
+<p>The DigiLab uses its predictive engine to try to guess the type of module it's connected to. There may be multiple types of module - but it helps you narrow down what you're dealing with. If you <b>navigate the list</b>, you'll see that the <b>BMP280</b> is found, and that it's a "Temperature and Pressure Sensor" from Bosch. Cool!</p>
+<p>At this point, you could click the <b>R/W</b> button to read and write values from the module's memory slots ("registers") - but where would you begin? This is where <b>data-sheets</b> come in.</p>
+<h2>Obtaining and using the datasheet</h2>
+<p>A quick web-search brings up a copy of the <a href="https://www.digikey.com/htmldatasheets/production/2394371/0/0/1/bmp280-datasheet.html" target="_blank">datasheet</a> for the BMP280 sensor. Perusing the document shows that the sensor is actually quite complex - there's a great deal of functionality tucked into a tiny package. It has multiple filters to deal with spikes, can be polled slowly but accurately, or (very) quickly, has multiple different power modes and resolutions.</p>
+<p>More specifically, we're going to have to <b>configure</b> the sensor (ie, write our preferred settings to it) before we can pull data from it.</p>
+<p>For our purposes, the document gets really interesting around page 25, when it discusses the different <i>registers</i>. A <i>register</i> is another way to refer to a chunk of memory. According to the documentation, each register in the BMP280 is 8-bits, or 1-byte of data. Each <i>Register</i> has an address (typically referred to in hexadecimal).</p>
+<div style="text-align: center; font-size: .8em;">
+<img src="https://cdn.shopify.com/s/files/1/2175/8571/files/BMP280---Memory-Map.png?v=1756295376" alt="" style="display: block; margin-left: auto; margin-right: auto;"><i>Good to see Bosch is looking out for customer using CGA graphics.</i>
+</div>
+<p>In Table 18, we can see the memory layout. There are four sections that seem to be interesting:</p>
+<ol>
+<li>
+<code>0xF5</code>: The register containing the device configuration data</li>
+<li>
+<code>0xF4</code>: The register containing the measurement configuration</li>
+<li>
+<code>0x88 - 0xA1</code>: The registers holding the calibration values</li>
+<li>
+<code>0xF7 - 0xF9</code>: The registers holding the pressure values</li>
+<li>
+<code>0xFA - 0xFC</code>: The registers holding the temperature values</li>
+</ol>
+<p>With the information from this table, we can now complete <strong>steps </strong><b>3 - 6</b>:</p>
+<ul>
+<li>Configuring the BMP280</li>
+<li>Pulling temperature data</li>
+<li>Pulling pressure data</li>
+<li>Pulling calibration data</li>
+</ul>
+<h2>Configuring the BMP280</h2>
+<p>Let's start by <b>configuring the BMP280</b>. We don't have any highly technical requirements (ie, we don't need ultra-low-power mode, or ultra-quick polling). We can check on page 26 for details on how this configuration value is built up. A run-of-the-mill configuration value is composed as follows:</p>
+<p><b>0xF5 - Device Configuration</b></p>
+<ul>
+<li>
+<b>Bit 7,6,5</b> -&gt; <code>101</code> (1000ms standby time)</li>
+<li>
+<b>Bit 4,3,2</b> -&gt; <code>000</code> (filter coefficient = off)</li>
+<li>
+<b>Bit 1</b> -&gt; <code>0</code>
+</li>
+<li>
+<b>Bit 0</b> -&gt; <code>0</code> (disables 3-wire SPI)</li>
+<li>
+<b>Final Value: </b><code>10100000</code> in binary, or <code>0xA0</code> in hex.</li>
+</ul>
+<p><strong> 0xF4 - Measurement Configuration</strong></p>
+<ul>
+<li>
+<b>Bit 7,6,5</b> -&gt; <code>001</code> (Temperature oversampling x1)</li>
+<li>
+<b>Bit 4,3,2</b> -&gt; <code>001</code> (Pressure oversampling x1)</li>
+<li>
+<b>Bit 1,0</b> -&gt; <code>11</code> (Normal mode - continuous measurements)</li>
+<li>
+<b>Final Value: </b><code>00100111</code> in binary, or <code>0x27</code> in hex.</li>
+</ul>
+<p>OK - now we know that if we write those values into their corresponding registers, the module will start measuring data, and we'll be able to read it back! Let's head back to the DigiLab to write the values!</p>
+<p>In the <b>DigiLab App</b>, go to <b>I2C Probe</b>, and select the device with the address of <b>0x76</b>. This time, click on the <b>R/W Button</b> - and you'll be taken to a screen where you can enter the register you want to modify.</p>
+<p>Enter the register <b>F5</b> (you can type it in, or use the arrow keys to increase the address) and click <b>OK</b>. Now we're prompted how much data we should read from the register. From the document, we know that it's <b>1-byte</b>, so we enter 1 and click <b>OK</b>.</p>
+<p>We're now inside the DigiLab's built in hex-editor, and peering <i>directly into the memory of the BMP280</i>. Using the arrow keys, set the value of the register to <b><code>A0</code></b> and click <b>OK</b>. You'll get a confirmation that the chip was programmed.</p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Configuration-Animation.gif?v=1756287164"></p>
+<p>Now, do the same for the 0xF4 register, setting its value to <b><code>27</code></b> and click <b>OK</b>. Again, you'll get a confirmation that the chip was programmed. <b>Congratulations!</b> The BMP280 is now configured and measuring data according to your configuration values. Next step - let's read out the values!</p>
+<h2>Pulling the temperature data</h2>
+<p>You might have guessed it - to pull out the temperature data, we need to check out the values in the registers <code>0xFA - 0xFC</code>. Go through each register, and note the data down somewhere.</p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Data-Animation.gif?v=1756293107"></p>
+<h2>Pulling the pressure data</h2>
+<p>Repeat the process for the pressure data, in registers <code>0xF7 - 0xF9</code>. Again, go through each register, and note the data down somewhere.</p>
+<h2>Pulling the calibration data</h2>
+<p>The BMP280 self-calibrates using a variety of different data-points. In order to correctly translate the pressure and temperature values, we also need to note the calibration data. So, repeat the process a final time, for registers <code>0x88 - 0xA1</code>.</p>
+<p>All in all, you should have a 3 bytes of temperature data, 3 bytes of pressure data, and 26-ytes of calibration values - something like:</p>
+<blockquote>
+<pre>Temperature Data<br>0xFA: 0x88
+0xFB: 0x27
+0xFC: 0x00
+<br>Pressure Data
+0xF7: 0x54
+0xF8: 0x8C
+0xF9: 0x00
+Calibration Data
+0x88: 37
+0x89: 70
+0x8A: d0
+0x8B: 68
+0x8C: 32
+0x8D: 00
+0x8E: 1C
+0x8F: 90
+0x90: 25
+0x91: D6
+0x92: D0
+0x93: 0B
+0x94: 04
+0x95: 1B
+0x96: 40
+0x97: 00
+0x98: F9
+0x99: FF
+0x9A: B4
+0x9B: 2D
+0x9C: E8
+0x9D: D1
+0x9E: 88
+0x9F: 13
+0xA0: 00
+0xA1: 4B
+</pre>
+</blockquote>
+<h2>Building a tool to interpret retrieved data</h2>
+<p>We're ready to transform the data into something human readable. According to the spec-sheet (on page 21), the data is stored in a format called "16-bit two's complement". Instead of spending hours fighting to build a tool, we're leverage AI to build us out an interpreter. We used the agent / cli tool <a href="https://aider.chat/" target="_blank">Aider</a> with Claude Opus, but any model or means would work just fine.</p>
+<blockquote>
+<p>Make a javascript calculator tool that takes temperature values from 0xFA-0xFC and pressure values from 0xF7-0xF9, and the calibration values from 0x88-0xA1 - from a BMP280 module, and provides a temperature output (in °C) and a pressure output in hectoPascals.</p>
+</blockquote>
+<div style="text-align: center; font-size: .8em;">
+<a href="https://lab-401.github.io/digilab-tutorial-bmp280/DigiLab-BMP280-Calculator.html" title="Tool for calculating temperature and pressure from BMP280 registers" rel="noopener" target="_blank"><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Conversion-Tool---1.png?v=1756294534" alt="" style="display: block; margin-left: auto; margin-right: auto;"></a><i>Visit the calculator online <a href="https://lab-401.github.io/digilab-tutorial-bmp280/DigiLab-BMP280-Calculator.html" target="_blank">here</a></i>
+</div>
+<p>We can feed our data into the resulting tool, and it will output the correct temperature and pressure values from the sensor.</p>
+<p>We can even extend the tool to estimate altitude. Calculating altitude is fairly simple: <br><code></code></p>
+<p><code>altitude = 44330 * (1 - (pressure/sea_level_pressure)^0.1903)</code><br></p>
+<p>The only variable we're missing is "sea_level_pressure". We can either use a "global average", 1013.25hPa, but the results will have a large margin of error. Alternatively, we can retreive the sea_level_pressure from a nearby weather-station!</p>
+<blockquote>
+<p><em>Modify the Calculator form as follows:</em><br>1) When <em>Calculate Temperature and Pressure</em> has been clicked, and results have been calculated, add a button under the "Debug Information" frame: "<em>Estimate Altitude (Requires Localisation)</em>".</p>
+<p>Under this button, add in italics: "<em>Localisation data is used to send an anonymous request to the Open-Meteo API, to retrieve the QNH/Sea-level air pressure value nearest to you. This allows us to estimate your current altitude.</em>"</p>
+<p>When the user clicks this button, request their localisation data via the browser. If they decline, show an error frame that says: "<em>Sorry, we cannot estimate the altitude without localisation data."</em></p>
+<p>If we have the user's localisation data, send a request to Open-Meteo to retrieve the QNH value closest to their location.</p>
+<p>If there's an error, show it in a frame If we get successful information, use all the data to estimate the user's current altitude.</p>
+</blockquote>
+<div style="text-align: center; font-size: .8em;">
+<a rel="noopener" title="Tool for calculating temperature and pressure from BMP280 registers" href="https://lab-401.github.io/digilab-tutorial-bmp280/DigiLab-BMP280-Calculator-Altitude.html" target="_blank"><img style="display: block; margin-left: auto; margin-right: auto;" alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Conversion-Tool---2.png?v=1756294535"></a><i>Visit the calculator online <a href="https://lab-401.github.io/digilab-tutorial-bmp280/DigiLab-BMP280-Calculator-Altitude.html" target="_blank">here</a></i>
+</div>
+<p><strong>Now, the tool can even estimate elevation!</strong> In our opinion, the ability to rapidly accomplish side-quests is a perfect tool for AI. Traditionally, this type of tool would have taken at least an hour to finish - removing focus from our primary goals.</p>
+<h2>Summing Up</h2>
+<p>We've seen the <b>Lab401 DigiLab</b>'s <b>I2C Probe</b> function is incredible useful. It's powerful, versatile, but simple to use. It abstracts all the hard parts of communication, and uses its "Prediction Engine" to identify different modules, and even lets you read and write values directly to the module.</p>
+<p>Exploring I2C modules has traditionally been pretty clunky, or requires more expensive tools, writing code and is generally not an easy experience. The DigiLab makes I2C exploration not only simple, but accessible to anyone, so your curiosity isn't blocked by frustrations.</p>
+<h2>Homework task</h2>
+<p>We mentioned that the DigiLab has a <b>on-board</b> I2C memory chip! With everything you've learned, your homework task is to use the DigiLab to detect and identify the memory chip, and then write some values to it. You can check if it's worked - by disconnecting the DigiLab and reconnecting it - the data you've written will still be saved in memory. If you ever need to secretly store some data that you don't want your Flipper to know about, now you've got a hiding spot!</p>
+<h2>Resources</h2>
+<p>The two tools for interpreting the BMP280 sensor data are available on GitHub for experimentation and adaptation : <a href="https://github.com/lab-401/digilab-tutorial-bmp280">https://github.com/lab-401/digilab-tutorial-bmp280</a></p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/academy/wifi-pineapple-detection-made-easy-pinescan-multissid-in-action-with-the-feberis-pro-for-your-flipper-zero</id>
+    <published>2025-05-22T15:14:36+02:00</published>
+    <updated>2025-06-03T14:22:18+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/wifi-pineapple-detection-made-easy-pinescan-multissid-in-action-with-the-feberis-pro-for-your-flipper-zero"/>
+    <title>WiFi Pineapple Detection Made Easy with Amec0e</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p data-start="254" data-end="534" class="">Looking to boost your Flipper Zero’s wireless detection game? Our latest deep-dive shows how the <strong data-start="351" data-end="366">FEBERIS Pro</strong> — exclusively at LAB401 — now supports two new firmware features: <strong data-start="433" data-end="445">PineScan</strong> and <strong data-start="450" data-end="463">MultiSSID</strong>, purpose-built to detect spoofed networks like the <strong data-start="515" data-end="533">WiFi Pineapple</strong>.</p>
+<p data-start="536" data-end="767" class="">These lightweight detection tools run directly on the ESP32 inside the FEBERIS Pro and identify suspicious access points by analyzing vendor OUIs, tagged parameters, and multi-SSID behaviors — all without needing a full WIDS setup.</p>
+<p data-start="769" data-end="949" class="">✅ Works with Unleashed and Momentum firmware<br data-start="813" data-end="816">✅ Detects spoofed AP pools used by WiFi Pineapple MK7<br data-start="869" data-end="872">✅ Fully open-source, ready to flash<br data-start="907" data-end="910">✅ 5% off with discount code: <strong data-start="939" data-end="949">AMEC0E</strong></p><p><a class="read-more" href="https://lab401.com/blogs/academy/wifi-pineapple-detection-made-easy-pinescan-multissid-in-action-with-the-feberis-pro-for-your-flipper-zero">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<h2>WiFi Pineapple Detection Made Easy</h2>
+<h3>PineScan &amp; MultiSSID in Action with the FEBERIS PRO for your Flipper Zero<br>
+</h3>
+<h5 id="introduction"><strong>Introduction:</strong></h5>
+<p>Hi everyone, Amec0e here and we are back with another article which might be a little shorter than my previous ones, but today I am excited to talk about the FEBERIS PRO By <a href="https://sapsan-sklep.pl/en">Sapsan</a> while also unveiling two new features for both the <a href="https://github.com/bpmcircuits/ESP32Marauder">FEBERIS PRO Firmware</a> (koko fork) and the ESP32 Marauder project by <a href="https://github.com/justcallmekoko">justcallmekoko</a></p>
+<p>Alongside a quick demonstration of the new features, which I have been working on for this article, there is also a discount code at the end you can use towards your FEBERIS Pro orders :)</p>
+<h5 id="so-what-is-the-feberis-pro"><strong>So What is the FEBERIS Pro?</strong></h5>
+<p>The FEBERIS Pro created by <a href="https://sapsan-sklep.pl/en">Sapsan</a> and officially distributed by <a href="%5Bhttps://lab401.com%5D(https://lab401.com/)">LAB401</a> is a fantastic addition for the Flipper Zero. This little thing packs within it 2x CC1101 Radio Modules covering frequencies 433MHz and 868MHz, an NRF24 Radio Module for things like vulnerable mouse and keyboards, an ESP32 with BLE and WiFi, with a built-in GPS Module for things such as wardriving with the Flipper Zero.</p>
+<p>It comes with 4x antennas all of which are 3dBi gain, 2x 2.4GHz, 1x 433MHz and 1x 868MHz which gives a nice horizontal waveform. The C1101 SubGHz modules have a supported frequency range of <strong>300-348 MHz</strong>, <strong>387-464 MHz</strong> and <strong>779-928 MHz</strong> bands.</p>
+<p>Now we will not be going over is the basic usage of operations here, however can find out more about its basic usage <a href="https://sapsan-docs.com/brands/sapsan/feberis-pro/docs/">here</a></p>
+<p>And it can also be purchased from <a href="https://lab401.com/products/feberis-pro">LAB401 here</a>.</p>
+<h5 id="what-are-these-new-features"><strong>What are these New Features?</strong></h5>
+<p>The two new features I will be demonstrating are "pinescan" and "multissid" for detecting the WiFi Pineapple. <strong>All of the testing for this was done using my WiFi Pineapple MK7</strong>.</p>
+<p>Now forewarning, this feature is not a replacement for a proper WIDS like Kismet for example, nor is it fool proof but does serve as a PoC to show that simpler detection can be done on the Flipper Zero and ESP32 Boards like FEBERIS Pro. The Pineapple is also good at what it does too.</p>
+<p><strong>Features of PineScan:</strong></p>
+<ul>
+<li>Detect Pineapple Access points via a hardcoded List of OUI Vendors <strong>(SUSP_OUI).</strong>
+</li>
+<li>Detects Pineapple Spoofed AP Pool via tagged parameters and capabilities <strong>(TAG+SUSP_CAP).</strong>
+</li>
+<li>Extracts the Correct Channel from the beacon (This is to avoid showing the incorrect channel when using a more suited antenna like the FEBERIS Pro has).</li>
+<li>Easy to Add more OUI's in a PR on Github, Can hold up to 20 MACs Per Vendor.</li>
+<li>Limits the display output to avoid Spamming when you have a WiFi Pineapple Broadcasting 50 SSIDs (Yes I stress tested!).</li>
+</ul>
+<p><strong>Features of MultiSSID:</strong></p>
+<ul>
+<li>Detect AP if a Single MAC broadcasts 3 or more SSIDs (This includes the hidden SSID).</li>
+<li>Same as Pinescan this extracts the correct channel from the beacon (This is to avoid showing the incorrect channel when using the FEBERIS Pro).</li>
+<li>Same as Pinescan this limits the display output to avoid Spamming when you have a WiFi Pineapple broadcasting large amounts of SSIDs.</li>
+</ul>
+<p>To summarise both strengths of each scan:</p>
+<p><strong>MultiSSID</strong> - Good for edge cases, more false positive prone. <strong>Pinescan</strong> - Good for detecting WiFi Pineapple Spoofed Pool APs.</p>
+<h5 id="video-demonstration-of-features"><strong>VIDEO DEMONSTRATION OF FEATURES</strong></h5>
+<p><strong><iframe title="YouTube video player" src="https://www.youtube.com/embed/aizG_6gQG0c?si=CiQtBEyF4AA9illn" height="315" width="560"></iframe></strong></p>
+<p><strong>NOTE:</strong> Firmware used was Unleashed 081E, Marauder firmware version used was 1.4.6. There has since been an update which I will likely have already compiled and uploaded for you to download down below.</p>
+<h5 id="the-detection-methods"><strong>The Detection Methods</strong></h5>
+<p>So there are 3 main detections among two new options we demonstrated in the video above. These are:</p>
+<ul>
+<li>SUSP_OUI</li>
+<li>Multi_SSID</li>
+<li>TAG+SUSP_CAP</li>
+</ul>
+<p>Each one has been built and tested using a <a href="https://lab401.com/products/wifi-pineapple-v7">WiFi Pineapple MK7</a> with the OpenAP using the Impersonation Tab/Spoofed AP Pool in the WebUI.</p>
+<p><strong>SUSP_OUI</strong> - This is the first check that is done and this simply extracts the first 6 bytes (00:00:00) of the MAC address which commonly points to a specific vendor/nic manufacturer. For some specific OUI's we also check to see if the privacy bit is set to 0 which would indicate that the access point is not using encryption, if it is 1 then it is a Protected Access Point. This is a simple method to check but it is quite effective.</p>
+<p>Currently this is the list of OUI's it is checking for, their security detection condition along with the vendor name.</p>
+<p><strong>Vendor:</strong> Alfa Inc. <strong>Condition:</strong> SUSPICIOUS_WHEN_OPEN <strong>OUI:</strong> 00:C0:CA</p>
+<p>(WiFi Pineapple MK7) <strong>Vendor:</strong> Orient Power Home Network Ltd <strong>Condition:</strong> SUSPICIOUS_ALWAYS <strong>OUI:</strong> 00:13:37</p>
+<p>(WiFi Pineapple MK7) <strong>Vendor:</strong> IEEE Registration Authority <strong>Condition:</strong> SUSPICIOUS_WHEN_OPEN <strong>OUI:</strong> 0C:EF:AF</p>
+<p>(WiFi Pineapple Management OUIs Locally Administered) <strong>Vendor:</strong> None <strong>Condition:</strong> SUSPICIOUS_WHEN_PROTECTED <strong>OUI:</strong> 02:C0:CA, 02:13:37</p>
+<p>(WiFi Pineapple Nano) <strong>Vendor:</strong> Shenzhen Century Xinyang Technology Co Ltd <strong>Condition:</strong> SUSPICIOUS_WHEN_OPEN <strong>OUI:</strong> 1C:BF:CE</p>
+<p><strong>Vendor:</strong> MediaTek <strong>Condition:</strong> SUSPICIOUS_ALWAYS <strong>OUI:</strong> 00:0A:00, 00:0C:43, 00:0C:E7, 00:17:A5</p>
+<p><strong>Vendor:</strong> Panda Wireless Inc <strong>Condition:</strong> SUSPICIOUS_ALWAYS <strong>OUI:</strong> 9C:EF:D5, 9C:E5:D5</p>
+<p><strong>Vendor:</strong> None <strong>Condition:</strong> SUSPICIOUS_ALWAYS <strong>OUI:</strong> DE:AD:BE</p>
+<p>This can be added too in the source code which I will release with the article.</p>
+<p>Next up we have:</p>
+<p><strong>Multi_SSID</strong> - This keeps a list of all access points seen up to 100, the list is then cleared to make room for more APs. It takes the full SSID and produces a hash and it does this for every unique mac address seen, if a single MAC has more than 3 SSIDs hashes (Including the hidden network) then it is flagged as an AP advertising multiple SSIDs from a single MAC.</p>
+<p>The other detection is:</p>
+<p><strong>TAG+SUSP_CAP</strong> - This uses a combination of extracting the Capabilities of the Access Point and the Tagged Parameters of the Access Point from the beacon frame. If the access point has a capability of 0x0001 and has exactly 2 Tagged Parameters then this triggers the TAG+SUSP_CAP detection.</p>
+<p>The TAG+SUSP_CAP took a little more time to stumble onto because while the Multi_SSID worked great, the downfall is, what if the user simply just clicks "Randomize Source MAC". Well, then the above Multi_SSID will now no longer detect the pineapple, so I again went back to examine the beacon frames the WiFi Pineapple uses to broadcast large numbers of APs comfortably.</p>
+<p>It is worth noting that the "pinescan" and "multissid" sniffer option use two structs each so it has a general AP tracking pool and a confirmed tracking AP pool. This allows the scan to only display one unique MAC address entry as well as clear the AP list once full to keep the lists from growing too much beyond their set limits.</p>
+<p>The general AP pool is set to 100 APs after which it will clear the tracking list and allow you to continue scanning in the same session (you will see a message in the log file when this happens and it is cleared). The confirmed list has a max of 100 APs also.</p>
+<h5 id="finding-tagsusp_cap"><strong>Finding TAG+SUSP_CAP</strong></h5>
+<p>At first I managed to notice a common occurrence that not many access points actually had, which is the capabilities flag set to 0x0001.</p>
+<p><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Field_Data_Legitimate_APs_With_CAP.png?v=1747737737"></p>
+<p>In the above image, there was 7,900 packets only 5 were displayed and only from 3 Different Access Points.</p>
+<p>This already was a strong indication that not many access points commonly use that set capability flag, however it is not 0. This means this alone could not be used as a reliable method of detecting multiple Access Points all from different MAC Addresses like the WiFi Pineapple does.</p>
+<p>Out of 38,000 packets from a rough 1 hour drive, of all the packets combined there was a total of 115 (not APs but packets) that had the same 0x0001 Capability. So I gathered further data and sifted through around 19 different pcaps, this was well over 100,000 packets from different parts of the world (thanks to friends for gathering beacon data from different countries), of which 20 APs used the same capability of 0x0001. This still however was not enough, so back to a pineapple packet I went.</p>
+<p>Now I did after staring at the beacon frame for around a good 20 minutes and a refreshment of coffee (much needed) I noticed something pretty significant, take a look at the Tagged parameters...</p>
+<p><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Pineapple_Tagged_Parameters_And_Cap.png?v=1747737770"></p>
+<p>It has just two tagged parameters, SSID and Channel. This is an absolute bare bone packet to throw up a large amount of access points without slowing down the Pineapple with its limited resources. This itself is uncommon for commercially available Access Points, 100% of the access points that did match the 0x0001 capability flag had MORE than two tagged parameters in every case.</p>
+<p>Now it is not to say you cannot throw up an extremely basic network like this, you can in fact do the same with Marauder. It has a barebone packet it uses with a 0x0401 Capability (so this would not be detected by our detection script) but also only throws up one Tagged Parameter which if we were to only do the detection using Tagged only (searching if there is only 2 tagged parameters) this would trigger the detection. However just because you can throw up an access point with a esp32 with the bare minimum information does not mean it is malicious. It could simply be to make it as efficient and light weight as possible while still providing the user the functionality they require.</p>
+<p>So if you have made it this far you will start to get the picture of what I was really trying to do, which was being memory efficient, reduce false positives and target a specific device like the WiFi Pineapple, and this is why we include the suspicious capability flag that you cannot change with ease on the MK7.</p>
+<p>In any case the false positives you may encounter will likely be from SUSP_OUI and the MULTI_SSID. If you see TAG+SUSP_CAP in PineScan that is a strong indication of a WiFi Pineapple using the Spoofed AP Pool. Though this itself could also still be a false positive because as mentioned, anyone can throw up an access point like this themselves. Albeit very uncommon to use just two tagged parameters and a 0x0001 capability.</p>
+<p>Some detections like the MULTI_SSID and SUSP_OUI could still catch some edge cases outside of the WiFi Pineapple. These types of detections combined, plus a lot more, can be done with ease using something more powerful than the Flipper Zero and a ESP32 and usually when using a WIDS, it is on something more powerful to perform that type of real-time analysis very quickly. However this PoC shows there are other ways we can detect certain types of attacks using small differences between the WiFi Pineapple and a consumer purchased Wireless Access Point.</p>
+<p><strong>NOTE:</strong> You can even check other pcaps you have in wireshark yourself by using</p>
+<pre><code>wlan.fc.type_subtype == 0x0008 &amp;&amp; wlan.fixed.capabilities == 0x0001
+</code></pre>
+<p>Then organising by the lowest packet length first and checking the tagged parameters just as we do above.</p>
+<h5 id="ok-but-what-can-it-not-do"><strong>Ok, but What Can it Not Do?</strong></h5>
+<p>Well I am glad you asked! The WiFi Pineapple is good at what it can do and we do have some limitations with these detection methods. Some of these limitations are:</p>
+<p><strong>EvilWPA</strong> Cannot detect the EvilWPA - The EvilWPA is difficult to automate detection for because this can mimic the real access point even down to the exact MAC Address and password (if you know it), even if you are using a managed access point list that allows you to specify what you <strong>should be seeing</strong> around you VS what you <strong>are seeing</strong> around you, this is still not effective enough by itself.</p>
+<p>As a user we can visually tell the differences if we are looking at something like Kismet, for example my network is all WPA3 security and the WiFi Pineapple MK7 can only use WPA2 or lower. So for me this is an easy red flag to see anything but WPA3 for my network.</p>
+<p>To use a managed access point list with the Flipper Zero will increase processing time by constantly needing to read the list or compare with a list that gets offloaded to memory, however the bigger the list the slower it will be and the more memory you use on the ESP32. You will also need to be stationary for it to work.</p>
+<p>It is not to say it cannot be done, and this would likely need to be the only detection method to really help make this as effective and as memory efficient as possible. Though this can still be a good way to do it though it is not the route I chose myself because it would not help if it replicates an allowed MAC. To locate this in the wild usually results in a fox hunt to locate the broadcasting device physically by signal strength.</p>
+<p><strong>OpenAP (No Spoofed AP Pool)</strong> Cannot detect OpenAP - without the use of an offending OUI, this access point by itself cannot be detected as a Pineapple with the way we detect. This is because it operates and looks like a legitimate open access point and has all of the tagged parameters and capabilities that any normal Open or Protected Consumer Access Point uses.</p>
+<p><strong>Beacon Intervals</strong> Cannot detect by beacon intervals from a beacon frame - This is because the BEACON INTERVAL on the WiFi Pineapple being set to LOW, NORMAL or HIGH and in all cases it will still report in the beacon frame the interval of 102.4ms. The only way this could be done is if the Flipper itself tracks the time between every beacon it sees instead of reading beacon intervals from the packet itself.</p>
+<p><strong>Signal Strength Discrepancies</strong> It cannot detect by signal strength discrepancies such as regularly seeing say -50 RSSI and then -30 RSSI and then back to the -50 range and consistently fluctuating around that strength. You would notice this pretty easily if you are monitoring the airwaves and you are completely static and nothing around you is interfering with that signal strength.</p>
+<p>This would also cause a lot of false positives if you are mobile while detecting as you will see increases and decreases to the signal strength regularly from moving (which of course the Flipper and FEBERIS Pro is just that, mobile platform).</p>
+<h5 id="flashing-instructions"><strong>Flashing Instructions</strong></h5>
+<p><strong>Flashing to the ESP32S2 or Developers Board using the ESP Flasher App:</strong></p>
+<p>To flash a ESP32S2 using ESP flasher on Momentum or Unleashed you will need the following <a href="https://github.com/UberGuidoZ/Marauder_BINs/blob/main/Marauder/bootloader.bin">Bootloader</a> and <a href="https://github.com/UberGuidoZ/Marauder_BINs/blob/main/Marauder/partitions.bin">Partitions Table</a>. You will also need the firmware bins found below the instructions listed here.</p>
+<ol>
+<li>
+<p>First we need to make a new directory in <strong>SD Card &gt; apps_data &gt; esp_flasher &gt; S2bins</strong> then we can put the <strong>bootloader.bin</strong> and <strong>partitions.bin</strong> into this new folder on the Flipper Zero using qFlipper once that is done, then unplug the Flipper from the PC.</p>
+</li>
+<li>
+<p>Next we plug in the ESP32S2 or Developers Board to the Flipper Zero, then once it is plugged in, reboot the Flipper Zero.</p>
+</li>
+<li>
+<p>Then navigate to the ESP Flasher Application.</p>
+</li>
+</ol>
+<p>For Momentum it is: Apps &gt; GPIO &gt; ESP &gt; ESP Flasher</p>
+<p>For Unleashed is it: Apps &gt; GPIO &gt; ESP Flasher</p>
+<ol start="4">
+<li>
+<p>Next Scroll to the bottom of the ESP Flasher and you will see "Enter Bootloader”, press this and then press the back button <strong>once</strong>.</p>
+</li>
+<li>
+<p>Scroll up to "Manual Flash" then press center.</p>
+</li>
+<li>
+<p>Select "Bootlader (0x1000)" and select our Bootloader in the S2Bins directory.</p>
+</li>
+<li>
+<p>Then select the "Part Table (0x8000)" and the go to the S2bins Directory and select "Partitions".</p>
+</li>
+<li>
+<p>Now select "FirmwareA (0x10000)" and then select the custom firmware.</p>
+</li>
+<li>
+<p>Scroll down to the bottom and select "Flash - fast" and wait for it to complete writing.</p>
+</li>
+<li>
+<p>Reboot the Flipper <strong>after it has flashed and after you have exited the ESP Flasher App</strong> and you are done.</p>
+</li>
+</ol>
+<p><strong>Flashing to the FEBERIS Pro using the ESP Flasher App:</strong></p>
+<p>The steps here are the same except <strong>do not select the bootloader files or the partition table</strong> (Steps 1, 6 and 7).</p>
+<ol>
+<li>
+<p>Next we plug in the ESP32S2 or Developers Board to the Flipper Zero, then once it is plugged in, reboot the Flipper Zero.</p>
+</li>
+<li>
+<p>Navigate to the ESP Flasher Application.</p>
+</li>
+</ol>
+<p>On Momentum it is: Apps &gt; GPIO &gt; ESP &gt; ESP Flasher</p>
+<p>On Unleashed is it: Apps &gt; GPIO &gt; ESP Flasher</p>
+<ol start="3">
+<li>
+<p>Next scroll to the bottom of the ESP Flasher and you will see "Enter Bootloader” press this and then press the back button <strong>once</strong>.</p>
+</li>
+<li>
+<p>Scroll up to "Manual Flash", press center.</p>
+</li>
+<li>
+<p>Now Select "FirmwareA (0x10000)" and then select the custom firmware.</p>
+</li>
+<li>
+<p>Scroll down to the bottom and select "Flash - fast" and wait for it to complete writing.</p>
+</li>
+<li>
+<p>Reboot the Flipper <strong>after it has flashed and after you have exited the ESP Flasher App</strong> and you are done.</p>
+</li>
+</ol>
+<p><strong>NOTE:</strong> It is important you wait a few seconds and then reboot the Flipper Zero after you have plugged in the ESP32.</p>
+<h5 id="firmware-fap-and-source-code"></h5>
+<h5 id="firmware-fap-and-source-code"><strong>Firmware, FAP and Source Code</strong></h5>
+<p><strong>Firmware:</strong></p>
+<p>Pinescan and MultiSSID are now merged in version 1.6.0 of the official ESP32Marauder Firmware. This means you can now download the marauder firmware directly from <a href="https://github.com/justcallmekoko/ESP32Marauder">justcallmekoko</a> and install and flash using the instructions here or as you normally would.</p>
+<p><strong>FAP:</strong></p>
+<p>The FAP is updated in both momentum and unleashed latest dev build so you can simply download and install a dev build of either firmwares (assuming you also updated marauder to 1.6.0 or above) and you will have the new options available to you. No need to download the firmware or FAPs linked in this article.</p>
+<p><strong>Source Code:</strong></p>
+<p>This has since been merged into the official ESP32Marauder Firmware. You can view the PR request <a href="https://github.com/justcallmekoko/ESP32Marauder/pull/772" target="_blank" rel="noopener">[here]</a> which contains the source code.</p>
+<h5 id="summary"><strong>Summary:</strong></h5>
+<p>Today we looked at the two new sniffer options as well as some small subtle differences the WiFi Pineapple uses when comparing to a legitimate consumer access point. As well as covered the detection methods and what they are looking for along with flashing instructions for the firmwares and faps.</p>
+<p>Ultimately, with the new "pinescan" and "multissid" options in the sniffer sub menu they can be a good way to detect a WiFi Pineapple only when it is using its Spoofed AP Pool. This is because when run without using the Spoofed AP Pool it looks and functions as a legitimate Open Network.</p>
+<p>Though it is common to spoof a targets separated 2.4GHz and 5GHz network names (XYZ_2G and XYZ_5G) to have them believe they are connecting to their 5GHz network when in fact you will be connecting to a 2.4GHz Open network.</p>
+<p>Pairing this with the <a href="https://lab401.com/products/feberis-pro">FEBERIS Pro</a> has been fantastic because of the 3dBi gain 2.4GHz Wireless Antenna it has given me a lot more range than I previously had with a Flipper Dev Board.</p>
+<p>And I have not even managed to get around to trying out the other 3 built-in radio modules. That is what makes this tool incredibly versatile.</p>
+<p>That pretty much wraps it up, I would like to say a <strong>big thank you to everyone who helped contribute towards testing and gathering beacon data from all walks of areas from residential to business</strong>. And thank you so much for reading this, I hoped you enjoyed the article, the video and new features as much as I enjoyed writing it, recording it and coding it.</p>
+<p>If you feel like picking one up for you or a friend, you can use my discount code: <strong>AMEC0E</strong> on LAB401 for a 5% discount.</p>
+<h4 id="disclaimer"><strong>Disclaimer</strong></h4>
+<p><strong>Code Maintenance &amp; Improvements:</strong></p>
+<p>As with any new feature, there may be issues that were not encountered during testing or may be due to oversight on my part. Therefore, the firmware, FAPs, and source code are provided <strong>"AS IS"</strong> without any warranties or guarantees. Neither I (amec0e) nor LAB401 will be held liable for any problems or damages resulting from the use of these firmwares or FAPs. Additionally, we (amec0e and LAB401) will not be providing support, maintenance, or future improvements for the firmware or FAPs (Flipper Application Packages).</p>
+<p><strong>Usage of Firmware:</strong> Neither I (amec0e) nor LAB401 will be held liable for any misuse or unintended consequences resulting from the use of the provided firmware or FAPs. These are distributed <strong>"AS IS"</strong> and are used entirely <strong>AT YOUR OWN RISK.</strong></p>
+<p><strong>Legal Responsibility:</strong> <strong>You are solely responsible</strong> for complying with all applicable local laws and regulations. We will not be held liable for any legal consequences arising from your failure to do so. These firmwares and FAPs are provided strictly for <strong>educational and research purposes only.</strong></p>
+<h5 id="resources"><strong>Resources</strong></h5>
+<p>C1101 Data Sheet - <a href="https://www.ti.com/lit/ds/symlink/cc1101.pdf">https://www.ti.com/lit/ds/symlink/cc1101.pdf</a></p>
+<p>Feberis Pro Documentation - <a href="https://sapsan-docs.com/brands/sapsan/feberis-pro/docs/">https://sapsan-docs.com/brands/sapsan/feberis-pro/docs/</a></p>
+<p>Feberis Pro Firmware - <a href="https://github.com/bpmcircuits/ESP32Marauder">https://github.com/bpmcircuits/ESP32Marauder</a></p>
+<p>Feberis Pro Firmware Upgrading - <a href="https://www.youtube.com/watch?v=Gl7nSpI6l3w">https://www.youtube.com/watch?v=Gl7nSpI6l3w</a></p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/academy/lightmessenger-debug-deep-dive-with-derek</id>
+    <published>2025-02-26T13:09:52+01:00</published>
+    <updated>2025-02-26T13:23:09+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/lightmessenger-debug-deep-dive-with-derek"/>
+    <title>LightMessenger : Debug deep-dive with Derek</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p>@MrDerekJamison deep-dives debugging the LightMessenger. It's a fascinating, detailed foray into the challenges of debugging hardware, lessons learned along the way and tips for open-source project maintainers. </p><p><a class="read-more" href="https://lab401.com/blogs/academy/lightmessenger-debug-deep-dive-with-derek">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>This this guest post, <strong>Derek aka Codeallnight</strong> does a deep-dive into debugging the LightMessenger. It's a fascinating, detailed foray into the challenges of debugging hardware, lessons learned along the way and tips for open-source project maintainers. </p>
+<p><strong>If you like this article</strong>, and want to support Derek, please consider using the code <a title="Derek's 5% discount link!" href="https://lab401.com/discount/derek">DEREK</a> at the Lab401 Checkout (or simply click the link). You'll get 5% off the LightMessenger (and other Lab401 products) and support Derek at the same time!</p>
+<p>You can also check out Derek's socials:</p>
+<p>🎬 <strong>YouTube:</strong> <a href="https://youtube.com/@MrDerekJamison">@MrDerekJamison</a></p>
+<p>🎮 <strong>Discord:</strong> <strong>@CodeAllNight</strong></p>
+<p>🐱 <strong>GitHub:</strong> <a href="https://github.com/jamisonderek/flipper-zero-tutorials/wiki">Flipper Zero Tutorials</a></p>
+<h2>Debugging the Lab401 Light Messenger GPIO Board for Flipper Zero</h2>
+<p>I recently received a <strong>Light Messenger GPIO board</strong> from <strong>Lab401</strong>. While it generally worked well, I encountered an issue where the LEDs would sometimes fail to display the programmed message, even when moving it at the same rate as before.</p>
+<p>Thinking it might be a firmware issue, I flashed my <strong>Flipper Zero</strong> with the official firmware, but the problem persisted. It turns out I was one of the first users of the Light Messenger and was using <strong>version 1.1</strong> of the application. <strong>Spoiler alert:</strong> This rendering issue has been addressed in <strong>version 1.2</strong> of the Light Messenger application.</p>
+<p>Version 1.1 also had very little documentation on how the device worked, so I had to dig into the code to learn about which pins were used. However, the code was well-structured and modular, making it somewhat easy to navigate.</p>
+<p><strong>My Background and Approach</strong></p>
+<p>For the past two years, I’ve been creating <strong>Flipper Zero tutorials</strong> on <a href="https://youtube.com/@MrDerekJamison">YouTube</a> and writing <a href="https://github.com/jamisonderek/flipper-zero-tutorials">sample applications</a> and a <a href="https://github.com/jamisonderek/flipper-zero-tutorials/wiki">wiki</a> for the device. In this blog post, I’ll share my debugging journey, including a few unnecessary detours that didn’t directly contribute to solving the issue but provided valuable insights.</p>
+<p><strong>Step 1: Understanding the Hardware</strong></p>
+<p>I started by reading the <strong>LIS2DH12 accelerometer</strong> datasheet, which helped me understand how the <strong>X, Y, and Z axis</strong> were oriented when the Light Messenger was connected to the Flipper Zero. Most of the movement occurs along the <strong>Z-axis</strong> when shaking the device. I skipped over <strong>SPI</strong> and <strong>I2C</strong> timing details and focused on understanding the <strong>relevant registers</strong>, which is how you control and get data from the device.</p>
+<p><strong>Step 2: Setting Up Debugging Tools</strong></p>
+<p>I attempted to use my <strong>BlackMagic debugger</strong> by connecting DuPont jumper wires between all Light Messenger pins and my Flipper Zero (secured with a breadboard). I then connected my <strong>Flipper Zero Wi-Fi Module</strong> (flashed with BlackMagic firmware) to <strong>pins 9-12</strong> of the Flipper Zero.</p>
+<p><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/LightMessenger---Flipper---BlackMagic-Debug.png?v=1740570005" alt=""></p>
+<p>However, I discovered that <strong>SWC (Flipper Pin 10)</strong> was connected to the <strong>interrupt 2</strong> pin of the LIS2DH12, which prevented the VS Code debugger from attaching! To work around this, I modified the <strong>app_params.h</strong> file to use <strong>PB2 (Flipper Pin 6)</strong> for interrupt 2 instead. I also had to move the wire coming from pin 10 on Light Messenger to connect to pin 6 on the Flipper Zero. This allowed the debugger to connect, but the problem still occurred.</p>
+<pre><code>#define LGHTMSG_INT2PIN &amp;gpio_ext_pb2 // Header pin 6 = INT2</code></pre>
+<p><strong>Tip for hardware developers:</strong> Avoid using Flipper pins 10 &amp; 12 <strong>(SWC, SIO)</strong> if you want to allow connecting the <strong>BlackMagic debugger</strong> later.</p>
+<p><strong>Step 3: Adjusting Threshold Values</strong></p>
+<p>After reading through the <strong>app_params.h</strong> file, I found that the <strong>interrupt thresholds</strong> were set at 60, which determines the g-force required for motion detection. I lowered the values to 30, reducing the force needed for an event.</p>
+<p>While this adjustment slightly impacted the accuracy of left/right swipes, it helped rule out mechanical issues. However, the problem persisted, so I knew it likely wasn’t caused by a physical connection issue.</p>
+<p><strong>Step 4: Adding Debugging Logs</strong></p>
+<p>I attempted to use <strong>CLI</strong> (log debug) to capture events, but oddly enough, the problem seemed to disappear whenever logging was enabled. I suspected this might have changed the timing just enough to mask the issue.</p>
+<p>Since I couldn’t rely on logging, I decided to debug using sound cues.</p>
+<p><strong>Step 5: Using Sound for Debugging</strong></p>
+<p>I modified the code to play:</p>
+<ul>
+<li>A <strong>440 Hz tone</strong> when the direction switched one way</li>
+<li>A <strong>660 Hz tone</strong> when it switched the other way</li>
+</ul>
+<p>When the display stopped working, the tones <strong>also stopped playing</strong>. This meant that either our app_acc_worker thread stopped, or we had an issue in our interrupt routine, or the LIS2DH12 wasn’t triggering interrupts when the device moved.</p>
+<p>To investigate further, I removed the wires use for interrupts from the Flipper Zero (<strong>pins 4, 6, and one of the GND wires</strong>). I then grabbed a resistor and connected it between <strong>GND and pin 4</strong>, but nothing happened. Moving the resistor to <strong>GND and pin 6</strong>, I heard the tone. Back to <strong>pin 4</strong>, I heard the other tone. I was manually triggering the interrupt code; our app_acc_worker thread was still processing events, and it hadn’t crashed.</p>
+<p><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/LightMessenger----Debugging.png?v=1740570005" alt=""></p>
+<p>This was great news—it confirmed that our code was still running! However, for some reason, the <strong>LIS2DH12 wasn’t triggering the interrupts</strong> when we moved the device.</p>
+<p><strong>Step 6: Checking Register Values</strong></p>
+<p>Focusing on the LIS2DH12, I thought that perhaps one of the <strong>registers were being reset</strong> to an incorrect value. I thought that somehow the register was changing value as we were shaking it. I wrote a routine to log register values to a text file on the Flipper Zero’s <strong>SD card</strong>. Some of the registers are marked as reserved or are for temperature, so I decided to skip over those registers.</p>
+<p>By comparing logs from when the device worked versus when it failed, I noticed that <strong>register 0x22</strong> had different values:</p>
+<ul>
+<li>
+<strong>Working state:</strong> 0xC0</li>
+<li>
+<strong>Failing state:</strong> 0xC8</li>
+</ul>
+<p>Here is a copy of the datasheet talking about register 0x22…</p>
+<p><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/LightMessenger---Datasheet.png?v=1740570004" alt=""></p>
+<p>The first digit (C – or 1100 in binary) means <strong>I1_CLICK &amp; I1_IA1 were enabled</strong> and <strong>I1_IA2 and I1_ZYXDA were disabled</strong>. The second digit (8 – 1000 in binary) indicates that the <strong>“0(1)” bit was set</strong>, which, according to the datasheet, <strong>must be set to ‘0’ for correct operation</strong>.</p>
+<p><strong>Step 7: Fixing the Code</strong></p>
+<p>I checked <strong>drivers\lis2xx12_wrapper.c</strong>, which explicitly enabled I1_IA1 and disabled I1_IA2:</p>
+<pre><code>
+lis2dh12_ctrl_reg3_t pin_int1_cfg;
+pin_int1_cfg.i1_zyxda = PROPERTY_DISABLE;
+pin_int1_cfg.i1_ia1 = PROPERTY_ENABLE;
+pin_int1_cfg.i1_ia2 = PROPERTY_DISABLE;
+lis2dh12_pin_int1_config_set(stmdev, &amp;pin_int1_cfg);
+</code></pre>
+<p>The <strong>drivers\lis2xx12_wrapper.h</strong> file defined lis2dh12_ctrl_reg3_t as:</p>
+<pre><code>
+typedef struct {
+   uint8_t not_used_01 : 1;
+   uint8_t i1_overrun : 1;
+   uint8_t i1_wtm : 1;
+   uint8_t not_used_02 : 1;
+   uint8_t i1_zyxda : 1;
+   uint8_t i1_ia2 : 1;
+   uint8_t i1_ia1 : 1;    &lt;&lt;&lt;&lt;
+   uint8_t i1_click : 1;
+} lis2dh12_ctrl_reg3_t;
+</code></pre>
+<p>To fix the issue, I explicitly set <strong>not_used_01</strong> and <strong>not_used_02</strong> to <strong>PROPERTY_DISABLE</strong>, and the problem disappeared!</p>
+<p>Later, I realized that setting the <strong>initial value of our struct to 0</strong> would have prevented this issue in the first place. Updating the code to the following gives the intended result…</p>
+<pre><code>lis2dh12_int1_cfg_t int1_cfg = {0};</code></pre>
+<p>A small but meaningful improvement would be to rename <strong>not_used_02</strong> to <strong>must_be_cleared</strong> to indicate that its value matters. This would prevent similar mistakes in future development.</p>
+<p><strong>Lessons Learned</strong></p>
+<ul>
+<li>
+<strong>Check uninitialized variables:</strong> When working with bit flags in structures, ensure <strong><em>all flags</em></strong> are explicitly set.</li>
+<li>
+<strong>Avoid Flipper Pins 10 &amp; 12:</strong> If you need debugging access, these pins can interfere with BlackMagic debugger connections.</li>
+<li>
+<strong>Use alternative debugging methods:</strong> When logging alters behavior, use another method such as sound or vibration motor.</li>
+<li>
+<strong>Dumping registers:</strong> dumping the register values can help to validate that the device is configured as expected.</li>
+</ul>
+<p>This was a fun debugging challenge, and I hope this write-up helps others working on <strong>Flipper Zero hardware projects</strong>!</p>
+<p>🎬 <strong>YouTube:</strong> <a href="https://youtube.com/@MrDerekJamison">@MrDerekJamison</a></p>
+<p>🎮 <strong>Discord:</strong> <strong>@CodeAllNight</strong></p>
+<p>🐱 <strong>GitHub:</strong> <a href="https://github.com/jamisonderek/flipper-zero-tutorials/wiki">Flipper Zero Tutorials</a></p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/academy/dive-into-rfid-fuzzing-with-flipper-zero-the-rfid-fuzzer-app</id>
+    <published>2023-09-08T15:39:41+02:00</published>
+    <updated>2023-09-08T15:39:41+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/dive-into-rfid-fuzzing-with-flipper-zero-the-rfid-fuzzer-app"/>
+    <title>Dive into RFID Fuzzing with Flipper Zero, the RFID fuzzer app.</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p data-mce-fragment="1"><span data-mce-fragment="1">Curious to know how RFID works and its security? </span><span data-mce-fragment="1">Dive in as we show RFID fuzzing with Flipper Zero.</span></p><p><a class="read-more" href="https://lab401.com/blogs/academy/dive-into-rfid-fuzzing-with-flipper-zero-the-rfid-fuzzer-app">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p><span data-mce-fragment="1">Curious to know how RFID works and its security?</span></p>
+<p><span data-mce-fragment="1">Dive in as we show RFID fuzzing with Flipper Zero! </span></p>
+<p><span data-mce-fragment="1">In this video, we'll break down the ins and outs of this powerful function, showcasing its potential and importance in today's pentesting landscape. </span></p>
+<p><span data-mce-fragment="1">Brought to you by LAB401.com, the experts in RFID technology. </span></p>
+<p><span data-mce-fragment="1">Don't forget to like, share, and comment below with your thoughts.</span></p>
+<p> </p>
+<p><span data-mce-fragment="1"><iframe title="YouTube video player" src="https://www.youtube.com/embed/EcWTFZovNTE?si=fgFYxjhVbZZRw8zd" height="315" width="560" allowfullscreen="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" frameborder="0"></iframe> </span></p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/academy/deauth</id>
+    <published>2022-12-07T10:24:18+01:00</published>
+    <updated>2024-02-04T06:47:17+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/deauth"/>
+    <title>Everything You Always Wanted to know about Deauthentication but were afraid to ask.  (Discount code inside)</title>
+    <author>
+      <name>Lab401 Lee</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<span>How to deauthenticate some Wi-Fi-connected cameras using the flipper ESP32-S2 developers board, how to sniff for deauthentication frames and how you can protect yourself against deauthentication attacks.</span><p><a class="read-more" href="https://lab401.com/blogs/academy/deauth">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/LAB401_Academy_600x600.png?v=1670404026" alt="" style="display: block; margin-left: auto; margin-right: auto;"></p>
+<p>In today's article, we are going to cover how to deauthenticate some Wi-Fi-connected cameras using the flipper ESP32-S2 developers board flashed with the marauder firmware by <strong><a href="https://github.com/justcallmekoko" title="justcallmekoko github" target="_blank">justcallmekoko</a></strong> . We'll also cover how to sniff for deauthentication frames and how you can protect yourself against it.</p>
+<h1>MEET AMEC0E</h1>
+<p>The author of today's LAB401 Academy article is <a href="https://twitter.com/amec0e" title="Twitter link" target="_blank"><strong>Amec0e</strong></a>, a security researcher and an occasional CTF player.<br> <br> <a href="https://twitter.com/amec0e" target="_blank"> </a></p>
+<div style="text-align: center;"><a href="https://twitter.com/amec0e" target="_blank"><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/LOGO_400x400_0d290e3c-70f3-4f31-a917-57bd3556ef87_160x160.jpg?v=1669883267" alt="" style="margin-right: 187px; margin-left: 187px; float: none;"></a></div>
+<a href="https://twitter.com/amec0e" target="_blank"> </a><br> <br> He originally got into security by playing with wireless attacks on his own hardware, this was fascinating to him back in the day performing a 4-way handshake capture and trying to dictionary attack his own router and from there, his curiosity eventually lead him to CTF's where he participated in several CTF Live Hacking Events online collaborating with some great friends and hackers and even scoring a few bounties on the way.<br> <br> After playing CTF's for a year and doing many web-related CTFs he found a love for web application hacking. So he started to focus on more web-related issues learning the many different ways to break a website and report vulnerabilities to the affected vendors.
+<p> </p>
+<h1>
+<br> LESSON SUMMARY</h1>
+<p>Here is a list of what we are going to cover in today's article:<br> <br> <strong>- What a deauthentication attack is.</strong><br> <strong>- How a deauthentication attack works.</strong><br> <strong>- A demonstration of deauthenticating a wireless camera.</strong><br> <strong>- How you can try to mitigate this kind of attack.</strong><br> <strong>- How we can detect an ongoing attack.</strong><br> <br> And finally what other alternatives are there to the flipper zero developers board.<br> <br> <strong>NOTE:</strong> Flipper Zero Firmware used during these videos.<br> <br> I would like to point out I am going to be using the Official Flipper Zero Developers Build Firmware with the Marauder Companion App which I have compiled for this release of the firmware.<br> <br> We are not going to cover compiling the <strong>FAPs</strong> in this article as there is already some great documentation available for this on the<strong><a href="https://github.com/flipperdevices/flipperzero-firmware/blob/dev/documentation/AppsOnSDCard.md" title="Flipper Zero Github" target="_blank"> [Flipper Zero GitHub page]</a></strong>.</p>
+<h1>
+<br> WHAT IS A DEAUTHENTICATION ATTACK?</h1>
+<p>A deauthentication attack is a wireless attack in which an attacker will send multiple deauthentication frames to a station to overwhelm them which can result in a denial of service to either a selected station <strong>(client device)</strong> or to every station on the network. <br> <br> This would allow for the attacker to combine this with another attack called <strong>the Evil Twin</strong>, or even use this to capture a <strong>4-way handshake</strong> which could be cracked using a dictionary attack to obtain the Access Point's passphrase, which we are not going to cover here as we are purely focusing on the deauthentication attack.<br> <br> It is worth mentioning the Flipper ESP32-S2 Developers board operates on 2.4GHz only, and as such, this particular attack will only work if the devices are connected to the 2.4GHz network on your wireless Access Point.<br> <br> Luckily for us, our cameras are sitting on the 2.4GHz network.<br> <br> <strong>How Does A Deauthentication Attack Works:</strong><br> <br> The attack works by broadcasting multiple deauthentication frames using the selected Wireless Access Point's MAC address and a special broadcast address of <strong>FF:FF:FF:FF:FF:FF</strong> this will transmit to all stations on a wireless access point.<br> <br> The deauthentication frame is implemented in the <strong>IEEE 802.11 Wi-Fi standard</strong> as a way for telling a station that its connection is being terminated, this works both ways from a station to an Access Point and from an Access Point to the station.<br> <br> There's something we need to know though before we dive into an example and that is, what is the difference between a Wi-Fi association frame and an authentication frame.<br> <br> <strong>Authentication:</strong> <span>The connecting device opens a line of communication to the Wireless Access Point containing the devices identity (MAC). The WAP then sends a response of an success or failure, there is no encryption or security available at this point.</span><br> <br> <strong>Association:</strong> <span>After authentication has received a success response a association request is sent containing information such as SSID the client wants to connect to, encryption type, supported channels and other 802.11 capabilities. If the 802.11 capabilities of the client match that of the WAP a Association ID (AID) is assigned and a response with a success message is sent granting full access to the WAP.</span><br> <br> In most home routers you will both authenticate and associate at the same time and of course if you need to disconnect you will both disassociate and deauthenticate at the same time.<br> <br> Though in a larger network made up of multiple Wireless Access Points it is possible to disassociate from one access point and associate to another while remaining authenticated to the same network.<br> <br> <strong>Let us look at an example for a deauthentication frame</strong><strong>:</strong> You are at home on your Wi-Fi and you notice your internet is slow, you told your neighbour they can use your internet while theirs is down, you check the connected devices on your Access Point's web configuration page and you notice the neighbour is taking up all of the bandwidth on the network.<br> <br> <strong>You add their device to a Blocklist</strong> so you are able to freely browse the internet again, when you add them to the blocklist a deauthentication packet is received and the station will disconnect from the Wireless Access Point.<br> <br> Because of the way IEEE 802.11 is designed a deauthentication frame is a notification, not a request that a device must comply and deauthenticate from the Access Point. <strong>This cannot be refused unless Protected Management Frames are enabled</strong> also called <strong>Management Frame Protection</strong> or <strong>MFP</strong> for short, which we will talk about later.<br> <br> When this disconnect happens a reason code is also supplied within the data frame sent from the Access Point to the Station telling the Station the reason why it is being deauthenticated. In this above example, it will be the reason code 4 - Disassociated due to inactivity. At least this is what I found during my testing when I added a client device to the blocklist.<br> <br> This is precisely what we are doing with the flipper deauthentication attack, the flipper is transmitting an <strong>Ethernet Broadcast Address</strong> which is a special address used to transmit data to any available stations that are associated with the selected access point, with a reason code of 2 (Previous authentication is no longer valid) to deauthenticate all clients on the network.<br> <br> This happens in the background and you cannot see the frames being sent unless you have a second flipper with a developers board or a network adapter with a supported chipset to be able to sniff the traffic for deauthentication frames.<br> <br> Because we are sending it to any available stations this also means that the Source Address and Transmitting Address must come from the Access Point (or appear to) otherwise the stations associated with the access point will ignore the broadcasts. This also means you do not need to populate a list of stations associated with the access points before launching the attack.<br> <br> It is worth mentioning you can broadcast deauthentication frames from multiple access points, however, the more you select the less effective the attack will be because more time is taken to broadcast each deauthentication frame with the spoofed MAC address of the selected AP, and so when a disconnect happens the station will immediately try to reconnect if we send a frame too slow then the station will connect back to the Wireless Access Point, this is not what we want as the goal here is to keep the station disconnected for as long as we want.</p>
+<h1>
+<br> ATTACK DEMONSTRATION</h1>
+<p><strong>Shared Power Rail Issue:</strong><br> <br> The power rail is shared between the developers board and the SD card. When it is inserted, it can cause issues with the SD dropping the connection or dismounting. Rebooting fixes that, this does not happen every time but it is best to reboot your flipper once you have plugged in the developers board to the flipper zero.<br> <iframe width="560" height="315" src="https://www.youtube.com/embed/EczCXMgqet8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe><br> <br> <strong>Flipper Deauthentication Process:</strong><br> <br> So now we have covered the power rail issue and the flipper zero is rebooted, we are going to prepare the deauthentication attack.<br> <br> First, we are going to navigate on our flipper zero to <strong>"Scan AP"</strong> and press<strong> "Center"</strong>, let this run for a few seconds, and then press back.<br> <br> Now we have a briefly populated list of APs, we need to view the logs to find the ESSID and Channel number. So let's go to <strong>"view logs"</strong> and press <strong>"Center"</strong> and scroll down until we find our access point.<br> <br> Once you have found the ESSID, mine is TP-Link, and our channel of 2 we are going to press back and then set the channel. So let's scroll to <strong>"Channel"</strong> and change from<strong> "Get"</strong> to <strong>"Set" </strong>and Press<strong> "Center"</strong>.<br> <br> We are going to enter our channel number of 2 and then press <strong>"Save"</strong> and back twice.<br> <br> Now we need to find out what position our AP appears in the list, so let's scroll to <strong>"List"</strong> and press<strong> "Center"</strong>.<br> <br> You can see my TP-Link router is 0 number in the list, so let's press back and go to <strong>"Select"</strong>, and press <strong>"Center"</strong>.<br> <br> Now we enter our AP number of 0 and press <strong>"Save"</strong> and press back twice.<br> <br> And we are ready to initiate the deauthentication attack.<br> <br> So now we are ready we are going to change to our cameras live feed and as you should be able to see an image of the LAB401 logo.<br> <br> You can also see the current time and date in the time stamp to the top left of the camera feed.<br> <br> Now we can start the deauthentication attack by scrolling to<strong> "Attack" </strong>and pressing <strong>"Center"</strong>.<br> <br> Now the deauthentication attack is running our camera feed will begin to slow and eventually freeze, how long this will take depends on how close you are to the target camera, the closer you are, the stronger the signal and the more packets it receives, the further away you are the weaker the signal and the more packets that can be lost during transmission.<br> <br> Now the camera feed has frozen this indicates the attack was successful you will then see the video feed try to refresh, you will also notice it is taking a while and this is because it has been disconnected from our network and is trying to reconnect back but because the flipper zero is still transmitting it will stay offline until we stop the attack or move far enough out of range that the transmitting packets get lost entirely.<br> <br> What I did there was demonstrate the ability to launch a deauthentication attack, knocking the camera offline.<br> <br> When we stop the deauthentication attack we must wait for our wireless camera to connect back to the network, this can take some time and sometimes you may even need to reboot the camera by turning it off completely and allowing it to perform the authentication and association process again.</p>
+<h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RXbGZbsiqkg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe><br> HOW CAN YOU PROTECT AGAINST IT?</h1>
+<p>In terms of protection against this type of attack, our options are quite limited due to the lack of encryption for the management frame meaning it will allow spoofed deauthentication frames as there is no message integrity check or management frame encryption to ensure the packet has not been tampered with, copied or replayed.</p>
+<p>This was addressed with the amendment of the <strong>IEEE 802.11w</strong> in 2009 introducing <strong>Protected Management Frames</strong>.</p>
+<p>Management frames include deauthentication, disassociation, beacons and probes and are always unauthenticated and unencrypted.</p>
+<p>Now there is two types of Protected Management Frames and these are.</p>
+<p><strong>Client Side Protected Management Frame:</strong> This encrypts the management frames sent between authenticated clients and the access point which allows clients to take preventative measures by dropping spoofed management frames that pass between the Wireless Access Point and the client that is authenticated and associated. Most deauthentication attacks against a Wireless Local Area Network (WLAN) with client side PMF enabled will simply degrade network performance by dealing with the valid clients. </p>
+<p><strong>Infrastructure Protected Management Frame:</strong> With this the Wireless Access Point will add a <strong>Message Integrity Check Information Element (MIC IE)</strong> to the management frames sent and any attempt made to copy, tamper or replay the frame invalidates the MIC and fails the management frame validation check. This will then report the failed MIC to the network management system but it will take no preventative measures. </p>
+<p><strong>MIC</strong> and <strong>Client side PMF</strong> are both present in the <strong>Wireless Protected Access (WPA2/3)</strong> security protocol.</p>
+<p><strong>WPA2-Personal:</strong> This is the standard security protocol you will find on most home routers, Protected Management Frames (PMF) on this type of protocol is optional, however, if it does not have the WiFi-certified logo on the box then it is very likely that protected management frames will not be enabled on this type of protocol. This is because vendors do not need to submit their devices to be certified by the WiFi Alliance.</p>
+<p><strong>WPA3:</strong> This is the latest Wi-Fi security protocol which comes by default with Protected Management Frames (PMF) enabled, however a lot of clients do not support this protocol and so they will not be able to connect to the WAP in which WPA3 is selected.</p>
+<p>There are 2 main types of configuration options for Protected Management Frames if you have the option to enable them manually and these are.</p>
+<p><strong>Capable/Optional:</strong> This will be the default option for an encrypted WiFi network with the WPA2 security protocol selected. This allows for backwards-compatible devices that do not support PMF to connect, and the devices that do support PMF will negotiate this with the selected AP.</p>
+<p><strong>Mandatory/Required:</strong> This enforces enabling PMF and as such only clients capable of PMF will be allowed to connect. WPA3-Personal and WPA3-Enterprise with 192-bit security have this enabled by default.</p>
+<p>If you do not have the option to enable them manually then you will likely find it will only be enabled when you select the <strong>WPA2-Personal</strong> or <strong>WPA3</strong> Security protocols.</p>
+<p>Sadly there is no real way to stop someone from deauthenticating you as a home user other than selecting WPA2-Personal/WPA3 Security Protocol or if you can enable Protected Management Frames (Sometimes called 802.11w or Management Frame Protection) in your wireless settings you will most likely want to enable this option, though this option is not present on every home WAP.</p>
+<p>If however, the device has the WiFi Certified logo on the box then it is likely to have PMF/MFP enabled but optional on WPA2-Personal.</p>
+<p>There is another mitigation for this type of attack and while it might not be convenient for everybody (especially since the camera used can <strong>ONLY</strong> connect via Wireless) it is an effective solution from this type of attack and that would be to go with a completely hardwired setup, this would mean plugging every device in that you wish to connect to the AP via an Ethernet cable and putting the AP itself in Modem Mode so no wireless access is provided. </p>
+<p>This will provide clients access to the network via the Ethernet slots on the back of the AP, this would also assume the cameras can be connected via a Ethernet Cable.<br> <br> Like most home users you are likely using a passphase (PSK) to access your WAP and if so you will want to choose a good passphrase that is hard to guess to prevent an attacker from cracking your passphrase with a dictionary attack.</p>
+<h1>
+<br> HOW CAN YOU DETECT A DEAUTHENTICATION ATTACK?</h1>
+<p>Okay so now we are going to talk about how we can detect an ongoing deauthentication attack, this we can actually detect with the flipper zero and developers board as the wireless adapter I am going to be using is also a 2.4GHz network adapter.<br> <br> I'm going to be using an Alfa Network <strong>AWUS036NHA</strong> 2.4GHz wireless adapter, with an <strong>Atheros AR9271 chipset </strong>which allows for monitor mode and packet injection.<br> <br> With this we are going to send a similar deauthentication frame from the Alfa card and then sniff for these deauthentication frames on the flipper zero, we are also going to be using the aircrack-ng suite which comes included with the Kali Linux Operating System.<br> <br> With this setup we are going to put the network card in monitor mode, this allows it to listen for broadcasts and to sniff the wireless traffic going back and forth from APs to Stations.<br> <br> Before we move on I want to point out that we do not need to put the card in monitor mode for this to work, I just find it to be a much cleaner process, having said that, let's move on.<br> <br> <strong>Monitor Mode:</strong><br> <br> Before we start I want to mention I am using Kali Linux in a Virtual Machine, having said that we first want to open a terminal in Kali.<br> <br> Next, we must kill any processes that may interfere with this by typing <strong>sudo airmon-ng check kill</strong> and entering your password.<br> <br> If you have a intergrated adapter then the external adapter will likely use the interface <strong>wlan1</strong> (mine here is <strong>wlan0</strong>) so let's put this in monitor mode with <strong>sudo airmon-ng start wlan0</strong>.<br> <br> Now the card is in monitor mode the interface will now be called <strong>wlan0mon</strong> (this will be different if you have multiple adapters.)</p>
+<p><iframe title="YouTube video player" src="https://www.youtube.com/embed/KoZ5EbdtGGA?si=bzi90J5oluvq4Wgz" height="315" width="560" allowfullscreen="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" frameborder="0"></iframe><br><strong>Finding Our WAPs BSSID:</strong><br> <br> Now we have our adapter in monitor mode we are going to start sniffing wireless traffic to find our wireless access points MAC address and channel.<br> <br> When this is running you are looking for the WAPs MAC that belongs to you, once you have the MAC address and channel number you can press <strong>CTRL+C</strong> to stop the sniffing.<br> <br> So let's start sniffing and find our WAPs MAC and channel number with our Alfa card by using <strong>sudo airodump-ng wlan0mon</strong>.<br> <br> As you can see you do not need to run this for too long to find, the channel number, and the MAC address.<br> <br> Now we are ready to move on to setting our channel number.<br> <br> <strong>Setting Our Channel Number:</strong><br> <br> So the purpose of this is just to change our wireless adapters channel to the one our target AP uses because prior to this we were channel hopping, which means we were constantly changing channel numbers to locate our target APs BSSID and channel number.<br> <br> If we type <strong>iw dev</strong> we can see our current interfaces channel number.<br> <br> We need to change this as it is required for the next step of the attack to work, this is a simple process and can be done by typing <strong>sudo iwconfig wlan0mon channel 2</strong> and press Enter.<br> <br> We can verify the channel has been changed using <strong>iw dev</strong> and looking for our interfaces <strong>"channel"</strong>.<br> <br> Now that this is done we can move on to initiating the deauthentication attack while simultaneously sniffing for deauthentication frames on the Flipper Zero.<br> <br> <strong>Initiating The Deauthentication Attack:</strong><br> <br> Now we have our BSSID and our channel is set correctly we can initiate the attack with our 2.4GHz Alfa Network Card. But before that, we are going to head over to our Marauder app on the Flipper Zero and select the option <strong>"Sniff [deauth]"</strong>.<br> <br> Now the flipper zero is sniffing for deauthentication frames let's head back over to our Kali VM and start the attack using <strong>sudo aireplay-ng -0 100 -a Our BSSID -c FF:FF:FF:FF:FF:FF wlan0mon</strong><br> <br> Before we start the attack let's break down the command being used here:<br> <br> <strong>- 0 -</strong> Specifies we want to run a deauthentication attack.<br> <strong>- 100 -</strong> Specifies how many times we want to send a packet.<br> <strong>- a -</strong> Specifies the target AP's MAC Address.<br> <br> And <strong>c FF:FF:FF:FF:FF:FF</strong>  This is the Special Broadcast Address, using this it will broadcast deauthentication frames to all stations within our proximity.<br> <br> And finally <strong>wlan0mon</strong> - This is the network card that is in monitor mode.<br> <br> Now if we go back to the flipper zero You can now see the deauthentication frames being broadcasted on the flipper.<br> <br> Now we know how to detect an ongoing deauthentication attack with the flipper zero, let's move on to turning monitor mode off.<br> <br> <strong>Turning Off Monitor Mode:</strong><br> <br> Now we have finished our attack we are just going to take our wireless adapter out of monitor mode this can be done on Kali linux using <strong>sudo airmon-ng stop wlan0mon</strong>.<br> <br> <iframe width="560" height="315" src="https://www.youtube.com/embed/FBDDMD65iy0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe><br> <br> <strong>5GHz Limitation:</strong><br> <br> So now we have demonstrated attacking with a 2.4GHz network adapter, you might be thinking we still cannot attack any 5GHz stations on a dual-band WAP due to the flipper developers board only operating on the 2.4GHz band.<br> <br> While this is not usually too much of an issue, most pentesters and red teamers will want a network card that is dual band both 2.4GHz and 5GHz so they can see the full scope of stations available to them.<br> <br> So we are going to briefly cover what alternatives there could be and there are five that stand out to me.</p>
+<h1>
+<br> ALTERNATIVE TOOLS TO THE FLIPPER ZERO DEVELOPERS BOARD</h1>
+<p>So as I mentioned there are five alternatives to use instead of a flipper zero developers board for wireless deauthentication attacks, in no particular order these are.<br> <br> <strong>Alfa Network AWUS036ACH:</strong><br> <br> This dual-band, dual antenna, network card features WPA3 protocol support which means it is capable of joining a WPA3-enabled network if you wish to use this as a regular wireless adapter to surf the net. It is discreet too!<br> <br> It also uses the RTL8812AU Chipset which has been supported in Kali Linux since around version 2018.1, however you might need to install the Realtek rtl88xxau drivers to get this working, this also supports monitor mode, packet injection, and Wi-Fi standard 802.11ac.<br> <br> <img src="https://cdn.shopify.com/s/files/1/0266/4880/5448/products/AWUS036ACH__prod_01_190b9eda-8d54-4cdc-b2ea-0fbf4f1e4556_800x800_crop_center.jpg?v=1643088018"><br> <br> <strong>Alfa Network AWUS036ACM</strong><br> <br> This dual-band, dual antenna, the network card is also a great addition as this uses the MediaTek MT7612U Chipset which is the same chipset found in the MK7AC adapter. This means it supports packet injection and monitor mode and it will work out of the box on both Kali Linux and Wi-Fi Pineapple, it also has the Wi-Fi standard 802.11ac<br> <br> <img src="https://cdn.shopify.com/s/files/1/0266/4880/5448/products/AWUS036ACM__prod_01_800x800_crop_center.jpg?v=1653639090"><br> <br> <strong>Wi-Fi Pineapple MK7:</strong><br> <br> This 2.4GHz band, triple antenna router is great if you plan on performing an Evil Twin or Rogue AP attack, it has an intuitive Web GUI which makes it easy to configure and use, the drawback with this is you still need an additional network adapter like the MK7AC or similar with a supported chipset to target 5GHz stations.<br> <br> While it is not so discreet and in a public place is very noticeable, it can also be left behind at a target location with an external 5V 2A power source like a power bank and allows for remote access or even put into a backpack with a power supply for mobile testing and more discreet usage.<br> <br> <a href="https://lab401.com/products/wifi-pineapple-v7?variant=39555977838792" title="HACK5 WIFI PINNEAPLE" target="_blank"><strong>[Get it now at LAB401.com] </strong></a></p>
+<p><img src="https://cdn.shopify.com/s/files/1/2175/8571/products/Wifi-Pineapple-V7_1024x1024@2x.png?v=1617383382"></p>
+<p><br> <strong>Wi-Fi Pineapple MK7AC:</strong><br> <br> This is the Wi-Fi Pineapples own dual-band, dual-antenna network adapter using the MediaTek MT7612U Chipset which works out of the box with Kali Linux and has been supported since version 2021.3 so there should be little to no additional setup required. This adapter also supports monitor mode, packet injection, and WiFi standards 802.11ac.<br> <br> <img src="https://cdn.shopify.com/s/files/1/0068/2142/products/mk7ac-solo_540x.jpg?v=1650405755"><br> <br> <strong>Raspberry Pi 4B:</strong><br> <br> That's right the raspberry pi 4b can also be used for this type of attack as well as the Evil Twin and Rogue AP Attack due to its small size and integrated dual-band wireless card this is a great little alternative used in many projects today, this can also be left behind at a target location similar to the WiFi pineapple and even powered from an external power supply like a power bank and remotely accessed as well as it is small and very portable too.<br> <br> While all of these devices are great it does entirely depend on the job at hand.<br> <br> Having said that all you really need is two wireless cards or adapters to perform a rogue AP or Evil Twin attack, this includes your onboard wireless card if you have one.</p>
+<p>One wireless interface is used to host the rogue access point and the other would be used to perform the deauthentication attack. If however, you wanted to go the extra step further you can use a second external wireless adapter (2 external + 1 internal) to connect the rogue AP to the internet and provide a bridged internet connection this allows clients connected to the rouge AP to share the rouge APs internet.</p>
+<p>Having two external adapters is the easiest and better option however it can also be a little more pricy, but this would allow you to Host the AP, perform a deauthentication attack and if the client connects, use our integrated wireless card to provide a internet connection to keep them on the rouge AP for as long as long as we can.</p>
+<p><br> <br> <img src="https://assets.raspberrypi.com/static/raspberry-pi-4-labelled-f5e5dcdf6a34223235f83261fa42d1e8.png"></p>
+<h1>What We Have Covered Today</h1>
+<p>Today we have learned what a deauthentication attack is, and how a deauthentication attack works, we have also shown a demo of a deauthentication attack against a wireless camera as well as how you can better protect yourself against this kind of attack and other alternatives to the flipper zero for deauthentication attacks.</p>
+<p>Well that about wraps it up, I hope you all enjoyed the article and videos and thank you all for taking the time to read this and also a <strong>BIG thank you to LAB401</strong> for giving me this opportunity to share what I have learned on deauthentication attacks with you all, if you liked the article and videos be sure to give me a follow on Twitter. Take care for now and stay safe!</p>
+<p>Feel Free to support me using the code<strong> AMEC0E</strong> at the LAB401 Checkout to receive a <strong>5% Discount</strong> on all purchases <strong>(Excludes the Flipper Zero)</strong></p>
+<p><br> <strong>Resources worth reading:</strong><br> <br> <strong>Wi-Fi deauthentication Frame Explained</strong> - <a href="https://blog.spacehuhn.com/wifi-deauthentication-frame" target="_blank">[https://blog.spacehuhn.com/wifi-deauthentication-frame]</a><br> <br> <strong>What is a deauthentication attack?</strong> -<a href="https://atlasvpn.com/blog/what-is-a-deauthentication-attack" target="_blank"> [https://atlasvpn.com/blog/what-is-a-deauthentication-attack]</a><br> <br> <strong>Protected management frames 802.11w</strong> <a href="https://security.stackexchange.com/questions/83356/802-11w-protected-management-frames-wi-fi/92657#92657" target="_blank">- [https://security.stackexchange.com/questions/83356/802-11w-protected-management-frames-wi-fi/92657#92657]</a><br> <br> <strong>Framing in detail</strong> - <a href="https://www.oreilly.com/library/view/80211-wireless-networks/0596100523/ch04.html" target="_blank">[https://www.oreilly.com/library/view/80211-wireless-networks/0596100523/ch04.html]</a><br> <br> <strong>Broadcast address</strong> - <a href="https://en.m.wikipedia.org/wiki/Broadcast_address" target="_blank">[https://en.m.wikipedia.org/wiki/Broadcast_address]</a><br> <strong>802.11 Frame Exchanges</strong> -<a href="https://howiWi-Fi.com/2020/07/16/802-11-frame-exchanges/" target="_blank"> [https://howiWi-Fi.com/2020/07/16/802-11-frame-exchanges/]</a><br> <br> <strong>Apple Secure access to wireless networks</strong> - <a href="https://support.apple.com/en-gb/guide/security/sec8a67fa93d/web" target="_blank">[https://support.apple.com/en-gb/guide/security/sec8a67fa93d/web]</a><br> <br> <strong>Protected Management frames enhance wifi security</strong> - <a href="https://www.wi-fi.org/beacon/philipp-ebbecke/protected-management-frames-enhance-wi-fi-network-security" target="_blank">[https://www.wi-fi.org/beacon/philipp-ebbecke/protected-management-frames-enhance-wi-fi-network-security]</a></p>
+<p><br> <strong>Rogue AP With Raspberry Pi</strong> -<a href="https://medium.com/@brunoamaroalmeida/rogueone-creating-a-rogue-wi-fi-access-point-using-a-raspberry-pi-79e1b7e628c6" target="_blank"> [https://medium.com/@brunoamaroalmeida/rogueone-creating-a-rogue-wi-fi-access-point-using-a-raspberry-pi-79e1b7e628c6]</a><br> <br> <strong>Infosec Weekly pt 4: Evil Twin Attacks</strong> - <a href="https://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Finfosecwriteups.com%2Fwifi-hacking-week-pt-4-evil-twin-attacks-63f79a800206" target="_blank">[https://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Finfosecwriteups.com%2Fwifi-hacking-week-pt-4-evil-twin-attacks-63f79a800206]</a><br> <br> <strong>RTL8812AU Kali Driver Install</strong> <a href="https://docs.alfa.com.tw/Support/Linux/RTL8812AU/" target="_blank">- [https://docs.alfa.com.tw/Support/Linux/RTL8812AU/]</a><br> <br> <strong>FAP (Flipper Application Package)</strong> - <a href="https://github.com/flipperdevices/flipperzero-firmware/blob/dev/documentation/AppsOnSDCard.md" target="_blank">https://github.com/flipperdevices/flipperzero-firmware/blob/dev/documentation/AppsOnSDCard.md</a></p>
+<p><strong>Cisco Management Frame Protection</strong> - <a href="https://www.cisco.com/c/en/us/support/docs/smb/wireless/cisco-small-business-wireless-access-points/smb5442-frequently-asked-questions-about-management-frame-protection.html" target="_blank">https://www.cisco.com/c/en/us/support/docs/smb/wireless/cisco-small-business-wireless-access-points/smb5442-frequently-asked-questions-about-management-frame-protection.html</a></p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/academy/how-to-connect-to-your-flipper-zero-via-bluetooth</id>
+    <published>2022-06-23T09:00:20+02:00</published>
+    <updated>2022-06-23T09:00:20+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/how-to-connect-to-your-flipper-zero-via-bluetooth"/>
+    <title>How to Connect to your Flipper Zero via Bluetooth</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[Unleash your Flipper's full potential with the official companion apps. Learn how to pair, connect, configure, update and manage directly in-app!<p><a class="read-more" href="https://lab401.com/blogs/academy/how-to-connect-to-your-flipper-zero-via-bluetooth">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>Connect and Control your Flipper Zero via Smartphone with the official iOS and Android Apps.<br>Update your device wirelessly, manage and transfer files, find your lost flipper and more.<br><br>This video walks you through the process of getting your Flipper up and running on your smartphone.<br><br>Download the <a href="https://apps.apple.com/app/flipper-mobile-app/id1534655259" target="_blank" rel="noopener noreferrer">Flipper Zero iOS App</a><br>Download the <a href="https://play.google.com/store/apps/details?id=com.flipperdevices.app" target="_blank" rel="noopener noreferrer">Flipper Zero Android App</a></p>
+<p><iframe src="https://www.youtube.com/embed/m3wafQIRqRI" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="708" height="398" frameborder="0"></iframe></p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/academy/how-to-install-setup-and-sd-card-in-your-flipper-zero</id>
+    <published>2022-06-23T09:00:17+02:00</published>
+    <updated>2022-06-23T09:00:17+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/how-to-install-setup-and-sd-card-in-your-flipper-zero"/>
+    <title>How to Install &amp; Setup and SD Card in your Flipper Zero</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[To reach its full potential, your Flipper needs a microSD card. Learn how to install and configure your microSD, and how to avoid non-genuine SD cards that don't play nice with your Flipper.<p><a class="read-more" href="https://lab401.com/blogs/academy/how-to-install-setup-and-sd-card-in-your-flipper-zero">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>In this video, Lab401 walks you through the process of installing, formatting and testing a microSD card for your Flipper.<br>By plugging in a microSD Card, firmware updates, RFID tags, remote-control databases, payloads and scripts can all be stocked without having to juggle for memory like it was 1995.<br><br>Important note: The Flipper Zero uses the SPI-interface on microSD cards, not the standard SDIO interface. As a result, many off-brand / grey market / cheap SD cards will not work, or not work reliably with the device. <br><br>Lab401 provides microSD cards that are directly sourced from the manufacturer, and guaranteed to work with the Flipper Zero.</p>
+<p>For more information, please see the Lab401's <a href="/products/microsd-card-for-flipper-zero">Flipper Zero MicroSD Card</a>.</p>
+<p><iframe src="https://www.youtube.com/embed/y9BhsOgwnc4" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="708" height="398" frameborder="0"></iframe></p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/academy/how-to-update-the-firmware-on-your-flipper-via-qflipper</id>
+    <published>2022-06-23T09:00:13+02:00</published>
+    <updated>2022-06-23T09:00:13+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/how-to-update-the-firmware-on-your-flipper-via-qflipper"/>
+    <title>How to Update the Firmware on your Flipper via qFlipper</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[Learn how to update your Flipper's firmware quickly and painlessly with the cross-platform 'qFlipper' tool.<p><a class="read-more" href="https://lab401.com/blogs/academy/how-to-update-the-firmware-on-your-flipper-via-qflipper">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>Keeping your Flipper Zero up to date means you have the latest functionality, up-to-date IR and RF databases and a stable device.<br><br>Flashing your device is quick and painless: Lab401 walks you through the process whether you're on a PC, Mac or Linux.</p>
+<p><iframe src="https://www.youtube.com/embed/PUn7XJrslQ4" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="708" height="398" frameborder="0"></iframe></p>]]>
+    </content>
+  </entry>
+</feed>

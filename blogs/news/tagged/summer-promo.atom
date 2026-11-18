@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/news.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/news/tagged/summer-promo.atom"/>
+  <title>Lab401 - News</title>
+  <updated>2026-04-22T16:48:54+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/news/lab401-annual-summer-sale-10-off-storewide-use-the-code-summerlab2019</id>
+    <published>2019-06-21T11:31:00+02:00</published>
+    <updated>2019-06-21T11:31:47+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/lab401-annual-summer-sale-10-off-storewide-use-the-code-summerlab2019"/>
+    <title>LAB401 annual summer sale - 10% OFF storewide use the code : summerlab2019</title>
+    <author>
+      <name>Sam LAB401</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p><span>From June 21 to June 24 get 10% off storewide</span><br><span>use the voucher coupon: </span><span style="color: #ff0000;"><strong>summerlab2019</strong></span></p><p><a class="read-more" href="https://lab401.com/blogs/news/lab401-annual-summer-sale-10-off-storewide-use-the-code-summerlab2019">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>Hey guys, summer is here and we hope that you will enjoy it to its fullest!<br><br>From June 21 to June 24 get 10% off storewide<br>use the voucher coupon: <strong>summerlab2019</strong><br><br>Enjoy your summer guys!<br><br>LAB401 team</p>
+<p> </p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/XXztSz4EqLI?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></p>]]>
+    </content>
+  </entry>
+</feed>

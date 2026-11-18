@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/news.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/news/tagged/tesla-s-keyfob-hacked.atom"/>
+  <title>Lab401 - News</title>
+  <updated>2026-04-22T16:48:54+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/news/tesla-s-hack-powered-by-open-source-tools</id>
+    <published>2018-09-17T05:41:00+02:00</published>
+    <updated>2018-09-17T09:44:18+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/tesla-s-hack-powered-by-open-source-tools"/>
+    <title>Tesla S hack powered by Open Source tools</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[The recent Tesla Model S hack is exclusively powered by Open Source hardware. Read how a Proxmark 3, Yardstick One and Raspberry Pi were used to pull of this feat.<p><a class="read-more" href="https://lab401.com/blogs/news/tesla-s-hack-powered-by-open-source-tools">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p><span><iframe width="560" height="315" src="https://www.youtube.com/embed/fJDuMeaocj4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>It's been widely reported that the <strong>Tesla Model S has been successfully hacked</strong> - keyfobs can be snatched and emulated rapidly and easily.</span></p>
+<div></div>
+<div>Even more interesting is the use of 'off the shelf' hardware - a <a href="https://proxmark.com" title="Proxmark 3">Proxmark</a>, Yardstick one and Raspberry Pi formed the hardware backbone of the hack.</div>
+<div></div>
+<div></div>
+<div>Lab401 congratulates COSIC's researchers for their hard work and responsible disclosure.</div>
+<div></div>
+<div>By the way - we noticed that @COSIC are using V1 Proxmarks - if you'd like to upgrade to RDV4s - send us an email!</div>
+<div></div>
+<div><iframe width="560" height="315" src="https://www.youtube.com/embed/aVlYuPzmJoY?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></div>
+<div></div>]]>
+    </content>
+  </entry>
+</feed>

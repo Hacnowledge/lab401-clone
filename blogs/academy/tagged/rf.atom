@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/academy.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/academy/tagged/rf.atom"/>
+  <title>Lab401 - Academy</title>
+  <updated>2026-06-04T15:04:58+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/academy/pentestips-hackrf-with-android-smartphone-duplicate-a-fixed-code-alarm-remote</id>
+    <published>2021-06-04T12:34:52+02:00</published>
+    <updated>2021-06-04T12:34:52+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/pentestips-hackrf-with-android-smartphone-duplicate-a-fixed-code-alarm-remote"/>
+    <title>#pentestips: HackRF with Android Smartphone : Duplicate a Fixed Code Alarm Remote</title>
+    <author>
+      <name>Lab401 Lee</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<span dir="auto" class="style-scope yt-formatted-string">You can copy an RF remote in less than 5 seconds with the HACKRF one check out this </span><a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="https://www.youtube.com/hashtag/pentestips" dir="auto">#Pentestips</a><span dir="auto" class="style-scope yt-formatted-string"> !</span><p><a class="read-more" href="https://lab401.com/blogs/academy/pentestips-hackrf-with-android-smartphone-duplicate-a-fixed-code-alarm-remote">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p> <span>Did you know that you can <strong>connect your HackRF One directly to your android phone</strong>, and use the <strong>HackRF_Test application to control it</strong>, and do simple RX TX ? </span></p>
+<p><span>In this video, discover how simple it is to <strong>operate a Replay Attack</strong> on a Fixed Code 433MHz Alarm remote controller.</span></p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/Y1ozu6cuwz0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></p>]]>
+    </content>
+  </entry>
+</feed>

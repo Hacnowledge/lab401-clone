@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/news.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/news/tagged/icopy-x.atom"/>
+  <title>Lab401 - News</title>
+  <updated>2026-04-22T16:48:54+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/news/six-months-later-the-icopy-x-got-open-sourced-interview-with-quantum-x-the-man-behind-icopy-x-open</id>
+    <published>2026-04-22T16:48:54+02:00</published>
+    <updated>2026-04-22T16:48:58+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/six-months-later-the-icopy-x-got-open-sourced-interview-with-quantum-x-the-man-behind-icopy-x-open"/>
+    <title>ICopy-X: Open-Sourced by Lab401</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p>After one month of intense work, 400+ hours, and a multi-core testing server: <strong>The iCopy-X has been open-sourced!</strong></p>
+<p>Upgrade your device to run <strong>modern iceman firmware</strong>, open middleware, UI and plugins (Yes, it runs Doom). Upgrade information and an interview with the project's architect after the fold.</p><p><a class="read-more" href="https://lab401.com/blogs/news/six-months-later-the-icopy-x-got-open-sourced-interview-with-quantum-x-the-man-behind-icopy-x-open">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>Previously, we flew to China and<span> </span><a href="https://lab401.com/blogs/news/we-need-to-talk-about-the-icopy-x">told you we needed to talk about the iCopy-X</a>. The device hadn't received a real update in three years. The original team was responsive but couldn't release the source code. </p>
+<p>Six months later, we decided to take matters into our hands - <strong>we rebuilt the iCopy-X firmware from scratch</strong> : UI, logic, middleware, plugin system - and released it as<span> </span><a href="https://github.com/lab-401/icopy-x"><strong>iCopy-X Open</strong></a><span> </span>under <strong>Lab401 GitHub repository</strong>.</p>
+<p>Installation is a breeze: place the IPK on your device and install. It comes in two versions, fully open source, compatible with both legacy factory hardware and modern Iceman firmware.</p>
+<p>We sat down with Lab401's <strong>quantum-x</strong> to talk about how it actually got built, what it cost, and - honestly - how many times he thought the project was going to collapse in the last ten metres.</p>
+<blockquote>
+<p><strong>▶ Watch the full release video:<span> </span></strong></p>
+<p><strong><span><iframe width="560" height="315" src="https://www.youtube.com/embed/WWS-9QdulC0?si=SChFgjdZ9fACNMVw" title="YouTube video player"></iframe></span></strong></p>
+<p><strong><span>The quantum-x Interview (audio)</span></strong></p>
+<p><em><iframe data-testid="embed-iframe" style="border-radius: 12px;" src="https://open.spotify.com/embed/episode/0s1SnnoMSonWIFOymAmjOK?utm_source=generator&amp;t=0" width="100%" height="152" loading="lazy"></iframe></em></p>
+</blockquote>
+<hr>
+<h2>The interview</h2>
+<p><strong>Sandy:</strong><span> </span>Hi, I'm Sandy from LAB401.com. Today I'm sitting down with quantum-x, the man behind the iCopy-X Open. Who are you, and what are you doing exactly?</p>
+<p><strong>quantum-x:</strong><span> </span>I go by the handle quantum-x. I'm a founder and the technical side of LAB401.</p>
+<p><strong>Sandy:</strong><span> </span>And what are you doing exactly at LAB401?</p>
+<p><strong>quantum-x:</strong><span> </span>Typically I'm handling product development, product manufacturing, and the tech stack of the operations - everything that's back-end, back office, that type of thing.</p>
+<hr>
+<p><strong>Sandy:</strong><span> </span>Let's talk about the project - the iCopy-X Open. LAB401 had a plan. It was supposed to be a collaboration with the iCopy-X team. So what happened?</p>
+<p><strong>quantum-x:</strong><span> </span>We sat down with the original project owners to understand if it would be possible to open source the original product. Talks were interesting. They wanted to get feedback from the community to understand if it was really something that was important to them, which was why we built up the videos. However, that didn't translate into the code being released, so we explored other options. We discussed opening up a fee to try to sponsor the code being written.</p>
+<p>The reality is that there was a confluence of a few factors that came together. I had some spare time. It was becoming clear that the source code wasn't going to be released by the original team, or they weren't able to release the code. Throughout the month of April, Anthropic was running a double context promotion for the Opus 4.6 model. So that was a unique opportunity to throw some new tools at the product and take an entirely new approach - leverage the AI plus our knowledge of the system to build something from scratch.</p>
+<p>One fairly intense month. I'd say there's probably about 350 to 400 hours sunk into the project. If you do the math, I was working 10 to 18 hours per day for one month solid.</p>
+<p>The decision of how far to push, how much perfection to look for, how ready the product should be before releasing - that's a difficult question to answer. It's always a sliding scale. I wanted to deliver a product that was more than a proof of concept. I wanted users to be able to do something useful. Let's be clear: there have already been proof of concept applications that run on the iCopy-X, but none of them tried to create an open source version or replicate the functionality.</p>
+<p>I had some clear goals. I wanted users to be able to install one IPK. I wanted there to be a universal IPK - I didn't want the obligation to download a specifically-built IPK for a given serial number. I wanted it to be a drop-in replacement, so users would be able to continue to use the device. They wouldn't have to find themselves in a situation where they need to go back to stock firmware for the functionality, then come into the open source version, play around with it, but can't do anything useful. I needed and wanted it to be functional. And I wanted it to be stable.</p>
+<p>The problem with that is you need extensive testing, and that means you need hundreds of types of badges - which, being on the technical side of LAB401, we do have. However, there are always going to be some gaps. Essentially, the metric for when release was ready was when I could perform all of the installation processes and all of the flows - read, write, auto copy, scanning, diagnosis - over and over without crashes, without bugs. I knew that when we released it, we weren't putting the user's system in danger, and they were going to have an out-of-box experience that was the same or better than the closed source version.</p>
+<hr>
+<p><strong>Sandy:</strong><span> </span>So I have a question about what does LAB401 get out of this actually, and what don't they get?</p>
+<p><strong>quantum-x:</strong><span> </span>LAB401 has visibility. It has a platform that's important to use for this project. It could have been released anonymously, or under my personal repository. Why was it released under LAB401? I believe that LAB401 has a moral obligation and a professional obligation to the customers of the iCopy-X.</p>
+<p>The iCopy-X was sold as a device that would be continuously updated and maintained. We marketed and sold it as a product that would receive maintenance and updates. And so three, four years on, with no more updates, we found ourselves professionally in a strange or awkward situation where we felt the products we'd sold were not living up to the promises we'd made.</p>
+<p>It was also a somewhat strange situation because we have a really well-built, well-designed, well-executed product. We have to be very clear: the iCopy-X is a really, really nice product in terms of hardware, architecture, and software. The original team did an excellent job. But it was becoming very difficult to justify a sale of this product to pentesters.</p>
+<p>Pentesters are not locksmiths. Pentesters are not cloners. Pentesters have specific use cases for this type of product. They need to be able to make a modification. They need to have the latest possible repository or any specific code that they want to run on the device, so it adapts to their daily life - it adapts to the evolving surface of RFID penetration.</p>
+<p>It became this very strange situation where in our hands we had a physical device that was a very useful tool for pentesters, but the software was holding it back. What does LAB401 get out of this? By making this software open source, it allows us to finish the transaction that we promised. It's a delivery of the promise that we made when customers put trust in LAB401 to make that purchase.</p>
+<hr>
+<p><strong>Sandy:</strong><span> </span>Are there any plans to do the same kind of thing with other products?</p>
+<p><strong>quantum-x:</strong><span> </span>To be honest, no, for multiple reasons. But at the same time, we didn't plan - I didn't plan - for this to happen for the iCopy-X either. Until 90% of the way along the product development, I was not sure if we were actually going to be able to deliver it.</p>
+<p><strong>Sandy:</strong><span> </span>Okay.</p>
+<p><strong>quantum-x:</strong><span> </span>The complexity of this project is that it's actually about six projects in one. The first is the notion of "is a proof of concept possible?" It took multiple hours and multiple iterations to say, "Can we actually install an IPK on this?" Okay, yes, we can install a custom IPK - but we're getting stuck in the jail, so now we have to make a jailbreak. Once we proved that we could make a jailbreak and install our own code onto the system, then it was a question of: okay, can we make a UI? Yes, we can make a UI. Okay.</p>
+<p>The real challenge for this product, once all the proof of concept is out of the way, is the logic. This entire machine is basically a gigantic logic tree. If you place a certain type of card and it has a certain type of key or a certain type of behavior, then that goes into a branch. There are literally thousands and thousands of branches and nodes that are possible.</p>
+<p>The real challenge was: are we able to get 100% - or as close to 100% - coverage of the original functionality? Let's be clear: the device is not only closed source, it's compiled. Sure, you could decompile, but you're not decompiling to source code - you decompile to machine code, which is essentially useless. I took one or two different approaches at trying to understand how to attack the problem, and each time it felt very much like walking a tightrope - trying to find this line between the start of the task and the end of the task. There were some very tight passages, and at multiple instances I didn't believe the project was actually going to work.</p>
+<hr>
+<p><strong>Sandy:</strong><span> </span>So how did you actually set this up? What gear are you running?</p>
+<p><strong>quantum-x:</strong><span> </span>The setup is very simple. As I said, I decided I was going to lean on Claude - the Opus 4.6 one million token context model - for some of the heavy lifting. But to be very clear, in a project of this scale, you burn through context very quickly, so you can't rely on the AI system to intuit the project management. I was able to use the 4.6 Claude models for some of the iterative work - like building tests and then building out some of the mechanical code. But the actual project management was very much a human job to get this across the line.</p>
+<p>One of the most challenging parts of this project was working out the correct approach to take. You've got this logic tree, and you have to understand how to give full coverage. If you give 50% coverage of the original functionality, it just means the device is going to be broken 50% of the time. For 50% of the badges you put on it, you're going to break them - you're not going to write them properly, or you're not going to detect them. So the challenge is that you need to get 100%, or as close to 100% functionality and coverage as possible.</p>
+<p>After iterating multiple times, the logical approach - at least for me - is TDD, or test-driven design. TDD is a programming technique where the most important thing is to build tests first. In standard design, you build code, write tests, ensure that your code matches the tests, then iterate from there. Test-driven design puts your tests at the front. The first thing you write is tests.</p>
+<p>The iCopy-X, in terms of a project or a product, has very clearly defined inputs and very clearly defined outputs. If you apply TDD to real-world terms, it's something like: I have one dollar in my hand and I want to buy an egg. The input is that I want to buy an egg and I have one dollar, and the output is going to be me walking away with an egg. If I define my test like this - the input is my desire to have an egg and the fact that I have money, and the output is an egg - I can go into a shop, give the guy a dollar, and ask for an egg. What happens in between is kind of irrelevant. Maybe the guy has a chicken, maybe he has some eggs under the counter, maybe he has to go to a farm, run away, take an hour, come back, and give me an egg. It doesn't really matter as long as the output I've defined is fulfilled. I wanted an egg, now I have an egg. When you refine the definitions more - maybe I want an organic egg - the guy has to go to an organic farm, and at the end, I get an organic egg.</p>
+<p>If you extrapolate this to the iCopy-X, we have very well-defined sequences with the Proxmark. We can sit and look at the data that flows to the Proxmark. We know what the Proxmark source code is, and we also know what output the Proxmark makes. Based on that, and knowing the types of badges that the device supports, I was able to determine fixtures, so we'd be able to provoke every single possible logical path.</p>
+<p>Essentially, you're working backwards and forwards at the same time. You're saying, "I know what the outputs are that I want, so in order to provoke those outputs, I'm going to have to generate certain inputs. I can use the Proxmark layer in the middle to build the data sequences that will provoke those outputs."</p>
+<p>Once that was done - that was the first major challenge: mapping this out. I had to build the logic tree. Once the logic tree was made, it was a question of applying an open source UI map over the top of the product - still using the original product firmware, but putting my own open source interface on it - and then running that through the testing system. When I was able to prove that the UI was matching the original functionality, I was able to go through and start implementing module by module, flow by flow, the actual middleware functionality. Scanning a tag and iterating against the tests until we came out with a result where it passed.</p>
+<p>There were multiple layers to the project. This was just one of them. Once we got to the end of that, there was the other layer of: how do we get compatibility with the Iceman firmware? Can we get the Iceman firmware compiling? Yes, there's built-in community support for that - but there are multiple hardware iterations of the iCopy-X. Are they still compatible? No one knows. No one's looked at it for six or seven years. And then, the small victory: yes, okay, we can compile Iceman source for the iCopy-X. But you've just created another problem, because between the Iceman source and the iCopy-X source there's a five- or six-year gap. So all of the code and everything that was put in place now has to be rewritten to make compatibility between the old and the new.</p>
+<p>For this reason, every single step of the way, there was very much a possibility that by making progress, you'd end up in a situation where you couldn't deliver the product.</p>
+<p>Fortunately, we're in a situation where the firmware that's been open sourced is compatible with the legacy device - let's say the factory device, or the factory-flashed Proxmark module. It's also compatible with the Iceman up-to-date source code, and you're also able to flash the Proxmark module inside the iCopy-X to bring it up to modern Iceman.</p>
+<p><strong>Sandy:</strong><span> </span>That's a little miracle then, that it's there like that.</p>
+<p><strong>quantum-x:</strong><span> </span>One of the core pieces of tech for this project was QEMU. The ability to completely emulate and mock the iCopy-X device allowed us to build up comprehensive testing - what I call flows with scenarios, but essentially testing suites. For each flow - scan, read, auto copy, write, that type of flow - there were literally hundreds, up to thousands, of scenarios. For example, for a scan: is it a MIFARE? Is it a MIFARE 1K? Is it a MIFARE 1K 4-byte? For every logic tree, down to the node, I built out testing scenarios that were then emulated against the real device in emulation. Without that, it would have been a case of working on the real device and trying to build it one by one iteratively, which would have been unfeasible or impossible.</p>
+<p>In the end, we ended up with thousands of tests in the testing suite. So many that actually executing the test suite was taking a very long time. One of the key pieces of hardware I had to deploy was a 48-core, 96GB server that was just running QEMU tests. It could crunch them in parallel and get the testing suite done within about one hour end-to-end. Without that piece of hardware, it was taking half a day to run a testing suite, which meant it was going to be impossible to iterate quickly enough.</p>
+<hr>
+<p><strong>Sandy:</strong><span> </span>How much did it cost?<span> </span><em>(chuckles)</em><span> </span>Between the tokens, the hardware, and the time you spent - how much did it cost?</p>
+<p><strong>quantum-x:</strong><span> </span>The most costly element - but also the hardest element to define - is time. Again, it was about 350 to 400 hours over about a month. It was a large time sink. In terms of real-world costs, it was maybe 400 euros worth of Claude 20x Max subscriptions. There was the QEMU server, which was expensive - about 400 euros a month. So in terms of money out of pocket, there was probably about 1,000 euros placed into the project.</p>
+<p>That's a lot of money in one regard, but if you compare that to a traditional software development process of four or five years ago, pre-AI, getting a development team to do this project would have cost a lot more than 1,000 euros. So it's an interesting exercise to see how AI today can be used - and its shortcomings, because there are definitely shortcomings. On some days, I was burning through the weekly allowance in two hours, which is why we needed to have multiple accounts. Even in some complicated flows, like a read flow or a scan flow, you'd saturate the million token context very quickly, so you'd have to hand off to multiple agents multiple times over one flow. Every time, there's this sort of loss and you end up going round and round in circles.</p>
+<p>I would say that this type of task would have been impossible - or improbable, and therefore no one would do it, so impossible - pre-AI, and even maybe pre-six months ago, when we had smaller context windows.</p>
+<hr>
+<p><strong>Sandy:</strong><span> </span>What's the single hardest bug you fixed during those 350, 400 hours?</p>
+<p><strong>quantum-x:</strong><span> </span>There were two or three times I got stuck on really difficult bugs, and to be honest, I think I have a sense of trauma over this product, so I've already been trying to forget them.</p>
+<p>One of the things I did was keep a chronicle of the entire build process from start to finish. It's an AI-written document. It's hundreds and hundreds of pages, but I thought it was really important to keep a highly technical document of all the techniques we used. If some of the viewers are interested, it's in the repo - go into the docs directory and open up the chronicle document, and you'll see there are two or three days where they're spent just going round and round in circles on what should be a very simple problem but was very, very difficult.</p>
+<hr>
+<p><strong>Sandy:</strong><span> </span>Okay, let's talk about Doom. So - Doom, on the iCopy-X.</p>
+<p><strong>quantum-x:</strong><span> </span>As everybody who's a geek understands, getting Doom on a product is a sign that you've jailbroken it, or you've got a working jailbreak, or that it's open source. But Doom on this device - it's a Linux device, and everybody knows you can run Doom on Linux. Anyone can SSH into this device and run Doom. That wasn't the challenge.</p>
+<p>The reason I wanted to install Doom on this device was because I wanted to have a plugin architecture. The iCopy-X software is really, really complicated, and often complicated software means it's harder for developers to either make contributions or make the modifications they need for themselves. One of the things I wanted to address with the open source version was to have a very clearly-defined UI system, and an easy-to-use plugin framework. The UI is all defined in JSON, so you can quite easily go in and modify the flows and the UI via JSON. Likewise, the plugin system is based on JSON.</p>
+<p>I wanted users to be able to quickly build two or three types of plugins: a plugin where you can speak with the system, a plugin where you can speak with the Proxmark module easily and iterate off the replies from the Proxmark, and a plugin architecture that allows you to run full-screen native binaries.</p>
+<p>The obvious choice for that was Doom. It's a fairly complex flow - you're using FGL, you're using full screen - but at the same time, you have to run that in the safe environment of the iCopy-X. So some things like buttons need to be mapped to Doom, but also mapped back to the iCopy-X. I figured Doom was a really interesting plugin to include on the product. And at the same time, it's Doom. You can't make an open source product without having Doom in it.</p>
+<hr>
+<p><strong>Sandy:</strong><span> </span>Another thing that's really amazing: the graphics you've implemented with the credits.</p>
+<p><strong>quantum-x:</strong><span> </span>Well, don't go and spoil everything. It's a very poorly hidden Easter egg.</p>
+<p>To be fair, I assigned myself side quests while building the device to keep sane - because running hundreds and hundreds and thousands of tests was not only difficult but also quite boring. To keep up motivation, I tried to define a couple of side quests. Doom was one of the milestones I wanted to hit. I wanted to have Doom running in a specific situation. I also wanted to have some type of love letter to the community and to the geeks.</p>
+<p>If you grew up in the era of the demo scene and scrollers, you'll recognize this format instantly. You'll recognize this notion of old-school keygens and cracks where you'd have greets. These things would be fascinating to watch, but they'd also mean nothing to you, because they're just listing random names. Because this is what I would consider an almost personal device to the community - everyone in the pentesting community knows this device - I wanted to give a little bit of something back. So there are some greets and thanks to people who were important to this project, who helped bring it across the line.</p>
+<p>There's an acknowledgement to the original team, because without them this product wouldn't exist. The work the original team did - in terms of hardware, software, product management, and belief in a project to invest enough to make it happen - it can't be overstated.</p>
+<p>And obviously, there are all of the Proxmark co-contributors, whether they've made one contribution or 11,000 contributions, as Iceman has made. It's really important to give recognition to everyone involved.</p>
+<hr>
+<p><strong>Sandy:</strong><span> </span>Before I leave you - anything you want to add?</p>
+<p><strong>quantum-x:</strong><span> </span>I think it's important to discuss what the future of this project is going to be. My goal was to deliver an end-to-end functional, reliable, open source system for the iCopy-X, and I believe that's done. However, I don't have plans to maintain and update this project. That's out of scope for us. I don't have any experience in running and maintaining open source projects, and that's a real skill.</p>
+<p>I've spoken to some of the usual suspects in the community, and hopefully we'll see some of these guys coming on board and becoming administrators on the project. What's really important - and what I'd really hope for - is that if people see value in this project, they consider cloning it, installing it, contributing, and maintaining or assisting to maintain this code base.</p>
+<p><strong>Sandy:</strong><span> </span>Well, thank you for doing this. I'm Sandy from LAB401.com. Take care, and see you next time.</p>
+<hr>
+<h2>Before vs after: what actually changes for your iCopy-X</h2>
+<h3>Before iCopy-X Open</h3>
+<p>The iCopy-X you bought between 2021 and March 2026 was a closed-source device frozen at its 2022 firmware. You had:</p>
+<ul>
+<li>
+<strong>A solid auto-copy flow</strong><span> </span>for the vast majority of LF and HF tags</li>
+<li>
+<strong>An embedded Proxmark client</strong><span> </span>you could drop into via USB-C for advanced work</li>
+<li>
+<strong>LUA scripting</strong><span> </span>- the last feature added, via a 2022 Lab401/iCopy-X collab</li>
+<li>
+<strong>No plugin system</strong><span> </span>- if you wanted to add a flow, fork an attack, or integrate a new tag type, the answer was "no"</li>
+<li>
+<strong>DRM</strong>: Blanks had DRM - you were forced to use iCopy-X blanks</li>
+<li>
+<strong>No way to update the Proxmark firmware inside the device</strong><span> </span>to modern Iceman</li>
+<li>
+<strong>No compatibility with</strong><span> </span>six years of upstream Proxmark improvements: newer nested/hardnested implementations, FM11RF08S static-encrypted-nonce attacks, updated standalone modes, the current Iceman CLI The hardware was fine. The hardware is still fine. The software was the bottleneck.</li>
+</ul>
+<h3>After iCopy-X Open</h3>
+<ul>
+<li>
+<strong>One universal IPK</strong><span> </span>- drop-in install, no serial-number-specific build required, no flashing risk</li>
+<li>
+<strong>Full source code on GitHub</strong><span> </span>under the LAB401 repo - UI, flows, middleware, plugin framework</li>
+<li>
+<strong>No</strong> <strong>DRM </strong>- use whichever blanks you want. </li>
+<li>
+<strong>JSON-driven UI</strong><span> </span>- change labels, flows, or navigation without recompiling anything</li>
+<li>
+<strong>JSON-driven plugin system</strong><span> </span>- three plugin types out of the box: talk to the system, talk to the Proxmark, or run a full-screen native binary</li>
+<li>
+<strong>Modern Iceman proxmark firmware</strong><span> </span>- the iCopy-X gets the last six years of RFID research dropped into its chest cavity</li>
+<li>
+<strong>Easy install / uninstall</strong><span> </span>- still fully compatible with factory firmware and factory-flashed Proxmark, so you're not committing to anything permanent</li>
+<li>
+<strong>Community-maintainable</strong><span> </span>- if the community picks it up (and that's the hope), bugs get fixed and features get added by the people who actually use the device And yes,<span> </span><strong>Doom runs on it</strong>. As it should.</li>
+</ul>
+<hr>
+<h2>How does this compare to a Proxmark 3 RDV4?</h2>
+<p>This is the question most of you will actually be asking, so let's answer it directly.</p>
+<p>The Proxmark 3 RDV4 is the reference - the Iceman-maintained, tethered, bare-metal RFID research platform. It's what every serious RFID researcher has on their desk. The tradeoff has always been:</p>
+<table>
+<thead>
+<tr>
+<th><br></th>
+<th><strong>Proxmark 3 RDV4</strong></th>
+<th><strong>iCopy-X (closed)</strong></th>
+<th><strong>iCopy-X Open</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Proxmark 3 core</td>
+<td>✅</td>
+<td>✅ (older firmware)</td>
+<td>✅ (can flash modern Iceman)</td>
+</tr>
+<tr>
+<td>Standalone (no PC)</td>
+<td><i>Limited</i></td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Built-in screen + buttons</td>
+<td>❌</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Integrated battery</td>
+<td>❌</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Auto-copy "EZ mode"</td>
+<td>❌ (CLI only)</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Iceman fork / latest research</td>
+<td>✅</td>
+<td>❌ (frozen 2022)</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Source code available</td>
+<td>✅</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Plugin architecture</td>
+<td>❌</td>
+<td>❌</td>
+<td>✅ (JSON-based)</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p>The practical version:<span> </span><strong>for a comparable investment, you're now getting a Proxmark 3 with EZ-mode auto-copy, an integrated screen and battery, AND the Iceman fork - in a single field-ready device.</strong><span> </span>That combination didn't exist a month ago.</p>
+<p>If you already own an iCopy-X, iCopy-X Open turns it into that device for free.</p>
+<p>If you're choosing between platforms today: the RDV4 is still the better choice if you live in the CLI and want maximum flexibility on your desk. The iCopy-X with Open firmware is the better choice if you need to work in the field, want the screen and auto-copy flow, and don't want to give up modern Iceman features to get them.</p>
+<p>For most pentesters doing client site work, that second option is the one you've been waiting for.</p>
+<hr>
+<h2>What's next</h2>
+<p>To be clear about scope:<span> </span><strong>our goal</strong><span> <strong>was to open-source  the</strong> <strong>iCopy-X</strong>, not to be the permanent guardians of the project. </span>The iCopy-X is a very complex product; it needs real open source maintainers.</p>
+<p>Today, will we consider it to be feature complete, there are definitely bugs and definitely improvements to make.</p>
+<p><strong>If you see value in this project:</strong></p>
+<ul>
+<li>
+<strong>Clone it.</strong><span> </span>The repo is on<span> <a class="ytAttributedStringLink ytAttributedStringLinkCallToActionColor" href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbnNfcXAxSWRleDBhc0NJekJhelZwYmhFeXVyd3xBQ3Jtc0trLUZ3Z2EtMWhPRFJ5R1gzX0VFSTF0b1RUeXItMDdxV01kQk5zdDZ2TGN0WjhPS0NicGZSY1Jqc2psY2pCbERlakVRRTdNaFVtemRReXg0a0NIM0Z6Q0V1ay05dExVRGxfM0NYczlDbi1kNUROOUEzVQ&amp;q=https%3A%2F%2Fgithub.com%2Flab-401%2Ficopy-x&amp;v=WWS-9QdulC0" rel="nofollow" tabindex="0" target="_blank">https://github.com/lab-401/icopy-x</a></span>
+</li>
+<li>
+<strong>Install it</strong><span> </span>on your iCopy-X. Drop-in, reversible, no risk to your existing firmware.</li>
+<li>
+<strong>Contribute.</strong><span> </span>Badge compatibility, new flows, plugin examples - the framework is there.</li>
+<li>
+<strong>Help maintain it.</strong><span> </span>If you've run an open source project before and this is a device you use, get in touch. Huge shoutout to the original iCopy-X team for building the hardware this is running on, and to Iceman and the RRG/Proxmark contributors whose work we're now able to bring onto the device directly. Without either, there's no iCopy-X Open.</li>
+</ul>
+<hr>
+<h3>Get the iCopy-X</h3>
+<ul>
+<li><a href="https://lab401.com/products/icopy-x">iCopy-XS - €375 and up</a></li>
+<li><a href="https://lab401.com/collections/icopy-x-tags">iCopy-X Tag Packs</a></li>
+</ul>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/we-need-to-talk-about-the-icopy-x</id>
+    <published>2025-11-16T15:00:27+01:00</published>
+    <updated>2025-11-16T15:08:33+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/we-need-to-talk-about-the-icopy-x"/>
+    <title>We need to talk about the iCopy-X.</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p>It's been three years since the iCopy-X's last firmware update. Is it still the ultimate RFID device? Has the project been abandoned? We need to talk about the iCopy-X.</p>
+<p>The Lab401 team flew to China, sat down with the dev-team, and now we need your help to shape the future of the iCopy-X.</p><p><a class="read-more" href="https://lab401.com/blogs/news/we-need-to-talk-about-the-icopy-x">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<div aria-expanded="false" aria-controls=":42g" aria-owns=":42g" spellcheck="false" style="direction: ltr; min-height: 360px;" aria-multiline="true" role="textbox" aria-label="Message Body" class="Am aiL Al editable LW-avf tS-tW tS-tY" id=":3ul" tabindex="1">
+<div dir="ltr">We need to talk about the iCopy-X. It's been<strong> three years</strong> since it received an update.</div>
+<div dir="ltr">Have the promises of the ultimate portable open-source Proxmark faded?</div>
+<div dir="ltr">Is the product abandoned?</div>
+<div dir="ltr">Is it still a must-have product for pentesters ?</div>
+<div dir="ltr"><br></div>
+<div dir="ltr">
+<strong>We flew to China, sat down the the developers, and we have answers.</strong><br><iframe width="1922" height="1081" src="https://www.youtube.com/embed/te2ZWTk3asM" title="We need to talk about the iCopy-X"></iframe><br>The iCopy-X was launched in 2021 as an automated RFID cloning tool specifically for "locksmiths, landlords and other professionals".</div>
+<div dir="ltr" style="text-align: start;">
+<img src="https://cdn.shopify.com/s/files/1/2175/8571/files/quote-1.png?v=1763301405" style="margin-top: 16px; margin-bottom: 16px; float: none;">People quickly realised its potential for pentesters, RFID researchers and security auditors : a completely standalone, battery-powered, stable Proxmark 3. The screen, UI and buttons made previously complex tasks like "clone this unknown badge" quick and easy - but without sacrificing power: advanced users could connect via CLI directly to the Proxmark3 client.<br><br>This dual-usage meant that the iCopy-X was rapidly adopted as a "must-have tool" in the RFID community. The iCopy-X was never open-source, but the device was compelling, and the team promised "constant firmware upgrades", and the release of a "open-source development kit", to allow users to "modify logic" and "add new features to the graphical interface".</div>
+<div dir="ltr" style="text-align: start;">
+<img src="https://cdn.shopify.com/s/files/1/2175/8571/files/quote-3.png?v=1763301405" style="margin-top: 16px; margin-bottom: 16px; float: none;"><br>Five years later, however - these promises haven't been met. While the development team released minimum amounts of code to comply with the Proxmark's GPL licence - the UI, logic and processing layers remain closed source.<br><br>The gap between mainline Proxmark code, and iCopy-Xs' fork has increased; in 2022, Lab401 worked with iCopy-X to add LUA scripting into the UI - and that was the last update the device has received..<br><br>At Lab401, we have a few golden rules: make recommendations that customers can trust, and never disappoint customers. We've sold the iCopy-X as the ideal Proxmark device: convenience without sacrificing power. Throughout 2025, we've been asking ourselves the question: what's the status of the iCopy-X? Is the product abandoned? Can we honestly still recommend it as a must-have product for pentesters? <br><br>We flew to China to sit down with the developers - twice - and discuss the product and its future.<br><br>We'd planned to orient the conversation around how open-source would "save" the product, future-proof the product, and enable the product to evolve.<br>As we started discussed, we were honestly a little humbled: we'd missed a large part of the picture. We'd assumed that the iCopy-X's team had been ignoring _our_ problems, but we were also pretty ignorant of _their_ problems, notably:<br><br> - The iCopy-X was built for locksmiths, not pentesters. And by and large, locksmiths are satisfied with the product. They also make up a significant portion of the sales; and the key markets are not the ones you'd expect.<br><br> - The biggest risk for a manufacturer is investing in development, to have your market sniped by cloners. The iCopy-X has resisted cloners for more than 4 years: an impressive accomplishment, in no small part due to its closed-source policy.<br><br>However, the biggest surprise is that the team fully supports the idea Open Source - but there's an implementation problem.<br><br>The majority of the iCopy-X development was spent on refactoring the Proxmark codebase: making it drivable via UI, and more importantly: stable.<br>The Proxmark is a research device: pentesters can accept a few crashes or inconsistencies, plugging and unplugging and other quirkiness.<br>The iCopy-X is sold as a mainstream product: its target customers (locksmiths) need consistency and stability. <br><br>If you take the approach of putting mainline Proxmark firmware on the iCopy-X, you'll lose the UI, compatibility with the middleware that transports data between the Proxmark client and the UI, and the stability of the iCopy-X. These would have to be re-implemented.<br><br>If you go the other way, and take the iCopy-X code to the Proxmark codebase, aside from the backlog of years of commits to merge, you'll also be asking the Proxmark community to maintain two different hardware configurations - both seem unrealistic.<br><br>At this point, you may be scrambling to yell at us that we've missed something critical, that there's an easy solution, or actually the iCopy-X would be the perfect device, but it's just missing "whatever". <br><br>And that's great news, because that's the same conclusion we came to: let the community decide what needs to be done.<br>If you feel that the iCopy-X is <em>missing features</em> - tell us what they are.<br>If you feel that there's something super obvious that we missed: tell us what it is.<br>If you've got something to say and want to be heard by the iCopy-X developers: tell us.</div>
+<div dir="ltr" style="text-align: start;"></div>
+<div dir="ltr" style="text-align: start;">The best place to leave comments is on the <a href="https://www.youtube.com/watch?v=te2ZWTk3asM" target="_blank" rel="noopener"><strong>youtube video</strong></a> - but you can also send an email to <a href="mailto:support@lab401.com">support@lab401.com</a> and we will collect the results.</div>
+<div dir="ltr" style="text-align: start;">
+<br>Our goal is to collate the most popular <em>missing features</em>, fund development and get new updates pushed out. This has been pre-negociated with the iCopy-X team, and we believe not only achievable, but also realistic for all parties.<br><br>We acknowledge that "missing features" falls <strong>very short </strong>of releasing the full source code and let the community choose its own adventure - but while we're deeply invested in delivering customer satisfaction: the iCopy-X isn't our product, and everyone's interests, including the developers, need to be considered.<br><br>Now you know what's going on with the iCopy-X. Our goal is to start a dialog with everyone involved: the community, the contributors, the customers, the developers and the decision makers. <br><br>If you have an opinion on the iCopy-X, let it be known on the youtube video.</div>
+<div dir="ltr" style="text-align: start;"></div>
+<div dir="ltr" style="text-align: start;">The iCopy-X dev team will be reading these comments - and if there are other interesting threads (reddit, etc) - please let it be known. We'll also be sending out emails to iCopy-X customers to get feedback.<br><br>So let us know - and until then - stay safe.</div>
+</div>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/icopy-x-launch</id>
+    <published>2021-09-01T00:00:00+02:00</published>
+    <updated>2021-09-01T00:00:01+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/icopy-x-launch"/>
+    <title>Back to work: Product launch &amp; 10% site-wide promo</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[From September 1 - 5, take advantage of a 10% store-wide sale, as we launch two new incredible products: the iCopy-X, a powerful Proxmark-based RFID Cloner, and the iCS Decoder, an iCLASS SE and iCLASS SEOS cloner and decoder.<p><a class="read-more" href="https://lab401.com/blogs/news/icopy-x-launch">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>To welcome you back to your desk, the Lab401 team has been working hard over summer to launch new &amp; exclusive tools.<br><br>We'll also be running a <strong>10% store-wide promo</strong> from the <strong>1st - 5th of September.</strong> Be sure to take advantage of this promo to get an incredible deal on the new products. Like always - everyone qualifies - there's no limits, no catches, and no coupons to enter - just grab the products you need and get 10% off.</p>
+<p>We're proud to announce the product launch of the <strong>iCopy-X </strong>and <strong>iCS Decoder</strong>.<br>Both tools are exclusive to Lab401 in Europe, Australia and New Zealand.</p>
+<div style="margin: 2em 0px 0 0px;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>iCopy-X</h3>
+<p>It's finally here - the iCopy-X is the powerful portable RFID cloning device that everyone's been talking about.<br>Built on the Proxmark 3, its easy to use interface takes the hassle out of RFID cloning. It supports the majority of HF and LF cards on the market, and is a must have for pentesters and security researchers.</p>
+<p><a href="/products/icopy-x">Check out the iCopy-X here.</a></p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left" style="text-align: center;">
+<p><a href="/products/icopy-x"><img src="https://cdn.shopify.com/s/files/1/2175/8571/products/ICopyX-RFID-Cloner-3-4-1_240x240.png?v=1629380189" style="margin: 0pxpx 0pxpx 0pxpx 0pxpx; float: none;" width="240x240" height="240x240"></a></p>
+</div>
+</div>
+<div style="margin: 2em 0px 0 0px;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>iCLASS SE / SEOS Cloner</h3>
+<p>The iCS Decoder is the world's first device that can decode and clone iCLASS SE and iCLASS SEOS badges. The device leverages an exploit that is enabled by default in SE / SEOS system to create legacy badges dervied from SE / SEOS badges.<br>The iCS Decoder is an accessory for the iCopy-X.</p>
+<p><a href="/products/ics-decoder-iclass-se-seos-cloner-decoder">Check out the iCS Decoder here.</a></p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left" style="text-align: center;">
+<p><a href="/products/ics-decoder-iclass-se-seos-cloner-decoder"><img src="https://cdn.shopify.com/s/files/1/2175/8571/products/iCSDecoder-ICLASS-SEandSEOSDecoder-2_240x240.png?v=1629298269" alt=""></a></p>
+</div>
+</div>
+<div style="margin: 2em 0px 0 0px;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>PandwaRF Marauder Ultimate</h3>
+<p>Purpose built for deaddrop / standalone signal capture, the PandwaRF Marauder Ultimate integrates with the PandwaRF Rogue Pro for full signal analysis, processing, brand and model detection and signal transformation.</p>
+<p><a href="/products/pandwarf-marauder-ultimate">Check out the PandwaRF Marauder Ultimate here.</a></p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left" style="text-align: center;">
+<p><a href="/products/pandwarf-marauder-ultimate"><img src="https://cdn.shopify.com/s/files/1/2175/8571/products/Maurauder-Ultimate-1_d3b4416a-9f06-4cd2-8050-05929833849f_240x240.png?v=1628870147" alt=""></a></p>
+</div>
+</div>
+<div style="margin: 2em 0px 0 0px;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Portapack for the HackRF</h3>
+<p>The PortaPack converts the HackRF One into the ultimate portable SDR multi-tool.<br>Dozens of built-in functions for sniffing, spoofing, recording, replaying and analyzing on the go. No cables or external computer required - the Portapack is a standalone, portable SDR solution.</p>
+<p><a href="/products/portapack-for-hackrf-one">Check out the PortaPack here.</a></p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left" style="text-align: center;">
+<p><a href="/products/portapack-for-hackrf-one"><img src="https://cdn.shopify.com/s/files/1/2175/8571/products/PortaPack_240x240.png?v=1625147894" alt=""></a></p>
+</div>
+</div>
+<p>With 10% off store-wide and new exclusive products - we hope that getting back to work is a little bit less difficult.</p>
+<p>As always - if you have any questions or concerns - please reach out directly to our fantastic customer support: <a href="mailto:support@lab401.com">support@lab401.com</a></p>
+<p>Lab401 Steve.</p>]]>
+    </content>
+  </entry>
+</feed>

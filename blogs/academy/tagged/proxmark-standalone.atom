@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/academy.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/academy/tagged/proxmark-standalone.atom"/>
+  <title>Lab401 - Academy</title>
+  <updated>2026-06-04T15:04:58+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/academy/proxmark-3-rdv-4-standalone-module-assembly-first-use</id>
+    <published>2019-05-21T08:20:00+02:00</published>
+    <updated>2022-02-01T16:01:46+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/proxmark-3-rdv-4-standalone-module-assembly-first-use"/>
+    <title>Proxmark 3 + BlueShark Standalone Module: Assembly &amp; First Use</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p>With the recent release of the <strong>Proxmark 3 RDV 4 Standalone Kit, </strong>Lab401 Academy presents its <strong>assembly and first use tutorial.</strong></p>
+<p>The Standalone module brings full-wireless &amp; standalone functionality to the Proxmark 3, while preserving its sleek and compact nature.</p>
+<p>So you've got your Proxmark 3 RDV3 Bluetooth &amp; Battery Kit on your desk - how do you get started? Read on for full assembly and use instructions!</p><p><a class="read-more" href="https://lab401.com/blogs/academy/proxmark-3-rdv-4-standalone-module-assembly-first-use">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p><strong></strong>With the recent release of the <strong><a href="https://lab401.com/products/proxmark-3-rdv4-standalone-kit">Proxmark 3 RDV 4 Standalone Kit</a>, </strong>Lab401 Academy presents its <strong>assembly and first use tutorial.</strong></p>
+<p><strong>Please note</strong> that this document does not provide debugging or compiling information, as this frequently changes. If you experience problems, please consult the frequently updated <a href="https://github.com/RfidResearchGroup/proxmark3/blob/master/doc/bt_manual_v10.md" target="_blank" rel="noopener noreferrer">troubleshooting guide here.</a><strong> </strong></p>
+<p>The Standalone module brings full-wireless &amp; standalone functionality to the Proxmark 3, while preserving its sleek and compact nature.</p>
+<p>The Standalone Module consists of two elements:</p>
+<ul>
+<li>Battery Module (Polymer Lithium-Ion, with integrated power management system)</li>
+<li>Bluetooth Module (BLE 2.0 EDR, default baud rate 115200)</li>
+</ul>
+<p>These elements enable full use of the Proxmark without wires or cables, providing:</p>
+<ul>
+<li>Full control via PC, Mobile Phone, etc.</li>
+<li>Proxmark's Standalone Mode: Sniffing, Reading, Simulation, etc</li>
+</ul>
+<p>To get started, the module needs to be assembled and attached to your existing Proxmark 3 RDV4.</p>
+<h2>Assembly Video</h2>
+<p>If you prefer to follow a video tutorial, please refer to the video.<br>Step-by-step text instructions can be found below.</p>
+<p><iframe src="https://www.youtube.com/embed/3D2zh0OiOZs" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="717" height="403" frameborder="0"></iframe> <em>This video comes from Lab401 contributor <strong>Dominic Villeneuve</strong> of <strong><a href="https://www.youtube.com/channel/UCngpVvZNgVRD-OzbP0TY9GA" target="_blank" title="DHack Security: RFID Tutorials" rel="noopener noreferrer">DHack Security</a></strong></em></p>
+<h2>Assembly Instructions</h2>
+<p>To continue, you'll need a few things:</p>
+<ul>
+<li>Proxmark 3 RDV4 (Updated to <a href="https://github.com/RfidResearchGroup/proxmark3" target="_blank" rel="noopener noreferrer"><strong>latest source code</strong></a>)</li>
+<li>Proxmark 3 RDV4 Standalone Module</li>
+<li>Allen-key tool</li>
+<li>(Optional) Case opening spatula / lever / guitar pick</li>
+</ul>
+<p>Once you've got everything ready, let's dive in.</p>
+<ol>
+<li>
+<strong>IMPORTANT: <br></strong>Ensure all cables are removed from your Proxmark Device<br>Ensure the power is <em>turned off</em> on the Standalone Module<br><br>
+</li>
+<li>Remove the plastic cases from your Proxmark device.<br> - Removable larger shell<br> - Top part of the 'button shell'<br><em>This is easier if you use an opening tool.<br><br><img src="//cdn.shopify.com/s/files/1/2175/8571/files/assembly-1_large.png?v=1558420884" alt=""></em>
+</li>
+<li>- Remove the antenna board to expose the FPC interface.<br>- Take the Standalone module, turn it over.<br>- Insert the FPC wire into the FPC connector.<br><strong>IMPORTANT: </strong>Lock the FPC Connector<br><img src="//cdn.shopify.com/s/files/1/2175/8571/files/assembly-6_large.png?v=1558421897" alt="">.</li>
+<li>Remove the double-sized tape off the heat-conductor</li>
+<li>Turn the standalone module up the right way</li>
+<li>Align the hole positions, and gently insert it onto the Proxmark circuit.<br><img src="//cdn.shopify.com/s/files/1/2175/8571/files/assembly-2_large.png?v=1558421334" alt="">
+</li>
+<li>Align the antenna boards, and replace the screws<br><img src="//cdn.shopify.com/s/files/1/2175/8571/products/proxmark3-battery-bluetooth-2_large.png?v=1558419265" alt="">
+</li>
+<li>Replace the antenna cover<br><img src="//cdn.shopify.com/s/files/1/2175/8571/files/assembly-7_large.png?v=1558422036" alt="">
+</li>
+<li><strong>Assembly Complete!</strong></li>
+</ol>
+<h2>First Use Instructions</h2>
+<p>It's important to get to know your device first:</p>
+<ol>
+<li>
+<strong>Battery On/Off</strong> switch.<br>This allows you to power your Proxmark from its battery - you no longer need to have the device plugged in.<br>When the device is plugged in, it will automatically charge.<br><br>
+</li>
+<li>
+<strong>Bluetooth On/Off</strong> switch<br>Enables / disables the Bluetooth interface<br><br>
+</li>
+<li>
+<strong>Bluetooth Indicator</strong><br>Indicates when Bluetooth is activated<br><em>Blinking Light:</em> BT is activated but not connected.<br><strong></strong><em>Solid Light:</em> BT is connected.</li>
+</ol>
+<p><img src="//cdn.shopify.com/s/files/1/2175/8571/files/assembly-8_large.png?v=1558422873" alt=""></p>
+<h2>Connecting via Bluetooth</h2>
+<p>Bluetooth Connections / Control can be made via two methods:</p>
+<ul>
+<li>
+<strong>Standard Mode</strong>: Mobile Phone, PC, etc</li>
+<li>
+<strong>Fast Mode</strong>: Using a dedicated, specially flashed USB-BLE dongle</li>
+</ul>
+<h3>Standard Mode</h3>
+<ol>
+<li>Enable Bluetooth on your Proxmark 3 RDV 4 (Switch 2)</li>
+<li>On your host device (PC/Phone..) scan for Bluetooth devices</li>
+<li>Select the device RM3_RDV4.0</li>
+<li>Enter the pairing password of 1234</li>
+<li>There will be two COM ports that display. We will use the <strong>lower</strong> COM port number.</li>
+<li>When the correct COM Port is chosen, the Bluetooth Indicator Light (3 in the image) will change from <strong>blinking to solid.</strong>
+</li>
+<li>
+<strong>You can now control the Proxmark 3 RDV4 </strong>via BT serial console.</li>
+</ol>
+<h3><strong>Fast Mode</strong></h3>
+<ol>
+<li>Install the USB Dongle Driver, <a href="http://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers" target="_blank" rel="noopener noreferrer"><strong>available here</strong></a>
+</li>
+<li>Plug the Dongle into your computer.</li>
+<li>
+<span>Enable </span><span>Bluetooth on your Proxmark 3 RDV 4 (Switch 2)</span>
+</li>
+<li>
+<span>The device will automatically search and pair with your Proxmark 3. The </span>Bluetooth Indicator Light (3 in the image) will change from <strong>blinking to solid.</strong>
+</li>
+</ol>
+<h3><strong>Additional Use Notes</strong></h3>
+<p>The Bluetooth interface is connected via UART. The USB and UART interfaces can be used simultaneously - no special switching is required.</p>
+<p>The <a href="https://github.com/RfidResearchGroup/proxmark3/blob/master/doc/uart_notes.md">following link</a> has helpful notes on UART usage and baud rates:<br><br>The battery charging circuit is turned on by default. Any time a USB cable is inserted, the battery will be automatically charged. The red LED will remain bright when charging.</p>
+<p>The red LED will be extinguished when charging is completed.</p>
+<h3>Dissasembly</h3>
+<p> Due to the heat-conductive double-sided tape, when disassembling, you will have to apply a significant amount of force to disassemble.</p>
+<p><strong>IMPORTANT:</strong> Repeated disassembly will reduce the adherence of the double-sided tape - thermal conductivity will be reduced, which will have an impact on performance and product life.</p>]]>
+    </content>
+  </entry>
+</feed>

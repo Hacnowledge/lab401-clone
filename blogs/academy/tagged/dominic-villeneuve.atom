@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/academy.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/academy/tagged/dominic-villeneuve.atom"/>
+  <title>Lab401 - Academy</title>
+  <updated>2026-06-04T15:04:58+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/academy/proxmark-basics-going-standalone-with-the-blueshark</id>
+    <published>2022-02-01T16:14:08+01:00</published>
+    <updated>2022-02-15T15:37:33+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/proxmark-basics-going-standalone-with-the-blueshark"/>
+    <title>Proxmark Basics: Going Standalone with the BlueShark</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p>Episode 5 in the Proxmark Basics series introduces the BlueShark module for the Proxmark 3 RDV4.01.</p>
+<p>The BlueShark module brings standalone functionality to the Proxmark 3 - allowing the device to be controlled wirelessly via Bluetooth.</p><p><a class="read-more" href="https://lab401.com/blogs/academy/proxmark-basics-going-standalone-with-the-blueshark">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p><em>This video comes from Lab401 contributor <strong>Dominic Villeneuve</strong> of <strong><a href="https://www.youtube.com/channel/UCngpVvZNgVRD-OzbP0TY9GA" target="_blank" title="DHack Security: RFID Tutorials" rel="noopener noreferrer">DHack Security</a>, </strong>and is part of the <a href="/blogs/academy/tagged/proxmark-basics" title="Proxmark Basics Series: Proxmark 3 &amp; RFID Tutorials">Proxmark Basics</a> series.</em></p>
+<p>Episode 5 in the Proxmark Basics series introduces the BlueShark module for the Proxmark 3 RDV4.01.</p>
+<p>The BlueShark module brings standalone functionality to the Proxmark 3 - allowing the device to be controlled wirelessly via Bluetooth.</p>
+<p>Whether it's via smart-phone application, Windows, Linux or MacOS, full-device functionality is available via the standard Proxmark client, but without the need for any wires.</p>
+<p>This wireless capability is useful for specific tasks, such as implanting the device, or red-teaming without raising suspicion.</p>
+<p>However, if you're looking for a dedicated, standalone RFID duplication device, we recommend the <a href="/collections/icopy-x" target="_blank" title="RFID Duplicator / Cloner: iCopy-X with embedded Proxmark 3" rel="noopener noreferrer">iCopy-XS. </a></p>
+<p>This episode concentrates on using your Proxmark 3 wirelessly with the Blueshark in Kali Linux - but the techniques also apply to Windows, Android and MacOS.</p>
+<p><iframe src="https://www.youtube.com/embed/27_9D6vpClE" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="717" height="403" frameborder="0"></iframe></p>
+<p><strong>Tools Used:</strong></p>
+<ul>
+<li><a href="/products/proxmark-3-rdv4" title="Proxmark 3 RDV4">Proxmark 3 RDV4.01</a></li>
+<li><a href="/products/proxmark-3-rdv4-standalone-kit" target="_blank" rel="noopener noreferrer">Proxmark 3 BlueShark Standalone Module</a></li>
+</ul>
+<p><strong>Episode Resources<br><br></strong>If you haven't already assembled and setup the device, you can refer to the Lab401 Academy article: <a href="/blogs/academy/proxmark-3-rdv-4-standalone-module-assembly-first-use" target="_blank" rel="noopener noreferrer">Proxmark 3 + BlueShark Assembly + Installation</a></p>
+<ul></ul>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/academy/proxmark-basics-cloning-mifare</id>
+    <published>2022-02-01T15:27:58+01:00</published>
+    <updated>2023-03-14T09:25:21+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/proxmark-basics-cloning-mifare"/>
+    <title>Proxmark Basics: Cloning MIFARE</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[Episode 4 of Proxmark 3 Basics: Learn how to identify, crack, read and clone MIFARE Classic® cards.<p><a class="read-more" href="https://lab401.com/blogs/academy/proxmark-basics-cloning-mifare">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p><em>This video comes from Lab401 contributor <strong>Dominic Villeneuve</strong> of <strong><a href="https://www.youtube.com/channel/UCngpVvZNgVRD-OzbP0TY9GA" target="_blank" title="DHack Security: RFID Tutorials" rel="noopener noreferrer">DHack Security</a>, </strong>and is part of the <a href="/blogs/academy/tagged/proxmark-basics" title="Proxmark Basics Series: Proxmark 3 &amp; RFID Tutorials">Proxmark Basics</a> series.</em></p>
+<p>Episode 4 in the Proxmark Basics series introduces the MIFARE Classic® 1K : introduced in 1994, there are over 10 billion cards in circulation.</p>
+<p>The MIFARE Classic® uses a custom cryptographic algorithm, CRYPTO-1 to protect the card's data. Over the years, there has been a cat-and-mouse game between security researchers and the card's manufacturer.</p>
+<p>Today, there are multiple variations of the MIFARE Classic® card in circulation, some of which use updated techniques to thwart unauthorised reading.</p>
+<p>The Proxmark 3 RDV4.01 main firmware branches integrate all known MIFARE Classic® cracking techniques, and this episode deep dives into each one.</p>
+<p>At the end of the video, you'll be familiar with the MIFARE Classic® family of cards, and how to identify, crack and clone each type.</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/Vwfn6XnTlnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></p>
+<p><strong>Tools Used:</strong></p>
+<ul>
+<li><a href="/products/proxmark-3-rdv4" title="Proxmark 3 RDV4">Proxmark 3 RDV4.01</a></li>
+<li><a href="/products/rfid-pentester-tag-pack" title="Blank RFID Tags for the Proxmark">MIFARE Classic® Compatible "Magic" Blank RFID Cards</a></li>
+</ul>
+<p><strong>Episode Resources:</strong></p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/MIFARE" target="_blank" rel="noopener noreferrer">MIFARE History</a></li>
+</ul>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/academy/proxmark-basics-updating-firmware-on-windows-linux</id>
+    <published>2022-02-01T15:13:06+01:00</published>
+    <updated>2022-02-15T15:37:40+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/proxmark-basics-updating-firmware-on-windows-linux"/>
+    <title>Proxmark Basics: Updating Firmware on Windows &amp; Linux</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[Episode 3 in the Proxmark Basics series: Updating / Flashing firmware on the Proxmark 3 for Windows and Linux.<p><a class="read-more" href="https://lab401.com/blogs/academy/proxmark-basics-updating-firmware-on-windows-linux">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p><em>This video comes from Lab401 contributor <strong>Dominic Villeneuve</strong> of <strong><a href="https://www.youtube.com/channel/UCngpVvZNgVRD-OzbP0TY9GA" target="_blank" title="DHack Security: RFID Tutorials" rel="noopener noreferrer">DHack Security</a>, </strong>and is part of the <a href="/blogs/academy/tagged/proxmark-basics" title="Proxmark Basics Series: Proxmark 3 &amp; RFID Tutorials">Proxmark Basics</a> series.</em></p>
+<p>Episode 3 in the Proxmark Basics series gets in-depth with the Proxmark 3 RDV4.01 - the cornerstone of RFID research.</p>
+<p>The Proxmark 3 has evolved significantly over the years, leaving a trail of incomplete and outdated information, specifically in regards to updating firmware.</p>
+<p>Updating firmware depends on the hardware you're running, the modules it uses, and the operating system that you use.</p>
+<p>If you're using Windows, check out the Proxmark 3 Windows Firmware update tutorial:</p>
+<p><iframe src="https://www.youtube.com/embed/lPe9Y-YpWnY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="717" height="403" frameborder="0"></iframe></p>
+<p>If you're using Linux, check out the Proxmark 3 Linux Firmware update tutorial:</p>
+<p><iframe src="https://www.youtube.com/embed/HRVPyRTZqy8" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="717" height="403" frameborder="0"></iframe></p>
+<p><strong>Tools Used:</strong></p>
+<ul>
+<li><a href="/products/proxmark-3-rdv4" title="Proxmark 3 RDV4">Proxmark 3 RDV4.01</a></li>
+</ul>
+<p><strong>Episode Resources:</strong></p>
+<ul>
+<li><a href="https://proxmarkbuilds.org" target="_blank" rel="noopener noreferrer">Pre-built Proxmark Firmware for Windows</a></li>
+</ul>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/academy/proxmark-3-basics-card-identification</id>
+    <published>2022-02-01T15:06:44+01:00</published>
+    <updated>2022-02-15T15:37:45+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/proxmark-3-basics-card-identification"/>
+    <title>Proxmark 3 Basics: Card Identification</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[Episode 2 in the Proxmark Basics series, we build upon our basic RFID knowledge applying it to the real-world scenario of identifying unknown RFID cards.<p><a class="read-more" href="https://lab401.com/blogs/academy/proxmark-3-basics-card-identification">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p><em>This video comes from Lab401 contributor <strong>Dominic Villeneuve</strong> of <strong><a href="https://www.youtube.com/channel/UCngpVvZNgVRD-OzbP0TY9GA" target="_blank" title="DHack Security: RFID Tutorials" rel="noopener noreferrer">DHack Security</a>, </strong>and is part of the <a href="/blogs/academy/tagged/proxmark-basics" title="Proxmark Basics Series: Proxmark 3 &amp; RFID Tutorials">Proxmark Basics</a> series.</em></p>
+<p>Episode 2 in the Proxmark Basics series, we build upon our basic RFID knowledge applying it to the real-world scenario of identifying unknown RFID cards.</p>
+<p><iframe src="https://www.youtube.com/embed/kk-W7aZXIS4" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="707" height="398" frameborder="0"> </iframe></p>
+<p><strong>Tools Used:</strong></p>
+<ul>
+<li><a href="/products/proxmark-3-rdv4" title="Proxmark 3 RDV4">Proxmark 3 RDV4.01</a></li>
+<li><a href="/products/rfid-pentester-tag-pack" title="Blank RFID Tags for the Proxmark">Assorted Blank "Magic" RFID Cards</a></li>
+</ul>
+<p><strong>Episode Resources:</strong></p>
+<ul>
+<li><a href="https://proxmarkbuilds.org" target="_blank" rel="noopener noreferrer">Pre-built Proxmark Firmware for Windows</a></li>
+</ul>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/academy/proxmark-3-basics-rfid-101</id>
+    <published>2022-02-01T14:56:09+01:00</published>
+    <updated>2022-02-15T15:37:50+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/proxmark-3-basics-rfid-101"/>
+    <title>Proxmark 3 Basics: RFID 101</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[Launching the "Proxmark Basics" series is <em>RFID 101</em> - covering RFID fundamentals: what it is, how it works, tags, frequencies, modulation and more.<p><a class="read-more" href="https://lab401.com/blogs/academy/proxmark-3-basics-rfid-101">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p><em>This video comes from Lab401 contributor <strong>Dominic Villeneuve</strong> of <strong><a href="https://www.youtube.com/channel/UCngpVvZNgVRD-OzbP0TY9GA" target="_blank" title="DHack Security: RFID Tutorials" rel="noopener noreferrer">DHack Security</a>, </strong>and is part of the <a href="/blogs/academy/tagged/proxmark-basics" title="Proxmark Basics Series: Proxmark 3 &amp; RFID Tutorials">Proxmark Basics</a> series.</em></p>
+<p>Getting started in RFID can be a daunting process: frequencies, chipsets, magic cards, Proxmarks and iceman.</p>
+<p>In our opinion, tangible goals and paced-learning is one of the most effective learning methods.</p>
+<p>Launching the "Proxmark Basics" series is <em>RFID 101</em> - covering RFID fundamentals: what it is, how it works, tags, frequencies, modulation and more.</p>
+<p><em><iframe src="https://www.youtube.com/embed/pE50JHaYvSU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="707" height="398" frameborder="0"></iframe></em></p>]]>
+    </content>
+  </entry>
+</feed>

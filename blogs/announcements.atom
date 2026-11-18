@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/announcements.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/announcements"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/announcements.atom"/>
+  <title>Lab401 - Announcements</title>
+  <updated>2025-08-07T16:42:15+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/announcements/summer-schedule-open-all-summer-slightly-longer-dispatch-times</id>
+    <published>2025-08-07T16:42:15+02:00</published>
+    <updated>2025-08-07T16:42:17+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/announcements/summer-schedule-open-all-summer-slightly-longer-dispatch-times"/>
+    <title>🏖️ Summer Schedule : Open all Summer, slightly longer dispatch times.</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <content type="html">
+      <![CDATA[<p>Summer is a busy period for pentesters, with Blackhat and DEFCON taking center stage.</p>
+<h2>Operational Updates</h2>
+<p>While our warehouse remains fully operational during the summer months, some logistical partners have announced pickup and delivery restrictions due to excessive heat and French public holidays in August.</p>
+<p>While the vast majority of orders will dispatch within our standard 24 business hours, some deliveries may take up to 48 business hours to be dispatched.</p>
+<h2>New Product Announcements</h2>
+<p>If you're taking a summer break, enjoy your well earned holidays. Many new products have been announced at DEFCON and BlackHat, and we'll be announcing new products and packs in the coming weeks!</p>
+<p>The Lab401 Team<br></p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/announcements/november-22-warehouse-closed-shipping-resumes-november-23</id>
+    <published>2023-11-21T23:03:48+01:00</published>
+    <updated>2023-11-21T23:03:48+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/announcements/november-22-warehouse-closed-shipping-resumes-november-23"/>
+    <title>November 22: Warehouse closed : shipping resumes November 23.</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <content type="html">
+      <![CDATA[<p>In order to prepare for Black Friday / Cyber Monday sales, there will be <strong>no shipments</strong> on November 22.</p>
+<p>All shipments will resume November 23.</p>
+<p>Stay tuned for our Black Friday / Cyber Monday announcement, which will be announced on the morning of <strong>Friday, November 24.</strong></p>]]>
+    </content>
+  </entry>
+</feed>

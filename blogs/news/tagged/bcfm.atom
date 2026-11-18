@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/news.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/news/tagged/bcfm.atom"/>
+  <title>Lab401 - News</title>
+  <updated>2026-04-22T16:48:54+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/news/black-friday-cyber-monday-sales-10-store-wide-for-one-week</id>
+    <published>2018-11-21T12:43:00+01:00</published>
+    <updated>2018-11-22T15:43:23+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/black-friday-cyber-monday-sales-10-store-wide-for-one-week"/>
+    <title>Black Friday / Cyber Monday Sales: 10% Store-wide for one week!</title>
+    <author>
+      <name>Lab401 Lee</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<meta charset="utf-8">
+<p><span>Celebrating </span><strong>Black Friday </strong><span>for 2018, Lab401 is running a </span><strong>10% Sale Store Wide</strong><span>.<br><strong>Everything</strong>, including our Pentester and Tag packs are discounted.. <br></span></p><p><a class="read-more" href="https://lab401.com/blogs/news/black-friday-cyber-monday-sales-10-store-wide-for-one-week">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>Celebrating <strong>Black Friday </strong>for 2018, Lab401 is running a <strong>10% Sale Store Wide</strong>.<br>To take advantage, just use the voucher code: <strong>BFCM.</strong></p>
+<p>From November 21 to November 26 every single product is discounted.<br>It's the perfect time to grab one of the new <strong>Proxmark RDV4</strong>, the hot <strong>Keysy 125KHz Duplicator / Emulator</strong>. </p>
+<p>Likewise, our <strong>RFID Tag Packs </strong>and <strong>RFID Pen Tester Packs</strong> are discounted as well - adding up to over 50% on the Pro packs.</p>
+<p>Everything is in stock, and we're excited to get more gear into your hands.</p>
+<p><iframe width="806" height="453" src="https://www.youtube.com/embed/3r7mRPpMpMk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></p>]]>
+    </content>
+  </entry>
+</feed>

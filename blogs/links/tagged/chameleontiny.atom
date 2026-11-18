@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/links.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/links"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/links/tagged/chameleontiny.atom"/>
+  <title>Lab401 - Links</title>
+  <updated>2025-11-19T12:39:12+01:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/links/ios-application-for-chameleontiny-pro-revg-pro</id>
+    <published>2022-01-06T17:12:21+01:00</published>
+    <updated>2022-01-06T17:13:25+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/links/ios-application-for-chameleontiny-pro-revg-pro"/>
+    <title>iOS Application for ChameleonTiny Pro / RevG Pro</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[https://apps.apple.com/us/app/chameleontiny-manager/id1601341565<p><a class="read-more" href="https://lab401.com/blogs/links/ios-application-for-chameleontiny-pro-revg-pro">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[Manage your ChameleonTiny Pro / Rev G Pro from your iPhone / iOS devices with the newly released "CT Manager" tool from Eric Betts.]]>
+    </content>
+  </entry>
+</feed>

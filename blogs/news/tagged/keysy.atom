@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/news.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/news/tagged/keysy.atom"/>
+  <title>Lab401 - News</title>
+  <updated>2026-04-22T16:48:54+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/news/lab401-q3-sale-new-products-new-support-huge-discounts</id>
+    <published>2018-09-04T01:08:00+02:00</published>
+    <updated>2018-09-04T01:31:37+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/lab401-q3-sale-new-products-new-support-huge-discounts"/>
+    <title>Lab401 Q3 Sale: New Products, New Support, Huge Discounts</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[From September 5 - 10, enjoy up to 20% at Lab401.<br>Our Pentester Packs and Pentester Tag Packs are on sale - and we've also added some exciting new products: Proxmark 3 RDV4, Proxmark 3 EVO and the Keysy LF Duplicator.<p><a class="read-more" href="https://lab401.com/blogs/news/lab401-q3-sale-new-products-new-support-huge-discounts">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p><iframe width="1279" height="719" src="https://www.youtube.com/embed/oi3Ba9UZMX4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></p>
+<p>Summer is over: September means back to work &amp; university.</p>
+<p>At Lab401, it means our Annual Q3 Sale, new products and better service.</p>
+<p><strong>20% Sale</strong><br>For one week only - <strong>Sept 5 - 10</strong> - enjoy huge discounts on our most popular products:</p>
+<ul>
+<li>
+<strong>Lab401 Pentester Pack</strong>: 10% Discount<br>Including the newly released Proxmark 3 RDV4 - the pentester pack is the must-have pack for getting started with RFID.<br>With the discount, you'll <strong>save over 100 EU</strong> off RRP.<br><br>
+</li>
+<li>
+<strong>Lab401 Pentester Tag Pack:</strong> 10% Discount<br>Our impressive card range is available bundled by usage: Basic, Android and Advanced. <br>During our sale, you'll save an additional 10% across all packs!<br><br>
+</li>
+<li>
+<strong>Proxmark 3 RDV2: </strong>20% Discount<br>The PM3 RDV2 has never been this affordable. We are running low on stock - so be quick to jump on this discount.<br><br>
+</li>
+<li>
+<strong>Segger JTag Tool</strong><br>Invaluable when you need to reflash your Proxmarks - enjoy 20% off these must-have devices.</li>
+</ul>
+<p><strong>New Products<br></strong>We've added three new incredible products:</p>
+<ul>
+<li>
+<strong>Proxmark 3 RDV4</strong><br>The RDV4 is a Proxmark 3 revision optimised for <strong>pen-testers and red-teamers.</strong><br>Featuring exchangeable antennas, SIM/SAM slot, and expansion headers - all fitted into a palm-sized case.<br><br>
+</li>
+<li>
+<strong>Proxmark 3 EVO<br></strong>The Proxmark EVO / Evolution is the latest Proxmark 3 revision for <strong>desktop / university / home </strong>users. Featuring pre-tuned, built-in antennas in a compact case with RGB LED - the EVO is the economical option for users working in the lab or at home. </li>
+<li>
+<b>Keysy RFID Duplicator / Emulator<br></b>The Keysy is a must have for any RFID tester. The size and shape of a car-remote - it can sniff, emulate and duplicate a vast array of LF tags quickly and easily. Powerful yet highly economical - your toolkit needs one of these.</li>
+</ul>
+<p><strong>Customer Support<br></strong>We have listened to your feedback, and are proud to launch a totally new customer support service - 6 days a week with guaranteed reply in under 24 hours.</p>
+<p>As Lab401 has grown, it has been difficult to maintain customer support to the level that you deserve - so we are proud to unveil the new support system - and look forward to hearing your thoughts.</p>]]>
+    </content>
+  </entry>
+</feed>

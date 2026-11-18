@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/links.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/links"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/links.atom"/>
+  <title>Lab401 - Links</title>
+  <updated>2025-11-19T12:39:12+01:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/links/youre-all-flokked-push-button-to-root</id>
+    <published>2025-11-19T12:39:12+01:00</published>
+    <updated>2025-11-19T20:06:43+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/links/youre-all-flokked-push-button-to-root"/>
+    <title>You&apos;re all Flokked: Push Button To Root</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[https://www.youtube.com/watch?v=uB0gr7Fh6lY<p><a class="read-more" href="https://lab401.com/blogs/links/youre-all-flokked-push-button-to-root">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>Flock Police "Security" Camera vulnerabilities trigger FTC probe</p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/links/alternative-firmware-for-esp-rfid-tool</id>
+    <published>2024-11-12T14:29:00+01:00</published>
+    <updated>2024-11-12T14:29:00+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/links/alternative-firmware-for-esp-rfid-tool"/>
+    <title>Alternative firmware for ESP-RFID Tool</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[https://github.com/Einstein2150/ESP-RFID-Tool-v2<p><a class="read-more" href="https://lab401.com/blogs/links/alternative-firmware-for-esp-rfid-tool">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[Raik Schneider's alt firmware includes an improved UI, replay and more!]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/links/hack-the-new-rpi-win-10k</id>
+    <published>2024-08-13T09:40:29+02:00</published>
+    <updated>2024-08-13T09:40:29+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/links/hack-the-new-rpi-win-10k"/>
+    <title>Hack the new RPI / Win $10k</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[https://github.com/raspberrypi/rp2350_hacking_challenge?tab=readme-ov-file<p><a class="read-more" href="https://lab401.com/blogs/links/hack-the-new-rpi-win-10k">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[$10k bug bounty announced for the new RP2350 !]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/links/pentest-tool-spotlight-ssh-snake</id>
+    <published>2024-01-15T13:31:48+01:00</published>
+    <updated>2024-01-15T13:31:48+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/links/pentest-tool-spotlight-ssh-snake"/>
+    <title>Pentest Tool Spotlight: SSH-Snake</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[https://github.com/MegaManSec/SSH-Snake<p><a class="read-more" href="https://lab401.com/blogs/links/pentest-tool-spotlight-ssh-snake">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[Automated SSH-Based network discovery + traversal.]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/links/classicconverter-convert-mifare-classic-dumps-to-flipper-format</id>
+    <published>2022-08-04T10:59:21+02:00</published>
+    <updated>2022-08-04T10:59:21+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/links/classicconverter-convert-mifare-classic-dumps-to-flipper-format"/>
+    <title>ClassicConverter: Convert Mifare Classic dumps to Flipper format</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[https://github.com/equipter/ClassicConverter<p><a class="read-more" href="https://lab401.com/blogs/links/classicconverter-convert-mifare-classic-dumps-to-flipper-format">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[Rapidly convert MIFARE Classic binary files (from LibNFC, Proxmark, etc) to FlipperZero's custom .nfc format.]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/links/ios-application-for-chameleontiny-pro-revg-pro</id>
+    <published>2022-01-06T17:12:21+01:00</published>
+    <updated>2022-01-06T17:13:25+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/links/ios-application-for-chameleontiny-pro-revg-pro"/>
+    <title>iOS Application for ChameleonTiny Pro / RevG Pro</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[https://apps.apple.com/us/app/chameleontiny-manager/id1601341565<p><a class="read-more" href="https://lab401.com/blogs/links/ios-application-for-chameleontiny-pro-revg-pro">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[Manage your ChameleonTiny Pro / Rev G Pro from your iPhone / iOS devices with the newly released "CT Manager" tool from Eric Betts.]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/links/new-public-zero-day-windows-exploit-everyone-is-admin</id>
+    <published>2021-11-24T10:37:10+01:00</published>
+    <updated>2021-11-24T10:37:10+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/links/new-public-zero-day-windows-exploit-everyone-is-admin"/>
+    <title>New Public Zero-Day Windows Exploit: Everyone is admin</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[https://www.bleepingcomputer.com/news/microsoft/new-windows-zero-day-with-public-exploit-lets-you-become-an-admin/<p><a class="read-more" href="https://lab401.com/blogs/links/new-public-zero-day-windows-exploit-everyone-is-admin">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[Security researcher Naceri published on Github a zero-day local privilege elevation vulnerability for Windows 10 / 11/ Server.]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/links/fragattacks-dozens-of-wide-spanning-wifi-attacks-documented</id>
+    <published>2021-05-12T18:30:28+02:00</published>
+    <updated>2021-05-12T18:30:28+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/links/fragattacks-dozens-of-wide-spanning-wifi-attacks-documented"/>
+    <title>FragAttacks: Dozens of wide-spanning wifi attacks documented</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[https://www.fragattacks.com/<p><a class="read-more" href="https://lab401.com/blogs/links/fragattacks-dozens-of-wide-spanning-wifi-attacks-documented">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[Released collectively as "FragAttacks", the vulnerabilities affect all Wi-Fi security protocols from WEP through to WPA3.]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/links/tesla-hacked-remotely-from-drone</id>
+    <published>2021-05-10T21:27:04+02:00</published>
+    <updated>2021-05-10T21:27:04+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/links/tesla-hacked-remotely-from-drone"/>
+    <title>Tesla Hacked Remotely From Drone</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[https://www.securityweek.com/tesla-car-hacked-remotely-drone-zero-click-exploit<p><a class="read-more" href="https://lab401.com/blogs/links/tesla-hacked-remotely-from-drone">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[Tesla Car Hacked Remotely From Drone via Zero-Click Exploit]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/links/luna-great-scott-gadgets-upcoming-tool-announced</id>
+    <published>2021-04-21T14:21:23+02:00</published>
+    <updated>2021-04-21T14:21:23+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/links/luna-great-scott-gadgets-upcoming-tool-announced"/>
+    <title>LUNA: Great Scott Gadgets&apos; upcoming tool announced</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[https://www.crowdsupply.com/great-scott-gadgets/luna<p><a class="read-more" href="https://lab401.com/blogs/links/luna-great-scott-gadgets-upcoming-tool-announced">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[LUNA A multi-tool for building, analyzing, and hacking USB devices.<br>If you'd be interested in Lab401 holding stock, please <a href="mailto:support@lab401.com">send us an email</a> or <a href="https://twitter.com/Lab_401" target="_blank" rel="noopener noreferrer">tweet</a> and let us know!]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/links/hackrf-portapak-new-extensive-firmware-released</id>
+    <published>2020-11-30T10:37:50+01:00</published>
+    <updated>2020-11-30T10:39:14+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/links/hackrf-portapak-new-extensive-firmware-released"/>
+    <title>HackRF Portapak: new, extensive firmware released</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[https://telescope.ac/petazzoni/mayhem-the-rf-pentesting-hackrf-portapack-firmware<p><a class="read-more" href="https://lab401.com/blogs/links/hackrf-portapak-new-extensive-firmware-released">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[The Portapak turns the <a href="/products/hackrf-one">HackRF</a> into a stand-alone device. The newly released MAYHEM firmware for the Portapak is incredibly feature complete - and has us digging our Portapaks out of the tool box.]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/links/nfc-card-emulator-pro-emulate-mifare-uids-with-any-rooted-android</id>
+    <published>2020-10-15T19:10:31+02:00</published>
+    <updated>2020-10-15T19:10:31+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/links/nfc-card-emulator-pro-emulate-mifare-uids-with-any-rooted-android"/>
+    <title>NFC Card Emulator Pro: Emulate MIFARE UIDs with any rooted Android</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[https://play.google.com/store/apps/details?id=com.yuanwofei.cardemulator.pro&amp;hl=en&amp;gl=US<p><a class="read-more" href="https://lab401.com/blogs/links/nfc-card-emulator-pro-emulate-mifare-uids-with-any-rooted-android">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[This <em>root only</em> app allows emulation of any MIFARE UID on your Android devices.]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/links/scraped-openstreepmaps-error-212-floor-skyscraper-in-flight-simulator</id>
+    <published>2020-08-21T17:17:00+02:00</published>
+    <updated>2020-08-21T17:17:50+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/links/scraped-openstreepmaps-error-212-floor-skyscraper-in-flight-simulator"/>
+    <title>Scraped OpenStreepMaps error == 212-floor skyscraper in Flight Simulator</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[https://twitter.com/liamosaur/status/1296305262144364544<p><a class="read-more" href="https://lab401.com/blogs/links/scraped-openstreepmaps-error-212-floor-skyscraper-in-flight-simulator">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[A scraped erroneous OSM edit lead to a 212-floor skyscraper in Flight Simulator; everyone tries to land on it.]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/links/reverse-engineering-physical-keys-via-audio-of-their-insertion</id>
+    <published>2020-08-21T16:51:00+02:00</published>
+    <updated>2020-08-21T16:59:53+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/links/reverse-engineering-physical-keys-via-audio-of-their-insertion"/>
+    <title>Reverse Engineering physical keys via audio of their insertion</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[https://cacm.acm.org/news/246744-picking-locks-with-audio-technology/fulltext<p><a class="read-more" href="https://lab401.com/blogs/links/reverse-engineering-physical-keys-via-audio-of-their-insertion">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[Using the sound of a key being inserted into a lock to deduce its shape.]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/links/breaking-samsung-firmware-turning-a-samsung-s8-s9-s10-into-a-diy-proxmark</id>
+    <published>2020-08-21T16:41:00+02:00</published>
+    <updated>2020-08-21T17:26:10+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/links/breaking-samsung-firmware-turning-a-samsung-s8-s9-s10-into-a-diy-proxmark"/>
+    <title>Breaking Samsung Firmware, Turning a Samsung S8/S9/S10 into a DIY Proxmark</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[https://www.pentestpartners.com/security-blog/breaking-samsung-firmware-or-turning-your-s8-s9-s10-into-a-diy-proxmark/<p><a class="read-more" href="https://lab401.com/blogs/links/breaking-samsung-firmware-turning-a-samsung-s8-s9-s10-into-a-diy-proxmark">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[Deep-dive into patching a phone's on-board NXP controller to enable RFID emulation.]]>
+    </content>
+  </entry>
+</feed>

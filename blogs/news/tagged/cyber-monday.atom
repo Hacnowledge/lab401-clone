@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/news.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/news/tagged/cyber-monday.atom"/>
+  <title>Lab401 - News</title>
+  <updated>2026-04-22T16:48:54+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/news/black-friday-cyber-monday-up-to-20-off-storewide</id>
+    <published>2020-11-25T12:00:00+01:00</published>
+    <updated>2020-11-25T12:00:00+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/black-friday-cyber-monday-up-to-20-off-storewide"/>
+    <title>Black Friday / Cyber Monday: Up to 20% off storewide!</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<strong>LAB401</strong> Black Friday / Cyber Monday sale this year is all about <strong>discount</strong> on<strong> your favorite tools!</strong> check it out now!<p><a class="read-more" href="https://lab401.com/blogs/news/black-friday-cyber-monday-up-to-20-off-storewide">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>From <strong>November 27 to November 30</strong> get up to <strong>20% off store-wide.</strong></p>
+<p style="text-align: center;">Spend 50€ : Get 5% off.<br>Spend 100€ : Get 10% off.<br>Spend 500€ : Get 15% off.<br>Spend 1000€ : Get 20% off.</p>
+<p style="text-align: left;">No gimmicks, no limits and no catches. BFCM is our biggest yearly discount - so don't miss out !</p>
+<p style="text-align: left;"><iframe src="https://www.youtube.com/embed/2nAW19RCEbI" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="1182" height="537" frameborder="0"></iframe></p>]]>
+    </content>
+  </entry>
+</feed>

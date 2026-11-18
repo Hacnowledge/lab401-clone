@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/news.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/news/tagged/manufacturing.atom"/>
+  <title>Lab401 - News</title>
+  <updated>2026-04-22T16:48:54+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/news/building-the-lightmessenger-product-manufacturing-part-2</id>
+    <published>2025-03-23T15:22:00+01:00</published>
+    <updated>2025-05-24T02:57:04+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/building-the-lightmessenger-product-manufacturing-part-2"/>
+    <title>Building the LightMessenger : Manufacturing, Part 2</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p class="whitespace-normal break-words">Check out the complete behind-the-scenes journey of Lab401's LightMessenger  for Flipper Zero - from initial brainstorming to mass production — including prototype failures, code challenges, and manufacturing lessons learned.</p>
+<p class="whitespace-normal break-words">The LightMessenger creates stunning persistence of vision effects with 16 RGB LEDs and an accelerometer, painting text and images through air when swiped - fully open source and open hardware.<br></p>
+<p class="whitespace-normal break-words">✅ Sketches, blueprints and initial planning material<br>✅ Smart component selection in 2025<br>✅ Designing testing jigs for rapid production testing<br>✅ Behind-the-scenes videos, fumbles and fixes.<br></p><p><a class="read-more" href="https://lab401.com/blogs/news/building-the-lightmessenger-product-manufacturing-part-2">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<h1 id="design-prototyping-and-creation"><span>Lab401 Light Messenger : Development Log</span></h1>
+<p><strong>Part 2 </strong>of our <strong>"<a href="/blogs/news/product-manufacturing-with-lab401">Product Manufacturing with Lab401</a>"</strong> series.</p>
+<p>In the <a href="/blogs/news/product-manufacturing-with-lab401">Part 1</a>, we discussed our approach and methodology to creating, manufacturing and launching products.</p>
+<p>In this part, we deep-dive into the behind-the-scenes of producing <a href="https://lab401.com/products/light-messenger" target="_blank">Lab401's Persistence of Vision / Light Painting accessory</a> for the Flipper Zero.</p>
+<h2>What is the Light Messenger?</h2>
+<p>The Light Messenger is a <em>Persistence of Vision</em> and <em>Light Painting</em> accessory for the Flipper Zero. It has 16 RGB LEDs and an accelerometer; when plugged into your Flipper Zero and swiped back and forth, "paints" text and images in the air.</p>
+<p>It's open-source and completely hackable - and the community has already added some great new features.</p>
+<p><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/LightMessenger-_-Flipper---Cropped.png?v=1740053368"></p>
+<p><video loop="loop" muted="muted" autoplay="autoplay"><source src="https://cdn.shopify.com/videos/c/o/v/6c599a21b92a4bd1afec28532ab7e460.mp4"></video></p>
+<p><video loop="loop" muted="muted" autoplay="autoplay"><source src="https://cdn.shopify.com/videos/c/o/v/eb996317e2d943ceb01c3a4fed063e96.mp4"></video></p>
+<p>Huge shoutout to <a href="https://tixlegeek.io/splash" target="_blank">@tixlegeek</a>, the engineer behind the project, and <a href="https://github.com/jamisonderek" target="_blank">@codeallnight</a> for their contributions to the code-base since product release.</p>
+<h2 id="what-will-we-build"><span>Step 0: What Will We Build?</span></h2>
+<p><span>Initially, we kicked off with a </span><strong><span>brainstorming</span></strong><span> session during which we jotted down several ideas. The goal was to find concepts that were </span><strong><span>fun</span></strong><span>, </span><strong><span>interesting</span></strong><span>, and capable of bringing </span><strong><span>real innovations</span></strong><span> to the Flipper Zero, rather than just replicating the same hardware modules that are proliferating as clones. We aimed to create a project that is </span><strong><span>novel</span></strong><span>, </span><strong><span>captivating</span></strong><span>, and </span><strong><span>educational</span></strong><span>.</span></p>
+<p><span>Next, we evaluated each idea to determine where to begin. This was a first for us, so it was crucial that the initial project be </span><strong><span>clearly defined</span></strong><span> and </span><strong><span>accessible</span></strong><span>. </span></p>
+<p><span>In addition to the "Product Metric" defined in the previous post, because this would be our first Flipper Zero accessory, we had several other additional metrics:</span></p>
+<ul>
+<li><span>Learn the Flipper Zero hardware architecture</span></li>
+<li><span>Learn the Flipper Zero software development architecture (<a href="https://github.com/flipperdevices/flipperzero-firmware/issues/59" target="_blank">FURI</a>)</span></li>
+<li>Establish and manage a full supply chain (development, prototyping, production, etc)</li>
+<li>Test the market for Flipper Zero accessories</li>
+</ul>
+<p><span>Because of this additional overhead, it was important that we set achievable goals. As such, we wanted to ensure that the accessory scope was <em>relatively simple</em>, in order that we could concentrate on building knowledge without being overwhelmed.</span><span></span></p>
+<p><span>We settled on the "Persistence of Vision / Light Painting" accessory, as it was relatively simplistic in terms of hardware and production, which would allow us to concentrate on the more complex elements : software development &amp; Flipper architecture.</span></p>
+<p><span>Likewise, if there was no market for Flipper accessories, and the entire project was a failure, we would fail quickly (and therefor more cheaply).</span></p>
+<p><span>In summary: this project allowed us to learn and explore what we could do, and how. <br></span></p>
+<hr>
+<h2 id="design"><span>Design</span></h2>
+<p><span><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/log_proto_00.png?v=1739967903"></span><em>Initial product sketches</em></p>
+<p><span>Before diving into the final design, several factors had to be considered. We had to work within </span><strong><span>physical</span></strong><span>, </span><strong><span>budgetary</span></strong><span>, and </span><strong><span>logistical</span></strong><span> constraints that would steer our technical choices:</span></p>
+<ul>
+<li>
+<p><strong><span>Mechanical Robustness</span></strong><span></span><br><span>The add-on will be used by </span><strong><span>real people</span></strong><span>, with large hands and sometimes dogy usage. Thus, we needed to design a robust module, especially taking into account the </span><strong><span>GPIO limitations</span></strong><span> of the Flipper Zero's external port.</span></p>
+</li>
+<li>
+<p><strong><span>Development</span></strong><span></span><br><span>The code must remain </span><strong><span>clear</span></strong><span> and </span><strong><span>accessible</span></strong><span> so that anyone can understand and contribute. This is why we chose to organize the project into several modules (configuration, accelerometer management, graphics rendering, etc.) and to use proven standards (such as </span><strong><span>JSON</span></strong><span> for configuration and </span><strong><span>Bitmap</span></strong><span> for images).</span></p>
+</li>
+<li>
+<p><strong><span>Production</span></strong><span></span><br><span>Every element must be easily manufacturable with </span><strong><span>readily available</span></strong><span> components. Our choice of the </span><strong><span>LIS2DH12/SK6805</span></strong><span> pair proved to be a sound decision in terms of reliability and sourcing.</span></p>
+</li>
+<li>
+<p><strong><span>Cost</span></strong><span></span><br><span>The approach was to remain </span><strong><span>simple</span></strong><span> and </span><strong><span>efficient</span></strong><span>. We prioritize what’s necessary to ensure that the final product is available at a </span><strong><span>reasonable price</span></strong><span>.</span></p>
+</li>
+<li>
+<p><strong><span>Aesthetics</span></strong><span></span><br><span>Aesthetics can often be easily overlooked, but they contribute significantly to the user experience, the product's appeal, and the creators' image. Both Lab401 and I wanted to be as proud as possible of what is offered to the user, ensuring they feel respected and valued. The aim was to provide something beautiful that shows we truly tried our best.</span></p>
+</li>
+</ul>
+<hr>
+<h3 id="sketching"><span>Sketching</span></h3>
+<p><span>I start with this point because it’s one of my favorite steps. I wanted all the add-ons to share a </span><strong><span>common story</span></strong><span> and a </span><strong><span>red thread</span></strong><span> to create a genuine </span><strong><span>lore</span></strong><span>. This attention to detail strengthens user engagement, even if it isn’t strictly necessary from a technical standpoint.</span></p>
+<p><span>I began on paper, sketching ideas, and then finalized the drafts using </span><strong><span>Inkscape</span></strong><span> (&lt;3).</span></p>
+<p><span><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/log_proto_091.jpg?v=1739967903"></span></p>
+<p><span><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/log_proto_092.png?v=1739967903"></span></p>
+<p><span>For the back of the PCB, I designed a </span><strong><span>cheat sheet</span></strong><span> on “Information Security” focused on </span><strong><span>encoding</span></strong><span>, including the </span><strong><span>Shannon model</span></strong><span>, comparisons between </span><strong><span>Encoding</span></strong><span>, </span><strong><span>Encryption</span></strong><span>, and </span><strong><span>Hashing</span></strong><span>, as well as a condensed </span><strong><span>ASCII table</span></strong><span> and a diagram for </span><strong><span>Morse code</span></strong><span>.</span></p>
+<hr>
+<h3 id="prototypes"><span>Prototypes</span></h3>
+<p><span>We went through numerous iterations, from the </span><strong><span>proof of concept</span></strong><span> to the final version, enabling us to iterate quickly whenever an issue was identified:</span></p>
+<p><span><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/log_proto_102-1739871471253-9.png?v=1739967905" alt=""></span><em>First prototype that allowed us to control the peripheral functions and test various options</em></p>
+<p><span><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/log_proto_101.png?v=1739967905" alt=""><em>Some of the prototypes that were developed</em></span></p>
+<p><span>Each prototype allowed us to test a specific aspect of the module, from motion detection to LED display, and to refine our code. This approach enabled us to kick off </span><strong><span>serious development</span></strong><span> on a robust foundation.</span></p>
+<hr>
+<h3 id="component-selection"><span>Component Selection</span></h3>
+<p><span>To kick off production, we needed to ensure that all components could be </span><strong><span>sourced</span></strong><span> in sufficient quantities. After numerous tests and design iterations, we opted for the </span><strong><span>LIS2DH12/SK6805</span></strong><span> pair:</span></p>
+<ul>
+<li>
+<p><strong><span>LIS2DH12</span></strong><span>: An accelerometer offering all the required functionalities, with excellent reliability and software support provided by </span><strong><span>STMicro</span></strong><span>.</span></p>
+</li>
+<li>
+<p><strong><span>SK6805</span></strong><span>: The only model that emits from the side, which wasn’t initially planned but turned out to be the ideal solution. They are also </span><strong><span>readily available</span></strong><span>.</span></p>
+</li>
+</ul>
+<hr>
+<h3 id="pcb"><span>PCB</span></h3>
+<p><span>The PCB was designed using </span><strong><span>KiCad</span></strong><span> (&lt;3), a free and open source software that is </span><strong><span>extremely powerful</span></strong><span>. Its dynamic community and advanced features allowed us to design a circuit tailored to the project’s specific needs, while maintaining a professional quality.</span></p>
+<hr>
+<h2 id="operation-and-poc"><span>Operation and POC</span></h2>
+<p><span>This section delves into the heart of the project. The </span><strong><span>specifications</span></strong><span> were as follows:</span></p>
+<ul>
+<li>
+<p><strong><span>Text display</span></strong></p>
+</li>
+<li>
+<p><strong><span>Image display</span></strong></p>
+</li>
+<li>
+<p><strong><span>Bidirectional display</span></strong></p>
+</li>
+</ul>
+<p><span>To meet dimensional constraints while ensuring good </span><strong><span>resolution</span></strong><span>, we opted for an array of </span><strong><span>16 RGB LEDs (SK6805)</span></strong><span>.</span></p>
+<p><span>For motion detection, we used an </span><strong><span>accelerometer</span></strong><span> with at least two “tilt” type interrupts. These interrupts detect force inversions and generate pulses on the GPIO pins, which are essential for triggering interrupts in the code.</span></p>
+<p><span>It’s important to keep in mind that the Flipper’s GPIO port is very well designed but also quite limited. We had to run several tests, seek ideas and help from the Flipper teams, but eventually, it worked, and we quickly implemented a satisfactory POC.</span></p>
+<p> </p>
+<p><em><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/log_proto_25.jpg?v=1739967903" alt=""></em><em>First glances of "working" implementation</em></p>
+<p><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/log_proto_111.jpg?v=1739967903" alt=""><br><em>First functional code</em><br></p>
+<hr>
+<h2 id="the-code"><span>The Code</span></h2>
+<p><span>Developing the code was the </span><strong><span>real challenge</span></strong><span>.</span></p>
+<ul>
+<li>
+<p><strong><span>Modular Structure:</span></strong><span></span><br><span>The code is broken down into several clear modules:</span></p>
+<ul>
+<li>
+<p><strong><span>Configuration:</span></strong><span> Reading and parsing the </span><strong><span>JSON</span></strong><span> file to define the display and parameters.</span></p>
+</li>
+<li>
+<p><strong><span>Accelerometer:</span></strong><span> Managing interrupts via the </span><strong><code>zmax_callback</code></strong><span> and </span><strong><code>zmin_callback</code></strong><span> functions, which determine the direction of motion and update the application structure through </span><strong><code>swipes_init</code></strong><span>.</span></p>
+</li>
+<li>
+<p><strong><span>Graphics Rendering:</span></strong><span> A </span><strong><span>shader</span></strong><span> computes in real time the colors of all pixels in a column based on parameters and the accelerometer’s state.</span></p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong><span>Real-Time Optimization:</span></strong><span></span><br><span>The main thread runs continuously to recalculate and update the LED display. Fine-grained microsecond management allows us to balance performance and responsiveness, even on </span><strong><span>limited</span></strong><span> hardware.</span></p>
+</li>
+<li>
+<p><strong><span>Dedicated tools</span></strong><span> for creating text and image easily, given the limitations of the flipper zero (monochrome screen, and a few buttons)</span></p>
+</li>
+<li>
+<p><strong><span>Ease of Contribution:</span></strong><span></span><br><span>We ensured that the project is easily </span><strong><span>extensible</span></strong><span>. By using standards such as </span><strong><span>JSON</span></strong><span> and </span><strong><span>Bitmap</span></strong><span>, users can effortlessly generate, import, and modify files without having to master complex pipelines.</span></p>
+</li>
+</ul>
+<p><img><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/401_lghtmsg_splash.png?v=1739967901" alt=""></p>
+<p><span>The code was designed so that each new feature (like adding colors to images or enhancing the shader) can be integrated without disrupting the overall system.</span></p>
+<p><span><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/log_proto_122.jpg?v=1739967903" alt=""><em>First successful tests of the "bitmap" function</em></span></p>
+<p> </p>
+<hr>
+<h3 id="operating-details"><span>Operating Details</span></h3>
+<p><span>The </span><strong><span>accelerometer</span></strong><span> plays a central role in orchestrating the LED matrix display. Once the </span><strong><span>"SWIPE"</span></strong><span> message is displayed, a dedicated thread (</span><code>app_acc_worker</code><span>) takes over to manage the interrupts and steer the display.</span></p>
+<blockquote>
+<p><strong><span>Note:</span></strong><span></span><br><span>As you peruse the code, you’ll notice that we don’t use traditional mechanisms like mutexes or event queues inside the "display" routine. The Flipper API, based on </span><strong><span>FreeRTOS</span></strong><span>, offers these structures, but way too costly at this level. We opted for more </span><strong><span>direct</span></strong><span> techniques, even if some might call them "dirty." After several weeks of iterations, this approach proved to be the most </span><strong><span>reliable</span></strong><span> for our use case, garanteeing timings and stability</span></p>
+</blockquote>
+<p><span>The two interrupts generated by the accelerometer trigger the </span><strong><code>zmax_callback</code></strong><span> and </span><strong><code>zmin_callback</code></strong><span> functions. These functions update the direction of movement, which is then used by the main thread to animate the </span><strong><span>LEDs</span></strong><span> using a dynamic </span><strong><span>shader</span></strong><span>. This shader is designed to be easily </span><strong><span>modifiable</span></strong><span> via a simple callback function change, allowing for the exploration of different color palettes and visual effects.</span></p>
+<hr>
+<h3 id="the-flipper-ecosystem"><span>The Flipper Ecosystem</span></h3>
+<p><span>Working on the Flipper Zero is both </span><strong><span>stimulating</span></strong><span> and </span><strong><span>challenging</span></strong><span>. The efforts of the community and the development teams are impressive and </span><strong><span>dynamic</span></strong><span>, even though the constantly evolving API sometimes necessitates revisiting parts of the code. This dynamic nature ensures that the project remains cutting-edge and benefits from the latest system improvements.</span></p>
+<hr>
+<h2><span>Manufacturing, Production and Testing</span></h2>
+<p><span>Once we'd iterated to final hardware, we were able to put a few processes into parallel:</span></p>
+<ul>
+<li><span>PCB / PCBA </span></li>
+<li><span>Testing / QC</span></li>
+<li><span>Packaging </span></li>
+</ul>
+<hr>
+<h3>PCB / PCBA</h3>
+<p>When you're manufacturing, the first step is to send your full project files to the selected factory. These are typically the "GERBERS" and "Bill of Material" (BOM).</p>
+<p>This will allow the factory to manufacture the Printed Circuit Boards (PCBs), and prepare the Solder Masks and Silk Screen, and also prepare for Printed Circuit Board Assembly (PCBA) - where the components are picked, placed and soldered onto the PCB.</p>
+<p>We opted to use one of our existing contacts in Shenzhen for the PCB + PCBA.</p>
+<p><em><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/PCB-Test-1.png?v=1739973484" alt=""></em><em>Initial PCB Tests</em></p>
+<p><em><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/PCB-Test-2.png?v=1739973503" alt=""></em></p>
+<p><em>Production PCBs. We opted for the "snap-off ladder style" to make testing easier. Once a PCB was tested, it could be snapped off, so there'd be no confusion on what had been tested or hadn't been tested.</em></p>
+<hr>
+<h3>Testing / QC</h3>
+<p>There are multiple approaches to testing / quality control.<br>In our experience, 100% testing (ie, each product is tested individually) is safer, more reliable, and in the long run, cheaper than random sampling.</p>
+<p>To perform 100% QC, you need to supply the factory with an SOP (Standard Operating Procedure) document, which outlines how a product should be tested, and what the PASS/FAIL conditions are.</p>
+<p>If at all possible, it's preferable that testing is done in a "jig". This is a semi-automated device that will allow the factory to <strong>quickly</strong> test each individual device.</p>
+<p>Typically, if you can supply the schematic + firmware + SOP, the factory will work out how to physically build the jig to meet their needs.</p>
+<p><em><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/SOP.png?v=1739973740" alt=""></em></p>
+<p><em>The SOP document</em></p>
+<p> </p>
+<p><video loop="loop" muted="muted" autoplay="autoplay"><source src="https://cdn.shopify.com/videos/c/o/v/a6b622e99bdf4b6cb95b9f4ca6b893d8.mp4"></video></p>
+<p><em>The factory's implementation of the testing jig (with unexpected alien 👽)</em></p>
+<p><video loop="loop" muted="muted" autoplay="autoplay"><source src="https://cdn.shopify.com/videos/c/o/v/77ac01e77fc441aeaf1837d0f68ca2b8.mp4"></video></p>
+<p><em>Sample of a passing unit</em><br></p>
+<p><video loop="loop" muted="muted" autoplay="autoplay"><source src="https://cdn.shopify.com/videos/c/o/v/a5aa7142b29d45f09d9d168cfba43230.mp4"></video></p>
+<p><em>Sample of a failing unit (accelerometer failed during PCBA)</em><br></p>
+<hr>
+<h3>Packaging</h3>
+<p>Packaging is a fascinating subject: it plays a significant role in a customer's perception of a product; this perception can even taint a customer's first hands-on experiences with a device.</p>
+<p>At the same time, unless it's a collectable device, packages will be almost instantly discarded.<br>Ethically, were is the boundary between providing the customer with a perception of quality, while also not over-charging them for something that will be thrown away?</p>
+<p>Likewise, packaging has a large environmental impact. At production, there are all sorts of chemicals used to bleach and colour raw materials; at reception, it's going to go into landfill.</p>
+<p>We prefer to use simple packaging:</p>
+<ul>
+<li>Unbleached, uncoated cardboard to minimise our footprint of damaging chemicals</li>
+<li>Soy-based inks, to minimise environmental impact</li>
+<li>Simple foam inserts (no custom cutting, etc) to minimise costs</li>
+</ul>
+<p>We believe this strikes a balance between our ethical engagements, while still providing the customer with a pleasant unboxing experience. Likewise: we're being honest to the customers - they're not paying for something that they're going to throw away.</p>
+<p>After making these choices, we selected a format that worked for us, but still remained slim enough to qualify for "envelope" postage prices.</p>
+<p>However, we could and should have made this even slimmer - even a 50% height reduction would have reduced our palette, shipping and storage costs significantly. Lesson learned for the next accessory!</p>
+<p><em><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Lab401-Light-Messenger-Box.png?v=1739974236" alt=""></em></p>
+<p><em>Our box.</em></p>
+<hr>
+<h3 id="conclusion"><span>Conclusion</span></h3>
+<p><span>This project turned out to be far more </span><strong><span>complex</span></strong><span> than anticipated, but we gave it our all to deliver a </span><strong><span>finished</span></strong><span>, </span><strong><span>functional</span></strong><span>, </span><strong><span>extensible</span></strong><span>, </span><strong><span>aesthetic</span></strong><span>, </span><strong><span>educational</span></strong><span>, and </span><strong><span>fun</span></strong><span> product! Every line of code, every technical choice, was made to provide a rich user experience and a solid foundation for future contributions.</span></p>
+<p><span>As we develop new projects, the Lab401 team and I will continue to gain </span><strong><span>confidence</span></strong><span>, </span><strong><span>organization</span></strong><span>, and </span><strong><span>skills</span></strong><span>. </span></p>
+<p><span>Our ambition remains to create devices that fully embody our </span><strong><span>initial vision</span></strong><span>, and we invite you to explore, contribute, and share your ideas on </span><a href="https://github.com/lab-401/fzLightMessenger"><span>GitHub</span></a><span>.</span></p>
+<p><span>If you're interested in checking out the final product, the <a rel="noopener" href="/products/light-messenger" target="_blank">LightMessenger</a>, we'd be humbled - and very interested to see what you do with it!</span><span></span></p>
+<p><span><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Light-Messenger---Social-Proof.png?v=1740070402"><em>Customer shots showing light-painting, bitmaps, text modes and different colour effects.</em></span></p>
+<style>
+  video { width: 100%; }
+</style>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/product-manufacturing-with-lab401</id>
+    <published>2025-02-12T09:15:21+01:00</published>
+    <updated>2025-05-22T15:22:27+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/product-manufacturing-with-lab401"/>
+    <title>Product Manufacturing with Lab401</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p>Want to see behind the scenes of making an accessory for the Flipper Zero? Get an exclusive behind-the-scenes look Lab401's development framework for transforming ideas into market-ready devices.</p>
+<p>Learn about our accessory "Product Metric"'s four core requirements: crystal-clear use cases, plug-and-play functionality, open-source expandability, and built-in educational value. The development process spans five critical phases from conceptualization through mass production.</p>
+<p>✅ Pre-production planning prevents costly manufacturing mistakes<br>✅ Smart component selection avoids export bans and EOL issues<br>✅ Minimized packaging reduces shipping costs and environmental impact<br>✅ Exhaustive QC procedures ensure customer satisfaction</p><p><a class="read-more" href="https://lab401.com/blogs/news/product-manufacturing-with-lab401">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<h3>So you want to make a product</h3>
+<p>Ever since its launch, we were excited about the possibilities for accessories and expansion boards for the <a href="https://lab401.com/products/flipper-zero" target="_blank">Flipper Zero.</a> A few years later, we were slightly surprised that there hadn't been the explosion of weird and wonderful accessories that we'd imagined. </p>
+<p>And so, we decided to build our own family of accessories for the Flipper Zero.<br>As we launch our <a href="/products/light-messenger" target="_blank">first accessory</a> (a persistence of vision / light painting accessory),(and are getting to ready to launch the next device, we thought it would be interesting to pull back the curtain on our experience imagining, designing, debugging and producing our very own accessories.</p>
+<p><strong>In this series:</strong></p>
+<ul>
+<li>
+<strong>Part One</strong> : So you want to make a product <em>(this post)</em>
+</li>
+<li>
+<strong>Part Two</strong> : <a href="/blogs/academy/building-the-lightmessenger-product-manufacturing-part-2" rel="noopener" target="_blank">Building the LightMessenger product</a>
+</li>
+</ul>
+<h3>Product Metric</h3>
+<p>Before heating up the soldering iron or ordering rolls of components, we wanted to examine <strong><em>why</em></strong> we wanted to build accessories, <em><strong>what</strong></em> we wanted to achieve with the devices, and what our <em><strong>definition of "success"</strong></em> would be for each product.</p>
+<p>We used this to build a "<strong>Product Metric</strong>" - a series of core characteristics that each potential product must meet to ensure a "successful" product.</p>
+<ol>
+<li>
+<strong>Clearly defined, unique use-case</strong><br>Each product must have a rapidly identifiable use, which is immediately obvious to our target audience. Ideally, we should be able to explain "What it does" or "why it exists" in under 10 words or 10 seconds.<br><br>
+</li>
+<li>
+<strong>Work out of the box</strong><br>The product must work "out of the box". The user shouldn't have to solder, code or fight to get the product working. Downloading an app and upgrading Flipper Firmware is acceptable, as these well-known procedures to the majority of Flipper users.<br><br>
+</li>
+<li>
+<strong>Expandable</strong><br>The product needs to be open-source, and provide a hardware, firmware and software framework that allows for easy expansion. The device should also have several immediately obvious ways on which it could be expanded.<br><br>
+</li>
+<li> <strong>Educational<br></strong>If the user wishes, the device should be able to teach them something, or be useful in the process of learning something. </li>
+</ol>
+<h3>Product Roadmap</h3>
+<p>With this Product Metric defined, the next step was to define our <strong>Product Roadmap</strong> - the steps that we'd have to take to transform idea into a product in the hands of a user.</p>
+<h4>Conceptualisation<strong> </strong>
+</h4>
+<p>This step should answer the following questions:</p>
+<ul>
+<li>What does this product do?</li>
+<li>Why does it exist?</li>
+<li>Who will use it?</li>
+<li>What is its primary use/s?</li>
+<li>How much should it cost?</li>
+<li>Which features are required for a Minimum Viable Product ?</li>
+<li>Which features are out of scope for a first iteration?</li>
+</ul>
+<h3>Specification</h3>
+<p>The result of the Specification step is a <em><strong>Specification Document</strong></em>, that will provide the roadmap to building the device. The document should be exhaustive, breaking each element of Hardware, Firmware and Software into their smallest logical elements. </p>
+<p>The development team should be able to take this document and have a full list of logical tasks that will serve them as a guide to building, testing and completing the product.</p>
+<p>We find the Specification Document really useful to combat <strong>"Scope Creep"</strong>. It's very easy to add extra features during development, which can cause timelines to blow-out. Likewise, sometimes the last 10% of a project seems impossibly slow. In this circumstances, it's very useful for everyone to be able to refer to the Specification Document to get back on track.</p>
+<h3>Implementation</h3>
+<p>This is the building phase. The developer/s take the Specification Document, and break it down into <em><strong>logical modules</strong></em>, and then build each module. This can be informal (list of post-its on the wall) or very formal (Sprints, Agile, etc).</p>
+<p>We include the following phases in Implementation:<br> a. Building<br> b. Prototyping<br> c. Testing<br> d. Debugging<br> e. Documentation<br>Steps a - e are iterated as many times as necessary to have a final working product.</p>
+<h3>Production</h3>
+<p>At this point, you've got a fully working, fully documented prototype. It's time to mass-produce! In our experience, the more time invested pre-production, the smoother the process will be. Although it's exciting to push the button, it's also the Point of No (Easy) Return.</p>
+<p>From here on rapid iteration is finished. Errors, changes and miscommunications are costly in terms of time and money - and may even kill your project before it even launches.</p>
+<p>Depending on your device, at this point your project will probably need a few elements to become a finished product in a box, waiting to be sent to your adoring fans:</p>
+<ul>
+<li>Electronics Preparation</li>
+<li>Firmware/Software Preparation</li>
+<li>Packaging Preparation</li>
+<li>Compliance Preparation</li>
+</ul>
+<p>More likely than not, you'll need to find partners or factories for the above steps.<br>Typically these tasks can be placed in parallel, but some rely on each other.<br><em><br>For example:</em> If your device needs to have firmware flashed, you need to have the firmware ready to provide to the PCB / PCBA factory.</p>
+<p>Production challenges and risks could easily fill their own article - but below is a quick list list of lessons that we learned the hard way over the years:</p>
+<h4>Component Choice</h4>
+<p>Your choice of key components, specifically critical components such as micro-controllers will may end up controlling or killing your production choices.</p>
+<p>Select components that are convenient for your manufacturer / in the country that you want to manufacture in. Ensure that they're not subject to export bans or excessive tarifs. Ensure that they are not End of Life, or soon to be End of Life.</p>
+<h4>Minimize / Optimise Packaging </h4>
+<p>It's very tempting to go crazy on packaging. <br>In our experience, unless the packaging is an integral part of the device (IE, a case that will last the lifetime of the product) - simple and smallest is best.</p>
+<p>The final price of a product can rapidly increase due to packaging, but not necessarily adding value to the product. </p>
+<p>Minimising the physical size of packaging is important. If the box is too large, it may not longer be eligible to be shipped in an envelope / charged extra. Likewise, logistics companies charge by _volumetric weight_ : you'll be paying extra for what is essentially empty space.</p>
+<p>Finally - most packaging is destined for landfill. Consider using unbleached, recyclable cardboard boxes, and soy-based black ink instead of full-colour inks.</p>
+<p>When you're manufacturing, you're participating in product and waste creation. Take a moment to think about what's important for you, the environment, and your customers.</p>
+<h4>SOP / QC</h4>
+<p>Write an exhaustive, step by step QC Standard Operating Procedure Document for your product.<br>If you can, arrange for / supply a schematic for a Testing Jig, to ensure 100% QC testing for your products.</p>
+<p>Building an exhaustive document is important for multiple reasons:</p>
+<ul>
+<li>Your customers will get a working product</li>
+<li>Rejected products can be triaged by problem and potentially reworked or repaired</li>
+<li>Recurring problems can be identified and resolved</li>
+<li>Forces you to ensure that all aspects of the product have been rigorously tested</li>
+<li>Removes room for error or interpretation during product assembly and testing.</li>
+<li>Resolving disputes with data instead of emotion</li>
+</ul>
+<h4>Certification</h4>
+<p>Determine if your product needs to have <strong>certifications</strong>: FCC, UKCA, CE, RoHS..<br>If your product contains <strong>batteries</strong> - you'll more than likely need <strong>UN3481</strong> certifications for transport (between the factory and your warehouse, and between your warehouse and your customers).</p>
+<p>If your device contains radio elements, you'll probably also need additional certifications (IE, FCC, etc).</p>
+<p>As with the manufacturing steps - it's important to select factories, components and suppliers that offer <strong>pre-certified</strong> components. For example, make sure your battery supplier already has certification for their batteries - otherwise your products might never leave the factory!</p>
+<p>In the end, you need to ensure that all elements of your product are <strong>compliant</strong> with the jurisdictions in which you plan to sell the product.</p>
+<p><strong>Remember</strong> - products that are legal in one country may be wildly illegal in another. For example: a laser pointer that is legal America is probably classified a a firearm in Australia.</p>
+<h3>Distribution</h3>
+<p>Depending on your project's goals, distribution may or may not important. For the accessories we're developing, distribution is a critical part of the flow. While we can rely on our internal distribution, we also have resellers and partners. </p>
+<p>You can only launch a product once - coordination with key partners to ensure that they have stock pre-launch is very important.</p>
+<h3>Promotion</h3>
+<p>Once the product is released, people need to know about it. However, there's a fine line between educating an audience about the availability of a product that may be of interest and annoying your loyal customers. </p>
+<p>In Part Two of this series, <a href="/blogs/academy/building-the-lightmessenger-product-manufacturing-part-2" rel="noopener" target="_blank">Building the LightMessenger product</a> we deep dive Lab401's first ever accessory for the Flipper Zero - the <a href="/products/light-messenger">Light Messenger.</a></p>
+<p>With read developer interviews, check out the concept art and build log from conception to production - it's an in-depth behind the scenes guide on how we made our first accessory.</p>]]>
+    </content>
+  </entry>
+</feed>

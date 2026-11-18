@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/academy.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/academy/tagged/bcc.atom"/>
+  <title>Lab401 - Academy</title>
+  <updated>2026-06-04T15:04:58+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/academy/pentestips-dont-brick-it-introduction-to-magic-cards-uids-and-bccs</id>
+    <published>2021-07-16T18:40:27+02:00</published>
+    <updated>2021-07-16T18:40:27+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/pentestips-dont-brick-it-introduction-to-magic-cards-uids-and-bccs"/>
+    <title>Pentestips: dont brick it - Introduction to Magic Cards, UIDs and BCC&apos;s</title>
+    <author>
+      <name>Lab401 Lee</name>
+    </author>
+    <summary type="html">
+      <![CDATA[Pentestips: <strong>dont brick it</strong> - Introduction to Magic Cards, UIDs and BCC's<p><a class="read-more" href="https://lab401.com/blogs/academy/pentestips-dont-brick-it-introduction-to-magic-cards-uids-and-bccs">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<h1 style="text-align: center;"><strong>Don't brick it!</strong></h1>
+<p><br>Introduction to Magic Cards, UIDs and BCCs</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/2Z43UupFIcg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></p>
+<p><span style="font-weight: 400;">- "MIFARE" is a family of High-Frequency 13.56MHz RFID cards, built by Panasonic / NXP that fall into the ISO category 14443a.</span></p>
+<p><span style="font-weight: 400;">- There are many types of cards within the family, each with different storage sizes, encryption and capabilities: Mifare Classic, Ultralight, DESFire, NTAG, and so on.</span></p>
+<p><span style="font-weight: 400;">- All MIFARE cards share the same basic structures:</span></p>
+<p><span style="font-weight: 400;">  - UID (Unique ID)</span></p>
+<p><span style="font-weight: 400;">  - SAK/ATQS (See our previous tutorial)</span></p>
+<p><span style="font-weight: 400;">  - Memory Space</span></p>
+<p><span style="font-weight: 400;">- Card configuration is defined in the "Block 0" or "Manufacturer Block". In original cards, the Block 0 cannot be modified. This was a key element in preventing card cloning - badge contents could be changed, but the Manufacturer Block, and the UID could not be changed.</span></p>
+<p><span style="font-weight: 400;">- Now, modifiable or "Magic" cards are available for almost every type of MIFARE card, which allows  the manufacturer block to be modified.</span></p>
+<br><br>
+<p><span style="font-weight: 400;">- However: with great power comes great responsibility. If the Block 0 is improperly configured, the card can be "bricked" - irreversibly broken. </span></p>
+<p><span style="font-weight: 400;">- The most common way to "brick" a magic card is with a bad BCC value.</span></p>
+<br>
+<p><span style="font-weight: 400;">- The BCC is a checksum value for the UID - which acts as 'double check' to ensure that the UID is correct. If the BCC is wrong, the card is no longer detectable, and so cannot be read or modified.</span></p>
+<br>
+<p><strong>- Let's look at an example.</strong></p>
+<p> </p>
+<p><span style="font-weight: 400;"></span><span style="font-weight: 400;">- Let's open a MIFARE Classic 1K Card, with a 4-byte UID dump in a hex editor, we can see the UID value in Block 0</span></p>
+<br>
+<p><span style="font-weight: 400;">- If we want to modify the UID, instinctively we'd change just the UID values, let's say to 1 2 3 4 5 6 7 8.</span></p>
+<p> </p>
+<p><span style="font-weight: 400;">-</span> <span style="font-weight: 400;">However, the BCC value is derived from the UID value. So if we change the UID without changing the BCC, when we make the change - the card will be bricked.</span></p>
+<br>
+<p><span style="font-weight: 400;">-</span> <span style="font-weight: 400;">We must calculate the BCC value for our new UID. </span></p>
+<br>
+<p><span style="font-weight: 400;">the new BCC value is calculated by XOR-ing each byte with the result of the previous XOR - don’t worry there are many tools online to perform this task, ie:</span><span style="font-weight: 400;"> https://bcc.beyerleinf.de/</span></p>
+<br>
+<p><span style="font-weight: 400;">-</span> <span style="font-weight: 400;">If we input our new UID: 0x12345678 (as a Hex String), we are given the BCC value of 0x08. So, we change the original card's BCC from 0xFC to 0x08, and write the card.</span></p>
+<br>
+<p><span style="font-weight: 400;">-</span> <span style="font-weight: 400;">Now, we've got a new UID, without bricking the card!</span></p>
+<br>
+<p><span style="font-weight: 400;">-</span> <span style="font-weight: 400;">If you're manually updating UIDs (by using the Proxmark's hf mf wb0 command) you must have the correct BCC calculated, or you'll brick the card.</span></p>
+<br>
+<p><span style="font-weight: 400;">-</span> <span style="font-weight: 400;">Luckily, many tools make this calculation automatically:</span></p>
+<p><span style="font-weight: 400;">- Android: Mifare Classic Tool has a BCC calculator</span></p>
+<p><span style="font-weight: 400;">- Windows/Linux: we can use the LibNFC mf-setuid tool</span></p>
+<br>
+<p><span style="font-weight: 400;">-</span> <span style="font-weight: 400;">For more information about Magic Cards, check out the Lab401 Academy article: Know your magic cards: <strong><a href="https://lab401.com/blogs/academy/know-your-magic-cards" target="_blank" title="Know your magic cards" rel="noopener noreferrer">https://lab401.com/blogs/academy/know-your-magic-cards</a></strong></span></p>]]>
+    </content>
+  </entry>
+</feed>

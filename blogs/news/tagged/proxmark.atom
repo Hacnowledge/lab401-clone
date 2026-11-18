@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/news.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/news/tagged/proxmark.atom"/>
+  <title>Lab401 - News</title>
+  <updated>2026-04-22T16:48:54+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/news/iceman-unveiled-rfid-hacking-proxmark-and-a-decade-of-discovery</id>
+    <published>2023-09-08T15:29:03+02:00</published>
+    <updated>2023-09-08T15:30:11+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/iceman-unveiled-rfid-hacking-proxmark-and-a-decade-of-discovery"/>
+    <title>Iceman Unveiled: RFID Hacking, Proxmark, and a Decade of Discovery</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<span data-mce-fragment="1">From RFID hacking to Proxmark wizardry, <strong>Iceman</strong> spills the tea on a decade of tech evolution. Don't miss this!</span><p><a class="read-more" href="https://lab401.com/blogs/news/iceman-unveiled-rfid-hacking-proxmark-and-a-decade-of-discovery">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p> 🔥 Hey there, pentesters and hacking enthusiasts! 🔥</p>
+<p>Get ready for an exclusive sit-down with the one and only Iceman.</p>
+<p>From RFID hacking to Proxmark wizardry, Iceman spills the tea on a decade of tech evolution. Don't miss this!</p>
+<p>🔗 ICEMAN LINKS 🔗</p>
+<p>Follow Iceman on X (formerly known as twitter) : https://twitter.com/herrmann1001</p>
+<p>Join the RFID Hacking Guide discord : https://discord.gg/U5egNybc</p>
+<p>👉 Subscribe &amp; hit that bell to never miss out on our future videos! 🔔</p>
+<p>Support Iceman and get 5% off your purchase using the code: <strong>ICEMAN</strong> at checkout.</p>
+<p><iframe title="YouTube video player" src="https://www.youtube.com/embed/neeuo6vfu9I?si=x-6eakraatYLlf1t" height="315" width="560" allowfullscreen="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" frameborder="0"></iframe></p>
+<div id="gtx-trans" style="position: absolute; left: 225px; top: 121px;">
+<div class="gtx-trans-icon"></div>
+</div>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/full-range-of-proxmark-3-rdv4-01-accessories-have-arrived</id>
+    <published>2019-08-31T11:19:00+02:00</published>
+    <updated>2019-08-31T11:20:18+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/full-range-of-proxmark-3-rdv4-01-accessories-have-arrived"/>
+    <title>Full Range of Proxmark 3 RDV4.01 Accessories have arrived!</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[After months of development, RRG has released its fully revised range of hardware and accessories for the Proxmark 3, including improved antennas, bluetooth and battery modules, new flashing modules and more.<p><a class="read-more" href="https://lab401.com/blogs/news/full-range-of-proxmark-3-rdv4-01-accessories-have-arrived">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>After months of development, RRG has released its fully revised range of hardware and accessories for the Proxmark 3.</p>
+<p><a href="/collections/rfid-tools/products/proxmark-3-rdv4?lshst=collection"><strong>Proxmark 3 RDV4.01</strong></a><br>Updated routing, improved connectivity, stabilised components and the upgraded HF &amp; LF antennas, the RDV 4.01 is the most advanced Proxmark platform available.</p>
+<p><a href="/collections/rfid-tools/products/proxmark-3-rdv4-standalone-kit"><strong>Proxmark 3 "Blueshark" BLE &amp; Battery Module</strong></a><br>The "Blueshark" module also contains a battery, transforming your Proxmark 3 RDV4.01 and 4 into a fully-standalone pentesting device.</p>
+<p>The Proxmark 'standalone' mode is fully supported, and the CNC'd aluminium case acts as a heatsink, further improving performance of your device.</p>
+<p><strong><a href="/products/proxmark-3-rdv4-01-long-range-lf-antenna-pack">Proxmark 3 Long Range LF Antenna Pack</a><br></strong>There have been significant upgrades made to the LF antennas, notably the introduction of the "Q-Switch" and "F-Switches".</p>
+<p>The F-Switch allows for targeting specific frequencies (125KHz or 134KHz), while the Q-Switch allows optimising the antenna sensitivity for specific tag types or operations.</p>
+<p>The Low Frequency Antenna Pack contains two antennas, Standalone and Long Range, giving reading and sniffing distances up to 130mm.</p>
+<p><strong><a href="/products/proxmark-3-rdv4-long-range-hf-antenna-1">Proxmark 3 Long Range HF Antenna Pack</a><br></strong>The HF antennas have also been updated and improved, allowing for read, write and sniff operations up to</p>
+<p>The Low Frequency Antenna Pack contains two antennas, Standalone and Long Range, giving reading and sniffing distances up to 120mm.</p>
+<p><a href="/products/proxmark-3-rdv4-01-upgraded-replacement-antenna"><strong>Proxmark 3 4.01 Antenna Upgrade Pack</strong></a><br>If you have a Proxmark 3 RDV4, you can upgrade your existing build-in antennas easily and cheaply to the new versions.</p>
+<p><strong>﻿</strong>﻿We're very happy to supply our customers with the full range of high-quality accessories in the Proxmark Range. Should you have any questions, please contact us.</p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/storm-la-bastille-with-lab401-10-store-wide</id>
+    <published>2019-07-12T14:23:00+02:00</published>
+    <updated>2019-07-12T14:24:44+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/storm-la-bastille-with-lab401-10-store-wide"/>
+    <title>Storm La Bastille with Lab401: 10% Store-wide!</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <content type="html">
+      <![CDATA[<p data-start-index="17937" data-end-index="18016"><span data-start-index="18016" data-end-index="18047"><strong data-start-index="18047" data-end-index="18055">La Bastille</strong> was a fortress-prison inside Paris, known for holding political dissidents without trial during the period of the French Revolution.</span></p>
+<p data-start-index="18333" data-end-index="18412"><span data-start-index="18412" data-end-index="18443">On the  <strong data-start-index="18451" data-end-index="18459">14th of July, 1789</strong>, it was stormed and overrun by the people - becoming a turning point in the Revolution, and a date of historical significance.</span></p>
+<p data-start-index="18639" data-end-index="18708"><span data-start-index="18708" data-end-index="18739">Today, infiltration would probably take a much different form - Employee Badges, RFID Entry Systems, CCTV and Network penetration.</span></p>
+<p data-start-index="18994" data-end-index="19073"><span data-start-index="19073" data-end-index="19104">At Lab401, we help Penetration Testers on a daily basis get the hardware they need: and to celebrate Bastille Day, you can enjoy a <strong data-start-index="19235" data-end-index="19243">10% discount store wide </strong>﻿- from <strong>﻿July 14 to July 17.</strong>﻿</span></p>
+<p data-start-index="18994" data-end-index="19073"><span data-start-index="19073" data-end-index="19104"><strong data-start-index="19235" data-end-index="19243">What tools would a modern day Bastille be infiltrated with? </strong>Let us know your thoughts <a href="https://twitter.com/lab_401">on Twitter!</a></span></p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/proxmark-3-rdv4-standadalone-kit-bluetooth-battery-released</id>
+    <published>2019-05-19T10:42:00+02:00</published>
+    <updated>2019-05-19T10:43:14+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/proxmark-3-rdv4-standadalone-kit-bluetooth-battery-released"/>
+    <title>Proxmark 3 RDV4 Standadalone Kit (Bluetooth + Battery) Released</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p><span>After 12 months of development.. the Proxmark 3 RDV4 goes totally standalone.</span></p>
+<p><span>Exceptional Bluetooth performance coupled with a high-capacity rechargeable battery. High quality machined aluminium and glass finish, compact and discrete.</span></p>
+<p>Check out the<span> </span><a href="https://lab401.com/products/proxmark-3-rdv4-standalone-kit">Proxmark 3 RDV4 Battery + Bluetooth Standalone kit now!</a></p>
+<p><span> </span></p><p><a class="read-more" href="https://lab401.com/blogs/news/proxmark-3-rdv4-standadalone-kit-bluetooth-battery-released">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p><span>After 12 months of development.. the Proxmark 3 RDV4 goes totally standalone.</span></p>
+<p><span> Exceptional Bluetooth performance coupled with a high-capacity rechargeable battery. High quality machined aluminium and glass finish, compact and discrete.</span></p>
+<p>Totally integrated into the official Proxmark 3 codebase - the standalone kit is tested and ready to use out of the box.</p>
+<p>During pre-order, Lab401.com is providing an immediate 10% discount, before the official release of June 1.</p>
+<p>Check out the <a href="https://lab401.com/products/proxmark-3-rdv4-standalone-kit">Proxmark 3 RDV4 Battery + Bluetooth Standalone kit now!</a></p>
+<p><iframe width="1182" height="674" src="https://www.youtube.com/embed/85R1FVosRZk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/tesla-s-hack-powered-by-open-source-tools</id>
+    <published>2018-09-17T05:41:00+02:00</published>
+    <updated>2018-09-17T09:44:18+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/tesla-s-hack-powered-by-open-source-tools"/>
+    <title>Tesla S hack powered by Open Source tools</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[The recent Tesla Model S hack is exclusively powered by Open Source hardware. Read how a Proxmark 3, Yardstick One and Raspberry Pi were used to pull of this feat.<p><a class="read-more" href="https://lab401.com/blogs/news/tesla-s-hack-powered-by-open-source-tools">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p><span><iframe width="560" height="315" src="https://www.youtube.com/embed/fJDuMeaocj4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>It's been widely reported that the <strong>Tesla Model S has been successfully hacked</strong> - keyfobs can be snatched and emulated rapidly and easily.</span></p>
+<div></div>
+<div>Even more interesting is the use of 'off the shelf' hardware - a <a href="https://proxmark.com" title="Proxmark 3">Proxmark</a>, Yardstick one and Raspberry Pi formed the hardware backbone of the hack.</div>
+<div></div>
+<div></div>
+<div>Lab401 congratulates COSIC's researchers for their hard work and responsible disclosure.</div>
+<div></div>
+<div>By the way - we noticed that @COSIC are using V1 Proxmarks - if you'd like to upgrade to RDV4s - send us an email!</div>
+<div></div>
+<div><iframe width="560" height="315" src="https://www.youtube.com/embed/aVlYuPzmJoY?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></div>
+<div></div>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/lab401-q3-sale-new-products-new-support-huge-discounts</id>
+    <published>2018-09-04T01:08:00+02:00</published>
+    <updated>2018-09-04T01:31:37+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/lab401-q3-sale-new-products-new-support-huge-discounts"/>
+    <title>Lab401 Q3 Sale: New Products, New Support, Huge Discounts</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[From September 5 - 10, enjoy up to 20% at Lab401.<br>Our Pentester Packs and Pentester Tag Packs are on sale - and we've also added some exciting new products: Proxmark 3 RDV4, Proxmark 3 EVO and the Keysy LF Duplicator.<p><a class="read-more" href="https://lab401.com/blogs/news/lab401-q3-sale-new-products-new-support-huge-discounts">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p><iframe width="1279" height="719" src="https://www.youtube.com/embed/oi3Ba9UZMX4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></p>
+<p>Summer is over: September means back to work &amp; university.</p>
+<p>At Lab401, it means our Annual Q3 Sale, new products and better service.</p>
+<p><strong>20% Sale</strong><br>For one week only - <strong>Sept 5 - 10</strong> - enjoy huge discounts on our most popular products:</p>
+<ul>
+<li>
+<strong>Lab401 Pentester Pack</strong>: 10% Discount<br>Including the newly released Proxmark 3 RDV4 - the pentester pack is the must-have pack for getting started with RFID.<br>With the discount, you'll <strong>save over 100 EU</strong> off RRP.<br><br>
+</li>
+<li>
+<strong>Lab401 Pentester Tag Pack:</strong> 10% Discount<br>Our impressive card range is available bundled by usage: Basic, Android and Advanced. <br>During our sale, you'll save an additional 10% across all packs!<br><br>
+</li>
+<li>
+<strong>Proxmark 3 RDV2: </strong>20% Discount<br>The PM3 RDV2 has never been this affordable. We are running low on stock - so be quick to jump on this discount.<br><br>
+</li>
+<li>
+<strong>Segger JTag Tool</strong><br>Invaluable when you need to reflash your Proxmarks - enjoy 20% off these must-have devices.</li>
+</ul>
+<p><strong>New Products<br></strong>We've added three new incredible products:</p>
+<ul>
+<li>
+<strong>Proxmark 3 RDV4</strong><br>The RDV4 is a Proxmark 3 revision optimised for <strong>pen-testers and red-teamers.</strong><br>Featuring exchangeable antennas, SIM/SAM slot, and expansion headers - all fitted into a palm-sized case.<br><br>
+</li>
+<li>
+<strong>Proxmark 3 EVO<br></strong>The Proxmark EVO / Evolution is the latest Proxmark 3 revision for <strong>desktop / university / home </strong>users. Featuring pre-tuned, built-in antennas in a compact case with RGB LED - the EVO is the economical option for users working in the lab or at home. </li>
+<li>
+<b>Keysy RFID Duplicator / Emulator<br></b>The Keysy is a must have for any RFID tester. The size and shape of a car-remote - it can sniff, emulate and duplicate a vast array of LF tags quickly and easily. Powerful yet highly economical - your toolkit needs one of these.</li>
+</ul>
+<p><strong>Customer Support<br></strong>We have listened to your feedback, and are proud to launch a totally new customer support service - 6 days a week with guaranteed reply in under 24 hours.</p>
+<p>As Lab401 has grown, it has been difficult to maintain customer support to the level that you deserve - so we are proud to unveil the new support system - and look forward to hearing your thoughts.</p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/news/proxmark-3-rdv4-released-1</id>
+    <published>2018-07-23T16:29:00+02:00</published>
+    <updated>2018-07-23T16:31:45+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/proxmark-3-rdv4-released-1"/>
+    <title>Proxmark 3 RDV4 Released!</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[The Proxmark 3 RDV4 is finally available, launching simultaneously online and at DEF CON 26. For more information about this amazing device, read on!<p><a class="read-more" href="https://lab401.com/blogs/news/proxmark-3-rdv4-released-1">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>After an incredibly successful <a href="https://www.kickstarter.com/projects/1408815241/proxmark3-rdv-40">Kickstarter campaign</a>, the <a href="/collections/hardware/products/proxmark-3-rdv4">Proxmark 3 RDV4</a> is ready for world-wide release at DEF CON 26, and online with Lab401.</p>
+<p>Representing the cumulation of years of hard work and expertise, the Proxmark 3 RDV4 is an entirely refreshed and miniaturised version of the RDV2, boasting a tiny footprint, new functionality, increased stability, and assertive pentesting features.</p>
+<ul>
+<li>New: Additional 2MBit Flash Storage</li>
+<li>New: SIM/SAM reader/writer</li>
+<li>New: External Module Interface, for BLE/Wifi</li>
+<li>New: Pre-tuned, internal antennas</li>
+<li>New: Hot-swappable antennas: Medium + Long Range</li>
+<li>New: External Case<br><br>
+</li>
+<li>Improved: Optimised size, now the size of a stack of 10 business cards</li>
+<li>Improved: Antenna stability and performance</li>
+<li>Improved: Interface: 4x Status LEDs, 4x Power LEDs</li>
+</ul>
+<p>If you're attending DEF CON 26, you can pick up a Proxmark 3 RDV4 at the Hacker Warehouse stand, or you can <a href="/collections/hardware/products/proxmark-3-rdv4">pre-order now from Lab401.</a></p>
+<p>Shipments start on August 9, the same date as DEF CON.</p>]]>
+    </content>
+  </entry>
+</feed>

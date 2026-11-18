@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/academy.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/academy/tagged/antenna-extender.atom"/>
+  <title>Lab401 - Academy</title>
+  <updated>2026-06-04T15:04:58+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/academy/pentestips-rfid-antenna-extender-covert-use</id>
+    <published>2021-05-07T00:00:00+02:00</published>
+    <updated>2021-05-07T00:00:00+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/pentestips-rfid-antenna-extender-covert-use"/>
+    <title>#Pentestips : RFID Antenna Extender: Covert Use</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <content type="html">
+      <![CDATA[<p>In <a href="/blogs/academy/pentestips-rfid-antenna-extender-how-to-use">last week's pentestip</a> we introduced the <a href="https://lab401.com/products/rfid-antenna-extender">RFID Antenna Extender</a>. This week, we demonstrate how this passive antenna booster can be used in pentesting scenarios to increase read/write/crack ranges to up to 50cm away.</p>
+<p>Check back every Friday for a new video. If you've got a tip that you'd like to see featured, just send us a <a href="https://twitter.com/Lab_401" target="_blank" rel="noopener noreferrer">tweet</a>.</p>
+<p><iframe src="https://www.youtube.com/embed/XsJJglUuqpU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="1210" height="551" frameborder="0"></iframe></p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/academy/pentestips-rfid-antenna-extender-how-to-use</id>
+    <published>2021-04-30T00:00:00+02:00</published>
+    <updated>2021-04-30T00:00:00+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/pentestips-rfid-antenna-extender-how-to-use"/>
+    <title>#Pentestips : RFID Antenna Extender: How to use</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <content type="html">
+      <![CDATA[<p>This week's pentestip is a hands-on how-to with the <a href="https://lab401.com/products/rfid-antenna-extender">RFID Antenna Extender</a>.</p>
+<p>Manufactured by Lab401, these devices are a world-first: passively boost read/write/crack ranges to 7cm and displace reader zones up to 50cm.<br>They are compatible with all 13.56MHz systems, and require no wiring or soldering.</p>
+<p>We get hands-on with the devices in this week's #pentesttip!</p>
+<p>Check back every Friday for a new video. If you've got a tip that you'd like to see featured, just send us a <a href="https://twitter.com/Lab_401" target="_blank" rel="noopener noreferrer">tweet</a>.</p>
+<p><iframe src="https://www.youtube.com/embed/dsMdMGGF4xU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="1210" height="551" frameborder="0"></iframe></p>]]>
+    </content>
+  </entry>
+</feed>

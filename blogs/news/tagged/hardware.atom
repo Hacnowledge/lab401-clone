@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/news.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/news/tagged/hardware.atom"/>
+  <title>Lab401 - News</title>
+  <updated>2026-04-22T16:48:54+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/news/lab401-exclusive-eu-hak5-distributor</id>
+    <published>2019-09-26T01:42:00+02:00</published>
+    <updated>2019-09-26T07:32:00+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/lab401-exclusive-eu-hak5-distributor"/>
+    <title>Lab401: Exclusive EU Hak5 Distributor</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p><span style="font-size: 16px;" data-start-index="16685" data-end-index="16716">After months of hard work, we are very excited to announce that <strong data-start-index="16780" data-end-index="16788">Lab401 is an official distributor of Hak5 products. </strong></span></p>
+<p><span style="font-size: 16px;" data-start-index="16685" data-end-index="16716">We have all Hak5 products in stock - <a href="/collections/hak5">check them out now!</a></span></p><p><a class="read-more" href="https://lab401.com/blogs/news/lab401-exclusive-eu-hak5-distributor">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<div style="color: #61626f; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; line-height: 150%; padding: 0px 10px 10px 10px;" data-start-index="16254" data-end-index="16431">
+<div style="line-height: 18px; font-size: 12px; color: #61626f; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;" data-start-index="16444" data-end-index="16570">
+<p style="line-height: 24px; text-align: justify; font-size: 12px; margin: 0; padding-bottom: 15px;" data-start-index="16584" data-end-index="16685"><span style="font-size: 16px;" data-start-index="16685" data-end-index="16716">After months of hard work, we are very excited to announce that <strong data-start-index="16780" data-end-index="16788">Lab401 is an official distributor of Hak5 products. </strong></span></p>
+<p style="line-height: 24px; text-align: justify; font-size: 12px; margin: 0;" data-start-index="16865" data-end-index="16944"><span style="font-size: 16px;" data-start-index="16944" data-end-index="16975">Hak5 Products are legendary - even appearing in movies and TV series.<br data-start-index="17044" data-end-index="17050">Focused on covert network implants, the tools are optimised for penetration testers.<br data-start-index="17134" data-end-index="17140"> <strong data-start-index="17141" data-end-index="17149">Forget import fees:</strong> Our warehouse is based in France, meaning that there is no import duties for our EU customers.</span></p>
+<p style="line-height: 24px; text-align: justify; font-size: 12px; margin: 0;" data-start-index="16865" data-end-index="16944"> </p>
+<p style="line-height: 24px; text-align: justify; font-size: 12px; margin: 0;" data-start-index="16865" data-end-index="16944"><span style="font-size: 16px;" data-start-index="16944" data-end-index="16975">We have all Hak5 products in stock - <a href="/collections/hak5">check them out now!</a></span></p>
+<p style="line-height: 24px; text-align: justify; font-size: 12px; margin: 0;" data-start-index="16865" data-end-index="16944"> </p>
+<p style="line-height: 24px; text-align: justify; font-size: 12px; margin: 0;" data-start-index="16865" data-end-index="16944"><span style="font-size: 16px;" data-start-index="16944" data-end-index="16975">If you're  not familiar with the Hak5 product range, check out our overview video below.</span></p>
+<p style="line-height: 24px; text-align: justify; font-size: 12px; margin: 0;" data-start-index="16865" data-end-index="16944"> </p>
+<p style="line-height: 24px; text-align: justify; font-size: 12px; margin: 0;" data-start-index="16865" data-end-index="16944"><span style="font-size: 16px;" data-start-index="16944" data-end-index="16975"><iframe src="https://www.youtube.com/embed/XSkodiF-p2w" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="863" height="485" frameborder="0"></iframe></span></p>
+</div>
+</div>]]>
+    </content>
+  </entry>
+</feed>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/academy.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/academy/tagged/usbkill-v4.atom"/>
+  <title>Lab401 - Academy</title>
+  <updated>2026-06-04T15:04:58+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/academy/pentestips-usbkill-v4-how-to-use</id>
+    <published>2021-05-14T07:19:32+02:00</published>
+    <updated>2021-05-14T07:19:32+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/pentestips-usbkill-v4-how-to-use"/>
+    <title>#pentestips - USBKill V4 : how to use</title>
+    <author>
+      <name>Lab401 Lee</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p><span dir="auto" class="style-scope yt-formatted-string">As you may know, every open port is a potential vector of attack in a red teaming environment.In t</span><span dir="auto" class="style-scope yt-formatted-string">oday’s<span> </span></span><a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="https://www.youtube.com/hashtag/pentestips" dir="auto">#pentestips</a><span dir="auto" class="style-scope yt-formatted-string"><span> </span>let's check how to use the USBKill V4 an important tool for red teamers.</span></p><p><a class="read-more" href="https://lab401.com/blogs/academy/pentestips-usbkill-v4-how-to-use">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p><span dir="auto" class="style-scope yt-formatted-string">As you may know, every open port is a potential vector of attack in a red teaming environment. </span></p>
+<p><span dir="auto" class="style-scope yt-formatted-string">In today’s </span><a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="https://www.youtube.com/hashtag/pentestips" dir="auto">#pentestips</a><span dir="auto" class="style-scope yt-formatted-string"> let's check how to use the <strong>USBKill V4</strong> an important tool for red teamers.</span></p>
+<p><span dir="auto" class="style-scope yt-formatted-string"><iframe width="560" height="315" src="https://www.youtube.com/embed/6_-S8RQU8P8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></span></p>
+<p><span dir="auto" class="style-scope yt-formatted-string">Stay safe and see you next week!</span></p>]]>
+    </content>
+  </entry>
+</feed>

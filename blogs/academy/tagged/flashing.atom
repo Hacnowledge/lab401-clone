@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/academy.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/academy/tagged/flashing.atom"/>
+  <title>Lab401 - Academy</title>
+  <updated>2026-06-04T15:04:58+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/academy/chameleon-mini-reve-rebooted-flashing-to-latest-firmware</id>
+    <published>2018-12-22T18:31:00+01:00</published>
+    <updated>2018-12-22T18:32:00+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/chameleon-mini-reve-rebooted-flashing-to-latest-firmware"/>
+    <title>Chameleon Mini RevE Rebooted: Flashing to latest firmware</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<meta charset="utf-8">
+<p>The firmware for the Chameleon Mini Rev E Rebooted is<span> </span><a href="https://github.com/iceman1001/ChameleonMini-rebooted">open source</a>. However, compiling the latest binaries is somewhat complicated, and requires access to an ARM compiler. </p>
+<p>There have been several improvements recently in the firmware, so Lab401 has compiled the latest commits into a downloadable firmware bundle.</p>
+<p>Flashing the Chameleon Mini on a Windows machine (or emulated environment) is simple - read on for a step by step guide.</p><p><a class="read-more" href="https://lab401.com/blogs/academy/chameleon-mini-reve-rebooted-flashing-to-latest-firmware">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<h3>LAB401<strong> ACADEMY: Chameleon Mini RevE Rebooted: Flashing to latest firmware</strong>
+</h3>
+<h3>
+<strong></strong><strong>INTRODUCTION:</strong> </h3>
+<p>The firmware for the Chameleon Mini Rev E Rebooted is <a href="https://github.com/iceman1001/ChameleonMini-rebooted">open source</a>. However, compiling the latest binaries is somewhat complicated, and requires access to an ARM compiler. </p>
+<p>There have been several improvements recently in the firmware, so Lab401 has compiled the latest commits into a downloadable firmware bundle.</p>
+<p>Flashing the Chameleon Mini on a Windows machine (or emulated environment) is simple, following the steps below:<br><br></p>
+<ol>
+<li>
+<strong>Download</strong> the latest Chameleon Mini Rev E Rebooted tools here:<br><a href="https://github.com/iceman1001/ChameleonMini-rebooted/archive/master.zip">https://github.com/iceman1001/ChameleonMini-rebooted/archive/master.zip<br><br></a>
+</li>
+<li>Unzip the archive, and navigate to the folder:<br>
+<pre>ChamelonMini-rebooted/Software/Win32</pre>
+</li>
+<li>
+<b>Download </b>the latest firmware update: <a href="/products/chameleon-mini/firmware/latest.zip">https://lab401.com/products/chameleon-mini/firmware/latest.zip<br><br></a>
+</li>
+<li>
+<strong>Unzip</strong> the archive into the Win32 folder.<br><br>
+</li>
+<li>
+<strong>Press and hold</strong> the <strong>black button</strong> on the <strong></strong>Chameleon Mini Rev E<br><br>
+</li>
+<li>
+<strong>Connect</strong> the Chameleon Mini Rev E Rebooted <strong>without the battery</strong>, still<strong> holding the button.<br><br></strong>
+</li>
+<li>
+<strong>Run</strong> the application "BOOT_LOADER_EXE.exe" </li>
+</ol>
+<ul>
+<li>You should see text similar to:
+<pre>Erasing flash...  Success
+Checking memory from 0x0 to 0x6FFF...  Empty.
+0%                            100%  Programming 0x40 bytes...
+[&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;]  Success
+0%                            100%  Reading 0x400 bytes...
+0%                            100%  Programming 0x5E00 bytes...
+[&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;]  Success
+0%                            100%  Reading 0x7000 bytes...
+load_success!
+</pre>
+</li>
+<li>If you receive the error 'def-old-driver: no device present'</li>
+<ul>
+<li>
+<strong>Rename</strong> the file libusb0.dll to libusb0.dll.bak</li>
+<li>
+<strong>Retry </strong>step <strong>5</strong>
+</li>
+</ul>
+<li>
+<strong>Disconnect</strong> and <strong>reconnect</strong> the Chameleon Device - you're finished, and your firmware is flashed to the latest version!</li>
+</ul>
+<ul></ul>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/academy/proxmark-3-using-custom-firmware</id>
+    <published>2017-07-16T00:26:00+02:00</published>
+    <updated>2017-07-16T00:36:49+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/proxmark-3-using-custom-firmware"/>
+    <title>Proxmark 3: Using Custom Firmware</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p>You may have seen on the Proxmark Forum references to 'Flashing custom firmware', or people discussing the 'iceman branch', or the 'marshmellow branch'.</p>
+<p>What are these branches, what is custom firmware, and why may it be relevant to you?</p>
+<p>Learn how to safely flash your <a href="/products/proxmark-3-rdv2" target="_blank" title="Purchase your Proxmark 3 RDV 2" rel="noopener noreferrer">Proxmark 3 RDV</a> with our step by step guide.</p><p><a class="read-more" href="https://lab401.com/blogs/academy/proxmark-3-using-custom-firmware">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<h3><strong>LAB401 ACADEMY: CUSTOM PROXMARK FIRMWARE</strong></h3>
+<h4>
+<strong>INTRODUCTION: </strong>WHY?</h4>
+<p>You may have seen on the Proxmark Forum references to 'Flashing custom firmware', or people discussing the 'iceman branch', or the 'marshmellow branch'.</p>
+<p>What are these branches, what is custom firmware, and why may it be relevant to you?</p>
+<p>The Proxmark 3 is open source software and hardware - and as such, has many different developers working on it at any one time. As different developers research new badges, technologies and techniques, they create their own versions of the main Proxmark firmware. These separations away from the main firmware are known as 'forks'.</p>
+<p>Forks may have interesting features that may not necessarily make it back to the 'master' firmware.</p>
+<h4><strong>ICEMAN FORK</strong></h4>
+<p>In the Proxmark 3 community, there are a few custom forks, with one of the most interesting being the <strong>iceman fork</strong>.</p>
+<p>This fork is particulally interesting, as it's one of the most rapidly developed forks. If you're looking for bleeding edge functionality, this is definitely the branch for you. Some features of the iceman fork that are interesting include:</p>
+<ul>
+<li>Mifare Hardnested Attack</li>
+<li>125 Tag Generation (Viking, etc)</li>
+<li>Optimised functions</li>
+</ul>
+<h4><strong>HOW: FLASHING YOUR FIRMWARE - WINDOWS 7/10</strong></h4>
+<p>To change the firmware on your Proxmark 3, you simply need to replace the standard firmware with the new firmware.</p>
+<p>For this tutorial, we will be using the <strong>Proxmark 3 RDV</strong><span> </span>- sold from Lab401. Our devices already have the latest default firmware - so you can easily change back and forth your firmware.</p>
+<ol>
+<li>
+<strong>Download</strong><span> </span>the latest iceman fork: <a href="https://lab401.com/proxmark/drivers/win32/iceman/latest/">https://lab401.com/proxmark/drivers/win32/iceman/latest/</a><br>Extract the contents of the zip to a directory you will remember, such as: c:proxmark3-iceman<br><br>
+</li>
+<li><strong>Plug in your proxmark<br></strong></li>
+<li>
+<strong>Check your proxmark's port<br></strong>Hit the windows key, and type 'Device Manager'. Look under the section 'Ports', and you will see your device listed, with its COM Port. In our instance, it's COM3.<br><br>
+</li>
+<li>
+<strong>Prepare the flash</strong>
+<ol>
+<li>Open a command window: Windows +R, and type in 'cmd'.<br><br>
+</li>
+<li>Navigate to where you saved the firmware, ie:<span> </span><br>    cdproxmark3-icemanwin32<br><br>
+</li>
+<li>Update the flashing file to have the correct port:<br>    notepad "FLASH - fullimage.bat"<br><br>
+</li>
+<li>Double check the port reference is correct, if not update it.<br>Save the file, and close notepad.<br><br>
+</li>
+</ol>
+</li>
+<li>
+<strong>Begin the flash<br></strong>Type in the command to start the flash:<br>    "FLASH - fullimage.bat"<br><br>Follow the on-screen instructions.<br>If all goes well, you will see the device being updated, and will have a success message.<br><br>
+</li>
+<li>
+<strong>Testing your new firmware<br></strong>To test your new firmware, simply connect to the proxmark client:<br>    proxmark3<span> </span><em>COMX</em><br><br>Where<span> </span><em>COMX</em><span> </span>is the COM port of your Proxmark. For us, it's COM3.<br><br>You can then issue any command, such as:<br>     hw tune<br>     hf search<br><br>etc</li>
+</ol>
+<h4>FLASHING BACK</h4>
+<p>Should you ever need to flash back - it's a simple case of downloading the official firmware: <a href="https://lab401.com/proxmark/drivers/win32/latest/">https://lab401.com/proxmark/drivers/win32/latest/</a> and following the above instructions.</p>]]>
+    </content>
+  </entry>
+</feed>

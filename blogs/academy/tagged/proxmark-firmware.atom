@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/academy.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/academy/tagged/proxmark-firmware.atom"/>
+  <title>Lab401 - Academy</title>
+  <updated>2026-06-04T15:04:58+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/academy/proxmark-basics-updating-firmware-on-windows-linux</id>
+    <published>2022-02-01T15:13:06+01:00</published>
+    <updated>2022-02-15T15:37:40+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/proxmark-basics-updating-firmware-on-windows-linux"/>
+    <title>Proxmark Basics: Updating Firmware on Windows &amp; Linux</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[Episode 3 in the Proxmark Basics series: Updating / Flashing firmware on the Proxmark 3 for Windows and Linux.<p><a class="read-more" href="https://lab401.com/blogs/academy/proxmark-basics-updating-firmware-on-windows-linux">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p><em>This video comes from Lab401 contributor <strong>Dominic Villeneuve</strong> of <strong><a href="https://www.youtube.com/channel/UCngpVvZNgVRD-OzbP0TY9GA" target="_blank" title="DHack Security: RFID Tutorials" rel="noopener noreferrer">DHack Security</a>, </strong>and is part of the <a href="/blogs/academy/tagged/proxmark-basics" title="Proxmark Basics Series: Proxmark 3 &amp; RFID Tutorials">Proxmark Basics</a> series.</em></p>
+<p>Episode 3 in the Proxmark Basics series gets in-depth with the Proxmark 3 RDV4.01 - the cornerstone of RFID research.</p>
+<p>The Proxmark 3 has evolved significantly over the years, leaving a trail of incomplete and outdated information, specifically in regards to updating firmware.</p>
+<p>Updating firmware depends on the hardware you're running, the modules it uses, and the operating system that you use.</p>
+<p>If you're using Windows, check out the Proxmark 3 Windows Firmware update tutorial:</p>
+<p><iframe src="https://www.youtube.com/embed/lPe9Y-YpWnY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="717" height="403" frameborder="0"></iframe></p>
+<p>If you're using Linux, check out the Proxmark 3 Linux Firmware update tutorial:</p>
+<p><iframe src="https://www.youtube.com/embed/HRVPyRTZqy8" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="717" height="403" frameborder="0"></iframe></p>
+<p><strong>Tools Used:</strong></p>
+<ul>
+<li><a href="/products/proxmark-3-rdv4" title="Proxmark 3 RDV4">Proxmark 3 RDV4.01</a></li>
+</ul>
+<p><strong>Episode Resources:</strong></p>
+<ul>
+<li><a href="https://proxmarkbuilds.org" target="_blank" rel="noopener noreferrer">Pre-built Proxmark Firmware for Windows</a></li>
+</ul>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://lab401.com/blogs/academy/proxmark-3-using-custom-firmware</id>
+    <published>2017-07-16T00:26:00+02:00</published>
+    <updated>2017-07-16T00:36:49+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/academy/proxmark-3-using-custom-firmware"/>
+    <title>Proxmark 3: Using Custom Firmware</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p>You may have seen on the Proxmark Forum references to 'Flashing custom firmware', or people discussing the 'iceman branch', or the 'marshmellow branch'.</p>
+<p>What are these branches, what is custom firmware, and why may it be relevant to you?</p>
+<p>Learn how to safely flash your <a href="/products/proxmark-3-rdv2" target="_blank" title="Purchase your Proxmark 3 RDV 2" rel="noopener noreferrer">Proxmark 3 RDV</a> with our step by step guide.</p><p><a class="read-more" href="https://lab401.com/blogs/academy/proxmark-3-using-custom-firmware">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<h3><strong>LAB401 ACADEMY: CUSTOM PROXMARK FIRMWARE</strong></h3>
+<h4>
+<strong>INTRODUCTION: </strong>WHY?</h4>
+<p>You may have seen on the Proxmark Forum references to 'Flashing custom firmware', or people discussing the 'iceman branch', or the 'marshmellow branch'.</p>
+<p>What are these branches, what is custom firmware, and why may it be relevant to you?</p>
+<p>The Proxmark 3 is open source software and hardware - and as such, has many different developers working on it at any one time. As different developers research new badges, technologies and techniques, they create their own versions of the main Proxmark firmware. These separations away from the main firmware are known as 'forks'.</p>
+<p>Forks may have interesting features that may not necessarily make it back to the 'master' firmware.</p>
+<h4><strong>ICEMAN FORK</strong></h4>
+<p>In the Proxmark 3 community, there are a few custom forks, with one of the most interesting being the <strong>iceman fork</strong>.</p>
+<p>This fork is particulally interesting, as it's one of the most rapidly developed forks. If you're looking for bleeding edge functionality, this is definitely the branch for you. Some features of the iceman fork that are interesting include:</p>
+<ul>
+<li>Mifare Hardnested Attack</li>
+<li>125 Tag Generation (Viking, etc)</li>
+<li>Optimised functions</li>
+</ul>
+<h4><strong>HOW: FLASHING YOUR FIRMWARE - WINDOWS 7/10</strong></h4>
+<p>To change the firmware on your Proxmark 3, you simply need to replace the standard firmware with the new firmware.</p>
+<p>For this tutorial, we will be using the <strong>Proxmark 3 RDV</strong><span> </span>- sold from Lab401. Our devices already have the latest default firmware - so you can easily change back and forth your firmware.</p>
+<ol>
+<li>
+<strong>Download</strong><span> </span>the latest iceman fork: <a href="https://lab401.com/proxmark/drivers/win32/iceman/latest/">https://lab401.com/proxmark/drivers/win32/iceman/latest/</a><br>Extract the contents of the zip to a directory you will remember, such as: c:proxmark3-iceman<br><br>
+</li>
+<li><strong>Plug in your proxmark<br></strong></li>
+<li>
+<strong>Check your proxmark's port<br></strong>Hit the windows key, and type 'Device Manager'. Look under the section 'Ports', and you will see your device listed, with its COM Port. In our instance, it's COM3.<br><br>
+</li>
+<li>
+<strong>Prepare the flash</strong>
+<ol>
+<li>Open a command window: Windows +R, and type in 'cmd'.<br><br>
+</li>
+<li>Navigate to where you saved the firmware, ie:<span> </span><br>    cdproxmark3-icemanwin32<br><br>
+</li>
+<li>Update the flashing file to have the correct port:<br>    notepad "FLASH - fullimage.bat"<br><br>
+</li>
+<li>Double check the port reference is correct, if not update it.<br>Save the file, and close notepad.<br><br>
+</li>
+</ol>
+</li>
+<li>
+<strong>Begin the flash<br></strong>Type in the command to start the flash:<br>    "FLASH - fullimage.bat"<br><br>Follow the on-screen instructions.<br>If all goes well, you will see the device being updated, and will have a success message.<br><br>
+</li>
+<li>
+<strong>Testing your new firmware<br></strong>To test your new firmware, simply connect to the proxmark client:<br>    proxmark3<span> </span><em>COMX</em><br><br>Where<span> </span><em>COMX</em><span> </span>is the COM port of your Proxmark. For us, it's COM3.<br><br>You can then issue any command, such as:<br>     hw tune<br>     hf search<br><br>etc</li>
+</ol>
+<h4>FLASHING BACK</h4>
+<p>Should you ever need to flash back - it's a simple case of downloading the official firmware: <a href="https://lab401.com/proxmark/drivers/win32/latest/">https://lab401.com/proxmark/drivers/win32/latest/</a> and following the above instructions.</p>]]>
+    </content>
+  </entry>
+</feed>

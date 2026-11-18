@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/blogs/news.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/blogs/news/tagged/corona.atom"/>
+  <title>Lab401 - News</title>
+  <updated>2026-04-22T16:48:54+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/blogs/news/covid19-update</id>
+    <published>2020-03-15T08:14:00+01:00</published>
+    <updated>2020-04-14T11:18:07+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/blogs/news/covid19-update"/>
+    <title>COVID19 Update</title>
+    <author>
+      <name>Lab401 Steve</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p>Lab401's warehousing and logistics are based in France, which introduced restrictions to non-essential commerce on March 14. After two weeks of data, we can confirm Lab401's operations</p>
+<ul>
+<li>
+<strong>Order processing <span style="color: #6aa84f;">operational</span></strong> (&lt; 24h)</li>
+<li>
+<strong>Customer Support <span style="color: #6aa84f;">operational</span></strong> (&lt; 24h)</li>
+<li>
+<strong>Shipping <span style="color: #6aa84f;">operational</span> </strong> but <strong><span style="color: #ff9900;">modified</span></strong>
+</li>
+</ul>
+<p>The postal systems are saturated. To guarantee your delivery <strong>we are sending all shipments via courier.</strong></p>
+<p>For <strong>European Shipments</strong>:</p>
+<ul>
+<li>
+<strong>Paid shipping increased to 19€</strong> <i>All shipments via courier</i>
+</li>
+<li><strong>Free shipping from €250<span style="color: #cc0000;"></span></strong></li>
+<li><strong>Urgent / Express shipping is <span style="color: #6aa84f;">operational</span></strong></li>
+</ul>
+<p><strong><span style="color: #6aa84f;"></span></strong>For <strong>International Shipments:</strong></p>
+<ul>
+<li><strong>Standard Shipments <span style="color: #cc0000;">Suspended</span></strong></li>
+<li><strong>Urgent / Express shipping is <span style="color: #6aa84f;">operational</span></strong></li>
+</ul><p><a class="read-more" href="https://lab401.com/blogs/news/covid19-update">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>Lab401's warehousing and logistics are based in France, which introduced restrictions to non-essential commerce on March 14. After two weeks of data, we can confirm Lab401's operations</p>
+<ul>
+<li>
+<strong>Order processing <span style="color: #6aa84f;">operational</span></strong> (&lt; 24h)</li>
+<li>
+<strong>Customer Support <span style="color: #6aa84f;">operational</span></strong> (&lt; 24h)</li>
+<li>
+<strong>Shipping <span style="color: #6aa84f;">operational</span> </strong> but <strong><span style="color: #ff9900;">modified</span></strong>
+</li>
+</ul>
+<p>Regular postal systems are saturated; to guarantee your delivery <strong>we are sending all shipments via courier.</strong> Likewise, we are providing <strong><span style="color: #6aa84f;">free insurance with all shipments</span></strong> during this time.<strong> </strong></p>
+<p>For <strong>European Shipments</strong>:</p>
+<ul>
+<li>
+<strong>Paid shipping increased to 19€</strong> <i>All shipments via courier</i>
+</li>
+<li><strong>Free shipping from €250<span style="color: #cc0000;"></span></strong></li>
+<li><strong>Urgent / Express shipping is <span style="color: #6aa84f;">operational</span></strong></li>
+<li><strong>Some EU destinations are <span style="color: #ff9900;">restricted.</span></strong></li>
+<ul>
+<li>
+<strong>Italy:</strong> No deliveries to: <span style="color: #333333;">Ariano Irpino, Polla, Sala Consilina, Atena Lucana, Caggiano, Medicina, Montebello Ionico et San Lucido</span>
+</li>
+<li><span style="color: #333333;"><strong>Portugal:</strong> No deliveres to Ovar</span></li>
+</ul>
+</ul>
+<p><strong><span style="color: #6aa84f;"></span></strong>For <strong>International Shipments:</strong></p>
+<ul>
+<li><strong>Standard Shipments <span style="color: #cc0000;">Suspended</span></strong></li>
+<li><strong>Urgent / Express shipping is <span style="color: #6aa84f;">operational</span></strong></li>
+<li><strong>Some destinations are <span style="color: #ff9900;">restricted.</span></strong></li>
+<ul>
+<li>
+<strong>Singapore:</strong> Deliveries to company addresses are suspended until May 7.<span style="color: #333333;"></span>
+</li>
+<li><span style="color: #333333;"><strong>South Africa:</strong> Deliveries are suspended until the end of restrictions.<br></span></li>
+<li><span style="color: #333333;"><strong>Argentina, Bolivia, Ecuador, Panama, Peru and Venuzuella</strong>: Deliveries are suspended until the end of restrictions.</span></li>
+</ul>
+</ul>
+<p><span style="color: #333333;">Full information is available via our carrier: https://www.chronopost.fr/en/flash-infos/04072020-international-shipping-covid-19</span></p>
+<p>Please note, although orders are processed and dispatched within 1 business day, we have noticed that the courier services are experiencing delays before processing new packages. This is out of our control, and appears to fluctuate from same-day to up to 3 business days.</p>
+<p>We will update this thread if and when the situation changes.</p>
+<p>In the meantime, we are using the imposed quarantine to put the finishing touches on new products.</p>
+<p>Stay safe and informed -</p>
+<p>Steve and the Lab401 Team</p>]]>
+    </content>
+  </entry>
+</feed>
