@@ -377,8 +377,24 @@
   }
   function wireCurrencyDisclosures() {
     wireDisclosure('[data-header-currency-selector]');
-    wireDisclosure('[data-mobile-currency]', '[data-mobile-currency-toggle]', '[data-mobile-currency-list]');
     wireDisclosure('[data-disclosure-country]');
+    /* La devise MOBILE n'est pas branchee ici : son bouton est gere par
+       delegation sur document (gestionnaire de clics ci-dessous), pour
+       survivre a une re-creation du menu mobile par le theme, et sa liste
+       s'ouvre VERS LE HAUT (CSS injecte) car elle est en bas du menu. */
+  }
+  /* La liste devise mobile s'ouvrait vers le BAS depuis la derniere rangee
+     du menu : 71 options hors ecran, invisibles (« rien ne se passe » au
+     tap). On l'ouvre VERS LE HAUT, avec defilement et fond blanc. */
+  function injectMobileCurrencyCSS() {
+    if (document.getElementById('lab401-mobile-currency-css')) return;
+    var st = document.createElement('style');
+    st.id = 'lab401-mobile-currency-css';
+    st.textContent = '.mobile-currency{position:relative}'
+      + '.mobile-currency__list{position:absolute;bottom:calc(100% + 6px);left:0;right:0;max-height:45vh;overflow-y:auto;background:#fff;border:1px solid #ddd;border-radius:4px;box-shadow:0 -4px 18px rgba(0,0,0,.2);z-index:80;margin:0;padding:4px 0;list-style:none}'
+      + '.mobile-currency__list .mobile-currency__option{display:flex;align-items:center;gap:8px;padding:8px 12px;color:#111;text-decoration:none;white-space:nowrap}'
+      + '.mobile-currency__list .mobile-currency__option--current{font-weight:700}';
+    document.head.appendChild(st);
   }
   function applyCountry(code, source) {
     if (!code || !COUNTRIES[code]) code = 'US';
@@ -437,6 +453,27 @@
   }
   document.addEventListener('click', function (e) {
     if (!e.target || !e.target.closest) return;
+    /* Devise mobile : bascule de la liste par delegation (survit a une
+       re-creation du menu par le theme ; ne pas rebrancher en direct). */
+    var mct = e.target.closest('[data-mobile-currency-toggle]');
+    if (mct) {
+      e.preventDefault();
+      var mwrap = mct.closest('[data-mobile-currency]');
+      var mlist = mwrap && mwrap.querySelector('[data-mobile-currency-list]');
+      if (mlist) {
+        var isOpen = mlist.style.display === 'block';
+        mlist.style.display = isOpen ? 'none' : 'block';
+        mct.setAttribute('aria-expanded', isOpen ? 'false' : 'true');
+      }
+      return;
+    }
+    /* Fermer la liste devise mobile sur clic ailleurs. */
+    var mcList = document.querySelector('[data-mobile-currency-list]');
+    if (mcList && mcList.style.display === 'block' && !e.target.closest('[data-mobile-currency]')) {
+      mcList.style.display = 'none';
+      var mct2 = document.querySelector('[data-mobile-currency-toggle]');
+      if (mct2) mct2.setAttribute('aria-expanded', 'false');
+    }
     var ly = e.target.closest('.ly-languages-switcher-link, [data-language-code]');
     if (ly && ly.getAttribute('data-language-code')) {
       e.preventDefault(); e.stopPropagation();
@@ -524,6 +561,7 @@
       cb.addEventListener('change', function () { setTaxPref(cb.checked); syncCheckboxes(); processPrices(); });
     });
     populateCurrencyLists();
+    injectMobileCurrencyCSS();
     updateCurrencyButtons('FR', COUNTRIES['FR']);
     updateLogoFlag(null);
     Promise.all([loadCadMap().catch(function () {}), loadUsdMap().catch(function () {})]).then(function () { processPrices(); });
