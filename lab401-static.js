@@ -180,7 +180,7 @@
   }
   function detectVariantPriceChanges() {
     var changed = false;
-    $$('[data-product-pricing] [data-price], [data-product-pricing] [data-price-min], [data-product-pricing] [data-price-max], [data-product-pricing] [data-price-compare], [data-product-pricing] [data-price-compare-min], [data-product-pricing] [data-price-compare-max], [data-product-wrapper] [data-price], [data-product-wrapper] [data-price-min], [data-product-wrapper] [data-price-max], [data-product-wrapper] [data-price-compare], [data-product-wrapper] [data-price-compare-min], [data-product-wrapper] [data-price-compare-max], [data-product-pricing] [data-price-money-saved], [data-product-wrapper] [data-price-money-saved]').forEach(function (el) {
+    $$('[data-product-pricing] [data-price], [data-product-pricing] [data-price-min], [data-product-pricing] [data-price-max], [data-product-pricing] [data-price-compare], [data-product-pricing] [data-price-compare-min], [data-product-pricing] [data-price-compare-max], [data-product-wrapper] [data-price], [data-product-wrapper] [data-price-min], [data-product-wrapper] [data-price-max], [data-product-wrapper] [data-price-compare], [data-product-wrapper] [data-price-compare-min], [data-product-wrapper] [data-price-compare-max], [data-product-pricing] [data-price-money-saved], [data-product-wrapper] [data-price-money-saved], [data-price-money-saved]').forEach(function (el) {
       var text = (el.textContent || '').trim();
       if (!text) return;
       var cents = parseEurText(text);
