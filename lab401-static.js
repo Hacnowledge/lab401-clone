@@ -184,15 +184,33 @@
   }
   function detectVariantPriceChanges() {
     var changed = false;
-    $$('[data-product-pricing] [data-price], [data-product-pricing] [data-price-min], [data-product-pricing] [data-price-max], [data-product-pricing] [data-price-compare], [data-product-pricing] [data-price-compare-min], [data-product-pricing] [data-price-compare-max], [data-product-wrapper] [data-price], [data-product-wrapper] [data-price-min], [data-product-wrapper] [data-price-max], [data-product-wrapper] [data-price-compare], [data-product-wrapper] [data-price-compare-min], [data-product-wrapper] [data-price-compare-max], [data-product-pricing] [data-price-money-saved], [data-product-wrapper] [data-price-money-saved], [data-price-money-saved]').forEach(function (el) {
+    $$('[data-product-pricing] [data-price], [data-product-pricing] [data-price-min], [data-product-pricing] [data-price-max], [data-product-pricing] [data-price-compare], [data-product-pricing] [data-price-compare-min], [data-product-pricing] [data-price-compare-max], [data-product-wrapper] [data-price], [data-product-wrapper] [data-price-min], [data-product-wrapper] [data-price-max], [data-product-wrapper] [data-price-compare], [data-product-wrapper] [data-price-compare-min], [data-product-wrapper] [data-price-compare-max]').forEach(function (el) {
+      /* Ne jamais ecrire data-tax-cents sur un element qui n'en a pas
+         (ex. [data-price-money-saved] : c'est une economie, pas un prix). */
+      if (!el.hasAttribute('data-tax-cents')) return;
       var text = (el.textContent || '').trim();
       if (!text) return;
       var cents = parseEurText(text);
       if (cents == null) return;
-      if (eurCents(el) !== cents) {
-        el.setAttribute('data-tax-cents', String(cents));
-        changed = true;
-      }
+      if (eurCents(el) === cents) return;
+      /* Valider : le prix EUR lu doit etre une variante connue du produit
+         (present dans la table exacte CAD ou USD). Sinon c'est un prix
+         compare, une economie ou un texte parasite : l'ecrire corromprait
+         data-tax-cents et fausserait tous les changements de devise
+         suivants (la table ne contient pas la cle, donc le taux de
+         repli s'applique au lieu du prix exact). */
+      var handle = handleFor(el);
+      var key = (cents / 100).toFixed(2);
+      var known = false;
+      [CAD_MAP, USD_MAP].forEach(function (map) {
+        if (map && handle && map[handle]) {
+          var t = map[handle].price, c = map[handle].compare;
+          if ((t && t[key] != null) || (c && c[key] != null)) known = true;
+        }
+      });
+      if (!known) return;
+      el.setAttribute('data-tax-cents', String(cents));
+      changed = true;
     });
     if (changed) processPrices();
   }
@@ -387,7 +405,13 @@
   wireCurrencyDisclosures();
     updateCurrencyButtons(code, info);
     updateLogoFlag(code);
-    detectVariantPriceChanges();
+    /* Ne PAS appeler detectVariantPriceChanges() ici : un changement de
+       pays/devise ne change pas la variante. Le texte affiche est alors
+       dans l'ancienne devise ; le relire comme un prix EUR corromprait
+       data-tax-cents et faussait les prix apres un aller-retour de devise
+       (ex. CAD -> USD -> CAD : 50 $ au lieu de 51 $, 47 $ au lieu de 52 $).
+       La detection des variantes reste active via l'observateur (ligne
+       variantTimer), qui se declenche quand le theme met a jour les prix. */
     processPrices();
   }
   function loadCadMap() {
@@ -486,9 +510,10 @@
 
   /* ---------------- demarrage ---------------- */
   function init() {
-    /* Version EN+FR seulement : retirer les options de langue IT/ES/DE
-       (les pays IT/ES/DE restent disponibles comme devises). */
-    ['it', 'es', 'de'].forEach(function (l) {
+    /* Version EN+FR+ES : retirer les options de langue IT/DE seulement.
+       L'espagnol est garde (demande de l'utilisateur, 2026-11-18).
+       (Les pays IT/ES/DE restent disponibles comme devises.) */
+    ['it', 'de'].forEach(function (l) {
       $$('[data-disclosure-locale] [data-disclosure-option][data-value="' + l + '"], .header-lang-selector__list [data-disclosure-option][data-value="' + l + '"], [data-mobile-lang-option][data-value="' + l + '"], .ly-languages-switcher-link[data-language-code="' + l + '"]').forEach(function (el) {
         var li = el.closest ? el.closest('li') : null;
         if (li) li.remove(); else el.remove();
