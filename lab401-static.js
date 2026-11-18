@@ -101,6 +101,26 @@
       var m = (a.getAttribute('href') || '').match(/products\/([^\/\?\#]+)/);
       if (m) return m[1].replace(/\.html$/, '');
     }
+    /* Sur les listes (accueil, collections), le prix n'est PAS dans le lien
+       produit : le lien est ferme avant le prix, mais la carte (.productitem)
+       contient le lien (image ou titre) et/ou data-product-quickshop-url.
+       On remonte les ancetres (max 7) et on prend le premier lien produit
+       trouve dans l'ancetre : c'est celui de la carte, pas de la grille. */
+    var node = el;
+    for (var depth = 0; depth < 7 && node; depth++) {
+      node = node.parentElement;
+      if (!node) break;
+      var q = node.getAttribute && node.getAttribute('data-product-quickshop-url');
+      if (q) {
+        var mq = q.match(/products\/([^\/\?\#]+)/);
+        if (mq) return mq[1];
+      }
+      var link = node.querySelector ? node.querySelector('a[href*="products/"]') : null;
+      if (link) {
+        var ml = (link.getAttribute('href') || '').match(/products\/([^\/\?\#]+)/);
+        if (ml) return ml[1].replace(/\.html$/, '');
+      }
+    }
     var cp = canonicalPath();
     if (cp) {
       var m2 = cp.match(/^\/(?:fr|it|es|de)?\/?products\/([^\/\?]+)/);
@@ -160,7 +180,7 @@
   }
   function detectVariantPriceChanges() {
     var changed = false;
-    $$('[data-product-pricing] [data-price], [data-product-pricing] [data-price-min], [data-product-pricing] [data-price-max], [data-product-pricing] [data-price-compare], [data-product-pricing] [data-price-compare-min], [data-product-pricing] [data-price-compare-max], [data-product-wrapper] [data-price], [data-product-wrapper] [data-price-min], [data-product-wrapper] [data-price-max], [data-product-wrapper] [data-price-compare], [data-product-wrapper] [data-price-compare-min], [data-product-wrapper] [data-price-compare-max]').forEach(function (el) {
+    $$('[data-product-pricing] [data-price], [data-product-pricing] [data-price-min], [data-product-pricing] [data-price-max], [data-product-pricing] [data-price-compare], [data-product-pricing] [data-price-compare-min], [data-product-pricing] [data-price-compare-max], [data-product-wrapper] [data-price], [data-product-wrapper] [data-price-min], [data-product-wrapper] [data-price-max], [data-product-wrapper] [data-price-compare], [data-product-wrapper] [data-price-compare-min], [data-product-wrapper] [data-price-compare-max], [data-product-pricing] [data-price-money-saved], [data-product-wrapper] [data-price-money-saved]').forEach(function (el) {
       var text = (el.textContent || '').trim();
       if (!text) return;
       var cents = parseEurText(text);
@@ -255,11 +275,16 @@
       var toggle = box.querySelector('[data-disclosure-toggle]');
       if (toggle) {
         setFlagImg(toggle.querySelector('[class*="__flag"]'), code);
+        /* Le bouton contient un noeud texte (nom du pays) ET un span
+           .disclosure-list__option-code (" (EUR \u20ac)") : il faut mettre
+           a jour les deux, sinon on obtient "Canada (CAD $) (EUR \u20ac)". */
         var done = false;
         Array.prototype.slice.call(toggle.childNodes).forEach(function (n) {
-          if (n.nodeType === 3 && n.textContent.trim()) { n.textContent = ' ' + longLabel + ' '; done = true; }
+          if (!done && n.nodeType === 3 && n.textContent.trim()) { n.textContent = ' ' + info.name + ' '; done = true; }
         });
-        if (!done) {
+        var codeSpan = toggle.querySelector('.disclosure-list__option-code');
+        if (codeSpan) codeSpan.textContent = ' (' + info.currency + ' ' + info.symbol + ')';
+        if (!done && !codeSpan) {
           var lab = toggle.querySelector('[class*="__label"], [class*="__name"], .disclosure-list__option');
           if (lab) lab.textContent = longLabel;
         }
@@ -303,6 +328,30 @@
   }
 
   /* ---------------- application du pays ---------------- */
+  function wireDisclosure(wrapperSel) {
+    /* Reproduit le mecanisme du selecteur de langue (script inline du theme)
+       : clic sur le bouton -> ouvre/ferme la liste, clic ailleurs -> ferme.
+       Ne cible que les selecteurs de DEVISE/PAYS (la langue a deja son
+       propre script inline : la rebrancher ferait basculer deux fois). */
+    var wrapper = document.querySelector(wrapperSel);
+    if (!wrapper || wrapper.getAttribute('data-lab401-wired')) return;
+    var toggle = wrapper.querySelector('[data-disclosure-toggle]');
+    var list = wrapper.querySelector('[data-disclosure-list]');
+    if (!toggle || !list) return;
+    wrapper.setAttribute('data-lab401-wired', '1');
+    function open() { list.style.display = 'block'; toggle.setAttribute('aria-expanded', 'true'); }
+    function close() { list.style.display = 'none'; toggle.setAttribute('aria-expanded', 'false'); }
+    toggle.addEventListener('click', function (e) {
+      e.preventDefault();
+      if (list.style.display === 'block') close(); else open();
+    });
+    document.addEventListener('click', function (e) { if (!wrapper.contains(e.target)) close(); });
+  }
+  function wireCurrencyDisclosures() {
+    wireDisclosure('[data-header-currency-selector]');
+    wireDisclosure('[data-mobile-currency]');
+    wireDisclosure('[data-disclosure-country]');
+  }
   function applyCountry(code, source) {
     if (!code || !COUNTRIES[code]) code = 'US';
     var info = COUNTRIES[code];
@@ -325,6 +374,7 @@
       ship.dispatchEvent(new Event('change'));
     }
     populateCurrencyLists();
+  wireCurrencyDisclosures();
     updateCurrencyButtons(code, info);
     updateLogoFlag(code);
     detectVariantPriceChanges();
@@ -398,7 +448,7 @@
       for (var i = 0; i < mutations.length; i++) {
         var mut = mutations[i];
         var t = mut.target.nodeType === 1 ? mut.target : mut.target.parentElement;
-        if (t && t.matches && (t.matches('[data-price], [data-price-min], [data-price-max], [data-price-compare], [data-price-compare-min], [data-price-compare-max]') || (t.closest && t.closest('[data-price], [data-price-min], [data-price-max], [data-price-compare], [data-price-compare-min], [data-price-compare-max]')))) { hit = true; break; }
+        if (t && t.matches && (t.matches('[data-price], [data-price-min], [data-price-max], [data-price-compare], [data-price-compare-min], [data-price-compare-max], [data-price-money-saved]') || (t.closest && t.closest('[data-price], [data-price-min], [data-price-max], [data-price-compare], [data-price-compare-min], [data-price-compare-max], [data-price-money-saved]')))) { hit = true; break; }
         for (var j = 0; j < mut.addedNodes.length; j++) {
           var n = mut.addedNodes[j];
           if (n.nodeType === 1 && ((n.hasAttribute && n.hasAttribute('data-tax-cents')) || (n.querySelectorAll && n.querySelectorAll('[data-tax-cents]').length))) { hit = true; break; }
