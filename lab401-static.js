@@ -23,6 +23,7 @@
   var EU_VAT = { AT: 1.2, BE: 1.21, BG: 1.2, HR: 1.25, CY: 1.19, CZ: 1.21, DK: 1.25, EE: 1.22, FI: 1.255, FR: 1.2, DE: 1.19, GR: 1.24, HU: 1.27, IE: 1.23, IT: 1.22, LV: 1.21, LT: 1.21, LU: 1.17, MT: 1.18, NL: 1.21, PL: 1.23, PT: 1.23, RO: 1.19, SK: 1.23, SI: 1.22, ES: 1.21, SE: 1.25 };
   var CAD_FALLBACK_RATE = 1.66;
   var CAD_MAP = null;
+  var USD_MAP = null;
   var LOCALE_ALIASES = { 'policies/privacy-policy': 'pages/privacy-policy', 'policies/terms-of-service': 'pages/terms-and-conditions', 'policies/refund-policy': 'pages/returns-policy' };
   var state = { country: null, currency: 'EUR', taxPref: false, taxRate: 1 };
   var updating = false;
@@ -48,7 +49,7 @@
     var cp = canonicalPath();
     if (cp) {
       var m = cp.match(/^\/(fr|it|es|de)(\/|$)/);
-      var rest = m ? cp.slice(m[0].length - 1) : cp;
+      var rest = m ? '/' + cp.slice(m[0].length) : cp;
       return rest === '' ? '/' : rest;
     }
     var p = window.location.pathname;
@@ -118,14 +119,15 @@
     var cur = state.currency;
     if (cur === 'EUR') return cents / 100;
     var eurMajor = cents / 100;
-    if (cur === 'CAD' && CAD_MAP && handle && CAD_MAP[handle]) {
-      var table = (isCmp && CAD_MAP[handle].compare) ? CAD_MAP[handle].compare : CAD_MAP[handle].price;
+    var exactMap = cur === 'CAD' ? CAD_MAP : (cur === 'USD' ? USD_MAP : null);
+    if (exactMap && handle && exactMap[handle]) {
+      var table = (isCmp && exactMap[handle].compare) ? exactMap[handle].compare : exactMap[handle].price;
       var key = eurMajor.toFixed(2);
       if (table && table[key] != null) return table[key];
     }
     var rate = cur === 'CAD' ? CAD_FALLBACK_RATE : (RATES[cur] || 1);
     var val = eurMajor * rate;
-    if (cur === 'CAD' || fmt(cur).dec === 0) val = Math.round(val);
+    if (cur === 'CAD' || cur === 'USD' || fmt(cur).dec === 0) val = Math.round(val);
     return val;
   }
   function setPrice(el, text) {
@@ -142,7 +144,6 @@
   function processPrices() {
     updating = true;
     $$('[data-tax-cents]').forEach(function (el) {
-      if (isHiddenTemplate(el)) return;
       var cents = eurCents(el);
       if (cents == null) return;
       var major = convertMajor(cents, handleFor(el), isCompare(el));
@@ -159,8 +160,7 @@
   }
   function detectVariantPriceChanges() {
     var changed = false;
-    $$('[data-product-pricing] [data-price], [data-product-pricing] [data-price-compare], [data-product-wrapper] [data-price], [data-product-wrapper] [data-price-compare]').forEach(function (el) {
-      if (isHiddenTemplate(el)) return;
+    $$('[data-product-pricing] [data-price], [data-product-pricing] [data-price-min], [data-product-pricing] [data-price-max], [data-product-pricing] [data-price-compare], [data-product-pricing] [data-price-compare-min], [data-product-pricing] [data-price-compare-max], [data-product-wrapper] [data-price], [data-product-wrapper] [data-price-min], [data-product-wrapper] [data-price-max], [data-product-wrapper] [data-price-compare], [data-product-wrapper] [data-price-compare-min], [data-product-wrapper] [data-price-compare-max]').forEach(function (el) {
       var text = (el.textContent || '').trim();
       if (!text) return;
       var cents = parseEurText(text);
@@ -214,7 +214,7 @@
     a.className = 'disclosure-list__item' + (c === state.country ? ' disclosure-list__item--current' : '');
     a.href = '#'; a.setAttribute('data-value', c); a.setAttribute('data-disclosure-option', '');
     if (c === state.country) a.setAttribute('aria-current', 'true');
-    a.innerHTML = '<span class="header-currency-selector__dropdown-flag"><img class="flag-icon flag-icon--country" src="' + flagUrl(c) + '" width="20" height="15" loading="lazy" alt="" aria-hidden="true"></span> <span class="disclosure-list__option">' + info.s + ' ' + info.c + '</span>';
+    a.innerHTML = '<span class="header-currency-selector__dropdown-flag"><img class="flag-icon flag-icon--country" src="' + flagUrl(c) + '" width="20" height="15" loading="lazy" alt="" aria-hidden="true"></span> <span class="disclosure-list__option">' + info.symbol + ' ' + info.currency + '</span>';
     li.appendChild(a);
     return li;
   }
@@ -225,7 +225,7 @@
     a.className = 'mobile-currency__option' + (c === state.country ? ' mobile-currency__option--current' : '');
     a.href = '#'; a.setAttribute('data-value', c); a.setAttribute('data-mobile-currency-option', '');
     if (c === state.country) a.setAttribute('aria-current', 'true');
-    a.innerHTML = '<span class="mobile-currency__option-flag"><img class="flag-icon flag-icon--country" src="' + flagUrl(c) + '" width="20" height="15" loading="lazy" alt="" aria-hidden="true"></span> <span>' + info.s + ' ' + info.c + '</span>';
+    a.innerHTML = '<span class="mobile-currency__option-flag"><img class="flag-icon flag-icon--country" src="' + flagUrl(c) + '" width="20" height="15" loading="lazy" alt="" aria-hidden="true"></span> <span>' + info.symbol + ' ' + info.currency + '</span>';
     li.appendChild(a);
     return li;
   }
@@ -239,8 +239,8 @@
     if (ml) { ml.innerHTML = ''; order.forEach(function (c) { ml.appendChild(mobileOption(c)); }); }
   }
   function updateCurrencyButtons(code, info) {
-    var shortLabel = info.s + ' ' + info.c;
-    var longLabel = info.n + ' (' + info.c + ' ' + info.s + ')';
+    var shortLabel = info.symbol + ' ' + info.currency;
+    var longLabel = info.name + ' (' + info.currency + ' ' + info.symbol + ')';
     $$('.header-currency-selector__toggle').forEach(function (btn) {
       setFlagImg(btn.querySelector('.header-currency-selector__flag'), code);
       var lab = btn.querySelector('.header-currency-selector__label');
@@ -307,7 +307,7 @@
     if (!code || !COUNTRIES[code]) code = 'US';
     var info = COUNTRIES[code];
     state.country = code;
-    state.currency = info.c;
+    state.currency = info.currency;
     if (code in EU_VAT) {
       setTaxRate(EU_VAT[code]);
       setToggleVisibility(true);
@@ -327,6 +327,7 @@
     populateCurrencyLists();
     updateCurrencyButtons(code, info);
     updateLogoFlag(code);
+    detectVariantPriceChanges();
     processPrices();
   }
   function loadCadMap() {
@@ -335,6 +336,13 @@
       if (!r.ok) throw new Error('cad map ' + r.status);
       return r.json();
     }).then(function (j) { CAD_MAP = j; });
+  }
+  function loadUsdMap() {
+    var url = SCRIPT_URL ? SCRIPT_URL.slice(0, SCRIPT_URL.lastIndexOf('/') + 1) + 'lab401-usd-prices.json' : (CFG.base || '') + '/lab401-usd-prices.json';
+    return fetch(url).then(function (r) {
+      if (!r.ok) throw new Error('usd map ' + r.status);
+      return r.json();
+    }).then(function (j) { USD_MAP = j; });
   }
 
   /* ---------------- interceptions ---------------- */
@@ -390,7 +398,7 @@
       for (var i = 0; i < mutations.length; i++) {
         var mut = mutations[i];
         var t = mut.target.nodeType === 1 ? mut.target : mut.target.parentElement;
-        if (t && t.matches && (t.matches('[data-price], [data-price-compare]') || (t.closest && t.closest('[data-price], [data-price-compare]')))) { hit = true; break; }
+        if (t && t.matches && (t.matches('[data-price], [data-price-min], [data-price-max], [data-price-compare], [data-price-compare-min], [data-price-compare-max]') || (t.closest && t.closest('[data-price], [data-price-min], [data-price-max], [data-price-compare], [data-price-compare-min], [data-price-compare-max]')))) { hit = true; break; }
         for (var j = 0; j < mut.addedNodes.length; j++) {
           var n = mut.addedNodes[j];
           if (n.nodeType === 1 && ((n.hasAttribute && n.hasAttribute('data-tax-cents')) || (n.querySelectorAll && n.querySelectorAll('[data-tax-cents]').length))) { hit = true; break; }
@@ -433,7 +441,7 @@
     populateCurrencyLists();
     updateCurrencyButtons('FR', COUNTRIES['FR']);
     updateLogoFlag(null);
-    loadCadMap().then(function () { processPrices(); }, function () { processPrices(); });
+    Promise.all([loadCadMap().catch(function () {}), loadUsdMap().catch(function () {})]).then(function () { processPrices(); });
     /* ?country=XX dans l'URL : force le pays (comme le vrai site) et le
        memorise, pour que les pages .ca / .us du clone fonctionnent. */
     var urlCountry = null;
