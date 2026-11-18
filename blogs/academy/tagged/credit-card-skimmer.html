@@ -2329,7 +2329,7 @@ Shopify.SignInWithShop.User.recognized = false;</script>
           </a>
         </li></ul>
     <input type="hidden" name="locale_code" value="en" data-mobile-lang-input/>
-  </div></form><script>
+  </div><div class="mobile-currency" data-mobile-currency><button type="button" class="mobile-currency__toggle" aria-expanded="false" data-mobile-currency-toggle > <span class="mobile-currency__flag"> <img class="flag-icon flag-icon--country" src="../../../cdn/shop/t/60/assets/flag-fr.svg" width="20" height="15" loading="lazy" alt="" aria-hidden="true" > </span> <span class="mobile-currency__name">€ EUR</span> <svg class="mobile-currency__chevron" xmlns="http://www.w3.org/2000/svg" width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> </button> <ul class="mobile-currency__list" data-mobile-currency-list style="display: none;"></ul></div></form><script>
   (function() {
     document.addEventListener('click', function(e) {
       var toggle = e.target.closest('[data-mobile-lang-toggle]');
@@ -2744,7 +2744,7 @@ Shopify.SignInWithShop.User.recognized = false;</script>
             </li></ul>
         <input type="hidden" name="locale_code" id="HeaderLocaleSelector-hdr" value="en" data-disclosure-input/>
       </div>
-    </div></form><script>
+    </div><div class="header-currency-selector" data-header-currency-selector> <div class="disclosure" data-disclosure-currency> <h2 class="visually-hidden" id="header-currency-heading-lab401">Currency</h2><button type="button" class="header-currency-selector__toggle disclosure__toggle" aria-expanded="false" aria-controls="header-currency-list-lab401" aria-describedby="header-currency-heading-lab401" data-disclosure-toggle > <span class="header-currency-selector__flag"> <img class="flag-icon flag-icon--country" src="../../../cdn/shop/t/60/assets/flag-fr.svg" width="20" height="15" loading="lazy" alt="" aria-hidden="true" > </span> <span class="header-currency-selector__label"> € EUR </span> </button> <ul id="header-currency-list-lab401" class="disclosure-list header-currency-selector__list" data-disclosure-list></ul> </div> </div></form><script>
     (function() {
       var wrapper = document.querySelector('[data-header-lang-selector]');
       if (!wrapper) return;
@@ -13858,7 +13858,7 @@ Shopify.SignInWithShop.User.recognized = false;</script>
 
     <script src="../../../cdn/shop/t/60/assets/lab401-country.js" defer></script>
       <script>window.LAB401_MONEY_FORMAT = "€{{amount}}";</script>
-      <script src="../../../cdn/shop/t/60/assets/tax.js" defer></script><script>(function(n, v) {/* eslint-disable-next-line max-len */if (window.Shopify && window.Shopify.theme && navigator && navigator.sendBeacon && window.Shopify.designMode) {if (sessionStorage.getItem('oots_beacon')) return;navigator.sendBeacon('https://app.outofthesandbox.com/beacon', new URLSearchParams({shop_domain: window.Shopify.shop.toLowerCase(),shop_id: '21758571',shop_email: 'support@lab401.com',theme_name: n.toLowerCase(),theme_version: v.toLowerCase(),theme_store_id: window.Shopify.theme.theme_store_id,theme_id: window.Shopify.theme.id,theme_role: window.Shopify.theme.role,}));sessionStorage.setItem('oots_beacon', '');}}('empire','12.2.1'))</script>
+      <script>(function(n, v) {/* eslint-disable-next-line max-len */if (window.Shopify && window.Shopify.theme && navigator && navigator.sendBeacon && window.Shopify.designMode) {if (sessionStorage.getItem('oots_beacon')) return;navigator.sendBeacon('https://app.outofthesandbox.com/beacon', new URLSearchParams({shop_domain: window.Shopify.shop.toLowerCase(),shop_id: '21758571',shop_email: 'support@lab401.com',theme_name: n.toLowerCase(),theme_version: v.toLowerCase(),theme_store_id: window.Shopify.theme.theme_store_id,theme_id: window.Shopify.theme.id,theme_role: window.Shopify.theme.role,}));sessionStorage.setItem('oots_beacon', '');}}('empire','12.2.1'))</script>
   <div id="shopify-block-AaTJnSGxzM0tTc1RrN__7333856334229879547" class="shopify-block shopify-app-block">
 <script type="text/javascript">
   window.$bpDoranInit = window.$bpDoranInit || {};
@@ -15330,6 +15330,8 @@ Shopify.SignInWithShop.User.recognized = false;</script>
 
 
 </div><script src="https://cdn.shopify.com/storefront/standard-actions.js" type="module" data-source-attribution="shopify.standard_actions"></script>
+<script>window.LAB401_STATIC={base:"/lab401-clone",locale:"en"};</script>
+<script src="../../../lab401-static.js" defer></script>
 </body>  
 </html>
 
