@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/collections/rfid-badges-packs.atom"/>
+  <title>Lab401</title>
+  <updated>2023-04-17T10:09:01+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/products/8340103823707</id>
+    <published>2023-04-17T10:09:01+02:00</published>
+    <updated>2023-04-17T10:09:01+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/rfid-pentester-tag-pack"/>
+    <title>RFID Pentester Tag Pack</title>
+    <s:type>RFID Tags</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/Pentester-Pack_7d301461-fe17-43b5-8b08-51cfec9b6cfc.png?v=1678711251"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>RFID Tags<br>
+        <strong>Price: </strong>
+            75.00 - 400.00
+            <a href="https://lab401.com/products/rfid-pentester-tag-pack">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2><strong>Introduction</strong></h2>
+<p>RFID Pentester Tag Pack is a curated collection of the <em>must-have</em> tags when working with RFID tools. The pack has three different tiers, are optimised to most people's use-cases and price ranges. This tag pack has significant discounts over buying cards individually.<br></p>
+<p><strong>The pack has three different versions</strong></p>
+<ul>
+<li>
+<strong>Basic Pack<br></strong>The minimum RFID cards that every pen-tester must have. Includes cards that you will encounter on a daily basis.<br><span style="color: #cc0000;"><strong>Save 20€</strong></span><br><br>
+</li>
+<li>
+<strong>Standard Pack<br></strong>The essential RFID Cards, plus a collection of cards for use in the field by pentesters / red-teamers, including "DirectWrite" cards (Modifiable with an Android device), more advanced cards (One-Time-Write UID Cards, MIFARE DESFire® Compatible EV1 emulators), and the Ultimate Magic Card.<br><span style="color: #cc0000;"><strong>Save 105€</strong></span><br><br>
+</li>
+<li>
+<strong>Complete Pack<br></strong>Every RFID card available on Lab401. Everything in the Basic + Standard Packs, and all our advanced / specialty cards and emulation fobs.<br><span style="color: #cc0000;"><strong>Save 160€</strong></span><br><br>
+</li>
+</ul>
+<p>Please see the individual product pages for more information about each product.</p>
+<h2><strong>What's included</strong></h2>
+<p><strong>RFID Tags / Cards</strong></p>
+<table width="100%">
+<tbody>
+<tr>
+<td width="30%"><br></td>
+<td width="10%"><strong>Format</strong></td>
+<td>Quantity:<strong><br>Basic Pack</strong>
+</td>
+<td>
+<div>
+<meta charset="utf-8"> <br>
+</div>
+Quantity:<strong><br>Standard Pack</strong>
+</td>
+<td>
+<div>
+<meta charset="utf-8"> <br>
+</div>
+Quantity:<strong><br>Complete Pack</strong>
+</td>
+</tr>
+<tr>
+<td><a href="/products/mifare-compatible-1k-uid-modifiable-pack-of-5" target="_blank"><strong>MIFARE Classic® Compatible 1K UID Changeable Cointag</strong></a></td>
+<td>Coin</td>
+<td class="col1">5x</td>
+<td class="col2">5x</td>
+<td class="col3">5x</td>
+</tr>
+<tr>
+<td><a href="/products/125khz-t5577-keyfobs-pack-of-5" target="_blank"><strong>125KHz T5577 Keyfobs</strong></a></td>
+<td>Fob</td>
+<td class="col1">5x</td>
+<td class="col2">5x<br>
+</td>
+<td class="col3">5x</td>
+</tr>
+<tr>
+<td><a href="/products/mifare-compatible-1k-uid-modifiable" target="_blank"><strong>MIFARE Classic® Compatible 1K UID Changeable</strong></a></td>
+<td>Fob</td>
+<td class="col1">5x</td>
+<td class="col2">5x</td>
+<td class="col3">5x</td>
+</tr>
+<tr>
+<td><a href="/products/ultralight-compatiblr-direct-write-uid" target="_blank"><strong>MIFARE Ultralight® Compatible UID Changeable GEN2</strong></a></td>
+<td>
+<div>
+<meta charset="utf-8"> <br>
+</div>
+<span>Card</span>
+</td>
+<td class="col1">1x</td>
+<td class="col2">1x</td>
+<td class="col3">2x</td>
+</tr>
+<tr>
+<td><a href="/products/mifare-compatible-1k-direct-write-uid" target="_blank"><strong>MIFARE Classic® Compatible 1K UID Changeable GEN2</strong></a></td>
+<td>Card</td>
+<td class="col1">5x</td>
+<td class="col2">5x</td>
+<td class="col3">5x</td>
+</tr>
+<tr>
+<td><a href="/products/mifare-compatible-4k-direct-write-uid" target="_blank"><strong>MIFARE Classic® Compatible 4K Direct Write UID (GEN2)</strong></a></td>
+<td>Card</td>
+<td class="col1">1x</td>
+<td class="col2">1x</td>
+<td class="col3">2x</td>
+</tr>
+<tr>
+<td><a href="/products/rfid-blocker-nfc-jammer" target="_blank"><strong>RFID Blocker Card</strong></a></td>
+<td>
+<div>
+<meta charset="utf-8"> <br>
+</div>
+<span>Card</span>
+</td>
+<td class="col1">2x</td>
+<td class="col2">2x</td>
+<td class="col3">2x</td>
+</tr>
+<tr>
+<td><a href="/products/undetectable-mifare-compatible-1k-one-time-write-uid" target="_blank"><strong>MIFARE Classic® Compatible 1K UID One Time Changeable</strong></a></td>
+<td>Fob</td>
+<td><br></td>
+<td class="col2">3x</td>
+<td class="col3">5x</td>
+</tr>
+<tr>
+<td><strong><a href="/products/desfire-compatible-emulator-uid-modifiable?variant=18448433545327" target="_blank">MIFARE DESFire® EV1 Compatible Emulator 4-byte UID</a></strong></td>
+<td>
+<div>
+<meta charset="utf-8"> <br>
+</div>
+<span>Card</span>
+</td>
+<td><br></td>
+<td class="col2">1x</td>
+<td class="col3">1x</td>
+</tr>
+<tr>
+<td><strong><a href="/products/desfire-compatible-emulator-uid-modifiable?variant=18448433545327" target="_blank">MIFARE DESFire® EV1 Compatible Emulator 7-byte UID</a></strong></td>
+<td>
+<div>
+<meta charset="utf-8"> <br>
+</div>
+<span>Card</span>
+</td>
+<td><br></td>
+<td class="col2">1x</td>
+<td class="col3">1x</td>
+</tr>
+<tr>
+<td><a href="/products/ultralight-c-compatible-uid-modifiable" target="_blank"><strong>MIFARE Ultralight-C® Compatible UID Changeable</strong></a></td>
+<td>
+<div>
+<meta charset="utf-8"> <br>
+</div>
+<span>Card</span>
+</td>
+<td><br></td>
+<td class="col2">1x</td>
+<td class="col3">1x</td>
+</tr>
+<tr>
+<td><strong><a href="https://lab401.com/products/ultimate-magic-card-gen4" target="_blank">Ultimate Magic Card (GEN4)</a></strong></td>
+<td>
+<div>
+<meta charset="utf-8"> <br>
+</div>
+<span>Card</span>
+</td>
+<td><br></td>
+<td class="col2">1x</td>
+<td class="col3">1x</td>
+</tr>
+<tr>
+<td><a href="/products/mifare-classic-compatible-4k-7-byte-uid-modifiable-by-directwrite" target="_blank"><strong>MIFARE Classic® Compatible 4K 7-byte UID Changeable (GEN2)</strong></a></td>
+<td>
+<div>
+<meta charset="utf-8"> <br>
+</div>
+<span>Card</span>
+</td>
+<td><br></td>
+<td class="col2">1x</td>
+<td class="col3">1x</td>
+</tr>
+<tr>
+<td><a href="/products/mifare-classic-compatible-1k-7-byte-direct-write-uid" target="_blank"><strong>MIFARE Classic® Compatible 1K 7-byte UID Changeable (GEN2)</strong></a></td>
+<td>
+<div>
+<meta charset="utf-8"> <br>
+</div>
+<span>Card</span>
+</td>
+<td><br></td>
+<td class="col2">1x</td>
+<td class="col3">1x</td>
+</tr>
+<tr>
+<td><strong><a href="/products/multi-rfid-keyfob" target="_blank">Multi-RFID Keyfob</a></strong></td>
+<td>
+<div>
+<meta charset="utf-8"> <br>
+</div>
+<span>Fob</span>
+</td>
+<td><br></td>
+<td class="col2">1x</td>
+<td class="col3">1x</td>
+</tr>
+<tr>
+<td><a href="/products/ntag-compatible-213-direct-write-uid" target="_blank"><strong>NTAG® 213 Compatible UID Changeable</strong></a></td>
+<td>
+<div>
+<meta charset="utf-8"> <br>
+</div>
+<span>Card</span>
+</td>
+<td><br></td>
+<td class="col2">1x</td>
+<td class="col3">2x</td>
+</tr>
+<tr>
+<td><strong><a href="/products/mifare-mini-compatible-uid-modifable-direct-write" target="_blank">MIFARE Mini® Compatible UID DirectWrite</a></strong></td>
+<td>
+<div>
+<meta charset="utf-8"> <br>
+</div>
+<span>Card</span>
+</td>
+<td><br></td>
+<td><br></td>
+<td class="col3">1x</td>
+</tr>
+<tr>
+<td><strong><a href="/products/icode-sli-slix-compatible-uid-modifiable" target="_blank">ICODE® SLI/SLIX Compatible UID Modifiable</a></strong></td>
+<td>
+<div>
+<meta charset="utf-8"> <br>
+</div>
+<span>Card</span>
+</td>
+<td><br></td>
+<td><br></td>
+<td class="col3">1x</td>
+</tr>
+<tr>
+<td><strong><a href="/products/desfire-compatible-emulator-uid-modifiable?variant=42949794398438" target="_blank">MIFARE DESFire® EV2 Compatible Emulator 7-byte UID</a></strong></td>
+<td>
+<div>
+<meta charset="utf-8"> <br>
+</div>
+<span>Card</span>
+</td>
+<td><br></td>
+<td><br></td>
+<td class="col3">1x</td>
+</tr>
+<tr>
+<td><strong><a href="/products/ntag-compatible-21x" target="_blank">Magic NTAG® 21x / NTAG® I2C / MIFARE Ultralight® EV1 Compatible Tag</a></strong></td>
+<td>
+<div>
+<meta charset="utf-8"> <br>
+</div>
+<span>Card</span>
+</td>
+<td><br></td>
+<td><br></td>
+<td class="col3">1x</td>
+</tr>
+<tr>
+<td><strong><a href="/products/desfire-compatible-emulator-uid-modifiable?variant=42949794398438" target="_blank">MIFARE DESFire® EV2 Compatible Modifiable UID / ATQA / SAK / ATS / APDU </a></strong></td>
+<td>
+<div>
+<meta charset="utf-8"> <br>
+</div>
+<span>Card</span>
+</td>
+<td><br></td>
+<td><br></td>
+<td class="col3">1x</td>
+</tr>
+<tr></tr>
+</tbody>
+</table>
+<div class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong><br>Shipping &amp; Packaging</strong></h2>
+<ul>
+<li>Each pack is dispatched from <strong>Europe</strong> - no need to worry about slow shipping times, import duties or damaged goods.</li>
+<li>Packed in a sturdy compact box.</li>
+<li>We provide world-wide shipping with express options.</li>
+</ul>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong><br>Compatible Sysems</strong></h2>
+<ul>
+<li>Windows: XP, 7, 8, 10 (All Versions)</li>
+<li>OS/X: 10.0 - 10.7 (All Versions)</li>
+<li>Linux: Debian, Ubunto, CentOS, etc (All Versions)</li>
+<li>Android</li>
+</ul>
+</div>
+</div>
+<h3>IMPORTANT:</h3>
+<p>The UID of Modifiable tags is comprised of two parts: the <strong>UID itself</strong>, and the <strong>BCC</strong>. The BCC is a checksum value <strong>calculated from the UID</strong>. If the BCC is incorrect, tag will be rejected by the reader.<br></p>
+<p>Most RFID tools, such as the Proxmark, LibNFC, MCT etc automatically calculate the BCC when the UID is modified. If you are modifying the UID by hand, it is <strong>vital</strong> that the BCC is correctly calculated.</p>
+<p>Lab401 cannot provide support or refunds under any circumstances for cards that were 'bricked' due to incorrect UID/BCC configuration.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>125KHz (LF)</s:tag>
+    <s:tag>13.56MHz (HF)</s:tag>
+    <s:tag>Compat: Android</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Family: DESFire®</s:tag>
+    <s:tag>Family: MIFARE Mini®</s:tag>
+    <s:tag>Family: MIFARE®</s:tag>
+    <s:tag>Family: NTAG®</s:tag>
+    <s:tag>Family: SLI/SLIX</s:tag>
+    <s:tag>Family: Ultralight®</s:tag>
+    <s:tag>Gen: 1</s:tag>
+    <s:tag>Gen: 1a</s:tag>
+    <s:tag>Gen: 1b</s:tag>
+    <s:tag>Gen: 2</s:tag>
+    <s:tag>Gen: 2/OTW</s:tag>
+    <s:tag>Size: 0.3K</s:tag>
+    <s:tag>Size: 144b</s:tag>
+    <s:tag>Size: 148b</s:tag>
+    <s:tag>Size: 1K</s:tag>
+    <s:tag>Size: 384b</s:tag>
+    <s:tag>Size: 4K</s:tag>
+    <s:tag>UID: 4-byte</s:tag>
+    <s:tag>UID: 7-byte</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/8340103823707</id>
+      <title>Basic</title>
+      <s:price currency="EUR">75.00</s:price>
+      <s:sku>TAGPACK-BASIC</s:sku>
+      <s:grams>106</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/8340103823707</id>
+      <title>Standard</title>
+      <s:price currency="EUR">270.00</s:price>
+      <s:sku>TAGPACK-STANDARD</s:sku>
+      <s:grams>81</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/8340103823707</id>
+      <title>Complete</title>
+      <s:price currency="EUR">400.00</s:price>
+      <s:sku>TAGPACK-COMPLETE</s:sku>
+      <s:grams>231</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/7009318240456</id>
+    <published>2022-06-20T15:00:15+02:00</published>
+    <updated>2022-06-20T15:00:15+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/icopy-x-advanced-tag-pack"/>
+    <title>iCopy-X Advanced Tag Pack</title>
+    <s:type></s:type>
+    <s:vendor>ICopyX</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/iCopy-X-Card-Pack-Advanced.png?v=1658240137"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>ICopyX<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            189.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Official iCopy-X Advanced Tag Pack.</p>
+<p>Pack contains:</p>
+<p>• MIFARE Classic® Compatible 1K 4-Byte Blank Tag<br> <em>◦ 2x Magic Cards ("Gen1") Blank Tags</em><br><em> ◦ 1x Direct Write Cards ("Gen2") Blank Tag</em><br><em> ◦ 1x One-Time-Write Cards ("Gen2a") Blank Tag<br></em></p>
+<p>• 1x MIFARE Classic® Compatible 1K 7-Byte Blank Tag<br>• 1x MIFARE Classic® Compatible 4K 4-Byte Blank Tag<br> • 1x MIFARE Classic® Compatible 4K 7-Byte Blank Tag<br></p>
+<p>• 1x MIFARE Ultralight® Compatible Blank Tag<br> • 1x MIFARE Ultralight-C® Compatible Blank Tag<br> • 1x MIFARE Ultralight-EV1® Compatible Blank Tag<br> • 1x MIFARE NTAG® Compatible Blank Tag<br></p>
+<p>• 1x ICODE SLI/SLIX® Compatible Blank Tag<br> • 1x iCLASS® Legacy Compatible Blank Tag<br> • 1x iCLASS® Elite Compatible Blank Tag<br></p>
+<p><b>• Low Frequency</b><br> ◦ 2x T5577 Cards</p>
+<p>Cards are delivered <span style="text-decoration: underline;" data-mce-style="text-decoration: underline;">without printing / white.</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>icopy-x</s:tag>
+    <s:tag>tag</s:tag>
+    <s:tag>Tag Packs</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/7009318240456</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">189.95</s:price>
+      <s:sku>ICPYX-TAG-PACK-ADVANCED</s:sku>
+      <s:grams>510</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/7009318305992</id>
+    <published>2022-06-20T15:00:14+02:00</published>
+    <updated>2022-06-20T15:00:14+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/icopy-x-basic-tag-pack"/>
+    <title>iCopy-X Basic Tag Pack</title>
+    <s:type></s:type>
+    <s:vendor>ICopyX</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/iCopy-X-Card-Pack-Basic.png?v=1658240265"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>ICopyX<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            19.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Official iCopy-X Basic Tag Pack.</p>
+<p>Pack contains:</p>
+<p>• MIFARE 1K 4-Byte<br> <em>◦ 4x Magic Cards ("Gen1")</em><br><em> ◦ 4x Direct Write Cards ("Gen2")</em><br><em> ◦ 4x One-Time-Write Cards ("Gen2a")</em></p>
+<p><b>• Low Frequency</b><br> ◦ 4x T5577 Cards</p>
+<p>Cards are delivered <span style="text-decoration: underline;" data-mce-style="text-decoration: underline;">without printing / white.</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>icopy-x</s:tag>
+    <s:tag>tag</s:tag>
+    <s:tag>Tag Packs</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/7009318305992</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">19.95</s:price>
+      <s:sku>ICPYX-TAG-PACK-BASIC</s:sku>
+      <s:grams>510</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/7009318273224</id>
+    <published>2022-06-20T15:00:14+02:00</published>
+    <updated>2022-06-20T15:00:14+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/icopy-x-intermediate-tag-pack"/>
+    <title>iCopy-X Intermediate Tag Pack</title>
+    <s:type></s:type>
+    <s:vendor>ICopyX</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/iCopy-X-Card-Pack-Intermediate.png?v=1658240142"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>ICopyX<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            129.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Official iCopy-X Intermediate Tag Pack.</p>
+<p>Pack contains:</p>
+<p data-mce-fragment="1">• MIFARE Classic® Compatible 1K 4-Byte Blank Tag<br data-mce-fragment="1"> <em data-mce-fragment="1">◦ 4x Magic Cards ("Gen1") Blank Tags</em><br data-mce-fragment="1"><em data-mce-fragment="1"> ◦ 1x Direct Write Cards ("Gen2") Blank Tag</em><br data-mce-fragment="1"><em data-mce-fragment="1"> ◦ 1x One-Time-Write Cards ("Gen2a") Blank Tag<br></em></p>
+<p data-mce-fragment="1">• 1x MIFARE Classic® Compatible 1K 7-Byte Blank Tag<br>• 1x MIFARE Classic® Compatible 4K 4-Byte Blank Tag<br data-mce-fragment="1"> • 1x MIFARE Classic® Compatible 4K 7-Byte Blank Tag<br data-mce-fragment="1"></p>
+<p data-mce-fragment="1">• 1x MIFARE Ultralight® Compatible Blank Tag<br data-mce-fragment="1"> • 1x MIFARE Ultralight-C® Compatible Blank Tag<br data-mce-fragment="1"> • 1x MIFARE Ultralight-EV1® Compatible Blank Tag<br data-mce-fragment="1"> • 1x MIFARE NTAG® Compatible Blank Tag<br data-mce-fragment="1"></p>
+<p data-mce-fragment="1"><b data-mce-fragment="1">• Low Frequency</b><br data-mce-fragment="1"> ◦ 3x T5577 Cards</p>
+<p>Cards are delivered <span style="text-decoration: underline;" data-mce-fragment="1" data-mce-style="text-decoration: underline;">without printing / white.</span><br></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>icopy-x</s:tag>
+    <s:tag>tag</s:tag>
+    <s:tag>Tag Packs</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/7009318273224</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">129.95</s:price>
+      <s:sku>ICPYX-TAG-PACK-INTERMEDIATE</s:sku>
+      <s:grams>510</s:grams>
+    </s:variant>
+  </entry>
+</feed>

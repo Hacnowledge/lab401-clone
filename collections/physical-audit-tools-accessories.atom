@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/collections/physical-audit-tools-accessories.atom"/>
+  <title>Lab401</title>
+  <updated>2026-06-30T18:27:05+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/products/10473242952027</id>
+    <published>2026-06-30T18:27:05+02:00</published>
+    <updated>2026-06-30T18:27:05+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/replacement-electric-pick-blades"/>
+    <title>Replacement Electric Pick Blades</title>
+    <s:type></s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Pickgun-Blades.png?v=1778326666"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            30.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Pack of 10x replacement blades for the Kronos Electric Pick Gun tool.<br></p>
+<p>Each blade is precision-cut from high-tension spring steel for extended life.</p>
+<div class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2>What's included</h2>
+<ul>
+<li>10x High Tensile Electric Pick Blades</li>
+</ul>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10473242952027</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">30.00</s:price>
+      <s:sku>LOCK401-ELECTRO-BLADES-10PC</s:sku>
+      <s:grams>600</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/10472878604635</id>
+    <published>2026-06-30T18:27:03+02:00</published>
+    <updated>2026-06-30T18:27:03+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/creeper-case"/>
+    <title>Creeper Case</title>
+    <s:type></s:type>
+    <s:vendor>Sparrows</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/CreeperCase---Open-No-Tools.png?v=1778849562"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sparrows<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            15.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>While individual preferences vary, the "Creeper Case" is built specifically for discreet and night operations. It has multiple features deemed indispensable for operational and reconnaissance teams.</p>
+<p>The Creeper Case features two opening mechanisms: classic velcro and silent tab, when discretion is required.</p>
+<p>Inside is a phosphorescent card that allows for rapid tool identification in low/no light conditions, without compromising your night vision. The card can also be reversed for no-light conditions.</p>
+<p>Contains a removable logo patch that can be installed on the velcro to ensure nothing snags during "silent mode". If the logo is removed, pack has no branding or identifying features.</p>
+<p>Built to hold your most important tools: can comfortably hold 4 picks with handles, or 6 without handles, and has a dedicated pouch for tension wrenches (up to 6 comfortably)</p>
+<div class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h3>
+<strong>What's Included</strong><strong></strong><strong></strong>
+</h3>
+<ul>
+<li>1x Creeper Case<br>
+</li>
+<li>1x Reversible phosphorescent card</li>
+<li>1x Logo Patch (for silent operation)</li>
+</ul>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h3><strong>Technical Information<br></strong></h3>
+<ul>
+<li>Dimensions: 13.5 x 8.5 x 1.5 cm<br>
+</li>
+<li>Card: 12 x 6.5 cm</li>
+<li>Patch: 25 x 25 mm</li>
+</ul>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10472878604635</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">15.95</s:price>
+      <s:sku>SPS-PHOSPHO-CASE</s:sku>
+      <s:grams>100</s:grams>
+    </s:variant>
+  </entry>
+</feed>

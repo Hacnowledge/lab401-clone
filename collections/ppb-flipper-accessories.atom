@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/collections/ppb-flipper-accessories.atom"/>
+  <title>Lab401</title>
+  <updated>2026-03-13T11:54:59+01:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/products/10323653067099</id>
+    <published>2026-03-13T11:54:59+01:00</published>
+    <updated>2026-03-13T11:54:59+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/lab401-hardshell-for-flipper-zero"/>
+    <title>Lab401 HardShell for Flipper Zero</title>
+    <s:type></s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/HardShell---Production---1---Closed.png?v=1769624410"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            29.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2><b>Meet the Real Flipper Killers</b></h2>
+<p>Accidental <b>drops</b>, unstable <b>over-sized accessories</b>, over-used, loose and <b>damaged GPIO sockets</b> and <b>blown internal fuses</b>: These are the real Flipper Zero killers. Each one <b>will kill your Flipper</b> or leave it crippled. They're the most common causes for damaged or failing devices - if it hasn't already happened to you - it's just a matter of time. </p>
+<div class="hardshell-widget">
+   <div class="hw-text-area" id="hwTextArea">
+      <div class="hw-slide" data-slide="0">
+         <h2 class="hw-heading">Over-sized <b>Accessories</b>
+</h2>
+         <p class="hw-description">Large accessories flexing causes stress and can break pins and the Flipper's GPIO sockets.</p>
+      </div>
+      <div class="hw-slide" data-slide="1">
+         <h2 class="hw-heading">Damaged <b>GPIO Sockets</b>
+</h2>
+         <p class="hw-description">Loose and broken GPIO sockets mean accessories are unstable, fall out, or cause crashes.</p>
+      </div>
+      <div class="hw-slide" data-slide="2">
+         <h2 class="hw-heading">Blown <b>Fuse</b>
+</h2>
+         <p class="hw-description">Flipper's fuse is easy to blow but impossible to repair easily. A blown fuse means no accessories - Flipper is crippled.</p>
+      </div>
+      <div class="hw-slide" data-slide="3">
+         <h2 class="hw-heading">Dropped <b>Devices</b>
+</h2>
+         <p class="hw-description">Drops, shocks and bumps - all can kill your Flipper. Silicone covers aren't enough - you need a hard shell.</p>
+      </div>
+   </div>
+   <div class="hw-images-area">
+      <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/1---Heavy.png?v=1773241066" alt="Heavy accessory on Flipper" data-index="0">
+      <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/2---Bending.png?v=1773241067" alt="Bent accessory on Flipper" data-index="1">
+      <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/3---Fuse.png?v=1773241067" alt="Blown fuse on Flipper" data-index="2">
+      <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/4---Fall.png?v=1773241067" alt="Dropped Flipper" data-index="3">
+   </div>
+</div>
+<h2><b>The solution: The Lab401 HardShell</b></h2>
+<p style="position: relative; z-index: 20">One product can protect your Flipper completely: the <b>Lab401 HardShell.</b> It's a battle-ready shell system with <b>three layers of protection</b> to reinforce your Flipper - inside and out. It only takes seconds to install, doesn't require any soldering or modification.</p>
+<p style="margin-top: -50px; margin-bottom: -110px">
+   <video autoplay="autoplay" loop="loop" muted="" style="max-width: 100%;">
+      <source src="https://cdn.shopify.com/videos/c/o/v/ab9eaf4d54c44805b992c89f3a6a10d8.mp4" type="video/mp4"></video>
+</p>
+<div class="grid" style="margin-top: 2em; position: relative; z-index: 20">
+   <div class="grid-item small--one-whole medium--one-whole large--one-third text-left">
+      <h3>BATTLE-READY ABS CASE</h3>
+      <p><b>Protection Layer One</b>: Drop &amp; Shock resistant three-part moulded ABS case, secured with stainless steel bolts.</p>
+   </div>
+   <div class="grid-item small--one-whole medium--one-whole large--one-third text-left">
+      <h3>REPLACEABLE GPIO BOARDS</h3>
+      <p><b>Protection Layer Two</b>: Swappable GPIO Boards. Protects your Flipper's GPIO sockets and internal fuse. Three included.</p>
+   </div>
+   <div class="grid-item small--one-whole medium--one-whole large--one-third text-left">
+      <h3>SILICONE SHOULDER PADS</h3>
+      <p><b>Protection Layer Three</b>: Silicone Shoulder pads prevent large accessories from flexing and damaging your device.</p>
+   </div>
+</div>
+<div style="margin-top: 2em;">
+   <h2><b>SEE THE HARDSHELL IN REAL-WORLD TESTS</b></h2>
+   <p>The HardShell was built to solve real-world, day-to-day problems that many customers face: GPIO degradation, blown fuses, unstable accessories and physical damage. Check out our <b>real-world test video</b> below, and see why <b>your Flipper deserves the HardShell.</b></p>
+</div>
+<figure style="margin-top: 1em;">
+   <video lite-youtube="" videoid="GPNJsUj4vy0" posterquality="maxresdefault" params="rel=0">
+      <img slot="image" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Product-Page---YT-Thumb---3_x1200.png?v=1770725136">
+   </video>
+</figure>
+<style>
+   .feature-item { margin-bottom: 1.5em }
+</style>
+<h2><b>HOW THE HARDSHELL WORKS</b></h2>
+<p>The HardShell has three layers of protection - each layer is engineered with precision and a protects a specific part of your Flipper or its accessories.</p>
+<div class="grid" style="margin-top: 3em;">
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left product-image-container">
+      <img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/HardShell---Parts-Zoom.png?v=1769624248">
+      <ul class="markers-list">
+         <li data-y="0" data-x="28" data-feature-id="1" class="feature-marker">1</li>
+         <li data-y="12" data-x="46.2" data-feature-id="2" class="feature-marker">2</li>
+         <li data-y="25" data-x="75" data-feature-id="3" class="feature-marker">3</li>
+         <li data-y="41" data-x="82" data-feature-id="4" class="feature-marker">4</li>
+      </ul>
+   </div>
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left" style="text-align: start;">
+      <div data-feature-id="1" class="feature-item">
+         <h3>1. SILICONE SHOULDER PADS</h3>
+         Give your larger accessories a shoulder to lean on, without falling out, bending pins or stressing sockets.
+      </div>
+      <div data-feature-id="2" class="feature-item">
+         <h3>2. REINFORCED GPIO SOCKET</h3>
+         Incredibly rugged GPIO socket reinforcement, built to last years of abuse / oversized accessories.
+      </div>
+      <div data-feature-id="3" class="feature-item">
+         <h3>3. SWAPPABLE, FUSED GPIO BOARDS</h3>
+         Replaceable GPIO boards transform your Flipper from useful to industrial. Blow a fuse or break a pin: simply swap in a new board. (Three are included!)
+      </div>
+      <div data-feature-id="4" class="feature-item">
+         <h3>4. BUILT TO <s>IMPRESS</s> LAST</h3>
+         The HardShell looks and feels great. Highest quality design, manufacturing and materials mean that it will probably outlast your Flipper!
+      </div>
+   </div>
+</div>
+<div class="grid">
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+      <h2><strong>OVER-ENGINEERED WITH LOVE</strong></h2>
+      <p>The Flipper was never built to handle giant "everything-plus-a-goat" accessories - which strain the GPIO and push the power-supply to breaking point. The HardShell solves these problems - and solves them in style!</p>
+      <p>Featuring reinforced injection-molded ABS, internal clasps for structural integrity and stainless steel bolts - it's the perfect combination of functionality, protection, style (and a sprinkling of mad-scientist for good measure..)</p>
+   </div>
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left"><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/HardShell---Assembled---Angle.png?v=1769624196" style="margin-bottom: -6em;"></div>
+</div>
+<div class="grid">
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left"><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Fuse-PCB.png?v=1769624196" style="margin-bottom: -1em;"></div>
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+      <h2><strong>REAL PROTECTION, INSIDE AND OUT</strong></h2>
+      <p>Blowing Flipper's internal fuse means open-heart surgery and soldering SMD components on your Flipper's motherboard.</p>
+      <p>The HardShell's comes with fused GPIO boards (5v and 3.3v) that are calibrated to blow before your Flipper's fuses.</p>
+      <p>Blow a fuse? Swap out the PCB and you're back in business!</p>
+   </div>
+</div>
+<div class="grid">
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+      <h2><strong>BUILT FOR TODAY'S ACCESSORIES</strong></h2>
+      <p>Flipper accessories have become large and heavy - which rapidly degrades the Flipper's internal GPIO sockets.</p>
+      <p>The most critical parts of the Flipper and accessory - the GPIO pins - become a dangerous pivot point.</p>
+      <p>The HardShell's included (and removable) Silicone Shoulders support your larger accessories to improve support.</p>
+   </div>
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left"><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/HardShell---Zoom---Bumper---AWOK.png?v=1769624196" style="margin-bottom: -5em;"></div>
+</div>
+<h2>BUILT FOR YOU</h2>
+<p>Whether you're using your Flipper on professional engagements, or enjoy modding your device - the Lab401 HardShell is for you. It adds much needed protection, adds new functionality, and looks good at the same time!</p>
+<p><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Boxes---horizontal.jpg?v=1769624196"></p>
+<div style="margin-top: 2em;" class="grid">
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+      <h2><strong>What's included</strong></h2>
+      <ul>
+         <li>Lab401 HardShell (3 parts)</li>
+         <li>2x non-fused GPIO Replacement boards</li>
+         <li>1x fused GPIO Replacement board</li>
+         <li>1x Double Silicone Shoulder</li>
+         <li>1x Short Silicone Shoulder</li>
+         <li>Screws + Tools for assembly</li>
+      </ul>
+   </div>
+</div>
+</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Flipper Zero</s:tag>
+    <s:tag>Flipper Zero Accessory</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10323653067099</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">29.95</s:price>
+      <s:sku>LAB401-FLP-HARDSHELL-PACK</s:sku>
+      <s:grams>150</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/9709931626843</id>
+    <published>2025-02-18T15:42:11+01:00</published>
+    <updated>2025-02-18T15:42:11+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/flux-capacitor"/>
+    <title>Flux Capacitor</title>
+    <s:type></s:type>
+    <s:vendor>Rabbit-Labs</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Flux-Capacitor-Front.png?v=1737712382"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Rabbit-Labs<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            65.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>The <strong>Flux Capacitor</strong> from Rabbit Labs <strong>super-charges</strong> the radio capabilities of your Flipper Zero.</p>
+<p>The FlipperZero's standard internal radio module and antenna are great for close range capture and replay, but are actually <a rel="noopener" href="https://antennatestlab.com/antenna-education-tutorials/consumer_antenans/flipper-zero-antenna-patterns" target="_blank"><em>less than 1% efficient.</em></a><em><br></em></p>
+<p>The Flux Capacitor's amplified CC1101 module and tuned antenna output up to 100mW, several <em>orders of magnitude greater</em> than the standard module.<br></p>
+<p>This translates to an in-the-field range of up to 100m - which can be further improved with a higher gain antenna.</p>
+<p>For pentesters, the Flux Capacitor could spell the difference between capturing a signal from a safe distance or blowing your cover. For hobbyist users, this means you can finally operate your gadgets from much further distances.</p>
+<p>Works out-of-the-box with <strong>alternative firmware </strong>- plug it into your Flipper, and the status LED indicating that it's ready to rock-n-roll will light up.</p>
+<p><strong>IMPORTANT:</strong> Do not transmit without an antenna - you will cause irreversible damage to the radio module. Damage caused by misuse is not covered by warranty.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Flipper</s:tag>
+    <s:tag>Flipper Zero</s:tag>
+    <s:tag>Flipper Zero Accessory</s:tag>
+    <s:tag>FlipperZero</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/9709931626843</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">65.00</s:price>
+      <s:sku>RL-FLUX-CAP</s:sku>
+      <s:grams>100</s:grams>
+    </s:variant>
+  </entry>
+</feed>

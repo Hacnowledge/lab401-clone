@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/collections/icopy-x.atom"/>
+  <title>Lab401</title>
+  <updated>2022-06-20T15:00:16+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/products/6982516080840</id>
+    <published>2022-06-20T15:00:16+02:00</published>
+    <updated>2022-06-20T15:00:16+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/icopy-x"/>
+    <title>ICopy-XS</title>
+    <s:type>RF</s:type>
+    <s:vendor>ICopyX</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/ICopyX-RFID-Cloner-3-4-1.png?v=1629380189"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>ICopyX<br>
+        <strong>Type: </strong>RF<br>
+        <strong>Price: </strong>
+            375.00 - 529.00
+            <a href="https://lab401.com/products/icopy-x">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>The ICopy-X is designed to meet the daily needs of Pentesters and security researchers - easily and rapidly clone RFID badges while in the field.</p>
+<p>Built around the powerful Proxmark 3, the ICopy-X is a portable device specialised in the rapid cloning of RFID badges, capable of automatically reading, cracking and writing the vast majority of LF and HF RFID tags on the market.<br></p>
+<p>Designed to be intuitive, users control the device via its screen and navigation buttons to place a badge and start the desired operation.</p>
+<p>Lab401 sells the "XS" model of the iCopy-X - the most powerful available.</p>
+<p>The iCopy-XS is <strong>now open-source</strong>, and runs the <b>latest Proxmark 'iceman' firmware</b>.</p>
+<h2><strong>Functionality in a glance<br></strong></h2>
+<div style="margin: 2em 3em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-quarter text-center">
+<h3>Portable RFID Cloner<br>
+</h3>
+<p>No need for an external computer<br></p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-quarter text-center">
+<h3>Powerful RFID System<br>
+</h3>
+<p>Built around the Proxmark 3 RDV<br></p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-quarter text-center">
+<h3>LF &amp; HF Tag Support<br>
+</h3>
+<p>Supports the vast majority of LF and HF cards<br></p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-quarter text-center">
+<meta charset="utf-8">
+<h3>OPEN SOURCE<br>
+</h3>
+<p>Runs the latest "iceman" Proxmark firmware.</p>
+</div>
+</div>
+<h2><strong>Overview</strong></h2>
+<p>The ICopy-X is designed to take the pain out of RFID cloning, while also providing power users with the tools they need.<br></p>
+<p>The device is driven via its tactile navigation buttons and intuitive UI. Once a badge is placed, the device interacts with the Proxmark 3 to automatically determine the badge frequency and required steps to detect, crack, read and decode a badge.<br></p>
+<p>Badge data can be saved, exported/imported via the 16GB internal memory.</p>
+<p>The device can also be connected to a computer to allow power users to drop into the Proxmark client shell, if advanced operations need to be performed.</p>
+<p><strong>Please note: </strong>Because it is an independant and offline device, the ICopy-X cannot detect or bypass Anti-Copy algorithms that are increasingly present in European RFID Access Control Systems.</p>
+<p>For European locksmiths looking for a feature-complete RFID cloning system, we recommend the <a href="https://rebadge.co" target="_blank">Rebadge solution</a>, which is optimised for European residential access control systems.</p>
+<p><figure>
+   <video lite-youtube="" videoid="UTVgaDciNM4" posterquality="maxresdefault" params="rel=0"></video>
+</figure></p>
+<h2><strong>Badge Support<br></strong></h2>
+<p>The ICopy-X supports the majority of LF and HF badges available on the market.</p>
+<p><strong>Please note:</strong> The iCopy-X <em>does not support</em> the following badges: MIFARE DESFire, iCLASS Elite with Custom Keys / EMV (Bank / Credit Cards).</p>
+<p>Cloning iCLASS SE / iCLASS SEOS requires the <a href="/products/ics-decoder-iclass-se-seos-cloner-decoder">iCS Decoder tool.</a></p>
+<div class="grid" style="margin: 2em 3em;">
+<div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+<p><strong>High Frequency: </strong><br></p>
+<ul>
+<li>
+<strong>MIFARE</strong><br>
+</li>
+<ul>
+<li>MIFARE 1K / 4K (4 &amp; 7 byte UIDs)</li>
+<li>MIFARE Ultralight</li>
+<li>MIFARE Ultralight C</li>
+<li>MIFARE Ultralight EV1</li>
+<li>NTAG<br>
+</li>
+</ul>
+<li>
+<strong>ISO14443B</strong><br>
+</li>
+<ul>
+<li>ICLASS Legacy<br>
+</li>
+<li>ICLASS Elite<br>
+</li>
+<li>ICLASS SE (<em>with the <a href="/products/ics-decoder-iclass-se-seos-cloner-decoder">iCS Decoder Tool</a>)</em>
+</li>
+<li>ICLASS SEOS<em> (with the <a href="/products/ics-decoder-iclass-se-seos-cloner-decoder">iCS Decoder Tool</a>)</em>
+</li>
+</ul>
+<li><strong>ISO 15693</strong></li>
+<ul>
+<li>iCODE SLI (Partial)<br>
+</li>
+<li>iCODE SLIX (Partial)</li>
+</ul>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+<p><strong>Low Frequency: </strong><br></p>
+<ul>
+<li>EM4XX</li>
+<li>T5577</li>
+<li>HID Prox</li>
+<li>Indala</li>
+<li>AWOD</li>
+<li>ioProx</li>
+<li>Viking</li>
+<li>FDX-B</li>
+<li>KERI</li>
+<li>VISA2000</li>
+<li>HITAG</li>
+<li>...and many more</li>
+</ul>
+</div>
+</div>
+<h2><strong>Blank Tag Packs<br></strong></h2>
+<p>The ICopy-X has three different Blank Tag Pack options: <strong>Basic, Intermediate and Advanced. Please note: </strong>The device only supports ICopy-X blank badges. Generic blanks are not supported on the device. <a href="/collections/icopy-x-tags"><strong>Additional Blank Tag Packs can be purchased here.</strong></a><br></p>
+<table class="tg">
+<tbody>
+<tr>
+<td class="tg-3m6e tg-bold" colspan="4">High Frequency</td>
+</tr>
+<tr>
+<th class="tg-jjqf tg-bold tg-quarter"><strong>Card Type</strong></th>
+<th class="tg-jjqf tg-bold"><strong>Basic Included Cards</strong></th>
+<th class="tg-jjqf tg-bold"><a href="/products/icopy-x-intermediate-tag-pack"><strong>Intermediate Card Pack</strong></a></th>
+<th class="tg-jjqf tg-bold"><a href="/products/icopy-x-advanced-tag-pack"><strong>Advanced Card Pack</strong></a></th>
+</tr>
+<tr>
+<td class="tg-aqib tg-bold" colspan="4">MIFARE® Family</td>
+</tr>
+<tr>
+<td class="tg-8gh4 tg-padded">MIFARE Classic® 1K 4-Byte Compatible</td>
+<td class="tg-h9p8">4x Gen1<br>2x Gen2<br>2x Gen2a<br>1x Gen1 Sticker<br>1x Gen1 Testing Card<br>
+</td>
+<td class="tg-jjqf">4x Gen1<br>1x Gen2<br>1x Gen2a</td>
+<td class="tg-h9p8">2x Gen1<br>1x Gen2<br>1x Gen2a</td>
+</tr>
+<tr>
+<td class="tg-8gh4 tg-padded">MIFARE Classic® 1K 7-Byte Compatible</td>
+<td class="tg-h9p8"><br></td>
+<td class="tg-jjqf">x1</td>
+<td class="tg-h9p8">x1</td>
+</tr>
+<tr>
+<td class="tg-8gh4 tg-padded">MIFARE Classic® 4K 4-Byte Compatible</td>
+<td class="tg-h9p8"><br></td>
+<td class="tg-jjqf">x1</td>
+<td class="tg-h9p8">x1</td>
+</tr>
+<tr>
+<td class="tg-8gh4 tg-padded">MIFARE Classic® 4K 7-Byte Compatible</td>
+<td class="tg-h9p8"><br></td>
+<td class="tg-jjqf">x1</td>
+<td class="tg-h9p8">x1</td>
+</tr>
+<tr>
+<td class="tg-8gh4 tg-padded">MIFARE Ultralight® Compatible</td>
+<td class="tg-h9p8"><br></td>
+<td class="tg-jjqf">x1</td>
+<td class="tg-h9p8">x1</td>
+</tr>
+<tr>
+<td class="tg-8gh4 tg-padded">MIFARE Ultralight® C Compatible</td>
+<td class="tg-h9p8"><br></td>
+<td class="tg-jjqf">x1</td>
+<td class="tg-h9p8">x1</td>
+</tr>
+<tr>
+<td class="tg-8gh4 tg-padded">MIFARE Ultralight® EV1 Compatible</td>
+<td class="tg-h9p8"><br></td>
+<td class="tg-jjqf">x1</td>
+<td class="tg-h9p8">x1</td>
+</tr>
+<tr>
+<td class="tg-8gh4 tg-padded">NTAG® Compatible</td>
+<td class="tg-h9p8"><br></td>
+<td class="tg-jjqf">x1</td>
+<td class="tg-h9p8">x1</td>
+</tr>
+<tr>
+<td class="tg-aqib tg-bold" colspan="4">ISO14443B</td>
+</tr>
+<tr>
+<td class="tg-8gh4 tg-padded">ICLASS® Legacy Compatible</td>
+<td class="tg-h9p8"><br></td>
+<td class="tg-jjqf"><br></td>
+<td class="tg-h9p8">x1</td>
+</tr>
+<tr>
+<td class="tg-8gh4 tg-padded">ICLASS® Elite Compatible</td>
+<td class="tg-h9p8"><br></td>
+<td class="tg-jjqf"><br></td>
+<td class="tg-h9p8">x1</td>
+</tr>
+<tr>
+<td class="tg-aqib tg-bold" colspan="4">ISO 15693</td>
+</tr>
+<tr>
+<td class="tg-8gh4 tg-padded">iCODE® SLI / SLIX Compatible</td>
+<td class="tg-h9p8"><br></td>
+<td class="tg-jjqf"><br></td>
+<td class="tg-h9p8">x1</td>
+</tr>
+<tr>
+<td class="tg-3m6e" colspan="4">
+<p class="tg-bold">Low Frequency</p>
+<span style="font-style: italic;">All supported Low-Frequency tags can be cloned onto "T5577" cards.</span>
+</td>
+</tr>
+<tr>
+<th class="tg-jjqf tg-bold"><strong>Card Type</strong></th>
+<th class="tg-jjqf tg-bold"><strong>Basic Card Pack</strong></th>
+<th class="tg-jjqf tg-bold"><strong>Intermediate Card Pack</strong></th>
+<th class="tg-jjqf tg-bold"><strong>Advanced Card Pack</strong></th>
+</tr>
+<tr>
+<td class="tg-8gh4 tg-padded">T5577</td>
+<td class="tg-h9p8">x4<br>x1 Sticker<br>x1 Testing Card<br>
+</td>
+<td class="tg-jjqf">x3</td>
+<td class="tg-h9p8">x2</td>
+</tr>
+</tbody>
+</table>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<p><strong>Basic Pack<br></strong></p>
+<ul>
+<li>1x ICopy-X "XS"<br>
+</li>
+<li>1x Basic Included Card Pack<br>
+</li>
+</ul>
+<p><strong>Intermediate Pack<br></strong></p>
+<ul>
+<li>1x ICopy-X "XS"<br>
+</li>
+<li>1x Intermediate Card Pack<br>
+</li>
+</ul>
+<p><strong>Advanced Pack<br></strong></p>
+<ul>
+<li>1x ICopy-X "XS"<br>
+</li>
+<li>1x Advanced Card Pack</li>
+</ul>
+<p>Cards are delivered <span style="text-decoration: underline;">without printing / white.</span></p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>Device Specifications<br></strong></h2>
+<ul>
+<li>
+<strong>Screen:</strong> 1.3 Inch 240x240 RGB LCD<br>
+</li>
+<li>
+<strong>Tactile Controls</strong>: Arrow Keys, Select Buttons</li>
+<li>
+<strong>Internal Memory:</strong> <strong></strong>256MB Ram, 16GB User Storage<br>
+</li>
+<li>
+<strong>Internal Battery:</strong> 2000mAh Li-ion battery<br>
+</li>
+<li>
+<strong>RFID System:</strong> Customised Proxmark 3 <br>
+</li>
+<li>
+<strong>Connectivity:</strong> USB-C</li>
+<li>
+<strong>Dimensions:</strong> 120 x 55 x 24mm<br>
+</li>
+<li>
+<strong>Weight:</strong> 113g</li>
+</ul>
+<h2><strong>Technical Resources<br></strong></h2>
+<ul>
+<li>
+<a href="https://github.com/lab-401/icopy-x" target="_blank">iCopy-XS Open Source Firmware</a><br>
+</li>
+<li>
+<a href="https://cdn.shopify.com/s/files/1/2175/8571/files/iCopy-X-User-Manual.pdf?v=1632844443">ICopy-X User Manual (PDF)</a><br>
+</li>
+</ul>
+</div>
+</div>
+<h2><strong>Open-Source</strong></h2>
+<p>The iCopy-XS is <b><a href="https://github.com/lab-401/icopy-x" target="_blank">now open source</a></b>, and now runs the <b>latest "iceman" Proxmark firmware.</b></p> It has several other features including plugin system, UI framework for rapid app development, screen-mirroring and more! 
+<figure>
+<video lite-youtube="" videoid="WWS-9QdulC0" posterquality="maxresdefault" params="rel=0">
+<img slot="image" src="https://cdn.shopify.com/s/files/1/2175/8571/files/2026-06-11---iCopy-XS---Open-Source.png?v=1781699642">
+</video>
+</figure>
+</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>125KHz (LF)</s:tag>
+    <s:tag>13.56MHz (HF)</s:tag>
+    <s:tag>cloning</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>icopy-x</s:tag>
+    <s:tag>icopyx</s:tag>
+    <s:tag>Physical Entry</s:tag>
+    <s:tag>proxmark</s:tag>
+    <s:tag>Proxmark 3 RDV4</s:tag>
+    <s:tag>rfid</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/6982516080840</id>
+      <title>Basic</title>
+      <s:price currency="EUR">375.00</s:price>
+      <s:sku>ICOPYX-BASIC</s:sku>
+      <s:grams>366</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/6982516080840</id>
+      <title>Intermediate</title>
+      <s:price currency="EUR">465.00</s:price>
+      <s:sku>ICOPYX-INTERMEDIATE</s:sku>
+      <s:grams>489</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/6982516080840</id>
+      <title>Advanced</title>
+      <s:price currency="EUR">529.00</s:price>
+      <s:sku>ICOPYX-ADVANCED</s:sku>
+      <s:grams>488</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/7009290977480</id>
+    <published>2022-06-20T15:00:15+02:00</published>
+    <updated>2022-06-20T15:00:15+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/ics-decoder-iclass-se-seos-cloner-decoder"/>
+    <title>iCS Decoder for iCLASS® SE / SEOS Decoder</title>
+    <s:type>RF</s:type>
+    <s:vendor>ICopyX</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/iCS-Decoder-For-ICLASS-SE-and-SEOS-Decoder-2.png?v=1653405856"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>ICopyX<br>
+        <strong>Type: </strong>RF<br>
+        <strong>Price: </strong>
+            425.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8">
+<h2><span style="color: #cc0000;"><strong></strong></span></h2>
+<h2><strong>Introduction</strong></h2>
+<p><strong>Lab401 is the exclusive distributor for the iCopy-X in Europe and Oceania.</strong><br></p>
+<p>The iCS Decoder is an <a href="/products/icopy-x">iCopy-X</a> accessory that allows for the rapid decoding and cloning of iCLASS SE® / SEOS® Decoder. <br></p>
+<p>Until now, cloning of iCLASS SE® and iCLASS SEOS® has been impossible. With the iCS Decoder and iCopy-X - it's as easy as cloning any standard RFID tag.</p>
+<p>Most iCLASS® SE® &amp; SEOS® systems still have legacy card acceptance enabled in their configuration. The iCS Decoder can decode iCLASS SEOS® IP / SE cards, and then generate an new card with legacy encoding.</p>
+<p>For pentesters, the iCS Decoder exposes an entirely new in-scope attack surface. Likewise, LEA can use the device to make rapid clones in the field of a previously impossible badge type.</p>
+<p><strong>Please note</strong>:</p>
+<ul>
+<li>The iCS Decoder <strong>will only work</strong> for target systems that are configured to <strong>accept legacy cards</strong>. This is the default configuration.</li>
+<li>This technique will not work on all iCLASS SE® readers. Coverage is approximate 85%.</li>
+<li>The iCS Decoder is an accessory - it <strong><a href="/products/icopy-x">requires an iCopy-X</a>.</strong>
+</li>
+</ul>
+<h2><strong>Device Instructions<br></strong></h2>
+<p>Setup and use of the iCS Decoder is rapid and simple.</p>
+<ol>
+<li>Plug the iCS Decoder into the iCopy-X using the provided USB-C Cable.<br>The device will be automatically recognised. If it is not recognised after 5 seconds, unplug and replug the device.<br>
+</li>
+<li>Place the target iCLASS SE® / iCLASS SEOS card® on the iCS Decoder.<br>
+</li>
+<li>The iCopy-X will decode the card, and display the CSN, Facility Code and Card Number.<br><br>
+</li>
+<li>Disconnect the iCS Decoder.<br>
+</li>
+<li>The iCopy-X will prompt for a iCLASS SE® compatible tag ("iCS")<br>
+</li>
+<li>Place the blank card on the iCopy-X, and proceed with the write.</li>
+</ol>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>What's included<br></strong></h2>
+<ul>
+<li>1x iCS Decoder<br>
+</li>
+<li>3x iCLASS SE® / SEOS® Compatible Blank Cards (One-Time-Write)</li>
+<li>1x USB Type-C to Type-C cable</li>
+</ul>
+<h2><strong>Technical Resources<br></strong></h2>
+<ul>
+<li>
+<a href="https://www.thingiverse.com/thing:5189555" target="_blank">iCopy-X / iCS Decoder Holder</a><br>3D Printable holder device for the iCopy-X + iCS Decoder Combo<br>
+</li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>Device Specifications<br></strong></h2>
+<ul>
+<li>
+<strong>Connectivity:</strong> USB-C</li>
+<li>
+<strong>Dimensions:</strong> 90 x 55 x 24mm<br>
+</li>
+<li>
+<strong>Weight:</strong> 60g</li>
+</ul>
+<h2><strong>Shipping &amp; Packaging</strong></h2>
+<ul>
+<li>Each iCS Decoder is dispatched from <strong>Europe</strong> - no need to worry about slow shipping times, import duties or damaged goods.</li>
+<li>Packed in a sturdy compact 85x130x45mm box.</li>
+<li>We provide worldwide shipping with express options.</li>
+</ul>
+</div>
+</div>
+<div></div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>rfid</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/7009290977480</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">425.00</s:price>
+      <s:sku>ICPYX-ICS-DECODER</s:sku>
+      <s:grams>172</s:grams>
+    </s:variant>
+  </entry>
+</feed>

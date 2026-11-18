@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/collections/ppb-sdr-tracking.atom"/>
+  <title>Lab401</title>
+  <updated>2024-09-13T19:22:38+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/products/9458669158747</id>
+    <published>2024-09-13T19:22:38+02:00</published>
+    <updated>2024-09-13T19:22:38+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/krakensdr"/>
+    <title>KrakenSDR</title>
+    <s:type>SDR</s:type>
+    <s:vendor>KrakenRF</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/KrakenSDR-Beam-forming-Signal-Tracker.png?v=1726239792"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>KrakenRF<br>
+        <strong>Type: </strong>SDR<br>
+        <strong>Price: </strong>
+            1020.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>KrakenSDR is dedicated solution for Radio Direction Finding / Signal Tracking.</p>
+<p>Leveraging 5 "coherently linked" interal SDR circuits, the KrakenSDR and included desktop &amp; mobile software allow effortless signal locking, finding and tracking from 100MHz - 1GHz.</p>
+<p>Purpose-built for signal tracking, the<strong> </strong>included antennas<strong> </strong>can be mounted on a car roof; turn-by-turn navigation is provided automatically by the Android application.</p>
+<p>The KrakenSDR is OpenSource : power users have full control over all radio settings, software and firmware. Users can even control each radio circuit individually for simultaneous multi-band monitoring.</p>
+<div class="grid" style="margin-top: 2em;" data-mce-style="margin-top: 2em;">
+   <div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+      <h3>Powerful Desktop Tools</h3>
+      Passively capture low, full and high-speed USB traffic and up to 16 related digital signals simultaneously for analysis.
+   </div>
+   <div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+      <h3>Signal Tracking App</h3>
+      Full-featured open-source tools for capturing, filtering, visualising and analysing USB-traffic on a protocol level.
+   </div>
+   <div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+      <h3>Auto-Calibration</h3>
+      No-manual time-consuming, complex calibration - works out of the box.
+   </div>
+   <div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+      <h3>Rugged Design</h3>
+      High-quality metal body provides solid protection and passive cooling.
+   </div>
+</div>
+<div style="margin-top: 2em;">
+   <h2>KrakenSDR : Track Down Radio Transmitters</h2>
+   Introduction into tracking down signals with KrakenSDR by <a href="https://www.youtube.com/@sn0ren" target="_blank">sn0ren</a>. Theory, basics, setup and practical demonstration of live signal tracking with the KrakenSDR platform.<br>      
+   <figure>
+      <video lite-youtube="" videoid="y9YkFZDCyeo" posterquality="maxresdefault" params="rel=0"></video>
+   </figure>
+</div>
+<div class="grid" style="margin-top: 2em;" data-mce-style="margin-top: 2em;">
+   <div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+      <h2 style="margin-top: 2em;" data-mce-style="margin-top: 2em;">Key Features</h2>
+      <ul>
+         <li>Five coherent RTL-SDR units, clocked to the same single oscillator.</li>
+         <li>Automatic coherence synchronisation hardware &amp; software</li>
+         <li>24 MHz to 1766 MHz Range (extendable with alternative drivers)</li>
+         <li>4.5 V bias tee on each port</li>
+         <li>Open-Source Desktop &amp; Mobile Applications</li>
+      </ul>
+   </div>
+   <div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+      <h2 style="margin-top: 2em;" data-mce-style="margin-top: 2em;">Key Uses</h2>
+      <ul>
+         <li> <strong>Transmitter Locating</strong> - Signals of interest, noise sources, illegal broadcasts</li>
+         <li> <strong>Asset Tracking</strong> - Wildlife, tagged animals or tagged assets.</li>
+         <li> <strong>Search &amp; Rescue</strong> - Real-time location &amp; tracking of emergency beacons</li>
+         <li> <strong>Fox Hunting</strong> - Radio operator training &amp; experiments</li>
+         <li> <strong>Open Source</strong> - 100% open-source software, firmware, gateware and hardware.</li>
+      </ul>
+   </div>
+</div>
+<div class="grid" style="margin-top: 2em;" data-mce-style="margin-top: 2em;">
+   <div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+      <h2><strong>Device Specifications<br></strong></h2>
+      <ul>
+         <li> <strong>RX Channels:</strong> 5<br> </li>
+         <li> <strong>Radio Tuner:  </strong>5x R820T2<br> </li>
+         <li> <strong>Radio ADC: </strong>5x RTL2832U<strong><br></strong> </li>
+         <li> <strong>ADC Bit Depth: </strong>8-bits</li>
+         <li> <strong>Frequency Range: </strong>24 MHz - 1766MHz <em>(extendable via alternative drivers)</em> </li>
+         <li> <strong>Maximum Channel</strong> Bandwidth: 2.56MHz<br><br> </li>
+         <li> <strong>Dimensions</strong>: 177 x 112 x 25mm</li>
+         <li> <strong>Weight:</strong> 670g</li>
+         <li> <strong>Power Consumption: </strong>11W ( 2.2A @ 5v )</li>
+      </ul>
+   </div>
+   <div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+      <h2><strong>What's included</strong></h2>
+      <ul>
+         <li> <strong>1x KrakenSDR</strong><strong><br></strong> </li>
+         <li><strong>5x Official Tuned Antennas + Cables<br></strong></li>
+      </ul>
+      <p><strong>Please note: </strong><em>The KrakenRF processing software needs to be run on a separate device. Images for the Raspberry PI 4 &amp; 5 are available.</em></p>
+      <h2><strong>Technical Resources<br></strong></h2>
+      <ul>
+         <li><a rel="noopener" title="KrakenSDR Github Repository" href="https://github.com/krakenrf/krakensdr_docs/wiki" target="_blank">KrakenRF Github Repository</a></li>
+         <li><a rel="noopener" href="https://github.com/krakenrf/krakensdr_doa" target="_blank">KrakenRF Rapsberry Pi Images</a></li>
+         <li><a href="https://www.thingiverse.com/thing:5787042" target="_blank" rel="noopener">KrakenRF 3D Printable Antenna Guides</a></li>
+         <li> <a rel="noopener" title="KrakenRF Forum" href="https://forum.krakenrf.com/" target="_blank">KrakenSDR Forum</a><a rel="noopener" title="Cynthion Github Repo" href="https://github.com/greatscottgadgets/luna" target="_blank" data-mce-href="https://github.com/greatscottgadgets/luna"></a> </li>
+      </ul>
+   </div>
+</div>
+</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>sdr</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/9458669158747</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">1020.00</s:price>
+      <s:sku>KRAKENRF-PACK</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+  </entry>
+</feed>

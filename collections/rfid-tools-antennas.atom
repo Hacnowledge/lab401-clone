@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/collections/rfid-tools-antennas.atom"/>
+  <title>Lab401</title>
+  <updated>2026-02-11T15:59:13+01:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/products/10332680520027</id>
+    <published>2026-02-11T15:59:13+01:00</published>
+    <updated>2026-02-11T15:59:13+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/nfc-booster-antenna-for-flipper-zero"/>
+    <title>NFC Booster Antenna for Flipper Zero</title>
+    <s:type>RFID</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Flipper-Zero-NFC-Booster.png?v=1770321122"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>RFID<br>
+        <strong>Price: </strong>
+            10.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="contentGroup">
+<h2><strong>Introduction</strong></h2>
+<p>The NFC Booster Antenna is an ingenious way to boost NFC (13.56MHz) performance of your Flipper Zero.</p>
+<p>It's a flexible PCB sticker that has two embedded antennas: one is tuned <i>exactly</i> to your Flipper Zero's NFC antenna - and the other is larger antenna that modifies the RF field shape for better performance &amp; read range, especially for <b>emulation</b>, <b>implants and small fobs</b>.</p>
+<p>It's completely passive, no batteries are required. Simply stick it to the back of your Flipper, and you're boosted!</p>
+<p>Range improvements vary on the size of the target badge: <b>implants and small fobs</b> can see up to <b>10mm extra</b> read distance, and <b>emulation</b> performance is dramatically better. Business-card sized tags see smaller range improvements, as their antennas are already large and well matched with the Flipper's internal antenna.</p>
+</div>
+<div class="contentGroup">
+<p>These are <i>boosters</i>: The increase the read range. If you're looking to also <i>displace</i> the reading zone to somewhere else, we recommend the <a href="/products/nfc-range-extender-for-flipper-zero">Range Extender</a> product for Flipper Zero - which has a built in booster, but also has an external antenna + cable, allowing you to move the reading field completely apart from your Flipper!</p>
+</div>
+<div class="contentGroup">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x NFC Booster Antenna for Flipper Zero</li>
+</ul>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>13.56MHz (HF)</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Flipper Zero</s:tag>
+    <s:tag>Flipper Zero Accessory</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10332680520027</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">10.00</s:price>
+      <s:sku>MW-FZR</s:sku>
+      <s:grams>10</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/10332680257883</id>
+    <published>2026-02-11T15:59:05+01:00</published>
+    <updated>2026-02-11T15:59:05+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/13-56mhz-rfid-range-boosters"/>
+    <title>13.56MHz RFID Range Boosters</title>
+    <s:type>RFID</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Boosters---Large.png?v=1770322473"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>RFID<br>
+        <strong>Price: </strong>
+            10.00 - 22.00
+            <a href="https://lab401.com/products/13-56mhz-rfid-range-boosters">(2 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="contentGroup">
+<h2><strong>Introduction</strong></h2>
+<p>The NFC Booster Antennas are a simple, cost way effective way to squeeze additional performance out of NFC readers.</p>
+<p>They are extremely thin PCBs that have an antenna on each side. Both have been perfectly tuned to 13.56MHz - when they encounter a 13.56MHz field, they repeat the signal.</p>
+<p>It's completely passive, no batteries are required. These boosters can be used in projects that would require you to scan NFC devices through objects where the reader isn't powerful enough by itself to pass the signal through. You could place this item on one side of the obstruction, and the reader on the other:
+</p>
+<ul>
+<li>Placed between a phone and phone-case to boost the read range of your phone</li>
+<li>Placed inside your wallet to boost the read-distance of your cards inside the wallet</li>
+<li>Placed on readers with poor performance: Proxmark 3, Chameleon Ultra, etc.</li>
+</ul>
+<p>Range improvements vary on the size of the target badge: cards and fobs enjoy up to <b>double the read range</b> with smaller tags getting an <b>additional 10mm</b>.</p>
+</div>
+<div class="contentGroup">
+<p><b>Two sizes are available</b>: Small (28mm diameter) and Large (62mm). The small antennas come in a <b>pack of four</b> - the large antennas individually.</p>
+</div>
+<div class="contentGroup">
+<p>These are <i>boosters</i>: The increase the read range. If you're looking to also <i>displace</i> the reading zone to somewhere else, we recommend the <a href="/products/rfid-antenna-extender">Range Extender</a> product, which allows you to displace the RFID field up to 30 or even 50cm away from the reading device.</p>
+</div>
+<div class="contentGroup">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>
+<b>Small</b>: 4x 28mm Booster Antennas, or</li>
+<li>
+<b>Large</b>: 1x 62mm Booster Antenna</li>
+</ul>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>13.56MHz (HF)</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Flipper Zero</s:tag>
+    <s:tag>Flipper Zero Accessory</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10332680257883</id>
+      <title>Small</title>
+      <s:price currency="EUR">10.00</s:price>
+      <s:sku>MW-V3F-4PCS</s:sku>
+      <s:grams>10</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/10332680257883</id>
+      <title>Large</title>
+      <s:price currency="EUR">22.00</s:price>
+      <s:sku>MW-V3L</s:sku>
+      <s:grams>10</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/10332677701979</id>
+    <published>2026-02-11T15:58:05+01:00</published>
+    <updated>2026-02-11T15:58:05+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/nfc-range-extender-for-flipper-zero"/>
+    <title>NFC Range Extender for Flipper Zero</title>
+    <s:type>RFID</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Flipper-Extender---All-Parts.png?v=1770320821"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>RFID<br>
+        <strong>Price: </strong>
+            75.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="contentGroup">
+<h2><strong>Introduction</strong></h2>
+<p>The NFC Extender Antenna is an ingenious <b>dual-purpose</b> accessory for boosting <i>and</i> extending the read range of your Flipper Zero.</p>
+<p>As a <b>booster</b> - you simply stick it one the back of your Flipper Zero, and instantly boost the NFC performance - up to <b>two times the read distance</b>. It's a flexible, ultra thin PCB with two embedded antennas: one is tuned <i>exactly</i> to your Flipper Zero's NFC antenna - and the other is larger antenna that increases read range.</p>
+<p>As an <b>extender</b> - you can connect an external antenna + cable to the board: suddenly the reading zone of your Flipper is wherever you want it to be!</p>
+<p>It's completely passive, no batteries are required. Simply stick it to the back of your Flipper, and you're boosted!</p>
+<p>Range improvements vary on the size of the target badge: cards and fobs enjoy up to <b>double the read range</b> with smaller tags getting an <b>additional 10mm</b>.</p>
+</div>
+<div class="contentGroup">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x NFC Extender Antenna for Flipper Zero</li>
+<li>1x IPEX antenna cable</li>
+<li>1x External Antenna (Card Format)</li>
+</ul>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>13.56MHz (HF)</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Flipper Zero</s:tag>
+    <s:tag>Flipper Zero Accessory</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10332677701979</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">75.00</s:price>
+      <s:sku>MW-FZREH_CA</s:sku>
+      <s:grams>10</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/1385019179119</id>
+    <published>2022-06-20T15:00:41+02:00</published>
+    <updated>2022-06-20T15:00:41+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/proxmark-3-rdv4-long-range-hf-antenna-1"/>
+    <title>Proxmark 3 RDV4.01- Long Range HF Antenna Pack</title>
+    <s:type>Proxmark</s:type>
+    <s:vendor>RRG</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/Proxmark-3-RDV-4.1-HF-Antenna-Box.png?v=1567172483"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>RRG<br>
+        <strong>Type: </strong>Proxmark<br>
+        <strong>Price: </strong>
+            79.99
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2><strong>Introduction</strong></h2>
+<p>The Proxmark 3 RDV4 has a modular antenna system, allowing for antennas to be hot-swapped depending on your assignment requirements.</p>
+<p>The Long Range HF External Antenna Pack containts two high performance, pre-tuned for antennas the Proxmark 3 RDV4, providing the highest read/write/sniff performance possible on an un-amplified external antenna</p>
+<p>Performance information is below:</p>
+<table class="table table-striped table-bordered">
+<thead>
+<tr>
+<th>Antenna Type</th>
+<th>Read Distance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HF Read Range (Built-in)</td>
+<td>40 - 85mm</td>
+</tr>
+<tr>
+<td><strong>HF Read Range (medium antenna)</strong></td>
+<td>90mm</td>
+</tr>
+<tr>
+<td><strong>HF Read Range (long range antenna)</strong></td>
+<td><strong>100 - 120mm</strong></td>
+</tr>
+</tbody>
+</table>
+<h2><strong></strong></h2>
+<div class="grid">
+<div class="grid-item small--one-fifth medium--one-fifth large--one-fifth text-center"></div>
+</div>
+<div class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x Long Range Antenna</li>
+<li>1x Medium Range Antenna</li>
+</ul>
+<ul></ul>
+<h2><strong>Shipping &amp; Packaging</strong></h2>
+<ul>
+<li>Each item is dispatched from <strong>Europe</strong> - no need to worry about slow shipping times, import duties or damaged goods.</li>
+<li>Packed in sturdy packaging.</li>
+<li>We provide worldwide shipping with express options.</li>
+</ul>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>Compatible Systems</strong></h2>
+<ul>
+<li><a href="/collections/hardware/products/proxmark-3-rdv4">Proxmark 3 RDV 4.01</a></li>
+</ul>
+<h2><strong></strong></h2>
+</div>
+</div>
+<h2><strong>Long Range HF Antenna Pack Unboxing</strong></h2>
+<figure><video lite-youtube="" videoid="oMlATY2mtgw" posterquality="maxresdefault" params="rel=0"></video></figure></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>antenna</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>proxmark</s:tag>
+    <s:tag>Proxmark 3 RDV4</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/1385019179119</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">79.99</s:price>
+      <s:sku>PM3-RDV4-HF-PACK</s:sku>
+      <s:grams>50</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/3967634964591</id>
+    <published>2022-06-20T15:00:34+02:00</published>
+    <updated>2022-06-20T15:00:34+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/proxmark-3-rdv4-01-upgraded-replacement-antenna"/>
+    <title>Proxmark 3 RDV4.01- Upgrade / Replacement Antenna</title>
+    <s:type>Proxmark</s:type>
+    <s:vendor>RRG</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/Proxmark-3-RDV-4.1-Back---New-Antenna.png?v=1567198154"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>RRG<br>
+        <strong>Type: </strong>Proxmark<br>
+        <strong>Price: </strong>
+            24.99
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2><strong>Introduction</strong></h2>
+<p>One of the advantages of the Proxmark 3 RDV4.01 is its enhanced built-in antenna system, which includes the new "Q-Switch" and "F-Switch" functionality on the LF Antenna, and the improved performance of the HF Antenna.</p>
+<p>Users with the original Proxmark 3 RDV4 (Original Antennas) can upgrade their antennas without having to purchase an entirely new device.</p>
+<p>Meticulously engineered with 6-layer PCBs, featuring a <strong>Frequency Switch</strong> and <strong>Q Switch</strong> - enabling targeting of specific frequencies and badge types.</p>
+<p><strong>Q-Switch</strong><br>The Q-Switch has two settings: 14 (Extended Range) and 7 (Extended Accuracy).</p>
+<p><strong>A Q-Switch setting of 14</strong> will give up to 30% further read range (on lf search / lf hid read etc commands).</p>
+<p><strong>A Q-Switch setting of 7</strong> will give better writing performance on T55XX and EM410XX tags.</p>
+<p><strong>Frequency Switch</strong></p>
+<p>The frequency switch allows for tuning to specific tag types: 125KHz or 134KHz.</p>
+<div class="grid">
+<div class="grid-item small--one-fifth medium--one-fifth large--one-fifth text-center"></div>
+</div>
+<div class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x LF Antenna (Q-Switch &amp; F-Switch)</li>
+<li>1x HF Antenna</li>
+</ul>
+<h2><strong>Shipping &amp; Packaging</strong></h2>
+<ul>
+<li>Each item is dispatched from <strong>Europe</strong> - no need to worry about slow shipping times, import duties or damaged goods.</li>
+<li>Packed in sturdy packaging.</li>
+<li>We provide worldwide shipping with express options.</li>
+</ul>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>Compatible Systems</strong></h2>
+<ul>
+<li><a href="/collections/hardware/products/proxmark-3-rdv4">Proxmark 3 RDV 4</a></li>
+</ul>
+<h2><strong></strong></h2>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>antenna</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>proxmark</s:tag>
+    <s:tag>Proxmark 3 RDV4</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/3967634964591</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">24.99</s:price>
+      <s:sku>PM3-RDV4-UPGRADE-ANTENNA</s:sku>
+      <s:grams>8</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/3967479677039</id>
+    <published>2022-06-20T15:00:34+02:00</published>
+    <updated>2022-06-20T15:00:34+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/proxmark-3-rdv4-01-long-range-lf-antenna-pack"/>
+    <title>Proxmark 3 RDV4.01- Long Range LF Antenna Pack</title>
+    <s:type>Proxmark</s:type>
+    <s:vendor>RRG</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/Proxmark-3-RDV-4.1-LF-Antenna-Box.png?v=1567172987"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>RRG<br>
+        <strong>Type: </strong>Proxmark<br>
+        <strong>Price: </strong>
+            79.99
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2><strong>Introduction</strong></h2>
+<p>The Proxmark 3 RDV4 has a modular antenna system, allowing for antennas to be hot-swapped depending on your assignment requirements.</p>
+<p>The Long Range LF External Antenna Pack containts two high performance, pre-tuned for antennas the Proxmark 3 RDV4, providing the highest read/write/sniff performance possible on an un-amplified external antenna.</p>
+<p>Meticulously engineered with 6-layer PCBs, featuring a <strong>Frequency Switch</strong> and <strong>Q Switch</strong> - enabling targeting of specific frequencies and badge types.</p>
+<p><strong>Q-Switch</strong><br>The Q-Switch has two settings: 14 (Extended Range) and 7 (Extended Accuracy).</p>
+<p><strong>A Q-Switch setting of 14</strong> will give up to 30% further read range (on lf search / lf hid read etc commands).</p>
+<p><strong>A Q-Switch setting of 7</strong> will give better writing performance on T55XX and EM410XX tags.</p>
+<p><strong>Frequency Switch</strong></p>
+<p>The frequency switch allows for tuning to specific tag types: 125KHz or 134KHz.</p>
+<p>Performance information is below:</p>
+<table class="table table-striped table-bordered">
+<thead>
+<tr>
+<th>Antenna Type</th>
+<th>Read Distance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>LF Read Range (Built-in)</td>
+<td>66 - 72mm</td>
+</tr>
+<tr>
+<td><strong>LF Read Range (medium antenna)</strong></td>
+<td>90mm</td>
+</tr>
+<tr>
+<td><strong>LF Read Range (long range antenna)</strong></td>
+<td><strong>110 - 133mm</strong></td>
+</tr>
+</tbody>
+</table>
+<h2><strong></strong></h2>
+<div class="grid">
+<div class="grid-item small--one-fifth medium--one-fifth large--one-fifth text-center"></div>
+</div>
+<div class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x Long Range Antenna</li>
+<li>1x Medium Range Antenna</li>
+</ul>
+<ul></ul>
+<h2><strong>Shipping &amp; Packaging</strong></h2>
+<ul>
+<li>Each item is dispatched from <strong>Europe</strong> - no need to worry about slow shipping times, import duties or damaged goods.</li>
+<li>Packed in sturdy packaging.</li>
+<li>We provide worldwide shipping with express options.</li>
+</ul>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>Compatible Systems</strong></h2>
+<ul>
+<li><a href="/collections/hardware/products/proxmark-3-rdv4">Proxmark 3 RDV 4.01</a></li>
+</ul>
+<h2><strong></strong></h2>
+</div>
+</div>
+<h2><strong>Long Range LF Antenna Pack Unboxing<br></strong></h2>
+<figure><video lite-youtube="" videoid="f3ex7UkvVHs" posterquality="maxresdefault" params="rel=0"></video></figure></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>antenna</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>proxmark</s:tag>
+    <s:tag>Proxmark 3 RDV4</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/3967479677039</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">79.99</s:price>
+      <s:sku>PM3-RDV4-LF-PACK</s:sku>
+      <s:grams>50</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/6102281289928</id>
+    <published>2022-06-20T15:00:22+02:00</published>
+    <updated>2022-06-20T15:00:22+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/proxrf-125khz-biochip-antenna"/>
+    <title>ProxRF 125KHz Biochip Antenna</title>
+    <s:type>Proxmark</s:type>
+    <s:vendor>RRG</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/ProxLFAntenna-1.jpg?v=1606496927"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>RRG<br>
+        <strong>Type: </strong>Proxmark<br>
+        <strong>Price: </strong>
+            29.99
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>The Proxmark 3 RDV4 has a modular antenna system, allowing for antennas to be hot-swapped depending on your assignment requirements.</p>
+<p>The ProxLF 125KHz antenna is designed specifically for communicating with Dangerous Things biochips.</p>
+<p>125KHz chips have limited anti-tearing support; interrupted writes can leave the chips bricked. The risk of bricked chips is increased with injectable / bio-chips, as their antennas are smaller - and replacement is difficult (and painful)</p>
+<p>The ProxLF ferrite-core antenna optimises communication, reducing the chances of bricking your injectable.<br></p>
+<p>To install, simply remove the dual antenna from your Proxmark 3 RDV4, and attach the ProxLF antenna.</p>
+<p><strong>IMPORTANT: </strong>Requires a Proxmark 3 RDV4 (not included)</p>
+<strong>What's included</strong>
+<div class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<ul>
+<li>1x ProxLF Ferrite 125KHz Antenna<br>
+</li>
+</ul>
+<ul></ul>
+<h2><strong>Shipping &amp; Packaging</strong></h2>
+<ul>
+<li>Each item is dispatched from <strong>Europe</strong> - no need to worry about slow shipping times, import duties or damaged goods.</li>
+<li>Packed in sturdy packaging.</li>
+<li>We provide worldwide shipping with express options.</li>
+</ul>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>Compatible Systems</strong></h2>
+<ul>
+<li><a href="/collections/hardware/products/proxmark-3-rdv4">Proxmark 3 RDV 4.01</a></li>
+</ul>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>antenna</s:tag>
+    <s:tag>dangerous things</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>injectable</s:tag>
+    <s:tag>proxlf</s:tag>
+    <s:tag>proxmark</s:tag>
+    <s:tag>Proxmark 3 RDV4</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/6102281289928</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">29.99</s:price>
+      <s:sku>PROXRF-ANTENNA</s:sku>
+      <s:grams>18</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/6187023565000</id>
+    <published>2022-06-20T15:00:21+02:00</published>
+    <updated>2022-06-20T15:00:21+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/rfid-antenna-extender"/>
+    <title>RFID Range Extenders</title>
+    <s:type>Tools</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/RFID-Range-Extender-30.png?v=1611240067"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>Tools<br>
+        <strong>Price: </strong>
+            35.00 - 45.00
+            <a href="https://lab401.com/products/rfid-antenna-extender">(2 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2><strong>Introduction</strong></h2>
+The RFID Range Extender is a unique passive antenna system built for a variety of use-cases.<br>
+<ul>
+<li>Boosting the range of unstable / under-performing antennas (up to 7cm)</li>
+<li>Physically displacing the reading zone of a device (up to 50cm)</li>
+</ul>
+<p>No wiring or soldering required, and compatible with all RFID systems - simple place the host antenna next to the host device, and its RFID field is amplified and transferred to the client antenna. Each antenna comes with 3M double-sided tape for easy permanent attachment.<br><br>Available with a 30cm or 50cm cable.<br>Compatible with all 13.56MHz RFID systems.</p>
+<ul></ul>
+<h3></h3>
+<h2><strong>Functionality in a glance</strong></h2>
+<p>Below is a non-exhaustive list of the RFID Range Extender Features<br></p>
+<div class="grid" style="margin-top: 2em; margin-bottom: 2em;">
+<div class="grid-item small--one-third medium--one-third large--one-third text-center">
+<h2>Boost weak antennas<br>
+</h2>
+<p>Boost weak / unstable RFID fields.<br>Boost reading range up to 7cm.<br></p>
+</div>
+<div class="grid-item small--one-third medium--one-third large--one-third text-center">
+<h2>Displace reading zones<br>
+</h2>
+<p>Physically displace reading zones.<br>Available in 30cm or 50cm varieties.<br></p>
+</div>
+<div class="grid-item small--one-third medium--one-third large--one-third text-center">
+<h2>No power, no solder<br>
+</h2>
+<p>Completely passive. Place antennas next to host and target tag.<br></p>
+</div>
+</div>
+<h3><strong>Detailed functionality</strong></h3>
+<p>Featuring a pair of tuned antennas coupled with a premium low-loss coax cable, the RFID Range Extender has applications across multiple industries:<br></p>
+<ul>
+<li><strong>Pen Testing:</strong></li>
+<ul>
+<li>The slim-profile (0.8mm) antennas can be easily hidden, allowing for discrete reading / sniffing of target tags.</li>
+<li>The antennas can be placed behind / on top of existing readers to sniff legitimate badge scans</li>
+</ul>
+<li><strong>Industrial:</strong></li>
+<ul>
+<li>Boost the reading range of devices with underpowered embedded readers / antennas</li>
+<li>Protect devices by keeping them in a more practical / safe / clean environment, and only exposing the reading element.</li>
+</ul>
+<li><strong>Practical:</strong></li>
+<ul>
+<li>Social-distance aware reading: allow clients to scan badges without approaching or touching the host device</li>
+<li>Create a physically separated "reading zone" for devices with sensitive antennas, such as mobile phones</li>
+</ul>
+</ul>
+<div class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h3><strong>Technical Specifications<br></strong></h3>
+<ul>
+<li>
+<strong>Size</strong><br>
+</li>
+<ul>
+<li>
+<strong>Host Antenna</strong>: 35 x 35mm</li>
+<li>
+<strong>Reader Antenna</strong>: 40 x 50mm</li>
+</ul>
+<li><strong>Reading Range</strong></li>
+<ul>
+<li>
+<strong>30cm version: </strong>Up to 7cm (tested with ISO card + mobile phone reader)<br>
+</li>
+<li>
+<strong>50cm version: </strong>Up to 5cm (tested with ISO card + mobile phone reader)<br>
+</li>
+</ul>
+<li>
+<strong>Power Supply</strong>: No external supply required.<br>
+</li>
+</ul>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h3><strong>What's included</strong></h3>
+<ul>
+<li>1x RFID Range Extender<br>
+</li>
+</ul>
+</div>
+</div>
+<h2>RFID Range Extender: Product Demonstration<br>
+</h2>
+<figure><video lite-youtube="" videoid="jsQ_i18GjW8" posterquality="maxresdefault" params="rel=0"></video></figure></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>antenna</s:tag>
+    <s:tag>Antenna Booster</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Hardware</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>Red Teaming</s:tag>
+    <s:tag>rfid</s:tag>
+    <s:tag>Sniffing</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/6187023565000</id>
+      <title>30cm</title>
+      <s:price currency="EUR">35.00</s:price>
+      <s:sku>RFID-EXTEND-30</s:sku>
+      <s:grams>9</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/6187023565000</id>
+      <title>50cm</title>
+      <s:price currency="EUR">45.00</s:price>
+      <s:sku>RFID-EXTEND-50</s:sku>
+      <s:grams>10</s:grams>
+    </s:variant>
+  </entry>
+</feed>

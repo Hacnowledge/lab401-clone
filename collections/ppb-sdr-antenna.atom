@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/collections/ppb-sdr-antenna.atom"/>
+  <title>Lab401</title>
+  <updated>2026-06-29T00:26:56+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/products/10422725116251</id>
+    <published>2026-06-29T00:26:56+02:00</published>
+    <updated>2026-06-29T00:26:56+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/litevna"/>
+    <title>LiteVNA (NanoVNA Compatible)</title>
+    <s:type>SDR</s:type>
+    <s:vendor>DeepElec</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/LiteVNA.png?v=1775562656"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>DeepElec<br>
+        <strong>Type: </strong>SDR<br>
+        <strong>Price: </strong>
+            192.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h3>Introduction</h3>
+<p>If you're working with SDR, a<i> Vector Network Analyser</i> is a must-have tool to tune antennas, optimise performance and identify cable loss, SWR, and more.</p>
+<p>For pentesters working in rapidly changing conditions, the LiteVNA-F will allow you to rapidly optimise your antenna to suit your target frequency and environment.</p>
+<p>For example, when targeting remote controls on the 433MHz frequency, optimising a retractable antenna becomes rapid and intuitive; allowing for faster work and better performance.</p>
+<p>The LiteVNA-F can be used via its touchscreen interface, or mobile and desktop applications for extended functionality and usability.</p>
+<p>Covering 50kHz to 6.3GHz, the LiteVNA64 is an affordable, powerhouse multi-tool that will always earn its place in an SDR / IoT everyday carry pack.</p>
+<p>There are many variations and grey-market clones of the LiteVNA on the market; many use cheaper components to lower the price, but at the cost of accuracy and precision.</p>
+<p>Lab401's LiteVNA64 is the <strong>official, original version</strong> from Zeenko, with guaranteed latest hardware hardware revision.</p>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Portable</h3>
+Pocket-sized with internal battery &amp; touch-screen and a shock resistant case.<br><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/LiteVNA---Phone.jpg?v=1775562619" alt=""><br>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Powerful</h3>
+Use the touchscreen in the field. In the lab, the Desktop &amp; mobile apps provide extra functionality and easy use.<br><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/NanoVNA-Desktop-Software.png?v=1730114245" alt=""><br>
+</div>
+</div>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>Device Specifications<br></strong></h2>
+<ul>
+<li>
+<strong>Frequency Range: </strong>50kHz - 6.3GHz<br>
+</li>
+<li>
+<strong>Measuring Range:</strong>
+<ul>
+<li>50kHz - 3GHz : &gt;70dB</li>
+<li>3GHz - 6.3GHz : &gt;50dB</li>
+</ul>
+</li>
+<li>
+<strong>Display: 3.95</strong>" 480*320 IPS Touchscreen  </li>
+<li>
+<strong>Dimensions: </strong>140 x 75 x 20mm<br>
+</li>
+<li>
+<strong>Connectivity: </strong>USB-C</li>
+<li>
+<strong>Battery</strong>: 2000mAh</li>
+<li>
+<strong>Case</strong>: Plastic</li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x Zeenko LiteVNA 64</li>
+<li>1x Calibration Kit<br>
+<ul>
+<li>1x 50 Ohm Load SMA Calibration Terminator</li>
+<li>1x Shorted SMA Calibration Terminator</li>
+<li>1x Open Ohm SMA Calibration Terminator</li>
+</ul>
+</li>
+<li>1x Female-Female SMA through connector<br>
+</li>
+<li>2x SMA Male-Male extension cables</li>
+<li>1x USB-A to USB-C Cable<br>
+</li>
+<li>1x USB-C to USB-C Cable<br>
+</li>
+</ul>
+<h2><strong>Technical Resources<br></strong></h2>
+<ul>
+<li><a href="https://www.zeenko.tech/litevna" rel="noopener" target="_blank">LiteVNA Homepage</a></li>
+<li><a href="https://groups.io/g/liteVNA/topics?sidebar=true" rel="noopener" target="_blank">LiteVNA : Forums</a></li>
+<li><a href="https://nanovna.com/wp-content/uploads/2021/11/LiteVNA_User-Guide.pdf" rel="noopener" target="_blank">LiteVNA : User Manual</a></li>
+<li><a href="https://play.google.com/store/apps/details?id=net.lowreal.nanovnawebapp&amp;hl=en">LiteVNA Compatible: Mobile Software</a></li>
+<li><a href="https://drive.google.com/drive/folders/10lU5xnwmHDnPX98z21ky09N8nb_cEOk4">LiteVNA : Latest Firmware</a></li>
+</ul>
+</div>
+</div>
+<h3>Learn why you need a VNA: Introduction to Antennas for SDR with sn0ren</h3>
+<figure><video lite-youtube="" videoid="wUE8DI61s60" posterquality="maxresdefault" params="rel=0"></video></figure></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:tag>VNA</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10422725116251</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">192.00</s:price>
+      <s:sku>ZEENKO-LITEVNA</s:sku>
+      <s:grams>300</s:grams>
+    </s:variant>
+  </entry>
+</feed>

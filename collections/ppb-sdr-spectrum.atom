@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/collections/ppb-sdr-spectrum.atom"/>
+  <title>Lab401</title>
+  <updated>2025-02-12T07:27:56+01:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/products/9707173216603</id>
+    <published>2025-02-12T07:27:56+01:00</published>
+    <updated>2025-02-12T07:27:56+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/tinysa-ultra"/>
+    <title>TinySA Ultra+</title>
+    <s:type>SDR</s:type>
+    <s:vendor>Zeenko</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/TinySA-Ultra-Plus.png?v=1737551515"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Zeenko<br>
+        <strong>Type: </strong>SDR<br>
+        <strong>Price: </strong>
+            163.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h3>Introduction</h3>
+<p>Spectrum Analysers allow you to observe radio signals visually in real-time.</p>
+<p>For pentesters working with RF, Remotes or IoT, this tool allows you to quickly identify a target device's frequency, so you can prepare an appropriate attack: A classic example would be to identify the frequency of a target remote control: 30MHz, 433MHz or 866MHz.</p>
+<p>The TinySA is an affordable, pocket-sized portable powerhouse, working from 100kHz to to 960MHz. On the go, use its touchscreen - at the desk, it connects to your workstation expanded functionality. <br></p>
+<p>The TinySA also has a built-in signal generator (useful for tests, or even close-range roll-jam functionality) capable of generating sine &amp; square-wave signals from 0.1MHz - 950MHz.<br></p>
+<p>As an Open Source device, there are multiple versions available. Lab401 stocks the <strong>TinySA Ultra Plus</strong> - the most recent, powerful and CE compliant version.<br></p>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Portable</h3>
+Pocket-sized with internal battery &amp; touch-screen.<br>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Powerful</h3>
+Desktop &amp; mobile apps provide extra functionality.<br>
+</div>
+</div>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>Device Specifications<br></strong></h2>
+<ul>
+<li>
+<strong>Frequency Range: </strong>100kHz - 900MHz, 5.4GHz in Ultra mode, 10GHz in Harmonic Mode<br>
+</li>
+<li>
+<strong>Bandpass Filters:</strong> 2.6KHz - 640KHz</li>
+<li>
+<strong>Inbuilt Attenuator:</strong> -31dB &gt; 0dB</li>
+<li>
+<strong>Resolution:</strong> 200kHz to 850KHz</li>
+<li>
+<strong>Display Points Per Scan:</strong> up to 450</li>
+<li>
+<strong>Signal Generator</strong>:
+<ul>
+<li>
+<strong>Sine</strong>: 0.1MHz - 350MHz</li>
+<li>
+<strong>Square:</strong> 250MHz - 960MHz</li>
+</ul>
+</li>
+<li>
+<strong>Calibration:</strong> Automatic</li>
+<li>
+<strong>Display: </strong>4" Touchscreen 480x320 TFT</li>
+<li>
+<strong>Dimensions: </strong>117mm x 72mm x 22mm <br>
+</li>
+<li>
+<strong>Connectivity: </strong>USB-C</li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x TinySA Ultra+<br>
+</li>
+<li>1x Telescopic SMA Antenna</li>
+<li>1x Female-Female SMA through connector<br>
+</li>
+<li>2x SMA Male-Male extension cables</li>
+<li>1x USB-A to USB-C Cable<br>
+</li>
+</ul>
+<h2><strong>Technical Resources<br></strong></h2>
+<ul>
+<li><a rel="noopener" href="https://tinysa.org/wiki/pmwiki.php?n=Main.HomePage" target="_blank">TinySA : Wiki</a></li>
+<li><a rel="noopener" href="http://athome.kaashoek.com/tinySA/DFU/" target="_blank">TinySA : Firmware Updates</a></li>
+<li><a rel="noopener" href="https://tinysa.org/wiki/pmwiki.php?n=Main.TechnicalDescription" target="_blank">TinySA : Block Diagram</a></li>
+<li><a rel="noopener" href="https://tinysa.org/wiki/pmwiki.php?n=Main.Specification" target="_blank">TinySA : Full Technical Details</a></li>
+<li><a href="https://github.com/erikkaashoek/tinySA" target="_blank">TinySA : GitHub Repo</a></li>
+</ul>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>RF</s:tag>
+    <s:tag>sdr</s:tag>
+    <s:tag>Spectrum Analyser</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/9707173216603</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">163.00</s:price>
+      <s:sku>TINYSA-ULTRAPLUS</s:sku>
+      <s:grams>300</s:grams>
+    </s:variant>
+  </entry>
+</feed>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/collections/manuals-guides.atom"/>
+  <title>Lab401</title>
+  <updated>2024-05-25T11:35:51+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/products/9200617816411</id>
+    <published>2024-05-25T11:35:51+02:00</published>
+    <updated>2024-05-25T11:35:51+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/rubber-ducky-textbook"/>
+    <title>Rubber Ducky Textbook</title>
+    <s:type>Pen Testing</s:type>
+    <s:vendor>Hak5</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Rubber-Ducky-Textbook.png?v=1716567750"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hak5<br>
+        <strong>Type: </strong>Pen Testing<br>
+        <strong>Price: </strong>
+            60.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>
+<span style="color: #cc0000;" data-mce-style="color: #cc0000;"><strong></strong></span><strong>Introduction</strong>
+</h2>
+<p>With Hak5's Official Rubber Ducky Textbook become an expert at HID injection / emulation devices. Each chapter builds your knowledge with clear examples and practical examples, from basic to advanced topics.<br></p>
+<p>Over the 272 pages, you'll build your expertise by building multi hands-on projects and reviewing your knowledge with 40+ exercises.</p>
+<h2>What you'll learn<br>
+</h2>
+<ul>
+<li>Concepts of HID emulation and keystroke injection</li>
+<li>Payload design principles, including optimisation and development</li>
+<li>Attack, exfiltration and discretion techniques</li>
+<li>Deep knowledge of DuckyScript</li>
+</ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Ethernet</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Hak5</s:tag>
+    <s:tag>Man-in-the-middle</s:tag>
+    <s:tag>Network Sniffer</s:tag>
+    <s:tag>Packet Squirrel</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/9200617816411</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">60.00</s:price>
+      <s:sku>HAK5-RUBBERDUCKY-TEXTBOOK</s:sku>
+      <s:grams>63</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/9200596418907</id>
+    <published>2024-05-25T11:35:38+02:00</published>
+    <updated>2024-05-25T11:35:38+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/rubber-ducky-pocket-guide"/>
+    <title>Rubber Ducky Pocket Guide</title>
+    <s:type>Pen Testing</s:type>
+    <s:vendor>Hak5</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Hak5---USB-Rubber-Ducky---Pocket-Guide.png?v=1716567174"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hak5<br>
+        <strong>Type: </strong>Pen Testing<br>
+        <strong>Price: </strong>
+            19.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>
+<span style="color: #cc0000;"><strong></strong></span><strong>Introduction</strong>
+</h2>
+<p>The <strong>Hak5 Official Pocket Guide </strong>for the <strong>Rubber Ducky</strong>. </p>
+<p>32 pages of covering device basics, through to networking fundamentals and finally to hands-on guides for writing and deploying payloads in DuckyScript.<br></p>
+<p>DuckyScript has been the defacto scripting language for pentesters for over a decade - the Pocket Guide is written by Darren Kitchen - original author of DuckyScript !<br></p>
+<p>Whether you're a beginner or a pro, this guide will teach you something.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Ethernet</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Hak5</s:tag>
+    <s:tag>Man-in-the-middle</s:tag>
+    <s:tag>Network Sniffer</s:tag>
+    <s:tag>Packet Squirrel</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/9200596418907</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">19.95</s:price>
+      <s:sku>HAK5-RUBBERDUCKY-POCKET-GUIDE</s:sku>
+      <s:grams>30</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/9200659038555</id>
+    <published>2024-05-25T11:35:22+02:00</published>
+    <updated>2024-05-25T11:35:22+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/packet-squirrel-textbook"/>
+    <title>Packet Squirrel Textbook</title>
+    <s:type>Pen Testing</s:type>
+    <s:vendor>Hak5</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Hak5-PacketSquirrel-Textbook.png?v=1716568435"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hak5<br>
+        <strong>Type: </strong>Pen Testing<br>
+        <strong>Price: </strong>
+            49.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>
+<span style="color: #cc0000;" data-mce-style="color: #cc0000;"><strong></strong></span><strong>Introduction</strong>
+</h2>
+<p>With Hak5's Official Packet Squirrel Textbook become an expert in network interception, packet sniffing and data manipulation on the wire. Each chapter builds your knowledge with clear examples and practical examples, from basic to advanced topics.<br></p>
+<p>Over the 272 pages, you'll build your expertise by building multi hands-on projects and reviewing your knowledge with 35 exercises.</p>
+<h2>What you'll learn<br>
+</h2>
+<ul>
+<li>Network basics: IP, ranges, network segmentation.<br>
+</li>
+<li>Concepts: Routing, bridging, redirection and isolation<br>
+</li>
+<li>Ethernet Interception: Packet Sniffing, Capture and Manipulation<br>
+</li>
+<li>Payload Development: Design principles for Bash, DuckyScript and Python payloads<br>
+</li>
+</ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Ethernet</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Hak5</s:tag>
+    <s:tag>Man-in-the-middle</s:tag>
+    <s:tag>Network Sniffer</s:tag>
+    <s:tag>Packet Squirrel</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/9200659038555</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">49.00</s:price>
+      <s:sku>HAK5-PACKETSQUIRREL-TEXTBOOK</s:sku>
+      <s:grams>63</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/9200582426971</id>
+    <published>2024-05-25T11:35:05+02:00</published>
+    <updated>2024-05-25T11:35:05+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/packet-squirrel-pocket-guide"/>
+    <title>Packet Squirrel Pocket Guide</title>
+    <s:type>Pen Testing</s:type>
+    <s:vendor>Hak5</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Packet-Squiirel---Mark-II---Pocket-Guide.png?v=1716566602"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hak5<br>
+        <strong>Type: </strong>Pen Testing<br>
+        <strong>Price: </strong>
+            19.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>
+<span style="color: #cc0000;"><strong></strong></span><strong>Introduction</strong>
+</h2>
+<p>The <strong>Hak5 Official Pocket Guide </strong>for the <strong>Packet Squirrel Mark II</strong>. </p>
+<p>32 pages of covering device basics, through to networking fundamentals and finally to hands-on guides for writing and deploying payloads in DuckyScript, Bash and Python.</p>
+<p>This guide also highlights the new features available in the Mark II - more DuckyScript commands, modern tools, new VPN support, and new traffic interception, logging, and manipulation options.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Ethernet</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Hak5</s:tag>
+    <s:tag>Man-in-the-middle</s:tag>
+    <s:tag>Network Sniffer</s:tag>
+    <s:tag>Packet Squirrel</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/9200582426971</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">19.95</s:price>
+      <s:sku>HAK5-PACKETSQUIRREL-POCKET-GUIDE</s:sku>
+      <s:grams>30</s:grams>
+    </s:variant>
+  </entry>
+</feed>

@@ -1,0 +1,3386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/collections/publica.atom"/>
+  <title>Lab401</title>
+  <updated>2026-09-09T15:43:21+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/products/4118171582575</id>
+    <published>2026-09-09T15:43:21+02:00</published>
+    <updated>2026-09-09T15:43:21+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/bladerf-sdr-2-micro-xa4"/>
+    <title>Blade RF 2.0 Micro xA4</title>
+    <s:type>RF</s:type>
+    <s:vendor>Nuand</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/BladeRF-Transparent.png?v=1611929065"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Nuand<br>
+        <strong>Type: </strong>RF<br>
+        <strong>Price: </strong>
+            649.00 - 899.00
+            <a href="https://lab401.com/products/bladerf-sdr-2-micro-xa4">(2 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>The Blade RF 2.0 Micro xA4 is the undisputed SDR champion, boasting unmatched frequency range, huge bandwidth, incredible on-board processing capacity backed with full software support.</p>
+<p>For penetration testers, the killer-feature is the ability to run 3G/LTE Base-Stations via OpenBTS, allowing testing, manipulation and MITM for cellular IOT devices.</p>
+<p>The Standard Pack contains everything needed to build a BTS: RX and TX amplifiers and 4x GSM antennas. The Deluxe Pack contains 4x Wide-Band general purpose antennas to extend your testing surface.</p>
+<h2><strong>Overview</strong></h2>
+<p> </p>
+<p>The BladeRF is a mature, wide-band full duplex 2x2 MIMO RF transceiver, covering 47MHz to 6GHz.</p>
+<p>It is compatible with all major SDR suites across multiple platforms: GNU Radio via gr-osmosdr, Pothos via SoapySDR, SDRange, SDR Console, SDR # via sdrsharp-bladeRF, MathWorks MATLAB® &amp; Simulink® via libbladeRF bindings.</p>
+<p>BladeRF libraries, utilities, firmware and HDL are open source with public schematics. There are extensive SDKs available free of charge.</p>
+<p>The wide-band range, extensive bandwidth and full duplex capabilities make the BladeRF the ideal tool for multiple use-cases:</p>
+<ul>
+   <li> <strong>Remote Control Analysis</strong>: Analyse, replay and emulate car remotes, alarms, garage remotes, etc.</li>
+   <li> <strong>GPS Manipulation</strong>: Block, manipulate or adjust GPS signals for location-aware devices</li>
+   <li> <strong>MITM GSM devices</strong>: Capture and manipulate data from cellular IOT devices.</li>
+   <li> <strong>Advanced RFID Analysis</strong>: Analyse and communicate with all RFID tags, regardless of their frequency.</li>
+   <li> <strong>Standard SDR functionality:</strong> ADB-S Tracking, satellite-communication, packet-sniffing, signal analysis, etc</li>
+</ul>
+<ul></ul>
+<div style="margin: 2em 3em;" class="grid">
+   <div class="grid-item small--one-whole medium--one-half large--one-fifth text-center">
+      <h3>USB 3.0 Superspeed</h3>
+      <p>Capture &amp; process at 5Gbps full-duplex</p>
+   </div>
+   <div class="grid-item small--one-whole medium--one-half large--one-fifth text-center">
+      <h3>Onboard programmable FPGA</h3>
+      <p>Write apps directly on-board.</p>
+   </div>
+   <div class="grid-item small--one-whole medium--one-half large--one-fifth text-center">
+      <h3>Built for professionals</h3>
+      <p>Built to exceed standards and expectations.</p>
+   </div>
+   <div class="grid-item small--one-whole medium--one-half large--one-fifth text-center">
+      <meta charset="utf-8">
+      <h3>Community Backed</h3>
+      <p>Plug'n'Play compatible with all major SDR suites.</p>
+   </div>
+   <div class="grid-item small--one-whole medium--one-half large--one-fifth text-center">
+      <h3>Ready to go</h3>
+      <p>Comes with everything, including antennas.</p>
+   </div>
+</div>
+<h2>BladeRF Packs</h2>
+<p>Lab401 provides two BladeRF configurations or packs.Use our guide below to understand which pack is best suited to your needs.<br></p>
+<ul>
+   <li> <strong>Starter Pack</strong><br>The Starter Pack provides the <strong>minimum configuration</strong> required for <strong>creating a BTS</strong> in laboratory conditions. The BladeRF's powerful architecture has made it the "go-to" BTS solution. If you're looking to get started with GSM/S7/OpenBTS hacking - this is the pack for you.<br> </li>
+</ul>
+<ul>
+   <li> <strong>Deluxe Pack</strong><br>Built on the foundations of the Starter Park, the Deluxe Pack provides the <strong>complete SDR &amp; BTS configuration</strong> - in the laboratory and in the field. <br>With a full-range of antennas and and two amplifiers, the Deluxe Pack is aimed for real-world SDR exercises and in-the-field BTS pen-test operations - and everything in between.<br> </li>
+</ul>
+<p><strong>The full pack breakdown is below:</strong></p>
+<div class="chipset--tables-wrapper">
+   <div class="chipset--table-title">Package Contents</div>
+   <div class="chipset--table-container">
+      <table class="chipset--table">
+         <thead>
+            <tr>
+               <th>Product</th>
+               <th>Starter</th>
+               <th>Deluxe</th>
+               <th>Description</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td data-label="Product">BladeRF 2.0 micro xA4</td>
+               <td data-label="Starter">✔️</td>
+               <td data-label="Deluxe">✔️</td>
+               <td data-label="Description">BladeRF Mainboard: 47MHz to 6GHz frequency range</td>
+            </tr>
+            <tr>
+               <td data-label="Product">BladeRF Case</td>
+               <td data-label="Starter">✔️</td>
+               <td data-label="Deluxe">✔️</td>
+               <td data-label="Description">Clear Polycarbonate case</td>
+            </tr>
+            <tr>
+               <td data-label="Product">GSM Antenna (x2)</td>
+               <td data-label="Starter">✔️</td>
+               <td data-label="Deluxe"></td>
+               <td data-label="Description">GSM Antennas optimised for BTS usage</td>
+            </tr>
+            <tr>
+               <td data-label="Product">GSM Antenna (x4)</td>
+               <td data-label="Starter"></td>
+               <td data-label="Deluxe">✔️</td>
+               <td data-label="Description">GSM Antennas optimised for BTS usage</td>
+            </tr>
+            <tr>
+               <td data-label="Product">BT-100 Bias-Tee Amplifier (x2)</td>
+               <td data-label="Starter"></td>
+               <td data-label="Deluxe">✔️</td>
+               <td data-label="Description">Wideband bias tee TX Power Amplifier</td>
+            </tr>
+            <tr>
+               <td data-label="Product">BT-200 Bias Tee Amplifier (x2)</td>
+               <td data-label="Starter"></td>
+               <td data-label="Deluxe">✔️</td>
+               <td data-label="Description">BT-200 is a wideband bias-tee RX Low Noise Amplifier</td>
+            </tr>
+            <tr>
+               <td data-label="Product">Tri-Band Antenna (x4)</td>
+               <td data-label="Starter"></td>
+               <td data-label="Deluxe">✔️</td>
+               <td data-label="Description">General purpose tri-band antenna that covers 700MHz to 2600MHz</td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
+</div>
+<div class="grid">
+<div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+   <div class="chipset--tables-wrapper">
+      <div class="chipset--table-title">RF Specifications</div>
+      <div class="chipset--table-container">
+         <table class="chipset--table">
+            <thead>
+               <tr>
+                  <th>RF Specifications</th>
+                  <th>Min</th>
+                  <th>Max</th>
+                  <th>Unit</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <td data-label="RF Specifications">ADC/DAC Sample Rate</td>
+                  <td data-label="Min">0.521</td>
+                  <td data-label="Max">61.44</td>
+                  <td data-label="Unit">MSPS</td>
+               </tr>
+               <tr>
+                  <td data-label="RF Specifications">ADC/DAC Resolution</td>
+                  <td data-label="Min" colspan="2">12</td>
+                  <td data-label="Unit">bits</td>
+               </tr>
+               <tr>
+                  <td data-label="RF Specifications">RF Tuning Range (RX)</td>
+                  <td data-label="Min">70</td>
+                  <td data-label="Max">6000</td>
+                  <td data-label="Unit">MHz</td>
+               </tr>
+               <tr>
+                  <td data-label="RF Specifications">RF Tuning Range (TX)</td>
+                  <td data-label="Min">47</td>
+                  <td data-label="Max">6000</td>
+                  <td data-label="Unit">MHz</td>
+               </tr>
+               <tr>
+                  <td data-label="RF Specifications">RF Bandwidth Filter</td>
+                  <td data-label="Min">&lt;0.2</td>
+                  <td data-label="Max">56</td>
+                  <td data-label="Unit">MHz</td>
+               </tr>
+               <tr>
+                  <td data-label="RF Specifications">CW Output Power</td>
+                  <td data-label="Min" colspan="2">+8</td>
+                  <td data-label="Unit">dBm</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+   </div>
+   </div>
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+      <div class="chipset--tables-wrapper">
+         <div class="chipset--table-title">FPGA Specifications</div>
+         <div class="chipset--table-container">
+            <table class="chipset--table">
+               <thead>
+                  <tr>
+                     <th>FPGA Specifications</th>
+                     <th>Min</th>
+                     <th>Max</th>
+                     <th>Unit</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td data-label="FPGA Specifications">Logic Elements</td>
+                     <td data-label="Min" colspan="2">49</td>
+                     <td data-label="Unit">kLE</td>
+                  </tr>
+                  <tr>
+                     <td data-label="FPGA Specifications">Memory</td>
+                     <td data-label="Min" colspan="2">3,383</td>
+                     <td data-label="Unit">kbits</td>
+                  </tr>
+                  <tr>
+                     <td data-label="FPGA Specifications">Variable-precision DSP blocks</td>
+                     <td data-label="Min">66</td>
+                     <td data-label="Max">342</td>
+                     <td data-label="Unit"></td>
+                  </tr>
+                  <tr>
+                     <td data-label="FPGA Specifications">Embedded 18x18 Multipliers</td>
+                     <td data-label="Min">132</td>
+                     <td data-label="Max">684</td>
+                     <td data-label="Unit"></td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+      </div>
+   </div>
+</div>
+<div style="margin-top: 2em;" class="grid">
+   <div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+      <h2><strong>What's included</strong></h2>
+      <meta charset="utf-8">
+      <p><strong>Starter Pack</strong></p>
+      <ul>
+         <li>1x bladeRF 2.0 micro xA4<strong></strong> </li>
+         <li>1x bladeRF 2.0 micro case</li>
+         <li>2x GSM Antennas</li>
+         <li>1x USB 3.0 SS Cable</li>
+      </ul>
+      <strong>Deluxe Pack</strong><br> 
+      <ul>
+         <li>1x bladeRF 2.0 micro xA4<strong></strong> </li>
+         <li>1x bladeRF 2.0 micro case</li>
+         <li>2x BT-100 Bias-Tee TX Amplifier</li>
+         <li>2x BT-200 Bias-Tee RX Amplifier</li>
+         <li>4x GSM Antennas</li>
+         <li>4x Tri-Band General Purpose Antennas</li>
+         <li>1x USB 3.0 SS Cable</li>
+      </ul>
+      <h2><strong>Shipping &amp; Packaging</strong></h2>
+      <ul>
+         <li>Each bladeRF is dispatched from <strong>Europe</strong> - no need to worry about slow shipping times, import duties or damaged goods.</li>
+         <li>Packed in a sturdy compact 85x130x45mm box.</li>
+         <li>We provide worldwide shipping with express options.</li>
+      </ul>
+   </div>
+   <div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+      <h2><strong>Compatible Systems</strong></h2>
+      <ul>
+         <li>Windows/macOS/Linux/Android (Specific Builds)</li>
+         <li>GNU Radio via gr-osmosdr, Pothos via SoapySDR, SDRange, SDR Console, SDR # via sdrsharp-bladeRF, MathWorks MATLAB® &amp; Simulink® via libbladeRF bindings.</li>
+      </ul>
+      <h2><strong>BladeRF Resources</strong></h2>
+      <strong>Technical Documents</strong> 
+      <ul>
+         <li><a href="https://www.nuand.com/bladeRF-brief.pdf" target="_blank">bladeRF Product Brief</a></li>
+         <li><a href="https://www.nuand.com/bladeRF-doc/libbladeRF/index.html" target="_blank">libbladeRF API documentation</a></li>
+         <li> <a href="https://www.nuand.com/bladeRF-doc/examples/bladeRF_frs.html" target="_blank">An SDR-Based FRS Transceiver</a> (<a href="https://www.nuand.com/bladeRF-doc/examples/bladeRF_frs.pdf" target="_blank">PDF</a>)</li>
+         <ul>
+            <li>GNU Radio flowgraph <a href="https://github.com/Nuand/bladeRF/blob/master/host/examples/gnuradio/frs/bladeRF_frs.grc" target="_blank">is available here</a> </li>
+         </ul>
+      </ul>
+      <strong>Firmware Images</strong> 
+      <ul>
+         <li><a href="https://www.nuand.com/fpga_images/" target="_blank">FPGA bitstreams</a></li>
+         <li><a href="https://www.nuand.com/fx3_images/" target="_blank">FX3 firmware</a></li>
+      </ul>
+      <strong>Useful Links<br></strong> 
+      <ul>
+         <li><a href="https://github.com/Nuand/bladeRF" target="_blank">Source code on GitHub</a></li>
+         <li><a href="https://github.com/Nuand/bladeRF/wiki" target="_blank">bladeRF Wiki</a></li>
+         <li><a href="https://www.nuand.com/calibration/" target="_blank">bladeRF VCTCXO factory calibration lookup</a></li>
+         <li><a href="https://www.sdr-radio.com/download" target="_blank">SDR-Radio</a></li>
+         <li><a href="https://github.com/f4exb/sdrangel" target="_blank">SDRAngel</a></li>
+         <li><a href="https://airspy.com/download/" target="_blank">Airspy</a></li>
+         <li><a href="https://github.com/srsran/srsRAN_4G" target="_blank">SRS-LTE</a></li>
+         <li><a href="https://gitlab.eurecom.fr/oai/openairinterface5g/tree/develop" target="_blank">OpenAirInterface (Ensure you use `develop' branch) </a></li>
+         <li><a href="https://github.com/Nuand/sdrsharp-bladerf" target="_blank">SDR# Github</a></li>
+         <li><a href="https://github.com/Nuand/bladeRF/wiki/Setting-up-Yate-and-YateBTS-with-the-bladeRF" target="_blank">YateBTS installation instructions (v1.0 only)</a></li>
+         <li><a href="https://www.nuand.com/support/#bts" target="_blank">Yate and YateBTS source code tarballs (latest releases on Nuand's support page)</a></li>
+      </ul>
+   </div>
+</div>
+<div><br></div>
+</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>bladerf</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>gnuradio</s:tag>
+    <s:tag>gps</s:tag>
+    <s:tag>openbts</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>sdr</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:tag>yalebts</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/4118171582575</id>
+      <title>Starter</title>
+      <s:price currency="EUR">649.00</s:price>
+      <s:sku>BLADERF-STARTER</s:sku>
+      <s:grams>630</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/4118171582575</id>
+      <title>Deluxe</title>
+      <s:price currency="EUR">899.00</s:price>
+      <s:sku>BLADERF-DELUXE</s:sku>
+      <s:grams>800</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/10076854616411</id>
+    <published>2026-09-09T15:43:08+02:00</published>
+    <updated>2026-09-09T15:43:08+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/hackrf-pro"/>
+    <title>HackRF Pro</title>
+    <s:type>RF</s:type>
+    <s:vendor>GreatScott Gadgets</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/HackRF-Pro-1.png?v=1756840196"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>GreatScott Gadgets<br>
+        <strong>Type: </strong>RF<br>
+        <strong>Price: </strong>
+            400.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>When the HackRF One launched in 2014, it redefined the SDR landscape: it was a completely affordable, hugely capable, open-source device that allowed anyone to receive, decode, modify, replay and transmit signals from 1MHz to 6GHz. It made SDR accessible; pentesters could integrate RF into their audits, hobbyists could explore RF in ways that were previously impossible.</p>
+<p>Now, ten years after its original launch, the HackRF Pro has arrived. It represents 10 years worth of innovations and improvements to the original hardware, while staying true to its roots: a powerful, accessible RX/TX SDR platform for everyone. The HackRF Pro remains the go-to SDR tool for hackers, pentesters and RF enthusiasts, due to its simplicity, affordability and wealth of software, tutorials and information available.</p>
+<h2><strong>Overview</strong></h2>
+<p>The HackRF is a half-duplex transceiver operating between 100kHz - 6HGz with up to 20MHz of bandwidth (tuneable from 0Hz to 7.1GHz).<br></p>
+<p>It is compatible with all major SDR suites across multiple platforms: GNU Radio, SDR#, SDR_Radio, Universal Radio Hacker, QSpectrumAnalyzer. There are extensive tutorials and toolkits available for working with the HackRF One.<br></p>
+<p>The versatility of the HackRF One render it useful across multiple disciplines and tasks:<br></p>
+<ul>
+   <li> <strong>Remote Control Analysis</strong>: Analyse, replay and emulate car remotes, alarms, garage remotes, etc.</li>
+   <li> <strong>GPS Detection &amp; Analysis</strong>: Detect GPS anomalies, audit GPS signals for location-aware devices</li>
+   <li> <strong>GSM research</strong>: Lab-based Base-Stations for data capture and analysis.<br> </li>
+   <li> <strong>Bluetooth sniffing:</strong> Sniff, capture and analyse Bluetooth and BLE traffic.</li>
+   <li> <strong>Advanced RFID Analysis</strong>: Analyse and communicate with all RFID tags, regardless of their frequency.</li>
+   <li> <strong>Standard SDR functionality:</strong> ADB-S Tracking, satellite-communication, packet-sniffing, signal analysis, etc</li>
+</ul>
+<h2>Improvements</h2>
+<p> Compared to the HackRF One, the HackRF Pro adds multiple new features and several quality-of-life improvements: </p>
+<ul>
+   <li>Expanded frequency range: down to 100kHz - removing the need for down-convertors (previous lower limit was 1MHz)</li>
+   <li>Integrated TCXO: allowing for precise timing - without the need for an external clock</li>
+   <li>New "Precision Mode": 16-bit samples</li>
+   <li>New "Oversample Mode": 4-bit samples at 40Msps</li>
+   <li>Improved RF performance: better shielding, flatter frequency response</li>
+   <li>Revised architecture: USB-C, Power-efficient FPGA replaces the old CPLD, increased RAM + Flash Memory</li>
+   <li>Hardware bugfixes: no more dreaded DC spike, improved power management, Increased RF Port Protection</li>
+</ul>
+<div class="grid" style="margin-top: 2em;">
+   <div class="grid-item small--one-whole medium--one-half large--one-half text-left product-image-container">
+      <img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/HackRF-Pro---Overview---2.png?v=1756927863"> 
+      <ul class="markers-list">
+         <li data-y="3" data-x="28" data-feature-id="1" class="feature-marker">1</li>
+         <li data-y="30" data-x="84" data-feature-id="2" class="feature-marker">2</li>
+         <li data-y="51" data-x="56" data-feature-id="3" class="feature-marker">3</li>
+         <li data-y="41" data-x="53" data-feature-id="4" class="feature-marker">4</li>
+         <li data-y="72" data-x="20" data-feature-id="5" class="feature-marker">5</li>
+         <li data-y="74" data-x="62" data-feature-id="6" class="feature-marker">6</li>
+      </ul>
+   </div>
+   <div class="grid-item small--one-whole medium--one-half large--one-half text-left" style="text-align: start;">
+      <div data-feature-id="1" class="feature-item">
+         <p> </p>
+         <h3>1. Remastered Hardware</h3>
+         Increased operating frequency, memory, precision. Improved shielding, better RF performance, on-board FPGA. 
+      </div>
+      <div data-feature-id="2" class="feature-item">
+         <p></p>
+         <h3>2. USB-Type C</h3>
+         Multiple Quality-of-life improvements: USB-C, in-built TXCO, reworked power management, new standalone operation. 
+      </div>
+      <div data-feature-id="3" class="feature-item">
+         <p></p>
+         <h3>3. Expandable, Hackable Hardware</h3>
+         Reworked PCB allows add-on modules that fit directly into the HackRF Pro case. Open Hardware for unlimited hacking. 
+      </div>
+      <div data-feature-id="4" class="feature-item">
+         <p></p>
+         <h3>4. Dual Clock Interface</h3>
+         Use the internal TXCO, or external clocks via the dual clock SMA connectors for synchronising multiple devices. 
+      </div>
+      <div data-feature-id="5" class="feature-item">
+         <p> </p>
+         <h3>5. Programmable buttons, hardware</h3>
+         Control all aspects of the HackRF Pro via computer or in stand-alone mode via the programmable physical buttons. 
+      </div>
+      <div data-feature-id="6" class="feature-item">
+         <p> </p>
+         <h3>6. Half-Duplex RX &amp; TX</h3>
+         Receive <b>and</b> transmit over a huge frequency range, via the included antenna or external antennas. 
+      </div>
+   </div>
+</div>
+<div class="grid">
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+      <h2><strong>RF Specifications<br></strong></h2>
+      <ul>
+         <li>100 kHz to 6 GHz operating frequency</li>
+         <li>Tuneable from 0 Hz to 7.1 GHz</li>
+         <li>Half-duplex transceiver</li>
+         <li>20 million samples per second (Up to 40MSPS in over-sample mode)</li>
+         <li>8-bit quadrature samples (8-bit I and 8-bit Q)</li>
+         <li>Compatible with GNU Radio, SDR#, and more</li>
+         <li>Software-configurable RX and TX gain and baseband filter</li>
+      </ul>
+   </div>
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+      <ul>
+         <li>Software-controlled RF port power (50 mA at 3.3 V)</li>
+         <li>SMA RF connector</li>
+         <li>SMA clock input and output for synchronization and triggering</li>
+         <li>Convenient buttons for programming</li>
+         <li>Internal pin headers for expansion</li>
+         <li>High-Speed USB 2.0 with Type-C connector</li>
+         <li>USB-powered</li>
+         <li>Open source hardware</li>
+      </ul>
+   </div>
+</div>
+<div style="margin-top: 2em;" class="grid">
+   <div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+      <h2><strong>What's included</strong></h2>
+      <p><strong>Standard Pack</strong></p>
+      <ul>
+         <li>1x HackRF Pro (with case)<strong></strong> </li>
+         <li>1x ANT500 General Purpose Antenna</li>
+      </ul>
+      <h2><strong>Compatible Systems</strong></h2>
+      <ul>
+         <li>Windows/macOS/Linux/Android (Specific Builds)</li>
+         <li>GNU Radio / SoapySDR / SDRange / SDR Console / SDR # / MathWorks MATLAB®<br> </li>
+      </ul>
+   </div>
+   <div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+      <h2><strong>HackRF Resources</strong></h2>
+      <strong>HackRF Tutorials</strong> 
+      <ul>
+         <li><a href="https://greatscottgadgets.com/sdr/" target="_blank">Official HackRF SDR Tutorials</a></li>
+         <li><a href="https://www.rtl-sdr.com/tutorial-on-performing-a-replay-attack-with-a-hackrf-and-universal-radio-hacker/" target="_blank">Replay Attacks with the HackRF and Universal Radio Hacker</a></li>
+         <li><a href="https://dangerousprototypes.com/blog/2015/06/13/sniffing-gsm-traffic-with-hackrf-and-gnu-radio/" target="_blank">Sniffing GSM Traffic with the HackRF</a></li>
+         <li><a href="https://www.rtl-sdr.com/decoding-5ghz-ntsc-video-from-drones-with-a-hackrf-dragonos-and-sigdigger/" target="_blank">Decoding drone video with the HackRF</a></li>
+         <li><a href="https://www.rtl-sdr.com/using-a-hackrf-for-gps-spoofing-on-windows/" target="_blank">Spoofing GPS with the HackRF</a></li>
+      </ul>
+      <strong>HackRF Technical Resources<br></strong> 
+      <ul>
+         <li><a href="https://github.com/greatscottgadgets/hackrf" target="_blank">Official HackRF Wiki / Github Repo</a></li>
+         <li><a href="https://greatscottgadgets.com/hackrf/" target="_blank">Official HackRF Homepage</a></li>
+      </ul>
+   </div>
+</div>
+<div><br></div>
+</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>gnuradio</s:tag>
+    <s:tag>gps</s:tag>
+    <s:tag>hackrf</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>sdr</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10076854616411</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">400.00</s:price>
+      <s:sku>HACKRF-PRO-KIT</s:sku>
+      <s:grams>218</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/9594964967771</id>
+    <published>2026-09-09T15:43:06+02:00</published>
+    <updated>2026-09-09T15:43:06+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/portapack-h4m-pro"/>
+    <title>PortaPack H4M Pro</title>
+    <s:type>RF</s:type>
+    <s:vendor>OpenSource SDR</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/PortaPack---H4M-Pro---Front.png?v=1785152197"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>OpenSource SDR<br>
+        <strong>Type: </strong>RF<br>
+        <strong>Price: </strong>
+            280.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>The <b>PortaPack H4M Pro</b> is a stand-alone, all-in-one portable SDR device based on the <strong>latest HackRF Pro framework.</strong> The pre-flashed MAYHEM firmware provides vital out-of-the-box functionality for pentesters: Receive / Transmit / Replay / Scan, with dozens of baked in high-level functions: Real-time Spectrum Monitoring, Key-Fob demodulation, ADS-B/AIS, Bluetooth, and much, much more.</p>
+<p>This <strong>all-in-one device includes the HackRF Pro + PortaPack </strong>in a fully-assembled, rugged injection molded ABS case - no extra hardware, cables, modification or soldering required.</p>
+<p>While the HackRF One redefined the pentest/hacker community as a completely affordable, hugely capable, open-source SDR device - it required an external computer, software and advanced knowledge to use. The H4M gives you the power of the HackRF - it's still usable directly - but also the flexibility of a compact, rugged device that requires no external devices.</p>
+<p><em>This product is not made by Great Scott Gadgets. The trademark “HackRF” is used by permission.</em></p>
+<figure style="margin-top:2em; margin-bottom:2em">
+   <video lite-youtube="" videoid="n-khaJyY50Y" posterquality="maxresdefault" params="rel=0"></video>
+</figure>
+<h2><strong>H4M Pro Advantages</strong></h2>
+<p>The PortaPack H4M Pro is a truly integrated, truly portable SDR laboratory. Based on the latest HackRF Pro architecture, the Portapack H4M Pro has multiple advantages over previous versions:</p>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left product-image-container">
+<img src="https://cdn.shopify.com/s/files/1/2175/8571/files/PortaPack---H4M-Pro---Front-Float-2.png?v=1785076266" alt="">
+<ul class="markers-list">
+<li class="feature-marker" data-feature-id="1" data-x="47" data-y="14">1</li>
+<li class="feature-marker" data-feature-id="2" data-x="65" data-y="2">2</li>
+<li class="feature-marker" data-feature-id="3" data-x="27" data-y="75">3</li>
+<li class="feature-marker" data-feature-id="4" data-x="39" data-y="53">4</li>
+<li class="feature-marker" data-feature-id="5" data-x="3" data-y="57">5</li>
+<li class="feature-marker" data-feature-id="6" data-x="97" data-y="53">6</li>
+</ul>
+</div>
+<div style="text-align: start;" class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<div class="feature-item" data-feature-id="1">
+<h3>1. Remastered Hardware</h3>
+<p>Increased operating frequency, memory, precision. Improved shielding, better RF performance, on-board FPGA.</p>
+</div>
+<div class="feature-item" data-feature-id="2">
+<h3>2. Expanded Frequency</h3>
+<p>The H4M Pro now operates natively between 100kHz and 6GHz</p>
+</div>
+<div class="feature-item" data-feature-id="3">
+<h3>3. Integrated TCXO</h3>
+<p>Use the internal TXCO, or external clocks via the dual clock SMA connectors for synchronising multiple devices.</p>
+</div>
+<div class="feature-item" data-feature-id="4">
+<h3>4. Improved RF Shielding &amp; Antenna Protection</h3>
+<p>Greatly increased RF Shielding for perfect reception; integrated antenna surge-protection</p>
+</div>
+<div class="feature-item" data-feature-id="5">
+<h3>5. Replacable Battery (included)</h3>
+<p>The industry-standard 18650 battery can be swapped in seconds - meaning you'll never run out of power.</p>
+</div>
+<div class="feature-item" data-feature-id="6">
+<h3>6. Everything Onboard</h3>
+<p>Integrated touchscreen, speaker, microphone and tactile navigation wheel for fully untethered operations.</p>
+</div>
+</div>
+</div>
+<div style="margin-top: 2em;" class="grid">
+<h2>Functionality at a glance</h2>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Signal Capture</h3>
+<p>Easily perform raw signal capture - for instant replay, or for offline demodulation, analysis and modification.</p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Signal Replay</h3>
+<p>Oranised and Replay raw signals - directly after capture, or from the SD card or from otther sources.</p>
+</div>
+</div>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Signal Detection</h3>
+<p>Detect and identify the frequency of nearby transmission sources. Useful for reconaissance and identifcation.</p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Frequency Scanner</h3>
+<p>Constantly scan a configurable range of frequencies to consecutively or in parallel.</p>
+</div>
+</div>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>In-built Apps</h3>
+<p>Dozens of inbuilt applications, such as real-time ADB-S scanner, GPS-Simulator, TPMS decoders.. and more</p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Signal Generator</h3>
+<p>Generate customised signals - and even spectrum outputs - for device configuration &amp; testing or even fuzzing.</p>
+</div>
+</div>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Custom Apps</h3>
+<p>Open-source hardware and software and an active community - with support for custom applications.</p>
+</div>
+<div style="text-align: start;" class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>HackRF Pro Mode</h3>
+<p>Naturally - you still have direct access to the HackRF - with full support for all common SDR tools - GNU Radio etc.</p>
+</div>
+</div>
+<div style="margin-top: 2em;" class="grid">
+<h2>Detailed functionality</h2>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<p><strong>Receive:</strong></p>
+<ul>
+<li>
+<strong>Sniff &amp; Capture</strong>: Sniff &amp; capture easily for instant replay, or save to the SD card for demodulation, analysis and modification.<br>
+</li>
+<li>
+<strong>ADS-B</strong>: Receive and analyse ADS-B (Aviation) Signals, with the ability to display real-time locations on a map.<br>
+</li>
+<li>
+<strong>AIS</strong>: Receive and analyse AIS (Marine) Signals<br>
+</li>
+<li>
+<strong>AFSK</strong>: Receive, demodulate and analyse AFSK Signals<br>
+</li>
+<li>
+<strong>Bluetooth:</strong> Sniff MAC addresses of BLE devices<br>
+</li>
+<li>
+<strong>NRF:</strong> Decode NRF24L01 signals, commonly used for drones</li>
+<li>
+<strong>Audio</strong>: Decode WFM/NFM/AM</li>
+<li>
+<strong>Spectrum Analyser:</strong> Waterfall spectrum analyser for detecting signals</li>
+<li>
+<strong>Analog TV:</strong> Decode and watch Analog TV signals, commonly used on FPV drones</li>
+<li>
+<strong>ERT Meters:</strong> Decode ERT Meter signals</li>
+<li>
+<strong>POCSAG:</strong> Sniff and decode pager signals</li>
+<li>
+<strong>Radiosonde:</strong> Sniff and decode RadioSonde signals, commonly used in weather stations</li>
+<li>
+<strong>TPMS:</strong> Decode TPMS sensors (used in car tires)</li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<p><strong>Transmit:</strong></p>
+<ul>
+<li>
+<strong>ADS-B</strong>: Real-time Capture &amp; Analysis of ADS-B (Aviation) Signals</li>
+<li>
+<strong>APRS: </strong>Capture and craft APRS packets, commonly used for weather stations and other various telemetry</li>
+<li>
+<strong>GPS:</strong> Audit &amp; analyse GPS signals</li>
+<li>
+<strong>Key Fob:</strong> Key-fob capture, replay and emulation for multiple models of remotes</li>
+<li>
+<strong>Morse Code:</strong> Morse code transmission tool</li>
+<li>
+<strong>Burger Pager: </strong>Decode "Burger Pager" (Restaurant pager) signals</li>
+<li>
+<strong>POCSAG: </strong>Send Pager signals</li>
+<li>
+<strong>SSTV: </strong>Send SSTV Signals</li>
+<li>
+<strong>RDS:</strong> Send RDS messages</li>
+<li>
+<strong>OOK: </strong>Send OOK Packages</li>
+</ul>
+</div>
+</div>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>Device Specifications<br></strong></h2>
+<ul>
+<li>
+<strong>Screen:</strong> LCD Touch Screen<br>
+</li>
+<li>
+<strong>Tactile Controls</strong>: Arrow Keys, Rotary Wheel, Select Buttons</li>
+<li>
+<strong>Headphone / Mic Socket: </strong>3.5mm headphone / microphone jack</li>
+<li>
+<strong>Internal Coin Battery:</strong> Coin battery for RTC &amp; Settings storage</li>
+<li>
+<strong>MicroSD Card Slot:</strong> For data import / export</li>
+<li>
+<strong>Case:</strong> Transluscent ABS</li>
+<li>
+<strong>Battery:</strong> 18650 (Included)</li>
+</ul>
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>
+<strong>1x PortaPack H4M Pro</strong> (HackRF Pro + PortaPack H4M Pro v1.2.1)</li>
+<li>
+<strong>1x 18650 Rechargeable Li-ion Battery</strong> (9250mWh, Replaceable)</li>
+<li>1x USB-A to USB-C 3.0 Cable</li>
+<li>1x 75MHz - 1GHz Telescopic Antenna</li>
+<li>1x 40MHz - 6GHz Telescopic Antenna</li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>Compatible Systems</strong></h2>
+<ul>
+<li>Windows/macOS/Linux/Android (Specific Builds)</li>
+<li>GNU Radio / GQRX / SDR#, SDR Console, Universal Radio Hacker etc</li>
+</ul>
+<h2><strong>PortaPack Resources</strong></h2>
+<strong>Lab401 Academy Tutorials</strong>
+<ul>
+<li><a href="https://lab401.com/blogs/academy/first-steps-with-the-portapack-h4m-pro" target="_blank">H4M Pro: First steps - Flashing, Testing and What's New</a></li>
+</ul>
+<strong>Official Manufacturer Links<br></strong>
+<ul>
+<li><a href="https://blog.opensourcesdrlab.com/archives/hackrf-pro-h4m-pro" target="_blank">Manufacturer H4M Pro Quickstart Guide</a></li>
+<li><a href="https://t.me/OpenSourceSDRLab" target="_blank">Official Support Telegram Group</a></li>
+</ul>
+<ul>
+<li><a href="https://github.com/portapack-mayhem/mayhem-firmware/releases" target="_blank">Mayhem Firmware Repository</a></li>
+<li><a href="https://github.com/orgs/OpenSourceSDRLab/discussions/5" target="_blank">Official Firmware Repository</a></li>
+</ul>
+<strong>PortaPack Tutorials<br></strong>
+<ul>
+<li><a href="https://www.youtube.com/@sn0ren" target="_blank">@sn0ren's SDR YouTube Channel</a></li>
+<li><a href="https://www.youtube.com/watch?v=xGR_PMD9LeU" target="_blank">HackRF 101: Day One, Basics</a></li>
+</ul>
+</div>
+</div>
+<div class="l401-notice">
+<p><b>WARNING ⚠️ Understand your responsibilities</b></p>
+<p>The PortaPack H4M is a wide-band radio device, with transceiver capabilities.<br>
+The EU Radio Equipment Directive (2014/53/EU) Annex I places custom-built evaluation kits outside its scope for professional use in research and development contexts.</p>
+<p>Restrictions for transmitting <i>and receiving</i> vary. You are responsible for ensuring that your possession and use of these devices complies with the law in your jurisdiction.</p>
+<p><b>Receiving</b>: Several countries restrict monitoring outside broadcast and amateur allocations, and a few restrict what you may do with what you hear. Check the rules where you are before you tune.</p>
+<p><b>Transmitting</b>: Transmit only on bands you are licensed for, at or below the power your license and national regulations allow. Where you hold no license for a band, work with a dummy load, a shielded enclosure, or a cabled and attenuated link so that nothing reaches the air.</p>
+</div>
+<div class="l401-notice">
+<p><b>WARNING ⚠️ Before you tune or transmit</b></p>
+<p>Never tune or transmit your device without an antenna or balanced dummy load. Doing so can <b>permanently damage</b> your device and void your warranty. Please refer to the below videos for further information on how to appropriately setup your device.</p>
+</div>
+<h3>PortaPack: Beginner's guide</h3>
+<figure>
+   <video lite-youtube="" videoid="n7N7G_9tj9w" posterquality="maxresdefault" params="rel=0"></video>
+</figure>
+<h3>PortaPack Antennas: Learn, build, understand with @sn0ren</h3>
+<figure>
+   <video lite-youtube="" videoid="wUE8DI61s60" posterquality="maxresdefault" params="rel=0"></video>
+</figure>
+</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>gnuradio</s:tag>
+    <s:tag>gps</s:tag>
+    <s:tag>hackrf</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>sdr</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/9594964967771</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">280.00</s:price>
+      <s:sku>PORTAPACK-H4M-PRO</s:sku>
+      <s:grams>301</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/9199976808795</id>
+    <published>2024-05-25T11:36:06+02:00</published>
+    <updated>2024-05-25T11:36:06+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/packet-squirrel-mark-ii"/>
+    <title>Packet Squirrel (Mark II)</title>
+    <s:type>Pen Testing</s:type>
+    <s:vendor>Hak5</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/squirrel3.webp?v=1716556037"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hak5<br>
+        <strong>Type: </strong>Pen Testing<br>
+        <strong>Price: </strong>
+            180.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>
+<span style="color: #cc0000;"><strong></strong></span><strong>Introduction</strong>
+</h2>
+<p><strong>The Hak5 Packet Squirrel Mark II</strong> is the latest and greatest iteration of the already powerful ethernet multi-tool.</p>
+<p>Once installed into a network, you have <strong>complete control to intercept and manipulate</strong> the captured packets, via built-in tools, or your own Python, DuckyScript or Bash scripts.</p>
+<p>Deploy multiple payloads on the Packet Squirrel Mark II via its <strong>physical switch,</strong> the <strong>web interface</strong>, or even the <strong>Linux CLI</strong>.<br><strong></strong></p>
+<p>Available accessories include the <strong>Packet Squirrel Quick-Start Guide </strong>(29 pages), getting you up and running with hands-on examples, or the <strong>Packet Squirrel Textbook</strong> - featuring over 292 pages spanning the basics of network infrastructure, ethernet and protocol, up to advanced techniques of packet capture and manipulation.</p>
+<h2><strong>Functionality at a glance<br></strong></h2>
+<p>The Packet Squirrel is a high-performance headless Linux mini-computer, optimised for network operations.</p>
+<p>Out-of-the box, the Pocket Squirrel is configured to provide fully-featured packet sniffing, DNS Spoofing, Reverse Shell / VPN, and a root shell access.</p>
+<p>Central to the Packet Squirrel is its 4-way switch: Each switch position represents a configurable mode of operation. Flick the switch and trigger a specific payload. The configurable push-button and RGB LED provides instant incognito deployment and feedback of payloads.</p>
+<p>Fully scriptable, and backed by Hak5's library of payloads, the Packet Squirrel is the perfect tool for Penetration Testers, System Administrators or Power-Users.</p>
+<p>Inconspicuous and compact, it is designed to blend into the background when attached to a target network.</p>
+<p>Typical use-cases include:</p>
+<div class="grid" style="margin: 2em 3em;">
+<div class="grid-item small--one-whole medium--one-whole large--one-third text-center">
+<h3>Penetration Testing</h3>
+<p>Establish reverse shells &amp; VPNs. Poison DNS. Deploy Meterpreter. Exfiltrate network traffic.</p>
+</div>
+<div class="grid-item small--one-whole medium--one-whole large--one-third text-center">
+<h3>System Administration</h3>
+<p>Securely tunnel to inside your trusted networks via OpenSSH from anywhere.</p>
+</div>
+<div class="grid-item small--one-whole medium--one-whole large--one-third text-center">
+<h3>Power-Users</h3>
+<p>Protect yourself on hostile networks using the hardware firewall and VPN router.</p>
+</div>
+</div>
+<p>Mark II Exclusive Features:</p>
+<div class="grid" style="margin: 2em 3em;">
+<div class="grid-item small--one-whole medium--one-whole large--one-third text-center">
+<h3>New DuckyScript Commands</h3>
+<p>20+ new DuckyScript functions, including DYNAMICPROXY, KILLPORT, SPOOFDNS, SELFDESTRUCT, KILLSTREAM..</p>
+</div>
+<div class="grid-item small--one-whole medium--one-whole large--one-third text-center">
+<h3>Script in DuckyScript, Bash and Python</h3>
+<p>The Mark II Supports multiple scripting languages to meet every skill-set and scenario.</p>
+</div>
+<div class="grid-item small--one-whole medium--one-whole large--one-third text-center">
+<h3>Pre-loaded Payloads</h3>
+<p>Multiple pre-loaded payloads, including: Sniffing, Capture Printing Tasks, DNS Interception, Network Blackhole, and many more.</p>
+</div>
+</div>
+<div class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x Hak5 Packet Squirrel Mark II<br>
+</li>
+<li>1x Packet Squirrel Sticker</li>
+<li>Hak5 Cloud C<sup>2</sup> Compatible</li>
+</ul>
+<h2><strong>Technical Specifications<br></strong></h2>
+<ul>
+<li>Physical Dimensions: 50x40x15mm</li>
+<li>Weight: 24g</li>
+<li>1x 4-way slider switch (Scriptable)</li>
+<li>1x Push-Button (Scriptable)</li>
+<li>1x RGB LED (Scriptable)</li>
+<li>1x USB Host Port (Data Logging: NTFS/EXT4 compatible)</li>
+<li>1x Micro USB power port.</li>
+<li>2x RJ45 Ports</li>
+</ul>
+<meta charset="utf-8">
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>Packet Squirrel Technical Resources</strong></h2>
+<strong>Tutorials &amp; Guides</strong>
+<ul>
+<li>
+<a href="https://documentation.hak5.org/packet-squirrel-mark-ii/getting-started" target="_blank">Getting Started</a> <em>(5 Articles)</em>
+</li>
+<li>
+<a href="https://documentation.hak5.org/packet-squirrel-mark-ii/payload-repository" target="_blank">Default Payloads</a> <em>(3 Articles)</em>
+</li>
+<li>
+<a href="https://documentation.hak5.org/packet-squirrel-mark-ii/payload-development" target="_blank">Payload Development</a> <em>(9 Articles)</em>
+</li>
+<li>
+<a href="https://documentation.hak5.org/packet-squirrel-mark-ii/troubleshooting" target="_blank">FAQ / Troubleshooting</a> <em>(6 Articles)</em>
+</li>
+</ul>
+<strong>Community Resources</strong>
+<ul>
+<li><a href="https://github.com/hak5/packetsquirrel-payloads" target="_blank">Hak5 Payload Library</a></li>
+<li><a href="https://forums.hak5.org/forum/94-packet-squirrel/" target="_blank">Packet Squirrel Forum</a></li>
+</ul>
+<h2><strong>Compatible Systems</strong></h2>
+<ul>
+<li>10/100 Base-T Ethernet Networks: Natively compatible</li>
+<li>1000 Base-T Ethernet Networks: Auto-degrades to 100MBit</li>
+<li>
+<a href="https://shop.hak5.org/products/c2" target="_blank">Hak5 Cloud C<sup>2 </sup></a>Compatible</li>
+</ul>
+</div>
+</div>
+<div>
+<h2><strong>Packet Squirrel Introduction Video<br></strong></h2>
+<figure><video></video></figure>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Ethernet</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Hak5</s:tag>
+    <s:tag>Man-in-the-middle</s:tag>
+    <s:tag>Network Sniffer</s:tag>
+    <s:tag>Packet Squirrel</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/9199976808795</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">180.00</s:price>
+      <s:sku>HAK5-PACKETSQUIRREL-M2</s:sku>
+      <s:grams>272</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/9200617816411</id>
+    <published>2024-05-25T11:35:51+02:00</published>
+    <updated>2024-05-25T11:35:51+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/rubber-ducky-textbook"/>
+    <title>Rubber Ducky Textbook</title>
+    <s:type>Pen Testing</s:type>
+    <s:vendor>Hak5</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Rubber-Ducky-Textbook.png?v=1716567750"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hak5<br>
+        <strong>Type: </strong>Pen Testing<br>
+        <strong>Price: </strong>
+            60.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>
+<span style="color: #cc0000;" data-mce-style="color: #cc0000;"><strong></strong></span><strong>Introduction</strong>
+</h2>
+<p>With Hak5's Official Rubber Ducky Textbook become an expert at HID injection / emulation devices. Each chapter builds your knowledge with clear examples and practical examples, from basic to advanced topics.<br></p>
+<p>Over the 272 pages, you'll build your expertise by building multi hands-on projects and reviewing your knowledge with 40+ exercises.</p>
+<h2>What you'll learn<br>
+</h2>
+<ul>
+<li>Concepts of HID emulation and keystroke injection</li>
+<li>Payload design principles, including optimisation and development</li>
+<li>Attack, exfiltration and discretion techniques</li>
+<li>Deep knowledge of DuckyScript</li>
+</ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Ethernet</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Hak5</s:tag>
+    <s:tag>Man-in-the-middle</s:tag>
+    <s:tag>Network Sniffer</s:tag>
+    <s:tag>Packet Squirrel</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/9200617816411</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">60.00</s:price>
+      <s:sku>HAK5-RUBBERDUCKY-TEXTBOOK</s:sku>
+      <s:grams>63</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/9200596418907</id>
+    <published>2024-05-25T11:35:38+02:00</published>
+    <updated>2024-05-25T11:35:38+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/rubber-ducky-pocket-guide"/>
+    <title>Rubber Ducky Pocket Guide</title>
+    <s:type>Pen Testing</s:type>
+    <s:vendor>Hak5</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Hak5---USB-Rubber-Ducky---Pocket-Guide.png?v=1716567174"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hak5<br>
+        <strong>Type: </strong>Pen Testing<br>
+        <strong>Price: </strong>
+            19.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>
+<span style="color: #cc0000;"><strong></strong></span><strong>Introduction</strong>
+</h2>
+<p>The <strong>Hak5 Official Pocket Guide </strong>for the <strong>Rubber Ducky</strong>. </p>
+<p>32 pages of covering device basics, through to networking fundamentals and finally to hands-on guides for writing and deploying payloads in DuckyScript.<br></p>
+<p>DuckyScript has been the defacto scripting language for pentesters for over a decade - the Pocket Guide is written by Darren Kitchen - original author of DuckyScript !<br></p>
+<p>Whether you're a beginner or a pro, this guide will teach you something.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Ethernet</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Hak5</s:tag>
+    <s:tag>Man-in-the-middle</s:tag>
+    <s:tag>Network Sniffer</s:tag>
+    <s:tag>Packet Squirrel</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/9200596418907</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">19.95</s:price>
+      <s:sku>HAK5-RUBBERDUCKY-POCKET-GUIDE</s:sku>
+      <s:grams>30</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/9200659038555</id>
+    <published>2024-05-25T11:35:22+02:00</published>
+    <updated>2024-05-25T11:35:22+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/packet-squirrel-textbook"/>
+    <title>Packet Squirrel Textbook</title>
+    <s:type>Pen Testing</s:type>
+    <s:vendor>Hak5</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Hak5-PacketSquirrel-Textbook.png?v=1716568435"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hak5<br>
+        <strong>Type: </strong>Pen Testing<br>
+        <strong>Price: </strong>
+            49.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>
+<span style="color: #cc0000;" data-mce-style="color: #cc0000;"><strong></strong></span><strong>Introduction</strong>
+</h2>
+<p>With Hak5's Official Packet Squirrel Textbook become an expert in network interception, packet sniffing and data manipulation on the wire. Each chapter builds your knowledge with clear examples and practical examples, from basic to advanced topics.<br></p>
+<p>Over the 272 pages, you'll build your expertise by building multi hands-on projects and reviewing your knowledge with 35 exercises.</p>
+<h2>What you'll learn<br>
+</h2>
+<ul>
+<li>Network basics: IP, ranges, network segmentation.<br>
+</li>
+<li>Concepts: Routing, bridging, redirection and isolation<br>
+</li>
+<li>Ethernet Interception: Packet Sniffing, Capture and Manipulation<br>
+</li>
+<li>Payload Development: Design principles for Bash, DuckyScript and Python payloads<br>
+</li>
+</ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Ethernet</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Hak5</s:tag>
+    <s:tag>Man-in-the-middle</s:tag>
+    <s:tag>Network Sniffer</s:tag>
+    <s:tag>Packet Squirrel</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/9200659038555</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">49.00</s:price>
+      <s:sku>HAK5-PACKETSQUIRREL-TEXTBOOK</s:sku>
+      <s:grams>63</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/9200582426971</id>
+    <published>2024-05-25T11:35:05+02:00</published>
+    <updated>2024-05-25T11:35:05+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/packet-squirrel-pocket-guide"/>
+    <title>Packet Squirrel Pocket Guide</title>
+    <s:type>Pen Testing</s:type>
+    <s:vendor>Hak5</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Packet-Squiirel---Mark-II---Pocket-Guide.png?v=1716566602"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hak5<br>
+        <strong>Type: </strong>Pen Testing<br>
+        <strong>Price: </strong>
+            19.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>
+<span style="color: #cc0000;"><strong></strong></span><strong>Introduction</strong>
+</h2>
+<p>The <strong>Hak5 Official Pocket Guide </strong>for the <strong>Packet Squirrel Mark II</strong>. </p>
+<p>32 pages of covering device basics, through to networking fundamentals and finally to hands-on guides for writing and deploying payloads in DuckyScript, Bash and Python.</p>
+<p>This guide also highlights the new features available in the Mark II - more DuckyScript commands, modern tools, new VPN support, and new traffic interception, logging, and manipulation options.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Ethernet</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Hak5</s:tag>
+    <s:tag>Man-in-the-middle</s:tag>
+    <s:tag>Network Sniffer</s:tag>
+    <s:tag>Packet Squirrel</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/9200582426971</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">19.95</s:price>
+      <s:sku>HAK5-PACKETSQUIRREL-POCKET-GUIDE</s:sku>
+      <s:grams>30</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/485415485471</id>
+    <published>2022-06-20T15:00:44+02:00</published>
+    <updated>2022-06-20T15:00:44+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/inputstick-rat"/>
+    <title>InputStick RAT</title>
+    <s:type>Pen Testing</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/inputstick-hardware-rat-1.png?v=1566078398"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>Pen Testing<br>
+        <strong>Price: </strong>
+            39.99
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2><strong>Introduction</strong></h2>
+<p>The InputStick Remote Admin is an ultra-small, incredibly powerful USB Remote Access Tool with wireless Bluetooth capabilities packed into a regular looking USB stick. It can be accessed with any BLE smartphone:</p>
+<ul>
+<li><span>Range: up to 10m</span></li>
+<li><span>HID interfaces: keyboard, mouse, gamepad, consumer control</span></li>
+<li><span>Radio interface: Bluetooth 2.4GHz, BT5.2 <em>(updated version)</em><br></span></li>
+<li><span>AES-128 (CBC mode) encryption on a protocol level</span></li>
+<li><span>Password protected</span></li>
+<li>Undetectable by all anti-virus software suits</li>
+<li>Most covert Hardware RAT commercially available</li>
+</ul>
+<h2><strong>Functionality in a glance</strong></h2>
+<p>Below is a non-exhaustive list of capabilities of the Input Stick.</p>
+<div class="grid">
+<div class="grid-item small--one-third medium--one-third large--one-third text-center">
+<h2>Undetectable &amp; Discreet</h2>
+<p>After installation, undetectable &amp; 100% remotely controlled</p>
+</div>
+<div class="grid-item small--one-third medium--one-third large--one-third text-center">
+<h2>Secure &amp; Encrypted</h2>
+<p>Sent data is encrypted, impossible to snoop without authorization.</p>
+</div>
+<div class="grid-item small--one-third medium--one-third large--one-third text-center">
+<h2><strong>Technical Specs</strong></h2>
+</div>
+</div>
+<div class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<strong>Key Features</strong><br>
+<ul>
+<li><span>Size: 57 x 19 x 9 mm</span></li>
+<li><span>Weight: 8g<br></span></li>
+</ul>
+<strong>Supported Devices</strong><br>
+<ul>
+<li>USB compatibility: any USB host, any OS (must support HID)</li>
+<li><span>Bluetooth 4.0 compatibility: Android 4.3 or later, iOS</span></li>
+<li>PC: Windows, Linux, MacOS</li>
+<li>Works in BIOS and in safe mode</li>
+<li>Game consoles, smart TVs, DVRs</li>
+<li>Android, iOS (requires micro USB/lightning to USB adapter)</li>
+<li>Embedded systems (Raspberry Pi etc.)</li>
+</ul>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x InputStick</li>
+</ul>
+<ul></ul>
+<h2><strong>Shipping &amp; Packaging</strong></h2>
+<ul>
+<li>Each InputStick is dispatched from<span> </span><strong>Europe</strong><span> </span>- no need to worry about slow shipping times, import duties or damaged goods.</li>
+<li>Packed in a sturdy compact box.</li>
+<li>We provide worldwide shipping with express options.</li>
+</ul>
+<p>If you are an educational facility, reseller or need several units, please<span> </span><a href="/pages/contact-support">contact us</a>.</p>
+<h2><strong>Resources</strong></h2>
+<strong>Android/iOs apps</strong><br>
+<ul>
+<li>InputStickUtility : <a href="https://play.google.com/store/apps/details?id=com.inputstick.apps.inputstickutility" title="Google Play InputStickUtility" target="_blank">Google Play InputStickUtility</a>
+</li>
+<ul>
+<li>Global background service (required by most of InputStick-compatible apps)</li>
+<li>Manage multiple InputStick devices</li>
+<li>Pair your Android device with InputStick</li>
+<li>Firmware upgrade via Bluetooth</li>
+<li>Remind to remove your device from USB port (once disconnected)</li>
+<li>Manage connection parameters</li>
+<li>Manage security settings (encryption &amp; password protection)</li>
+<li>Modify InputStick USB descriptors</li>
+</ul>
+</ul>
+<p> </p>
+<ul>
+<li>USB Remote: <a href="https://play.google.com/store/apps/details?id=com.inputstick.apps.usbremote" title="Google Play USB Remote" target="_blank">Google Play USB Remote</a> / <a href="https://apps.apple.com/us/app/usb-remote/id1135444072" title="AppStore USB Remote" target="_blank">App Store USB Remote</a>
+</li>
+<ul>
+<li>Keyboard (use your soft keyboard or custom keyboard screen)</li>
+<li>Mouse/touchscreen (3 buttons, scroll wheel)</li>
+<li>Presentation remote</li>
+<li>Macros (record actions in real time or use built-in editor)</li>
+<li>Group macros into customizable panels for easy access and single click execution</li>
+<li>Dictation (uses voice recognition built in your soft keyboard, text can by typed on PC in real-time)</li>
+<li>Voice commands: execute pre-defined actions while dictating</li>
+<li>Numerical keyboard</li>
+<li>Media remote (playback, volume)</li>
+<li>Type from clipboard, text files, SMS and email messages</li>
+<li>Scan &amp; type QR codes and bar-codes</li>
+<li>Home screen widget shortcuts for executing macros, typing text etc.</li>
+<li>Works as<span> </span><a href="https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm" title="Tasker app" target="_blank">Tasker app</a><span> </span>plugin</li>
+<li>Supported keyboard layouts</li>
+<ul>
+<li>Croatian ("hr-HR")</li>
+<li>Czech ("cs-CZ")</li>
+<li>Danish ("da-DK")</li>
+<li>Dutch ("nl-NL")</li>
+<li>English (UK) ("en-GB")</li>
+<li>English (US) ("en-US")</li>
+<li>English (International) ("en-US-int")</li>
+<li>English (Dvorak) ("en-DV")</li>
+<li>Finnish ("fi-FI")</li>
+<li>French ("fr-FR")</li>
+<li>French (Linux compatible) ("fr-FR-linux")</li>
+<li>French (Belgium) ("fr-BE")</li>
+<li>French (Canada) ("fr-CA")</li>
+<li>French (Switzerland) ("fr-CH")</li>
+<li>German ("de-DE")</li>
+<li>German (Mac compatible) ("de-DE-mac")</li>
+<li>German (Switzerland) ("de-CH")</li>
+<li>Greek ("el-GR")</li>
+<li>Hebrew ("he-IL")</li>
+<li>Hungarian ("hu-HU")</li>
+<li>Italian ("it-IT")</li>
+<li>Norwegian ("nb-NO")</li>
+<li>Polish ("pl-PL")</li>
+<li>Polish (Linux compatible) ("pl-PL")</li>
+<li>Portuguese ("pt-PT")</li>
+<li>Portuguese (Brazil) ("pt-BR")</li>
+<li>Russian ("ru-RU")</li>
+<li>Slovak ("sk-SK")</li>
+<li>Spanish ("es-ES")</li>
+<li>Swedish ("sv-SE")</li>
+</ul>
+</ul>
+</ul>
+<p> </p>
+<ul>
+<li>KP2A Plugin: <a href="https://play.google.com/store/apps/details?id=com.inputstick.apps.kp2aplugin" title="Google Play KP2A Plugin" target="_blank">Google Play KP2A Plugin</a>
+</li>
+<ul>
+<li>
+<span>Allows to type data (passwords) stored in </span><a href="https://play.google.com/store/apps/details?id=keepass2android.keepass2android" target="_blank">Keepass2Android</a><span> password manager</span>
+</li>
+<li>Type username and password</li>
+<li>Type login page URL directly into your web browser</li>
+<li>Type individual characters from your password ("masked password" often used by online banks)</li>
+<li>Type text from the system clipboard</li>
+<li>Type codes from Google Authenticator, SMS or other apps (via clipboard)</li>
+<li>Create custom macros to automatize entire login procedure</li>
+<li>Remotely control your PC (keyboard &amp; mouse)</li>
+</ul>
+</ul>
+</div>
+</div>
+<!--
+<div style="margin-top: 3em;">
+<h2><strong>Hands on: InputStick RAT</strong></h2>
+<p>&nbsp;</p>
+</div>
+--></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>BLE</s:tag>
+    <s:tag>BlueTooth</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>inputstick</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>RAT</s:tag>
+    <s:tag>Remote</s:tag>
+    <s:tag>Remote Admin</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/485415485471</id>
+      <title>USB-A</title>
+      <s:price currency="EUR">39.99</s:price>
+      <s:sku>INPUTSTICK</s:sku>
+      <s:grams>40</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/485415485471</id>
+      <title>USB-C</title>
+      <s:price currency="EUR">39.99</s:price>
+      <s:sku>INPUTSTICK-USBC</s:sku>
+      <s:grams>40</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/1350524502127</id>
+    <published>2022-06-20T15:00:42+02:00</published>
+    <updated>2022-06-20T15:00:42+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/proxmark-3-rdv4"/>
+    <title>Proxmark 3 RDV4.01</title>
+    <s:type>Proxmark</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/Proxmark-3-RDV-4.1-New-Antenna-Front.png?v=1567146103"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>Proxmark<br>
+        <strong>Price: </strong>
+            329.00 - 529.00
+            <a href="https://lab401.com/products/proxmark-3-rdv4">(2 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="highlight-block">
+   <p>Also available in the <strong><em><a href="/products/lab401-pentester-pack">Lab401 Pentester Pack</a></em></strong> - with an instant discount of €105.</p>
+</div>
+<p>The Proxmark 3 is a dedicated, highly-capable multi-tool for RFID analysis, <span>providing reading, writing, analysis, snooping, replaying, emulation, modulation, demodulation, decoding, encoding, decryption, encryption for any RFID system operating in the 125KHz, 134KHz and 13.56MHz frequencies.</span> </p>
+<p>Since its original creation in 2007, there have been huge leaps in the electronics field. The Proxmark 3 RDV4.01 is a fully revised, modernized version of the already powerful RDV2.</p>
+<p>This is the <strong>4.01</strong> version of the device which includes multiple improvements over the 4.0 version, including:</p>
+<ul>
+   <li>Reduced power supply noise</li>
+   <li>Gold-plated FPC Connector</li>
+   <li>Antenna "Q-Switch" allowing for adapting antennas to specific operations</li>
+   <li>Antenna Frequency Switch allowing for optimised 125KHz and 134KHz performance</li>
+</ul>
+<p> </p>
+<h2><strong>Overview</strong></h2>
+<p>The Proxmark 3 RDV4.01 is the latest revision of the Proxmark 3 Platform. It is designed and manufactured by RRG, a company formed by four people instrumental to the Proxmark 3 including:</p>
+<ul>
+   <li>Chris Hermann (iceman) - Moderator of the proxmark forums</li>
+   <li>Kevin (0xFFFF) - Moderator of the proxmark forums</li>
+</ul>
+<p>The RDV 4.01 revision represents a highly optimised piece of hardware specifically designed for the pen-testing community:</p>
+<ul>
+   <li> <strong>Covert</strong>: Fits easily into a hand and pocket</li>
+   <li> <strong>Modular</strong>: Rapidly switch pre-tuned antennas for more range when in the field</li>
+   <li> <strong>Intuiative</strong>: Multiple Status LEDs for at-a-glance status checking</li>
+   <li> <strong>Android Compatible</strong>: Works with<span> </span><a href="https://walrus.app/">Project Walrus</a><span> </span>for automated red-teaming</li>
+   <li> <strong>Expandable</strong>: BLE/Wifi module expansion capability for automated data egress</li>
+</ul>
+<ul></ul>
+<h2><strong>Improvements</strong></h2>
+<p>The RDV4 has been designed and optimised for penetration testing, where performance and discretion are utmost priorities.<br>Below is a non-exhaustive list of improvements over the Proxmark 3 RDV2.</p>
+<div class="grid" style="margin: 2em 3em;">
+   <div class="grid-item small--one-whole medium--one-half large--one-fifth text-center">
+      <h3>Small &amp; durable</h3>
+      <p>Business card sized, ABS case. </p>
+   </div>
+   <div class="grid-item small--one-whole medium--one-half large--one-fifth text-center">
+      <h3>More Capable</h3>
+      <p>Updated CPU and over 8x memory.</p>
+   </div>
+   <div class="grid-item small--one-whole medium--one-half large--one-fifth text-center">
+      <h3>Internal Antennas</h3>
+      <p>Highly optimised internal antennas.</p>
+   </div>
+   <div class="grid-item small--one-whole medium--one-half large--one-fifth text-center">
+      <meta charset="utf-8">
+      <h3>Modular System</h3>
+      <p>Hot-swappable antennas &amp; SIM reader.</p>
+   </div>
+   <div class="grid-item small--one-whole medium--one-half large--one-fifth text-center">
+      <h3>Ready to go</h3>
+      <p>Everything you need is included in the box.</p>
+   </div>
+</div>
+<div class="grid">
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+      <h2><strong>Proxmark 3 Functionality Comparison</strong></h2>
+      <p>There are multiple versions of the Proxmark, optimised for desktop use or penetration testing. Please check the table below to find the version that corresponds with your needs.</p>
+      <table class="table table-striped table-bordered">
+         <thead>
+            <tr>
+               <th>Feature</th>
+               <th>Proxmark 3 RDV 4.01</th>
+               <th>Proxmark 3 EVO</th>
+               <th>Others (RDV2, Easy, etc)</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>Internal Antennas</td>
+               <td>X</td>
+               <td>X</td>
+               <td><br></td>
+            </tr>
+            <tr>
+               <td>ABS Case</td>
+               <td>X</td>
+               <td>X</td>
+               <td><br></td>
+            </tr>
+            <tr>
+               <td>Miniaturised</td>
+               <td>X</td>
+               <td>X</td>
+               <td><br></td>
+            </tr>
+            <tr>
+               <td>Pentesting Optimised</td>
+               <td>X</td>
+               <td><br></td>
+               <td><br></td>
+            </tr>
+            <tr>
+               <td>Desktop Optimised</td>
+               <td><br></td>
+               <td>X</td>
+               <td><br></td>
+            </tr>
+            <tr>
+               <td>SIM/SAM Reader</td>
+               <td>X</td>
+               <td><br></td>
+               <td><br></td>
+            </tr>
+            <tr>
+               <td>Swappable Antennas</td>
+               <td>X</td>
+               <td><br></td>
+               <td><br></td>
+            </tr>
+            <tr>
+               <td>Long Range Antenna</td>
+               <td>X</td>
+               <td><br></td>
+               <td><br></td>
+            </tr>
+            <tr>
+               <td>Interface</td>
+               <td>8x LED</td>
+               <td>1x RGB LED</td>
+               <td>1x LED</td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+      <h2><strong>Proxmark 3 Technical Comparison</strong></h2>
+      <meta charset="utf-8">
+      <meta charset="utf-8">
+      <p><span>There are multiple versions of the Proxmark, optimised for desktop use or penetration testing. Please check the table below to find the version that corresponds with your needs.</span></p>
+      <table class="table table-striped table-bordered" style="margin-bottom: 3em;">
+         <thead>
+            <tr>
+               <th>Feature</th>
+               <th>Proxmark 3 RDV 4.01</th>
+               <th>Proxmark 3 EVO</th>
+               <th>Others (RDV2, Easy, etc)</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>CPU</td>
+               <td>SAM7S512</td>
+               <td>AT91SAM7S512</td>
+               <td>AT91SAM7S512 / AT91SAM7S256</td>
+            </tr>
+            <tr>
+               <td>Memory</td>
+               <td>External 2MBits Internal 512Kb SPI</td>
+               <td>External 2MBits Internal 512Kb SPI</td>
+               <td>External None Internal 256 - 512Kb SPI</td>
+            </tr>
+            <tr>
+               <td>LF Read Range</td>
+               <td>70mm @ 65V</td>
+               <td>40mm @ 55V</td>
+               <td>10mm - 35mm</td>
+            </tr>
+            <tr>
+               <td>HF Read Range</td>
+               <td>40 - 85mm @ 44V</td>
+               <td>50mm @ 40V</td>
+               <td>10mm - 40mm</td>
+            </tr>
+            <tr>
+               <td>HF Read Range (medium antenna)</td>
+               <td>90mm</td>
+               <td><br></td>
+               <td><br></td>
+            </tr>
+            <tr>
+               <td>HF Read Range (large antenna)</td>
+               <td>100 - 120mm</td>
+               <td><br></td>
+               <td><br></td>
+            </tr>
+            <tr>
+               <td>Dimensions</td>
+               <td>54x87x10mm</td>
+               <td>60x90x12mm</td>
+               <td>At least 150x50mmx50mm</td>
+            </tr>
+            <tr>
+               <td>Expandable Framework?</td>
+               <td>Yes</td>
+               <td><br></td>
+               <td><br></td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
+</div>
+<div class="grid">
+   <div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+      <h2><strong>What's included</strong></h2>
+      <meta charset="utf-8">
+      <p><strong>Standard Accessory Pack</strong></p>
+      <ul>
+         <li>1x Proxmark 3 RDV4.01<strong></strong> </li>
+         <li>1x Pretuned LF Antenna - 125KHz &amp; 134KHz (Internal)</li>
+         <li>1x Pretuned HF Antenna - 13.56MHz (Internal)</li>
+         <li>1x Micro USB Cable</li>
+         <li>1x Screw Driver (for external antenna mounting)</li>
+         <li>1x SIM / SAM Reader Module</li>
+      </ul>
+      <p><strong>RFID Tags / Cards</strong></p>
+      <ul>
+         <li>1x 'Magic' 1k UID Changeable - PVC Card format</li>
+         <li>1x T5577 Tag - PVC Card format</li>
+      </ul>
+      <meta charset="utf-8">
+      <strong>Complete Accessory Pack</strong><br> 
+      <ul>
+         <li>1x <a href="https://lab401.com/products/proxmark-3-rdv4-standalone-kit">Standalone Module (Battery + Bluetooth)</a> </li>
+         <li>1x <a href="/products/proxmark-3-rdv4-long-range-hf-antenna-1" target="_blank">HF Antenna Pack (1x Mid Range, 1x Long Range)</a> </li>
+         <li>1x <a href="/products/proxmark-3-rdv4-01-long-range-lf-antenna-pack">LF Antenna Pack (1x Mid Range, 1x Long Range)</a> </li>
+      </ul>
+      <h2><strong>Shipping &amp; Packaging</strong></h2>
+      <ul>
+         <li>Each Proxmark 3 RDV 4 is dispatched from <strong>Europe</strong> - no need to worry about slow shipping times, import duties or damaged goods.</li>
+         <li>Packed in a sturdy compact 85x130x45mm box.</li>
+         <li>We provide worldwide shipping with express options.</li>
+      </ul>
+   </div>
+   <div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+      <h2><strong>Compatible Systems</strong></h2>
+      <ul>
+         <li>Windows: XP, 7, 8, 10 (All Versions)</li>
+         <li>OS/X: 10.0 - 10.7 (All Versions)</li>
+         <li>Linux: Debian, Ubuntu, CentOS, etc (All Versions)</li>
+         <li>Android: Specific Builds</li>
+      </ul>
+      <h2><strong>Proxmark Resources</strong></h2>
+      <strong>Technical Documents</strong> 
+      <ul>
+         <li><a href="/docs/Proxmark%20III%20User%20Guide.pdf" target="_blank">Installation / Introduction Manual</a></li>
+         <li><a href="https://github.com/rfidResearchGroup/proxmark3">Compiling / Flashing Manual</a></li>
+         <li><a href="https://github.com/RfidResearchGroup/proxmark3/blob/master/doc/termux_notes.md">Android Usage</a></li>
+         <li><a href="https://youtu.be/HRVPyRTZqy8" target="_blank">Updating Proxmark 3 Firmware on Kali</a></li>
+         <li><a href="https://youtu.be/lPe9Y-YpWnY">Updating Proxmark 3 Firmware on Windows</a></li>
+      </ul>
+      <strong>Community / Usage / Tutorial Resources</strong> 
+      <ul>
+         <li><a href="https://www.proxmark.org/forum/index.php" target="_blank">Proxmark Community Forums</a></li>
+         <li><a href="https://github.com/rfidResearchGroup/proxmark3" target="_blank">Proxmark Github repository</a></li>
+         <li><a href="https://youtu.be/pE50JHaYvSU" title="RFID 101 : Understand what is RFID and how it works" target="_blank">Tutorial 1: Introduction to RFID</a></li>
+         <li><a href="https://youtu.be/kk-W7aZXIS4" title="Identify Unknown Cards with the Proxmark" target="_blank">Tutorial 2: Identifying Unknown Cards with Proxmark</a></li>
+         <li><a href="https://lab401.com/blogs/academy/proxmark-basics-cloning-mifare" target="_blank">Tutorial 3: Cloning MIFARE Cards with Proxmark 3</a></li>
+         <li><a href="https://www.fuzzysecurity.com/tutorials/rfid/3.html">Tutorial 4: EasyCard - Reverse engineering an RFID Payment System</a></li>
+      </ul>
+      <strong>Proxmark Research Papers / Presentations</strong> 
+      <ul>
+         <li><a href="https://flaviodgarcia.com/publications/Tutorial_Proxmark_the_Swiss_Army_Knife_for_RFID_Security_Research-RFIDSec12.pdf" target="_blank">Proxmark3: The Swiss Army Knife of Security Research</a></li>
+         <li><a href="https://media.blackhat.com/bh-us-12/Briefings/C_Miller/BH_US_12_Miller_NFC_attack_surface_WP.pdf" target="_blank">Exploring the NFC Attack Surface</a></li>
+         <li><a href="https://www.proxmark.org/documents/mifare_weakness.pdf">A Practical Attack on the MF Classic</a></li>
+         <li><a href="https://proxmark.nl/files/Documents/NFC/Potential_misuse_of_NFC_enabled_mobile_phones_with_embedded_security_elements_as_contactless_attack_platforms.pdf">Potential Misuse of NFC Enabled Mobile Phones with Embedded Security Elements as Contactless Attack Platforms</a></li>
+         <li><a href="https://gerhard.dekoninggans.nl/documents/publications/dekoninggans.phd.thesis.pdf">Outsmarting Smart Cards</a></li>
+         <li><a href="/blogs/news/proxmark-3-rdv2-bypasses-millions-of-hotel-rooms">Proxmark 3 RDV2 cracks Millions of Hotel Rooms</a></li>
+      </ul>
+   </div>
+</div>
+<div>
+   <h2><strong>Proxmark 3 RDV4.01 Unboxing and overview</strong></h2>
+   <p>
+      <figure>
+         <video lite-youtube="" videoid="51bWAtraEDw" posterquality="maxresdefault" params="rel=0"></video>
+      </figure>
+   </p>
+</div>
+</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>proxmark</s:tag>
+    <s:tag>Proxmark 3 RDV4</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/1350524502127</id>
+      <title>Standard</title>
+      <s:price currency="EUR">329.00</s:price>
+      <s:sku>PM3-RDV4-BASIC</s:sku>
+      <s:grams>184</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/1350524502127</id>
+      <title>Complete</title>
+      <s:price currency="EUR">529.00</s:price>
+      <s:sku>PM3-RDV4-COMPLETE</s:sku>
+      <s:grams>226</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/1385019179119</id>
+    <published>2022-06-20T15:00:41+02:00</published>
+    <updated>2022-06-20T15:00:41+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/proxmark-3-rdv4-long-range-hf-antenna-1"/>
+    <title>Proxmark 3 RDV4.01- Long Range HF Antenna Pack</title>
+    <s:type>Proxmark</s:type>
+    <s:vendor>RRG</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/Proxmark-3-RDV-4.1-HF-Antenna-Box.png?v=1567172483"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>RRG<br>
+        <strong>Type: </strong>Proxmark<br>
+        <strong>Price: </strong>
+            79.99
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2><strong>Introduction</strong></h2>
+<p>The Proxmark 3 RDV4 has a modular antenna system, allowing for antennas to be hot-swapped depending on your assignment requirements.</p>
+<p>The Long Range HF External Antenna Pack containts two high performance, pre-tuned for antennas the Proxmark 3 RDV4, providing the highest read/write/sniff performance possible on an un-amplified external antenna</p>
+<p>Performance information is below:</p>
+<table class="table table-striped table-bordered">
+<thead>
+<tr>
+<th>Antenna Type</th>
+<th>Read Distance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HF Read Range (Built-in)</td>
+<td>40 - 85mm</td>
+</tr>
+<tr>
+<td><strong>HF Read Range (medium antenna)</strong></td>
+<td>90mm</td>
+</tr>
+<tr>
+<td><strong>HF Read Range (long range antenna)</strong></td>
+<td><strong>100 - 120mm</strong></td>
+</tr>
+</tbody>
+</table>
+<h2><strong></strong></h2>
+<div class="grid">
+<div class="grid-item small--one-fifth medium--one-fifth large--one-fifth text-center"></div>
+</div>
+<div class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x Long Range Antenna</li>
+<li>1x Medium Range Antenna</li>
+</ul>
+<ul></ul>
+<h2><strong>Shipping &amp; Packaging</strong></h2>
+<ul>
+<li>Each item is dispatched from <strong>Europe</strong> - no need to worry about slow shipping times, import duties or damaged goods.</li>
+<li>Packed in sturdy packaging.</li>
+<li>We provide worldwide shipping with express options.</li>
+</ul>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>Compatible Systems</strong></h2>
+<ul>
+<li><a href="/collections/hardware/products/proxmark-3-rdv4">Proxmark 3 RDV 4.01</a></li>
+</ul>
+<h2><strong></strong></h2>
+</div>
+</div>
+<h2><strong>Long Range HF Antenna Pack Unboxing</strong></h2>
+<figure><video lite-youtube="" videoid="oMlATY2mtgw" posterquality="maxresdefault" params="rel=0"></video></figure></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>antenna</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>proxmark</s:tag>
+    <s:tag>Proxmark 3 RDV4</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/1385019179119</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">79.99</s:price>
+      <s:sku>PM3-RDV4-HF-PACK</s:sku>
+      <s:grams>50</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/1477562466415</id>
+    <published>2022-06-20T15:00:40+02:00</published>
+    <updated>2022-06-20T15:00:40+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/keysy-lf-rfid-emulator-duplicator"/>
+    <title>Keysy LF RFID Duplicator &amp; Emulator</title>
+    <s:type>Reader / Writer</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/RFID-duplicator-1.png?v=1535700265"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>Reader / Writer<br>
+        <strong>Price: </strong>
+            65.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2><strong>Introduction</strong></h2>
+<p>The Keysy LF Duplicator and Emulator is a powerful pocket-sized device for copying and emulating LF RFID tags.</p>
+<p>The device can hold four LF tags, which can be written off the device at a later time onto the <a href="/products/keysy-blank-lf-tag-pack-of-5">Keysy LF tags.</a></p>
+<p>Tag reading is rapid and subtle - place the device on top of the target badge, and it will be automatically saved.</p>
+<p>Tags can be immediately emulated / replayed, or written out onto a physical badge.</p>
+<p>The device supports dozens of LF / 125KHz badges via its highly optimised RF interface.</p>
+<p>With its discreet looks and powerful performance, the Keysy LF RFID Copier is a must-have tool for pen-testers. </p>
+<h2><strong>Functionality in a glance</strong></h2>
+<p>Below is a non-exhaustive list of what the Keysy RFID Copier/Emulator brings to the table.</p>
+<div class="grid" style="margin-top: 2em; margin-bottom: 2em;">
+<div class="grid-item small--one-third medium--one-third large--one-third text-center">
+<h2>Rapid 125KHz Sniffing</h2>
+<p>Place the device against the target tag.</p>
+</div>
+<div class="grid-item small--one-third medium--one-third large--one-third text-center">
+<h2>Instant Emulation</h2>
+<p>Tags can be instantly replayed multiple times.</p>
+</div>
+<div class="grid-item small--one-third medium--one-third large--one-third text-center">
+<h2>Write sniffed tags</h2>
+<p>Saved tags can be written to physical badges.</p>
+</div>
+</div>
+<div class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2>
+<strong></strong><br>
+</h2>
+</div>
+</div>
+<div class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h3><strong>Technical Specs</strong></h3>
+<strong>Supported Cards:</strong>
+<ul>
+<li>HID Prox (Proxcard, ISOProx, ProxKey)<br>(Emulation not supported on multiClass readers, can still clone to rewritable)</li>
+<li>HID Indala (Motorola Indala)</li>
+<li>EM400x, EM410x, EM420x</li>
+<li>Noralsy (KCP3000)</li>
+<li>Farpointe Pyramid</li>
+<li>Keri (KC-10X, MT-10X, PKT-10X)</li>
+<li>Kantech ioProx</li>
+<li>DoorKing (DKProx) [Not DKProx Long Range]</li>
+<li>AWID (Low frequency only – CS-AWID, GR-AWID, KT-AWID, PW-AWID)<br>(Emulation not supported, can still clone to rewritable)</li>
+<li>Radio Key (SecuraKey RKKT-01, RKKT-02)</li>
+<li>Viking</li>
+<li>Visa2000</li>
+<li>Schlage IBF iButton (RFID portion only)</li>
+<li>T55x7 compatible keycard/keyfob</li>
+<li>Most unencrypted LF tags</li>
+</ul>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h3><strong>Detailed functionality</strong></h3>
+<ul>
+<li>Instant read (place device on target card)</li>
+<li>4x emulation slots (Unlimited use)</li>
+<li>Write saved card / slot to physical badges</li>
+<li>Instant emulation (detects RF Field)</li>
+<li>Privacy Mode (only emulates when selected)</li>
+</ul>
+<h3><strong>What's included</strong></h3>
+<ul>
+<li>1x Keysy RFID Emulator / Cloner</li>
+<li>1x Keysy LF Blank Badges</li>
+</ul>
+<h3><strong>Accessories</strong></h3>
+<ul>
+<li><a href="/collections/rfid-badges/products/keysy-blank-lf-tag-pack-of-5">Keysy LF Blank Badges</a></li>
+</ul>
+</div>
+</div>
+<div style="margin-top: 3em;">
+<meta charset="utf-8">
+<h2><strong>Production Introduction: Keysy RFID</strong></h2>
+<figure><video lite-youtube="" videoid="1qJ6QbdZ9-g" posterquality="maxresdefault" params="rel=0"></video></figure>
+<h2>Hands On: Keysy RFID Duplicator: Cloning a LF card</h2>
+<figure><video lite-youtube="" videoid="juM6FSINGOU" posterquality="maxresdefault" params="rel=0"></video></figure>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>125</s:tag>
+    <s:tag>cloning</s:tag>
+    <s:tag>emulator</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>hid</s:tag>
+    <s:tag>indala</s:tag>
+    <s:tag>lf</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>rfid</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/1477562466415</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">65.00</s:price>
+      <s:sku>KEYSY-RFID</s:sku>
+      <s:grams>50</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/1435438874735</id>
+    <published>2022-06-20T15:00:40+02:00</published>
+    <updated>2022-06-20T15:00:40+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/proxmark-3-rdv4-sim-sam-extension"/>
+    <title>Proxmark 3 RDV4 - SIM/SAM Extension</title>
+    <s:type>Proxmark</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/SIMHolder.png?v=1534892810"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>Proxmark<br>
+        <strong>Price: </strong>
+            19.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2><strong>Introduction</strong></h2>
+<p>The Proxmark 3 RDV4 has support for SIM/SAM debugging / programming / manipulation.</p>
+<p>The SIM/SAM extension connects to the SIM/SAM slot on the Proxmark 3 RDV4.</p>
+<p><strong>Since 2021, this product is bundled with all Proxmark 3 RDV4.01.</strong><br></p>
+<h2><strong></strong></h2>
+<div class="grid">
+<div class="grid-item small--one-fifth medium--one-fifth large--one-fifth text-center"></div>
+</div>
+<div class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x SIM/SAM Extension Module</li>
+</ul>
+<ul></ul>
+<h2><strong>Shipping &amp; Packaging</strong></h2>
+<ul>
+<li>Each item is dispatched from <strong>Europe</strong> - no need to worry about slow shipping times, import duties or damaged goods.</li>
+<li>Packed in sturdy packaging.</li>
+<li>We provide worldwide shipping with express options.</li>
+</ul>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>Compatible Systems</strong></h2>
+<ul>
+<li><a href="/collections/hardware/products/proxmark-3-rdv4">Proxmark 3 RDV 4</a></li>
+</ul>
+<h2><strong></strong></h2>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>proxmark</s:tag>
+    <s:tag>Proxmark 3 RDV4</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>sim</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/1435438874735</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">19.95</s:price>
+      <s:sku>PM3-RDV4-SIM</s:sku>
+      <s:grams>9</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/1385032024175</id>
+    <published>2022-06-20T15:00:40+02:00</published>
+    <updated>2022-06-20T15:00:40+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/proxmark-3-rdv4-flash-support"/>
+    <title>Lab401 Flashing Multi-tool for Proxmark &amp; Chameleon</title>
+    <s:type>Proxmark</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/Proxmark-3-Flashing-Adaptor.png?v=1567242511"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>Proxmark<br>
+        <strong>Price: </strong>
+            29.99
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2><strong>Introduction</strong></h2>
+<p>The Lab401 Flashing Multi-tool allows reflashing of your important pen-testing hardware quickly and easily.</p>
+<p>Compatible with the <strong>Proxmark 3 RDV4 &amp; 4.01</strong>, and the <strong>ChameleonMini RevE &amp; RevG</strong> - all headers and pins are in place for painless, solder free flashing.</p>
+<p>There multi-tool has inputs for two programmers, the <strong>AVR ISPmII </strong>(used for flashing the Chameleon) and the <strong>Segger J-LINK</strong> (used for flashing the Proxmark).</p>
+<p>Please note, the programmers themselves are sold separately.</p>
+<h2><strong></strong></h2>
+<div class="grid">
+<div class="grid-item small--one-fifth medium--one-fifth large--one-fifth text-center"></div>
+</div>
+<div class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x Lab401 Flashing Multi-tool</li>
+</ul>
+<h2><strong>Compatible Products<br></strong></h2>
+<ul>
+<li><a href="/collections/rfid-tools/products/proxmark-3-rdv4?lshst=collection">Proxmark 3</a></li>
+<li>
+ChameleonMini &amp; ChameleonTiny
+</li>
+</ul>
+<h2><strong>Supported Accessories<br></strong></h2>
+<ul>
+<li>Segger J-LINK</li>
+<li>AVR ISPmII</li>
+</ul>
+<ul></ul>
+<h2><strong>Shipping &amp; Packaging</strong></h2>
+<ul>
+<li>Each item is dispatched from <strong>Europe</strong> - no need to worry about slow shipping times, import duties or damaged goods.</li>
+<li>Packed in sturdy packaging.</li>
+<li>We provide worldwide shipping with express options.</li>
+</ul>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong></strong></h2>
+</div>
+</div>
+<h2>Proxmark 3 &amp; Chameleon Mini Flashing Tool Unboxing</h2>
+<figure><video lite-youtube="" videoid="6oy48vXBhjQ" posterquality="maxresdefault" params="rel=0"></video></figure></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>avrisp</s:tag>
+    <s:tag>chameleon</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>flashing</s:tag>
+    <s:tag>jlink</s:tag>
+    <s:tag>proxmark</s:tag>
+    <s:tag>Proxmark 3 RDV4</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>segger</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/1385032024175</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">29.99</s:price>
+      <s:sku>MULTI-FLASH-ADAPTOR</s:sku>
+      <s:grams>9</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/2025417244783</id>
+    <published>2022-06-20T15:00:39+02:00</published>
+    <updated>2022-06-20T15:00:39+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/nfckill-professional-version"/>
+    <title>NFCKill (Professional Version)</title>
+    <s:type>Pen Testing</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/header-with-glow.png?v=1544632683"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>Pen Testing<br>
+        <strong>Price: </strong>
+            229.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>Introduction</h2>
+<p>The <a href="https://www.nfckill.com" target="_blank">NFC Kill</a> is the world's only RFID fuzzing tool. It is used to securely disable RFID badges, test RFID hardware, audit access control failure modes, and probe / exploit RFID attack surfaces during penetration testing.</p>
+<p>It is the only tool available to <strong>securely and permanently disable RFID cards in a manner compliant with the GDPR. </strong>Clients in high-security environments (Law Enforcement, Government, Corporate and Industrial) use NFC Kill as part of their Data Destruction Policy.</p>
+<h2><strong>Functionality in a glance</strong></h2>
+<p>The NFCKill is a highly capable device, providing unique functionality to several key industries: Data Security, Law Enforcement, RFID Hardware Developers, Penetration Testers and security conscious individuals.</p>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-third medium--one-third large--one-third text-center">
+<h2>Secure Card Destruction</h2>
+<p>All common card frequencies: 13.56MHz &amp; 125KHz (Including reader/writers)</p>
+</div>
+<div class="grid-item small--one-third medium--one-third large--one-third text-center">
+<h2>New RFID Attack Surface</h2>
+<p>Test, glitch and disable RFID access control systems and badges.</p>
+</div>
+<div class="grid-item small--one-third medium--one-third large--one-third text-center">
+<h2>Portable and Capable</h2>
+<p>Long-life internal rechargeable battery, tough ABS case, hands-free operation.</p>
+</div>
+</div>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>Compatibility</strong></h2>
+<p>While the NFCKill is tuned to the most common RFID frequencies, it is effective against all RFID technologies. Likewise, it is able to inductively couple with most devices that contain an form of coil.</p>
+<p><strong>Targeted Frequencies</strong>:</p>
+<ul>
+<li>High Frequency (13.56MHz)</li>
+<ul>
+<li>Tags: All known tags (MIFARE Family, HID iCLASS, Calypso, Contactless Payment, etc)</li>
+<li>Hardware: Most reader and writer hardware, NFC-equipped phones, Contactless Payment Terminals, etc</li>
+<li>Effective Range: 0 - 6cm</li>
+</ul>
+<li>Low Frequency (125 - 134KHz)</li>
+<ul>
+<li>Tags: All known tags (HID, Indala, etc)</li>
+<li>Hardware: Most reader and writer hardware</li>
+<li>Effective Range: 0 - 5cm</li>
+</ul>
+<li>Ultra High Frequency (850 - 930 MHz)</li>
+<ul>
+<li>Tags: Limited. For UHF tags, use the dedicated <a href="/products/uhfkill" target="_blank">UHFKill product</a><br>
+</li>
+<li>Effective Range: 0 - 3cm</li>
+</ul>
+</ul>
+<p><strong>Other Technologies</strong></p>
+<ul>
+<li>Wireless charging (chargers and devices)</li>
+<li>POS systems</li>
+<li>Induction-Loop equipped systems</li>
+<li>Systems with coils that can have current induced</li>
+</ul>
+<p><strong>Known Limitations</strong></p>
+Due to their extremely small antenna sizes, the NFCKill <b>does not work</b> reliability with FDX / Injectable / Animal RFID tags.
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h3>Technical Specifications</h3>
+<p>The NFCKill has the following technical specifications:</p>
+<p><strong>Frequencies</strong></p>
+<ul>
+<li>Tuned Frequencies: 125KHz - 13.56MHz</li>
+<li>Effective Frequencies: 125KHz - 950MHz</li>
+</ul>
+<p><strong>Hardware</strong></p>
+<ul>
+<li>Battery: Rechargable Li-ion, 3.3V</li>
+<li>Input Frequency: 3.3V</li>
+<li>Output Voltage: ~1600V</li>
+</ul>
+<p><strong>Operating Modes</strong></p>
+<ul>
+<li>Single Pulse</li>
+<li>Continuous (2 Hz / 0.5s)</li>
+</ul>
+<p><strong>Miscellaneous:</strong></p>
+<ul>
+<li>Battery Life: ~10,000 discharge cycles</li>
+<li>Charge Interface: Micro-USB</li>
+<li>Case: ABS</li>
+<li>LEDs: 4x Battery Level indication, 1x Power, 1x Operation Indication</li>
+</ul>
+<p><strong>Operational Warning</strong></p>
+<p>The NFCKill is a <strong>high-voltage device,</strong> containing several shock-hazards. It must be kept and operated in a controlled environment, by a trained and responsible technician. Unintentional damage may occur to due irresponsible operator error.<br>NFCKill.com declines any responsibility from the use of the device. For more information, please review our terms and conditions.</p>
+</div>
+</div>
+<div style="margin-top: 3em;">
+<h2><strong>Product Presentation: NFC Kill</strong></h2>
+  <figure><video lite-youtube="" videoid="4rQPvkXaxX4" posterquality="maxresdefault" params="rel=0"></video></figure>
+</div>
+<div style="margin-header: 2em;" class="grid grid--header">
+<div class="grid-item small--one-half medium--one-half large--one-half">
+<h2><strong>NFCKill Secure RFID Destruction</strong></h2>
+<figure><video lite-youtube="" videoid="3nHOiuitNKY" posterquality="maxresdefault" params="rel=0"></video></figure>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half">
+<h2><strong>Access Control Glitching / Failure Testing</strong></h2>
+<figure><video lite-youtube="" videoid="zIuN8rai7PU" posterquality="maxresdefault" params="rel=0"></video></figure>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/2025417244783</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">229.00</s:price>
+      <s:sku>NFCK-PRO</s:sku>
+      <s:grams>200</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/2230425911407</id>
+    <published>2022-06-20T15:00:38+02:00</published>
+    <updated>2022-06-20T15:00:38+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/proxmark-3-rdv4-standalone-kit"/>
+    <title>Proxmark 3 RDV4 - BlueShark Standalone Module</title>
+    <s:type>Proxmark</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/BT_ADDON_PIC1.jpg?v=1570172108"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>Proxmark<br>
+        <strong>Price: </strong>
+            99.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2><strong>Introduction</strong></h2>
+<p>The Proxmark 3 RDV4 "BlueShark" Standalone Kit brings integrated, wireless standalone functionality to the Proxmark 3 RDV 4: </p>
+<ul>
+<li>Standalone Mode</li>
+<li>Offline sniffing</li>
+<li>Offline reading &amp; simulation</li>
+</ul>
+<p>Built with penetration testers in mind, this upgrade consists of:</p>
+<ul>
+<li>Bluetooth 2.0 EDR module</li>
+<li>Rechargeable polymer lithium-ion Battery module</li>
+<li>Aluminium case + heatsink</li>
+<li>Tempered glass cover</li>
+</ul>
+<p>The high-grade aluminium case not only protects against bumps, scratches and shock, but also acts as a heat-sink, providing increased performance and read/write ranges for the Proxmark.</p>
+<p>Backward compatible with all Proxmark 3 RDV4 devices, and fully integrated into the official <a href="https://github.com/RfidResearchGroup/proxmark3">RDV 4 Github Codebase</a> allows for:</p>
+<ul>
+<li>Full <strong>Standalone Mode</strong> support</li>
+<li>Full High-speed Bluetooth support</li>
+</ul>
+<p>What's<strong> included</strong></p>
+<div class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<ul>
+<li>1x BLE Module</li>
+<li>1x Rechargeable Battery Module</li>
+<li>1x Aluminium Case</li>
+</ul>
+<p><strong>Does NOT INCLUDE</strong> the Proxmark 3 RDV4, which must be purchased separately.</p>
+<h2><strong>Technical Specifications</strong></h2>
+<p><strong>Battery<br></strong>Charging Current: 200mA (Plugin USB Default Charging)<strong><br></strong>Charging time: 2.5h</p>
+<ul>
+<li>Battery capacity: 400 mAh</li>
+<li>Standby time:</li>
+<li>3.5h@StandBy;</li>
+<li>2.9h@LF-On;</li>
+<li>50min@HF-On;</li>
+</ul>
+<p><strong>Bluetooth</strong></p>
+<ul>
+<li>Power: 4dBm, -85 dBm@2Mbps</li>
+<li>Distance: 6m (depending on the environment and device orientation)</li>
+</ul>
+<p><strong>Device</strong></p>
+<ul>
+<li>Dimensions: 54.4 x 29.4 x 13.5mm</li>
+<li>Weight: 24g</li>
+</ul>
+<ul></ul>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>Compatible Systems</strong></h2>
+<ul>
+<li><a href="/collections/hardware/products/proxmark-3-rdv4">Proxmark 3 RDV 4</a></li>
+</ul>
+<h2><strong>Assembly &amp; First Use Instructions</strong></h2>
+<ul>
+<li><a href="/blogs/academy/proxmark-3-rdv-4-standalone-module-assembly-first-use" target="_blank" title="Proxmark 3 + Bluetooth Standalone Module BlueShark: Assembly and setup" rel="noopener noreferrer">Proxmark + Blueshark: Assembly + Installation</a></li>
+<li><a href="/blogs/academy/proxmark-basics-going-standalone-with-the-blueshark" target="_blank" rel="noopener noreferrer">Proxmark + Blueshark: Connecting with Kali</a></li>
+</ul>
+<p> </p>
+<h2><strong>Shipping &amp; Packaging</strong></h2>
+<ul>
+<li>Each item is dispatched from <strong>Europe</strong> - no need to worry about slow shipping times, import duties or damaged goods.</li>
+<li>Packed in sturdy packaging.</li>
+<li>We provide worldwide shipping with express options.</li>
+</ul>
+<h2><strong></strong></h2>
+</div>
+</div>
+<h2>Proxmark 3 Bluetooth / Battery Module Unboxing</h2>
+<figure><video lite-youtube="" videoid="Udc9gDW9TN8" posterquality="maxresdefault" params="rel=0"></video></figure>
+<h2>Proxmark 3 BlueShark Module Assembly Video</h2>
+<figure><video lite-youtube="" videoid="3a4TU8il88Y" posterquality="maxresdefault" params="rel=0"></video></figure>
+</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>proxmark</s:tag>
+    <s:tag>proxmark 3 battery</s:tag>
+    <s:tag>Proxmark 3 RDV4</s:tag>
+    <s:tag>proxmark 3 standalone</s:tag>
+    <s:tag>proxmark 3 wireless</s:tag>
+    <s:tag>proxmark battery</s:tag>
+    <s:tag>proxmark bluetooth</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/2230425911407</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">99.00</s:price>
+      <s:sku>PM3-RDV4-BLUESHARK</s:sku>
+      <s:grams>510</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/3947837456495</id>
+    <published>2022-06-20T15:00:37+02:00</published>
+    <updated>2022-06-20T15:00:37+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/hak5-plunder-bug-lan-sniffer"/>
+    <title>Plunder Bug</title>
+    <s:type>Pen Testing</s:type>
+    <s:vendor>Hak5</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/plunder-bug_lan_ethernet_sniffer.jpg?v=1564237975"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hak5<br>
+        <strong>Type: </strong>Pen Testing<br>
+        <strong>Price: </strong>
+            195.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8">
+<h2>
+<span style="color: #cc0000;"><strong></strong></span><strong>Introduction</strong>
+</h2>
+<p><strong>The Hak5 Plunder Bug</strong> is a compact, advanced LAN/Ethernet Tap that functions as a mini-switch, allowing for passive monitoring <strong>and</strong> active engagement via its USB-C port.</p>
+<p>Bundled with an Android Root App that enabled packet-capture from your handset, and all necessary cross-platform connection scripts.<strong></strong></p>
+<h2><strong>Functionality at a glance<br></strong></h2>
+<p>The Plunder Bug is designed for System Administrators and Penetration Testers, providing previously impossible functionality from an ethernet tapping device.</p>
+<p>In Passive Mode, network traffic can be sniffed, collected and analysed using tools such as WireShark. Combined with tools like <a href="https://github.com/vikwin/pcapfex" target="_blank"><em>pcapfex</em></a> - automatically dump files recovered from sniffed data.</p>
+<p>In Active Mode, the Plunder Bug acts as an unmanaged switch, essentially injecting your device into the network - allowing for standard network analysis and infiltration.</p>
+<p>And, for those emergency situations where you need to get jacked into a network - it can even act as a simple USB-C to Ethernet Adaptor.</p>
+<div class="grid" style="margin: 2em 3em;">
+<div class="grid-item small--one-whole medium--one-whole large--one-fifth text-center">
+<h3>Small &amp; Discreet</h3>
+<p>Seriously small form-factor</p>
+</div>
+<div class="grid-item small--one-whole medium--one-whole large--one-fifth text-center">
+<h3>Dongle Free USB-C</h3>
+<p>Forget dongles: connect via USB-C</p>
+</div>
+<div class="grid-item small--one-whole medium--one-whole large--one-fifth text-center">
+<h3>Monitor &amp; Engage</h3>
+<p>Active &amp; Passive Modes</p>
+</div>
+<div class="grid-item small--one-whole medium--one-whole large--one-fifth text-center">
+<h3>Gigabit LAN Compatible</h3>
+<p>Supports 10/100/1000 LANs</p>
+</div>
+<div class="grid-item small--one-whole medium--one-whole large--one-fifth text-center"><center>
+<h3>Field Optimised</h3>
+<p>Android App for on-the-go sniffing</p>
+</center></div>
+</div>
+<div class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x Hak5 Plunder Bug</li>
+<li>1x USB-C Cable</li>
+<li>1x Quick-Start Guide</li>
+</ul>
+<h2><strong>Technical Specifications<br></strong></h2>
+<ul>
+<li>Supports Native 10/100 Base-T Fast Ethernet</li>
+<li>Supports Gigabit Ethernet (auto-degraded to 100MBit)</li>
+<li>ASIX AX88772C Ethernet Chipset</li>
+<li>1x USB-C Tap / Power Port (5V @ 20 - 300mA)</li>
+<li>2x RJ45 Ports</li>
+</ul>
+<meta charset="utf-8">
+<h2><strong>Shipping &amp; Packaging</strong></h2>
+<ul>
+<li>Each Plunder Bug is dispatched from <strong>Europe</strong> - no need to worry about slow shipping times, import duties or damaged goods.</li>
+<li>Packed in a sturdy compact 85x130x45mm box.</li>
+<li>We provide worldwide shipping with express options.</li>
+</ul>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>Compatible Systems</strong></h2>
+<ul>
+<li>Windows: XP, 7, 8, 10 (All Versions)</li>
+<li>OS/X: 10.0 - 10.7 (All Versions)</li>
+<li>Linux: Debian, Ubuntu, CentOS, etc (All Versions)</li>
+<li>Android: Requires Rooted Device</li>
+<li>
+<a href="https://shop.hak5.org/products/c2" target="_blank">Hak5 Cloud C<sup>2 </sup></a>Compatible</li>
+</ul>
+<h2><strong>Plunder Bug Technical Resources</strong></h2>
+<strong>Getting Started Tutorials</strong>
+<ul>
+<li><a href="https://documentation.hak5.org/plunder-bug/getting-started/drivers" target="_blank">Getting Started: Drivers</a></li>
+<li><a href="https://documentation.hak5.org/plunder-bug/getting-started/master" target="_blank">Plunder Bug 101: How to tap an Ethernet Link</a></li>
+</ul>
+<strong>Usage Guides</strong>
+<ul>
+<li><a href="https://documentation.hak5.org/plunder-bug/active-and-passive-modes/about-mode-switching" target="_blank">Introduction to Mode Switching</a></li>
+<li><a href="https://documentation.hak5.org/plunder-bug/active-and-passive-modes/windows-mode-switching" target="_blank">Mode Switching: Windows</a></li>
+<li><a href="https://documentation.hak5.org/plunder-bug/active-and-passive-modes/macos-mode-switching">Mode Switching: MacOS</a></li>
+<li><a href="https://documentation.hak5.org/plunder-bug/active-and-passive-modes/linux-mode-switching" target="_blank">Mode Switching: Linux</a></li>
+</ul>
+<strong>Scripts Repository</strong>
+<ul>
+<li><a href="https://github.com/hak5/plunderbug-scripts" target="_blank">Plunder Bug GitHub Repository</a></li>
+</ul>
+</div>
+</div>
+<div>
+<h2>Plunder Bug Introduction Video<br>
+</h2>
+<figure><video lite-youtube="" videoid="Utu0RNjf_h8" posterquality="maxresdefault" params="rel=0"></video></figure>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Ethernet</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Hak5</s:tag>
+    <s:tag>LAN Tap</s:tag>
+    <s:tag>Network Sniffer</s:tag>
+    <s:tag>Plunder Bug</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/3947837456495</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">195.00</s:price>
+      <s:sku>HAK5-PLUNDERBUG</s:sku>
+      <s:grams>272</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/3948055101551</id>
+    <published>2022-06-20T15:00:36+02:00</published>
+    <updated>2022-06-20T15:00:36+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/rubber-ducky"/>
+    <title>Rubber Ducky</title>
+    <s:type>Pen Testing</s:type>
+    <s:vendor>Hak5</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/2023---hak5-rubber-ducky-1.png?v=1689852107"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hak5<br>
+        <strong>Type: </strong>Pen Testing<br>
+        <strong>Price: </strong>
+            150.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><em>This is the updated edition of the Rubber Ducky with USB-C and USB-A connections!<br></em></p>
+<p>The <strong>Hak5 Rubber Ducky</strong> is an automated USB-Keystroke Injection Platform. Pocket-sized, powerful and cross-platform, when plugged into a device, the Rubber Ducky emulates a keyboard and executes its payload, typing at over 1000 words per minute.</p>
+<p>Whatever you could do via keyboard on a machine, the Rubber Ducky can do, but better, faster and covert.</p>
+<p>Available with or without the official Hak5 Rubber Ducky Field Guide <em>(50 pages)</em> - perfect for hitting the ground running.</p>
+<h2><strong>Platform Overview <br></strong></h2>
+<p>Regardless of operating system (MacOS, Linux, Windows, Android) - all modern devices implement the notion of <em>trusted devices - </em>that is devices that a system will automatically trust and accept <em>without the need for confirmation</em> or drivers.</p>
+<p>HID ("Human Input Devices") - Keyboards, Mice, etc are the cornerstone of this trust system. Across all platforms - Windows, MacOS, Linux, Android - devices have complete trust of keyboards.</p>
+<p>The Rubber Ducky abuses this trust. By masquerading as a keyboard, it is able to deliver keystrokes at highspeed.</p>
+<p>Payloads are completely customisable, and the Rubber Ducky is backed by the Hak5 Community - hundreds of payloads are available.</p>
+<p>Although it is infinitely configurable, common use cases include:</p>
+<div class="grid" style="margin: 2em 3em;">
+<div class="grid-item small--one-whole medium--one-whole large--one-half text-center">
+<h3>Penetration Testing</h3>
+<p>Whatever you could do in front of a keyboard, the Rubber Ducky can do faster. Steal passwords. Establish RATs. Exfiltrate data. Install backdoors. Poison DNS.<br>If you've got access to an unlocked system, put the Rubber Ducky to work for you.</p>
+</div>
+<div class="grid-item small--one-whole medium--one-whole large--one-half text-center">
+<h3>System Administration</h3>
+<p>Leverage Keystroke Injection to automate repetitive tasks. Log cleaning, forensics, system updates. Let the Rubber Ducky do the typing for you.</p>
+</div>
+</div>
+<div class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x Hak5 Rubber Ducky</li>
+<li>1x Quick-Start Guide</li>
+<li>1x Rubber Ducky</li>
+</ul>
+<h2><strong>Technical Specifications<br></strong></h2>
+<ul>
+<li>Weight: 15g</li>
+<li>Dimensions: 50x20x9mm<br><br>
+</li>
+<li>Atmel 32bit AVR Microcontroller AT32UC3B1256<br><br>
+</li>
+<li>1x RGB Indicator LED</li>
+<li>1x Programmable Push Button</li>
+<li>1x JTAG Interface</li>
+<li>1x MicroSD Card reader</li>
+</ul>
+<meta charset="utf-8">
+<h2><strong>Shipping &amp; Packaging</strong></h2>
+<ul>
+<li>Each Rubber Ducky is dispatched from <strong>Europe</strong> - no need to worry about slow shipping times, import duties or damaged goods.</li>
+<li>Packed in a sturdy compact 85x130x45mm box.</li>
+<li>We provide worldwide shipping with express options.</li>
+</ul>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>Rubber Ducky Technical Resources</strong></h2>
+<strong>Tutorials &amp; Guides</strong>
+<ul>
+<li>
+<a href="https://documentation.hak5.org/hak5-usb-rubber-ducky/unboxing-quack-start-guide" target="_blank">Getting Started</a> <em>(4 Articles)</em>
+</li>
+<li>
+<a href="https://shop.hak5.org/blogs/usb-rubber-ducky" target="_blank">Payloads and How-To</a> <em>(4 Articles)</em>
+</li>
+<li>
+<a href="https://documentation.hak5.org/hak5-usb-rubber-ducky/tips-and-troubleshooting/common-issues" target="_blank">FAQ / Troubleshooting</a> <em>(6 Articles)<br><br></em>
+</li>
+<li>
+<a href="https://shop.hak5.org/blogs/usb-rubber-ducky/the-3-second-reverse-shell-with-a-usb-rubber-ducky" target="_blank">Get a reverse shell in 3 seconds</a><em></em>
+</li>
+<li><a href="https://shop.hak5.org/blogs/usb-rubber-ducky/15-second-password-hack-mr-robot-style" target="_blank">15 Second Password Hack: Mr Robot Style</a></li>
+<li><a href="https://shop.hak5.org/blogs/usb-rubber-ducky/whats-the-quickest-way-to-steal-a-windows-password-hash" target="_blank">Rubber Ducky Data Exfiltration</a></li>
+</ul>
+<strong>Community Resources</strong>
+<ul>
+<li><a href="https://payloadstudio.hak5.org">Payload Generator / Encoder / Decoder</a></li>
+<li><a href="https://github.com/hak5/usbrubberducky-payloads" target="_blank">Hak5 Rubber Ducky Payload Repository</a></li>
+<li><a href="https://forums.hak5.org/forum/111-new-usb-rubber-ducky/" target="_blank">Rubber Ducky Forum</a></li>
+</ul>
+<h2><strong>Compatible Systems</strong></h2>
+<ul>
+<li>Windows: XP, 7, 8, 10 (All Versions)</li>
+<li>OS/X: 10.0 - 10.7 (All Versions)</li>
+<li>Linux: Debian, Ubuntu, CentOS, etc (All Versions)</li>
+<li>Android: Requires USB / OTG Support</li>
+</ul>
+</div>
+</div>
+<div>
+<h2>New USB Rubber Ducky - Overview</h2>
+<figure><video lite-youtube="" videoid="r2Gd7BtE0i0" posterquality="maxresdefault" params="rel=0"></video></figure>
+<h2>Keystroke Reflection - New Side-Channel Exfiltration Technique</h2>
+<figure><video lite-youtube="" videoid="Qg1M3jUCPgw" posterquality="maxresdefault" params="rel=0"></video></figure>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Hak5</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>Red Teaming</s:tag>
+    <s:tag>Rubber Ducky</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:tag>USB</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/3948055101551</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">150.00</s:price>
+      <s:sku>HAK5-RUBBERDUCKY</s:sku>
+      <s:grams>200</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/3948029083759</id>
+    <published>2022-06-20T15:00:36+02:00</published>
+    <updated>2022-06-20T15:00:36+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/hid-emulator-bash-bunny"/>
+    <title>Bash Bunny Mark II</title>
+    <s:type>Pen Testing</s:type>
+    <s:vendor>Hak5</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Bash-Bunny-Mark-II.png?v=1711536452"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hak5<br>
+        <strong>Type: </strong>Pen Testing<br>
+        <strong>Price: </strong>
+            355.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>If you can physically access a device, the<strong> Hak5 Bash Bunny</strong> will get you electronic access. In short - it's the world's most powerful USB Attack Platform.</p>
+<p>In detail, it is a cross-platform, multi-payload, multi-tool capable of simultaneously emulating and abusing devices trusted by devices - input devices, storage devices, network devices.</p>
+<p>Disguised as a normal USB-drive, infinitely configurable, and backed by the Hak5 payload repository, the Bash Bunny is a one-stop physical hacking tool.</p>
+<p>This is the <strong>Mark II</strong>, which includes <strong>wireless geofencing, remote triggers, microSD support</strong> and <strong>faster performance!</strong><br></p>
+<h2><strong>Platform Overview <br></strong></h2>
+<p>Regardless of operating system (MacOS, Linux, Windows, Android) - all modern devices implement the notion of <em>trusted devices - </em>that is devices that a system will automatically trust and accept <em>without the need for confirmation</em> or drivers.</p>
+<p>There are several categories of Trusted Devices, including:</p>
+<ul>
+<li>HID ("Human Input Devices") - Keyboards, Mice, etc</li>
+<li>Storage Devices - Flash drives, etc</li>
+<li>Network Devices - Ethernet Adaptors, etc</li>
+</ul>
+<p>The Bash Bunny can emulate all these devices, simultaneously - and then abuse this trust via scriptable Payloads.</p>
+<p>Easily write or customise your own payload, or use one of the hundreds available in the Bash Bunny repository.</p>
+<p>Multiple payloads can be stored and selected via physical switch. The RGB LED provides instantaneous, covert feedback on the payload status.</p>
+<p>The Bash Bunny is a powerful quad-core fully-featured Linux machine in a tiny package - accessible over serial interface.</p>
+<p>Although it is infinitely configurable, common use cases include:</p>
+<div style="margin: 2em 3em;" class="grid">
+<div class="grid-item small--one-whole medium--one-whole large--one-half text-center">
+<h3>Network Infiltration</h3>
+<p>Automatically trusted by locked or unlocked devices as the best network device. Perform QuickCreds attacks. Completely cross-platform (RNDIS &amp; ECM) - backed by a full TCP/IP stack and root-access Linux.</p>
+</div>
+<div class="grid-item small--one-whole medium--one-whole large--one-half text-center">
+<h3>Keystroke Injection</h3>
+<p>Leverage Keystroke Injection with storage emulation to automatically install payloads, exfiltrate data and more. <br>The full-featured scripting language provides a huge attack surface.</p>
+</div>
+<div class="grid-item small--one-whole medium--one-whole large--one-half text-center">
+<h3>Data Exfiltration</h3>
+<p>MicroSD storage allows for rapid exfiltration of essentially unlimited amounts of data and ample space for delivering binary &amp; staged payloads.</p>
+</div>
+<div class="grid-item small--one-whole medium--one-whole large--one-half text-center">
+<h3>GeoFencing</h3>
+<p>Prevent payloads from triggering off-site; activate payloads for specific geo-zones; destroy loot based on location.</p>
+</div>
+<div class="grid-item small--one-whole medium--one-whole large--one-half text-center">
+<h3>Remote Triggers</h3>
+<p>Trigger payloads, macros and exfiltration discretely and remotely via smartphone app or <i>any</i> Bluetooth device! Trigger manually or trigger via proximity.</p>
+</div>
+<div class="grid-item small--one-whole medium--one-whole large--one-half text-center">
+<h3>Root CLI Access</h3>
+<p>The Bash Bunny provides a permanent root console over serial - dropping you onto to a fully-featured Linux machine.</p>
+</div>
+</div>
+<div class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x Hak5 Bash Bunny</li>
+<li>1x Quick-Start Guide</li>
+<li>1x Bash Bunny Sticker</li>
+</ul>
+<h2><strong>Technical Specifications<br></strong></h2>
+<ul>
+<li>Weight: 30g<br><br>
+</li>
+<li>Quad-core ARM Cortex A7</li>
+<li>8 GB SLC NAND Disk</li>
+<li>MicroSD XC (Supports up to 2TB)</li>
+<li>BLE Connectivity</li>
+<li>1x RGB LED</li>
+<li>1x 3-position switch</li>
+</ul>
+<meta charset="utf-8">
+<h2><strong>Shipping &amp; Packaging</strong></h2>
+<ul>
+<li>Each Bash Bunny is dispatched from <strong>Europe</strong> - no need to worry about slow shipping times, import duties or damaged goods.</li>
+<li>Packed in a sturdy compact 85x130x45mm box.</li>
+<li>We provide worldwide shipping with express options.</li>
+</ul>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>Bash Bunny Technical Resources</strong></h2>
+<strong>Tutorials &amp; Guides</strong>
+<ul>
+<li>
+<a href="https://documentation.hak5.org/bash-bunny/getting-started" target="_blank">Getting Started</a> <em>(5 Articles)</em>
+</li>
+<li>
+<a href="https://documentation.hak5.org/bash-bunny/beginner-guides" target="_blank">Beginner Guides</a> <em>(6 Articles)</em>
+</li>
+<li>
+<a href="https://documentation.hak5.org/bash-bunny/internet-connectivity">Internet Connectivity</a> <em>(4 Articles)</em>
+</li>
+<li>
+<a href="https://documentation.hak5.org/bash-bunny/software-updates" target="_blank">Updating the Bash Bunny</a> <em>(3 Articles)</em>
+</li>
+<li>
+<a href="https://documentation.hak5.org/bash-bunny/writing-payloads" target="_blank">Payloads and Payload Development</a><em> (10 Articles)</em>
+</li>
+<li>
+<a href="https://documentation.hak5.org/bash-bunny/video-guides" target="_blank">Video Guides</a> <em>(11 Articles)</em>
+</li>
+<li>
+<a href="https://documentation.hak5.org/bash-bunny/troubleshooting" target="_blank">FAQ / Troubleshooting</a> <em>(2 Articles)</em>
+</li>
+</ul>
+<strong>Community Resources</strong>
+<ul>
+<li><a href="https://github.com/hak5/bashbunny-payloads" target="_blank">Hak5 Bash Bunny Payload Repository</a></li>
+<li><a href="https://forums.hak5.org/forum/92-bash-bunny/" target="_blank">Bash Bunny Forum</a></li>
+<li><a href="https://wiki.bashbunny.com/#!index.md" target="_blank">Bash Bunny Wiki</a></li>
+</ul>
+<h2><strong>Compatible Systems</strong></h2>
+<ul>
+<li>Windows: XP, 7, 8, 10 (All Versions)</li>
+<li>OS/X: 10.0 - 10.7 (All Versions)</li>
+<li>Linux: Debian, Ubuntu, CentOS, etc (All Versions)</li>
+<li>Android: Requires USB / OTG Support</li>
+</ul>
+</div>
+</div>
+<div>
+<h2>Bash Bunny Mark II - Overview</h2>
+  <figure><video lite-youtube="" videoid="-UmvZdDxCiI" posterquality="maxresdefault" params="rel=0"></video></figure>
+<h2>Getting Started - Exfiltrate Wifi Credentials</h2>
+  <figure><video lite-youtube="" videoid="6aeUnyLYOAE" posterquality="maxresdefault" params="rel=0"></video></figure>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Bash Bunny</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Hak5</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>Red Teaming</s:tag>
+    <s:tag>Rubber Ducky</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:tag>USB</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/3948029083759</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">355.00</s:price>
+      <s:sku>HAK5-BASHBUNNY</s:sku>
+      <s:grams>100</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/3947892899951</id>
+    <published>2022-06-20T15:00:36+02:00</published>
+    <updated>2022-06-20T15:00:36+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/hak5-network-mitm-lan-turtle"/>
+    <title>LAN Turtle</title>
+    <s:type>Pen Testing</s:type>
+    <s:vendor>Hak5</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/LAN-Turtle-SD-packet-sniffer-2.jpg?v=1601991381"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hak5<br>
+        <strong>Type: </strong>Pen Testing<br>
+        <strong>Price: </strong>
+            120.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>Introduction</h2>
+<p><strong>The Hak5 LAN Turtle</strong> is a tiny network infiltration multi-tool masquerading as an innocent USB-to-Ethernet Adaptor. Easily configure via the inbuilt graphic shell, and deploy payloads such as MITM surveillence, network-scanning, VPN-tunneling, etc.</p>
+<p>Available in two versions: Offline Storage and Online (3G).<br><strong></strong></p>
+<p>Optionally with or without the official Hak5 LAN Turtle Field Guide <em>(28 pages)</em> - perfect for hitting the ground running.</p>
+<h2><strong>Functionality at a glance<br></strong></h2>
+<p>The LAN Turtle provides a fully configurable, fully extendable payload toolkit wrapped in a covert case. Designed as a covert pivot into target networks, the device has significant functionality despite its small size.</p>
+<p>Housed in a generic "USB to Ethernet Adaptor" case, the LAN Turtle is inconspicuous, compact and designed to blend into the background when attached to a target network.</p>
+<p>Payload and system configuration are performed via a simple graphic shell, allowing the device to be (pre) configured to your specific requirements.</p>
+<p>The <strong>Offline Storage</strong> version provides MicroSD expansion - perfect for lengthy unattended sniffing / network intelligence gathering.</p>
+<p>The <strong>Online (3G)</strong> version provides permanent connectivity via cellular / data connection. Load a data SIM and the LAN Turtle can punch through firewalls, instantly establishing reverse shells / RATs / VPNs, etc.</p>
+<p>Backed by the extensive Hak5 Module/Payload repository and fully extendable via bash, python or PHP - the LAN Turtle infinitely configurable.</p>
+<p>Modules are rapidly installable from the Hak5 LAN Turtle "App Store".</p>
+<p>Common use cases include:</p>
+<div class="grid" style="margin: 2em 3em;">
+<div class="grid-item small--one-whole medium--one-whole large--one-half text-center">
+<h3>Penetration Testing</h3>
+<p>Capture traffic. Poison DNS. Map internal networks and more. Go online and establish reverse shells &amp; VPNs. Poison DNS. Deploy Meterpreter. Exfiltrate network traffic.</p>
+</div>
+<div class="grid-item small--one-whole medium--one-whole large--one-half text-center">
+<h3>System Administration</h3>
+<p>Use as intelligent monitoring node. Monitor traffic states, create alerts, schedule tasks and reports. With the online version, securely tunnel to inside your trusted networks via OpenSSH from anywhere.</p>
+</div>
+</div>
+<div class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x Hak5 LAN Turtle</li>
+<li>1x Quick-Start Guide</li>
+<li>1x LAN Turtle Sticker</li>
+<li>Hak5 Cloud C<sup>2</sup> Compatible</li>
+</ul>
+<h2><strong>Technical Specifications<br></strong></h2>
+<ul>
+<li>Physical Dimensions: 95x23x31mm</li>
+<li>Weight: 30g<br><br>
+</li>
+<li>Atheros AR9331 SoC @ 400 MHz MIPS</li>
+<li>64 MB DDR2 RAM</li>
+<li>16MB on-board Flash Memory</li>
+<li>10/100 Base T Ethernet - Realtek RTL8152</li>
+<li>1x Indicator LED</li>
+<li>1x USB-A Male Port</li>
+</ul>
+<meta charset="utf-8">
+<h2><strong>Shipping &amp; Packaging</strong></h2>
+<ul>
+<li>Each LAN Turtle is dispatched from <strong>Europe</strong> - no need to worry about slow shipping times, import duties or damaged goods.</li>
+<li>Packed in a sturdy compact 85x130x45mm box.</li>
+<li>We provide worldwide shipping with express options.</li>
+</ul>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>LAN Turtle Technical Resources</strong></h2>
+<strong>Tutorials &amp; Guides</strong>
+<ul>
+<li>
+<a href="https://documentation.hak5.org/lan-turtle/getting-started" target="_blank">Getting Started</a> <em>(4 Articles)</em>
+</li>
+<li>
+<a href="https://documentation.hak5.org/lan-turtle/setup-guides" target="_blank">Setup / Configuration</a> <em>(5 Articles)</em>
+</li>
+<li>
+<a href="https://documentation.hak5.org/lan-turtle/video-guides" target="_blank">Video Guides</a> <em>(8 Articles)</em>
+</li>
+<li>
+<a href="https://documentation.hak5.org/lan-turtle/faq-troubleshooting" target="_blank">FAQ / Troubleshooting</a> <em>(5 Articles)</em>
+</li>
+</ul>
+<strong>Community Resources</strong>
+<ul>
+<li><a href="https://github.com/hak5/lanturtle-modules" target="_blank">Hak5 LAN Turtle Module Library</a></li>
+<li><a href="https://forums.hak5.org/forum/88-lan-turtle/" target="_blank">LAN Turtle Forum</a></li>
+</ul>
+<h2><strong>Compatible Systems</strong></h2>
+<ul>
+<li>10/100 Base-T Ethernet Networks: Natively compatible</li>
+<li>1000 Base-T Ethernet Networks: Auto-degrades to 100MBit</li>
+<li>
+<a href="https://shop.hak5.org/products/c2" target="_blank">Hak5 Cloud C<sup>2 </sup></a>Compatible</li>
+</ul>
+</div>
+</div>
+<div class="faqBox">
+<h2><strong>Frequently Asked Questions</strong></h2>
+<h3>Does the LAN Turtle provide wireless functionality?</h3>
+<p>The LAN Turtle is designed to be used with wired / ethernet networks. It does not have a wifi interface. For Wifi Penetration Testing devices, Lab401 recommends the <a href="/products/wifi-pineapple-v7" target="_blank"> Hak5 Wifi Pineapple devices</a>.</p>
+<p>The LAN Turtle <b>3G Edition</b> has a wireless 3G/data ability via SIM card slot. This interface allows the device to be configured and controlled remotely, and also for reverse shells, data exfiltration, VPN intrusion, etc.</p>
+<h3>Is the LAN Turtle programmable?</h3>
+<p>Yes. The LAN Turtle supports the same programming framework as most other Hak5 products. Modules (off the shelf, or custom) can be installed on the product: pre-installed via SD, or remotely via 3G connection.</p>
+<p>There is a large selection of drop-in modules providing a wide variety of functionalty. Please check the <a href="https://github.com/hak5/lanturtle-modules" target="_blank">Hak5 LAN Turtle Module Library</a> for more information.</p>
+<h3>How do you install the LAN Turtle?</h3>
+<p>Installation is rapid and discreet. The device is powered via standard USB-A connection, and accepts standard RJ-45 cables.</p>
+<p>The device can be plugged into any powered USB socket - computer, external battery, projector, router.. etc.</p>
+<h3>Is the LAN Turtle covert?</h3>
+<p>The LAN Turtle is housed in an industry-standard USB to Ethernet adaptor, and evades all but the most in-depth scrutiny. USB-to-LAN devices are typically overlooked and seldom touched - making it perfect for installation behind desktop PCs, under desks, in dusty server racks, etc.</p>
+<p>Lab401 has had good results by combining social engineering with covert installation; placing "official" labels (Such as: "Do not unplug - 03/2019") allow the devices to live in plain sight for longer.</p>
+</div>
+<div>
+<h2><strong>LAN Turtle Introduction Video</strong></h2>
+<figure><video lite-youtube="" videoid="l8YpTOv7Q2A" posterquality="maxresdefault" params="rel=0"></video></figure>
+<h2><strong>LAN Turtle Hands-on Video</strong></h2>
+<figure><video lite-youtube="" videoid="3kEOB4qXPgY" posterquality="maxresdefault" params="rel=0"></video></figure>
+<h2><strong>LAN Turtle: Stealing Creds from Locked Machines<br></strong></h2>
+<figure><video lite-youtube="" videoid="AVqh5mcFcFU" posterquality="maxresdefault" params="rel=0"></video></figure>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>3G</s:tag>
+    <s:tag>Ethernet</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Hak5</s:tag>
+    <s:tag>LAN Turtle</s:tag>
+    <s:tag>Man-in-the-middle</s:tag>
+    <s:tag>Network Sniffer</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/3947892899951</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">120.00</s:price>
+      <s:sku>HAK5-LANTURTLE-SD</s:sku>
+      <s:grams>200</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/3948580929647</id>
+    <published>2022-06-20T15:00:35+02:00</published>
+    <updated>2022-06-20T15:00:35+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/long-range-rfid-reader-writer-dl533n-xl"/>
+    <title>Long Range RFID Reader / Writer DL533N XL</title>
+    <s:type>Reader / Writer</s:type>
+    <s:vendor>D-Logic</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/DL533N-XL-long-range-mifare-sniffer.png?v=1581181917"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>D-Logic<br>
+        <strong>Type: </strong>Reader / Writer<br>
+        <strong>Price: </strong>
+            129.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h4>The world's only LibNFC Compatible Long Range Reader / Writer</h4>
+<p>The DL533N XL is the first publicly available Long Range, LibNFC Compatible Reading / Writing Device, providing <strong>read, write and sniff distances of up to 180mm.</strong></p>
+<p>Based on the rock-solid DL533N hardware, the XL is 178x178mm, with a built in active RF range-booster providing unmatched reading distances without any dead spots.</p>
+<p>Compatible out of the box with LibNFC on Windows, MacOS, Linux and Android, this is a stable RFID reader / writer perfectly suited and tested with our badges.</p>
+<p>Finally, long-distance high-frequency RFID sniffing is practical.</p>
+<div class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2>Specifications</h2>
+<ul>
+<li>Dimensions: 178 x 178 x 6mm</li>
+<li>Max Read / Write Distance: 180mm</li>
+</ul>
+<p>Operates in the following modes:</p>
+<ul>
+<li>ISO/IEC 14443A/MIFARE® Reader/Writer</li>
+<li>FeliCa Reader/Writer</li>
+<li>ISO/IEC 14443B Reader/Writer</li>
+<li>ISO/IEC 14443A/MIFARE Classic® 1K or MIFARE Classic® 4K emulation</li>
+<li>FeliCa Card emulation</li>
+<li>ISO/IEC 18092, ECMA 340 Peer-to-Peer</li>
+</ul>
+<h2>Compatible Systems</h2>
+<p>Device is compatible with the following operating systems</p>
+<ul>
+<li>Windows: XP, 7, 8, 10 (All Versions)</li>
+<li>MacOS (All Versions)</li>
+<li>Linux: Debian, Ubuntu, CentOS, etc (All Versions)</li>
+<li>Android: Specific Builds</li>
+</ul>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2>Compatible Tools</h2>
+<p>Device is compatible with LibNFC, including the following tools:</p>
+<ul>
+<li>
+<strong>nfc-mfclassic</strong> (Read/Write MIFARE Classic® 1K or MIFARE Classic® 4K, and MIFARE Classic® "Magic" UID cards)</li>
+<li>
+<strong>nfc-mfsetuid</strong> (Set the UID on MIFARE Classic® "Magic" UID cards)</li>
+<li>
+<strong>nfc-mfultralight</strong> (Read/Write MIFARE Ultralight / MIFARE Ultralight EV1, NTAG etc cards)</li>
+<li>
+<strong>mfoc</strong> (MIFARE Classic® 1K / 4K cracking with known key)</li>
+<li>
+<strong>mfcuk</strong> (MIFARE Classic® 1K / 4K cracking without known key)</li>
+</ul>
+</div>
+</div>
+<div class="grid">
+<div class="grid-item small--one-third medium--one-third large--one-third text-center">
+<h4>Covert</h4>
+<p>Slim form-factor allows for covert concealment (briefcase, backpack, books, under desks, etc)</p>
+</div>
+<div class="grid-item small--one-third medium--one-third large--one-third text-center">
+<h4>Works with your hardware</h4>
+<p>Works on everything - with everything. Windows, Linux, MacOS, Android; Based on the NXP PN533 Chipset - Supports a huge range of cards.</p>
+</div>
+<div class="grid-item small--one-third medium--one-third large--one-third text-center">
+<h4>Huge Operational Distance</h4>
+<p>Read, Write, Sniff and Crack at distances up to 18cm. For red-teams and pentesters, open a new world of practical attacks</p>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>libNFC</s:tag>
+    <s:tag>long distance</s:tag>
+    <s:tag>long range</s:tag>
+    <s:tag>mfcuk</s:tag>
+    <s:tag>mfoc</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>RFID</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/3948580929647</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">129.00</s:price>
+      <s:sku>DL533N-XL</s:sku>
+      <s:grams>127</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/3948549800047</id>
+    <published>2022-06-20T15:00:35+02:00</published>
+    <updated>2022-06-20T15:00:35+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/usb-rfid-reader-writer-dl533n"/>
+    <title>USB RFID Reader/Writer DL533N</title>
+    <s:type>Reader / Writer</s:type>
+    <s:vendor>D-Logic</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/LibNFC-MFOC-Reader-Writer-cropped.png?v=1581182606"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>D-Logic<br>
+        <strong>Type: </strong>Reader / Writer<br>
+        <strong>Price: </strong>
+            49.99
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h4>Lab401's DL533N - Compact and capable USB 13.56MHz RFID reader/writer</h4>
+<p><strong>The recommended reader for MIFARE® Compatible UID Changeable Tags!</strong></p>
+<p>DL533N has a small form factor to make it the optimal NFC reader and writer for mobile usage. Plug it into your laptop to instantly upgrade your machine with NFC capability.</p>
+<p>Compatible out of the box with LibNFC on Windows, MacOS, Linux and Android, this is a stable RFID reader / writer perfectly suited and tested with our badges.</p>
+<p>The DL533N is compact and portable, and is a vital part of any RFID / NFC testing toolkit.</p>
+<div class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2>Specifications</h2>
+<p>Operates in the following modes:</p>
+<ul>
+<li>ISO/IEC 14443A/MIFARE® Reader/Writer</li>
+<li>FeliCa Reader/Writer</li>
+<li>ISO/IEC 14443B Reader/Writer</li>
+<li>ISO/IEC 14443A/MIFARE Classic® 1K or MIFARE Classic® 4K emulation</li>
+<li>FeliCa Card emulation</li>
+<li>ISO/IEC 18092, ECMA 340 Peer-to-Peer</li>
+</ul>
+<h2>Compatible Systems</h2>
+<p>Device is compatible with the following operating systems</p>
+<ul>
+<li>Windows: XP, 7, 8, 10 (All Versions)</li>
+<li>MacOS (All Versions)</li>
+<li>Linux: Debian, Ubuntu, CentOS, etc (All Versions)</li>
+<li>Android: Specific Builds</li>
+</ul>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2>Compatible Tools</h2>
+<p>Device is compatible with LibNFC, including the following tools:</p>
+<ul>
+<li>
+<strong>nfc-mfclassic</strong> (Read/Write MIFARE Classic® 1K or MIFARE Classic® 4K, and MIFARE Classic® "Magic" UID cards)</li>
+<li>
+<strong>nfc-mfsetuid</strong> (Set the UID on MIFARE Classic® "Magic" UID cards)</li>
+<li>
+<strong>nfc-mfultralight</strong> (Read/Write MIFARE Ultralight / MIFARE Ultralight EV1, NTAG etc cards)</li>
+<li>
+<strong>mfoc</strong> (MIFARE Classic® 1K / 4K cracking with known key)</li>
+<li>
+<strong>mfcuk</strong> (MIFARE Classic® 1K / 4K cracking without known key)</li>
+</ul>
+</div>
+</div>
+<div class="grid">
+<div class="grid-item small--one-third medium--one-third large--one-third text-center">
+<h4>Compact</h4>
+<p>Fully functional RFID R/W unit that fits easily into your pocket. Never be caught without your tools.</p>
+</div>
+<div class="grid-item small--one-third medium--one-third large--one-third text-center">
+<h4>Works with your hardware</h4>
+<p>Works on everything - with everything. Windows, Linux, MacOS, Android; Based on the NXP PN533 Chipset - Supports a huge range of cards.</p>
+</div>
+<div class="grid-item small--one-third medium--one-third large--one-third text-center">
+<h4>Works with your toolkit</h4>
+<p>Out of the box support for LibNFC - so supports all your favourite tools: mfoc, mfcuk, RFIDIOt, pssi.. everything you need.</p>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>libNFC</s:tag>
+    <s:tag>mfcuk</s:tag>
+    <s:tag>mfoc</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>RFID</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/3948549800047</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">49.99</s:price>
+      <s:sku>DL533N-STICK</s:sku>
+      <s:grams>15</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/3967634964591</id>
+    <published>2022-06-20T15:00:34+02:00</published>
+    <updated>2022-06-20T15:00:34+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/proxmark-3-rdv4-01-upgraded-replacement-antenna"/>
+    <title>Proxmark 3 RDV4.01- Upgrade / Replacement Antenna</title>
+    <s:type>Proxmark</s:type>
+    <s:vendor>RRG</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/Proxmark-3-RDV-4.1-Back---New-Antenna.png?v=1567198154"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>RRG<br>
+        <strong>Type: </strong>Proxmark<br>
+        <strong>Price: </strong>
+            24.99
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2><strong>Introduction</strong></h2>
+<p>One of the advantages of the Proxmark 3 RDV4.01 is its enhanced built-in antenna system, which includes the new "Q-Switch" and "F-Switch" functionality on the LF Antenna, and the improved performance of the HF Antenna.</p>
+<p>Users with the original Proxmark 3 RDV4 (Original Antennas) can upgrade their antennas without having to purchase an entirely new device.</p>
+<p>Meticulously engineered with 6-layer PCBs, featuring a <strong>Frequency Switch</strong> and <strong>Q Switch</strong> - enabling targeting of specific frequencies and badge types.</p>
+<p><strong>Q-Switch</strong><br>The Q-Switch has two settings: 14 (Extended Range) and 7 (Extended Accuracy).</p>
+<p><strong>A Q-Switch setting of 14</strong> will give up to 30% further read range (on lf search / lf hid read etc commands).</p>
+<p><strong>A Q-Switch setting of 7</strong> will give better writing performance on T55XX and EM410XX tags.</p>
+<p><strong>Frequency Switch</strong></p>
+<p>The frequency switch allows for tuning to specific tag types: 125KHz or 134KHz.</p>
+<div class="grid">
+<div class="grid-item small--one-fifth medium--one-fifth large--one-fifth text-center"></div>
+</div>
+<div class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x LF Antenna (Q-Switch &amp; F-Switch)</li>
+<li>1x HF Antenna</li>
+</ul>
+<h2><strong>Shipping &amp; Packaging</strong></h2>
+<ul>
+<li>Each item is dispatched from <strong>Europe</strong> - no need to worry about slow shipping times, import duties or damaged goods.</li>
+<li>Packed in sturdy packaging.</li>
+<li>We provide worldwide shipping with express options.</li>
+</ul>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>Compatible Systems</strong></h2>
+<ul>
+<li><a href="/collections/hardware/products/proxmark-3-rdv4">Proxmark 3 RDV 4</a></li>
+</ul>
+<h2><strong></strong></h2>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>antenna</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>proxmark</s:tag>
+    <s:tag>Proxmark 3 RDV4</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/3967634964591</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">24.99</s:price>
+      <s:sku>PM3-RDV4-UPGRADE-ANTENNA</s:sku>
+      <s:grams>8</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/3967479677039</id>
+    <published>2022-06-20T15:00:34+02:00</published>
+    <updated>2022-06-20T15:00:34+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/proxmark-3-rdv4-01-long-range-lf-antenna-pack"/>
+    <title>Proxmark 3 RDV4.01- Long Range LF Antenna Pack</title>
+    <s:type>Proxmark</s:type>
+    <s:vendor>RRG</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/Proxmark-3-RDV-4.1-LF-Antenna-Box.png?v=1567172987"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>RRG<br>
+        <strong>Type: </strong>Proxmark<br>
+        <strong>Price: </strong>
+            79.99
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2><strong>Introduction</strong></h2>
+<p>The Proxmark 3 RDV4 has a modular antenna system, allowing for antennas to be hot-swapped depending on your assignment requirements.</p>
+<p>The Long Range LF External Antenna Pack containts two high performance, pre-tuned for antennas the Proxmark 3 RDV4, providing the highest read/write/sniff performance possible on an un-amplified external antenna.</p>
+<p>Meticulously engineered with 6-layer PCBs, featuring a <strong>Frequency Switch</strong> and <strong>Q Switch</strong> - enabling targeting of specific frequencies and badge types.</p>
+<p><strong>Q-Switch</strong><br>The Q-Switch has two settings: 14 (Extended Range) and 7 (Extended Accuracy).</p>
+<p><strong>A Q-Switch setting of 14</strong> will give up to 30% further read range (on lf search / lf hid read etc commands).</p>
+<p><strong>A Q-Switch setting of 7</strong> will give better writing performance on T55XX and EM410XX tags.</p>
+<p><strong>Frequency Switch</strong></p>
+<p>The frequency switch allows for tuning to specific tag types: 125KHz or 134KHz.</p>
+<p>Performance information is below:</p>
+<table class="table table-striped table-bordered">
+<thead>
+<tr>
+<th>Antenna Type</th>
+<th>Read Distance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>LF Read Range (Built-in)</td>
+<td>66 - 72mm</td>
+</tr>
+<tr>
+<td><strong>LF Read Range (medium antenna)</strong></td>
+<td>90mm</td>
+</tr>
+<tr>
+<td><strong>LF Read Range (long range antenna)</strong></td>
+<td><strong>110 - 133mm</strong></td>
+</tr>
+</tbody>
+</table>
+<h2><strong></strong></h2>
+<div class="grid">
+<div class="grid-item small--one-fifth medium--one-fifth large--one-fifth text-center"></div>
+</div>
+<div class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x Long Range Antenna</li>
+<li>1x Medium Range Antenna</li>
+</ul>
+<ul></ul>
+<h2><strong>Shipping &amp; Packaging</strong></h2>
+<ul>
+<li>Each item is dispatched from <strong>Europe</strong> - no need to worry about slow shipping times, import duties or damaged goods.</li>
+<li>Packed in sturdy packaging.</li>
+<li>We provide worldwide shipping with express options.</li>
+</ul>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>Compatible Systems</strong></h2>
+<ul>
+<li><a href="/collections/hardware/products/proxmark-3-rdv4">Proxmark 3 RDV 4.01</a></li>
+</ul>
+<h2><strong></strong></h2>
+</div>
+</div>
+<h2><strong>Long Range LF Antenna Pack Unboxing<br></strong></h2>
+<figure><video lite-youtube="" videoid="f3ex7UkvVHs" posterquality="maxresdefault" params="rel=0"></video></figure></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>antenna</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>proxmark</s:tag>
+    <s:tag>Proxmark 3 RDV4</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/3967479677039</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">79.99</s:price>
+      <s:sku>PM3-RDV4-LF-PACK</s:sku>
+      <s:grams>50</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/4096297893999</id>
+    <published>2022-06-20T15:00:33+02:00</published>
+    <updated>2022-06-20T15:00:33+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/shark-jack"/>
+    <title>Shark Jack</title>
+    <s:type>Pen Testing</s:type>
+    <s:vendor>Hak5</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/Shark-Jack-Cable.png?v=1656347417"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hak5<br>
+        <strong>Type: </strong>Pen Testing<br>
+        <strong>Price: </strong>
+            150.00 - 160.00
+            <a href="https://lab401.com/products/shark-jack">(2 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>Introduction</h2>
+<p><strong>The Hak5 Shark Jack</strong> is a powerful keyring-sized network auditor. <br><strong></strong>Always ready for opportunistic engagements or when advanced physical access is unavailable - the Shark Jack provides and automated scriptable environment and even packs an SSH shell.</p>
+<p>Comes in two versions: the Shark Jack Standalone or Shark Jack Cable.</p>
+<h2><strong>Functionality at a glance<br></strong></h2>
+<p>Optimised for Penetration Testers and System Administrators, the Shark Jack is designed for discrete, rapid network reconnaissance, exfiltration and automation.</p>
+<p>The Shark Jack draws from the field-proven Hak5 hardware framework: The Hak5 Payload Architecture, Multi-mode operation (Arm / Attack), LED feedback, simplified data exfiltration and a fully-featured SSH shell.</p>
+<p>The default payload performs an nmap scan of the target network, saving data to the device for simple exfiltration.</p>
+<p>The <strong>Shark Jack Standalone</strong> is powered by an internal Li-ion battery, which can be rapidly charged via the USB-C port. At full charge, the device will provide an impressive 10 - 15 minutes of fully standalone operation.</p>
+<p>The <strong>Shark Jack Cable</strong> provides unlimited power via the USB-C Cable, and also provides the following extra functionality:</p>
+<ul>
+<li>Live Serial Output over USB-C</li>
+<li>Real-time interactive shell for on-the-fly payload tweaks</li>
+<li>Automatic firmware updates.</li>
+</ul>
+<div style="margin: 2em 3em;" class="grid">
+<div class="grid-item small--one-whole medium--one-whole large--one-quarter text-center">
+<h3>Seriously Small</h3>
+<p>Always-Ready keyring form-factor</p>
+</div>
+<div class="grid-item small--one-whole medium--one-whole large--one-quarter text-center">
+<h3>Single Switch Operation</h3>
+<p>One switch to attack, one to exfiltrate.</p>
+</div>
+<div class="grid-item small--one-whole medium--one-whole large--one-quarter text-center">
+<h3>Fully Scriptable</h3>
+<p>Create or download payloads rapdily</p>
+</div>
+<div class="grid-item small--one-whole medium--one-whole large--one-quarter text-center">
+<h3>USB-Charging</h3>
+<p>Supports Rapid USB-C Charging</p>
+</div>
+</div>
+<div class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x Hak5 Shark Jack or Shark Jack Cable<br>
+</li>
+<li>1x Quick-Start Guide</li>
+</ul>
+<h2><strong>Technical Specifications<br></strong></h2>
+<ul>
+<li>Supports Native 10/100/1000 Base-T Fast Ethernet</li>
+<li>SOC: MT7628DAN</li>
+<li>Size: 62 x 21 x 12mm</li>
+<li>1x USB-C Port</li>
+<li>1x RJ45 Port</li>
+<li>Internal Lithium Ion rechargeable battery (Standalone Version)<br>
+</li>
+<li>Cap + Keyring Attachment</li>
+</ul>
+<meta charset="utf-8">
+<h2><strong>Shipping &amp; Packaging</strong></h2>
+<ul>
+<li>Each Shark Jack is dispatched from <strong>Europe</strong> - no need to worry about slow shipping times, import duties or damaged goods.</li>
+<li>Packed in a sturdy compact 85x130x45mm box.</li>
+<li>We provide worldwide shipping with express options.</li>
+</ul>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>Compatible Systems</strong></h2>
+<ul>
+<li>Any system capable of SSH</li>
+<li>
+<a href="https://shop.hak5.org/products/c2" target="_blank">Hak5 Cloud C<sup>2 </sup></a>Compatible</li>
+</ul>
+<h2><strong>Plunder Bug Technical Resources</strong></h2>
+<strong>Getting Started Tutorials</strong>
+<ul>
+<li><a href="https://documentation.hak5.org/shark-jack/getting-started/shark-jack-basics" data-mce-href="https://documentation.hak5.org/shark-jack/getting-started/shark-jack-basics" target="_blank">Shark Jack Basics</a></li>
+<li>
+<a href="https://documentation.hak5.org/shark-jack/beginner-guides">Beginner Guides</a> <em>(4 Articles)</em>
+</li>
+<li>
+<a href="https://documentation.hak5.org/shark-jack/software-updates">Software Updates</a> <em>(2 Articles)</em>
+</li>
+</ul>
+<strong>Payload Development</strong>
+<ul>
+<li>
+<a href="https://documentation.hak5.org/shark-jack/writing-payloads" target="_blank">Payload Development</a> <em>(8 Articles)</em>
+</li>
+<li>
+<a href="https://documentation.hak5.org/shark-jack/managing-payloads">Payload Management</a> <em>(4 Articles)</em>
+</li>
+</ul>
+<strong>Scripts Repository</strong>
+<ul>
+<li><a href="https://github.com/hak5/sharkjack-payloads" target="_blank">Shark Jack GitHub Repository</a></li>
+</ul>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Ethernet</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Hak5</s:tag>
+    <s:tag>Network Sniffer</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>Shark Jack</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/4096297893999</id>
+      <title>Shark Jack Cable</title>
+      <s:price currency="EUR">160.00</s:price>
+      <s:sku>HAK5-SHARKJACK-CABLE</s:sku>
+      <s:grams>50</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/4096297893999</id>
+      <title>Shark Jack Standalone</title>
+      <s:price currency="EUR">150.00</s:price>
+      <s:sku>HAK5-SHARKJACK</s:sku>
+      <s:grams>50</s:grams>
+    </s:variant>
+  </entry>
+</feed>

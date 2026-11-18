@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/collections/ppb-usb-extras.atom"/>
+  <title>Lab401</title>
+  <updated>2022-06-20T15:00:07+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/products/7824765354214</id>
+    <published>2022-06-20T15:00:07+02:00</published>
+    <updated>2022-06-20T15:00:07+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/o-mg-cable-programmer-usb-a"/>
+    <title>O.MG Cable Programmer (USB A+C)</title>
+    <s:type>Pen Testing</s:type>
+    <s:vendor>Hak5</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/2023-OMG-Cable-Programmer---USB-AC_4c8a3ce3-5f75-453a-b2b0-d7a2ccd4b704.png?v=1689850867"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hak5<br>
+        <strong>Type: </strong>Pen Testing<br>
+        <strong>Price: </strong>
+            49.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2><strong>Introduction</strong></h2>
+<p><em>﻿This is the updated (2023 - USB-A + C) version of the product.</em></p>
+<p>The O.MG Cable resembles an ordinary USB-cable with a highly covert secret. Invisibly concealed in the cable is a USB exploit framework allowing for HID-attacks remote via local or remote triggering of custom payloads.<br></p>
+<p>While dormant, the O.MG cable functions as a regular USB Cable: Data Transfer, Recharging, etc. However, when triggered (via smartphone / computer / plugging in) - it executes its preprogrammed payload on the host device.</p>
+<p>Emulating keyboard and mouse actions, payloads are completely customisable, and can be highly targeted.</p>
+<p>Undetectable by firewalls, AV software or visual inspection, the O.MG is an ideal tool for penetration testers, police and government.</p>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>Usage Instructions</strong></h2>
+<p>The O.MG Cable has three distinct modes:</p>
+<ol>
+<li>
+<strong>Programming<br></strong>Because the device acts as a standard USB cable, it needs to be pushed into programming / DFU mode. This is done by using the "Cable Programmer".<br><br>The Cable Programmer is connected to a host device, and the O.MG cable is plugged into the Cable Programmer. <br><br>The O.MG Cable can now be programmed: Its WIFI settings can be configured, and payloads and trigger settings can be uploaded to the device.<br><br>Programming is possible via a web-interface or smartphone app.<br><br>
+</li>
+<li>
+<strong>Deployed<br></strong>The device is 'Deployed' when it is connected to the target machine. <br>It will operate as a standard USB cable, allowing for data transfer and power transfer. It is able to stay in this state indefinitely until it is triggered.<br><br>
+</li>
+<li>
+<strong>Triggered<br></strong>The device is triggered wirelessly via Wifi. It can be triggered by smartphone, or by dedicated remote control.<br>
+</li>
+</ol>
+<ul>
+<ul></ul>
+</ul>
+<ul></ul>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h3>Technical Specifications</h3>
+<meta charset="utf-8">
+<ul>
+<li>
+<strong>Compatibility</strong>
+<ul>
+<li>All USB-A+C O.MG Cables<br>
+</li>
+</ul>
+</li>
+<li>
+<strong>Programming</strong>
+<ul>
+<li>Payload Script: DuckyScript compatible with additional features.<br>
+</li>
+<li>Smartphone interface<br>
+</li>
+<li>In-Browser interface<br>
+</li>
+</ul>
+</li>
+</ul>
+<meta charset="utf-8">
+<h3>Technical Resources:</h3>
+<ul>
+<li><a href="https://o.mg.lol/setup/" target="_blank">O.MG Official Wiki</a></li>
+<li><a href="https://github.com/O-MG/" target="_blank">O.MG Official GitHub</a></li>
+<li><a href="https://hak5.org/discord" target="_blank">O.MG Official Discord</a></li>
+</ul>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Hak5</s:tag>
+    <s:tag>O.MG</s:tag>
+    <s:tag>OMG</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/7824765354214</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">49.00</s:price>
+      <s:sku>HAK5-OMG-PROGRAMMER</s:sku>
+      <s:grams>50</s:grams>
+    </s:variant>
+  </entry>
+</feed>

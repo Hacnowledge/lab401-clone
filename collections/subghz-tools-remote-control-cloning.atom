@@ -1,0 +1,1459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/collections/subghz-tools-remote-control-cloning.atom"/>
+  <title>Lab401</title>
+  <updated>2026-09-09T15:43:31+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/products/10190988738907</id>
+    <published>2026-09-09T15:43:31+02:00</published>
+    <updated>2026-09-09T15:43:31+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/pandwarf-kaiju-license"/>
+    <title>PandwaRF Kaiju Pro License</title>
+    <s:type></s:type>
+    <s:vendor>Comthings</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Kaiju-Pro.png?v=1762463261"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Comthings<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            290.00 - 5799.00
+            <a href="https://lab401.com/products/pandwarf-kaiju-license">(4 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Kaiju is PandwaRF's <b>rolling-code platform</b>. It's a <b>highly-advanced tool</b> for identifying, decoding, cloning and manipulating remote control signals. Users can upload captured signals, and Kaiju will identify the device and provide a complete analysis: brand, model, serial number, sync number, cipher, etc.</p>
+<p>The platform can also generate next and future rolling codes, new blank remotes, and even perform signal inversion: turning a "close" command into an "open" signal.</p>
+<p>While Kaiju's free-tier will meet the needs for individual or ad-hoc users, professional &amp; power users can unlock advanced functionality and increased quotas.</p>
+<p>There are two Pro licenses available: <b>Gate Openers Pro</b> and <b>Secure Decrypt Pro</b>.<br>Licenses come in two types: <b>1 year</b> and <b>lifetime</b>. Customers receive <b>all new features and remotes</b> through the lifetime of their license at <b>no extra cost</b>.</p>
+<p>The following features are enabled with the <b>Gate Openers Pro</b> license:</p>
+<ul>
+<li>
+<b>Increased Quotas</b> for all operations (decrypt, analyse, generate, clone..)</li>
+<li>
+<b>SDR IQ Support</b>: Accepts raw captures from any SDR device</li>
+<li>
+<b>Flipper Zero Input</b>: Accepts .sub file captures from the Flipper Zero</li>
+<li>
+<b>Flipper Zero Generation</b>: Generates .sub files compatible with the Flipper Zero</li>
+<li>
+<b>Advanced Analysis</b>: Analyse data entropy and identify repeating patterns or hidden periodicity within a signal</li>
+<li>
+<b>REST API Access</b>: Automate rolling code pipelines via API</li>
+<li>
+<b>Python Module</b>: RFCat/YardStickOne Python Modules</li>
+<li>
+<b>Keeloq Calculator</b>: Interactive Keeloq Encrypt/Decrypt Calculator</li>
+</ul>
+<p><b>Secure Decrypt Pro</b> is an add-on license that adds support for <b>33+ Keeloq Secure remote controls</b> and <b>KeeLoq Seed Brute Forcing</b>.<br></p>
+<ul>
+<li>
+<b>BFT</b>: Mitto, Mitto BRCB, MittoM, BRC B Clear ICE, BRC B VINEYARD, KLEIO, RB</li>
+<li>
+<b>Erreka</b>: IRIS 433, IRIS 868, LIRA 433, LIRA 868, ROLLER 2, ROLLER 2 868, ROLLER 4, ROLLER 4 868, SOL433, SOL868, Vega 433, Vega 868</li>
+<li>
+<b>FAAC</b>: DL 868 SLH, XT 433 SLH, XT 868 SLH, TML 433 SLH, TML 433 SLR, SLH</li>
+<li>
+<b>Genius/Casali</b>: AMIGOLD, JA332 AMIGO, JA40, AMIGO, KILO, Amigo</li>
+</ul>
+<div class="infoBoxContainer">
+<!-- Left Box (60% width) -->
+<div class="infoBox infoBox--left">
+<div class="infoBox__content">
+<div class="infoBox__textContent">
+<div class="infoBox__header">Pssst .. want Kaiju Pro access for free?</div>
+<div class="infoBox__body">
+<p>Lab401 customers get <b>1-year of Kaiju Pro for free</b> with every PandwaRF device purchased! PandwaRF devices are deeply integrated with Kaiju - meaning everything from capture to cloning is automatic!</p>
+<p><strong>Offer only available at Lab401.com!</strong></p>
+</div>
+</div>
+<div class="infoBox__imageWrapper"><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Kaiju-Character.png?v=1760189605" alt="Kaiju mascot" class="infoBox__image--overlapping"></div>
+</div>
+</div>
+<!-- Right Box (40% width) -->
+<div class="infoBox infoBox--right">
+<div class="infoBox__content">
+<div class="infoBox__textContent">
+<div class="infoBox__header">Meet the Rogue Pro</div>
+<div class="infoBox__body">
+<p>It's a purpose-built device for remote signal capture, cracking and cloning - and has Kaiju built in!</p>
+</div>
+<div class="infoBox__cta"><a rel="noopener" href="/products/pandwarf-rogue-pro" target="_blank">VISIT NOW &gt;</a></div>
+</div>
+<div class="infoBox__imageWrapper"><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Rogue-Pro-Mini-Thumb.png?v=1760189604" alt="PandwaRF Rogue Pro" class="infoBox__image--internal"></div>
+</div>
+</div>
+</div>
+<h2 style="margin-top: 2em;">Feature Comparison</h2>
+<div class="comparisonTable-pricing-container">
+<!-- Free Tier -->
+<div class="comparisonTable-pricing-column comparisonTable-free-tier">
+<h2 class="comparisonTable-tier-title">KAIJU FREE</h2>
+<p class="comparisonTable-tier-subtitle">Perfect for hobbyist and individuals for infrequent use. Uses must demodulate their own signals.</p>
+<div class="comparisonTable-price-container">
+<p class="comparisonTable-price-detail">Totally free for everyone</p>
+</div>
+<ul class="comparisonTable-feature-list">
+<li class="comparisonTable-feature-item comparisonTable-feature-partial">
+<span class="comparisonTable-feature-icon">⁄</span> Daily Quick Analysis: 3</li>
+<li class="comparisonTable-feature-item comparisonTable-feature-partial">
+<span class="comparisonTable-feature-icon">⁄</span> Monthly Quick Analysis: 10</li>
+<li class="comparisonTable-feature-item comparisonTable-feature-partial">
+<span class="comparisonTable-feature-icon">⁄</span> Daily Full Analysis: 5</li>
+<li class="comparisonTable-feature-item comparisonTable-feature-partial">
+<span class="comparisonTable-feature-icon">⁄</span> Monthly Full Analysis: 20</li>
+<li class="comparisonTable-feature-item comparisonTable-feature-partial">
+<span class="comparisonTable-feature-icon">⁄</span> Daily New Remotes: 5</li>
+<li class="comparisonTable-feature-item comparisonTable-feature-partial">
+<span class="comparisonTable-feature-icon">⁄</span> Monthly New Remotes: 20</li>
+<li class="comparisonTable-feature-item comparisonTable-feature-partial">
+<span class="comparisonTable-feature-icon">⁄</span> Daily Rolling Codes: 5</li>
+<li class="comparisonTable-feature-item comparisonTable-feature-partial">
+<span class="comparisonTable-feature-icon">⁄</span> Monthly Rolling Codes: 20</li>
+<li class="comparisonTable-feature-item comparisonTable-feature-partial">
+<span class="comparisonTable-feature-icon">⁄</span> Future Rolling Codes: 2</li>
+<li class="comparisonTable-feature-item comparisonTable-feature-partial">
+<span class="comparisonTable-feature-icon">⁄</span> Max Input Size: 100b</li>
+<li class="comparisonTable-feature-item comparisonTable-feature-available">
+<span class="comparisonTable-feature-icon">✓</span> HEX Format Support</li>
+<li class="comparisonTable-feature-item comparisonTable-feature-available">
+<span class="comparisonTable-feature-icon">✓</span> Binary Format Support</li>
+</ul>
+</div>
+<div class="comparisonTable-premium-tiers">
+<!-- Business Tier -->
+<div class="comparisonTable-pricing-column comparisonTable-business-tier">
+<h2 class="comparisonTable-tier-title">GATE OPENERS PRO</h2>
+<p class="comparisonTable-tier-subtitle">Adds <b>advanced features &amp; increased quotas</b> for teams, pentesters and professionals.</p>
+<div class="comparisonTable-price-container">
+<p class="comparisonTable-price-detail"><b>12 month</b> or <b>lifetime</b> license</p>
+</div>
+<ul class="comparisonTable-feature-list">
+<li class="comparisonTable-feature-item comparisonTable-feature-available">
+<span class="comparisonTable-feature-icon">🖲️</span> 298+ Rolling Code Remotes</li>
+<li class="comparisonTable-feature-item comparisonTable-feature-available">
+<span class="comparisonTable-feature-icon">✓</span> Daily Quick Analysis: 100</li>
+<li class="comparisonTable-feature-item comparisonTable-feature-available">
+<span class="comparisonTable-feature-icon">✓</span> Monthly Quick Analysis: 1000</li>
+<li class="comparisonTable-feature-item comparisonTable-feature-available">
+<span class="comparisonTable-feature-icon">✓</span> Daily Full Analysis: 50</li>
+<li class="comparisonTable-feature-item comparisonTable-feature-available">
+<span class="comparisonTable-feature-icon">✓</span> Monthly Full Analysis: 500</li>
+<li class="comparisonTable-feature-item comparisonTable-feature-available">
+<span class="comparisonTable-feature-icon">✓</span> Daily New Remotes: 50</li>
+<li class="comparisonTable-feature-item comparisonTable-feature-available">
+<span class="comparisonTable-feature-icon">✓</span> Monthly New Remotes: 500</li>
+<li class="comparisonTable-feature-item comparisonTable-feature-available">
+<span class="comparisonTable-feature-icon">✓</span> Daily Rolling Codes: 100</li>
+<li class="comparisonTable-feature-item comparisonTable-feature-available">
+<span class="comparisonTable-feature-icon">✓</span> Monthly Rolling Codes: 2000</li>
+<li class="comparisonTable-feature-item comparisonTable-feature-available">
+<span class="comparisonTable-feature-icon">✓</span> Future Rolling Codes: 20</li>
+<li class="comparisonTable-feature-item comparisonTable-feature-available">
+<span class="comparisonTable-feature-icon">✓</span> Max Input Size: 2k</li>
+<li class="comparisonTable-feature-item comparisonTable-feature-available">
+<span class="comparisonTable-feature-icon">✓</span> HEX Format Support</li>
+<li class="comparisonTable-feature-item comparisonTable-feature-available">
+<span class="comparisonTable-feature-icon">✓</span> Binary Format Support</li>
+<li class="comparisonTable-feature-item comparisonTable-feature-available">
+<span class="comparisonTable-feature-icon">✓</span> SDR .IQ File Support</li>
+<li class="comparisonTable-feature-item comparisonTable-feature-available">
+<span class="comparisonTable-feature-icon">✓</span> Flipper Zero Support</li>
+<li class="comparisonTable-feature-item comparisonTable-feature-available">
+<span class="comparisonTable-feature-icon">✓</span> Data Pulse Format Support</li>
+<li class="comparisonTable-feature-item comparisonTable-feature-available">
+<span class="comparisonTable-feature-icon">✓</span> Keeloq Support</li>
+<li class="comparisonTable-feature-item comparisonTable-feature-available">
+<span class="comparisonTable-feature-icon">✓</span> REST API</li>
+<li class="comparisonTable-feature-item comparisonTable-feature-unavailable">
+<span class="comparisonTable-feature-icon">✓</span> KeeLoq Calculator</li>
+<li class="comparisonTable-feature-item comparisonTable-feature-unavailable">
+<span class="comparisonTable-feature-icon">✓</span> Advanced Data Analysis</li>
+<li class="comparisonTable-feature-item comparisonTable-feature-unavailable">
+<span class="comparisonTable-feature-icon">✗</span> Secure Decrypt</li>
+<li class="comparisonTable-feature-item comparisonTable-feature-unavailable">
+<span class="comparisonTable-feature-icon">✗</span> KeeLoq Seed Brute Forcing</li>
+</ul>
+</div>
+<!-- Enterprise Tier -->
+<div class="comparisonTable-pricing-column comparisonTable-enterprise-tier">
+<h2 class="comparisonTable-tier-title">Secure Decrypt Pro</h2>
+<p class="comparisonTable-tier-subtitle">Secure Decrypt is an <b>add-on</b> that adds support for 33+ Secure KeeLoq Remotes</p>
+<div class="comparisonTable-price-container">
+<p class="comparisonTable-price-detail"><b>12 month</b> or <b>lifetime</b> license</p>
+</div>
+<ul class="comparisonTable-feature-list">
+<li class="comparisonTable-feature-item comparisonTable-feature-available">
+<span class="comparisonTable-feature-icon">✨</span> Secure Decrypt</li>
+<li class="comparisonTable-feature-item comparisonTable-feature-available">
+<span class="comparisonTable-feature-icon">✨</span> KeeLoq Seed Brute Forcing</li>
+<li class="comparisonTable-feature-item comparisonTable-feature-available">
+<span class="comparisonTable-feature-icon">🖲️</span> 33+ KeeLoq Remotes</li>
+<li class="comparisonTable-feature-item comparisonTable-feature-available">
+<span class="comparisonTable-feature-icon">✓</span> Daily Rolling Codes: 100</li>
+<li class="comparisonTable-feature-item comparisonTable-feature-available">
+<span class="comparisonTable-feature-icon">✓</span> Monthly Rolling Codes: 2000</li>
+<li class="comparisonTable-feature-item comparisonTable-feature-available">
+<span class="comparisonTable-feature-icon">✓</span> Future Rolling Codes: 20</li>
+<li class="comparisonTable-feature-item comparisonTable-feature-available">
+<span class="comparisonTable-feature-icon">✓</span> Max Input Size: 2k</li>
+<li class="comparisonTable-feature-item comparisonTable-feature-available">
+<span class="comparisonTable-feature-icon">✓</span> REST API</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- End Pricing Table -->
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2>Gate Openers Pro Devices</h2>
+Adds <b>advanced features &amp; increased quotas</b> for teams, pentesters and professionals.
+<ul>
+<li>
+<b>ACM</b>: TX4, TX2 COLOR, TX2 SMALL</li>
+<li>
+<b>AERF</b>: Sabuton, Tmp, Tmp-1, Tmp-2, Hydom, Medva, Other</li>
+<li>
+<b>AN-motors</b>: AT-4, AT-4B, AT-4A, AT-4N</li>
+<li>
+<b>ATA</b>: PTX4</li>
+<li>
+<b>Aprimatic</b>: TR, TM 4</li>
+<li>
+<b>Aprimatic</b>: TX-E, TX4E, TXE</li>
+<li>
+<b>Aprimatic</b>: TXM, TX4S, TX2P</li>
+<li>
+<b>Avidsen</b>: 104250, 104250 OLD2, 104250 RED, 614701, 104257, 104350, 104700, 654100, 654300, RMC-1LM 664700, 654250, 104250 BLUE, 104250 NOIR, 504257 White</li>
+<li>
+<b>BFT</b>: Mitto, Mitto BRCB, MittoM, BRC B Clear ICE, BRC B VINEYARD, KLEIO, RB</li>
+<li>
+<b>Beninca/Allmatic</b>: APPLE, CUPIDO, IO, LOT WCV, ROLLKEY, T4WK, T4WV, TOGO WK, TOGO WV, B.ROxWN, TECH3 PLUS, B.RO STAR, B.RO OVER</li>
+<li>
+<b>CLEMSA</b>: Mutancode, Mutancode 433, Mutancode 868, Mutancode Mini 433, Mutancode Mini 868</li>
+<li>
+<b>Came</b>: Atomo EV, Ato, Atomo</li>
+<li>
+<b>Cardin</b>: S435, S437 TX</li>
+<li>
+<b>Cardin FM</b>: S449, S449 QZ, S449 QZP, S449 QZPNEW</li>
+<li>
+<b>Celinsa</b>: MoveCode, X-2, Z-2</li>
+<li>
+<b>Centurion</b>: NOVA-TX</li>
+<li>
+<b>Chamberlain</b>: 5433E, 94334E, 94335E, 94335E-OLD, 94335EML, 9433E, V1</li>
+<li>
+<b>Chamberlain</b>: 891LM, 892LM, 893LM, 891MAX, 892MAX, 893MAX, 951EV, 952EV, 953EV, V2</li>
+<li>
+<b>DEA</b>: Genie R 273, GOLDR, GOLDS, GT2, GTI2, GTI4, GTI2M, GTI4M</li>
+<li>
+<b>DTM Poland</b>: Neo</li>
+<li>
+<b>Ditec</b>: BIXLG, BIXLP, GOL4, STYLO2K*, STYLO4K*</li>
+<li>
+<b>Doormatic</b>: MILENY</li>
+<li>
+<b>E.T. Systems</b>: ET-Blu Mix, ET-Blue, BLUE, MIX</li>
+<li>
+<b>Ecostar</b>: RSC, RSE, RSZ</li>
+<li>
+<b>Elvox</b>: ERT 1, ETR 2, ETR 4, ETR 5</li>
+<li>
+<b>Erreka</b>: IRIS 433, IRIS 868, LIRA 433, LIRA 868, ROLLER 2, ROLLER 2 868, ROLLER 4, ROLLER 4 868, SOL433, SOL868, Vega 433, Vega 868</li>
+<li>
+<b>FAAC</b>: RC, XT 433 RC</li>
+<li>
+<b>Fadini</b>: Birio, Jubi 433, Jubi Small</li>
+<li>
+<b>GSN</b>: TXRC09</li>
+<li>
+<b>Genius</b>: Bravo/Echo</li>
+<li>
+<b>Genius RC</b>: Bravo, ECHO TX RC</li>
+<li>
+<b>Genius/Casali</b>: Amigo, AMIGOLD, JA332 AMIGO, JA40, AMIGO, KILO</li>
+<li>
+<b>Gibidi</b>: AU1600, AU1680, Domino</li>
+<li>
+<b>Go</b>: Jcm, Forsa, Roper, Emfa, Hibrid, Dmil, Nueva Castilla, Cyacsa, Hydom, Baleato, Noratek, Zibor, Norton, Gibidi, Cubells, +Kom, Caren</li>
+<li>
+<b>Intratone</b>: 09-01xx</li>
+<li>
+<b>Iron general/Steelmate</b>: HCS201</li>
+<li>
+<b>JCM Gen1</b>: JCM Tech, Forsa/O&amp;O, GO FORSA, Emfa, GO EMFA, Hybrid Plus, GO HYBRID PLUS, DMIL, GO DMIL, Nueva Castilla, GO NUEVA CASTILLA , Hydom, GO HYDOM, Zibor, GO ZIBOR, Neo/Sagem(Tabaco), Cubells, GO CUBELLS, Norton, Cyacsa, Gandara, Gibidi, Gibidi, Cas, Puertas Lorenzo, Baleato, Antonio Oneca, GO-2, ServiParking, NEO SERVIPARKING, Pujol, GO PUJOL, Other, NEO20-ACC</li>
+<li>
+<b>JCM Gen2</b>: Cubells, Norton, +KOM, TPH, Roper, Others</li>
+<li>
+<b>Key</b>: TXB-42R, TXG-44R</li>
+<li>
+<b>Linear</b>: HCS, HCS TX2T-A, HCS TX3T-A, HCS TX4T-A</li>
+<li>
+<b>MHouse</b>: GTX, GTXC, Moovo MT4G, Moovo MT4V, RT3, TX4</li>
+<li>Mc Garcia:</li>
+<li>
+<b>Merlin</b>: M830/M230</li>
+<li>
+<b>Motorline</b>: MX4SP</li>
+<li>
+<b>Nice</b>: FloR, ERA-FLOR, INTI, ON, ON4E, VERY-VR</li>
+<li>
+<b>Nice</b>: ONE, ON ERA, INTI, ERGO, PLANO</li>
+<li>
+<b>Nice</b>: Smilo, SMILO SM2, SMILO SM4</li>
+<li>
+<b>Normstahl/Entrematic</b>: EA433-K, EA4333-KM, RCU433-K, T433</li>
+<li>
+<b>Novoferm-Crawford</b>: Novoferm/Tormatic, MCHS, MNHS, NOVOTRON, EA433K, EA433KM, T-433, Crawford/Normsthal</li>
+<li>
+<b>Peccinin</b>: 3C</li>
+<li>
+<b>Prastel</b>: BFOR, MPSTLE, MPSTPE, MTE, TC4E</li>
+<li>
+<b>Pujol</b>: Vario, Neo, TWIN, Universal, VARIO, VARIO MARS, VARIO OCEAN, VARIO SECURE</li>
+<li>
+<b>Roper</b>: Go, Mini Go, Neo</li>
+<li>
+<b>Rossi</b>: CT</li>
+<li>
+<b>SEA</b>: HEAD, COCCINELLA ROLL</li>
+<li>
+<b>SEAV</b>: BE GOOD, HAPPY RH, HAPPY RS</li>
+<li>
+<b>Silvelox</b>: ECO-TSM2, Mhz 2007, QUARZ SAW, 3400155</li>
+<li>
+<b>Skymaster/Doorhan</b>: MHZ, MHZ00, TX4</li>
+<li>
+<b>Sminn</b>: BALEA, DUO, DUPLO, QUATRO</li>
+<li>
+<b>Somfy</b>: Keasy</li>
+<li>
+<b>Somfy</b>: Keytis, Keytis RTS, Keytis RTS NS</li>
+<li>
+<b>Somfy</b>: Telis, Telis RTS, Telis RTS Negro, Telis RTS Patio, Telis RTS Pure</li>
+<li>
+<b>Sommer</b>: TCX3-868-4, 4020, 4026, 4031, 4025, 4025 433, 4025 868 BLACK, 4025 868 BLUE</li>
+<li>
+<b>Space</b>: SP</li>
+<li>
+<b>Stagnoli</b>: KALLISTO, VENUS</li>
+<li>
+<b>Telcoma</b>: FM, FM402, NOIRE</li>
+<li>
+<b>V2</b>: HANDY, Match, PHOENIX, PHOENIX NEGRO, PHOX, TRC, TSC, TXC</li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2>Secure Decrypt Devices</h2>
+<b>Adds the following KeeLoq Remotes</b> and <b>KeeLoq Seed Brute Forcing</b>
+<ul>
+<li>
+<b>BFT</b>: Mitto, Mitto BRCB, MittoM, BRC B Clear ICE, BRC B VINEYARD, KLEIO, RB</li>
+<li>
+<b>Erreka</b>: IRIS 433, IRIS 868, LIRA 433, LIRA 868, ROLLER 2, ROLLER 2 868, ROLLER 4, ROLLER 4 868, SOL433, SOL868, Vega 433, Vega 868</li>
+<li>
+<b>FAAC</b>: DL 868 SLH, XT 433 SLH, XT 868 SLH, TML 433 SLH, TML 433 SLR, SLH</li>
+<li>
+<b>Genius/Casali</b>: AMIGOLD, JA332 AMIGO, JA40, AMIGO, KILO, Amigo</li>
+</ul>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Remote</s:tag>
+    <s:tag>RF</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10190988738907</id>
+      <title>Gate Opener Pro / 1 Year</title>
+      <s:price currency="EUR">290.00</s:price>
+      <s:sku>KAIJU-GATE-OPENER-PRO-1-YEAR</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/10190988738907</id>
+      <title>Gate Opener Pro / Lifetime</title>
+      <s:price currency="EUR">1699.00</s:price>
+      <s:sku>KAIJU-GATE-OPENER-PRO-LIFETIME</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/10190988738907</id>
+      <title>Secure Decrypt Pro / 1 Year</title>
+      <s:price currency="EUR">990.00</s:price>
+      <s:sku>KAIJU-SECURE-DECRYPT-PRO-1-YEAR</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/10190988738907</id>
+      <title>Secure Decrypt Pro / Lifetime</title>
+      <s:price currency="EUR">5799.00</s:price>
+      <s:sku>KAIJU-SECURE-DECRYPT-PRO-LIFETIME</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/10151648428379</id>
+    <published>2026-09-09T15:43:11+02:00</published>
+    <updated>2026-09-09T15:43:11+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/pandwarf-rogue-pro"/>
+    <title>PandwaRF Rogue Pro</title>
+    <s:type>RF</s:type>
+    <s:vendor>Comthings</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/2023-Rogue-Pro.png?v=1761138678"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Comthings<br>
+        <strong>Type: </strong>RF<br>
+        <strong>Price: </strong>
+            449.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>Introduction</h2>
+<p>The PandwaRF Rogue Pro is a pocket-sized all-in-one multi-frequency RF remote sniffing/capture/decrypting/cloning solution, that supports all types of modulation, encryption and both fixed and rolling-codes.</p>
+<p>The Rogue Pro has been specifically engineered to meet and exceed the requirements of the pentesters, security auditors and law-enforcement users. Its use case is simple: capture and replicate any remote control. While it is designed to operate autonomously, users retain full control over all aspects of the device's operation via the Android application.</p>
+<h2>Product Overview</h2>
+<p>The Rogue Pro can capture across all standard world-wide remote control frequencies (300MHz - 950MHz). When setup, it will automatically scan, capture, demodulate and label any matching signals for rapid processing via the application.</p>
+<p><b>Rolling-codes are handled</b> via "Kaiju", the Rogue Pro's dedicated online cracking platform. Effortlessly <b>decrypt and decode</b> all elements of a captured signal (brand / model / serial number / sync counter / cipher text / etc), and even <b>transform signals</b> (ie, change a "CLOSE DOOR" signal into an "OPEN DOOR" signal)</p>
+<p>The Rogue Pro can also <b>brute force</b> targets, leveraging a highly optimised brute-force, zero-delay engine that results in <b>30x faster cracking</b> over non-optimised devices.</p>
+<p>For <b>pentesters and professional users</b> the Rogue Pro has functionality vital for field operations: pause &amp; resume cracking and capture, ensuring that an interrupted operation is not a wasted operation. </p>
+<p>Once a target has been cracked, the Rogue Pro acts as a <b>clone of the original remote control</b> - all signal transmissions, even rolling codes are supported: no more desynchronised target devices. </p>
+<p>The Rogue Pro is closely integrated with the <b>PandwaRF Maurauder</b>, PandwaRF's autonomous, covert signal "dead drop" capture device. Data can be exported as JSON from the Marauder to the Rogue Pro easily via the Android Application - making it ideal for coordination and cooperation between teams.</p>
+<div class="infoBoxContainer">
+<!-- Left Box (60% width) -->
+<div class="infoBox infoBox--left">
+<div class="infoBox__content">
+<div class="infoBox__textContent">
+<div class="infoBox__header">Lab401 Advantage: Free Kaiju Pro License</div>
+<div class="infoBox__body">
+<p>Lab401 customers get access to <b>Kaiju Pro for free</b>: faster, more advanced cracking &amp; analysis, more device databases, API access, Flipper compatability and more!</p>
+<p><strong>Offer only available at Lab401.com!</strong></p>
+</div>
+</div>
+<div class="infoBox__imageWrapper"><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Kaiju-Character.png?v=1760189605" alt="Kaiju mascot" class="infoBox__image--overlapping"></div>
+</div>
+</div>
+<!-- Right Box (40% width) -->
+<div class="infoBox infoBox--right">
+<div class="infoBox__content">
+<div class="infoBox__textContent">
+<div class="infoBox__header">Meet the Marauder</div>
+<div class="infoBox__body">
+<p>The Marauder collects signals; the Rogue Pro cracks, analyses, generates &amp; transmits. Together, they're unbeatable.</p>
+</div>
+<div class="infoBox__cta"><a rel="noopener" href="/products/pandwarf-marauder" target="_blank">VISIT NOW &gt;</a></div>
+</div>
+<div class="infoBox__imageWrapper"><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Rogue-Pro-Mini-Thumb.png?v=1760189604" alt="PandwaRF Rogue Pro" class="infoBox__image--internal"></div>
+</div>
+</div>
+</div>
+<h2 style="margin-top: 3em;">PandwaRF Marauder Demonstration Videos</h2>
+<p><video lite-youtube-playlist params="rel=0" thumb-layout="vertical" auto-play-thumb="true">
+                <video playlist-entry videotitle="PandwaRF Rogue Pro: Generating new rolling codes with Kaiju" videodescription="Detailed demonstration of capturing and generating rolling codes, and dealing with desynchronisation" videoid="3PJw1F_fpP8" posterquality="maxresdefault"><img slot="image" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Signal-Cloning-Thumb.png?v=1760105938">
+                </video>
+				<video playlist-entry params="rel=0" videotitle="PandwaRF Marauder : Signal Capture &amp; Analysis" videodescription="Real-world demonstration of the PandwaRF capturing and analysing signals with Marauder and Kaiju" videoid="cCehUdm3250" posterquality="maxresdefault"><img slot="image" src="https://cdn.shopify.com/s/files/1/2175/8571/files/PandwaRF---Kaiju---Signal-Capture.png?v=1760056115"></video>
+                <video playlist-entry videotitle="Introduction to the Rogue Pro &amp; Kaiju - defeating rolling codes" videodescription="Hands on with the PandwaRF Rogue Pro : Theory and practical examples of rolling code defeat." videoid="RNHS6kfCZKc" posterquality="maxresdefault">
+                </video>
+            </video>
+</p>
+<div class="grid">
+<div class="grid-item small--one-half medium--one-third large--one-half text-left">
+<h4><strong>Technical Specs</strong></h4>
+<strong>Hardware</strong>
+<ul>
+<li>Bluetooth Smart Module ISP130301, based on nRF51</li>
+<li>CC1111 Low-Power SoC with Sub-1 GHz RF Transceiver</li>
+<li>16 Mbit Flash Memory to save custom RF protocols</li>
+<li>Rechargeable battery powered for stand-alone operation</li>
+<li>Real-time battery status</li>
+<li>SMA connector (compatible with a HackRF Antenna, or our antenna)</li>
+<li>4x programmable buttons</li>
+<li>Debug Connectors &amp; GPIO</li>
+</ul>
+<strong>Built in functionality</strong>
+<ul>
+<li>Spectrum Analyser</li>
+<li>Automatically scan, capture, demodulate, replay data</li>
+<li>Capture &amp; decode RF devices (IoT, Remote Controls..)</li>
+<li>Remote Control Brute-Force (RollJam)</li>
+</ul>
+<h4><strong>RF</strong></h4>
+<ul>
+<li>Supports ASK/OOK/MSK/2-FSK/GFSK modulation</li>
+<li>300-928 MHz band</li>
+<li>10000 Bits/s data rate</li>
+<li>Transmit power: +10dBm (w/ inbuilt amps)</li>
+</ul>
+<strong>Expandability</strong>
+<ul>
+<li>Custom functionality Javascript API</li>
+<li>GPIO &amp; Debug pads</li>
+<li>Auto-stream captured data to a remote server</li>
+<li>Modify/share captured data in-app</li>
+</ul>
+</div>
+<div class="grid-item small--one-half medium--one-third large--one-half text-left">
+<h4><strong>What's included</strong></h4>
+<div class="media">
+<strong>Hardware</strong>
+<ul>
+<li>1x PandwaRF Rogue Pro</li>
+<li>1x Battery</li>
+<li>3x Antennas (300-400MHZ, 400-500MHZ, 800-1000MHZ range)</li>
+<li>USB Type-C Cable</li>
+<li>Protective Hard Case</li>
+</ul>
+<p><strong>License</strong></p>
+<ul>
+<li>1-year Pro Kaiju "Gate Openers Pack" License</li>
+</ul>
+<strong></strong>
+<h4><strong>PandwaRF Rogue Pro Resources</strong></h4>
+<strong>Technical Documents</strong>
+<ul>
+<li><a href="https://github.com/ComThings/PandwaRF" target="_blank">PandwaRF Github</a></li>
+<li><a href="https://github.com/ComThings/PandwaRF/wiki">PandraRF Rogue Pro Wiki</a></li>
+<li><a href="https://github.com/ComThings/PandwaRF/wiki/Android-Quick-Start" target="_blank">Android Quick Start</a></li>
+<li><a href="https://github.com/ComThings/PandwaRF/wiki/Hardware-Architecture" target="_blank">Hardware Overview</a></li>
+  <li><a rel="noopener" href="https://rolling.pandwarf.com/" target="_blank">Kaiju: Rolling Code Decoding Service</a></li>
+</ul>
+<strong>Community / Usage / Tutorial Resources</strong>
+<ul>
+<li><a href="https://github.com/ComThings/PandwaRF/wiki/Project-Information-General-Overview">PandwaRF Rogue Pro General Overview</a></li>
+<li><a href="https://github.com/ComThings/PandwaRF/wiki/Project-Information-Possible-Applications">PandwaRF Rogue Pro Example Applications</a></li>
+<li><a href="https://play.google.com/store/apps/details?id=com.comthings.pandwarf" target="_blank">PandwaRF Android App</a></li>
+<li><a href="https://www.youtube.com/channel/UCq028F7CzShaL_Jj0_r85pg">All PandraRF Rogue Pro Demo Videos</a></li>
+<li><a href="https://www.youtube.com/watch?v=UVv4f9vyrOE" target="_blank">Demo 1: Remote Control Duplication</a></li>
+<li><a href="https://www.youtube.com/watch?v=UcC5_mteG1A" target="_blank">Demo 2: Spectrum Analyser</a></li>
+</ul>
+</div>
+</div>
+</div>
+<h3><strong>PandawaRF: Unboxing and Assembly</strong></h3>
+<p><video lite-youtube videoid="gWsyEb8ACQU" posterquality="maxresdefault" params="rel=0"></video></p>
+<div style="margin-top: 3em;">
+<h2><strong>Hands on: PandwaRF</strong></h2>
+<p><video lite-youtube videoid="-Hd3aNJSRdk" posterquality="maxresdefault" params="rel=0"></video></p>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Remote</s:tag>
+    <s:tag>Remote Control</s:tag>
+    <s:tag>RF</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10151648428379</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">449.00</s:price>
+      <s:sku>PANDWARF-ROGUE-PRO</s:sku>
+      <s:grams>250</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/10132271661403</id>
+    <published>2026-09-09T15:43:10+02:00</published>
+    <updated>2026-09-09T15:43:10+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/pandwarf-marauder"/>
+    <title>PandwaRF Marauder</title>
+    <s:type>RF</s:type>
+    <s:vendor>Comthings</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Marauder---Standalone-RF-Capture-Tool.png?v=1760040900"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Comthings<br>
+        <strong>Type: </strong>RF<br>
+        <strong>Price: </strong>
+            790.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>The PandwaRF Marauder is an <strong>standalone RF capture device,</strong> specifically engineered to be <strong>discreetly implanted</strong> and <strong>autonomously capture </strong>RF remote signals over long periods: keyfobs, garage doors, alarms, etc.</p>
+<p>After deployment, it <strong>operates autonomously:</strong> discretely capturing, cataloging and analysing remote signals. It supports dual-frequency simultaneous capture, fixed and rolling-codes, with an internal database of most remote types.</p>
+<p>After retrieval, data can be replayed or exported for analysis, or transferred to the PandwaRF Rogue Pro for further manipulation: signal decryption, rolling code generation and even signal inversion (ie, transforming a "lock" signal into an "unlock" signal).</p>
+<p><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Marauder-Lifecycle-3.png?v=1760048595" alt="">The Marauder is an essential tool for pentesters during the reconnaissance phase, especially when coupled with the Rogue Pro in red-team scenarios.</p>
+<p><strong>The Marauder solves several problems/risks</strong> traditionally associated with RF signal capture:</p>
+<ul>
+   <li>Detection while waiting for signals</li>
+   <li>Not being present / missing the remote signal</li>
+   <li>Unable to be physically close enough to capture signals (ie, inside a garage)</li>
+   <li>Desynchronisation of original remotes</li>
+   <li>Encryption, rolling codes and multiple-signal capture requirements.<br> </li>
+</ul>
+<p>Captures and analysis are discreet; decryption and cracking are automatic via <a rel="noopener" href="https://rolling.pandwarf.com/" target="_blank">Kaiju, PandwaRF's rolling-code platform.</a></p>
+<p>Professional access to the advanced functionalities of the rolling-code analysis platform ("Kaiju") require an annual license.</p>
+<div class="infoBoxContainer">
+   <!-- Left Box (60% width) --> 
+   <div class="infoBox infoBox--left">
+      <div class="infoBox__content">
+         <div class="infoBox__textContent">
+            <div class="infoBox__header">Lab401 Advantage: Free Kaiju Pro License</div>
+            <div class="infoBox__body">
+               <p>Lab401 customers get access to <b>Kaiju Pro for free</b>: faster, more advanced cracking &amp; analysis, more device databases, API access, Flipper compatability and more!</p>
+               <p><strong>Offer only available at Lab401.com!</strong></p>
+            </div>
+         </div>
+         <div class="infoBox__imageWrapper"><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Kaiju-Character.png?v=1760189605" alt="Kaiju mascot" class="infoBox__image--overlapping"></div>
+      </div>
+   </div>
+   <!-- Right Box (40% width) --> 
+   <div class="infoBox infoBox--right">
+      <div class="infoBox__content">
+         <div class="infoBox__textContent">
+            <div class="infoBox__header">Meet the Rogue Pro</div>
+            <div class="infoBox__body">
+               <p>The Marauder collects signals; the Rogue Pro cracks, analyses, generates &amp; transmits. Together, they're unbeatable.</p>
+            </div>
+            <div class="infoBox__cta"><a rel="noopener" href="/products/pandwarf-rogue-pro" target="_blank">VISIT NOW &gt;</a></div>
+         </div>
+         <div class="infoBox__imageWrapper"><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Rogue-Pro-Mini-Thumb.png?v=1760189604" alt="PandwaRF Rogue Pro" class="infoBox__image--internal"></div>
+      </div>
+   </div>
+</div>
+<h2 style="margin-top: 3em;">PandwaRF Marauder Demonstration Videos</h2>
+<p>
+   <video lite-youtube-playlist params="rel=0" thumb-layout="vertical" auto-play-thumb="true">
+      <video playlist-entry params="rel=0" videotitle="PandwaRF Marauder : Signal Capture &amp; Analysis" videodescription="Real-world demonstration of the PandwaRF capturing and analysing signals with Marauder and Kaiju" videoid="cCehUdm3250" posterquality="maxresdefault"><img slot="image" src="https://cdn.shopify.com/s/files/1/2175/8571/files/PandwaRF---Kaiju---Signal-Capture.png?v=1760056115"></video>
+      <video playlist-entry videotitle="PandwaRF Rouge Pro: Generating new rolling codes with Kaiju" videodescription="Detailed demonstration of capturing and generating rolling codes, and dealing with desynchronisation" videoid="3PJw1F_fpP8" posterquality="maxresdefault"><img slot="image" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Signal-Cloning-Thumb.png?v=1760105938">                 </video>
+      <video playlist-entry videotitle="Introduction to the Rogue Pro &amp; Kaiju - defeating rolling codes" videodescription="Hands on with the PandwaRF Rogue Pro : Theory and practical examples of rolling code defeat." videoid="RNHS6kfCZKc" posterquality="maxresdefault">                 </video>
+   </video>
+</p>
+<h2 style="margin-top: 1em;">Detailed functionality</h2>
+<ul>
+   <li> <strong>Autonomous Signal Capture</strong>: Stand-alone signal capture for low-risk reconnaissance.</li>
+   <li> <strong>Dual-Frequency Capture</strong>: Simultaneous monitoring of dual frequencies, to never miss a signal.</li>
+   <li> <strong>Rolling Code Support</strong>: Supports rolling code decoding and analysis via Kaiju</li>
+   <li> <strong>Dedicated Application</strong>: Rapid configuration and wireless data recovery via application.</li>
+   <li> <strong>Device-to-device Replay</strong>: Replay captured signals to other devices, such as the Rogue Pro for cracking and signal generation.</li>
+</ul>
+<h2>The PandwaRF Advantage<br> </h2>
+<p>Hardware to capture RF signals is plentiful, but only the PandwaRF products are specifically purpose-built for defeating Remote Control security, making it risk-free, effortless and end-to-end. Using a PandwaRF Marauder adds discretion and autonomy to your toolkit.</p>
+<p>The table below provides an overview of the capabilities and limitations of other RF-capable devices.</p>
+<!-- Start Pricing Table --> 
+<div class="comparisonTable-pricing-container">
+   <!-- Left Table: Free Tiers --> 
+   <div class="comparisonTable-table-wrapper comparisonTable-free-tiers">
+      <!-- Basic Tier --> 
+      <div class="comparisonTable-pricing-column comparisonTable-basic-tier">
+         <h2 class="comparisonTable-tier-title">SDR</h2>
+         <p class="comparisonTable-tier-subtitle">SDR devices, such as the HackRF, H4M PortaPack, SignalSDR Pro, BladeRF, USRP, PlutoSDR, etc. Raw samples must be manually demodulated and processed.</p>
+         <div class="comparisonTable-price-container">
+            <div class="comparisonTable-price">€250 - €1100+</div>
+         </div>
+         <p class="comparisonTable-price-detail">Captures are <b>incompatible</b> with rolling code analyzer &amp; generator service (Kaiju). SDR Captures are typically restricted to replay only.</p>
+         <ul class="comparisonTable-feature-list">
+            <li class="comparisonTable-feature-item comparisonTable-feature-available"> <span class="comparisonTable-feature-icon">✓</span> Signal Capture</li>
+            <li class="comparisonTable-feature-item comparisonTable-feature-available"> <span class="comparisonTable-feature-icon">✓</span> Signal Replay</li>
+            <li class="comparisonTable-feature-item comparisonTable-feature-unavailable"> <span class="comparisonTable-feature-icon">✗</span> Autonomous Capture</li>
+            <li class="comparisonTable-feature-item comparisonTable-feature-unavailable"> <span class="comparisonTable-feature-icon">✗</span> Rolling Code</li>
+            <li class="comparisonTable-feature-item comparisonTable-feature-unavailable"> <span class="comparisonTable-feature-icon">✗</span> Simultaneous dual-frequency</li>
+            <li class="comparisonTable-feature-item comparisonTable-feature-unavailable"> <span class="comparisonTable-feature-icon">✗</span> Signal Processing</li>
+            <li class="comparisonTable-feature-item comparisonTable-feature-unavailable"> <span class="comparisonTable-feature-icon">✗</span> Chipset Database</li>
+            <li class="comparisonTable-feature-item comparisonTable-feature-unavailable"> <span class="comparisonTable-feature-icon">✗</span> Brute Force</li>
+            <li class="comparisonTable-feature-item comparisonTable-feature-unavailable"> <span class="comparisonTable-feature-icon">✗</span> Cracking</li>
+            <li class="comparisonTable-feature-item comparisonTable-feature-unavailable"> <span class="comparisonTable-feature-icon">✗</span> Signal Inversion</li>
+         </ul>
+      </div>
+      <!-- Starter Tier --> 
+      <div class="comparisonTable-pricing-column comparisonTable-starter-tier">
+         <h2 class="comparisonTable-tier-title">Flipper Zero</h2>
+         <p class="comparisonTable-tier-subtitle">Pentest Multi-tool - can perform signal analysis, replay and basic rolling code support via its SubGHz tool, or via additional modules (FEBERIS Pro, etc)</p>
+         <div class="comparisonTable-price-container">
+            <div class="comparisonTable-price">€200+</div>
+         </div>
+         <p class="comparisonTable-price-detail">Captures are <b>compatible</b> with rolling code analyzer &amp; generator service (Kaiju). Extra paid databases can be added.</p>
+         <ul class="comparisonTable-feature-list">
+            <li class="comparisonTable-feature-item comparisonTable-feature-available"> <span class="comparisonTable-feature-icon">✓</span> Signal Capture</li>
+            <li class="comparisonTable-feature-item comparisonTable-feature-available"> <span class="comparisonTable-feature-icon">✓</span> Signal Replay</li>
+            <li class="comparisonTable-feature-item comparisonTable-feature-available"> <span class="comparisonTable-feature-icon">✓</span> Autonomous Capture</li>
+            <li class="comparisonTable-feature-item comparisonTable-feature-partial"> <span class="comparisonTable-feature-icon">⁄</span> Rolling Code</li>
+            <li class="comparisonTable-feature-item comparisonTable-feature-unavailable"> <span class="comparisonTable-feature-icon">✗</span> Simultaneous dual-frequency</li>
+            <li class="comparisonTable-feature-item comparisonTable-feature-partial"> <span class="comparisonTable-feature-icon">✓</span> Signal Processing</li>
+            <li class="comparisonTable-feature-item comparisonTable-feature-partial"> <span class="comparisonTable-feature-icon">✓</span> Chipset Database</li>
+            <li class="comparisonTable-feature-item comparisonTable-feature-partial"> <span class="comparisonTable-feature-icon">✓</span> Brute Force</li>
+            <li class="comparisonTable-feature-item comparisonTable-feature-unavailable"> <span class="comparisonTable-feature-icon">✗</span> Cracking</li>
+            <li class="comparisonTable-feature-item comparisonTable-feature-unavailable"> <span class="comparisonTable-feature-icon">✗</span> Signal Inversion</li>
+         </ul>
+      </div>
+   </div>
+   <!-- Right Table: Premium Tiers --> 
+   <div class="comparisonTable-table-wrapper comparisonTable-premium-tiers">
+      <!-- Premium Tier --> 
+      <div class="comparisonTable-pricing-column comparisonTable-business-tier">
+         <h2 class="comparisonTable-tier-title">Marauder</h2>
+         <p class="comparisonTable-tier-subtitle">Dual-frequency RF sniffer, optimized for "set and forget" <b>signal capture</b> &amp; <b>red-team reconnaissance</b>. Specialised for remote controls (garages, doors, alarms, etc)</p>
+         <div class="comparisonTable-price-container">
+            <span class="comparisonTable-save-badge">Save €189</span> 
+            <div class="comparisonTable-price">€790</div>
+         </div>
+         <p class="comparisonTable-price-detail">Rolling code analyzer &amp; generator service (Kaiju) integrated. Lab401 customers receive 1-year Kaiju Pro License for <b>free!</b></p>
+         <ul class="comparisonTable-feature-list">
+            <li class="comparisonTable-feature-item comparisonTable-feature-available"> <span class="comparisonTable-feature-icon">✓</span> Signal Capture</li>
+            <li class="comparisonTable-feature-item comparisonTable-feature-available"> <span class="comparisonTable-feature-icon">✓</span> Signal Replay</li>
+            <li class="comparisonTable-feature-item comparisonTable-feature-available"> <span class="comparisonTable-feature-icon">✓</span> Autonomous Capture</li>
+            <li class="comparisonTable-feature-item comparisonTable-feature-available"> <span class="comparisonTable-feature-icon">✓</span> Rolling Code</li>
+            <li class="comparisonTable-feature-item comparisonTable-feature-available"> <span class="comparisonTable-feature-icon">✓</span> Simultaneous dual-frequency</li>
+            <li class="comparisonTable-feature-item comparisonTable-feature-available"> <span class="comparisonTable-feature-icon">✓</span> Signal Processing</li>
+            <li class="comparisonTable-feature-item comparisonTable-feature-available"> <span class="comparisonTable-feature-icon">✓</span> Chipset Database</li>
+            <li class="comparisonTable-feature-item comparisonTable-feature-unavailable"> <span class="comparisonTable-feature-icon">✗</span> Brute Force</li>
+            <li class="comparisonTable-feature-item comparisonTable-feature-unavailable"> <span class="comparisonTable-feature-icon">✗</span> Cracking</li>
+            <li class="comparisonTable-feature-item comparisonTable-feature-unavailable"> <span class="comparisonTable-feature-icon">✗</span> Signal Inversion</li>
+         </ul>
+      </div>
+      <!-- Professional Tier --> 
+      <div class="comparisonTable-pricing-column comparisonTable-enterprise-tier">
+         <h2 class="comparisonTable-tier-title">Rogue Pro</h2>
+         <p class="comparisonTable-tier-subtitle">Optimised for remote control (doors, garages, alarms) rolling-code compatible signal processing, cracking and generation. Compatible with PandwaRF Marauder.</p>
+         <div class="comparisonTable-price-container">
+            <span class="comparisonTable-save-badge">Save €135</span> 
+            <div class="comparisonTable-price">€449</div>
+         </div>
+         <p class="comparisonTable-price-detail">Rolling code analyzer &amp; generator service (Kaiju) integrated. Lab401 customers receive 1-year Kaiju Pro License for <b>free!</b></p>
+         <ul class="comparisonTable-feature-list">
+            <li class="comparisonTable-feature-item comparisonTable-feature-available"> <span class="comparisonTable-feature-icon">✓</span> Signal Capture</li>
+            <li class="comparisonTable-feature-item comparisonTable-feature-available"> <span class="comparisonTable-feature-icon">✓</span> Signal Replay</li>
+            <li class="comparisonTable-feature-item comparisonTable-feature-unavailable"> <span class="comparisonTable-feature-icon">✗</span> Autonomous Capture</li>
+            <li class="comparisonTable-feature-item comparisonTable-feature-available"> <span class="comparisonTable-feature-icon">✓</span> Rolling Code</li>
+            <li class="comparisonTable-feature-item comparisonTable-feature-unavailable"> <span class="comparisonTable-feature-icon">✗</span> Simultaneous dual-frequency</li>
+            <li class="comparisonTable-feature-item comparisonTable-feature-available"> <span class="comparisonTable-feature-icon">✓</span> Signal Processing</li>
+            <li class="comparisonTable-feature-item comparisonTable-feature-available"> <span class="comparisonTable-feature-icon">✓</span> Chipset Database</li>
+            <li class="comparisonTable-feature-item comparisonTable-feature-available"> <span class="comparisonTable-feature-icon">✓</span> Brute Force</li>
+            <li class="comparisonTable-feature-item comparisonTable-feature-available"> <span class="comparisonTable-feature-icon">✓</span> Cracking</li>
+            <li class="comparisonTable-feature-item comparisonTable-feature-available"> <span class="comparisonTable-feature-icon">✓</span> Signal Inversion</li>
+         </ul>
+      </div>
+   </div>
+</div>
+<!-- End Pricing Table --> 
+<div class="grid" style="margin-top: 2em;">
+   <div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+      <h2><strong>What's included</strong></h2>
+      <ul>
+         <li><strong>1x PandwaRF Marauder Standard</strong></li>
+         <li><strong>1-Year Kaiju <i>Gate Openers Pack Pro</i> License</strong></li>
+         <li>1x 315MHz antenna</li>
+         <li>1x 433MHz antenna</li>
+         <li>1x 813-915MHz antenna</li>
+         <li>1x USB Type-C cable</li>
+         <li>1x Protective hard-case</li>
+      </ul>
+   </div>
+   <div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+      <h2><strong>PandwaRF Marauder Resources<br></strong></h2>
+      <ul>
+         <li> <a rel="noopener" href="https://raw.githubusercontent.com/ComThings/PandwaRF/master/Guides/PandwaRF_Marauder_User_Guide_EN.pdf" target="_blank">PandwaRF Marauder User Guide</a> (PDF)</li>
+         <li> <a rel="noopener" href="https://play.google.com/store/apps/details?id=com.comthings.pandwarf.marauder" target="_blank">PandwaRF Marauder Android Application</a> (Google Play)</li>
+         <li><a rel="noopener" href="https://github.com/ComThings/PandwaRF/wiki" target="_blank">PandwaRF Wiki</a></li>
+         <li><a rel="noopener" href="https://rolling.pandwarf.com/" target="_blank">Kaiju: Rolling Code Decoding Service</a></li>
+         <li> <a rel="noopener" href="https://rolling.pandwarf.com/" target="_blank">Kaiju</a> (Rolling Code Analysis Platform)</li>
+         <li> <a rel="noopener" href="https://discord.com/invite/cN35Z5eyjM" target="_blank">PandwaRF Discord</a> (Information &amp; Support)</li>
+      </ul>
+   </div>
+</div>
+</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Remote</s:tag>
+    <s:tag>Remote Control</s:tag>
+    <s:tag>RF</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10132271661403</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">790.00</s:price>
+      <s:sku>PANDWARF-MARAUDER</s:sku>
+      <s:grams>250</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/9594964967771</id>
+    <published>2026-09-09T15:43:06+02:00</published>
+    <updated>2026-09-09T15:43:06+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/portapack-h4m-pro"/>
+    <title>PortaPack H4M Pro</title>
+    <s:type>RF</s:type>
+    <s:vendor>OpenSource SDR</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/PortaPack---H4M-Pro---Front.png?v=1785152197"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>OpenSource SDR<br>
+        <strong>Type: </strong>RF<br>
+        <strong>Price: </strong>
+            280.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>The <b>PortaPack H4M Pro</b> is a stand-alone, all-in-one portable SDR device based on the <strong>latest HackRF Pro framework.</strong> The pre-flashed MAYHEM firmware provides vital out-of-the-box functionality for pentesters: Receive / Transmit / Replay / Scan, with dozens of baked in high-level functions: Real-time Spectrum Monitoring, Key-Fob demodulation, ADS-B/AIS, Bluetooth, and much, much more.</p>
+<p>This <strong>all-in-one device includes the HackRF Pro + PortaPack </strong>in a fully-assembled, rugged injection molded ABS case - no extra hardware, cables, modification or soldering required.</p>
+<p>While the HackRF One redefined the pentest/hacker community as a completely affordable, hugely capable, open-source SDR device - it required an external computer, software and advanced knowledge to use. The H4M gives you the power of the HackRF - it's still usable directly - but also the flexibility of a compact, rugged device that requires no external devices.</p>
+<p><em>This product is not made by Great Scott Gadgets. The trademark “HackRF” is used by permission.</em></p>
+<figure style="margin-top:2em; margin-bottom:2em">
+   <video lite-youtube="" videoid="n-khaJyY50Y" posterquality="maxresdefault" params="rel=0"></video>
+</figure>
+<h2><strong>H4M Pro Advantages</strong></h2>
+<p>The PortaPack H4M Pro is a truly integrated, truly portable SDR laboratory. Based on the latest HackRF Pro architecture, the Portapack H4M Pro has multiple advantages over previous versions:</p>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left product-image-container">
+<img src="https://cdn.shopify.com/s/files/1/2175/8571/files/PortaPack---H4M-Pro---Front-Float-2.png?v=1785076266" alt="">
+<ul class="markers-list">
+<li class="feature-marker" data-feature-id="1" data-x="47" data-y="14">1</li>
+<li class="feature-marker" data-feature-id="2" data-x="65" data-y="2">2</li>
+<li class="feature-marker" data-feature-id="3" data-x="27" data-y="75">3</li>
+<li class="feature-marker" data-feature-id="4" data-x="39" data-y="53">4</li>
+<li class="feature-marker" data-feature-id="5" data-x="3" data-y="57">5</li>
+<li class="feature-marker" data-feature-id="6" data-x="97" data-y="53">6</li>
+</ul>
+</div>
+<div style="text-align: start;" class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<div class="feature-item" data-feature-id="1">
+<h3>1. Remastered Hardware</h3>
+<p>Increased operating frequency, memory, precision. Improved shielding, better RF performance, on-board FPGA.</p>
+</div>
+<div class="feature-item" data-feature-id="2">
+<h3>2. Expanded Frequency</h3>
+<p>The H4M Pro now operates natively between 100kHz and 6GHz</p>
+</div>
+<div class="feature-item" data-feature-id="3">
+<h3>3. Integrated TCXO</h3>
+<p>Use the internal TXCO, or external clocks via the dual clock SMA connectors for synchronising multiple devices.</p>
+</div>
+<div class="feature-item" data-feature-id="4">
+<h3>4. Improved RF Shielding &amp; Antenna Protection</h3>
+<p>Greatly increased RF Shielding for perfect reception; integrated antenna surge-protection</p>
+</div>
+<div class="feature-item" data-feature-id="5">
+<h3>5. Replacable Battery (included)</h3>
+<p>The industry-standard 18650 battery can be swapped in seconds - meaning you'll never run out of power.</p>
+</div>
+<div class="feature-item" data-feature-id="6">
+<h3>6. Everything Onboard</h3>
+<p>Integrated touchscreen, speaker, microphone and tactile navigation wheel for fully untethered operations.</p>
+</div>
+</div>
+</div>
+<div style="margin-top: 2em;" class="grid">
+<h2>Functionality at a glance</h2>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Signal Capture</h3>
+<p>Easily perform raw signal capture - for instant replay, or for offline demodulation, analysis and modification.</p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Signal Replay</h3>
+<p>Oranised and Replay raw signals - directly after capture, or from the SD card or from otther sources.</p>
+</div>
+</div>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Signal Detection</h3>
+<p>Detect and identify the frequency of nearby transmission sources. Useful for reconaissance and identifcation.</p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Frequency Scanner</h3>
+<p>Constantly scan a configurable range of frequencies to consecutively or in parallel.</p>
+</div>
+</div>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>In-built Apps</h3>
+<p>Dozens of inbuilt applications, such as real-time ADB-S scanner, GPS-Simulator, TPMS decoders.. and more</p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Signal Generator</h3>
+<p>Generate customised signals - and even spectrum outputs - for device configuration &amp; testing or even fuzzing.</p>
+</div>
+</div>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Custom Apps</h3>
+<p>Open-source hardware and software and an active community - with support for custom applications.</p>
+</div>
+<div style="text-align: start;" class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>HackRF Pro Mode</h3>
+<p>Naturally - you still have direct access to the HackRF - with full support for all common SDR tools - GNU Radio etc.</p>
+</div>
+</div>
+<div style="margin-top: 2em;" class="grid">
+<h2>Detailed functionality</h2>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<p><strong>Receive:</strong></p>
+<ul>
+<li>
+<strong>Sniff &amp; Capture</strong>: Sniff &amp; capture easily for instant replay, or save to the SD card for demodulation, analysis and modification.<br>
+</li>
+<li>
+<strong>ADS-B</strong>: Receive and analyse ADS-B (Aviation) Signals, with the ability to display real-time locations on a map.<br>
+</li>
+<li>
+<strong>AIS</strong>: Receive and analyse AIS (Marine) Signals<br>
+</li>
+<li>
+<strong>AFSK</strong>: Receive, demodulate and analyse AFSK Signals<br>
+</li>
+<li>
+<strong>Bluetooth:</strong> Sniff MAC addresses of BLE devices<br>
+</li>
+<li>
+<strong>NRF:</strong> Decode NRF24L01 signals, commonly used for drones</li>
+<li>
+<strong>Audio</strong>: Decode WFM/NFM/AM</li>
+<li>
+<strong>Spectrum Analyser:</strong> Waterfall spectrum analyser for detecting signals</li>
+<li>
+<strong>Analog TV:</strong> Decode and watch Analog TV signals, commonly used on FPV drones</li>
+<li>
+<strong>ERT Meters:</strong> Decode ERT Meter signals</li>
+<li>
+<strong>POCSAG:</strong> Sniff and decode pager signals</li>
+<li>
+<strong>Radiosonde:</strong> Sniff and decode RadioSonde signals, commonly used in weather stations</li>
+<li>
+<strong>TPMS:</strong> Decode TPMS sensors (used in car tires)</li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<p><strong>Transmit:</strong></p>
+<ul>
+<li>
+<strong>ADS-B</strong>: Real-time Capture &amp; Analysis of ADS-B (Aviation) Signals</li>
+<li>
+<strong>APRS: </strong>Capture and craft APRS packets, commonly used for weather stations and other various telemetry</li>
+<li>
+<strong>GPS:</strong> Audit &amp; analyse GPS signals</li>
+<li>
+<strong>Key Fob:</strong> Key-fob capture, replay and emulation for multiple models of remotes</li>
+<li>
+<strong>Morse Code:</strong> Morse code transmission tool</li>
+<li>
+<strong>Burger Pager: </strong>Decode "Burger Pager" (Restaurant pager) signals</li>
+<li>
+<strong>POCSAG: </strong>Send Pager signals</li>
+<li>
+<strong>SSTV: </strong>Send SSTV Signals</li>
+<li>
+<strong>RDS:</strong> Send RDS messages</li>
+<li>
+<strong>OOK: </strong>Send OOK Packages</li>
+</ul>
+</div>
+</div>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>Device Specifications<br></strong></h2>
+<ul>
+<li>
+<strong>Screen:</strong> LCD Touch Screen<br>
+</li>
+<li>
+<strong>Tactile Controls</strong>: Arrow Keys, Rotary Wheel, Select Buttons</li>
+<li>
+<strong>Headphone / Mic Socket: </strong>3.5mm headphone / microphone jack</li>
+<li>
+<strong>Internal Coin Battery:</strong> Coin battery for RTC &amp; Settings storage</li>
+<li>
+<strong>MicroSD Card Slot:</strong> For data import / export</li>
+<li>
+<strong>Case:</strong> Transluscent ABS</li>
+<li>
+<strong>Battery:</strong> 18650 (Included)</li>
+</ul>
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>
+<strong>1x PortaPack H4M Pro</strong> (HackRF Pro + PortaPack H4M Pro v1.2.1)</li>
+<li>
+<strong>1x 18650 Rechargeable Li-ion Battery</strong> (9250mWh, Replaceable)</li>
+<li>1x USB-A to USB-C 3.0 Cable</li>
+<li>1x 75MHz - 1GHz Telescopic Antenna</li>
+<li>1x 40MHz - 6GHz Telescopic Antenna</li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>Compatible Systems</strong></h2>
+<ul>
+<li>Windows/macOS/Linux/Android (Specific Builds)</li>
+<li>GNU Radio / GQRX / SDR#, SDR Console, Universal Radio Hacker etc</li>
+</ul>
+<h2><strong>PortaPack Resources</strong></h2>
+<strong>Lab401 Academy Tutorials</strong>
+<ul>
+<li><a href="https://lab401.com/blogs/academy/first-steps-with-the-portapack-h4m-pro" target="_blank">H4M Pro: First steps - Flashing, Testing and What's New</a></li>
+</ul>
+<strong>Official Manufacturer Links<br></strong>
+<ul>
+<li><a href="https://blog.opensourcesdrlab.com/archives/hackrf-pro-h4m-pro" target="_blank">Manufacturer H4M Pro Quickstart Guide</a></li>
+<li><a href="https://t.me/OpenSourceSDRLab" target="_blank">Official Support Telegram Group</a></li>
+</ul>
+<ul>
+<li><a href="https://github.com/portapack-mayhem/mayhem-firmware/releases" target="_blank">Mayhem Firmware Repository</a></li>
+<li><a href="https://github.com/orgs/OpenSourceSDRLab/discussions/5" target="_blank">Official Firmware Repository</a></li>
+</ul>
+<strong>PortaPack Tutorials<br></strong>
+<ul>
+<li><a href="https://www.youtube.com/@sn0ren" target="_blank">@sn0ren's SDR YouTube Channel</a></li>
+<li><a href="https://www.youtube.com/watch?v=xGR_PMD9LeU" target="_blank">HackRF 101: Day One, Basics</a></li>
+</ul>
+</div>
+</div>
+<div class="l401-notice">
+<p><b>WARNING ⚠️ Understand your responsibilities</b></p>
+<p>The PortaPack H4M is a wide-band radio device, with transceiver capabilities.<br>
+The EU Radio Equipment Directive (2014/53/EU) Annex I places custom-built evaluation kits outside its scope for professional use in research and development contexts.</p>
+<p>Restrictions for transmitting <i>and receiving</i> vary. You are responsible for ensuring that your possession and use of these devices complies with the law in your jurisdiction.</p>
+<p><b>Receiving</b>: Several countries restrict monitoring outside broadcast and amateur allocations, and a few restrict what you may do with what you hear. Check the rules where you are before you tune.</p>
+<p><b>Transmitting</b>: Transmit only on bands you are licensed for, at or below the power your license and national regulations allow. Where you hold no license for a band, work with a dummy load, a shielded enclosure, or a cabled and attenuated link so that nothing reaches the air.</p>
+</div>
+<div class="l401-notice">
+<p><b>WARNING ⚠️ Before you tune or transmit</b></p>
+<p>Never tune or transmit your device without an antenna or balanced dummy load. Doing so can <b>permanently damage</b> your device and void your warranty. Please refer to the below videos for further information on how to appropriately setup your device.</p>
+</div>
+<h3>PortaPack: Beginner's guide</h3>
+<figure>
+   <video lite-youtube="" videoid="n7N7G_9tj9w" posterquality="maxresdefault" params="rel=0"></video>
+</figure>
+<h3>PortaPack Antennas: Learn, build, understand with @sn0ren</h3>
+<figure>
+   <video lite-youtube="" videoid="wUE8DI61s60" posterquality="maxresdefault" params="rel=0"></video>
+</figure>
+</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>gnuradio</s:tag>
+    <s:tag>gps</s:tag>
+    <s:tag>hackrf</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>sdr</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/9594964967771</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">280.00</s:price>
+      <s:sku>PORTAPACK-H4M-PRO</s:sku>
+      <s:grams>301</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/9709931626843</id>
+    <published>2025-02-18T15:42:11+01:00</published>
+    <updated>2025-02-18T15:42:11+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/flux-capacitor"/>
+    <title>Flux Capacitor</title>
+    <s:type></s:type>
+    <s:vendor>Rabbit-Labs</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Flux-Capacitor-Front.png?v=1737712382"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Rabbit-Labs<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            65.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>The <strong>Flux Capacitor</strong> from Rabbit Labs <strong>super-charges</strong> the radio capabilities of your Flipper Zero.</p>
+<p>The FlipperZero's standard internal radio module and antenna are great for close range capture and replay, but are actually <a rel="noopener" href="https://antennatestlab.com/antenna-education-tutorials/consumer_antenans/flipper-zero-antenna-patterns" target="_blank"><em>less than 1% efficient.</em></a><em><br></em></p>
+<p>The Flux Capacitor's amplified CC1101 module and tuned antenna output up to 100mW, several <em>orders of magnitude greater</em> than the standard module.<br></p>
+<p>This translates to an in-the-field range of up to 100m - which can be further improved with a higher gain antenna.</p>
+<p>For pentesters, the Flux Capacitor could spell the difference between capturing a signal from a safe distance or blowing your cover. For hobbyist users, this means you can finally operate your gadgets from much further distances.</p>
+<p>Works out-of-the-box with <strong>alternative firmware </strong>- plug it into your Flipper, and the status LED indicating that it's ready to rock-n-roll will light up.</p>
+<p><strong>IMPORTANT:</strong> Do not transmit without an antenna - you will cause irreversible damage to the radio module. Damage caused by misuse is not covered by warranty.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Flipper</s:tag>
+    <s:tag>Flipper Zero</s:tag>
+    <s:tag>Flipper Zero Accessory</s:tag>
+    <s:tag>FlipperZero</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/9709931626843</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">65.00</s:price>
+      <s:sku>RL-FLUX-CAP</s:sku>
+      <s:grams>100</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/7790553465062</id>
+    <published>2022-06-23T08:59:23+02:00</published>
+    <updated>2022-06-23T08:59:23+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/flipper-zero"/>
+    <title>Flipper Zero</title>
+    <s:type>Pen Testing</s:type>
+    <s:vendor>Flipper Zero</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Flipper-Zero---Front.png?v=1773345630"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Flipper Zero<br>
+        <strong>Type: </strong>Pen Testing<br>
+        <strong>Price: </strong>
+            149.17 - 274.08
+            <a href="https://lab401.com/products/flipper-zero">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>The Flipper Zero is the ultimate multi-tool for pentesters, geeks, ethical hackers and hardware hobbyists alike. One pocket-sized device combines multiple tools: RFID, RF, Infrared, HID emulation, GPIO, Hardware debugging, 1-Wire, Bluetooth, Wifi and more.<br></p>
+<p>Inspired by great open-source projects: Proxmark, HydraNFC, Rubber Ducky, pwnagotchi - the Flipper Zero manages to pack serious functionality into a tiny, professionally manufactured device - and stays true to its Open Source roots.</p>
+<p>Entirely independent, the Flipper Zero requires no external computer or hardware to function - everything is driven by the its 5-way navigation button and LCD screen. When connected to a computer or the included Android / iOS apps, the Flipper can be extended, modified, upgraded and reflashed according to your needs.</p>
+<p>With over two years of meticulous design, prototyping and iteration, the Flipper Zero is a mature platform, ready to use out of the box, meeting the needs of professionals and enthusiasts alike.</p>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>RF Transceiver</h3>
+<p>The Flipper Zero contains a fully-controllable RF platform, based on the TI CC1101 chip, allowing for RF Signal capture, analysis and transmission.</p>
+<p>The Flipper Zero has a built-in library of common remote control algorithms for capturing, decoding and analysing and replaying signals.</p>
+<p>Users have <b>full access</b> to the radio sub-system, allowing custom RF modules to be easily built.</p>
+<p><video autoplay="autoplay" loop="loop">
+            <source src="https://cdn.shopify.com/s/files/1/2175/8571/files/FlipperZero_-_SDR_-_RF_Capture_Replay.webm?v=1660841703"></video></p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>RFID Reader/Writer/Emulator</h3>
+<p>The Flipper Zero allows for Reading, Writing and Emulation of both High-Frequency (13.56MHz) and Low-Frequency (125KHz) RFID tags.</p>
+<p><b>Low Frequency</b> tags can be easily read, saved, cloned to a new card, or exported for analysis.</p>
+<p>Multiple <b>High Frequency</b> protocols are supported, and the Flipper Zero can even sniff authentification nonces to extract unknown MIFARE keys.</p>
+<p><video autoplay="autoplay" loop="loop">
+            <source src="https://cdn.shopify.com/s/files/1/2175/8571/files/Flipper_Zero_-_RFID_125KHz_13-56Mhz_MIFARE_Emulation_Cracking.webm?v=1660841703"></video></p>
+</div>
+</div>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Infrared Transceiver</h3>
+<p>The Flipper Zero has a powerful, fully programmable IR transceiver for IR signal capture and replay.</p>
+<p>Out of the box, it includes a fully featured signal library for hundreds of IR-controlled devices: TVs, Stereos, Air-Con, etc.</p>
+<p><video autoplay="autoplay" loop="loop">
+            <source src="https://cdn.shopify.com/s/files/1/2175/8571/files/Flipper_Zero_-_IR_Transceiver_-_Universal_Remote_Control.webm?v=1660841703"></video></p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>GPIO Pinouts</h3>
+<p>The GPIO Pinouts &amp; Breakout boards allow for controlling electronics directly via the Flipper.</p>
+<p>The Flipper can also be used as a USB to SPI/UART/I2C bridge for debugging, flashing and fuzzing.</p>
+<p><video autoplay="autoplay" loop="loop">
+            <source src="https://cdn.shopify.com/s/files/1/2175/8571/files/Flipper_Zero_-_GPIO.webm?v=1660841703"></video></p>
+</div>
+</div>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>HID Emulation</h3>
+<p>The Flipper Zero emulate HID devices (Keyboard, Ethernet, etc) over USB, allowing it to perform BadUSB / RubberDucky attacks.</p>
+<p>Users can easily upload and deploy scripts directly from the device for task automation, pentesting and more.</p>
+<p><video autoplay="autoplay" loop="loop">
+            <source src="https://cdn.shopify.com/s/files/1/2175/8571/files/Flipper_Zero_-_BadUSB_Rubber_Ducky.webm?v=1660841703"></video></p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Open Source &amp; Extendable</h3>
+<p>The Flipper Zero is Open-Source &amp; Open-Hardware: firmware, schematics, and desktop &amp; mobile tools are available to everyone.</p>
+<p>Extend your Flipper's capabilities with accessories - <a href="/collections/flipper-zero-accessories" target="_blank">check out the most popular</a>, or build your own!</p>
+<p><video autoplay="autoplay" loop="loop">
+            <source src="https://cdn.shopify.com/s/files/1/2175/8571/files/Flipper_Zero_-_Wifi_Card.webm?v=1660841703"></video></p>
+</div>
+</div>
+<h2><strong>Flipper Community and Ecosystem</strong></h2>
+<p>Flipper is backed by an incredibly talented and motivated team of engineers, programmers, hardware experts and artists, who are dedicated to building and maintaining a reliable, mature and long-term platform.</p>
+<p>Beyond its hardware capabilities, Flipper stays true to its geek origins: Flipper, the tamagotchi-esque dolphin and product mascot lives inside each device. Flipper thrives on experience: the more you use the device, the happier he becomes: just don't forget him, or you might learn why dolphin have teeth..</p>
+<p>The Flipper Zero is CE+FCC approved, robust built to withstand the bumps and bruises of daily use. Each device is backed by a <b>2-year warranty</b> and Lab401's fantastic customer support, should you ever have a problem.</p>
+<section id="flipper-video-carousel" aria-label="Flipper Zero videos">
+  <div class="zpvc-items" tabindex="0" role="region" aria-label="Video carousel: scroll horizontally for more videos">
+    <div class="zpvc-item zp-bubble-radius-lg">
+      <div class="video-player-wrapper">
+        <video class="zpvc-video" controls playsinline preload="metadata" width="606" height="1080" tabindex="0" aria-label="Flipper Zero video 1" poster="https://cdn.shopify.com/s/files/1/2175/8571/files/flipper-carousel-01.jpg?v=1791300045">
+          <source src="https://cdn.shopify.com/videos/c/o/v/e51cc641ebb54163af2fe408de0ebb13.mp4" type="video/mp4"></video>
+      </div>
+    </div>
+    <div class="zpvc-item zp-bubble-radius-lg">
+      <div class="video-player-wrapper">
+        <video class="zpvc-video" controls playsinline preload="metadata" width="606" height="1080" tabindex="0" aria-label="Flipper Zero video 2" poster="https://cdn.shopify.com/s/files/1/2175/8571/files/flipper-carousel-02.jpg?v=1791300045">
+          <source src="https://cdn.shopify.com/videos/c/o/v/f1f99c07c2444e6bbb0a62f63252b1bb.mp4" type="video/mp4"></video>
+      </div>
+    </div>
+    <div class="zpvc-item zp-bubble-radius-lg">
+      <div class="video-player-wrapper">
+        <video class="zpvc-video" controls playsinline preload="metadata" width="606" height="1080" tabindex="0" aria-label="Flipper Zero video 3" poster="https://cdn.shopify.com/s/files/1/2175/8571/files/flipper-carousel-03.jpg?v=1791300045">
+          <source src="https://cdn.shopify.com/videos/c/o/v/5a6bf3795e934154b7c6fdc3e3fd0425.mp4" type="video/mp4"></video>
+      </div>
+    </div>
+    <div class="zpvc-item zp-bubble-radius-lg">
+      <div class="video-player-wrapper">
+        <video class="zpvc-video" controls playsinline preload="metadata" width="606" height="1080" tabindex="0" aria-label="Flipper Zero video 4" poster="https://cdn.shopify.com/s/files/1/2175/8571/files/flipper-carousel-04.jpg?v=1791300045">
+          <source src="https://cdn.shopify.com/videos/c/o/v/d1224f8d3b5445139ffacf3cae18e143.mp4" type="video/mp4"></video>
+      </div>
+    </div>
+    <div class="zpvc-item zp-bubble-radius-lg">
+      <div class="video-player-wrapper">
+        <video class="zpvc-video" controls playsinline preload="metadata" width="606" height="1080" tabindex="0" aria-label="Flipper Zero video 5" poster="https://cdn.shopify.com/s/files/1/2175/8571/files/flipper-carousel-05.jpg?v=1791300045">
+          <source src="https://cdn.shopify.com/videos/c/o/v/b4cc3ea7fb514c55ab64a03e22b1d5f4.mp4" type="video/mp4"></video>
+      </div>
+    </div>
+    <div class="zpvc-item zp-bubble-radius-lg">
+      <div class="video-player-wrapper">
+        <video class="zpvc-video" controls playsinline preload="metadata" width="606" height="1080" tabindex="0" aria-label="Flipper Zero video 6" poster="https://cdn.shopify.com/s/files/1/2175/8571/files/flipper-carousel-06.jpg?v=1791300045">
+          <source src="https://cdn.shopify.com/videos/c/o/v/ed02331776b74d198b6874b76fc616af.mp4" type="video/mp4"></video>
+      </div>
+    </div>
+    <div class="zpvc-item zp-bubble-radius-lg">
+      <div class="video-player-wrapper">
+        <video class="zpvc-video" controls playsinline preload="metadata" width="606" height="1080" tabindex="0" aria-label="Flipper Zero video 7" poster="https://cdn.shopify.com/s/files/1/2175/8571/files/flipper-carousel-07.jpg?v=1791300045">
+          <source src="https://cdn.shopify.com/videos/c/o/v/7877cb68c95e476d87f8f6ee4ed4856f.mp4" type="video/mp4"></video>
+      </div>
+    </div>
+    <div class="zpvc-item zp-bubble-radius-lg">
+      <div class="video-player-wrapper">
+        <video class="zpvc-video" controls playsinline preload="metadata" width="606" height="1080" tabindex="0" aria-label="Flipper Zero video 8" poster="https://cdn.shopify.com/s/files/1/2175/8571/files/flipper-carousel-08.jpg?v=1791300045">
+          <source src="https://cdn.shopify.com/videos/c/o/v/6601ce90de6b47b495977eb566aff85c.mp4" type="video/mp4"></video>
+      </div>
+    </div>
+  </div>
+</section>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<p><strong>Basic Pack<br></strong></p>
+<ul>
+<li>1x Flipper Zero</li>
+<li>1x USB-A - USB-C Cable</li>
+</ul>
+<p><strong>Standard Pack</strong></p>
+<ul>
+<li>1x Flipper Zero</li>
+<li>1x Flipper Compatible 8GB microSD card</li>
+<li>1x Silicone Protective Case</li>
+<li>3x Screen Protectors</li>
+</ul>
+<p><strong>Complete Pack</strong></p>
+<ul>
+<li>1x Flipper Zero</li>
+<li>1x Flipper Compatible 8GB microSD card</li>
+<li>1x Silicone Protective Case</li>
+<li>1x Video Game Module</li>
+<li>1x Wifi Dev Board</li>
+<li>3x GPIO Prototyping Boards</li>
+<li>3x Screen Protectors</li>
+</ul>
+<h2><strong>Device Specifications<br></strong></h2>
+<ul>
+<li>
+<strong>Screen:</strong> 128x64 1.4" LCD Monochrome (Backlit)<br>
+</li>
+<li>
+<strong>Tactile Controls</strong>: 5-Way Direction Pad + Select Button</li>
+<li>
+<strong>Internal Battery:</strong> LiPo 2000mAh (7-days without charge)<br><br>
+</li>
+<li><strong>CPU:</strong></li>
+<ul>
+<li>STM32WB55RG</li>
+<li>ARM Cortex-M4 32-bit 64 MHz (Application Processor)<br>
+</li>
+<li>ARM Cortex-M0+ 32 MHz (Network Processor)<br><br>
+</li>
+</ul>
+<li>
+<strong>Buzzer:</strong> 100-2500Hz</li>
+<li><strong>Vibration Motor</strong></li>
+<li>
+<strong>Memory:</strong> 1024KB Flash, 256KB SRAM</li>
+<li>
+<strong>Storage:</strong> MicroSD (Up to 64GB)<br>
+</li>
+<li>
+<strong>Connectivity:</strong> USB 2.0, Type-C<br><br>
+</li>
+<li>
+<strong>Dimensions:</strong> 100 x 40 x 25 mm<br>
+</li>
+<li>
+<strong>Weight:</strong> 102g</li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>Module Specifications<br></strong></h2>
+<ul>
+<li><strong>RF:</strong></li>
+<ul>
+<li>Chipset: TI CC1101</li>
+<li>Frequency bands: 315MHz, 433MHz, 868MHz, 915MHz</li>
+<li>TX Power: 0dBm Max (~100m transmit range)<br>
+</li>
+</ul>
+<li>
+<strong>RFID:</strong> <br>
+</li>
+<ul>
+<li>High Frequency / 13.56MHz</li>
+<ul>
+<li>ISO-14443A/B</li>
+<li>NXP Mifare® Classic/Ultralight/DESFire/etc</li>
+<li>FeliCa™</li>
+<li>NFC Forum protocols</li>
+</ul>
+<li>Low Frequency / 125KHz</li>
+<ul>
+<li>Modulation: AM / PSK / FSK</li>
+<li>Supported Cards: EM400x, EM410x, EM420x</li>
+<li>HIDProx, Indala</li>
+<li>T5577<br>
+</li>
+</ul>
+</ul>
+<li><strong>GPIO:</strong></li>
+<ul>
+<li>3.3v CMOS Level</li>
+<li>5V tolerant</li>
+<li>Up to 20mA per digital pin<br>
+</li>
+</ul>
+<li><strong>Infrared:</strong></li>
+<ul>
+<li>RX/TX Frequency: 800-950nm</li>
+<li>TX Power: 300 mW<br>
+</li>
+</ul>
+<li><strong>Bluetooth:</strong></li>
+<ul>
+<li>Bluetooth LE 5.0</li>
+<li>TX Power: 0dBm Max</li>
+<li>RX Sensitivity: -96dBm</li>
+<li>Data Rate: 2 Mbps<br>
+</li>
+</ul>
+<li><strong>iButton 1-Wire:</strong></li>
+<ul>
+<li>Dallas DS1990A</li>
+<li>CYFRAL<br>
+</li>
+</ul>
+</ul>
+</div>
+</div>
+<div style="margin-top: 1em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>Technical Resources<br></strong></h2>
+<ul>
+<li><a href="https://flipper.net/pages/downloads" title="Flipper Zero Official Firmware Update" target="_blank">Firmware Update</a></li>
+<li><a href="https://forum.flipper.net/" title="Flipper Zero Official Forum" target="_blank">Flipper Zero Forum</a></li>
+<li><a href="https://docs.flipper.net/zero" title="Flipper Zero Documentation" target="_blank">Flipper Zero Official Documentation</a></li>
+<li>
+<a href="https://flipp.dev/discord" title="Official Flipper Zero Discord" target="_blank">Flipper Zero Official Discord</a><br>
+</li>
+<li><a href="https://github.com/flipperdevices" title="Flipper Zero Source Code / Official GitHub" target="_blank">Official Github</a></li>
+<li><a href="https://cdn.shopify.com/s/files/1/2175/8571/files/GPIO_Pinout.jpg?v=1652983900" title="Flipper Zero GPIO Pinout" target="_blank">GPIO / Pinout Diagram</a></li>
+</ul>
+</div>
+<h2><strong>Shipping &amp; Warranty</strong></h2>
+<ul>
+<li>Ships worldwide from our <b>EU or US warehouse</b> to minimise shipping shipping and import duties.</li>
+<li>Backed by a <b>2-year warranty</b>
+</li>
+<li>
+<b>Need help?</b> 100% Human customer support available at <a href="mailto:support@lab401.com"><b>support@lab401.com</b></a>
+</li>
+</ul>
+</div>
+<div class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>LinusTechTips Talks Flipper Zero</h3>
+<figure>
+   <video lite-youtube="" videoid="nLIp4wd0oXs" posterquality="maxresdefault" params="rel=0" class="rounded"></video>
+</figure>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Adam Savage tests the Flipper Zero</h3>
+<figure>
+   <video lite-youtube="" videoid="c8q2YVRiOAE" posterquality="maxresdefault" params="rel=0" class="rounded"></video>
+</figure>
+</div>
+</div>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>FlipperZero: First Steps</h3>
+<figure>
+   <video lite-youtube="" videoid="KeFrVW2VE4M" posterquality="maxresdefault" params="rel=0" class="rounded"></video>
+</figure>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>FlipperZero: In depth functionality</h3>
+<figure>
+   <video lite-youtube="" videoid="VF3xlAm_tdo" posterquality="maxresdefault" params="rel=0" class="rounded"></video>
+</figure>
+</div>
+</div>
+</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Flipper</s:tag>
+    <s:tag>Flipper Zero</s:tag>
+    <s:tag>FlipperZero</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/7790553465062</id>
+      <title>Basic</title>
+      <s:price currency="EUR">149.17</s:price>
+      <s:sku>FLP-Z-W-R04</s:sku>
+      <s:grams>154</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/7790553465062</id>
+      <title>Standard</title>
+      <s:price currency="EUR">186.67</s:price>
+      <s:sku>FLIPPERZERO-STANDARD-PACK</s:sku>
+      <s:grams>205</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/7790553465062</id>
+      <title>Complete</title>
+      <s:price currency="EUR">274.08</s:price>
+      <s:sku>FLIPPERZERO-COMPLETE-PACK</s:sku>
+      <s:grams>310</s:grams>
+    </s:variant>
+  </entry>
+</feed>

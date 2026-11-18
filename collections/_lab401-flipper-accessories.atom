@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/collections/_lab401-flipper-accessories.atom"/>
+  <title>Lab401</title>
+  <updated>2026-03-13T11:54:59+01:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/products/10323653067099</id>
+    <published>2026-03-13T11:54:59+01:00</published>
+    <updated>2026-03-13T11:54:59+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/lab401-hardshell-for-flipper-zero"/>
+    <title>Lab401 HardShell for Flipper Zero</title>
+    <s:type></s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/HardShell---Production---1---Closed.png?v=1769624410"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            29.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2><b>Meet the Real Flipper Killers</b></h2>
+<p>Accidental <b>drops</b>, unstable <b>over-sized accessories</b>, over-used, loose and <b>damaged GPIO sockets</b> and <b>blown internal fuses</b>: These are the real Flipper Zero killers. Each one <b>will kill your Flipper</b> or leave it crippled. They're the most common causes for damaged or failing devices - if it hasn't already happened to you - it's just a matter of time. </p>
+<div class="hardshell-widget">
+   <div class="hw-text-area" id="hwTextArea">
+      <div class="hw-slide" data-slide="0">
+         <h2 class="hw-heading">Over-sized <b>Accessories</b>
+</h2>
+         <p class="hw-description">Large accessories flexing causes stress and can break pins and the Flipper's GPIO sockets.</p>
+      </div>
+      <div class="hw-slide" data-slide="1">
+         <h2 class="hw-heading">Damaged <b>GPIO Sockets</b>
+</h2>
+         <p class="hw-description">Loose and broken GPIO sockets mean accessories are unstable, fall out, or cause crashes.</p>
+      </div>
+      <div class="hw-slide" data-slide="2">
+         <h2 class="hw-heading">Blown <b>Fuse</b>
+</h2>
+         <p class="hw-description">Flipper's fuse is easy to blow but impossible to repair easily. A blown fuse means no accessories - Flipper is crippled.</p>
+      </div>
+      <div class="hw-slide" data-slide="3">
+         <h2 class="hw-heading">Dropped <b>Devices</b>
+</h2>
+         <p class="hw-description">Drops, shocks and bumps - all can kill your Flipper. Silicone covers aren't enough - you need a hard shell.</p>
+      </div>
+   </div>
+   <div class="hw-images-area">
+      <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/1---Heavy.png?v=1773241066" alt="Heavy accessory on Flipper" data-index="0">
+      <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/2---Bending.png?v=1773241067" alt="Bent accessory on Flipper" data-index="1">
+      <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/3---Fuse.png?v=1773241067" alt="Blown fuse on Flipper" data-index="2">
+      <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/4---Fall.png?v=1773241067" alt="Dropped Flipper" data-index="3">
+   </div>
+</div>
+<h2><b>The solution: The Lab401 HardShell</b></h2>
+<p style="position: relative; z-index: 20">One product can protect your Flipper completely: the <b>Lab401 HardShell.</b> It's a battle-ready shell system with <b>three layers of protection</b> to reinforce your Flipper - inside and out. It only takes seconds to install, doesn't require any soldering or modification.</p>
+<p style="margin-top: -50px; margin-bottom: -110px">
+   <video autoplay="autoplay" loop="loop" muted="" style="max-width: 100%;">
+      <source src="https://cdn.shopify.com/videos/c/o/v/ab9eaf4d54c44805b992c89f3a6a10d8.mp4" type="video/mp4"></video>
+</p>
+<div class="grid" style="margin-top: 2em; position: relative; z-index: 20">
+   <div class="grid-item small--one-whole medium--one-whole large--one-third text-left">
+      <h3>BATTLE-READY ABS CASE</h3>
+      <p><b>Protection Layer One</b>: Drop &amp; Shock resistant three-part moulded ABS case, secured with stainless steel bolts.</p>
+   </div>
+   <div class="grid-item small--one-whole medium--one-whole large--one-third text-left">
+      <h3>REPLACEABLE GPIO BOARDS</h3>
+      <p><b>Protection Layer Two</b>: Swappable GPIO Boards. Protects your Flipper's GPIO sockets and internal fuse. Three included.</p>
+   </div>
+   <div class="grid-item small--one-whole medium--one-whole large--one-third text-left">
+      <h3>SILICONE SHOULDER PADS</h3>
+      <p><b>Protection Layer Three</b>: Silicone Shoulder pads prevent large accessories from flexing and damaging your device.</p>
+   </div>
+</div>
+<div style="margin-top: 2em;">
+   <h2><b>SEE THE HARDSHELL IN REAL-WORLD TESTS</b></h2>
+   <p>The HardShell was built to solve real-world, day-to-day problems that many customers face: GPIO degradation, blown fuses, unstable accessories and physical damage. Check out our <b>real-world test video</b> below, and see why <b>your Flipper deserves the HardShell.</b></p>
+</div>
+<figure style="margin-top: 1em;">
+   <video lite-youtube="" videoid="GPNJsUj4vy0" posterquality="maxresdefault" params="rel=0">
+      <img slot="image" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Product-Page---YT-Thumb---3_x1200.png?v=1770725136">
+   </video>
+</figure>
+<style>
+   .feature-item { margin-bottom: 1.5em }
+</style>
+<h2><b>HOW THE HARDSHELL WORKS</b></h2>
+<p>The HardShell has three layers of protection - each layer is engineered with precision and a protects a specific part of your Flipper or its accessories.</p>
+<div class="grid" style="margin-top: 3em;">
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left product-image-container">
+      <img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/HardShell---Parts-Zoom.png?v=1769624248">
+      <ul class="markers-list">
+         <li data-y="0" data-x="28" data-feature-id="1" class="feature-marker">1</li>
+         <li data-y="12" data-x="46.2" data-feature-id="2" class="feature-marker">2</li>
+         <li data-y="25" data-x="75" data-feature-id="3" class="feature-marker">3</li>
+         <li data-y="41" data-x="82" data-feature-id="4" class="feature-marker">4</li>
+      </ul>
+   </div>
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left" style="text-align: start;">
+      <div data-feature-id="1" class="feature-item">
+         <h3>1. SILICONE SHOULDER PADS</h3>
+         Give your larger accessories a shoulder to lean on, without falling out, bending pins or stressing sockets.
+      </div>
+      <div data-feature-id="2" class="feature-item">
+         <h3>2. REINFORCED GPIO SOCKET</h3>
+         Incredibly rugged GPIO socket reinforcement, built to last years of abuse / oversized accessories.
+      </div>
+      <div data-feature-id="3" class="feature-item">
+         <h3>3. SWAPPABLE, FUSED GPIO BOARDS</h3>
+         Replaceable GPIO boards transform your Flipper from useful to industrial. Blow a fuse or break a pin: simply swap in a new board. (Three are included!)
+      </div>
+      <div data-feature-id="4" class="feature-item">
+         <h3>4. BUILT TO <s>IMPRESS</s> LAST</h3>
+         The HardShell looks and feels great. Highest quality design, manufacturing and materials mean that it will probably outlast your Flipper!
+      </div>
+   </div>
+</div>
+<div class="grid">
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+      <h2><strong>OVER-ENGINEERED WITH LOVE</strong></h2>
+      <p>The Flipper was never built to handle giant "everything-plus-a-goat" accessories - which strain the GPIO and push the power-supply to breaking point. The HardShell solves these problems - and solves them in style!</p>
+      <p>Featuring reinforced injection-molded ABS, internal clasps for structural integrity and stainless steel bolts - it's the perfect combination of functionality, protection, style (and a sprinkling of mad-scientist for good measure..)</p>
+   </div>
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left"><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/HardShell---Assembled---Angle.png?v=1769624196" style="margin-bottom: -6em;"></div>
+</div>
+<div class="grid">
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left"><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Fuse-PCB.png?v=1769624196" style="margin-bottom: -1em;"></div>
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+      <h2><strong>REAL PROTECTION, INSIDE AND OUT</strong></h2>
+      <p>Blowing Flipper's internal fuse means open-heart surgery and soldering SMD components on your Flipper's motherboard.</p>
+      <p>The HardShell's comes with fused GPIO boards (5v and 3.3v) that are calibrated to blow before your Flipper's fuses.</p>
+      <p>Blow a fuse? Swap out the PCB and you're back in business!</p>
+   </div>
+</div>
+<div class="grid">
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+      <h2><strong>BUILT FOR TODAY'S ACCESSORIES</strong></h2>
+      <p>Flipper accessories have become large and heavy - which rapidly degrades the Flipper's internal GPIO sockets.</p>
+      <p>The most critical parts of the Flipper and accessory - the GPIO pins - become a dangerous pivot point.</p>
+      <p>The HardShell's included (and removable) Silicone Shoulders support your larger accessories to improve support.</p>
+   </div>
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left"><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/HardShell---Zoom---Bumper---AWOK.png?v=1769624196" style="margin-bottom: -5em;"></div>
+</div>
+<h2>BUILT FOR YOU</h2>
+<p>Whether you're using your Flipper on professional engagements, or enjoy modding your device - the Lab401 HardShell is for you. It adds much needed protection, adds new functionality, and looks good at the same time!</p>
+<p><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Boxes---horizontal.jpg?v=1769624196"></p>
+<div style="margin-top: 2em;" class="grid">
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+      <h2><strong>What's included</strong></h2>
+      <ul>
+         <li>Lab401 HardShell (3 parts)</li>
+         <li>2x non-fused GPIO Replacement boards</li>
+         <li>1x fused GPIO Replacement board</li>
+         <li>1x Double Silicone Shoulder</li>
+         <li>1x Short Silicone Shoulder</li>
+         <li>Screws + Tools for assembly</li>
+      </ul>
+   </div>
+</div>
+</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Flipper Zero</s:tag>
+    <s:tag>Flipper Zero Accessory</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10323653067099</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">29.95</s:price>
+      <s:sku>LAB401-FLP-HARDSHELL-PACK</s:sku>
+      <s:grams>150</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/10066762105179</id>
+    <published>2025-09-15T10:06:40+02:00</published>
+    <updated>2025-09-15T10:06:40+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/digilab-for-flipperzero"/>
+    <title>DigiLab for FlipperZero</title>
+    <s:type></s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab---Connected.png?v=1756235925"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            49.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Lab401's DigiLab by tixlegeek is a Flipper Zero® accessory that introduces a new way to explore electronics. Designed to be the first tool you reach for when you're developing, debugging, tinkering or exploring digital electronics.</p>
+<p>Want to <em>feel</em> voltages? <em>See</em> signals? <em>Hear</em> protocols? Reach directly into the memory of sensors and modules? Sounds crazy, but it's possible with the DigiLab.</p>
+<p>Discover signals via the Scope application, probe for voltages and frequencies in the Probe function, and detect, discover and directly interact with SPI &amp; I2C devices via the SPI Probe and I2C Probe functions.</p>
+<div class="animation-container">
+   <div class="flipper-stage" data-tilt="" data-tilt-max="1" data-tilt-perspective="1000" data-tilt-full-page-listening="" data-max-tilt="">
+      <div class="flipper-assembly">
+         <!-- Base Flipper device (always visible) --> <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab-Flipper.png?v=1756138151" alt="Flipper Base" class="flipper-element flipper-base"> <!-- Initial animation screen --> <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab-Animation.gif?v=1756138146" alt="Flipper Animation" class="flipper-element flipper-animation"> <!-- PCB coming from top --> <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab-PCB.png?v=1756138148" alt="Flipper PCB" class="flipper-element flipper-pcb"> <!-- Probe coming from left --> <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab-Probe.png?v=1756138147" alt="Flipper Probe" class="flipper-element flipper-probe"> <!-- Final app screen --> <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab-App.png?v=1756138146" alt="Flipper App" class="flipper-element flipper-app"> 
+      </div>
+   </div>
+</div>
+<p>By combining an RGB LED, Flipper's speaker and vibration motor, you can see voltages fluctuations, hear the difference between different protocols, and feel the different signals flowing around a circuit.</p>
+<p>The DigiLab is even compatible with the full range of BusPirate accessories; making SPI and I2C exploration even more easy. It's 100% Open Source and Open Hardware, and is the perfect combination of functional, fun and educational that your Flipper has been waiting for.</p>
+<p><strong>If you love electronics, you'll love Lab401's DigiLab.</strong></p>
+<p>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+</p>
+<style>         .animation-container {             margin: 0;             padding: 0;             box-sizing: border-box;             /*height: 300vh;*/             position: relative;             /*background: linear-gradient(180deg, #764ba2 0%, #667eea 50%, #f093fb 100%);*/         }     .rte .animation-container img {             margin: 0;             padding: 0;     }         .flipper-stage {             position: sticky;             top: 0;             /*height: 100vh;*/             display: flex;             align-items: center;             justify-content: center;             /*overflow: hidden;*/         }         .flipper-assembly {             position: relative;             width: 916px;             height: 500px;             margin-top: 3em;             margin-bottom: -4em;         }         .flipper-element {             position: absolute;             max-width: 100%;             height: auto;         }         /* Base Flipper device - always visible, centered */         .flipper-base {             top: 50%;             left: 50%;             transform: translate(-50%, -50%);             z-index: 1;             width: 500px;         }         /* Initial animation screen - positioned over orange screen */         .flipper-animation {             top: 50%;             left: 50%;             transform: translate(-50%, -50%);             z-index: 2;             width: 172px;             /* Fine-tune position to match orange screen exactly */             margin-top: -18px !important;             margin-left: -31px !important;         }         /* PCB - starts from top, ends positioned above the main device */         .flipper-pcb {             width: 750px;             z-index: 3;             opacity: 0;             top: -100px;             left: 50%;             transform: translateX(-50%);         }         /* Probe - starts from left, ends positioned on the left side */         .flipper-probe {             width: 916px;             z-index: 4;             opacity: 0;             top: 24%;             left: -50%;             transform: translate(0%, -50%);         margin-top: 1em;         }         .flipper-app {             top: 50%;             left: 50%;             transform: translate(-50%, -50%);             z-index: 5;             opacity: 0;             width: 172px;             margin-top: -18px !important;             margin-left: -31px !important;         }         @keyframes animatedgradient {             0% {                 filter: drop-shadow(0px 0px 10px rgba(247, 149, 51, 0.2)) drop-shadow(0px 0px 20px rgba(243, 112, 85, 0.2)) drop-shadow(0px 0px 30px rgba(239, 78, 123, 0.2));             }             100% {                 filter: drop-shadow(0px 0px 10px rgba(161, 102, 171, 0.2)) drop-shadow(0px 0px 20px rgba(80, 115, 184, 0.2)) drop-shadow(0px 0px 30px rgba(16, 152, 173, 0.2));             }         }         .flipper-glow {             filter: drop-shadow(0px 0px 10px rgba(247, 149, 51, 0.2)) drop-shadow(0px 0px 20px rgba(243, 112, 85, 0.2)) drop-shadow(0px 0px 30px rgba(239, 78, 123, 0.2));             animation: animatedgradient 10s ease alternate infinite;         }         @media (max-width: 1100px) {             .animation-container {                 /*height: 300vh;*/                 position: relative;                 /*background: linear-gradient(180deg, #764ba2 0%, #667eea 50%, #f093fb 100%);*/             }             .flipper-stage {                 position: sticky;                 top: 0;                 /*height: 100vh;*/                 display: flex;                 align-items: center;                 justify-content: center;                 /*overflow: hidden;*/             }             .flipper-assembly {                 position: relative;                 width: 90vw;                 max-width: 916px;                 height: auto;                 aspect-ratio: 11 / 6;             }             .flipper-element {                 position: absolute;                 max-width: 100%;                 height: auto;             }             /* Base Flipper device */             .flipper-base {                 top: 50%;                 left: 50%;                 transform: translate(-50%, -50%);                 z-index: 1;                 width: 55%;             }             /* Initial animation screen */             .flipper-animation {                 top: 50%;                 left: 50%;                 transform: translate(-50%, -50%);                 z-index: 2;                 width: 19%;                 margin-top: -2% !important;                 margin-left: -3.5%  !important;             }             /* PCB */             .flipper-pcb {                 width: 82%;                 z-index: 3;                 opacity: 0;                 top: -10%;                 left: 50%;                 transform: translateX(-50%);             }             /* Probe */             .flipper-probe {                 width: 100%;                 z-index: 4;                 opacity: 0;                 top: 24%;                 left: -50%;                 transform: translate(0%, -50%);             }             /* Final app screen */             .flipper-app {                 top: 50%;                 left: 50%;                 transform: translate(-50%, -50%);                 z-index: 5;                 opacity: 0;                 width: 19%;                 margin-top: -2% !important;                 margin-left: -3.5% !important;             }         }         @media (max-width: 768px) {         }   lite-youtube {     /* No Shadow */     --lite-youtube-frame-shadow-visible: no;   }   video {max-width:100%; border-radius: 15px;}       </style>
+<h2>Discover what's possible with the DigiLab</h2>
+<figure>
+   <video lite-youtube="" videoid="_d2J8e9RIu4" posterquality="maxresdefault" params="rel=0"></video>
+</figure>
+<div class="grid" style="margin-top: 2em;">
+   <div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+      <h3>See, hear and feel circuits</h3>
+      <p>The DigiLab's Scope function allows you to see, hear and feel voltages and signals: it honestly feels a bit magic.</p>
+      <p>Which is CAN_HI and CAN_LO? They sound <i>completely different!</i>. What's the baud rate on this line? <i>Sounds like 9600bps!</i> Display voltage gradients via RGB LED? <i>Totally possible!</i></p>
+      <p>
+         <video autoplay="autoplay" muted="muted" loop="loop">
+            <source src="https://cdn.shopify.com/videos/c/o/v/4749a7807fb34e49baf4e42833cc5b36.mp4"></video>
+      </p>
+   </div>
+   <div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+      <h3>Probe, measure and detect signals</h3>
+      <p>The Probe function allows you to rapidly map out a circuit during debug or development.</p>
+      <p>Where are the data traces? Is the serial interface active? Is there a signal on this line? Is this plain 5v or is it UART? What's the frequency of the signal? Get answers quickly with the Probe tool.</p>
+      <p>
+         <video autoplay="autoplay" muted="muted" loop="loop">
+            <source src="https://cdn.shopify.com/videos/c/o/v/d3fe6f9f979f45a5a1389094d5903a62.mp4"></video>
+      </p>
+   </div>
+</div>
+<div class="grid" style="margin-top: 2em;">
+   <div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+      <h3>Discover and identify I2C and SPI devices</h3>
+      <p>The DigiLab has a built-in <i>Predictive Engine</i> for rapidly identifing I2C and SPI devices.</p>
+      <p>Working with chips that have no markings? Uncover its secrets without fuss. Need to identify multiple devices on the same bus? No problems! With DigiLab, discovery &amp; identification is painless!</p>
+      <p><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Detection-Animation.gif?v=1756153677"></p>
+   </div>
+   <div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+      <h3>Real-time, direct I2C &amp; SPI interaction</h3>
+      <p>Discover, read and Write directly to and from sensors, memory and other I2C prehipherals.</p>
+      <p>Forget fighting with Arduinos &amp; ESP-32s - the DigiLab just made SPI &amp; I2C manipulation simple. Debugging and development with modules is a breeze: get hands on directly with the devices!</p>
+      <p><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Hexedit-Animation.gif?v=1756155034"></p>
+   </div>
+</div>
+<h2>Detailed functionality</h2>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+   <p><strong>Scope Tool</strong> The scope tool provides an oscilloscope-style screen, with real-time, average and max voltage and the wave-form of the detected signal. When coupled with the <strong>feedback options</strong> it becomes a powerful way to navigate circuits.</p>
+   <p><strong>Sound</strong></p>
+   <ul>
+      <li>Off - <i>no audio feedback</i> </li>
+      <li>Alert - <i>Audio triggers when "Alert" condition is met</i> </li>
+      <li>On - <i>Follows the voltage/signal measured</i> </li>
+   </ul>
+   <strong>Haptic/Vibration</strong> 
+   <ul>
+      <li>Off - <i>no haptic feedback</i> </li>
+      <li>Alert - <i>Triggers when "Alert" condition is met</i> </li>
+   </ul>
+   <strong>LED</strong> 
+   <ul>
+      <li>Off - <i>no LED feedback</i> </li>
+      <li>Alert - <i>Triggers when "Alert" condition is met</i> </li>
+      <li>Follow - <i>Follows the voltage (0v Green, 12v Red)</i> </li>
+      <li>Variance - <i>Follows the calculated variance of the measured signal</i> </li>
+      <li>Trigger - <i>Follows when signal exceeds auto-calculated trigger level</i> </li>
+   </ul>
+   <strong>Alert Options</strong> 
+   <ul>
+      <li>Voltage - <i>v&lt;3.3, v&gt;3.3, v&lt;5, v&gt;5, MAX</i> </li>
+      <li>Osc - <i>When signal oscillates around 0v (digital signals, clocks, communications)</i> </li>
+      <li>~x - <i>When signal is close to x volts</i> </li>
+   </ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+   <p><strong>Probe Tool</strong> The Probe tool is ideal for initial circuit exploration or debugging multiple pins via the clear real-time UI:</p>
+   <ul>
+      <li>Voltage Range: <i> 0 - 12v</i> </li>
+      <li>Frequencies: <i> Up to ~200kHz</i> </li>
+      <li>Real-time voltage <i> indicator</i> </li>
+      <li>Real-time frequency <i> indicator</i> </li>
+   </ul>
+   <p><strong>I2C Probe</strong> Detect, identify and interact directly with attached I2C devices. GPIO Pinout is compatible with BusPirate accessories.</p>
+   <ul>
+      <li>Detection Engine: <i> Multiple Simultaneous I2C devices</i> </li>
+      <li>Prediction Engine: <i> Instant Device Identification (Device type, Address, Reference, Manufacturer, Description)</i> </li>
+      <li>Register Explorer</li>
+      <li>Register Editor: <i>Read / Write</i> </li>
+      <li>Hex-editor</li>
+   </ul>
+   <p><strong>SPI Probe</strong> Detect, identify and interact directly with attached SPI devices. GPIO Pinout is compatible with BusPirate accessories.</p>
+   <ul>
+      <li>Detection Engine: <i> Multiple Simultaneous I2C devices</i> </li>
+      <li>Prediction Engine: <i> Instant Device Identification (Device type, Address, Reference, Manufacturer, Description)</i> </li>
+      <li>Register Explorer</li>
+      <li>Register Editor: <i>Read / Write</i> </li>
+      <li>Hex-editor</li>
+   </ul>
+</div>
+<div style="margin-top: 2em;" class="grid">
+   <div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+      <h2><strong>What's included</strong></h2>
+      <ul>
+         <li>
+            <strong>1x DigiLab</strong> 
+            <ul>
+               <li>1x Probe Pair (Shielded RG-178 cable with SMA connector)</li>
+               <li>1x Probe Point (Connects via screw attachment)</li>
+            </ul>
+         </li>
+      </ul>
+      <ul>
+         <li>DigiLab <a href="https://lab.flipper.net/apps/401_digilab" target="_blank">Flipper Application</a> </li>
+      </ul>
+   </div>
+   <div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+      <h2><strong>DigiLab Resources</strong></h2>
+      <ul>
+         <li><a href="https://lab.flipper.net/apps/401_digilab" target="_blank">DigiLab Flipper Application</a></li>
+         <li><a href="https://github.com/lab-401/fzDigiLab" target="_blank">DigiLab Github Repository</a></li>
+         <li><a href="/blogs/news/building-the-digilab-behind-the-scenes" target="_blank">Building the DigiLab : Behind the scenes with Lab401</a></li>
+      </ul>
+      <h2><strong>DigiLab Tutorials</strong></h2>
+      <ul>
+         <li><a href="/blogs/academy/digilab-pulling-data-from-thin-air-and-a-bmp280-module" target="_blank">DigiLab &amp; BMP280 : Reading Pressure, Temperature &amp; Altitude directly from the BMP280.</a></li>
+         <li><a href="/blogs/academy/i2c-sensor-seduction-digilab-flipper" target="_blank">Sensor Seduction: No fuss data downloading from sensors with the DigiLab</a></li>
+      </ul>
+   </div>
+</div>
+</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Flipper</s:tag>
+    <s:tag>Flipper Zero</s:tag>
+    <s:tag>Flipper Zero Accessory</s:tag>
+    <s:tag>FlipperZero</s:tag>
+    <s:tag>I2C</s:tag>
+    <s:tag>IoT</s:tag>
+    <s:tag>SPI</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10066762105179</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">49.00</s:price>
+      <s:sku>LAB401-DIGILAB</s:sku>
+      <s:grams>125</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/9713259020635</id>
+    <published>2025-02-12T06:39:52+01:00</published>
+    <updated>2025-02-12T06:39:52+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/light-messenger"/>
+    <title>Light Messenger - POV Light Painter for Flipper Zero</title>
+    <s:type></s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Light-Messenger---Front-with-Gradient.png?v=1737989847"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            29.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2><strong>Introduction</strong></h2>
+<p>The <b>Light Messenger</b> is a <a href="https://en.wikipedia.org/wiki/Persistence_of_vision" target="_blank"> Persistence of Vision</a> accessory for the Flipper Zero, allowing users to "paint" text and images into the air. It has a companion Flipper App that includes a fully-featured bitmap editor (for creating sprites without a computer), a text editor, light and animation controls - and even a flashlight function.</p>
+<p>The Light Messenger can also be used for light-painting, allowing you to create incredible images that slips into your pocket.</p>
+<p>Naturally, everything is open-source - and with 16 fully-addressable RGB LEDs, an accelerometer, and a feature-complete App, the Light Messenger was made to be customised and extended. Want to make colours change according to how you move the device? Totally possible. Want to show a different sprite with every swipe? Hack it in!</p>
+<figure><video lite-youtube="" videoid="NlNuNxXg9r0" posterquality="maxresdefault" params="rel=0"></video></figure>
+<div style="margin-top: 1em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Persistence of Vision</h3>
+<p>Swipe the Light Messenger back and forth, and your designs will appear to float in the air like magic!</p>
+<p><video loop="loop" muted="muted" autoplay="autoplay" style="width: 100%;"><source src="https://cdn.shopify.com/videos/c/o/v/6c599a21b92a4bd1afec28532ab7e460.mp4"></video></p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Pocket-sized Light Painter</h3>
+<p>With infinite light, colour and animation options, your Flipper Zero is now a fully-qualified light-painting device!</p>
+<p><video loop="loop" muted="muted" autoplay="autoplay" style="width: 100%;"><source src="https://cdn.shopify.com/videos/c/o/v/eb996317e2d943ceb01c3a4fed063e96.mp4"></video></p>
+</div>
+</div>
+<div class="grid">
+<div class="grid-item small--one-whole medium--one-whole large--one-whole text-left">
+<h2><strong>How does the Light Messenger work?</strong></h2>
+<p>The Light Messenger has an on-board accelerometer, and can calculate its position in real-time. As you wave your hand back and forth, the device calculates the limits of each "sweep", and then triggers the 16 LEDs to paint "pixels" of light across the arc - which your eye determines as a floating image!</p>
+<p>The smoother you swipe, the more stable the image is - it only takes a little bit of practice to become a pro!</p>
+</div>
+</div>
+<div class="grid">
+<div class="grid-item small--one-whole medium--one-whole large--one-whole text-left product-image-container">
+<img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Light-Messenger---Front-with-Gradient-Cropped-Transparent-POV-Tool.png?v=1737969734" alt="">
+<ul class="markers-list">
+<li class="feature-marker" data-feature-id="1" data-x="25" data-y="20">1</li>
+<li class="feature-marker" data-feature-id="2" data-x="75" data-y="43">2</li>
+<li class="feature-marker" data-feature-id="3" data-x="35" data-y="50">3</li>
+<li class="feature-marker" data-feature-id="4" data-x="57" data-y="70">4</li>
+</ul>
+</div>
+<div style="text-align: start;" class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<div class="feature-item" data-feature-id="1">
+<h3>1. Sixteen RGB LEDs</h3>
+<p>Sixteen powerful, individually controlled RGB LEDs for beautiful colour effects.</p>
+</div>
+<div class="feature-item" data-feature-id="3">
+<h3>3. Light Messenger App</h3>
+<p>Easy-to-use App contains everything: Bitmap painter, text-editor, colour + effect selectors and more!</p>
+</div>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<div class="feature-item" data-feature-id="2">
+<h3>2. Accelerometer</h3>
+<p>The magic behind the Light Messenger, allowing the LEDs to reaction in real-time to your movements.</p>
+</div>
+<div class="feature-item" data-feature-id="4">
+<h3>4. Open Source</h3>
+<p>Everything is open-source: Learn how POV code works, modify, customise and add your own features!</p>
+</div>
+</div>
+</div>
+<h2 style="margin-top: 2em;"><strong>HOWTO: LightMessenger</strong></h2>
+<p><strong>The LightMessenger is slightly different / more powerful</strong> than other Persistence of Vision devices, because it can <strong>display images &amp; text of varying lengths and varying distances.</strong></p>
+<p>For example, if you're showing a text message, you might do longer, slower swipes - and the LightMessenger will calculate how big your swipes are to take advantage of the "full swipe" to show your message.</p>
+<p>Alternatively, if you're doing smaller, faster swipes, it will ensure that the message or image fits into your swipes.</p>
+<p>To perform these calculations, <strong>the device needs three swipes to calibrate.</strong><br>During these first swipes, <strong>it will calculate </strong>the <strong>distance</strong> of your swipes, and the <strong>speed</strong> of your swipes. <strong>Once these are calculated, the message will show.</strong></p>
+<div style="text-align: center;"><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/LM-HowTo.png?v=1739527660" alt="" style="margin: 5px 5px 5px 5px; float: none;"></div>
+<p><strong>Speed is not the most important factor - it's being consistent.</strong> Try to make your swipes as uniform as possible. Don't worry - if you change the swipe speed or distance during use, the LightMessenger will recalculate.</p>
+<p><strong>It might take a few tries to get the hang of it - but if you remember: 1, 2, 3 - Go! - this should help you get great results faster!</strong></p>
+<h2><strong>A family of accessories</strong></h2>
+<p>The <b>Light Messenger</b> is Lab401's first of several accessories for the Flipper Zero. We're passionate about building innovative, useful and educational products, and the Flipper Zero is the perfect platform for development.</p>
+<p>If you're curious to read more read more about the development of the Light Messenger, and all the behind-the-scenes work, check out our Accessory Development posts!</p>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>Device Specifications<br></strong></h2>
+<ul>
+<li>
+<strong>LEDs:</strong> 16x SK6805 RGB LEDs<br>
+</li>
+<li>
+<strong>Accelerometer</strong>: I2C LIS2XX12</li>
+<li>
+<strong>Resolution: </strong>16 pixels vertical, "unlimited" horizontal pixels</li>
+</ul>
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>
+<strong>1x Light Messenger</strong> (FlipperZero NOT included)</li>
+<li>1x Light Messenger App (Available in the Flipper App Store)</li>
+</ul>
+</div>
+<h2><strong>Light Messenger Resources</strong></h2>
+<ul>
+<li><a href="https://github.com/lab-401/fzLightMessenger" target="_blank">Official Github Repository</a></li>
+<li><a rel="noopener" href="https://lab.flipper.net/apps/401_light_msg" target="_blank">Light Messenger Application</a></li>
+<li><a rel="noopener" href="https://github.com/spyx/LightFlashPro" target="_blank">Community Custom Flashlight tool</a></li>
+</ul>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Flipper Zero</s:tag>
+    <s:tag>Flipper Zero Accessory</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/9713259020635</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">29.00</s:price>
+      <s:sku>LAB401-LIGHT-MESSENGER</s:sku>
+      <s:grams>40</s:grams>
+    </s:variant>
+  </entry>
+</feed>

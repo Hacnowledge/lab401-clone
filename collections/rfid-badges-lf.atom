@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/collections/rfid-badges-lf.atom"/>
+  <title>Lab401</title>
+  <updated>2022-06-20T15:00:39+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/products/1477625741423</id>
+    <published>2022-06-20T15:00:39+02:00</published>
+    <updated>2022-06-20T15:00:39+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/keysy-blank-lf-tag-pack-of-5"/>
+    <title>Keysy Blank LF Tag - Pack of 5</title>
+    <s:type>RFID Tags</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/keysy-tag_d4e15507-d98a-4cd5-a528-236cc50d77d0.png?v=1535701682"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>RFID Tags<br>
+        <strong>Price: </strong>
+            21.99
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>Keysy Blank LF Tag - Pack of 5</h2>
+<p><strong>Please note:</strong> This product is sold in <strong>Packs of 5</strong></p>
+<p>If you want to write sniffed / saved tags from your <a href="/products/keysy-lf-rfid-emulator-duplicator">Keysy LF RFID Cloner</a> onto physical badges, you'll need these Keysy Blank Badges.</p>
+<p> </p>
+<p>The Keysy LF Badges are built to last:</p>
+<ul>
+<li>ABS Plastic with Stainless Steel Spine</li>
+<li>Waterproof / dust-proof / shockproof</li>
+<li>High performance miniaturised antenna</li>
+<li>Compact aesthetic design</li>
+</ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>125KHz (LF)</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/1477625741423</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">21.99</s:price>
+      <s:sku>KEYSY-TAGS</s:sku>
+      <s:grams>32</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/4492302483567</id>
+    <published>2022-06-20T15:00:25+02:00</published>
+    <updated>2022-06-20T15:00:25+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/125khz-t5577-keyfobs-pack-of-5"/>
+    <title>125KHz T5577 Keyfobs - Pack of 5</title>
+    <s:type>RFID Tags</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/Lab401-T5577-Keyfob-Solo.png?v=1592478352"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>RFID Tags<br>
+        <strong>Price: </strong>
+            12.99
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>125KHz T5577 Keyfobs - Pack of 5</h2>
+<p>Need to make perfect clones for your 125KHz tags? Our T5577 tags are the solution.</p>
+<p><strong>Please note</strong>: <strong>Sold in a </strong><strong>pack of 5</strong></p>
+<p>Unlike 13.56MHz RFID chipsets, 125KHz are much less standardised. It is common to encounter several different data rates with multiple modulation types.</p>
+<p>Duplicating 125KHz tags required careful knowledge of each tag type, its modulation and data rates, and a selection of blank tags.</p>
+<p><span>The T5577 chip is a multi-purpose 125KHz RFID emulator, capable of emulating practically every modulation and data-rate combination:</span></p>
+<ul>
+<li><span>Modulation: Biphase, Manchester, FSK, PSK, NRZ</span></li>
+<li><span>Data Rates: RF/2 to RF/128</span></li>
+</ul>
+<p><span>This enables it to successfully clone almost every 125KHz tag in existence, including:</span></p>
+<ul>
+<li>HID Prox (Proxcard, ISOProx, ProxKey)<br> (Emulation not supported on multiClass readers, can still clone to rewritable)</li>
+<li>HID Indala (Motorola Indala)</li>
+<li>EM400x, EM410x, EM420x</li>
+<li>Noralsy (KCP3000)</li>
+<li>Farpointe Pyramid</li>
+<li>Keri (KC-10X, MT-10X, PKT-10X)</li>
+<li>Kantech ioProx</li>
+<li>DoorKing (DKProx) [Not DKProx Long Range]</li>
+<li>AWID (Low frequency only – CS-AWID, GR-AWID, KT-AWID, PW-AWID)<br> (Emulation not supported, can still clone to rewritable)</li>
+<li>Radio Key (SecuraKey RKKT-01, RKKT-02)</li>
+<li>Viking</li>
+<li>Visa2000</li>
+<li>Schlage IBF iButton (RFID portion only)</li>
+</ul>
+<p>The Lab401 T5577 Keyfobs are high quality, water resistant with an ABS and metal finish. They are compatible with the Proxmark 3 and any standard LF read/write tools.</p>
+<div class="chipset--tables-wrapper">
+<div class="chipset--table-title">Technical Specifications</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Feature</th>
+<th>Information</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Feature">Chipset</td>
+<td data-label="Information">T5577</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">Memory Size</td>
+<td data-label="Information">363 bits, 11 pages</td>
+<td data-label="Notes">224-Bits user memory</td>
+</tr>
+<tr>
+<td data-label="Feature">UID Size</td>
+<td data-label="Information">2x 32-bit blocks</td>
+<td data-label="Notes">ID Length depends on card config</td>
+</tr>
+<tr>
+<td data-label="Feature">UID Modifiable</td>
+<td data-label="Information">✔️</td>
+<td data-label="Notes"></td>
+</tr>
+<tr>
+<td data-label="Feature">Packaging</td>
+<td data-label="Information">5 per pack</td>
+<td data-label="Notes"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chipset--table-title">Device Compatibility</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Compatibility</th>
+<th>UID</th>
+<th>R/W</th>
+<th>Config</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Compatibility">Flipper Zero</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">Proxmark / iCopy-X</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">Keysy</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>125KHz (LF)</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/4492302483567</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">12.99</s:price>
+      <s:sku>125KHZ-KEYFOB-x5</s:sku>
+      <s:grams>3</s:grams>
+    </s:variant>
+  </entry>
+</feed>

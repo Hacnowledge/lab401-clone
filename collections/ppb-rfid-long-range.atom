@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/collections/ppb-rfid-long-range.atom"/>
+  <title>Lab401</title>
+  <updated>2026-05-05T21:27:02+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/products/10277815976283</id>
+    <published>2026-05-05T21:27:02+02:00</published>
+    <updated>2026-05-05T21:27:02+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/stealth-decoy-reader"/>
+    <title>Stealth Decoy Reader</title>
+    <s:type>RFID</s:type>
+    <s:vendor>Mayweather</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/HID-SDR-RP40---Cutaway.png?v=1767714696"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Mayweather<br>
+        <strong>Type: </strong>RFID<br>
+        <strong>Price: </strong>
+            125.00 - 685.00
+            <a href="https://lab401.com/products/stealth-decoy-reader">(9 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="contentGroup">
+<h2>THE PROBLEM</h2>
+<p>Extracting RFID &amp; Keypad credentials via spliced implants is a well-known technique. However, these tools are rarely used in professional audits: installations are slow and complicated, and damage to wiring, hardware and infrastructure are rarely authorised in Scope of Engagement documents.</p>
+<p>The implants themselves have limited functionality and protocol support, and only provide the "capture" part of an RFID Audit lifecycle. The analysis and cloning of a captured credential requires multiple manual steps, tools and skills.</p>
+<h2>THE SOLUTION</h2>
+<p>Imagine walking into an audit, placing an access control reader on a wall and instantly collecting credentials. Your phone gives you real-time notifications of skimmed badges and PIN codes, and directly writes a clone badge with your Proxmark.</p>
+<p>You don't need a computer, you don't need to damage client property, you don't need to memorise arcane Proxmark commands. Everything is taken care of. When the audit is over, you've got a timestamped log of all operations, ready for export into a report. Your time and skills are spent on the audit, instead of the tools.</p>
+<p>You've just imagined the Stealth Decoy Reader platform, a next-generation, non-destructive credential capture system designed specifically for red-teamers and pentesters. The Stealth Decoy Reader is an open-source, battle-tested hardware module built to collect and exfiltrate all known corporate access-control protocols and PIN codes.</p>
+<p>Even better, the Stealth Decoy Reader is available pre-installed inside the most common access control readers for perfect camouflage. The readers come equipped with non-destructive mounting systems, ready for rapid placement in public areas, choke points, doorways, cabinets, etc.</p>
+</div>
+<style> .scenario-caption { display: block; text-align: center; font-style: italic; margin-top: 0.5em; } .scenario-frame { padding: 10px; border: 1px solid #add8e6; border-radius: 16px; display: inline-block; line-height: 0; } .scenario-frame img { border-radius: 6px; margin-top: 0px !important; margin-bottom: 0px !important;} </style>
+<div style="width: 95%; margin: 2em auto 2em auto;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-center">
+<span class="scenario-frame"><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/SDR---Scenario---1.jpg?v=1767716240"></span>
+<p class="scenario-caption">Rapid deployment during public access</p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-center">
+<span class="scenario-frame"><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/SDR---Scenario---2.jpg?v=1767716240"></span>
+<p class="scenario-caption">Credential capture</p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-center">
+<span class="scenario-frame"><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/SDR---Scenario---3.jpg?v=1767716240"></span>
+<p class="scenario-caption">Instant notifications and credential management</p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-center">
+<span class="scenario-frame"><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/SDR---Scenario---4.jpg?v=1767716240"></span>
+<p class="scenario-caption">One-click cloning via Proxmark 3</p>
+</div>
+</div>
+<div class="contentGroup">
+<p>The Stealth Decoy Reader Platform covers the <b>full RFID pentest life-cycle</b>:</p>
+<ol>
+<li>
+<b>Capture</b>: Rapidly deployed, instant multi-factor credential skimming</li>
+<li>
+<b>Control</b>: Manage multiple devices, analyse, save, tag and exfiltrate captured credentials via the cross-platform WebUI.</li>
+<li>
+<b>Clone</b>: Emulate, clone and write captured credentials directly from the UI via Proxmark 3. One click &amp; wireless: No command lines, no code.</li>
+<li>
+<b>Access</b>: Gain and escalate access via cloned RFID.</li>
+</ol>
+</div>
+<div class="grid" style="margin-top: 2em; margin-bottom: 2em;">
+<div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+<h3>MULTI-PROTOCOL</h3>
+<p>Supports all corporate RFID and keypad protocols, including HID &amp; Wiegand, iCLASS, Indala, Paxton..</p>
+</div>
+<div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+<h3>UNDETECTABLE</h3>
+<p>Physical switch to deactivate WiFi for undetectable installation, NAC evasion, and reduced RF exposure.</p>
+</div>
+</div>
+<div style="width: 95%; margin: 0.8em auto 2em auto;" class="grid">
+<div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+<h3>NON-DESTRUCTIVE INSTALLATION</h3>
+<p>No need to remove readers, crimp cables or damage client hardware. Deploy and remove in seconds.</p>
+</div>
+<div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+<h3>PROFESSIONAL TOOL &amp; SUPPORT</h3>
+<p>Built by pentesters based on real-world requirements: modern hardware, software and frequent updates.</p>
+</div>
+</div>
+<div class="contentGroup">
+<h2>POWERED BY STEALTH</h2>
+<p>Inside every Stealth Decoy Reader is a Stealth Decoy Module - the high-performance, multi-protocol, wireless equipped RFID capture, analysis and cloning device. It works hand-in hand with the Doppelgänger Assistant, a cross-platform professional GUI application designed to handle every possible operation requirement.</p>
+<p>Together, they allow for automated card capture and wireless credential exfiltration. Teams can collaborate and share credentials; credentials can be analysed, exported or cloned.</p>
+<p>The Doppelgänger Assistant also works as a easy-to-use UI for the Proxmark 3, making credential writing, cloning and verification a one-click operation. Don't miss opportunities because of knowledge gaps or constrained time: the Doppelgänger Suite is a results-oriented system for complete RFID audits.</p>
+</div>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-whole medium--one-whole large--one-half text-left product-image-container">
+<img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Reader-_-Battery.jpg?v=1767775419" alt=""><br>
+<ul class="markers-list">
+<li class="feature-marker" data-feature-id="1" data-x="24" data-y="10">1</li>
+<li class="feature-marker" data-feature-id="2" data-x="42" data-y="37">2</li>
+<li class="feature-marker" data-feature-id="3" data-x="32" data-y="65">3</li>
+<li class="feature-marker" data-feature-id="4" data-x="72" data-y="65">4</li>
+<li class="feature-marker" data-feature-id="5" data-x="48" data-y="89">4</li>
+</ul>
+</div>
+<div style="text-align: start;" class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+<div class="feature-item" data-feature-id="1">
+<h3>1. REAL HARDWARE</h3>
+<p>Legitimate readers with the Stealth Decoy Reader modules embedded inside are indistinguishable from your client's existing readers.</p>
+</div>
+<div class="feature-item" data-feature-id="2">
+<h3>2. MULTI-FACTOR CREDENTIALS</h3>
+<p>Skim RFID and matching PIN credentials simultaneously. Handles all corporate protocols, including iCLASS SE/SEOS/SR.</p>
+</div>
+<div class="feature-item" data-feature-id="3">
+<h3>3. NEVER MISS A CREDENTIAL</h3>
+<p>Support for all major corporate RFID systems. Frequent firmware and software updates. Never miss a credential.</p>
+</div>
+<div class="feature-item" data-feature-id="4">
+<h3>4. NO RISK, NO DAMAGE INSTALLS</h3>
+<p>No risky, lengthy or destructive installation or hardware modifications required. Deploy in seconds. Runs on internal power.</p>
+</div>
+<div class="feature-item" data-feature-id="5">
+<h3>5. BUILT FOR DISCRETION</h3>
+<p>Credential capture is silent, and can trigger notifications, SMS or emails. Hardware switch to disable all RF emissions.</p>
+</div>
+</div>
+</div>
+<div class="contentGroup">
+<h2>FIELD-READY WORKFLOW</h2>
+<p>Unlike traditional approaches for RFID audits, the <i>Stealth Decoy Reader</i> system provides a full end-to-end workflow for RFID audits. What previously required highly technical knowledge, complicated wiring, fussy tools and unstable software is replaced by an all-in-one device and intuitive, cross-platform software.</p>
+<p>Red-teamers and auditors can literally turn on the device, attach it to an appropriate wall / door / cabinet / public choke-point and instantly collect credentials. Captured cards can be detected, analysed and exported to other team-members, or effortlessly simulated or physically cloned wirelessly via a Proxmark - the included <em>Doppelgänger Assistant</em> handles everything.</p>
+</div>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-whole medium--one-whole large--one-whole text-left product-image-container" style="margin-bottom: -3em;">
+<p>The Long Range Reader and Doppelgänger ecosystem covers every step of an RFID Audit: acquisition, exfiltration &amp; analysis, duplication and access / escalation.</p>
+<img src="https://cdn.shopify.com/s/files/1/2175/8571/files/SDR---Lifecycle.jpg?v=1767775419" alt=""><br>
+<ul class="markers-list">
+<li class="feature-marker" data-feature-id="1" data-x="25" data-y="47">1</li>
+<li class="feature-marker" data-feature-id="2" data-x="70" data-y="47">2</li>
+<li class="feature-marker" data-feature-id="3" data-x="36" data-y="82">3</li>
+<li class="feature-marker" data-feature-id="4" data-x="60" data-y="82">4</li>
+</ul>
+</div>
+<div style="text-align: start;" class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+<div class="feature-item" data-feature-id="1">
+<h3>1. MULTI-FACTOR ACQUISITION</h3>
+<p>Capture RFID &amp; PIN Credentials, silently. Rapid deployment. No wiring or complex setup required. Turn on, drop and go.</p>
+</div>
+<div class="feature-item" data-feature-id="2">
+<h3>2. CROSS-PLATFORM UI</h3>
+<p>Get instant notifications of captures, across multiple readers. Share readers and card data in real-time with colleagues.</p>
+</div>
+</div>
+<div style="text-align: start;" class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+<div class="feature-item" data-feature-id="3">
+<h3>3. PROXMARK3 INTEGRATION</h3>
+<p>Instantly emulate or clone captured credentials via the Proxmark 3 <i>directly</i> via the UI. No commands, no code, no wires.</p>
+</div>
+<div class="feature-item" data-feature-id="4">
+<h3>4. FIELD-TESTED RESULTS</h3>
+<p>The Stealth Decoy Reader system is purpose-built by professional red-teamers to be results oriented. RFID Audits just got better and easier.</p>
+</div>
+</div>
+</div>
+<div class="contentGroup">
+<h2>AVAILABLE MODELS &amp; TECHNICAL DETAILS</h2>
+<p>Every major corporate reader is available - simply take the unit that your client uses for undetectable credential harvesting. Devices ships preconfigured with your choice of integrated reader hardware. For convenience, we have a <b>product selection assistant</b> to help you determine which model / device you require.</p>
+</div>
+<div class="chipset--tables-wrapper">
+<div class="chipset--table-title">Available Models</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Model</th>
+<th>Type</th>
+<th>Protocols</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Model">HID multiCLASS SE RP40<br>HID multiCLASS SE RP40</td>
+<td data-label="Type">RFID<br>RFID+Keypad</td>
+<td data-label="Protocols">HID iCLASS Legacy<br>HID iCLASS SE/SEOS/SR<br>MIFARE Classic (via SE)<br>MIFARE DESFire<br>HID Prox, AWID, EM4102, T5577</td>
+</tr>
+<tr>
+<td data-label="Model">HID Signo 20TKS<br>HID Signo 20KTKS<br>HID Signo 40TKS<br>HID Signo 40KTKS<br>
+</td>
+<td data-label="Type">RFID<br>RFID+Keypad</td>
+<td data-label="Protocols">HID iCLASS Legacy<br>HID iCLASS SE/SEOS/SR<br>MIFARE Classic (via SE)<br>MIFARE DESFire<br>Indala<br>HID Prox, AWID, EM4102, T5577</td>
+</tr>
+<tr>
+<td data-label="Model">Paxton P75<br>Paxton PK75</td>
+<td data-label="Type">RFID<br>RFID+Keypad</td>
+<td data-label="Protocols">Paxton Net2</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="contentGroup">
+<p><i>The <b>stand-alone module</b> is compatible with all the above protocols and authentication methods.</i></p>
+</div>
+<div class="chipset--tables-wrapper">
+<div class="chipset--table-title">Technical Specifications</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Feature</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Feature">UI</td>
+<td data-label="Notes">Cross Platform App / WebUI</td>
+</tr>
+<tr>
+<td data-label="Feature">Integration</td>
+<td data-label="Notes">Integrates with Proxmark3 RDV4.<br>One-click cloning and emulation.<br>Wireless operation via Blueshark.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="contentGroup">
+<h2>BACKED BY REAL-WORLD TRAINING &amp; CERTIFICATION</h2>
+<p>Beyond the professional support, highly-detailed documentation and active development - real-world training is available for all PPE products. Covering comprehensive product learning to in-the-field assignments simulating the toughest operating conditions, for individuals and teams.</p>
+<div class="grid">
+<div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+<h3>EUROPE</h3>
+We recommend <b><a href="https://www.covertaccessteam.com/" target="_blank">Covert Access Team</a></b> for Europe-based training. Highly reputed and intimately familiar specifically with this hardware, they have multiple training modules, both online and offline.</div>
+<div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+<h3>NORTH AMERICA</h3>
+For North American clients, we recommend the product's creators <b><a href="https://physicalexploit.com/" target="_blank">Mayweather Group</a></b>. Field-trained and objective focused, Mayweather's products are deeply ingrained in their workshops.</div>
+</div>
+</div>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+<p> </p>
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>Access Control Hardware of choice</li>
+<li>Stealth Decoy Reader (preinstalled)</li>
+<li>PPE 3.7V 1800mAh LiPo battery</li>
+<li>PPE Stealth Card</li>
+<li>HID iCLASS 2k card <meta charset="utf-8">(HID Variants Only)</li>
+<li>T5577 card</li>
+<li>Magnetic mounting plate</li>
+<li>Hook-and-pile mounting strips</li>
+</ul>
+<p><b>The "Module + Battery Only" variant includes:</b><br></p>
+<ul>
+<li>Stealth Decoy Reader <i>(preinstalled)</i>
+</li>
+<li>PPE 3.7V 1800mAh LiPo battery</li>
+</ul>
+<h2><strong>Recommended Accessories</strong></h2>
+<ul>
+<li>
+<a href="/products/proxmark-3-rdv4" target="_blank">Proxmark3 RDV4</a> (with optional <a href="/products/proxmark-3-rdv4-standalone-kit">Bluetooth Extension</a>)</li>
+<li><a href="/products/ppe-2-in-1-fast-usb-c-battery-charger" target="_blank">PPE Dual Battery Charger</a></li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+<h2><strong>Resources<br></strong></h2>
+<ul>
+<li><a href="https://physicalexploit.com/docs/products/rfid/stealth_v2" rel="noopener" target="_blank">Stealth Decoy Reader Hardware Documentation</a></li>
+<li><a href="https://physicalexploit.com/docs/products/code/doppelganger_stealth" rel="noopener" target="_blank">Firmware Documentation and Configuration</a></li>
+<li><a href="https://physicalexploit.com/docs/products/code/assistant" rel="noopener" target="_blank">Doppelgänger Assistant Documentation and Configuration</a></li>
+<li><a href="https://physicalexploit.com/docs/products/code/flashing_firmware" rel="noopener" target="_blank">Firmware &amp; Flashing Documentation</a></li>
+</ul>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10277815976283</id>
+      <title>RP40 multiCLASS SE</title>
+      <s:price currency="EUR">375.00</s:price>
+      <s:sku>PPE-HID-SDR-RP40</s:sku>
+      <s:grams>350</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/10277815976283</id>
+      <title>RPK40 multiCLASS SE</title>
+      <s:price currency="EUR">650.00</s:price>
+      <s:sku>PPE-HID-MFAS-RPK40</s:sku>
+      <s:grams>350</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/10277815976283</id>
+      <title>20TKS multiCLASS SE</title>
+      <s:price currency="EUR">400.00</s:price>
+      <s:sku>PPE-HID-SDR-20TKS</s:sku>
+      <s:grams>350</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/10277815976283</id>
+      <title>40TKS multiCLASS SE</title>
+      <s:price currency="EUR">410.00</s:price>
+      <s:sku>PPE-HID-SDR-40TKS</s:sku>
+      <s:grams>350</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/10277815976283</id>
+      <title>20KTKS multiCLASS SE</title>
+      <s:price currency="EUR">675.00</s:price>
+      <s:sku>PPE-HID-MFAS-20KTKS</s:sku>
+      <s:grams>350</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/10277815976283</id>
+      <title>40KTKS multiCLASS SE</title>
+      <s:price currency="EUR">685.00</s:price>
+      <s:sku>PPE-HID-SDR-40KTKS</s:sku>
+      <s:grams>350</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/10277815976283</id>
+      <title>Paxton P75</title>
+      <s:price currency="EUR">325.00</s:price>
+      <s:sku>PPE-PAX-SDR-P75</s:sku>
+      <s:grams>350</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/10277815976283</id>
+      <title>Paxton KP75</title>
+      <s:price currency="EUR">450.00</s:price>
+      <s:sku>PPE-PAX-MFAS-KP75</s:sku>
+      <s:grams>350</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/10277815976283</id>
+      <title>Module + Battery Only</title>
+      <s:price currency="EUR">125.00</s:price>
+      <s:sku>PPE-SDR-BB-001</s:sku>
+      <s:grams>350</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/10276517773659</id>
+    <published>2026-05-05T21:27:00+02:00</published>
+    <updated>2026-05-05T21:27:00+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/long-range-maxiprox-5375-125khz-capture-system"/>
+    <title>Long-range MaxiProx 5375 125KHz Capture System</title>
+    <s:type>RFID</s:type>
+    <s:vendor>Mayweather</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/HID---Long-Range---With-Doppelganger_a7447f58-3435-422f-a27b-9b6f285972e5.png?v=1767631197"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Mayweather<br>
+        <strong>Type: </strong>RFID<br>
+        <strong>Price: </strong>
+            995.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="contentGroup">
+<p>Long-Range RFID capture is the holy-grail for security auditors and penetration testers. To date, the only solutions have been either complicated and unpractical in the field, or out-of-production and abandoned.</p>
+<p>The Long-Range RFID Capture by PPE changes everything. It is a modern, complete solution that covers all elements of the RFID Audit life-cycle. By using an <b>industry-standard reader</b>, long-distance read-range and card compatibility are guaranteed. An embedded hardware module, the <i><b>Doppelgänger Core</b></i>, provides advanced pentesting functionality. The cross-platform UI tool, <i><b>Doppelgänger Assistant</b></i> provides all the functionality you need in one place, optimised for in-the-field use.</p>
+<p>The Long Range Reader + Doppelgänger Core covers the <b>full RFID pentest life-cycle</b>:</p>
+<ol>
+<li>
+<b>Capture</b>: Long range (up to 60cm) capture of LF HID/125KHz RFID Credentials</li>
+<li>
+<b>Control</b>: Manage multiple devices, analyse, save, tag and exfiltrate captured credentials via the cross-platform WebUI.</li>
+<li>
+<b>Clone</b>: Emulate, clone and write captured credentials directly from the UI via Proxmark 3. One click &amp; wireless: No command lines, no code.</li>
+<li>
+<b>Access</b>: Gain and escalate access via cloned RFID Credentials.</li>
+</ol>
+<p>Built for professional red teamers and physical penetration testers in commercial or industrial environments with 125KHz HID badge systems, with real-world performance that allows for advanced audit possibilities: vehicles, closets, or target perimeters.</p>
+<p>The Long Range Reader + Doppelgänger Core are delivered <b>ready-to-use</b>. Turn on the reader, start collecting credentials. Select a badge to clone, and write or emulate it with one click.</p>
+<p>This is the modern, professional, feature complete version of the legendary Tastic RFID Thief for LF/125KHz HID Systems.</p>
+</div>
+<div style="margin-top: 2em; width: 95%; margin-left: auto; margin-right: auto;" class="grid">
+<div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+<h3>LONG RANGE, HIGH-PERFORMANCE</h3>
+<p>Built on the HID MaxiProx 5375 high-performance reader, get up to <b>60cm of <i>real-world</i> performance</b>.</p>
+</div>
+<div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+<h3>MULTI-PROTOCOL 125KHz</h3>
+<p>All-in-one capture, export, emulation and cloning solution for LF/HID/Prox targets.</p>
+</div>
+</div>
+<div style="width: 95%; margin: 0.8em auto 2em auto;" class="grid">
+<div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+<h3>OPTIMISED FOR FIELD WORK</h3>
+<p>No unreliable antennas, no tethered computers. From capture to clone with no more missed opportunities.</p>
+</div>
+<div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+<h3>PROFESSIONAL TOOL &amp; SUPPORT</h3>
+<p>Built by pentesters based on real-world requirements: modern hardware, software and frequent updates.</p>
+</div>
+</div>
+<div class="contentGroup">
+<h2>ENGINEERED FOR DEMANDING ENVIRONMENTS</h2>
+<p>The HID MaxiProx 5375's extended read-range allows for novel audit approaches and enhanced operator safety. From the classic targeted "reader-in-bag" brush-by collections, passive collections via concealment or even in-vehicle drive-by collections, the HID MaxiProx 5375 has dependable performance.</p>
+<p>The Doppelgänger module provides exhaustive configuration options to fit all mission specs, and complete card analysis and cloning workflow, from initial detection through successful write operations.</p>
+</div>
+<style> .scenario-caption { display: none; text-align: center; font-style: italic; margin-top: 0.5em; } @media only screen and (max-width: 749px) { .scenario-caption { display: block; } } .scenario-frame { padding: 10px; border: 1px solid #add8e6; border-radius: 16px; display: inline-block; line-height: 0; } .scenario-frame img { border-radius: 6px; margin-top: 0px !important; margin-bottom: 0px !important;} </style>
+<div class="grid" style="margin-top: 2em; margin-bottom: 2em;">
+<div class="grid-item small--one-whole medium--one-whole large--one-third text-left">
+<span class="scenario-frame"><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Scenario---1---Final_x500.png?v=1767108006"></span>
+<p class="scenario-caption">Targeted "bump" collections</p>
+</div>
+<div class="grid-item small--one-whole medium--one-whole large--one-third text-left">
+<span class="scenario-frame"><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Scenario---2---Final_x500.png?v=1767108006"></span>
+<p class="scenario-caption">Strategic dead-drop capture</p>
+</div>
+<div class="grid-item small--one-whole medium--one-whole large--one-third text-left">
+<span class="scenario-frame"><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Scenario---3---Final_x500.png?v=1767108006"></span>
+<p class="scenario-caption">Public-space vehicle-based captures</p>
+</div>
+</div>
+<div class="contentGroup">
+<h2>POWERED BY DOPPELGANGER</h2>
+<p>Inside every long-range reader is the <i>Doppelgänger Core</i> module - the high-performance, multi-protocol, wireless equipped RFID capture, analysis and cloning device. It works hand-in hand with the Doppelgänger Assistant, a cross-platform professional GUI application designed to handle every possible operation requirement.</p>
+<p>Together, they allow for automated card capture and wireless credential exfiltration. Teams can collaborate and share credentials; credentials can be analysed, exported or cloned.</p>
+<p>The <i>Doppelgänger Assistant</i> also works as a easy-to-use UI for the Proxmark 3, making credential writing, cloning and verification a one-click operation. Don't miss opportunities because of knowledge gaps or constrained time: the <i>Doppelgänger</i> tools form a results-oriented system for complete RFID audits.</p>
+</div>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-whole medium--one-whole large--one-half text-left product-image-container">
+<img src="https://cdn.shopify.com/s/files/1/2175/8571/files/HID---Low-Frequency---Long-Range-Reader_x750.png?v=1767631197" alt=""><br>
+<ul class="markers-list">
+<li class="feature-marker" data-feature-id="1" data-x="38" data-y="30">1</li>
+<li class="feature-marker" data-feature-id="2" data-x="59" data-y="33">2</li>
+<li class="feature-marker" data-feature-id="3" data-x="48" data-y="65">3</li>
+<li class="feature-marker" data-feature-id="4" data-x="72" data-y="55">4</li>
+</ul>
+</div>
+<div style="text-align: start;" class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+<div class="feature-item" data-feature-id="1">
+<h3>1. BEST-IN-CLASS PERFORMANCE</h3>
+<p>Industrial reader hardware for guaranteed protocol compatibility and range performance.</p>
+</div>
+<div class="feature-item" data-feature-id="2">
+<h3>2. ALL-IN-ONE HID PROX SOLUTION</h3>
+<p>Supports multiple HID 125KHz cards: ProxCard, IOSProx, DUOProx, ProxPlus, etc</p>
+</div>
+<div class="feature-item" data-feature-id="3">
+<h3>3. BUILT FOR DISCRETION</h3>
+<p>Credential capture is silent, and can trigger notifications, SMS or emails. Haptic triggers or relays can be added to the Doppelgänger’s GPIO.</p>
+</div>
+<div class="feature-item" data-feature-id="4">
+<h3>4. FEATURE COMPLETE SOFTWARE</h3>
+<p>The modern, maintained, open-source software covers all operations: capture, analysis, calculation, export and more, and integrates directly with your Proxmark 3 for all cloning, writing and verification operations.</p>
+</div>
+</div>
+</div>
+<div class="contentGroup">
+<h2>FIELD-READY WORKFLOW</h2>
+<p>Unlike traditional approaches for RFID audits, the HID MaxiProx 5375 &amp; its embedded Doppelgänger module provide a full end-to-end workflow for RFID audits. What previously required highly technical knowledge, complicated wiring, fussy tools and unstable software is replaced by an all-in-one device and intuitive, cross-platform software.</p>
+<p>Red-teamers and auditors can literally plug in the device, slip it into their bag and instantly collect credentials. Captured cards can be detected, analysed and exported to other team-members, or effortlessly simulated or physically cloned wirelessly via a Proxmark - the included <em>Doppelgänger Assistant</em> handles everything.</p>
+</div>
+<style> .custom-bottom-margin { margin-bottom: -3em; } @media only screen and (max-width: 749px) { .custom-bottom-margin { margin-bottom: -1em; } } </style>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-whole medium--one-whole large--one-whole text-left product-image-container custom-bottom-margin">
+<p>The Long Range Reader and Doppelgänger ecosystem covers every step of an RFID Audit: acquisition, exfiltration &amp; analysis, duplication and access / escalation.</p>
+<img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Lifecycle---2.png?v=1767625623" alt=""><br>
+<ul class="markers-list">
+<li class="feature-marker" data-feature-id="1" data-x="25" data-y="47">1</li>
+<li class="feature-marker" data-feature-id="2" data-x="70" data-y="47">2</li>
+<li class="feature-marker" data-feature-id="3" data-x="36" data-y="82">3</li>
+<li class="feature-marker" data-feature-id="4" data-x="60" data-y="82">4</li>
+</ul>
+</div>
+<div style="text-align: start;" class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+<div class="feature-item" data-feature-id="1">
+<h3>1. LONG-RANGE ACQUISITION</h3>
+<p>Capture cards up to 60-cm away, silently. Can be embedded or carried. Plug and Play: No messy antennas, wiring or complex setup.</p>
+</div>
+<div class="feature-item" data-feature-id="2">
+<h3>2. CROSS-PLATFORM UI</h3>
+<p>Get instant notifications of captures, across multiple readers. Share readers and card data in real-time with colleagues.</p>
+</div>
+</div>
+<div style="text-align: start;" class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+<div class="feature-item" data-feature-id="3">
+<h3>3. PROXMARK3 INTEGRATION</h3>
+<p>Instantly emulate or clone captured credentials via the Proxmark 3 <i>directly</i> via the UI. No commands, no code, no wires.</p>
+</div>
+<div class="feature-item" data-feature-id="4">
+<h3>4. FIELD-TESTED RESULTS</h3>
+<p>The Doppelgänger system is purpose-built by professional red-teamers to be results oriented. RFID Audits just got better and easier.</p>
+</div>
+</div>
+</div>
+<div class="contentGroup">
+<h2>COMPATABILITY AND TECHNICAL DETAILS</h2>
+<p>The PPE Longrange RFID Capture System is optimised for LF/125KHz HID systems. Depending on your target, there are also Long-Range solutions for iCLASS (SE, SEOS) and Indala systems and Paxton systems.</p>
+</div>
+<div class="chipset--tables-wrapper">
+<div class="chipset--table-title">Device Performance</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Chipset</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Chipset">HID ProxCard® II</td>
+<td data-label="Range">Up to 60.9cm (24 inches)</td>
+</tr>
+<tr>
+<td data-label="Chipset">HID ISOProx® II</td>
+<td data-label="Range">Up to 50.8cm (20 inches)</td>
+</tr>
+<tr>
+<td data-label="Chipset">HID DUOProx® II</td>
+<td data-label="Range">Up to 50.8cm (20 inches)</td>
+</tr>
+<tr>
+<td data-label="Chipset">Smart ISOProx® II</td>
+<td data-label="Range">Up to 50.8cm (20 inches)</td>
+</tr>
+<tr>
+<td data-label="Chipset">HID MicroProx® Tag</td>
+<td data-label="Range">Up to 38cm (15 inches)</td>
+</tr>
+<tr>
+<td data-label="Chipset">HID ProxKey® III</td>
+<td data-label="Range">Up to 43.2 (17 inches)</td>
+</tr>
+<tr>
+<td data-label="Chipset">HID ProxPass® II</td>
+<td data-label="Range">Up to 60.9cm (24 inches)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="chipset--tables-wrapper">
+<div class="chipset--table-title">Technical Specifications</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Feature</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Protocols">Protocols</td>
+<td data-label="Notes">HID H10301 (26-bit)<br>2804 WIEGAND (28-bit)<br>ATS Wiegand (30-bit)<br>HID ADT (31-bit)<br>HID D10202 (33-bit)<br>HID H10306 (34-bit)<br>HID Corporate 1000 (35-bit)<br>HID Simplex / S12906 (36-bit)<br>HID H10304 (37-bit)<br>HID H800002 (46-bit)<br>HID Corporate 1000 (48-bit)<br>
+</td>
+</tr>
+<tr>
+<td data-label="Feature">UI</td>
+<td data-label="Notes">Cross Platform App / WebUI</td>
+</tr>
+<tr>
+<td data-label="Feature">Integration</td>
+<td data-label="Notes">Integrates with Proxmark3 RDV4.<br>One-click cloning and emulation.<br>Wireless operation via Blueshark.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="contentGroup">
+<h2>BACKED BY REAL-WORLD TRAINING &amp; CERTIFICATION</h2>
+<p>Beyond the professional support, highly-detailed documentation and active development - real-world training is available for all PPE products. Covering comprehensive product learning to in-the-field assignments simulating the toughest operating conditions, for individuals and teams.</p>
+<div class="grid">
+<div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+<h3>EUROPE</h3>
+We recommend <b><a href="https://www.covertaccessteam.com/" target="_blank">Covert Access Team</a></b> for Europe-based training. Highly reputed and intimately familiar specifically with this hardware, they have multiple training modules, both online and offline.</div>
+<div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+<h3>NORTH AMERICA</h3>
+For North American clients, we recommend the product's creators <b><a href="https://physicalexploit.com/" target="_blank">Mayweather Group</a></b>. Field-trained and objective focused, Mayweather's products are deeply ingrained in their workshops.</div>
+</div>
+</div>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li><strong>1x HID MaxiProx 5375 Reader</strong></li>
+<li>1x PPE Doppelgänger Core Module (Pre-installed)</li>
+<li>1x Protective Case</li>
+</ul>
+<h2><strong>Recommended Accessories</strong></h2>
+<ul>
+<li><a href="/products/ppe-long-range-reader-power-supply" target="_blank">92Wh Power Supply device</a></li>
+<li>
+<a href="/products/proxmark-3-rdv4" target="_blank">Proxmark3 RDV4</a> (with optional <a href="/products/proxmark-3-rdv4-standalone-kit">Bluetooth Extension</a>)</li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+<h2><strong>Resources<br></strong></h2>
+<ul>
+<li><a href="https://physicalexploit.com/docs/products/rfid/longrange_v2" rel="noopener" target="_blank">Long-range Reader Hardware Documentation</a></li>
+<li><a href="https://physicalexploit.com/docs/products/code/doppelganger_core" rel="noopener" target="_blank">Firmware Documentation and Configuration</a></li>
+<li><a href="https://physicalexploit.com/docs/products/code/assistant" rel="noopener" target="_blank">Doppelgänger Assistant Documentation and Configuration</a></li>
+<li><a href="https://physicalexploit.com/docs/products/code/flashing_firmware" rel="noopener" target="_blank">Firmware &amp; Flashing Documentation</a></li>
+</ul>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10276517773659</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">995.00</s:price>
+      <s:sku>PPE-HID-MPROX-LWDI-001</s:sku>
+      <s:grams>1600</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/10270433378651</id>
+    <published>2026-05-05T21:26:59+02:00</published>
+    <updated>2026-05-05T21:26:59+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/ppe-iclass-longrange-rfid-capture-system"/>
+    <title>Long-range iCLASS RFID Capture System</title>
+    <s:type>RFID</s:type>
+    <s:vendor>Mayweather</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/HID---Long-Range---With-Doppelganger.png?v=1767095030"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Mayweather<br>
+        <strong>Type: </strong>RFID<br>
+        <strong>Price: </strong>
+            895.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="contentGroup">
+      <p>Long-Range RFID capture is the holy-grail for security auditors and penetration testers. To date, the only solutions have been either complicated and unpractical in the field, or out-of-production and abandoned.</p>
+   <p>The Long-Range RFID Capture by PPE changes everything. It is a modern, complete solution that covers all elements of the RFID Audit life-cycle. By using an <b>industry-standard reader</b>, long-distance read-range and card compatibility are guaranteed. An embedded hardware module, the <i><b>Doppelgänger Core</b></i>, provides advanced pentesting functionality. The cross-platform UI tool, <i><b>Doppelgänger Assistant</b></i> provides all the functionality you need in one place, optimised for in-the-field use.</p>
+   <p>The Long Range Reader + Doppelgänger Core covers the <b>full RFID pentest life-cycle</b>:</p>
+   <ol>
+      <li> <b>Capture</b>: Long range (up to 45cm) capture of iCLASS, iClass SE/SEOS RFID Credentials</li>
+      <li> <b>Control</b>: Manage multiple devices, analyse, save, tag and exfiltrate captured credentials via the cross-platform WebUI.</li>
+      <li> <b>Clone</b>: Emulate, clone and write captured credentials directly from the UI via Proxmark 3. One click &amp; wireless: No command lines, no code.</li>
+      <li> <b>Access</b>: Gain and escalate access via cloned RFID Credentials.</li>
+   </ol>
+   <p>Built for professional red teamers and physical penetration testers in commercial or industrial environments with 13.56MHz iCLASS / SE / SEOS badge systems, with real-world performance that allows for advanced audit possibilities: vehicles, closets, or target perimeters.</p>
+   <p>The Long Range Reader + Doppelgänger Core are delivered <b>ready-to-use</b>. Turn on the reader, start collecting credentials. Select a badge to clone, and write or emulate it with one click.</p>
+   <p>This is the modern, professional, feature complete version of the legendary Tastic RFID Thief for iCLASS &amp; iCLASS SE/SEOS Systems.</p>
+</div>
+<div class="grid" style="margin-top: 2em; width: 95%; margin-left: auto; margin-right: auto;">
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+      <h3>LONG RANGE, HIGH-PERFORMANCE</h3>
+      <p>Built on the HID iCLASS R90SE high-performance reader, get <b>45cm of <i>real-world</i> performance</b>.</p>
+   </div>
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+      <h3>iCLASS, iCLASS SE &amp; SEOS</h3>
+      <p>All-in-one capture, export, emulation and cloning solution for iCLASS targets.</p>
+   </div>
+</div>
+<div class="grid" style="width: 95%; margin: 0.8em auto 2em auto;">
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+      <h3>OPTIMISED FOR FIELD WORK</h3>
+      <p>No unreliable antennas, no tethered computers. From capture to clone with no more missed opportunities.</p>
+   </div>
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+      <h3>PROFESSIONAL TOOL &amp; SUPPORT</h3>
+      <p>Built by pentesters based on real-world requirements: modern hardware, software and frequent updates.</p>
+   </div>
+</div>
+<div class="contentGroup">
+   <h2>ENGINEERED FOR DEMANDING ENVIRONMENTS</h2>
+   <p>The R90SE extended read-range allows for novel audit approaches and enhanced operator safety. From the classic targeted "reader-in-bag" brush-by collections, passive collections via concealment or even in-vehicle drive-by collections, the R90SE has dependable performance.</p>
+   <p>The Doppelgänger module provides exhaustive configuration options to fit all mission specs, and complete card analysis and cloning workflow, from initial detection through successful write operations.</p>
+</div>
+<style> .scenario-caption { display: none; text-align: center; font-style: italic; margin-top: 0.5em; } @media only screen and (max-width: 749px) { .scenario-caption { display: block; } } .scenario-frame { padding: 10px; border: 1px solid #add8e6; border-radius: 16px; display: inline-block; line-height: 0; } .scenario-frame img { border-radius: 6px; margin-top: 0px !important; margin-bottom: 0px !important;} </style>
+<div class="grid" style="margin-top:2em; margin-bottom: 2em;">
+   <div class="grid-item small--one-whole medium--one-whole large--one-third text-left">
+      <span class="scenario-frame"><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Scenario---1---Final_x500.png?v=1767108006" alt=""></span> 
+      <p class="scenario-caption">Targeted "bump" collections</p>
+   </div>
+   <div class="grid-item small--one-whole medium--one-whole large--one-third text-left">
+      <span class="scenario-frame"><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Scenario---2---Final_x500.png?v=1767108006" alt=""></span> 
+      <p class="scenario-caption">Strategic dead-drop capture</p>
+   </div>
+   <div class="grid-item small--one-whole medium--one-whole large--one-third text-left">
+      <span class="scenario-frame"><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Scenario---3---Final_x500.png?v=1767108006" alt=""></span> 
+      <p class="scenario-caption">Public-space vehicle-based captures</p>
+   </div>
+</div>
+<div class="contentGroup">
+   <h2>POWERED BY DOPPELGANGER</h2>
+   <p>Inside every long-range reader is the <i>Doppelgänger Core</i> module - the high-performance, multi-protocol, wireless equipped RFID capture, analysis and cloning device. It works hand-in hand with the Doppelgänger Assistant, a cross-platform professional GUI application designed to handle every possible operation requirement.</p>
+   <p>Together, they allow for automated card capture and wireless credential exfiltration. Teams can collaborate and share credentials; credentials can be analysed, exported or cloned.</p>
+   <p>The <i>Doppelgänger Assistant</i> also works as a easy-to-use UI for the Proxmark 3, making credential writing, cloning and verification a one-click operation. Don't miss opportunities because of knowledge gaps or constrained time: the <i>Doppelgänger</i> tools form a results-oriented system for complete RFID audits.</p>
+</div>
+<div class="grid" style="margin-top: 2em;">
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left product-image-container">
+      <img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/iCLASS---Long-Range-Reader---With-doppelganger_x750.png?v=1767108461"><br> 
+      <ul class="markers-list">
+         <li data-y="30" data-x="38" data-feature-id="1" class="feature-marker">1</li>
+         <li data-y="33" data-x="59" data-feature-id="2" class="feature-marker">2</li>
+         <li data-y="65" data-x="48" data-feature-id="3" class="feature-marker">3</li>
+         <li data-y="55" data-x="72" data-feature-id="4" class="feature-marker">4</li>
+      </ul>
+   </div>
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left" style="text-align: start;">
+      <div data-feature-id="1" class="feature-item">
+         <h3>1. BEST-IN-CLASS PERFORMANCE</h3>
+         <p>Industrial reader hardware for guaranteed protocol compatibility and range performance.</p>
+      </div>
+      <div data-feature-id="2" class="feature-item">
+         <h3>2. ALL-IN-ONE iCLASS SOLUTION</h3>
+         <p>Supports iCLASS Legacy, iCLASS SE and iCLASS SEOS badges, and the SE/SEOS degrade attack integrated into the Doppelgänger Assistant.</p>
+      </div>
+      <div data-feature-id="3" class="feature-item">
+         <h3>3. BUILT FOR DISCRETION</h3>
+         <p>Credential capture is silent, and can trigger notifications, SMS or emails. Haptic triggers or relays can be added to the Doppelgänger’s GPIO.</p>
+      </div>
+      <div data-feature-id="4" class="feature-item">
+         <h3>4. FEATURE COMPLETE SOFTWARE</h3>
+         <p>The modern, maintained, open-source software covers all operations: capture, analysis, calculation, export and more, and integrates directly with your Proxmark 3 for all cloning, writing and verification operations.</p>
+      </div>
+   </div>
+</div>
+<div class="contentGroup">
+   <h2>FIELD-READY WORKFLOW</h2>
+   <p>Unlike traditional approaches for RFID audits, the R90SE &amp; its embedded Doppelgänger module provide a full end-to-end workflow for RFID audits. What previously required highly technical knowledge, complicated wiring, fussy tools and unstable software is replaced by an all-in-one device and intuitive, cross-platform software.</p>
+   <p>Red-teamers and auditors can literally plug in the device, slip it into their bag and instantly collect credentials. Captured cards can be detected, analysed and exported to other team-members, or effortlessly simulated or physically cloned wirelessly via a Proxmark - the included <em>Doppelgänger Assistant</em> handles everything.</p>
+</div>
+<style> .custom-bottom-margin { margin-bottom: -3em; } @media only screen and (max-width: 749px) { .custom-bottom-margin { margin-bottom: -1em; } } </style>
+<div class="grid" style="margin-top: 2em;">
+   <div class="grid-item small--one-whole medium--one-whole large--one-whole text-left product-image-container custom-bottom-margin">
+      <p>The Long Range Reader and Doppelgänger ecosystem covers every step of an RFID Audit: acquisition, exfiltration &amp; analysis, duplication and access / escalation.</p>
+      <img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Lifecycle---2.png?v=1767625623"><br> 
+      <ul class="markers-list">
+         <li data-y="47" data-x="25" data-feature-id="1" class="feature-marker">1</li>
+         <li data-y="47" data-x="70" data-feature-id="2" class="feature-marker">2</li>
+         <li data-y="82" data-x="36" data-feature-id="3" class="feature-marker">3</li>
+         <li data-y="82" data-x="60" data-feature-id="4" class="feature-marker">4</li>
+      </ul>
+   </div>
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left" style="text-align: start;">
+      <div data-feature-id="1" class="feature-item">
+         <h3>1. LONG-RANGE ACQUISITION</h3>
+         <p>Capture iCLASS cards up to 45-cm away, silently. Can be embedded or carried. Plug and Play: No messy antennas, wiring or complex setup.</p>
+      </div>
+      <div data-feature-id="2" class="feature-item">
+         <h3>2. CROSS-PLATFORM UI</h3>
+         <p>Get instant notifications of captures, across multiple readers. Share readers and card data in real-time with colleagues.</p>
+      </div>
+   </div>
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left" style="text-align: start;">
+      <div data-feature-id="3" class="feature-item">
+         <h3>3. PROXMARK3 INTEGRATION</h3>
+         <p>Instantly emulate or clone captured credentials via the Proxmark 3 <i>directly</i> via the UI. No commands, no code, no wires.</p>
+      </div>
+      <div data-feature-id="4" class="feature-item">
+         <h3>4. FIELD-TESTED RESULTS</h3>
+         <p>The Doppelgänger system is purpose-built by professional red-teamers to be results oriented. RFID Audits just got better and easier.</p>
+      </div>
+   </div>
+</div>
+<div class="contentGroup">
+   <h2>COMPATABILITY AND TECHNICAL DETAILS</h2>
+   <p>The PPE iCLASS Longrange RFID Capture System is optimised for iCLASS systems. Depending on your target, there are Long-Range solutions for Low-Frequency HID and Indala systems and Paxton systems.</p>
+</div>
+<div class="chipset--tables-wrapper">
+   <div class="chipset--table-title">Supported Cards / Protocols</div>
+   <div class="chipset--table-container">
+      <table class="chipset--table">
+         <thead>
+            <tr>
+               <th>Chipset</th>
+               <th>Notes</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td data-label="Chipset">HID iCLASS Legacy</td>
+               <td data-label="Information"> </td>
+            </tr>
+            <tr>
+               <td data-label="Chipset">HID iCLASS SE</td>
+               <td data-label="Information">Standard Keys only.<br>Legacy mode must be enabled.</td>
+            </tr>
+            <tr>
+               <td data-label="Chipset">HID iCLASS SEOS</td>
+               <td data-label="Information">Supports downgrade attacks.<br>Legacy mode must be enabled.</td>
+            </tr>
+            <tr>
+               <td data-label="Chipset">MIFARE</td>
+               <td data-label="Information">UID Capture <i>only</i>.</td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
+</div>
+<div class="chipset--tables-wrapper">
+   <div class="chipset--table-title">Technical Specifications</div>
+   <div class="chipset--table-container">
+      <table class="chipset--table">
+         <thead>
+            <tr>
+               <th>Feature</th>
+               <th>Notes</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td data-label="Feature">Range</td>
+               <td data-label="Notes">45cm<br><i>Real world conditions</i> </td>
+            </tr>
+            <tr>
+               <td data-label="Feature">UI</td>
+               <td data-label="Notes">Cross Platform App / WebUI</td>
+            </tr>
+            <tr>
+               <td data-label="Feature">Integration</td>
+               <td data-label="Notes">Integrates with Proxmark3 RDV4.<br>One-click cloning and emulation.<br>Wireless operation via Blueshark.</td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
+</div>
+<div class="contentGroup">
+   <h2>BACKED BY REAL-WORLD TRAINING &amp; CERTIFICATION</h2>
+   <p>Beyond the professional support, highly-detailed documentation and active development - real-world training is available for all PPE products. Covering comprehensive product learning to in-the-field assignments simulating the toughest operating conditions, for individuals and teams.</p>
+   <div class="grid">
+      <div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+         <h3>EUROPE</h3>
+         We recommend <b><a href="https://www.covertaccessteam.com/" target="_blank">Covert Access Team</a></b> for Europe-based training. Highly reputed and intimately familiar specifically with this hardware, they have multiple training modules, both online and offline. 
+      </div>
+      <div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+         <h3>NORTH AMERICA</h3>
+         For North American clients, we recommend the product's creators <b><a href="https://physicalexploit.com/" target="_blank">Mayweather Group</a></b>. Field-trained and objective focused, Mayweather's products are deeply ingrained in their workshops. 
+      </div>
+   </div>
+</div>
+<div class="grid" style="margin-top: 2em;">
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+      <h2><strong>What's included</strong></h2>
+      <ul>
+         <li><strong>1x HID iCLASS R90SE Reader</strong></li>
+         <li>1x PPE Doppelgänger Core Module (Pre-installed)</li>
+         <li>1x Protective Case</li>
+      </ul>
+      <h2><strong>Recommended Accessories</strong></h2>
+      <ul>
+         <li><a href="/products/ppe-long-range-reader-power-supply" target="_blank">92Wh Power Supply device</a></li>
+         <li> <a href="/products/proxmark-3-rdv4" target="_blank">Proxmark3 RDV4</a> (with optional <a href="/products/proxmark-3-rdv4-standalone-kit">Bluetooth Extension</a>)</li>
+      </ul>
+   </div>
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+      <h2><strong>Resources<br></strong></h2>
+      <ul>
+         <li><a rel="noopener" href="https://physicalexploit.com/docs/products/rfid/longrange_v2" target="_blank">Long-range Reader Hardware Documentation</a></li>
+         <li><a rel="noopener" href="https://physicalexploit.com/docs/products/code/doppelganger_core" target="_blank">Firmware Documentation and Configuration</a></li>
+         <li><a rel="noopener" href="https://physicalexploit.com/docs/products/code/assistant" target="_blank">Doppelgänger Assistant Documentation and Configuration</a></li>
+         <li><a rel="noopener" href="https://physicalexploit.com/docs/products/code/flashing_firmware" target="_blank">Firmware &amp; Flashing Documentation</a></li>
+      </ul>
+   </div>
+</div>
+</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10270433378651</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">895.00</s:price>
+      <s:sku>PPE-HID-R90SE-LWDI-001</s:sku>
+      <s:grams>500</s:grams>
+    </s:variant>
+  </entry>
+</feed>

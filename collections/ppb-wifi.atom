@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/collections/ppb-wifi.atom"/>
+  <title>Lab401</title>
+  <updated>2025-11-19T16:09:17+01:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/products/10172203303259</id>
+    <published>2025-11-19T16:09:17+01:00</published>
+    <updated>2025-11-19T16:09:17+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/alpha-awus036achm"/>
+    <title>Alfa AWUS036ACHM</title>
+    <s:type>Pen Testing</s:type>
+    <s:vendor>Alfa Networks</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Product-Contents-Best-Linux-Wifi-Adaptor.png?v=1763564447"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Alfa Networks<br>
+        <strong>Type: </strong>Pen Testing<br>
+        <strong>Price: </strong>
+            59.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>Introduction</h2>
+<p>A fundamental requirement of pentesters is a wifi adaptor that is capable of data capture and injection, and also Linux compatible. However, it's more complicated than that: some adaptors require drivers, resulting in unstable performance. Some adaptors can monitor, but can't inject. Some can inject, but don't support active monitoring. Today, answering the question "Which is the best Wifi-adaptor for pentesting?" requires constant testing and hands-on experience. Luckily, we've done that for you.</p>
+<p>At Lab401, we consider "the best" adaptor has to meet five conditions:</p>
+<ol>
+<li>Support: Linux-Standards Compliant in-kernel drivers</li>
+<li>Functionality: Hardware supports Monitor Mode and Active Monitor Mode</li>
+<li>Bands: 2.4GHz and 5GHz support</li>
+<li>Sensitive: Long-range operations</li>
+<li>Affordable: Reasonably priced</li>
+</ol>
+<p>After extensive, hands on testing, our battle-tested recommendation is the ALFA AWUS036ACHM (<i>ACHM</i> for short).</p>
+<h2 style="margin-top: 2em;">AWUS036ACHM: The best wifi-adaptor for pentesting</h2>
+<figure style="margin-top: 1em;">
+   <video lite-youtube="" videoid="HqvZd-34gtw" posterquality="maxresdefault" params="rel=0">
+   </video>
+</figure>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Plug'n'Play Support</h3>
+The ACHM has mainline, in-kernel support for all modern linux distros, including Kali.<br>Don't show up to an engagement only to find your device's drivers are broken. When your OS updates, the ACHM is guaranteed to work.</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Modern Functionality</h3>
+The ACHM supports the classic modes: <i>Packet Injection</i> and <i>Monitor Mode</i> but <b>also supports</b> <i>Active Monitor Mode</i>. Even if you don't need it today - you might need it tomorrow. The ACHM has you covered.</div>
+</div>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Multi-band performance</h3>
+The ACHM supports both <b>2.4GHz and 5GHz</b> bands, ensuring that you never miss a target. While older IoT devices may still be on 2.4GHz, most infrastructure targets have upgraded to 5GHz: the ACHM supports both.</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Sensitivity and Power</h3>
+Rated as one of the <i>the most powerful</i> and <i>best performing</i> wifi adaptors available. In our tests, the ACHM finds <b>25% more networks</b> than other network adaptors. If you can't see it, you can't sniff it. The ACHM gives you exceptional performance over exceptional distances.</div>
+</div>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2>Hardware Specifications</h2>
+<ul>
+<li>
+<strong>Chipset: </strong>MT7610U</li>
+<li>
+<strong>Protocols:</strong> 802.11ac/a/b/g/n</li>
+<li>
+<strong>Frequencies:</strong> 2.4GHz / 5GHz</li>
+<li>
+<strong>Antenna:</strong> External, 2.4GHz + 5GHz Dual-Band 5dBi dipole antenna</li>
+</ul>
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x AWUS036ACHM<br>
+</li>
+<li>1x SMA Antenna</li>
+<li>1x USB-A to MiniUSB Cable</li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2>Functionality Specifications</h2>
+<ul>
+<li>
+<strong>Adaptor Modes: </strong> Monitor, Active Monitor</li>
+<li>
+<strong>Packet Injection:</strong> Yes</li>
+<li>
+<strong>Linux Support:</strong> Kernel (Since 2018)</li>
+</ul>
+<h2><strong>Technical Resources<br></strong></h2>
+<ul>
+<li><a rel="noopener" href="https://docs.alfa.com.tw/Support/Linux/MT7610U/" target="_blank">Manufacturer's Linux Support Resources</a></li>
+<li><a rel="noopener" href="https://github.com/morrownr/USB-WiFi/blob/main/home/iw_list/ALFA_AWUS036ACHM_mt7610u.md" target="_blank">Adaptor Exhaustive Technical Information</a></li>
+<li><a rel="noopener" href="https://github.com/vanhoefm/wifi-injection" target="_blank">Python Wifi-Injection Tester</a></li>
+</ul>
+</div>
+</div>
+<h3>Enable Active Monitoring</h3>
+<pre><code>sudo ifconfig wlan0 down
+sudo iw wlan0 set type monitor
+sudo iw wlan0 set monitor active
+sudo ifconfig wlan0 up
+</code></pre>
+<h3>Test Injection</h3>
+<p>Testing the adaptor's injection capabilities with the <a rel="noopener" href="https://github.com/vanhoefm/wifi-injection" target="_blank">Python Wifi-Injection Testing Tool</a></p>
+<pre><code>./test-injection.py wlan0 --active
+</code></pre>
+<style>
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            border: 1px solid #ddd;
+        }
+        pre code {
+            background-color: transparent;
+            padding: 0;
+        }
+</style></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:tag>wifi</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10172203303259</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">59.00</s:price>
+      <s:sku>ALFA-WIFI-AWUS036ACHM</s:sku>
+      <s:grams>250</s:grams>
+    </s:variant>
+  </entry>
+</feed>

@@ -1,0 +1,5011 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/collections/rfid-badges.atom"/>
+  <title>Lab401</title>
+  <updated>2026-02-06T12:41:39+01:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/products/10298126172507</id>
+    <published>2026-02-06T12:41:39+01:00</published>
+    <updated>2026-02-06T12:41:39+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/mifare-classic-compatible-1k-uid-modifiable-gen1a-tiny-fpc-tags-pack-of-5"/>
+    <title>MIFARE Classic® Compatible 1K UID Modifiable (Gen1a) - Tiny FPC Tags - Pack of 5</title>
+    <s:type>RFID Tags</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Ruler-Cropped.png?v=1763472837"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>RFID Tags<br>
+        <strong>Price: </strong>
+            4.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>MIFARE Classic® Compatible 1K, UID Changeable (Gen1a) - FPC Stickers - Pack of 5</h2>
+<p>The absolute smallest MIFARE Classic® Compatible 1K chips on the market. At just 8mm (1/32") across, these tags can be placed anywhere. Despite their tiny size, they have perfectly tuned antennas for optimised performance. There are <b>five tags per pack.</b></p>
+<div class="chipset--tables-wrapper">
+<div class="chipset--table-title">Technical Specifications</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Feature</th>
+<th>Information</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Feature">Chipset</td>
+<td data-label="Information">MIFARE Classic® Compatible</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">Memory Size</td>
+<td data-label="Information">1K</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">UID Size</td>
+<td data-label="Information">4 Byte</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">UID Modifiable</td>
+<td data-label="Information">✔️</td>
+<td data-label="Notes"></td>
+</tr>
+<tr>
+<td data-label="Feature">Chip Generation</td>
+<td data-label="Information">Gen 1a</td>
+<td data-label="Notes"><a title="Magic tag / card generation guide" href="/blogs/academy/know-your-magic-cards">Chipset Generation Guide</a></td>
+</tr>
+<tr>
+<td data-label="Feature">Packaging</td>
+<td data-label="Information">5 per pack</td>
+<td data-label="Notes">Delivered in an anti-static bag</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chipset--table-title">Write Capabilities</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>UID Modifiable</th>
+<th>Unlock Required</th>
+<th>DirectWrite / Block 0</th>
+<th>One Time Write</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="UID Modifiable">✔️</td>
+<td data-label="Unlock Required">✔️</td>
+<td data-label="DirectWrite / Block 0">✔️</td>
+<td data-label="One Time Write"></td>
+<td data-label="Notes"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chipset--table-title">Device Compatibility</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Compatibility</th>
+<th>UID</th>
+<th>R/W</th>
+<th>Config</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Compatibility">Flipper Zero</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">Proxmark / iCopy-X</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">Android &amp; iOS</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes">Via MTools app with external reader. Will not work with Mifare Classic Tools</td>
+</tr>
+<tr>
+<td data-label="Compatibility">LibNFC</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">ChameleonUltra</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes">Via MTools app</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<h2>Hands on: See the card in action</h2>
+<p><script async="" theme="solarized-dark" id="asciicast-8o5myb3bxd4y172q0y3yyny72" src="https://asciinema.org/a/8o5myb3bxd4y172q0y3yyny72.js"></script></p>
+<h3>IMPORTANT:</h3>
+<p>The UID of MIFARE Classic® Compatible 1K UID tags is comprised of two parts: the <strong>UID itself</strong>, and the <strong>BCC</strong>. The BCC is a checksum value <strong>calculated from the UID</strong>. If the BCC is incorrect, tag will be rejected by the reader.<br></p>
+<p>Most RFID tools, such as the Proxmark, LibNFC, MCT etc automatically calculate the BCC when the UID is modified. If you are modifying the UID by hand, it is <strong>vital</strong> that the BCC is correctly calculated.</p>
+<p>Lab401 cannot provide support or refunds under any circumstances for cards that were 'bricked' due to incorrect UID/BCC configuration.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>13.56MHz (HF)</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Family: MIFARE®</s:tag>
+    <s:tag>Gen: 1a</s:tag>
+    <s:tag>Size: 1K</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10298126172507</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">4.95</s:price>
+      <s:sku>TINY-MF-GEN1A-5PC</s:sku>
+      <s:grams>10</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/10256210428251</id>
+    <published>2026-01-20T10:42:36+01:00</published>
+    <updated>2026-01-20T10:42:36+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/mifare-classic-compatible-4k-gen3"/>
+    <title>MIFARE Classic® Compatible 4K Gen3</title>
+    <s:type>RFID Tags</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/MF-4k-4b-Gen3.png?v=1765888943"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>RFID Tags<br>
+        <strong>Price: </strong>
+            9.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>INTRODUCTION</h2>
+<p>Need to make <i>perfect, undetectable clones of MIFARE Classic® 4K 4-Byte UID cards and tags ? </i></p><p>Our UID Modifiable "Magic" MIFARE Classic® Compatible 4K Gen3 allow for UID Modification, Block0 modification and <b>permanently setting the UID</b> - making them the <i>only</i> undetectable 4K cards availble.</p>
+<div class="chipset--tables-wrapper">
+<div class="chipset--table-title">Technical Specifications</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Feature</th>
+<th>Information</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Feature">Chipset</td>
+<td data-label="Information">MIFARE Classic® Compatible</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">Memory Size</td>
+<td data-label="Information">4K</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">UID Size</td>
+<td data-label="Information">4 Byte / 7-byte</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">UID Modifiable</td>
+<td data-label="Information">✔️</td>
+<td data-label="Notes">Multiple times</td>
+</tr>
+<tr>
+<td data-label="Feature">Chip Generation</td>
+<td data-label="Information">Gen 3</td>
+<td data-label="Notes"><a href="/blogs/academy/know-your-magic-cards" title="Magic tag / card generation guide">Chipset Generation Guide</a></td>
+</tr>
+<tr>
+<td data-label="Feature">Write Method</td>
+<td data-label="Information">APDU</td>
+<td data-label="Notes"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chipset--table-title">Write Capabilities</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>UID Modifiable</th>
+<th>Unlock Required</th>
+<th>DirectWrite / Block 0</th>
+<th>APDU</th>
+<th>One Time Write</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="UID Modifiable">✔️</td>
+<td data-label="Unlock Required"><br></td>
+<td data-label="DirectWrite / Block 0"></td>
+<td data-label="APDU">✔️</td>
+<td data-label="One Time Write"><br></td>
+<td data-label="Notes"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chipset--table-title">Device Compatibility</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Compatibility</th>
+<th>UID</th>
+<th>R/W</th>
+<th>Config</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Compatibility">Flipper Zero</td>
+<td data-label="UID"></td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config"></td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">Proxmark / iCopy-X</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">Android &amp; iOS</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes">MTools BLE Recommended</td>
+</tr>
+<tr>
+<td data-label="Compatibility">LibNFC</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes">Raw APDU commands required</td>
+</tr>
+<tr>
+<td data-label="Compatibility">ChameleonUltra</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes">Requires Mtools BLE Premium</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<h2>Hands on: See the card in action</h2>
+<h3>LibNFC - change UID</h3>
+<code><pre>$ pn53x-tamashell
+&gt; 4a 01 00
+&gt; 42 02 90 FB CC CC 07 XX XX XX XX XX XX XX</pre></code>
+<p>Where xx xx xx xx xx xx xx is your target UID.<br>For 4-byte cards, your UID will be 4-bytes, for 7-byte cards, the UID will be 7-bytes.</p>
+<h3>LibNFC - Write to Block0</h3>
+<code><pre>$ pn53x-tamashell
+&gt; 4a 01 00
+&gt; 42 02 90 F0 CC CC 10 04 12 19 c3 21 93 16 98 42 00 e3 20 00 00 00 00</pre></code>
+<p>Where 041219c3219316984200e32000000000 is the value for Block 0.</p>
+<h3>LibNFC - Lock the UID permanently:</h3>
+<code><pre>$ pn53x-tamashell
+&gt; 4a 01 00
+&gt; 42 02 90 FD 11 11 00</pre></code>
+<h3>Proxmark / iCopy-X - Change UID</h3>
+<pre><code>hf mf gen3uid --uid 11223344556677 # 7-Byte UID: Replace 11223344556677 with the UID</code></pre>
+ <pre><code>hf mf gen3uid --uid 11223344` # 4-Byte UID: Replace 11223344 with the UID</code></pre>
+<h3>Proxmark / iCopy-X - Set Block 0</h3>
+<pre><code>hf mf gen3blk 041219c3219316984200e32000000000
+ # Replace 041219c3219316984200e32000000000 with the Block 0 Value</code></pre>
+<h3>Proxmark / iCopy-X - Freeze UID</h3>
+<pre><code>hf mf gen3freeze 
+ # Freeze the currently set UID</code></pre>
+<h3>Live Demonstration - Proxmark</h3>
+<p></p><p><script src="https://asciinema.org/a/qeP6NimoXRmNqMO4ApqOsRPyx.js" id="asciicast-qeP6NimoXRmNqMO4ApqOsRPyx" async=""></script> </p>
+<h3>Live Demonstration - LibNFC</h3>
+<p></p><p><script src="https://asciinema.org/a/FmxKQCXEFbdz9FnVWp02FSiOc.js" id="asciicast-FmxKQCXEFbdz9FnVWp02FSiOc" async=""></script> </p>
+<h2>Unbricking</h2>
+<p>"Soft-bricking" refers to when a magic card has been configured in a way that prevents it from being detected. Ways of soft-bricking tags include:</p>
+<ul>
+<li>Incorrect BCC</li>
+<li>Incorrect SAK</li>
+<li>Incorrect ATQA</li>
+<li>Incorrect ATS</li>
+<li>Incorrect ACL (Access Control) Values</li>
+</ul>
+<p>Some "soft-brick" situations can be resolved with special commands. If your MIFARE Classic® Compatible 4K Gen3 UID Modifiable is "soft-bricked", you can try recovering it with the following methods:</p>
+<h3>With Proxmark / iCopy-X</h3>
+<pre><code>hf mf gen3blk 11223344440804000102030405060708090A0B0C0D0E0F # 4-byte UID cards</code></pre>
+<pre><code>hf mf gen3blk 112233445566770844000102030405060708090A0B0C0D # 7-byte UID cards</code></pre>
+<h3>With LibNFC</h3>
+<b>4-byte UID</b>
+<code><pre>$ pn53x-tamashell
+&gt; 4a 01 00
+&gt; 42 02 90 F0 CC CC 10 11 22 33 44 44 08 04 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F</pre></code>
+<b>7-byte UID</b>
+<code><pre>$ pn53x-tamashell
+&gt; 4a 01 00
+&gt; 42 02 90 F0 CC CC 10 11 22 33 44 55 66 77 08 44 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D</pre></code>
+<h3>Via external reader/writer and MTOOLS</h3>
+<p>Select the "UID Changer" function in MTools, select "bricked" and run the task</p>
+<h3>IMPORTANT:</h3>
+<p>Lab401 cannot provide refunds under any circumstances for cards that were 'bricked' due to incorrect configurations.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>13.56MHz (HF)</s:tag>
+    <s:tag>Compat: Android</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Family: MIFARE®</s:tag>
+    <s:tag>Gen3</s:tag>
+    <s:tag>Size: 4K</s:tag>
+    <s:tag>UID: 4-Byte</s:tag>
+    <s:tag>UID: 7-byte</s:tag>
+    <s:tag>UID: Freezable</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10256210428251</id>
+      <title>4-byte</title>
+      <s:price currency="EUR">9.95</s:price>
+      <s:sku>MF-4K-4B-GEN3</s:sku>
+      <s:grams>6</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/10256210428251</id>
+      <title>7-byte</title>
+      <s:price currency="EUR">9.95</s:price>
+      <s:sku>MF-4K-7B-GEN3</s:sku>
+      <s:grams>6</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/10151319503195</id>
+    <published>2025-11-19T16:25:42+01:00</published>
+    <updated>2025-11-19T16:25:42+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/tiny-mf-gen1a-5pc"/>
+    <title>MIFARE Classic® Compatible 1K UID Modifiable (Gen2) - Tiny FPC Tags - Pack of 5</title>
+    <s:type>RFID Tags</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Ruler-Cropped.png?v=1763472837"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>RFID Tags<br>
+        <strong>Price: </strong>
+            4.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>MIFARE Classic® Compatible 1K, UID Changeable (Gen2) - FPC Stickers - Pack of 5</h2>
+<p>The absolute smallest MIFARE Classic® Compatible 1K chips on the market. At just 8mm (1/32") across, these tags can be placed anywhere. Despite their tiny size, they have perfectly tuned antennas for optimised performance. There are <b>five tags per pack.</b></p>
+<div class="chipset--tables-wrapper">
+<div class="chipset--table-title">Technical Specifications</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Feature</th>
+<th>Information</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Feature">Chipset</td>
+<td data-label="Information">MIFARE Classic® Compatible</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">Memory Size</td>
+<td data-label="Information">1K</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">UID Size</td>
+<td data-label="Information">4 Byte</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">UID Modifiable</td>
+<td data-label="Information">✔️</td>
+<td data-label="Notes"></td>
+</tr>
+<tr>
+<td data-label="Feature">Chip Generation</td>
+<td data-label="Information">Gen 2</td>
+<td data-label="Notes"><a title="Magic tag / card generation guide" href="/blogs/academy/know-your-magic-cards">Chipset Generation Guide</a></td>
+</tr>
+<tr>
+<td data-label="Feature">Packaging</td>
+<td data-label="Information">5 per pack</td>
+<td data-label="Notes">Delivered in an anti-static bag</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chipset--table-title">Write Capabilities</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>UID Modifiable</th>
+<th>Unlock Required</th>
+<th>DirectWrite / Block 0</th>
+<th>One Time Write</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="UID Modifiable">✔️</td>
+<td data-label="Unlock Required"></td>
+<td data-label="DirectWrite / Block 0">✔️</td>
+<td data-label="One Time Write"></td>
+<td data-label="Notes"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chipset--table-title">Device Compatibility</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Compatibility</th>
+<th>UID</th>
+<th>R/W</th>
+<th>Config</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Compatibility">Flipper Zero</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">Proxmark / iCopy-X</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">Android &amp; iOS</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes">Via MTools app.</td>
+</tr>
+<tr>
+<td data-label="Compatibility">LibNFC</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">ChameleonUltra</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes">Via MTools app</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<h2>Hands on: See the card in action</h2>
+<p>The MIFARE Classic® Compatible 1K UID Changeable via Direct Write card is compatible with several tools:</p>
+<p><script src="https://asciinema.org/a/EJrBMRPZD0qqAonY.js" id="asciicast-EJrBMRPZD0qqAonY" async="true"></script></p>
+<h3>LibNFC - change UID</h3>
+<p>To update the UID of the badge, simply write the dump contents to the badge.</p>
+<pre><code>nfc-mfclassic w a u /tmp/1K.dmp</code></pre>
+<h3>Proxmark - change UID</h3>
+<p>To update the UID of the badge, simply write the dump contents to the badge. When using <code>wrbl</code> - you are directly modifying the card's configuration. <b>Ensure that all data is correct</b> including BCC - otherwise you <b>will</b> brick your card.</p>
+<pre><code>hf mf wrbl --blk 0 -k FFFFFFFFFFFF -d 11223344440804006263646566676869 # Where 11223344 is the UID, 08 is the BCC</code></pre>
+<h2>Unbricking</h2>
+<p>"Soft-bricking" refers to when a magic card has been configured in a way that prevents it from being detected. Ways of soft-bricking tags include:
+</p><ul>
+<li>Incorrect BCC</li>
+<li>Incorrect SAK</li>
+<li>Incorrect ATQA</li>
+<li>Incorrect ATS</li>
+<li>Incorrect ACL (Access Control) Values</li>
+</ul>
+Some "soft-brick" situations can be resolved with special commands. If your MIFARE Classic® Compatible 1K UID Modifiable is "soft-bricked", you can try recovering it with the following methods: 
+<h3>With Proxmark / iCopy-X</h3>
+<pre><code>hf 14a config --atqa force --bcc ignore --cl2 skip --rats skip
+# for 1k
+hf mf wrbl --blk 0 -k FFFFFFFFFFFF -d 11223344440804006263646566676869 --force
+hf 14a config --std
+hf 14a reader</code></pre>
+<h3>Via external reader/writer and MTOOLS</h3>
+<p>Select the "UID Changer" function in MTools, select "bricked" and run the task</p>
+<h3>IMPORTANT:</h3>
+<p>Lab401 cannot provide refunds under any circumstances for cards that were 'bricked' due to incorrect configurations.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>13.56MHz (HF)</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Family: MIFARE®</s:tag>
+    <s:tag>Gen: 1a</s:tag>
+    <s:tag>Size: 1K</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10151319503195</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">4.95</s:price>
+      <s:sku>TINY-MF-GEN2-5PC</s:sku>
+      <s:grams>10</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/10151319896411</id>
+    <published>2025-11-19T16:19:19+01:00</published>
+    <updated>2025-11-19T16:19:19+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/tiny-mf-gen2a-one-time-write"/>
+    <title>MIFARE Classic® Compatible 1K One Time Write UID Modifiable Tiny FPC Tags - Pack of 5</title>
+    <s:type>RFID Tags</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Tiny-MIFARE-Gen2-OTW.png?v=1763471750"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>RFID Tags<br>
+        <strong>Price: </strong>
+            9.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>MIFARE Classic® Compatible 1K, UID Changeable One Time (Gen2a) - FPC Stickers - Pack of 5</h2>
+<p>The absolute smallest MIFARE Classic® Compatible 1K chips on the market. At just 8mm (1/32") across, these tags can be placed anywhere. Despite their tiny size, they have perfectly tuned antennas for optimised performance. There are <b>five tags per pack.</b></p>
+<p>More and more access control systems (notably VIGIK® compatible systems in Europe) use detection routines to determine if a badge is Gen1a or Gen2 - and will refuse access to prevent cloned badges being used.<br></p>
+<p>The solution is Gen2a MIFARE Classic® Compatible 1K UID One-Time-Write tags. The UID of the tag can be written one time only. Once written, it cannot be changed - the tag is indistinguishable from an original tag.</p>
+<div class="chipset--tables-wrapper">
+<div class="chipset--table-title">Technical Specifications</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Feature</th>
+<th>Information</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Feature">Chipset</td>
+<td data-label="Information">MIFARE Classic® Compatible</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">Memory Size</td>
+<td data-label="Information">1K</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">UID Size</td>
+<td data-label="Information">4 Byte</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">UID Modifiable</td>
+<td data-label="Information">✔️</td>
+<td data-label="Notes">UID can be modified <i>one time only</i>
+</td>
+</tr>
+<tr>
+<td data-label="Feature">Chip Generation</td>
+<td data-label="Information">Gen 2a (OTW)</td>
+<td data-label="Notes"><a title="Magic tag / card generation guide" href="/blogs/academy/know-your-magic-cards">Chipset Generation Guide</a></td>
+</tr>
+<tr>
+<td data-label="Feature">Packaging</td>
+<td data-label="Information">5 per pack</td>
+<td data-label="Notes">Delivered in an anti-static bag</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chipset--table-title">Write Capabilities</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>UID Modifiable</th>
+<th>Unlock Required</th>
+<th>DirectWrite / Block 0</th>
+<th>One Time Write</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="UID Modifiable">✔️</td>
+<td data-label="Unlock Required"><br></td>
+<td data-label="DirectWrite / Block 0">✔️</td>
+<td data-label="One Time Write">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chipset--table-title">Device Compatibility</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Compatibility</th>
+<th>UID</th>
+<th>R/W</th>
+<th>Config</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Compatibility">Flipper Zero</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">Proxmark / iCopy-X</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">Android &amp; iOS</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes">Via MTools app</td>
+</tr>
+<tr>
+<td data-label="Compatibility">LibNFC</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">ChameleonUltra</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes">Via MTools app</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<h2>Hands on: See the card in action</h2>
+<p>The MIFARE Classic® Compatible 1K UID One-Time-Write can be used with several tools:</p>
+<h3>LibNFC - change UID</h3>
+<p>To update the UID of the badge, simply write the dump contents to the badge.</p>
+<pre><code>nfc-mfclassic w a u /tmp/1K.dmp</code></pre>
+<h3>Proxmark - change UID</h3>
+<p>To update the UID of the badge, simply write the dump contents to the badge. When using <code>wrbl</code> - you are directly modifying the card's configuration. <b>Ensure that all data is correct</b> including BCC - otherwise you <b>will</b> brick your card.</p>
+<pre><code>hf mf wrbl --blk 0 -k FFFFFFFFFFFF -d 11223344440804006263646566676869 # Where 11223344 is the UID, 08 is the BCC</code></pre>
+<h3>Live Demonstration : LibNFC &amp; Proxmark</h3>
+<p><script async="" theme="solarized-dark" id="asciicast-8o5myb3bxd4y172q0y3yyny72" src="https://asciinema.org/a/8o5myb3bxd4y172q0y3yyny72.js"></script></p>
+<h2>Unbricking</h2>
+<p>"Soft-bricking" refers to when a magic card has been configured in a way that prevents it from being detected. Ways of soft-bricking tags include:</p>
+<ul>
+<li>Incorrect BCC</li>
+<li>Incorrect SAK</li>
+<li>Incorrect ATQA</li>
+<li>Incorrect ATS</li>
+<li>Incorrect ACL (Access Control) Values</li>
+</ul>
+<p>Some "soft-brick" situations can be resolved with special commands. If your MIFARE Classic® Compatible 1K UID Modifiable is "soft-bricked", you can try recovering it with the following methods:</p>
+<h3>With Proxmark / iCopy-X</h3>
+<pre><code>hf 14a config --atqa force --bcc ignore --cl2 skip --rats skip
+# for 1k
+hf mf wrbl --blk 0 -k FFFFFFFFFFFF -d 11223344440804006263646566676869 --force
+hf 14a config --std
+hf 14a reader</code></pre>
+<h3>Via external reader/writer and MTOOLS</h3>
+<p>Select the "UID Changer" function in MTools, select "bricked" and run the task</p>
+<h3>IMPORTANT:</h3>
+<p>Lab401 cannot provide refunds under any circumstances for cards that were 'bricked' due to incorrect configurations.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>13.56MHz (HF)</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Family: MIFARE®</s:tag>
+    <s:tag>Gen: 2a (OTW)</s:tag>
+    <s:tag>Size: 1K</s:tag>
+    <s:tag>UID: 4-Byte</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10151319896411</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">9.95</s:price>
+      <s:sku>TINY-MF-GEN2A-OTW-5PC</s:sku>
+      <s:grams>10</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/10151320453467</id>
+    <published>2025-11-19T16:19:01+01:00</published>
+    <updated>2025-11-19T16:19:01+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/tiny-detector-led-ntag213-10p"/>
+    <title>Tiny NTAG® 213 - LED Detector Tags - Pack of 10</title>
+    <s:type>RFID Tags</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Tags-Overview.png?v=1763473922"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>RFID Tags<br>
+        <strong>Price: </strong>
+            19.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>INTRODUCTION</h2>
+<p>Pack of 10 tiny high-frequency RFID detectors - with NTAG® 213 functionality. At just 8mm x 12mm across, these tags can be placed anywhere. They can be used as decoration, or for quickly diagnosing HF RFID systems. Despite their tiny size, they have perfectly tuned antennas for optimised performance. There are <b>ten tags per pack.</b></p>
+<p>The tag LED will light up when it detects a high-frequency (13.56MHz) field. The tags require no battery - they're powered from the RFID field itself! NTAG® 213 chips are ideal for storing NDEF records: a special data format that triggered actions when scanned (visit URL, call a phone number, etc).</p>
+<div class="chipset--tables-wrapper">
+<div class="chipset--table-title">Technical Specifications</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Feature</th>
+<th>Information</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Feature">Chipset</td>
+<td data-label="Information">NTAG® 213</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">Memory Size</td>
+<td data-label="Information">144 bytes / 45 pages</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">UID Size</td>
+<td data-label="Information">7 Byte</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">UID Modifiable</td>
+<td data-label="Information">❌</td>
+<td data-label="Notes"></td>
+</tr>
+<tr>
+<td data-label="Feature">LED Colours</td>
+<td data-label="Information">Green, Red, Orange, White</td>
+<td data-label="Notes"><i>Each pack has a random mix</i></td>
+</tr>
+<tr>
+<td data-label="Feature">Packaging</td>
+<td data-label="Information">10 per pack</td>
+<td data-label="Notes">Delivered in an anti-static bag</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chipset--table-title">Write Capabilities</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>UID Modifiable</th>
+<th>Unlock Required</th>
+<th>DirectWrite / Block 0</th>
+<th>One Time Write</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="UID Modifiable">❌</td>
+<td data-label="Unlock Required"></td>
+<td data-label="DirectWrite / Block 0"></td>
+<td data-label="One Time Write"></td>
+<td data-label="Notes"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chipset--table-title">Device Compatibility</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Compatibility</th>
+<th>UID</th>
+<th>R/W</th>
+<th>Config</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Compatibility">Flipper Zero</td>
+<td data-label="UID"></td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">Proxmark / iCopy-X</td>
+<td data-label="UID"></td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">Android &amp; iOS</td>
+<td data-label="UID"></td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes">Via MTools app or MIFARE Ultralight++</td>
+</tr>
+<tr>
+<td data-label="Compatibility">LibNFC</td>
+<td data-label="UID"></td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">ChameleonUltra</td>
+<td data-label="UID"></td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes">Via MTools app</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<h2>Hands on: See the card in action</h2>
+<p><script src="https://asciinema.org/a/bbc9lqq5v4gf8ev2p6o1dmisk.js" id="asciicast-bbc9lqq5v4gf8ev2p6o1dmisk" async=""></script> </p>
+<h3>IMPORTANT:</h3>
+<p>The UID of MIFARE Classic® Compatible 1K UID tags is comprised of two parts: the <strong>UID itself</strong>, and the <strong>BCC</strong>. The BCC is a checksum value <strong>calculated from the UID</strong>. If the BCC is incorrect, tag will be rejected by the reader.<br></p>
+<p>Most RFID tools, such as the Proxmark, LibNFC, MCT etc automatically calculate the BCC when the UID is modified. If you are modifying the UID by hand, it is <strong>vital</strong> that the BCC is correctly calculated.</p>
+<p>Lab401 cannot provide support or refunds under any circumstances for cards that were 'bricked' due to incorrect UID/BCC configuration.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>13.56MHz (HF)</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Family: NTAG®</s:tag>
+    <s:tag>Size: 144b</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10151320453467</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">19.95</s:price>
+      <s:sku>TINY-DETECTOR-LED-NTAG213-10P</s:sku>
+      <s:grams>3</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/10771472391</id>
+    <published>2025-05-19T09:10:02+02:00</published>
+    <updated>2025-05-19T09:10:02+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/ultralight-compatible-uid-modifiable"/>
+    <title>MIFARE Ultralight® Compatible UID Modifiable</title>
+    <s:type>RFID Tags</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/UL-UID.png?v=1536830258"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>RFID Tags<br>
+        <strong>Price: </strong>
+            4.99
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>INTRODUCTION</h2>
+<p>Need to make perfect clones of MIFARE Ultralight® Compatible cards and tags ? Our UID Modifiable "Magic" MIFARE Ultralight® Compatible tags are what you need.</p>
+<div class="chipset--tables-wrapper">
+<div class="chipset--table-title">Technical Specifications</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Feature</th>
+<th>Information</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Feature">Chipset</td>
+<td data-label="Information">MIFARE Ultralight® Compatible</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">Memory Size</td>
+<td data-label="Information">User Writable: 48 Byte / 20 pages </td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">UID Size</td>
+<td data-label="Information">7 Byte</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">UID Modifiable</td>
+<td data-label="Information">✔️</td>
+<td data-label="Notes">Multiple times</td>
+</tr>
+<tr>
+<td data-label="Feature">Chip Generation</td>
+<td data-label="Information">Gen 1a</td>
+<td data-label="Notes"><a href="/blogs/academy/know-your-magic-cards" title="Magic tag / card generation guide">Chipset Generation Guide</a></td>
+</tr>
+<tr>
+<td data-label="Feature">Packaging</td>
+<td data-label="Information">1 Card per Pack</td>
+<td data-label="Notes"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chipset--table-title">Write Capabilities</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>UID Modifiable</th>
+<th>Unlock Required</th>
+<th>DirectWrite / Block 0</th>
+<th>One Time Write</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="UID Modifiable">✔️</td>
+<td data-label="Unlock Required">✔️</td>
+<td data-label="DirectWrite / Block 0"><br></td>
+<td data-label="One Time Write"><br></td>
+<td data-label="Notes"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chipset--table-title">Device Compatibility</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Compatibility</th>
+<th>UID</th>
+<th>R/W</th>
+<th>Config</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Compatibility">Flipper Zero</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">Proxmark / iCopy-X</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">Android &amp; iOS</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes">MTools or <a href="http://www.emutag.com/soft.php" target="_blank" rel="nofollow">MIFARE++ Ultralight</a>
+</td>
+</tr>
+<tr>
+<td data-label="Compatibility">LibNFC</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">ChameleonUltra</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes">Requires MTools Premium</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<h2>Hands on: See the card in action</h2>
+<p>The Ultralight® Compatible UID Modifiable can be used with several tools:</p>
+<h3>LibNFC - change UID</h3>
+<p>To change the UID of your Ultralight® Compatible UID Modifiable tag with LibNFC, write a full tag dump to the tag, with the UID and BCC set appropriately. Do <b>not</b> use the <code>nfc-mfsetuid</code> tool to change the UID. This tool is built for MIFARE Classic® Chipsets, not MIFARE Ultralight® Chipsets - using the tool will <b>permanently brick your tag</b>.
+</p><pre><code>nfc-mfultralight w /tmp/ul.dmp --full   # Replace ul.dmp with your FULL dump</code></pre>
+<h3>Proxmark / iCopy-X</h3>
+<pre><code>hf mfu setuid –uid 11223344556677   # Replace 11223344556677 with the UID</code></pre>
+<h3>LibNFC - live demonstration</h3>
+<p><script src="https://asciinema.org/a/bbc9lqq5v4gf8ev2p6o1dmisk.js" id="asciicast-bbc9lqq5v4gf8ev2p6o1dmisk" async=""></script> </p>
+<h2>Unbricking</h2>
+<p>"Soft-bricking" refers to when a magic card has been configured in a way that prevents it from being detected. Ways of soft-bricking tags include:
+</p><ul>
+<li>Incorrect BCC</li>
+<li>Incorrect SAK</li>
+<li>Incorrect ATQA</li>
+<li>Incorrect ATS</li>
+<li>Incorrect ACL (Access Control) Values</li>
+</ul>
+Some "soft-brick" situations can be resolved with special commands. If your MIFARE Ultralight® Compatible UID Modifiable is "soft-bricked", you can try recovering it with the following methods: 
+<h3>Via external reader/writer and MTOOLS</h3>
+<p>Select the "UID Changer" function in MTools, select "bricked" and run the task</p>
+<h3>IMPORTANT:</h3>
+<p>Lab401 cannot provide refunds under any circumstances for cards that were 'bricked' due to incorrect configurations.</p>
+</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>13.56MHz (HF)</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Family: Ultralight®</s:tag>
+    <s:tag>Gen: 1a</s:tag>
+    <s:tag>Size: 384b</s:tag>
+    <s:tag>UID: 7-byte</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10771472391</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">4.99</s:price>
+      <s:sku>UL-GEN1</s:sku>
+      <s:grams>3</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/9816817697115</id>
+    <published>2025-03-30T08:34:32+02:00</published>
+    <updated>2025-03-30T08:34:32+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/icode-sli-gen2-uid-changeable-iso15693"/>
+    <title>iCODE SLI Gen2 UID Changeable ISO15693</title>
+    <s:type>RFID Tags</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/iCODE---SLI-S---Modifiable-UID.png?v=1743306502"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>RFID Tags<br>
+        <strong>Price: </strong>
+            29.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>INTRODUCTION</h2>
+<p>Latest generation ISO15693 iCODE SLI tag, allowing for UID modification <strong>and</strong> block length modification. For the first time, perfect clones of multiple SLI types (even SLI-S) can be easily performed.</p>
+<div class="chipset--tables-wrapper">
+<div class="chipset--table-title">Technical Specifications</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Feature</th>
+<th>Information</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Feature">Chipset</td>
+<td data-label="Information">ISO15693 iCODE SLI</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">Memory Size</td>
+<td data-label="Information">0 - 63 blocks</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">UID Size</td>
+<td data-label="Information">8 Byte</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">UID Modifiable</td>
+<td data-label="Information">✔️</td>
+<td data-label="Notes">One time</td>
+</tr>
+<tr>
+<td data-label="Feature">Chip Generation</td>
+<td data-label="Information">Gen 2</td>
+<td data-label="Notes"><a href="/blogs/academy/know-your-magic-cards" title="Magic tag / card generation guide">Chipset Generation Guide</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chipset--table-title">Write Capabilities</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>UID Modifiable</th>
+<th>Unlock Required</th>
+<th>DirectWrite / Block 0</th>
+<th>One Time Write</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="UID Modifiable">UID Type</td>
+<td data-label="Unlock Required"></td>
+<td data-label="DirectWrite / Block 0">✔️</td>
+<td data-label="One Time Write"></td>
+<td data-label="Notes"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chipset--table-title">Device Compatibility</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Compatibility</th>
+<th>UID</th>
+<th>R/W</th>
+<th>Config</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Compatibility">Flipper Zero</td>
+<td data-label="UID"></td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config"></td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">Proxmark / iCopy-X</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes">Via raw commands</td>
+</tr>
+<tr>
+<td data-label="Compatibility">Android</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes">Requires MTools</td>
+</tr>
+<tr>
+<td data-label="Compatibility">iOS</td>
+<td data-label="UID">❌</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">❌</td>
+<td data-label="Notes"></td>
+</tr>
+<tr>
+<td data-label="Compatibility">LibNFC</td>
+<td data-label="UID">❌</td>
+<td data-label="R/W">❌</td>
+<td data-label="Config">❌</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">ChameleonUltra</td>
+<td data-label="UID">❌</td>
+<td data-label="R/W">❌</td>
+<td data-label="Config">❌</td>
+<td data-label="Notes"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<h3>Change Block Size:</h3>
+<p>The total block size can be set via the <strong>hf 15 raw</strong> Proxmark commands below.</p>
+<pre><code>hf 15 raw -acrk -d 02e00947<strong>3f</strong>038b00   # Change to 64 blocks</code></pre>
+<pre><code>hf 15 raw -acrk -d 02e00947<strong>1f</strong>038b00   # Change to 32 blocks</code></pre>
+<pre><code>hf 15 raw -acrk -d 02e00947<strong>0f</strong>038b00   # Change to 16 blocks</code></pre>
+<h3>Full Command Table</h3>
+<p>Below is the full table of card commands. Each command is built with the same structure: <code>XXYYZZZZZZZZ</code>, where:</p>
+<ul>
+<li>
+<code>XX</code> is the preamble, <code>02E0</code>
+</li>
+<li>
+<code>YY</code> is the tag operation</li>
+<li>
+<code>ZZZZZZZZ</code> is the data for the tag operation.</li>
+</ul>
+<p>The full tag operation lexicon is as follows:</p>
+<ul>
+<li>0900 --&gt; Write to Block 0</li>
+<li>...</li>
+<li>093F --&gt; Write to Block 63</li>
+<li>0940 --&gt; UID Last 4 bytes</li>
+<li>0941 --&gt; UID First 4 bytes</li>
+<li>0942 --&gt; Locks (blk 0 through 31)</li>
+<li>0943 --&gt; Locks (blk 32 through 63)</li>
+<li>0944 --&gt; Reg. Write Disable (blk 0 - 31) (magic write OK)</li>
+<li>0945 --&gt; Reg. Write Disable (blk 32 - 63) (magic write OK)</li>
+<li>0946 --&gt; DSFID / AFI</li>
+<li>0947 --&gt; Block Size + IC ref</li>
+<li>09FF --&gt; Format Card. Writes 4 byte value to all blocks</li>
+</ul>
+<h3>Format Example:</h3>
+<p>Formatting a card requires three steps: The format, and then configuring a new UID.
+</p><pre><code>hf 15 raw -acrk -d 02E009FF00000000	# Format entire tag with "00000000"
+hf 15 raw -acrk -d 02E00940E0112233	# Set the first 4-bytes of the UID to E0112233
+hf 15 raw -acrk -d 02E0094144556677	# Set the last 4-bytes of the UID to 44556677</code></pre>
+</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>13.56MHz (HF)</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Family: SLI/SLIX</s:tag>
+    <s:tag>Gen: 2</s:tag>
+    <s:tag>Size: 1K</s:tag>
+    <s:tag>Size: 63 pages</s:tag>
+    <s:tag>UID: 8-byte</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/9816817697115</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">29.95</s:price>
+      <s:sku>ICODE-GEN2</s:sku>
+      <s:grams>1</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/9816804196699</id>
+    <published>2025-03-30T05:25:12+02:00</published>
+    <updated>2025-03-30T05:25:12+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/mifare-classic-compatible-1k-one-time-write-uid-modifiable-coin-tag-gen2a"/>
+    <title>MIFARE Classic® Compatible 1K One Time Write UID Modifiable Coin Tag (Gen2a) - 5PCs</title>
+    <s:type>RFID Tags</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/MF-COINTAG-OTW-5PC.png?v=1773658061"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>RFID Tags<br>
+        <strong>Price: </strong>
+            15.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>INTRODUCTION</h2>
+<p>Need to make perfect, <strong>undetectable</strong> of MIFARE Classic® 1K Cards ?</p>
+<p>Many access control systems / RFID readers are now able to detect "Chinese Magic" tags by sending the "Unlock Command" (0x40 / 0x43). If the badge replies, it is flagged as an imposter / clone and rejected.</p>
+<p>These "Gen2a" badges allow the UID to be set <strong>one time only</strong> - and after that - the tag never responds to magic commands. This allows you to make <strong>undetectable</strong>, perfect clones.</p>
+<p>Once the UID has been set, the tag acts as a normal card. You can change the data of the card as many times as required - we've tested up to 10,000 read/write cycles.</p>
+<p><strong>Remember:</strong> This badge's UID can <strong>only be set one time.</strong></p>
+<p><strong>Comes in a pack of 5 pieces.</strong></p>
+<div class="chipset--tables-wrapper">
+<div class="chipset--table-title">Technical Specifications</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Feature</th>
+<th>Information</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Feature">Chipset</td>
+<td data-label="Information">MIFARE Classic® Compatible</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">Memory Size</td>
+<td data-label="Information">1K</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">UID Size</td>
+<td data-label="Information">4 Byte</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">UID Modifiable</td>
+<td data-label="Information">✔️</td>
+<td data-label="Notes"><strong>One time only<br></strong></td>
+</tr>
+<tr>
+<td data-label="Feature">Chip Generation</td>
+<td data-label="Information">Gen 2 OTW (Gen2a)</td>
+<td data-label="Notes">
+<a href="/blogs/academy/know-your-magic-cards" title="Magic tag / card generation guide">Chipset Generation Guide</a><br>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chipset--table-title">Write Capabilities</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>UID Modifiable</th>
+<th>Unlock Required</th>
+<th>DirectWrite / Block 0</th>
+<th>One Time Write</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="UID Modifiable">✔️</td>
+<td data-label="Unlock Required"></td>
+<td data-label="DirectWrite / Block 0">✔️</td>
+<td data-label="One Time Write">✔️</td>
+<td data-label="Notes">
+<strong>UID can only be modified once!</strong><br>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chipset--table-title">Device Compatibility</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Compatibility</th>
+<th>UID</th>
+<th>R/W</th>
+<th>Config</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Compatibility">Flipper Zero</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">Proxmark / iCopy-X</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">Android &amp; iOS</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes">MTools recommended</td>
+</tr>
+<tr>
+<td data-label="Compatibility">LibNFC</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">ChameleonUltra</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W"></td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes">Requires MTools</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<h2>Hands on: See the card in action</h2>
+<p>The MIFARE Classic® Compatible 1K UID One-Time-Write can be used with several tools:</p>
+<h3>LibNFC - change UID</h3>
+<p>To update the UID of the badge, simply write the dump contents to the badge.</p>
+<pre><code>nfc-mfclassic w a u /tmp/1K.dmp</code></pre>
+<h3>Proxmark - change UID</h3>
+<p>To update the UID of the badge, simply write the dump contents to the badge. When using <code>wrbl</code> - you are directly modifying the card's configuration. <b>Ensure that all data is correct</b> including BCC - otherwise you <b>will</b> brick your card.</p>
+<pre><code>hf mf wrbl --blk 0 -k FFFFFFFFFFFF -d 11223344440804006263646566676869 # Where 11223344 is the UID, 08 is the BCC</code></pre>
+<h3>Live Demonstration : LibNFC &amp; Proxmark</h3>
+<p><script async="" theme="solarized-dark" id="asciicast-8o5myb3bxd4y172q0y3yyny72" src="https://asciinema.org/a/8o5myb3bxd4y172q0y3yyny72.js"></script></p>
+<h2>Unbricking</h2>
+<p>"Soft-bricking" refers to when a magic card has been configured in a way that prevents it from being detected. Ways of soft-bricking tags include:</p>
+<ul>
+<li>Incorrect BCC</li>
+<li>Incorrect SAK</li>
+<li>Incorrect ATQA</li>
+<li>Incorrect ATS</li>
+<li>Incorrect ACL (Access Control) Values</li>
+</ul>
+<p>Some "soft-brick" situations can be resolved with special commands. If your MIFARE Classic® Compatible 1K UID Modifiable is "soft-bricked", you can try recovering it with the following methods:</p>
+<h3>With Proxmark / iCopy-X</h3>
+<pre><code>hf 14a config --atqa force --bcc ignore --cl2 skip --rats skip
+# for 1k
+hf mf wrbl --blk 0 -k FFFFFFFFFFFF -d 11223344440804006263646566676869 --force
+hf 14a config --std
+hf 14a reader</code></pre>
+<h3>Via external reader/writer and MTOOLS</h3>
+<p>Select the "UID Changer" function in MTools, select "bricked" and run the task</p>
+<h3>IMPORTANT:</h3>
+<p>Lab401 cannot provide refunds under any circumstances for cards that were 'bricked' due to incorrect configurations.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>13.56MHz (HF)</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Family: MIFARE®</s:tag>
+    <s:tag>Gen: 2a (OTW)</s:tag>
+    <s:tag>Size: 1K</s:tag>
+    <s:tag>UID: 4-Byte</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/9816804196699</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">15.00</s:price>
+      <s:sku>MF-COINTAG-OTW-5PC</s:sku>
+      <s:grams>1</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/8340106641755</id>
+    <published>2023-03-27T12:44:59+02:00</published>
+    <updated>2023-03-27T12:44:59+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/mifare-desfire-ev2-compatible-modifiable-uid-atqa-sak-ats-apdu"/>
+    <title>MIFARE DESFire® Compatible Modifiable UID / ATQA / SAK / ATS / APDU</title>
+    <s:type>RFID Tags</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/DESFire-ATQA-Card.png?v=1678716597"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>RFID Tags<br>
+        <strong>Price: </strong>
+            29.99
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>INTRODUCTION</h2>
+<p><span>MIFARE DESFire®</span> remains the industry standard for ultra-high security badges. As of yet - the MIFARE DESFire® remains invulnerable to all channels of analysis.</p>
+<p>The inner workings of the MIFARE DESFire® cards remain under NDA lock and key, making it incredibly difficult to reverse engineer the protocols.</p>
+<p>Lab401's MIFARE DESFire® EV1 / EV2 Compatible Modifiable UID / ATQA / SAK / ATS / APDU Card <strong>emulates</strong> a MIFARE DESFire® card, allowing you to set not only a custom UID, but also customise the ATQA, SAK, ATS and APDU values.</p>
+<p>This means you are able to modify the card to simulate multiple types of DESFire® cards (EV1, EV2, etc).</p>
+<p>Please note, this card does <strong>not</strong> emulate any other MIFARE DESFire® features.</p>
+<p>
+</p><p>Badges come in a white PVC card format.</p>
+<div class="chipset--tables-wrapper">
+<div class="chipset--table-title">Technical Specifications</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Feature</th>
+<th>Information</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Feature">Chipset</td>
+<td data-label="Information">MIFARE DESFire® EV1 / EV2</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">Memory Size</td>
+<td data-label="Information">N/A</td>
+<td data-label="Notes">UID Emultion only - no memory</td>
+</tr>
+<tr>
+<td data-label="Feature">UID Size</td>
+<td data-label="Information">4-Byte / 7-Byte</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">UID Modifiable</td>
+<td data-label="Information">✔️</td>
+<td data-label="Notes"></td>
+</tr>
+<tr>
+<td data-label="Feature">Packaging</td>
+<td data-label="Information">1x White PVC card format</td>
+<td data-label="Notes"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chipset--table-title">Write Capabilities</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>UID Modifiable</th>
+<th>Unlock Required</th>
+<th>DirectWrite / Block 0</th>
+<th>One Time Write</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="UID Modifiable">✔️</td>
+<td data-label="Unlock Required"></td>
+<td data-label="DirectWrite / Block 0"></td>
+<td data-label="One Time Write"></td>
+<td data-label="Notes"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chipset--table-title">Device Compatibility</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Compatibility</th>
+<th>UID</th>
+<th>R/W</th>
+<th>Config</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Compatibility">Flipper Zero</td>
+<td data-label="UID">❌</td>
+<td data-label="R/W"></td>
+<td data-label="Config">❌</td>
+<td data-label="Notes"></td>
+</tr>
+<tr>
+<td data-label="Compatibility">Proxmark / iCopy-X</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W"></td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">Android &amp; iOS</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W"></td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes">Requires MTools</td>
+</tr>
+<tr>
+<td data-label="Compatibility">LibNFC</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W"></td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes">Requires raw commands</td>
+</tr>
+<tr>
+<td data-label="Compatibility">ChameleonUltra</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W"></td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes">Requires MTools</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<h2>Hands on with the MIFARE DESFire® EV1 /EV2 Compatible Modifiable UID / ATQA / SAK / ATS / APDU Card</h2>
+<p><strong>Changing the UID</strong><br>Using your Proxmark 3, you can issue the following command: <br></p>
+<pre><strong>Change UID Command</strong><br>hf 14a raw -s -c -t 1000 cf00000000CD00&lt;uid&gt;<br><strong><br>Example: Set UID to 11223344556677<br></strong>hf 14a raw -s -c -t 1000 cf00000000CD0011223344556677<br><strong><br></strong></pre>
+<p><strong>Setting up ATS:</strong><br></p>
+<pre><strong>Setup ATS Command</strong><br>hf 14a raw -s -c -t 1000 cf0000000034&lt; Length &gt; &lt; ATS &gt;
+* The length is set to 0, indicating that ATS is not sent<br data-mce-fragment="1">* When SAK is 20, 28, be sure to set ATS, otherwise you can't read the card.<br data-mce-fragment="1">* The last two digits of ATS are CRC, which cannot be counted into the length<br data-mce-fragment="1"><strong><br>Example: Modify ATS to 060675781028002F0<br></strong>hf 14a raw -s -c -t 1000 cf000000003406067577810280<br></pre>
+<p><strong>Setting up ATQA and SAK:</strong><br></p>
+<pre><strong>Setup ATQA / SAK Command </strong><br>hf 14a raw -s -c -t 1000 cf0000000035&lt;ATQA&gt;&lt;SAK&gt;
+* Note that ATQA is inverted on the Proxmark<br data-mce-fragment="1"><strong><br>Example: Set ATQA to 00 44 and SAK to 28<br></strong>hf 14a raw -s -c -t 1000 cf0000000035440028<br></pre>
+<h3>Live Demonstration - Proxmark commands</h3>
+<p><script src="https://asciinema.org/a/IuBk9LvSBGaG1rQChX9gMj5q0.js" id="asciicast-IuBk9LvSBGaG1rQChX9gMj5q0" async=""></script> </p>
+<h2>Hands on with the MIFARE DESFire® EV1 /EV2 Compatible Modifiable UID / ATQA / SAK / ATS / APDU Card - LibNFC Commands</h2>
+<p>Using LibNFC with pn53x-tamashell, you can issue commands directly to the card.</p>
+<h3>Starting Tamashell</h3>
+<pre><code>pn53x-tamashell</code></pre>
+<p>This will open an interactive session with your PN53x-based NFC reader.</p>
+<h3>LibNFC: Set UID to 11223344556677</h3>
+<pre><code>&gt; 4a 01 00
+&gt; 42 cf 00 00 00 00 CD 00 11 22 33 44 55 66 77</code></pre>
+   	
+<h3>LibNFC: Setting ATS</h3>
+<ul>
+	<li>The length is set to 0, indicating that ATS is not sent</li>
+	<li>When SAK is 20, 28, be sure to set ATS, otherwise you can't read the card.</li>
+	<li>The last two digits of ATS are CRC, which cannot be counted into the length</li>
+</ul>
+<b>Example: Modify ATS to 060675781028002F0</b><br>
+<pre><code>&gt; 4a 01 00
+&gt; 42 cf 00 00 00 00 34 06 06 75 77 81 02 80</code></pre>
+<h3>LibNFC: Setting ATQA and SAK</h3>
+<p>Note that ATQA is inverted on the Proxmark and LibNFC</p>
+<p><b>Example: Set ATQA to 00 44 and SAK to 28</b></p>
+<pre><code>&gt; 4a 01 00
+&gt; 42 cf 00 00 00 00 35 44 00 28</code></pre>
+<h3>Live Demonstration - LibNFC commands</h3>
+<p><script src="https://asciinema.org/a/bXBR2HkwF8Bx2ZdcKfNkjQKgA.js" id="asciicast-bXBR2HkwF8Bx2ZdcKfNkjQKgA" async=""></script> </p>
+<h3>IMPORTANT:</h3>
+<p>This is an advanced card. Please ensure that you understand the implications of the commands you are sending, and perform dry-runs before any command execution. Incorrect configuration values can and will make your cards unresponsive.</p>
+<p>Lab401 cannot provide support or refunds under any circumstances for cards that were 'bricked' due to incorrect commands.</p>
+</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>13.56MHz (HF)</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Family: DESFire®</s:tag>
+    <s:tag>Gen: 1b</s:tag>
+    <s:tag>UID: 7-byte</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/8340106641755</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">29.99</s:price>
+      <s:sku>DESFIRE-7B-EV2-V2</s:sku>
+      <s:grams>6</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/7998164992230</id>
+    <published>2022-09-30T15:28:41+02:00</published>
+    <updated>2022-09-30T15:28:41+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/ultimate-magic-card-gen4"/>
+    <title>Ultimate Magic Card (Gen4)</title>
+    <s:type>RFID Tags</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/Ultimate-Magic-Card-_Gen4.png?v=1664544498"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>RFID Tags<br>
+        <strong>Price: </strong>
+            29.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>The Ultimate Magic Card is a multi-protocol emulation card, capable of emulating all variants of the MIFARE Classic® (1K, 4K, Mini), MIFARE Ultralight®, MIFARE Ultralight® families, with 4-byte, 7-byte and 10-byte UIDs.</p>
+<p>More importantly, <b>everything can be configured</b> - card characteristics: ATQA, SAK, ATS values.. and even card functionality (Read-Only mode, Read/Write Mode, "Shadow Mode", etc). </p>
+<p>Essentially, it's a completely configurable emulation platform in card format. </p>
+<p>For many years, magic cards have been progressively adding functionality: this card, the "Gen4" is the result of years of work: it is the <i>ultimate magic card</i> - and a must-have for pentesters, security professionals and enthusiasts.</p>
+<p><strong>Configurable Card Types</strong><br>The Ultimate Magic Card contains presets of multiple card types:</p>
+<ul>
+   <li>MIFARE Mini</li>
+   <li>MIFARE 1k S50 4 byte UID</li>
+   <li>MIFARE 1k S50 7 byte UID</li>
+   <li>MIFARE 1k S50 10 byte UID</li>
+   <li>MIFARE 4k S70 4 byte UID</li>
+   <li>MIFARE 4k S70 7 byte UID</li>
+   <li>MIFARE 4k S70 10 byte UID</li>
+   <li>Ultralight</li>
+   <li>Ultralight-C</li>
+   <li>Ultralight Ev1</li>
+   <li>NTAG</li>
+</ul>
+<p>As below, all ATQA/ATS/ATS values are freely configurable allowing for emulation of other or custom chipsets</p>
+<p><strong>Configurable Parameters</strong><br>The card supports configuration of the following parameters:</p>
+<ul>
+   <li>Preset Card Type</li>
+   <li>UID</li>
+   <li>UID Length (4-byte / 7-byte / 10-byte)</li>
+   <li>SAK (1 byte)</li>
+   <li>ATQA (2 bytes)</li>
+   <li>ATS (Custom length / Disable)</li>
+</ul>
+<p><strong>Configurable Functionality</strong><br>The card has several modes of operation, depending on your requirements</p>
+<ul>
+   <li> <span style="text-decoration: underline;">Shadow Mode</span><br>Shadow Mode, or "Write once then forget" mode, allows the card to be pre-configured with data. When next updated (ie, via a card reader / access control reader), modifications are temporarily maintained.<br><br>The modified data can be read once, and then the card reverts to its pre-configured state. <br><br>Shadow Mode is purpose built for in-the-field operations. Previously a card would have to be written, used, read and re-written manually; Shadow Mode takes care of this without any additional hardware.<br> </li>
+   <li> <span style="text-decoration: underline;">Recovery Mode</span><br>If the card is poorly configured, it can be pushed back into Recovery Mode - preventing unintentional bricking.<br> </li>
+   <li> <span style="text-decoration: underline;">Auto-BCC Calculation</span><br>The card automatically calculates BCC values, saving time and avoiding making the card undetectable. </li>
+   <li> <span style="text-decoration: underline;">Password Protection / One-Time-Write Emulation</span><br>Configuration commands can be protected with a customisable password; it will not respond to magic commands or direct writes to restricted values unless the correct password is given, allowing the card to function as a "One-Time-Write" card. </li>
+</ul>
+<p><strong>Programming Compatibility</strong><br>The card can be programmed on multiple platforms:</p>
+<ul>
+   <li>Proxmark / iCopy-XS (via the menu with LUA scripts)</li>
+   <li>Android / iOS via MTools</li>
+   <li>Flipper Zero</li>
+   <li>LibNFC (via manual commands)</li>
+   <li>Windows Platforms + LibNFC reader/writer (via GUI software)</li>
+</ul>
+<div class="chipset--tables-wrapper">
+   <div class="chipset--table-title">Technical Specifications</div>
+   <div class="chipset--table-container">
+      <table class="chipset--table">
+         <thead>
+            <tr>
+               <th>Feature</th>
+               <th>Information</th>
+               <th>Notes</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td data-label="Feature">Chipsets</td>
+               <td data-label="Information"> MIFARE Mini<br> MIFARE 1k S50 4 byte UID<br> MIFARE 1k S50 7 byte UID<br> MIFARE 1k S50 10 byte UID<br> MIFARE 4k S70 4 byte UID<br> MIFARE 4k S70 7 byte UID<br> MIFARE 4k S70 10 byte UID<br> Ultralight<br> Ultralight-C<br> Ultralight Ev1<br> NTAG<br> </td>
+               <td data-label="Notes"><br></td>
+            </tr>
+            <tr>
+               <td data-label="Feature">Memory Size</td>
+               <td data-label="Information">144 bytes - 4K</td>
+               <td data-label="Notes"><br></td>
+            </tr>
+            <tr>
+               <td data-label="Feature">UID Size</td>
+               <td data-label="Information">4-byte / 7-byte / 10-byte</td>
+               <td data-label="Notes"><br></td>
+            </tr>
+            <tr>
+               <td data-label="Feature">UID Modifiable</td>
+               <td data-label="Information">✔️</td>
+               <td data-label="Notes"></td>
+            </tr>
+            <tr>
+               <td data-label="Feature">ATQA / SAK Configurable</td>
+               <td data-label="Information">✔️</td>
+               <td data-label="Notes"></td>
+            </tr>
+            <tr>
+               <td data-label="Feature">ATS Configurable</td>
+               <td data-label="Information">✔️</td>
+               <td data-label="Notes">Custom length / Disable</td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
+   <div class="chipset--table-title">Write Capabilities</div>
+   <div class="chipset--table-container">
+      <table class="chipset--table">
+         <thead>
+            <tr>
+               <th>UID Modifiable</th>
+               <th>Unlock Required</th>
+               <th>DirectWrite / Block 0</th>
+               <th>One Time Write</th>
+               <th>Notes</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td data-label="UID Modifiable">✔️</td>
+               <td data-label="Unlock Required"></td>
+               <td data-label="DirectWrite / Block 0">✔️</td>
+               <td data-label="One Time Write">✔️</td>
+               <td data-label="Notes">One Time Write is reversible</td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
+   <div class="chipset--table-title">Device Compatibility</div>
+   <div class="chipset--table-container">
+      <table class="chipset--table">
+         <thead>
+            <tr>
+               <th>Compatibility</th>
+               <th>UID</th>
+               <th>R/W</th>
+               <th>Config</th>
+               <th>Notes</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td data-label="Compatibility">Flipper Zero</td>
+               <td data-label="UID">✔️</td>
+               <td data-label="R/W">✔️</td>
+               <td data-label="Config">✔️</td>
+               <td data-label="Notes"><br></td>
+            </tr>
+            <tr>
+               <td data-label="Compatibility">Proxmark / iCopy-X</td>
+               <td data-label="UID">✔️</td>
+               <td data-label="R/W">✔️</td>
+               <td data-label="Config">✔️</td>
+               <td data-label="Notes"><br></td>
+            </tr>
+            <tr>
+               <td data-label="Compatibility">Android &amp; iOS</td>
+               <td data-label="UID">✔️</td>
+               <td data-label="R/W">✔️</td>
+               <td data-label="Config">✔️</td>
+               <td data-label="Notes">Configuration via MTools</td>
+            </tr>
+            <tr>
+               <td data-label="Compatibility">LibNFC</td>
+               <td data-label="UID">✔️</td>
+               <td data-label="R/W">✔️</td>
+               <td data-label="Config">✔️</td>
+               <td data-label="Notes">Configuration via raw commands</td>
+            </tr>
+            <tr>
+               <td data-label="Compatibility">ChameleonUltra</td>
+               <td data-label="UID">✔️</td>
+               <td data-label="R/W">✔️</td>
+               <td data-label="Config">✔️</td>
+               <td data-label="Notes">Configuration via MTools</td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
+</div>
+<h2>Hands on: See the card in action</h2>
+<p>Depending on your tools, there are multiple ways to program this card:     </p>
+<ul>
+   <li> <b>MTools</b> on Android / iOS: Simple UI with Full configuration options</li>
+   <li> <b>Proxmark / iCopy-X</b>: Via raw commands or the LUA Script (not all features implemented)</li>
+   <li> <b>Flipper Zero</b>: Simple configuration via the NFC Application</li>
+   <li> <b>LibNFC</b>: via tamashell. Manual commands.     </li>
+</ul>
+<h3>Proxmark / iCopy-X</h3>
+<p>There are two ways to program this card:</p>
+<ol>
+   <li>Use the raw commands designated by the <code>hf 14a</code> examples.</li>
+   <li>Use the hf_mf_ultimatecard.lua script commands. This script is not fully compatible with new version UMC.</li>
+</ol>
+<p>Special raw commands summary:</p>
+<pre><code>CF <passwd> 32 &lt;00-04&gt;                           // Configure GTU shadow mode
+CF <passwd> 34 &lt;1b length&gt;&lt;0-16b ATS&gt;            // Configure ATS
+CF <passwd> 35 &lt;2b ATQA&gt;&lt;1b SAK&gt;                 // Configure ATQA/SAK (swap ATQA bytes)
+CF <passwd> 68 &lt;00-02&gt;                           // Configure UID length
+CF <passwd> 69 &lt;00-01&gt;                           // (De)Activate Ultralight mode
+CF <passwd> 6A &lt;00-03&gt;                           // Select Ultralight mode
+CF <passwd> 6B &lt;1b&gt;                              // Set Ultralight and M1 maximum read/write sectors
+CF <passwd> C6                                   // Dump configuration
+CF <passwd> CC                                   // Version info, returns `00 00 00 [03 A0 (old) / 06 A0 (new) ]`
+CF <passwd> CD &lt;1b block number&gt;&lt;16b block data&gt; // Backdoor write 16b block
+CF <passwd> CE &lt;1b block number&gt;                 // Backdoor read 16b block
+CF <passwd> CF &lt;1b param&gt;                        // (De)Activate direct write to block 0
+CF <passwd> F0 &lt;30b configuration data&gt;          // Configure all params in one cmd
+CF <passwd> F1 &lt;30b configuration data&gt;          // Configure all params in one cmd and fuse the configuration permanently
+CF <passwd> FE &lt;4b new_password&gt;                 // change password</passwd></passwd></passwd></passwd></passwd></passwd></passwd></passwd></passwd></passwd></passwd></passwd></passwd></passwd></passwd></code></pre>
+<p>Default <code>&lt;passwd&gt;</code>: <code>00000000</code></p>
+<h3>Characteristics</h3>
+<ul>
+   <li> <strong>UID:</strong> 4b, 7b and 10b versions</li>
+   <li> <strong>ATQA/SAK:</strong> changeable</li>
+   <li> <strong>BCC:</strong> computed</li>
+   <li> <strong>ATS:</strong> changeable, can be disabled</li>
+   <li> <strong>Card Type:</strong> changeable</li>
+   <li> <strong>Shadow mode:</strong> GTU</li>
+   <li><strong>Backdoor password mode</strong></li>
+</ul>
+<h3>Proxmark3 Commands</h3>
+<pre><code view contents of tag memory: hf mf gview read a specific block via backdoor command: ggetblk write gsetblk load dump to tag: gload save from gsave></code></pre>
+<h3>Change ATQA / SAK</h3>
+<pre><code>hf 14a raw -s -c -t 1000 CF&lt;passwd&gt;35&lt;2b ATQA&gt;&lt;1b SAK&gt;</code></pre>
+<div class="warning">
+   <strong>Warning:</strong> 
+   <ul>
+      <li>ATQA bytes are swapped in the command</li>
+      <li>ATQA bytes that result in <code>iso14443a card select failed</code> can be corrected with <code>hf 14a config --atqa force</code> </li>
+      <li>When SAK bit 6 is set (e.g. SAK=20 or 28), ATS must be turned on, otherwise the card may not be recognized by some readers!</li>
+      <li>Never set SAK bit 3 (e.g. SAK=04), it indicates an extra cascade level is required</li>
+   </ul>
+</div>
+<p>Example: ATQA 0044 SAK 28, default pwd</p>
+<pre><code>hf 14a raw -s -c -t 1000 CF0000000035440028</code></pre>
+<p>OR (Note the script will correct the ATQA correctly)</p>
+<pre><code>script run hf_mf_ultimatecard -q 004428</code></pre>
+<h3>Change ATS</h3>
+<pre><code>hf 14a raw -s -c -t 1000 CF&lt;passwd&gt;34&lt;1b length&gt;&lt;0-16b ATS&gt;</code></pre>
+<ul>
+   <li> <code>&lt;length&gt;</code>: ATS length byte, set to <code>00</code> to disable ATS</li>
+   <li>When SAK bit 6 is set (e.g. SAK=20 or 28), ATS must be turned on</li>
+   <li>ATS CRC will be added automatically, don't configure it</li>
+   <li>Max ATS length: 16 bytes (+CRC)</li>
+</ul>
+<p>Example: ATS to 0606757781028002F0, default pwd</p>
+<pre><code>hf 14a raw -s -c -t 1000 CF000000003406067577810280</code></pre>
+<p>Or</p>
+<pre><code>script run hf_mf_ultimatecard -z 06067577810280</code></pre>
+<h3>Set UID Length (4, 7, 10)</h3>
+<pre><code>hf 14a raw -s -c -t 1000 CF&lt;passwd&gt;68&lt;1b param&gt;</code></pre>
+<ul>
+   <li>
+      <code>&lt;param&gt;</code> 
+      <ul>
+         <li> <code>00</code>: 4 bytes</li>
+         <li> <code>01</code>: 7 bytes</li>
+         <li> <code>02</code>: 10 bytes</li>
+      </ul>
+   </li>
+</ul>
+<p>Example: set UID length to 7 bytes, default pwd</p>
+<pre><code>hf 14a raw -s -c -t 1000 CF000000006801</code></pre>
+<h3>Set 14443A UID</h3>
+<p>UID is configured according to block0 with a backdoor write.</p>
+<p>Example: preparing first two blocks:</p>
+<pre><code>hf 14a raw -s -c -t 1000 CF00000000CD00000102030405060708090A0B0C0D0E0F
+hf 14a raw -s -c -t 1000 CF00000000CD01101112131415161718191A1B1C1D1E1F
+hf 14a reader</code></pre>
+<p><strong>MFC mode 4b UID</strong></p>
+<p>⇒ UID <code>00010203</code></p>
+<pre><code>script run hf_mf_ultimatecard -t 4 -u 00010203</code></pre>
+<p><strong>MFC mode 7b UID</strong></p>
+<p>⇒ UID <code>00010203040506</code></p>
+<pre><code>script run hf_mf_ultimatecard -t 5 -u 00010203040506</code></pre>
+<p><strong>MFC mode, 10b UID</strong></p>
+<p>⇒ UID <code>00010203040506070809</code></p>
+<pre><code>script run hf_mf_ultimatecard -t 6 -u 00010203040506070809</code></pre>
+<h3>(De)Activate Ultralight Mode</h3>
+<pre><code>hf 14a raw -s -c -t 1000 CF&lt;passwd&gt;69&lt;1b param&gt;</code></pre>
+<ul>
+   <li>
+      <code>&lt;param&gt;</code> 
+      <ul>
+         <li> <code>00</code>: MIFARE Classic mode</li>
+         <li> <code>01</code>: MIFARE Ultralight/NTAG mode</li>
+      </ul>
+   </li>
+</ul>
+<p>Example: activate Ultralight protocol, default pwd</p>
+<pre><code>hf 14a raw -s -c -t 1000 CF000000006901</code></pre>
+<p>Or</p>
+<pre><code>script run hf_mf_ultimatecard -n 01</code></pre>
+<p>In this mode, if SAK=<code>00</code> and ATQA=<code>0044</code>, it acts as an Ultralight card</p>
+<div class="warning"> <strong>Warning:</strong> Only the first four bytes of each block will be mapped in the Ultralight memory map (so the Ultralight block numbers follow backdoor R/W block numbers).</div>
+<h3>Select Ultralight Mode</h3>
+<pre><code>hf 14a raw -s -c -t 1000 CF&lt;passwd&gt;6A&lt;1b param&gt;</code></pre>
+<ul>
+   <li>
+      <code>&lt;param&gt;</code> 
+      <ul>
+         <li> <code>00</code>: UL EV1</li>
+         <li> <code>01</code>: NTAG</li>
+         <li> <code>02</code>: UL-C</li>
+         <li> <code>03</code>: UL</li>
+      </ul>
+   </li>
+</ul>
+<div class="warning"> <strong>Warning:</strong> It supposes Ultralight mode was activated (cf command <code>69</code>)</div>
+<p>Example: set Ultralight mode to Ultralight-C, default pwd</p>
+<pre><code>hf 14a raw -s -c -t 1000 CF000000006A02</code></pre>
+<p>Or</p>
+<pre><code>script run hf_mf_ultimatecard -m 02</code></pre>
+<p>Now the card supports the 3DES UL-C authentication.</p>
+<h3>Set Shadow Mode (GTU)</h3>
+<pre><code>hf 14a raw -s -c -t 1000 CF&lt;passwd&gt;32&lt;1b param&gt;</code></pre>
+<ul>
+   <li>
+      <code>&lt;param&gt;</code> 
+      <ul>
+         <li> <code>00</code>: pre-write, shadow data can be written</li>
+         <li> <code>01</code>: restore mode (WARNING: new UMC (06a0) cards return garbage data when using 01)</li>
+         <li> <code>02</code>: disabled</li>
+         <li> <code>03</code>: disabled, high speed R/W mode for Ultralight?</li>
+         <li> <code>04</code>: split mode, work with new UMC. With old UMC is untested.</li>
+      </ul>
+   </li>
+</ul>
+<h3>Direct Block Read and Write</h3>
+<p>Using the backdoor command, one can read and write any area without MFC password, similarly to MFC Gen1 card.</p>
+<p><strong>Backdoor read 16b block:</strong></p>
+<pre><code>hf 14a raw -s -c -t 1000 CF&lt;passwd&gt;CE&lt;1b block number&gt;</code></pre>
+<p><strong>Backdoor write 16b block:</strong></p>
+<pre><code>hf 14a raw -s -c -t 1000 CF&lt;passwd&gt;CD&lt;1b block number&gt;&lt;16b block data&gt;</code></pre>
+<p>Read/Write operations work on 16 bytes, no matter the Ultralight mode.</p>
+<p>Example: read block0, default pwd</p>
+<pre><code>hf 14a raw -s -c -t 1000 CF00000000CE00</code></pre>
+<p>Example: write block0 with factory data, default pwd</p>
+<pre><code>hf 14a raw -s -c -t 1000 CF00000000CD00112233441C000011778185BA18000000</code></pre>
+<h3>(De)Activate Direct Write to Block 0</h3>
+<p>This command enables/disables direct writes to block 0.</p>
+<pre><code>hf 14a raw -s -c -t 1000 CF&lt;passwd&gt;CF&lt;1b param&gt;</code></pre>
+<ul>
+   <li>
+      <code>&lt;param&gt;</code> 
+      <ul>
+         <li> <code>00</code>: Activate direct write to block 0 (Same behaviour of Gen2 cards. Some readers may identify the card as magic)</li>
+         <li> <code>01</code>: Deactivate direct write to block 0 (Same behaviour of vanilla cards)</li>
+         <li> <code>02</code>: Default value. (Same behaviour as <code>00</code> (?))</li>
+      </ul>
+   </li>
+</ul>
+<h3>Change Backdoor Password</h3>
+<p>All backdoor operations are protected by a password. If password is forgotten, it can't be recovered. Default password is <code>00000000</code>.</p>
+<div class="warning"> <strong>Warning:</strong> New UMC (06A0) returns 6300 when issuing password change command. Please write the password using F0 and entering the full configuration, but with the new password.</div>
+<p>Change password:</p>
+<pre><code>hf 14a raw -s -c -t 1000 CF &lt;passwd&gt; FE &lt;4b new_password&gt;</code></pre>
+<p>Example: change password from 00000000 to AABBCCDD</p>
+<pre><code>hf 14a raw -s -c -t 1000 CF00000000FEAABBCCDD</code></pre>
+<h3>Dump Configuration</h3>
+<pre><code>hf 14a raw -s -c -t 1000 CF&lt;passwd&gt;C6</code></pre>
+<p>Default configuration:</p>
+<pre><code>00000000000002000978009102DABC191010111213141516040008006B024F6B
+                                                            ^^^^ CRC, type unknown
+                                                          ^^ cf cmd cf: block0 direct write setting
+                                                        ^^ cf cmd 6b: maximum read/write sectors
+                                                      ^^ cf cmd 6a: UL mode
+                                                ^^^^^^ cf cmd 35: ATQA/SAK
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ cf cmd 34: ATS length &amp; content
+            ^^ cf cmd 32: GTU mode
+    ^^^^^^^^ cf cmd fe: password
+  ^^ cf cmd 68: UID length
+^^ cf cmd 69: Ultralight protocol</code></pre>
+<h3>Fast Configuration</h3>
+<pre><code>hf 14a raw -s -c -t 1000 CF&lt;passwd&gt;F0&lt;30b configuration data&gt;</code></pre>
+<p>See <strong>Dump configuration</strong> for configuration data description.</p>
+<p>Example: Write factory configuration, using default password</p>
+<pre><code>hf 14a raw -s -c -t 1000 CF00000000F000000000000002000978009102DABC191010111213141516040008004F6B</code></pre>
+<div class="warning"> <strong>Warning:</strong> Variant with command <code>F1</code> instead of <code>F0</code> will set and fuse permanently the configuration. Backdoor R/W will still work.</div>
+<h3>Presets</h3>
+<p>Here are some presets available in the FuseTool (but with all ATS disabled)</p>
+<p><strong>MIFARE Mini S20 4-byte UID</strong></p>
+<pre><code>hf 14a raw -s -c -t 1000 CF00000000F000000000000002000978009102DABC19101011121314151604000900</code></pre>
+<p><strong>MIFARE Mini S20 7-byte UID</strong></p>
+<pre><code>hf 14a raw -s -c -t 1000 CF00000000F000010000000002000978009102DABC19101011121314151644000900</code></pre>
+<p><strong>MIFARE 1k S50 4-byte UID</strong> (this is the factory setting)</p>
+<pre><code>hf 14a raw -s -c -t 1000 CF00000000F000000000000002000978009102DABC19101011121314151604000800</code></pre>
+<p><strong>MIFARE 1k S50 7-byte UID</strong></p>
+<pre><code>hf 14a raw -s -c -t 1000 CF00000000F000010000000002000978009102DABC19101011121314151644000800</code></pre>
+<p><strong>MIFARE 4k S70 4-byte UID</strong></p>
+<pre><code>hf 14a raw -s -c -t 1000 CF00000000F000000000000002000978009102DABC19101011121314151602001800</code></pre>
+<p><strong>MIFARE 4k S70 7 byte UID</strong></p>
+<pre><code>hf 14a raw -s -c -t 1000 CF00000000F000010000000002000978009102DABC19101011121314151642001800</code></pre>
+<p><strong>Ultralight</strong></p>
+<pre><code>hf 14a raw -s -c -t 1000 CF00000000F001010000000003000978009102DABC19101011121314151644000003FB</code></pre>
+<p><strong>Ultralight-C</strong></p>
+<pre><code>hf 14a raw -s -c -t 1000 CF00000000F001010000000003000978009102DABC19101011121314151644000002FB</code></pre>
+<p><strong>Ultralight EV1</strong></p>
+<pre><code>hf 14a raw -s -c -t 1000 CF00000000F001010000000003000978009102DABC19101011121314151644000000FB</code></pre>
+<p><strong>NTAG21x</strong></p>
+<pre><code>hf 14a raw -s -c -t 1000 CF00000000F001010000000003000978009102DABC19101011121314151644000001FB</code></pre>
+<h3>Live Demonstration - Proxmark Raw commands</h3>
+<p>
+   <script src="https://asciinema.org/a/i9ksOQBIDTi6BRNfgAmTt3Qdx.js" id="asciicast-i9ksOQBIDTi6BRNfgAmTt3Qdx" async=""></script> 
+</p>
+<h3>Live Demonstration - Proxmark Built-in commands</h3>
+<p>
+   <script src="https://asciinema.org/a/tf0imc6xM4UmfqU36JxAyAixA.js" id="asciicast-tf0imc6xM4UmfqU36JxAyAixA" async=""></script> 
+</p>
+<h2 id="libnfc-gen4">LibNFC / Tamashell Commands for Gen4 Cards</h2>
+<p>LibNFC and Tamashell provide an alternative method to interact with Ultimate Magic Cards (Gen4/GTU) using raw commands through PN53x-based readers like the DL533N.</p>
+<h3>Command Format</h3>
+<p>LibNFC/Tamashell commands require a specific preamble before each Gen4 command:</p>
+<pre><code>$ pn53x-tamashell 4a 01 00          # Initialize communication 42 &lt;Gen4 command&gt; # Execute Gen4 command</code></pre>
+<h3>Starting Tamashell</h3>
+<pre><code>pn53x-tamashell</code></pre>
+<p>This will open an interactive session with your PN53x-based NFC reader.</p>
+<h3>Dump Configuration</h3>
+<p>Read the current Gen4 card configuration (default password 00000000):</p>
+<pre><code>&gt; 4a 01 00 &gt; 42 CF 00 00 00 00 C6</code></pre>
+<p>Returns 32 bytes of configuration data.</p>
+<h3>Get Version Info</h3>
+<p>Check the Gen4 card version:</p>
+<pre><code>&gt; 4a 01 00 &gt; 42 CF 00 00 00 00 CC</code></pre>
+<p>Returns version information:</p>
+<ul>
+   <li>Old UMC: <code>00 00 00 03 A0</code> </li>
+   <li>New UMC: <code>00 00 00 06 A0</code> </li>
+</ul>
+<h3>Backdoor Read Block</h3>
+<p>Read a 16-byte block via backdoor (example: block 0):</p>
+<pre><code>&gt; 4a 01 00 &gt; 42 CF 00 00 00 00 CE 00</code></pre>
+<p>Replace <code>00</code> at the end with the desired block number.</p>
+<h3>Backdoor Write Block</h3>
+<p>Write a 16-byte block via backdoor (example: change UID to AA BB CC DD):</p>
+<pre><code>&gt; 4a 01 00 &gt; 42 CF 00 00 00 00 CD 00 AA BB CC DD 1C 00 00 11 77 81 85 BA 18 00 00 00</code></pre>
+<p>Format: <code>CD &lt;block&gt; &lt;16 bytes data&gt;</code></p>
+<h3>Change ATQA/SAK</h3>
+<p>Set ATQA and SAK values (example: ATQA 0044, SAK 18 for 4K card):</p>
+<pre><code>&gt; 4a 01 00 &gt; 42 CF 00 00 00 00 35 44 00 18</code></pre>
+<div class="warning">
+   <strong>Warning:</strong> 
+   <ul>
+      <li>ATQA bytes are swapped in the command</li>
+      <li>When SAK bit 6 is set (e.g. SAK=20 or 28), ATS must be turned on</li>
+      <li>Never set SAK bit 3 (e.g. SAK=04)</li>
+   </ul>
+</div>
+<h3>Configure ATS</h3>
+<p>Set ATS (Answer To Select) data:</p>
+<pre><code>&gt; 4a 01 00 &gt; 42 CF 00 00 00 00 34 06 06 75 77 81 02 80</code></pre>
+<p>Format: <code>34 &lt;length&gt; &lt;ATS data&gt;</code></p>
+<ul>
+   <li>Set length to <code>00</code> to disable ATS</li>
+   <li>ATS CRC is added automatically</li>
+   <li>Maximum ATS length: 16 bytes (+CRC)</li>
+</ul>
+<h3>Set UID Length</h3>
+<p>Configure UID length (4, 7, or 10 bytes):</p>
+<p><strong>4-byte UID:</strong></p>
+<pre><code>&gt; 4a 01 00 &gt; 42 CF 00 00 00 00 68 00</code></pre>
+<p><strong>7-byte UID:</strong></p>
+<pre><code>&gt; 4a 01 00 &gt; 42 CF 00 00 00 00 68 01</code></pre>
+<p><strong>10-byte UID:</strong></p>
+<pre><code>&gt; 4a 01 00 &gt; 42 CF 00 00 00 00 68 02</code></pre>
+<h3>Write 7-byte UID</h3>
+<p>After setting UID length to 7 bytes, write the UID to block 0:</p>
+<pre><code>&gt; 4a 01 00 &gt; 42 CF 00 00 00 00 CD 00 04 AA BB CC DD EE FF 15 44 00 18 00 00 00 00 00 00</code></pre>
+<p>The UID starts with <code>04</code> (cascade tag) followed by the 6 UID bytes.</p>
+<h3>Set GTU Shadow Mode</h3>
+<p>Configure shadow mode operation:</p>
+<p><strong>Pre-write mode:</strong></p>
+<pre><code>&gt; 4a 01 00 &gt; 42 CF 00 00 00 00 32 00</code></pre>
+<p><strong>Disabled:</strong></p>
+<pre><code>&gt; 4a 01 00 &gt; 42 CF 00 00 00 00 32 02</code></pre>
+<p><strong>Split mode (new UMC):</strong></p>
+<pre><code>&gt; 4a 01 00 &gt; 42 CF 00 00 00 00 32 04</code></pre>
+<h3>(De)Activate Direct Write to Block 0</h3>
+<p><strong>Deactivate (vanilla card behaviour):</strong></p>
+<pre><code>&gt; 4a 01 00 &gt; 42 CF 00 00 00 00 CF 01</code></pre>
+<p><strong>Activate (Gen2-like behaviour):</strong></p>
+<pre><code>&gt; 4a 01 00 &gt; 42 CF 00 00 00 00 CF 00</code></pre>
+<h3>Switch to Ultralight Mode</h3>
+<p><strong>Activate Ultralight protocol:</strong></p>
+<pre><code>&gt; 4a 01 00 &gt; 42 CF 00 00 00 00 69 01</code></pre>
+<p><strong>Switch back to MIFARE Classic:</strong></p>
+<pre><code>&gt; 4a 01 00 &gt; 42 CF 00 00 00 00 69 00</code></pre>
+<h3>Select Ultralight Mode</h3>
+<p>After activating Ultralight protocol, select specific mode:</p>
+<p><strong>Ultralight EV1:</strong></p>
+<pre><code>&gt; 4a 01 00 &gt; 42 CF 00 00 00 00 6A 00</code></pre>
+<p><strong>NTAG:</strong></p>
+<pre><code>&gt; 4a 01 00 &gt; 42 CF 00 00 00 00 6A 01</code></pre>
+<p><strong>Ultralight-C:</strong></p>
+<pre><code>&gt; 4a 01 00 &gt; 42 CF 00 00 00 00 6A 02</code></pre>
+<p><strong>Ultralight:</strong></p>
+<pre><code>&gt; 4a 01 00 &gt; 42 CF 00 00 00 00 6A 03</code></pre>
+<h3>Fast Configuration</h3>
+<p>Set all parameters at once (example: MIFARE 1K 4-byte UID factory default):</p>
+<pre><code>&gt; 4a 01 00 &gt; 42 CF 00 00 00 00 F0 00 00 00 00 00 00 02 00 09 78 00 91 02 DA BC 19 10 10 11 12 13 14 15 16 04 00 08 00</code></pre>
+<div class="warning"> <strong>Warning:</strong> Using command <code>F1</code> instead of <code>F0</code> will permanently fuse the configuration. Backdoor R/W will still work, but configuration cannot be changed.</div>
+<h3>Change Backdoor Password</h3>
+<p>Change the backdoor password from default (00000000) to a new value:</p>
+<pre><code>&gt; 4a 01 00 &gt; 42 CF 00 00 00 00 FE AA BB CC DD</code></pre>
+<div class="warning">
+   <strong>Warning:</strong> 
+   <ul>
+      <li>New UMC (06A0) may return error 6300 with this command</li>
+      <li>For new UMC, use the F0 fast configuration command with the new password</li>
+      <li>If password is lost, it cannot be recovered!</li>
+   </ul>
+</div>
+<h3>Using New Password</h3>
+<p>After changing password, use the new password in all commands:</p>
+<pre><code>&gt; 4a 01 00 &gt; 42 CF AA BB CC DD C6</code></pre>
+<p>Replace <code>00 00 00 00</code> with your new password <code>AA BB CC DD</code> in all commands.</p>
+<h3>Presets</h3>
+<p>Common card configurations using fast configuration command:</p>
+<p><strong>MIFARE Mini S20 4-byte UID:</strong></p>
+<pre><code>&gt; 4a 01 00 &gt; 42 CF 00 00 00 00 F0 00 00 00 00 00 00 02 00 09 78 00 91 02 DA BC 19 10 10 11 12 13 14 15 16 04 00 09 00</code></pre>
+<p><strong>MIFARE 1K S50 4-byte UID (factory default):</strong></p>
+<pre><code>&gt; 4a 01 00 &gt; 42 CF 00 00 00 00 F0 00 00 00 00 00 00 02 00 09 78 00 91 02 DA BC 19 10 10 11 12 13 14 15 16 04 00 08 00</code></pre>
+<p><strong>MIFARE 1K S50 7-byte UID:</strong></p>
+<pre><code>&gt; 4a 01 00 &gt; 42 CF 00 00 00 00 F0 00 01 00 00 00 00 02 00 09 78 00 91 02 DA BC 19 10 10 11 12 13 14 15 16 44 00 08 00</code></pre>
+<p><strong>MIFARE 4K S70 4-byte UID:</strong></p>
+<pre><code>&gt; 4a 01 00 &gt; 42 CF 00 00 00 00 F0 00 00 00 00 00 00 02 00 09 78 00 91 02 DA BC 19 10 10 11 12 13 14 15 16 02 00 18 00</code></pre>
+<p><strong>MIFARE 4K S70 7-byte UID:</strong></p>
+<pre><code>&gt; 4a 01 00 &gt; 42 CF 00 00 00 00 F0 00 01 00 00 00 00 02 00 09 78 00 91 02 DA BC 19 10 10 11 12 13 14 15 16 42 00 18 00</code></pre>
+<p><strong>Ultralight:</strong></p>
+<pre><code>&gt; 4a 01 00 &gt; 42 CF 00 00 00 00 F0 01 01 00 00 00 00 03 00 09 78 00 91 02 DA BC 19 10 10 11 12 13 14 15 16 44 00 00 03 FB</code></pre>
+<p><strong>Ultralight-C:</strong></p>
+<pre><code>&gt; 4a 01 00 &gt; 42 CF 00 00 00 00 F0 01 01 00 00 00 00 03 00 09 78 00 91 02 DA BC 19 10 10 11 12 13 14 15 16 44 00 00 02 FB</code></pre>
+<p><strong>Ultralight EV1:</strong></p>
+<pre><code>&gt; 4a 01 00 &gt; 42 CF 00 00 00 00 F0 01 01 00 00 00 00 03 00 09 78 00 91 02 DA BC 19 10 10 11 12 13 14 15 16 44 00 00 00 FB</code></pre>
+<p><strong>NTAG21x:</strong></p>
+<pre><code>&gt; 4a 01 00 &gt; 42 CF 00 00 00 00 F0 01 01 00 00 00 00 03 00 09 78 00 91 02 DA BC 19 10 10 11 12 13 14 15 16 44 00 00 01 FB</code></pre>
+<h3>Exit Tamashell</h3>
+<pre><code>&gt; exit</code></pre>
+<h3>Notes</h3>
+<ul>
+   <li>All commands require the <code>4a 01 00</code> initialization before the <code>42</code> command</li>
+   <li>Default password is <code>00 00 00 00</code> </li>
+   <li>Commands are case-insensitive for hex values</li>
+   <li>Spaces between hex bytes are required</li>
+   <li>LibNFC/Tamashell works with PN53x-based readers (ACR122U, PN532, etc.)</li>
+</ul>
+<h3>Live Demonstration - LibNFC / Tamashell commands</h3>
+<p>
+   <script src="https://asciinema.org/a/iEZdvLXo4UfCn2vjROikxJsIh.js" id="asciicast-iEZdvLXo4UfCn2vjROikxJsIh" async=""></script> 
+</p>
+<h2>Unbricking</h2>
+<p>"Soft-bricking" refers to when a magic card has been configured in a way that prevents it from being detected. Ways of soft-bricking tags include: </p>
+<ul>
+   <li>Incorrect BCC</li>
+   <li>Incorrect SAK</li>
+   <li>Incorrect ATQA</li>
+   <li>Incorrect ATS</li>
+   <li>Incorrect ACL (Access Control) Values</li>
+</ul>
+Some "soft-brick" situations can be resolved with special commands. If your MIFARE Mini® Compatible 4-byte UID Modifiable is "soft-bricked", you can try recovering it with the following methods:  
+<h3>With Proxmark / iCopy-X</h3>
+<pre><code>hf 14a raw -s -c -t 1000 CF00000000F000000000000002000978009102DABC19101011121314151604000800</code></pre>
+<h3>Via external reader/writer and MTOOLS</h3>
+<p>Select the "UID Changer" function in MTools, select "bricked" and run the task</p>
+<h3>Via LibNFC &amp; tamashell</h3>
+<p> </p>
+<pre><code>&gt; 4a 01 00 &gt; 42 CF 00 00 00 00 F0 00 00 00 00 00 00 02 00 09 78 00 91 02 DA BC 19 10 10 11 12 13 14 15 16 04 00 08 00</code></pre>
+<h3>IMPORTANT:</h3>
+<p>Lab401 cannot provide refunds under any circumstances for cards that were 'bricked' due to incorrect configurations.</p>
+<h2>Technical Resources</h2>
+<ul>
+   <li><a href="https://lab401.com/blogs/academy/know-your-magic-cards#umc" target="_blank">Ultimate Magic Card Command Documentation</a></li>
+   <li><a href="https://github.com/RfidResearchGroup/proxmark3/blob/master/doc/magic_cards_notes.md#magic-commands-8" target="_blank">Proxmark / iCopy-XS LUA Script Documentation</a></li>
+   <li><a href="https://cdn.shopify.com/s/files/1/2175/8571/files/Fusetool.zip?v=1664648688" target="_blank">Programming Tool (Windows)</a></li>
+</ul>
+</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>13.56MHz (HF)</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Family: MIFARE Mini®</s:tag>
+    <s:tag>Family: MIFARE®</s:tag>
+    <s:tag>Family: NTAG®</s:tag>
+    <s:tag>Family: Ultralight®</s:tag>
+    <s:tag>FlipperZero</s:tag>
+    <s:tag>Gen: 4</s:tag>
+    <s:tag>UID: 10-byte</s:tag>
+    <s:tag>UID: 4-Byte</s:tag>
+    <s:tag>UID: 7-byte</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/7998164992230</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">29.00</s:price>
+      <s:sku>ULTIMATE-MAGIC-CARD</s:sku>
+      <s:grams>3</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/10771363207</id>
+    <published>2022-06-20T15:00:53+02:00</published>
+    <updated>2022-06-20T15:00:53+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/mifare-compatible-1k-uid-modifiable"/>
+    <title>MIFARE Classic® Compatible 1K UID Modifiable - Pack of 5</title>
+    <s:type>RFID Tags</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/tag-corrected.png?v=1501837819"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>RFID Tags<br>
+        <strong>Price: </strong>
+            13.99
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>INTRODUCTION</h2>
+<p>MIFARE Classic® Compatible 1K tag - UID Changeable</p>
+<p><strong>Please note</strong>: <strong>Sold in a </strong><strong>pack of 5</strong></p>
+<p>Need to make perfect clones of MIFARE Classic® Compatible 1K cards and tags ? Our UID Modifiable "Magic" MIFARE Classic® Compatible 1K tags are what you need.<br></p>
+<div class="chipset--tables-wrapper">
+<div class="chipset--table-title">Technical Specifications</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Feature</th>
+<th>Information</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Feature">Chipset</td>
+<td data-label="Information">MIFARE Classic® Compatible</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">Memory Size</td>
+<td data-label="Information">1K</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">UID Size</td>
+<td data-label="Information">4-bytes</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">UID Modifiable</td>
+<td data-label="Information">✔️</td>
+<td data-label="Notes">Multiple times</td>
+</tr>
+<tr>
+<td data-label="Feature">Chip Generation</td>
+<td data-label="Information">Gen 1a</td>
+<td data-label="Notes">
+<a title="Magic tag / card generation guide" href="/blogs/academy/know-your-magic-cards">Chipset Generation Guide</a><br>
+</td>
+</tr>
+<tr>
+<td data-label="Feature">Packaging</td>
+<td data-label="Information">5 per pack</td>
+<td data-label="Notes">Delivered in an anti-static bag</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chipset--table-title">Write Capabilities</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>UID Modifiable</th>
+<th>Unlock Required</th>
+<th>DirectWrite / Block 0</th>
+<th>One Time Write</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="UID Modifiable">✔️</td>
+<td data-label="Unlock Required">✔️</td>
+<td data-label="DirectWrite / Block 0"></td>
+<td data-label="One Time Write"></td>
+<td data-label="Notes">Supports "unlocked" read/write</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chipset--table-title">Device Compatibility</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Compatibility</th>
+<th>UID</th>
+<th>R/W</th>
+<th>Config</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Compatibility">Flipper Zero</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">Proxmark / iCopy-X</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">Android &amp; iOS</td>
+<td data-label="UID"><br></td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config"></td>
+<td data-label="Notes">Non-Block0 writing supported by all devices</td>
+</tr>
+<tr>
+<td data-label="Compatibility">LibNFC</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">ChameleonUltra</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes">Writing via MTOOLS</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<h2>Hands on: See the card in action</h2>
+<p>See the MIFARE Classic® Compatible 1K UID Modifiable's functionality : Unlocked Read, Unlocked Write and UID Modification in LibNFC</p>
+<p><script src="https://asciinema.org/a/5xsEZ5EvIfGGLLEw451THtMNX.js" id="asciicast-5xsEZ5EvIfGGLLEw451THtMNX" async="true"></script></p>
+<h3>LibNFC - change UID</h3>
+<pre><code>nfc-mfsetuid 00000000 -f   # Replace 00000000 with the UID</code></pre>
+<h3>LibNFC - Unlocked Read</h3>
+<p>This chipset supports "unlocked reading" - reading the badge contents without knowing the sector keys
+</p><pre><code>nfc-mfclassic R a u /tmp/1k.dmp</code></pre>
+<h3>LibNFC - Unlocked Write</h3>
+<p>This chipset supports "unlocked writing" - writing the badge contents without knowing the sector keys
+</p><pre><code>nfc-mfclassic W a u /tmp/1k.dmp</code></pre>
+<h3>Proxmark / iCopy-X</h3>
+<pre><code>hf mf csetuid 00000000   # Replace 00000000 with the UID</code></pre>
+<h2>Unbricking</h2>
+<p>"Soft-bricking" refers to when a magic card has been configured in a way that prevents it from being detected. Ways of soft-bricking tags include:
+</p><ul>
+<li>Incorrect BCC</li>
+<li>Incorrect SAK</li>
+<li>Incorrect ATQA</li>
+<li>Incorrect ATS</li>
+<li>Incorrect ACL (Access Control) Values</li>
+</ul>
+Some "soft-brick" situations can be resolved with special commands. If your MIFARE Classic® Compatible 1K UID Modifiable is "soft-bricked", you can try recovering it with the following methods: 
+<h3>With Proxmark / iCopy-X</h3>
+<pre><code>hf mf csetuid --uid 11223344</code></pre>
+<h3>Via external reader/writer and MTOOLS</h3>
+<p>Select the "UID Changer" function in MTools, select "bricked" and run the task</p>
+<h3>IMPORTANT:</h3>
+<p>Lab401 cannot provide refunds under any circumstances for cards that were 'bricked' due to incorrect configurations.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>13.56MHz (HF)</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Family: MIFARE®</s:tag>
+    <s:tag>Gen: 1a</s:tag>
+    <s:tag>Size: 1K</s:tag>
+    <s:tag>UID: 4-Byte</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10771363207</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">13.99</s:price>
+      <s:sku>MF-1K-4B-BLACK</s:sku>
+      <s:grams>5</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/10771520839</id>
+    <published>2022-06-20T15:00:51+02:00</published>
+    <updated>2022-06-20T15:00:51+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/mifare-compatible-1k-uid-modifiable-pack-of-5"/>
+    <title>MIFARE Classic® Compatible 1K UID Modifiable Coin Tag - Pack of 5</title>
+    <s:type>RFID Tags</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/PVC-Coin-Tags-1.png?v=1535702481"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>RFID Tags<br>
+        <strong>Price: </strong>
+            3.99
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>INTRODUCTION</h2>
+<p>MIFARE Classic® Compatible 1K tag - UID Changeable - White PVC Disc</p>
+<p><strong>Please note: Sold in a pack of 5</strong></p>
+<p>Need to make perfect clones of MIFARE Classic® 1K cards and tags ? Our UID Modifiable "Magic" MIFARE Classic® Compatible 1K tags are what you need.</p>
+<div class="chipset--tables-wrapper">
+<div class="chipset--table-title">Technical Specifications</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Feature</th>
+<th>Information</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Feature">Chipset</td>
+<td data-label="Information">MIFARE Classic® Compatible</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">Memory Size</td>
+<td data-label="Information">1K</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">UID Size</td>
+<td data-label="Information">4 Byte</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">UID Modifiable</td>
+<td data-label="Information">✔️</td>
+<td data-label="Notes">Multiple times</td>
+</tr>
+<tr>
+<td data-label="Feature">Chip Generation</td>
+<td data-label="Information">Gen 1a</td>
+<td data-label="Notes"><a href="/blogs/academy/know-your-magic-cards" title="Magic tag / card generation guide">Chipset Generation Guide</a></td>
+</tr>
+<tr>
+<td data-label="Feature">Packaging</td>
+<td data-label="Information">5 per pack</td>
+<td data-label="Notes">Packed in an anti-static bag</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chipset--table-title">Write Capabilities</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>UID Modifiable</th>
+<th>Unlock Required</th>
+<th>DirectWrite / Block 0</th>
+<th>One Time Write</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="UID Modifiable">✔️</td>
+<td data-label="Unlock Required">✔️</td>
+<td data-label="DirectWrite / Block 0"><br></td>
+<td data-label="One Time Write"><br></td>
+<td data-label="Notes"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chipset--table-title">Device Compatibility</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Compatibility</th>
+<th>UID</th>
+<th>R/W</th>
+<th>Config</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Compatibility">Flipper Zero</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">Proxmark / iCopy-X</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">Android &amp; iOS</td>
+<td data-label="UID"><br></td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes">Non-Block0 writing supported by all devices</td>
+</tr>
+<tr>
+<td data-label="Compatibility">LibNFC</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">ChameleonUltra</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes">Requires MTools Premium</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<h2>Hands on: See the card in action</h2>
+<p>The MIFARE Classic® Compatible 1K UID Modifiable can be used with several tools:</p>
+<h3>LibNFC - change UID</h3>
+<pre><code>nfc-mfsetuid 00000000 -f   # Replace 00000000 with the UID</code></pre>
+<h3>LibNFC - Unlocked Read</h3>
+<p>This chipset supports "unlocked reading" - reading the badge contents without knowing the sector keys
+</p><pre><code>nfc-mfclassic R a u /tmp/1K.dmp</code></pre>
+<h3>LibNFC - Unlocked Write</h3>
+<p>This chipset supports "unlocked writing" - writing the badge contents without knowing the sector keys
+</p><pre><code>nfc-mfclassic W a u /tmp/1K.dmp</code></pre>
+<h3>LibNFC - Live Demonstration<h3>
+</h3>
+</h3><p><script async="" theme="solarized-dark" id="asciicast-8o5myb3bxd4y172q0y3yyny72" src="https://asciinema.org/a/8o5myb3bxd4y172q0y3yyny72.js"></script></p>
+<h3>Proxmark / iCopy-X</h3>
+<pre><code>hf mf csetuid 00000000   # Replace 00000000 with the UID</code></pre>
+<h2>Unbricking</h2>
+<p>"Soft-bricking" refers to when a magic card has been configured in a way that prevents it from being detected. Ways of soft-bricking tags include:
+</p><ul>
+<li>Incorrect BCC</li>
+<li>Incorrect SAK</li>
+<li>Incorrect ATQA</li>
+<li>Incorrect ATS</li>
+<li>Incorrect ACL (Access Control) Values</li>
+</ul>
+Some "soft-brick" situations can be resolved with special commands. If your MIFARE Classic® Compatible 1K UID Modifiable is "soft-bricked", you can try recovering it with the following methods: 
+<h3>With Proxmark / iCopy-X</h3>
+<pre><code>hf mf csetuid --uid 11223344</code></pre>
+<h3>Via external reader/writer and MTOOLS</h3>
+<p>Select the "UID Changer" function in MTools, select "bricked" and run the task</p>
+<h3>IMPORTANT:</h3>
+<p>Lab401 cannot provide refunds under any circumstances for cards that were 'bricked' due to incorrect configurations.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>13.56MHz (HF)</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Family: MIFARE®</s:tag>
+    <s:tag>Gen: 1a</s:tag>
+    <s:tag>Size: 1K</s:tag>
+    <s:tag>UID: 4-Byte</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10771520839</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">3.99</s:price>
+      <s:sku>MF-COINTAG-5P</s:sku>
+      <s:grams>3</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/10771592519</id>
+    <published>2022-06-20T15:00:50+02:00</published>
+    <updated>2022-06-20T15:00:50+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/ultralight-c-compatible-uid-modifiable"/>
+    <title>MIFARE Ultralight-C® Compatible UID Modifiable</title>
+    <s:type>RFID Tags</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/ULC.png?v=1536830364"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>RFID Tags<br>
+        <strong>Price: </strong>
+            29.99
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>INTRODUCTION</h2>
+<p>Need to make perfect clones of MIFARE Ultralight-C® cards and tags ? Our UID Modifiable "Magic" MIFARE Ultralight-C® Compatible tags are what you need.</p>
+<p>The tag will function as a standard MIFARE Ultralight-C® compatible tag. Despite their advanced functionality, they have perfectly tuned antennas for optimised performance.</p>
+<div class="chipset--tables-wrapper">
+<div class="chipset--table-title">Technical Specifications</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Feature</th>
+<th>Information</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Feature">Chipset</td>
+<td data-label="Information">MIFARE Ultralight-C ® Compatible</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">Memory Size</td>
+<td data-label="Information">144-bytes (36 pages of 4-bytes)</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">UID Size</td>
+<td data-label="Information">7 Byte</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">UID Modifiable</td>
+<td data-label="Information">✔️</td>
+<td data-label="Notes">Multiple times</td>
+</tr>
+<tr>
+<td data-label="Feature">Chip Generation</td>
+<td data-label="Information">Gen 1a</td>
+<td data-label="Notes"><a title="Magic tag / card generation guide" href="/blogs/academy/know-your-magic-cards">Chipset Generation Guide</a></td>
+</tr>
+<tr>
+<td data-label="Feature">Packaging</td>
+<td data-label="Information">1 Card per Pack</td>
+<td data-label="Notes"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chipset--table-title">Write Capabilities</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>UID Modifiable</th>
+<th>Unlock Required</th>
+<th>DirectWrite / Block 0</th>
+<th>One Time Write</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="UID Modifiable">✔️</td>
+<td data-label="Unlock Required"></td>
+<td data-label="DirectWrite / Block 0"><br></td>
+<td data-label="One Time Write"><br></td>
+<td data-label="Notes"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chipset--table-title">Device Compatibility</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Compatibility</th>
+<th>UID</th>
+<th>R/W</th>
+<th>Config</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Compatibility">Flipper Zero</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">Proxmark / iCopy-X</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">Android &amp; iOS</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes">MTools or <a href="http://www.emutag.com/soft.php" target="_blank" rel="nofollow">MIFARE++ Ultralight</a>
+</td>
+</tr>
+<tr>
+<td data-label="Compatibility">LibNFC</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">ChameleonUltra</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes">Requires MTools</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<h2>Hands on: See the card in action</h2>
+<p>The Ultralight-C® Compatible UID Modifiable can be used with several tools:</p>
+<h3>LibNFC - change UID</h3>
+<p>To change the UID of your Ultralight-C® Compatible UID Modifiable tag with LibNFC, write a full tag dump to the tag, with the UID and BCC set appropriately. Do <b>not</b> use the </p><pre>nfc-mfsetuid</pre> tool to change the UID. This tool is built for MIFARE Classic® Chipsets, not MIFARE Ultralight-C® Chipsets - using the tool will <b>permanently brick your tag</b>.
+<pre><code>nfc-mfultralight w /tmp/ul.dmp --full   # Replace ul.dmp with your FULL dump</code></pre>
+<h3>Proxmark / iCopy-X</h3>
+<pre><code>hf mfu setuid –uid 11223344556677   # Replace 11223344556677 with the UID</code></pre>
+<h3>LibNFC - live demonstration</h3>
+<p><script src="https://asciinema.org/a/bbc9lqq5v4gf8ev2p6o1dmisk.js" id="asciicast-bbc9lqq5v4gf8ev2p6o1dmisk" async=""></script> </p>
+<h2>Unbricking</h2>
+<p>"Soft-bricking" refers to when a magic card has been configured in a way that prevents it from being detected. Ways of soft-bricking tags include:
+</p><ul>
+<li>Incorrect BCC</li>
+<li>Incorrect SAK</li>
+<li>Incorrect ATQA</li>
+<li>Incorrect ATS</li>
+<li>Incorrect ACL (Access Control) Values</li>
+</ul>
+Some "soft-brick" situations can be resolved with special commands. If your MIFARE Ultralight-C® Compatible UID Modifiable is "soft-bricked", you can try recovering it with the following methods: 
+<h3>Via external reader/writer and MTOOLS</h3>
+<p>Select the "UID Changer" function in MTools, select "bricked" and run the task</p>
+<h3>IMPORTANT:</h3>
+<p>Lab401 cannot provide refunds under any circumstances for cards that were 'bricked' due to incorrect configurations.</p>
+</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>13.56MHz (HF)</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Family: Ultralight®</s:tag>
+    <s:tag>Gen: 1a</s:tag>
+    <s:tag>Size: 144b</s:tag>
+    <s:tag>UID: 7-byte</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10771592519</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">29.99</s:price>
+      <s:sku>ultralight-c-card</s:sku>
+      <s:grams>3</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/10991344903</id>
+    <published>2022-06-20T15:00:49+02:00</published>
+    <updated>2022-06-20T15:00:49+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/undetectable-mifare-compatible-1k-one-time-write-uid"/>
+    <title>Undetectable MIFARE Classic® Compatible 1K - One Time Write UID</title>
+    <s:type>RFID Tags</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/One-Time-Write.png?v=1509306489"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>RFID Tags<br>
+        <strong>Price: </strong>
+            4.99
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>INTRODUCTION</h2>
+<p>Need to make perfect, <strong>undetectable</strong> of MIFARE Classic® 1K Cards ?</p>
+<p>Many access control systems / RFID readers are now able to detect "Chinese Magic" tags by sending the "Unlock Command" (0x40 / 0x43). If the badge replies, it is flagged as an imposter / clone and rejected.</p>
+<p>These "Gen2a" badges allow the UID to be set <strong>one time only</strong> - and after that - the tag never responds to magic commands. This allows you to make <strong>undetectable</strong>, perfect clones.</p>
+<p>Once the UID has been set, the tag acts as a normal card. You can change the data of the card as many times as required - we've tested up to 10,000 read/write cycles.</p>
+<p><strong>Remember:</strong> This badge's UID can <strong>only be set one time.</strong></p>
+<p>These tags are red and in key ring form for convenience.</p>
+<div class="chipset--tables-wrapper">
+<div class="chipset--table-title">Technical Specifications</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Feature</th>
+<th>Information</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Feature">Chipset</td>
+<td data-label="Information">MIFARE Classic® Compatible</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">Memory Size</td>
+<td data-label="Information">1K</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">UID Size</td>
+<td data-label="Information">4 Byte</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">UID Modifiable</td>
+<td data-label="Information">✔️</td>
+<td data-label="Notes"><strong>One time only<br></strong></td>
+</tr>
+<tr>
+<td data-label="Feature">Chip Generation</td>
+<td data-label="Information">Gen 2 OTW (Gen2a)</td>
+<td data-label="Notes">
+<a href="/blogs/academy/know-your-magic-cards" title="Magic tag / card generation guide">Chipset Generation Guide</a><br>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chipset--table-title">Write Capabilities</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>UID Modifiable</th>
+<th>Unlock Required</th>
+<th>DirectWrite / Block 0</th>
+<th>One Time Write</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="UID Modifiable">✔️</td>
+<td data-label="Unlock Required"></td>
+<td data-label="DirectWrite / Block 0">✔️</td>
+<td data-label="One Time Write">✔️</td>
+<td data-label="Notes">
+<strong>UID can only be modified once!</strong><br>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chipset--table-title">Device Compatibility</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Compatibility</th>
+<th>UID</th>
+<th>R/W</th>
+<th>Config</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Compatibility">Flipper Zero</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">Proxmark / iCopy-X</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">Android &amp; iOS</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes">MTools recommended</td>
+</tr>
+<tr>
+<td data-label="Compatibility">LibNFC</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">ChameleonUltra</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W"></td>
+<td data-label="Config"></td>
+<td data-label="Notes">Requires MTools</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<h2>Hands on: See the card in action</h2>
+<p>The MIFARE Classic® Compatible 1K UID One-Time-Write can be used with several tools:</p>
+<h3>LibNFC - change UID</h3>
+<p>To update the UID of the badge, simply write the dump contents to the badge.</p>
+<pre><code>nfc-mfclassic w a u /tmp/1K.dmp</code></pre>
+<h3>Proxmark - change UID</h3>
+<p>To update the UID of the badge, simply write the dump contents to the badge. When using <code>wrbl</code> - you are directly modifying the card's configuration. <b>Ensure that all data is correct</b> including BCC - otherwise you <b>will</b> brick your card.</p>
+<pre><code>hf mf wrbl --blk 0 -k FFFFFFFFFFFF -d 11223344440804006263646566676869 # Where 11223344 is the UID, 08 is the BCC</code></pre>
+<h2>Unbricking</h2>
+<p>"Soft-bricking" refers to when a magic card has been configured in a way that prevents it from being detected. Ways of soft-bricking tags include:
+</p><ul>
+<li>Incorrect BCC</li>
+<li>Incorrect SAK</li>
+<li>Incorrect ATQA</li>
+<li>Incorrect ATS</li>
+<li>Incorrect ACL (Access Control) Values</li>
+</ul>
+Some "soft-brick" situations can be resolved with special commands. If your MIFARE Classic® Compatible 1K UID Modifiable is "soft-bricked", you can try recovering it with the following methods: 
+<h3>With Proxmark / iCopy-X</h3>
+<pre><code>hf 14a config --atqa force --bcc ignore --cl2 skip --rats skip
+# for 1k
+hf mf wrbl --blk 0 -k FFFFFFFFFFFF -d 11223344440804006263646566676869 --force
+hf 14a config --std
+hf 14a reader</code></pre>
+<h3>Via external reader/writer and MTOOLS</h3>
+<p>Select the "UID Changer" function in MTools, select "bricked" and run the task</p>
+<h3>IMPORTANT:</h3>
+<p>Lab401 cannot provide refunds under any circumstances for cards that were 'bricked' due to incorrect configurations.</p>
+</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>13.56MHz (HF)</s:tag>
+    <s:tag>Compat: Android</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Family: MIFARE®</s:tag>
+    <s:tag>Gen: 2a (OTW)</s:tag>
+    <s:tag>UID: 4-Byte</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10991344903</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">4.99</s:price>
+      <s:sku>MIFARE-1K-OTW-RED</s:sku>
+      <s:grams>1</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/10877897799</id>
+    <published>2022-06-20T15:00:49+02:00</published>
+    <updated>2022-06-20T15:00:49+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/ntag-compatible-21x"/>
+    <title>Magic NTAG® 21x / NTAG® I2C / MIFARE Ultralight® EV1 Compatible Tag</title>
+    <s:type>RFID Tags</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/Lab401-NTag-emu.png?v=1536828058"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>RFID Tags<br>
+        <strong>Price: </strong>
+            29.99
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>Magic NTAG® 21x / NTAG® I2C / MIFARE Ultralight® EV1 Compatible Tag</h2>
+<p>Representing years of work, these magic NTAGs represent an entirely new generation of magic cards.</p>
+<p>Much more than a simple care, this one card represents many tag types in one, allowing 100% genuine, unlocked, unlimited emulation of the following tag types:</p>
+<div class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<ul>
+<li>MIFARE NTAG® 213</li>
+<li>NTAG® 215</li>
+<li>NTAG® 216</li>
+</ul>
+<p>It can also perform limited<sup>1</sup> emulation of:</p>
+<ul>
+<li>NTAG® 210</li>
+<li>NTAG® 212</li>
+<li>NTAG® I2C 1K</li>
+<li>NTAG® 12C 2K</li>
+<li>NTAG® I2C 1K Plus</li>
+<li>NTAG® 12C 2K Plus</li>
+<li>MIFARE Ultralight® EV1 48k</li>
+<li>MIFARE Ultralight® EV1 128k</li>
+</ul>
+<p><sup>1</sup> <em>Limited Emulation</em> means that the tag will <em>simulate</em> (identify and respond) as the selected card, but counter and tearing emulation are not 1:1 with original chipsets.</p>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<p>It supports native emulation and modification of:</p>
+<ul>
+<li>UID</li>
+<li>Password</li>
+<li>Version</li>
+<li>Signature</li>
+<li>OTP</li>
+</ul>
+<p><strong>Need to make perfect clones</strong> for NTAG® / MIFARE Ultralight® EV1? These tags support the advanced signature emulation!</p>
+<p>Lab401 has spent years sourcing, testing and visiting factories to find the most reliable and flexible 'magic' cards on the market.</p>
+<p>This tag is impossible to block, lock or unintentionally brick, and they are 100% compatible with all MIFARE® readers, writers and software.</p>
+<p>These tags are in white PVC card format.</p>
+<ul>
+<li>Supports fully unlocked read / write</li>
+<li>Impossible to block / brick</li>
+<li>100% compatible read/write compatible with <strong>any </strong>reader</li>
+<li>Programming recommended via <a href="/products/proxmark-3-rdv4" target="_blank" rel="noopener noreferrer">Proxmark 3</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="chipset--tables-wrapper">
+<div class="chipset--table-title">Device Compatibility</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Compatibility</th>
+<th>UID</th>
+<th>R/W</th>
+<th>Config</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Compatibility">Flipper Zero</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">❌</td>
+<td data-label="Notes">Can interact once card is configured</td>
+</tr>
+<tr>
+<td data-label="Compatibility">Proxmark / iCopy-X</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes">LUA script recommended</td>
+</tr>
+<tr>
+<td data-label="Compatibility">Android &amp; iOS</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">❌</td>
+<td data-label="Notes">Once configured, MTools or <a href="http://www.emutag.com/soft.php" target="_blank" rel="nofollow">MIFARE++ Ultralight</a>
+</td>
+</tr>
+<tr>
+<td data-label="Compatibility">LibNFC</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">🟡</td>
+<td data-label="Notes">Config via raw commands only</td>
+</tr>
+<tr>
+<td data-label="Compatibility">ChameleonUltra</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">❌</td>
+<td data-label="Notes">Can interact once card is configured</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<h2><strong>Programming</strong></h2>
+<p>We recommend <a href="/products/proxmark-3-rdv4" target="_blank" rel="noopener noreferrer">Lab401's Proxmark 3 RDV4</a> to program these cards. See the <a href="/blogs/academy/magic-ntag-21x-getting-started" target="_blank" rel="noopener noreferrer"><strong>Lab401 Academy: NTAG 21x Getting Started Tutorial</strong></a> for more information.</p>
+<h2>Unbricking</h2>
+<p>"Soft-bricking" refers to when a magic card has been configured in a way that prevents it from being detected. Ways of soft-bricking tags include:
+</p><ul>
+<li>Incorrect BCC</li>
+<li>Incorrect SAK</li>
+<li>Incorrect ATQA</li>
+<li>Incorrect ATS</li>
+<li>Incorrect ACL (Access Control) Values</li>
+</ul>
+Some "soft-brick" situations can be resolved with special commands. If your Magic NTAG® 21x / NTAG® I2C / MIFARE Ultralight® EV1 Compatible Tag is "soft-bricked", you can try recovering it with the following methods: 
+<h3>Proxmark / iCopy-X</h3>
+<code><pre>script run mfu_magic -w</pre></code>
+<h3>IMPORTANT:</h3>
+<p>Lab401 cannot provide refunds under any circumstances for cards that were 'bricked' due to incorrect configurations.</p>
+</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>13.56MHz (HF)</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Family: NTAG®</s:tag>
+    <s:tag>Family: Ultralight®</s:tag>
+    <s:tag>Gen: 1b</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10877897799</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">29.99</s:price>
+      <s:sku>ntag-21x</s:sku>
+      <s:grams>3</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/1327020605551</id>
+    <published>2022-06-20T15:00:44+02:00</published>
+    <updated>2022-06-20T15:00:44+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/mifare-compatible-1k-direct-write-uid"/>
+    <title>MIFARE Classic® Compatible 1K Direct Write UID</title>
+    <s:type>RFID Tags</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/1K-Direct-Write_e0f1dda2-3ce3-4ce0-b8ad-b8f5257314a1.png?v=1536829114"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>RFID Tags<br>
+        <strong>Price: </strong>
+            12.99
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>INTRODUCTION</h2>
+<p>Need to make perfect clones of MIFARE Classic® Compatible 1K cards and tags ? Our UID Modifiable "Magic" MIFARE Classic® Compatible 1k Direct Write tags are what you need.</p>
+<div class="chipset--tables-wrapper">
+<div class="chipset--table-title">Technical Specifications</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Feature</th>
+<th>Information</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Feature">Chipset</td>
+<td data-label="Information">MIFARE Classic® Compatible</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">Memory Size</td>
+<td data-label="Information">1K</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">UID Size</td>
+<td data-label="Information">4 Byte</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">UID Modifiable</td>
+<td data-label="Information">✔️</td>
+<td data-label="Notes">Multiple times</td>
+</tr>
+<tr>
+<td data-label="Feature">Chip Generation</td>
+<td data-label="Information">Gen 2</td>
+<td data-label="Notes"><a title="Magic tag / card generation guide" href="/blogs/academy/know-your-magic-cards">Chipset Generation Guide</a></td>
+</tr>
+<tr>
+<td data-label="Feature">Packaging</td>
+<td data-label="Information">1 Card</td>
+<td data-label="Notes"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chipset--table-title">Write Capabilities</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>UID Modifiable</th>
+<th>Unlock Required</th>
+<th>DirectWrite / Block 0</th>
+<th>One Time Write</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="UID Modifiable">✔️</td>
+<td data-label="Unlock Required"></td>
+<td data-label="DirectWrite / Block 0">✔️</td>
+<td data-label="One Time Write"></td>
+<td data-label="Notes"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chipset--table-title">Device Compatibility</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Compatibility</th>
+<th>UID</th>
+<th>R/W</th>
+<th>Config</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Compatibility">Flipper Zero</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">Proxmark / iCopy-X</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">Android &amp; iOS</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes">MTools recommended</td>
+</tr>
+<tr>
+<td data-label="Compatibility">LibNFC</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">ChameleonUltra</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W"></td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes">Requires MTools<br>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<h2>Hands on: See the card in action</h2>
+<p>The MIFARE Classic® Compatible 1K UID Changeable via Direct Write card is compatible with several tools:</p>
+<h3>LibNFC - change UID</h3>
+<p>To update the UID of the badge, simply write the dump contents to the badge.</p>
+<pre><code>nfc-mfclassic w a u /tmp/1K.dmp</code></pre>
+<h3>Proxmark - change UID</h3>
+<p>To update the UID of the badge, simply write the dump contents to the badge. When using <code>wrbl</code> - you are directly modifying the card's configuration. <b>Ensure that all data is correct</b> including BCC - otherwise you <b>will</b> brick your card.</p>
+<pre><code>hf mf wrbl --blk 0 -k FFFFFFFFFFFF -d 11223344440804006263646566676869 # Where 11223344 is the UID, 08 is the BCC</code></pre>
+<h2>Unbricking</h2>
+<p>"Soft-bricking" refers to when a magic card has been configured in a way that prevents it from being detected. Ways of soft-bricking tags include:
+</p><ul>
+<li>Incorrect BCC</li>
+<li>Incorrect SAK</li>
+<li>Incorrect ATQA</li>
+<li>Incorrect ATS</li>
+<li>Incorrect ACL (Access Control) Values</li>
+</ul>
+Some "soft-brick" situations can be resolved with special commands. If your MIFARE Classic® Compatible 1K UID Modifiable is "soft-bricked", you can try recovering it with the following methods: 
+<h3>With Proxmark / iCopy-X</h3>
+<pre><code>hf 14a config --atqa force --bcc ignore --cl2 skip --rats skip
+# for 1k
+hf mf wrbl --blk 0 -k FFFFFFFFFFFF -d 11223344440804006263646566676869 --force
+hf 14a config --std
+hf 14a reader</code></pre>
+<h3>Via external reader/writer and MTOOLS</h3>
+<p>Select the "UID Changer" function in MTools, select "bricked" and run the task</p>
+<h3>IMPORTANT:</h3>
+<p>Lab401 cannot provide refunds under any circumstances for cards that were 'bricked' due to incorrect configurations.</p>
+</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>13.56MHz (HF)</s:tag>
+    <s:tag>Compat: Android</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Family: MIFARE®</s:tag>
+    <s:tag>Gen: 2</s:tag>
+    <s:tag>Size: 1K</s:tag>
+    <s:tag>UID: 4-Byte</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/1327020605551</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">12.99</s:price>
+      <s:sku>MF-1K-4B-GEN2</s:sku>
+      <s:grams>6</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/1327010316399</id>
+    <published>2022-06-20T15:00:44+02:00</published>
+    <updated>2022-06-20T15:00:44+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/mifare-compatible-4k-direct-write-uid"/>
+    <title>MIFARE Classic® Compatible 4K Direct Write UID</title>
+    <s:type>RFID Tags</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/4K-Direct-Write_e90d43c2-1ef5-4a2f-9652-0f67ddfa5780.png?v=1536829806"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>RFID Tags<br>
+        <strong>Price: </strong>
+            29.99
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>INTRODUCTION</h2>
+<p>Need to make perfect clones of MIFARE Classic® 4K 4-Byte UID cards and tags ? Our UID Modifiable "Magic" MIFARE Classic® Compatible 4K Direct Write tags are what you need.</p>
+<p>Our UID Modifiable "Magic" MIFARE Classic® Compatible 4K Direct Write tags are designed for users who need to create perfect clones with changeable UIDs. These tags offer reliable performance and compatibility with all major RFID tools and platforms.</p>
+<div class="chipset--tables-wrapper">
+<div class="chipset--table-title">Technical Specifications</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Feature</th>
+<th>Information</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Feature">Chipset</td>
+<td data-label="Information">MIFARE Classic® Compatible</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">Memory Size</td>
+<td data-label="Information">4K</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">UID Size</td>
+<td data-label="Information">4 Byte</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">UID Modifiable</td>
+<td data-label="Information">✔️</td>
+<td data-label="Notes">Multiple times</td>
+</tr>
+<tr>
+<td data-label="Feature">Chip Generation</td>
+<td data-label="Information">Gen 2</td>
+<td data-label="Notes"><a href="/blogs/academy/know-your-magic-cards" title="Magic tag / card generation guide">Chipset Generation Guide</a></td>
+</tr>
+<tr>
+<td data-label="Feature">Write Method</td>
+<td data-label="Information">DirectWrite</td>
+<td data-label="Notes"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chipset--table-title">Write Capabilities</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>UID Modifiable</th>
+<th>Unlock Required</th>
+<th>DirectWrite / Block 0</th>
+<th>One Time Write</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="UID Modifiable">✔️</td>
+<td data-label="Unlock Required"><br></td>
+<td data-label="DirectWrite / Block 0">✔️</td>
+<td data-label="One Time Write"><br></td>
+<td data-label="Notes"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chipset--table-title">Device Compatibility</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Compatibility</th>
+<th>UID</th>
+<th>R/W</th>
+<th>Config</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Compatibility">Flipper Zero</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">Proxmark / iCopy-X</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">Android &amp; iOS</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes">MTools Recommended</td>
+</tr>
+<tr>
+<td data-label="Compatibility">LibNFC</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">ChameleonUltra</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W"></td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes">Requires Mtools</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<h2>Hands on: See the card in action</h2>
+<h3>LibNFC - change UID</h3>
+<pre><code>nfc-mfsetuid 00000000 -f   # Replace 00000000 with the UID</code></pre>
+<h3>Proxmark / iCopy-X</h3>
+<pre><code>hf mf csetuid 00000000   # Replace 00000000 with the UID</code></pre>
+<h3>Live Demonstration<h3>
+</h3>
+</h3><p><script src="https://asciinema.org/a/kTsd0knbkV0C0PBuxJUF1zEB7.js" id="asciicast-kTsd0knbkV0C0PBuxJUF1zEB7" async=""></script> </p>
+  
+<h2>Unbricking</h2>
+<p>"Soft-bricking" refers to when a magic card has been configured in a way that prevents it from being detected. Ways of soft-bricking tags include:
+</p><ul>
+<li>Incorrect BCC</li>
+<li>Incorrect SAK</li>
+<li>Incorrect ATQA</li>
+<li>Incorrect ATS</li>
+<li>Incorrect ACL (Access Control) Values</li>
+</ul>
+Some "soft-brick" situations can be resolved with special commands. If your MIFARE Classic® Compatible 4K UID Modifiable is "soft-bricked", you can try recovering it with the following methods: 
+<h3>With Proxmark / iCopy-X</h3>
+<pre><code>hf mf csetuid --uid 11223344</code></pre>
+<h3>Via external reader/writer and MTOOLS</h3>
+<p>Select the "UID Changer" function in MTools, select "bricked" and run the task</p>
+<h3>IMPORTANT:</h3>
+<p>Lab401 cannot provide refunds under any circumstances for cards that were 'bricked' due to incorrect configurations.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>13.56MHz (HF)</s:tag>
+    <s:tag>Compat: Android</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Family: MIFARE®</s:tag>
+    <s:tag>Gen: 2</s:tag>
+    <s:tag>Size: 4K</s:tag>
+    <s:tag>UID: 4-Byte</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/1327010316399</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">29.99</s:price>
+      <s:sku>MF-4K-4B-GEN2</s:sku>
+      <s:grams>6</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/1327108489327</id>
+    <published>2022-06-20T15:00:43+02:00</published>
+    <updated>2022-06-20T15:00:43+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/ntag-compatible-213-direct-write-uid"/>
+    <title>NTAG® 213 Compatible Direct Write UID</title>
+    <s:type>RFID Tags</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/NTAG-213-Direct-Write_717ceabf-5424-4b75-81b7-dca4ac398599.png?v=1536830001"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>RFID Tags<br>
+        <strong>Price: </strong>
+            14.99
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>INTRODUCTION</h2>
+<p>Need to make perfect clones of NTAG® 213 cards and tags ? Our UID Modifiable "Magic" NTAG® 213 Compatible Direct Write tags are what you need.</p>
+<div class="chipset--tables-wrapper">
+<div class="chipset--table-title">Technical Specifications</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Feature</th>
+<th>Information</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Feature">Chipset</td>
+<td data-label="Information">NTAG® 213 Compatible</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">Memory Size</td>
+<td data-label="Information">144 Bytes</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">UID Size</td>
+<td data-label="Information">7 Byte</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">UID Modifiable</td>
+<td data-label="Information">✔️</td>
+<td data-label="Notes">Multiple times</td>
+</tr>
+<tr>
+<td data-label="Feature">Chip Generation</td>
+<td data-label="Information">Gen 2</td>
+<td data-label="Notes"><a href="/blogs/academy/know-your-magic-cards" title="Magic tag / card generation guide">Chipset Generation Guide</a></td>
+</tr>
+<tr>
+<td data-label="Feature">Packaging</td>
+<td data-label="Information">1 Card</td>
+<td data-label="Notes"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chipset--table-title">Write Capabilities</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>UID Modifiable</th>
+<th>Unlock Required</th>
+<th>DirectWrite / Block 0</th>
+<th>One Time Write</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="UID Modifiable">✔️</td>
+<td data-label="Unlock Required"><br></td>
+<td data-label="DirectWrite / Block 0">✔️</td>
+<td data-label="One Time Write"><br></td>
+<td data-label="Notes"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chipset--table-title">Device Compatibility</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Compatibility</th>
+<th>UID</th>
+<th>R/W</th>
+<th>Config</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Compatibility">Flipper Zero</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">Proxmark / iCopy-X</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">Android &amp; iOS</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes">MTools or <a href="http://www.emutag.com/soft.php" rel="nofollow" target="_blank">MIFARE Ultralight++</a>
+</td>
+</tr>
+<tr>
+<td data-label="Compatibility">LibNFC</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">ChameleonUltra</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes">Requires MTools</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<h2>Hands on: See the card in action</h2>
+<p>The NTAG® 213 Compatible Direct Write UID Modifiable can be used with several tools:</p>
+<h3>LibNFC - change UID</h3>
+<p>To change the UID of your NTAG® 213 Compatible DirectWrite UID Modifiable tag with LibNFC, write a full tag dump to the tag, with the UID and BCC set appropriately. Do <b>not</b> use the <code>nfc-mfsetuid</code> tool to change the UID. This tool is built for MIFARE Classic® Chipsets, not NTAG® 213 Chipsets - using the tool will <b>permanently brick your tag</b>.</p>
+<pre><code>nfc-mfultralight w /tmp/nfc.dmp --full   # Replace nfc.dmp with your FULL dump</code></pre>
+<h3>Proxmark / iCopy-X</h3>
+<pre><code>hf mfu setuid –uid 11223344556677   # Replace 11223344556677 with the UID</code></pre>
+<h3>LibNFC - Live Demonstration<h3>
+</h3>
+</h3><p><i>Please note</i>: The following example mentions an "Ultralight" tag, but the process is identical for NTAGs</p>
+<p><script src="https://asciinema.org/a/bbc9lqq5v4gf8ev2p6o1dmisk.js" id="asciicast-bbc9lqq5v4gf8ev2p6o1dmisk" async=""></script> </p>
+<h2>Unbricking</h2>
+<p>"Soft-bricking" refers to when a magic card has been configured in a way that prevents it from being detected. Ways of soft-bricking tags include:</p>
+<ul>
+<li>Incorrect BCC</li>
+<li>Incorrect SAK</li>
+<li>Incorrect ATQA</li>
+<li>Incorrect ATS</li>
+<li>Incorrect ACL (Access Control) Values</li>
+</ul>
+<p>Some "soft-brick" situations can be resolved with special commands. If your NTAG® 213 Compatible UID Modifiable is "soft-bricked", you can try recovering it with the following methods:</p>
+<h3>Via external reader/writer and MTOOLS</h3>
+<p>Select the "UID Changer" function in MTools, select "bricked" and run the task</p>
+<h3>IMPORTANT:</h3>
+<p>Lab401 cannot provide refunds under any circumstances for cards that were 'bricked' due to incorrect configurations.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>13.56MHz (HF)</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Family: NTAG®</s:tag>
+    <s:tag>Gen: 1b</s:tag>
+    <s:tag>Size: 144b</s:tag>
+    <s:tag>UID: 7-byte</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/1327108489327</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">14.99</s:price>
+      <s:sku>NTAG213-GEN2</s:sku>
+      <s:grams>6</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/1327056912495</id>
+    <published>2022-06-20T15:00:43+02:00</published>
+    <updated>2022-06-20T15:00:43+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/ultralight-compatiblr-direct-write-uid"/>
+    <title>MIFARE Ultralight® Compatible Direct Write UID</title>
+    <s:type>RFID Tags</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/UL-DR_47592231-54f6-43b3-a3b0-9e2aed5c0453.png?v=1536830158"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>RFID Tags<br>
+        <strong>Price: </strong>
+            4.99
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>INTRODUCTION</h2>
+<p>Need to make perfect clones of MIFARE Ultralight® cards and tags ? Our UID Modifiable "Magic" MIFARE Ultralight® Compatible Direct Write tags are what you need.</p>
+<div class="chipset--tables-wrapper">
+<div class="chipset--table-title">Technical Specifications</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Feature</th>
+<th>Information</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Feature">Chipset</td>
+<td data-label="Information">MIFARE Ultralight® Compatible</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">Memory Size</td>
+<td data-label="Information">User Writable: 48 Byte / 20 pages </td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">UID Size</td>
+<td data-label="Information">7 Byte</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">UID Modifiable</td>
+<td data-label="Information">✔️</td>
+<td data-label="Notes">Multiple times</td>
+</tr>
+<tr>
+<td data-label="Feature">Chip Generation</td>
+<td data-label="Information">Gen 2</td>
+<td data-label="Notes"><a href="/blogs/academy/know-your-magic-cards" title="Magic tag / card generation guide">Chipset Generation Guide</a></td>
+</tr>
+<tr>
+<td data-label="Feature">Packaging</td>
+<td data-label="Information">1 Card</td>
+<td data-label="Notes"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chipset--table-title">Write Capabilities</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>UID Modifiable</th>
+<th>Unlock Required</th>
+<th>DirectWrite / Block 0</th>
+<th>One Time Write</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="UID Modifiable">✔️</td>
+<td data-label="Unlock Required"><br></td>
+<td data-label="DirectWrite / Block 0">✔️</td>
+<td data-label="One Time Write"><br></td>
+<td data-label="Notes"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chipset--table-title">Device Compatibility</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Compatibility</th>
+<th>UID</th>
+<th>R/W</th>
+<th>Config</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Compatibility">Flipper Zero</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">Proxmark / iCopy-X</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">Android &amp; iOS</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes">MTools or <a href="http://www.emutag.com/soft.php" rel="nofollow" target="_blank">MIFARE++ Ultralight</a>
+</td>
+</tr>
+<tr>
+<td data-label="Compatibility">LibNFC</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">ChameleonUltra</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes">Requires MTools</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<h2>Hands on: See the card in action</h2>
+<p>The Ultralight® Compatible Direct Write UID Modifiable can be used with several tools:</p>
+<h3>LibNFC - change UID</h3>
+<p>To change the UID of your Ultralight® Compatible DirectWrite UID Modifiable tag with LibNFC, write a full tag dump to the tag, with the UID and BCC set appropriately. Do <b>not</b> use the</p>
+<pre>nfc-mfsetuid</pre>
+<p>tool to change the UID. This tool is built for MIFARE Classic® Chipsets, not MIFARE Ultralight® Chipsets - using the tool will <b>permanently brick your tag</b>.</p>
+<pre><code>nfc-mfultralight w /tmp/ul.dmp --full   # Replace ul.dmp with your FULL dump</code></pre>
+<h3>Proxmark / iCopy-X</h3>
+<pre><code>hf mfu setuid –uid 11223344556677   # Replace 11223344556677 with the UID</code></pre>
+<h3>Live Demonstration : LibNFC</h3>
+<p><script src="https://asciinema.org/a/bbc9lqq5v4gf8ev2p6o1dmisk.js" id="asciicast-bbc9lqq5v4gf8ev2p6o1dmisk" async=""></script> </p>
+<h2>Unbricking</h2>
+<p>"Soft-bricking" refers to when a magic card has been configured in a way that prevents it from being detected. Ways of soft-bricking tags include:</p>
+<ul>
+<li>Incorrect BCC</li>
+<li>Incorrect SAK</li>
+<li>Incorrect ATQA</li>
+<li>Incorrect ATS</li>
+<li>Incorrect ACL (Access Control) Values</li>
+</ul>
+<p>Some "soft-brick" situations can be resolved with special commands. If your MIFARE Ultralight® Compatible UID Modifiable is "soft-bricked", you can try recovering it with the following methods:</p>
+<h3>Via external reader/writer and MTOOLS</h3>
+<p>Select the "UID Changer" function in MTools, select "bricked" and run the task</p>
+<h3>IMPORTANT:</h3>
+<p>Lab401 cannot provide refunds under any circumstances for cards that were 'bricked' due to incorrect configurations.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>13.56MHz (HF)</s:tag>
+    <s:tag>Compat: Android</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Family: Ultralight®</s:tag>
+    <s:tag>Gen: 2</s:tag>
+    <s:tag>Size: 384b</s:tag>
+    <s:tag>UID: 7-byte</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/1327056912495</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">4.99</s:price>
+      <s:sku>UL-GEN2</s:sku>
+      <s:grams>6</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/1327427649647</id>
+    <published>2022-06-20T15:00:42+02:00</published>
+    <updated>2022-06-20T15:00:42+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/desfire-compatible-emulator-uid-modifiable"/>
+    <title>MIFARE DESFire® Compatible UID Modifiable Emulator Card</title>
+    <s:type>RFID Tags</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/Desfire-EMU_66228fc9-f254-4818-ab63-6d72c2d5f59f.png?v=1536827027"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>RFID Tags<br>
+        <strong>Price: </strong>
+            29.99
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>INTRODUCTION</h2>
+<p><span>MIFARE DESFire®</span> remains the industry standard for ultra-high security badges. As of yet - the MIFARE DESFire® remains invulnerable to all channels of analysis.</p>
+<p>The inner workings of the MIFARE DESFire® cards remain under NDA lock and key, making it incredibly difficult to reverse engineer the protocols.</p>
+<p>Lab401's MIFARE DESFire® Compatible UID Modifiable Emulator Card is a card that <strong>emulates</strong> a MIFARE DESFire® card, allowing you to set a custom UID.</p>
+<p>This card will allow for bypass on systems that authenticate based off the UID.</p>
+<div class="chipset--tables-wrapper">
+<div class="chipset--table-title">Technical Specifications</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Feature</th>
+<th>Information</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Feature">Chipset</td>
+<td data-label="Information">MIFARE DESFire® EV1 / EV2</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">Memory Size</td>
+<td data-label="Information">N/A</td>
+<td data-label="Notes">UID Emultion only - no memory</td>
+</tr>
+<tr>
+<td data-label="Feature">UID Size</td>
+<td data-label="Information">4-Byte / 7-Byte</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">UID Modifiable</td>
+<td data-label="Information">✔️</td>
+<td data-label="Notes"></td>
+</tr>
+<tr>
+<td data-label="Feature">Packaging</td>
+<td data-label="Information">1x White PVC card format</td>
+<td data-label="Notes"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chipset--table-title">Write Capabilities</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>UID Modifiable</th>
+<th>Unlock Required</th>
+<th>DirectWrite / Block 0</th>
+<th>One Time Write</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="UID Modifiable">✔️</td>
+<td data-label="Unlock Required"></td>
+<td data-label="DirectWrite / Block 0"></td>
+<td data-label="One Time Write"></td>
+<td data-label="Notes"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chipset--table-title">Device Compatibility</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Compatibility</th>
+<th>UID</th>
+<th>R/W</th>
+<th>Config</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Compatibility">Flipper Zero</td>
+<td data-label="UID">❌</td>
+<td data-label="R/W"></td>
+<td data-label="Config">❌</td>
+<td data-label="Notes"></td>
+</tr>
+<tr>
+<td data-label="Compatibility">Proxmark / iCopy-X</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W"></td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">Android &amp; iOS</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W"></td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes">Requires MTools</td>
+</tr>
+<tr>
+<td data-label="Compatibility">LibNFC</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W"></td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes">Requires raw commands</td>
+</tr>
+<tr>
+<td data-label="Compatibility">ChameleonUltra</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W"></td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes">Requires MTools</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<h2>Hands on: See the card in action</h2>
+<h3>Proxmark / iCopy-X</h3>
+<p>Modification of the UID is simple, thanks to a raw 14443 command.<br>Using your Proxmark 3, you can issue the following command:</p>
+<code><pre>hf 14a raw -s -c 02 00 ab 00 00 07 xx xx xx xx xx xx xx</pre></code>
+<p>Where xx xx xx xx xx xx xx is your target UID.<br>For 4-byte cards, your UID will be 4-bytes, for 7-byte cards, the UID will be 7-bytes.</p>
+<p>Likewise, you can also use set the UID on Windows/MacOS/Linux via <strong>LibNFC</strong> and a <strong>LibNFC compatible reader/writer.</strong></p>
+<h3>LibNFC</h3>
+<p>The UID can be changed in LibNFC by sending raw commands via pn53x-tamashell:</p>
+<code><pre>$ pn53x-tamashell
+&gt; 4a 01 00
+&gt; 42 02 00 ab 00 00 07 XX XX XX XX XX XX XX</pre></code>
+<p>Where xx xx xx xx xx xx xx is your target UID.<br>For 4-byte cards, your UID will be 4-bytes, for 7-byte cards, the UID will be 7-bytes.</p>
+<div class="faqBox">
+<h2><strong>Frequently Asked Questions</strong></h2>
+<h3>What are the ATS values?</h3>
+<p>The card responds with <span class="code">06 75 77 81 02 80 02 F0</span><br></p>
+<h3>Can I modify the ATS / ATQA / SAK values ?</h3>
+<p>No, the ATS / ATQA values are fixed.<br></p>
+<p>SAK values can be modified upon request at the factory. If you need to modify ATS / ATQA values, we recommend the <a href="/products/mifare-desfire-ev2-compatible-modifiable-uid-atqa-sak-ats-apdu">MIFARE DESFire® EV1 / EV2 Compatible Modifiable UID / ATQA / SAK / ATS / APDU</a> card.</p>
+</div>
+<h3>IMPORTANT:</h3>
+<p>The UID of MIFARE DESFire® Compatible UID Modifiable tags is comprised of two parts: the <strong>UID itself</strong>, and the <strong>BCC</strong>. The BCC is a checksum value <strong>calculated from the UID</strong>. If the BCC is incorrect, tag will be rejected by the reader.<br></p>
+<p>Most RFID tools, such as the Proxmark, LibNFC, MCT etc automatically calculate the BCC when the UID is modified. If you are modifying the UID by hand, it is <strong>vital</strong> that the BCC is correctly calculated.</p>
+<p>Lab401 cannot provide support or refunds under any circumstances for cards that were 'bricked' due to incorrect UID/BCC configuration.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>13.56MHz (HF)</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Family: DESFire®</s:tag>
+    <s:tag>Gen: 1b</s:tag>
+    <s:tag>UID: 4-Byte</s:tag>
+    <s:tag>UID: 7-byte</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/1327427649647</id>
+      <title>7-byte / EV1</title>
+      <s:price currency="EUR">29.99</s:price>
+      <s:sku>DESFIRE-7B-EV1</s:sku>
+      <s:grams>6</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/1327427649647</id>
+      <title>7-byte / EV2</title>
+      <s:price currency="EUR">29.99</s:price>
+      <s:sku>DESFIRE-7B-EV2</s:sku>
+      <s:grams>6</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/1327427649647</id>
+      <title>4-byte / EV1</title>
+      <s:price currency="EUR">29.99</s:price>
+      <s:sku>DESFIRE-4B-EV1</s:sku>
+      <s:grams>6</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/1477625741423</id>
+    <published>2022-06-20T15:00:39+02:00</published>
+    <updated>2022-06-20T15:00:39+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/keysy-blank-lf-tag-pack-of-5"/>
+    <title>Keysy Blank LF Tag - Pack of 5</title>
+    <s:type>RFID Tags</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/keysy-tag_d4e15507-d98a-4cd5-a528-236cc50d77d0.png?v=1535701682"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>RFID Tags<br>
+        <strong>Price: </strong>
+            21.99
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>Keysy Blank LF Tag - Pack of 5</h2>
+<p><strong>Please note:</strong> This product is sold in <strong>Packs of 5</strong></p>
+<p>If you want to write sniffed / saved tags from your <a href="/products/keysy-lf-rfid-emulator-duplicator">Keysy LF RFID Cloner</a> onto physical badges, you'll need these Keysy Blank Badges.</p>
+<p> </p>
+<p>The Keysy LF Badges are built to last:</p>
+<ul>
+<li>ABS Plastic with Stainless Steel Spine</li>
+<li>Waterproof / dust-proof / shockproof</li>
+<li>High performance miniaturised antenna</li>
+<li>Compact aesthetic design</li>
+</ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>125KHz (LF)</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/1477625741423</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">21.99</s:price>
+      <s:sku>KEYSY-TAGS</s:sku>
+      <s:grams>32</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/4363917983855</id>
+    <published>2022-06-20T15:00:29+02:00</published>
+    <updated>2022-06-20T15:00:29+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/icode-sli-slix-compatible-uid-modifiable"/>
+    <title>ICODE SLI/SLIX Compatible UID Modifiable</title>
+    <s:type>RFID Tags</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/iCode---SLI.png?v=1578074514"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>RFID Tags<br>
+        <strong>Price: </strong>
+            29.99
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>INTRODUCTION</h2>
+<p>Lab401's iCODE/SLI/SLIX Compatible UID Changeable card is an ISO 15693 iCODE/SLI/SLIX magic card.</p>
+<p>This card has a fixed memory size of 28 Blocks. If you're looking for larger or programmable memory size - please check out the <a href="/products/icode-sli-gen2-uid-changeable-iso15693">iCODE SLI Gen2 UID Changeable ISO15693 Card</a>.</p>
+<div class="chipset--tables-wrapper">
+<div class="chipset--table-title">Technical Specifications</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Feature</th>
+<th>Information</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Feature">Chipset</td>
+<td data-label="Information">ISO 15693 iCODE/SLI</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">Memory Size</td>
+<td data-label="Information">112 Bytes / 28 Blocks</td>
+<td data-label="Notes"></td>
+</tr>
+<tr>
+<td data-label="Feature">UID Size</td>
+<td data-label="Information">8-Byte</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">UID Modifiable</td>
+<td data-label="Information">✔️</td>
+<td data-label="Notes"></td>
+</tr>
+<tr>
+<td data-label="Feature">Packaging</td>
+<td data-label="Information">1x White PVC card format</td>
+<td data-label="Notes"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chipset--table-title">Write Capabilities</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>UID Modifiable</th>
+<th>Unlock Required</th>
+<th>DirectWrite / Block 0</th>
+<th>One Time Write</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="UID Modifiable">✔️</td>
+<td data-label="Unlock Required"></td>
+<td data-label="DirectWrite / Block 0"></td>
+<td data-label="One Time Write"></td>
+<td data-label="Notes"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chipset--table-title">Device Compatibility</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Compatibility</th>
+<th>UID</th>
+<th>R/W</th>
+<th>Config</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Compatibility">Flipper Zero</td>
+<td data-label="UID">❌</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">❌</td>
+<td data-label="Notes">Can't change UID. Can R/W card.</td>
+</tr>
+<tr>
+<td data-label="Compatibility">Proxmark / iCopy-X</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">Android &amp; iOS</td>
+<td data-label="UID">❌</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">❌</td>
+<td data-label="Notes">Can't change UID. Can R/W card.</td>
+</tr>
+<tr>
+<td data-label="Compatibility">LibNFC</td>
+<td data-label="UID">❌</td>
+<td data-label="R/W">❌</td>
+<td data-label="Config">❌</td>
+<td data-label="Notes"></td>
+</tr>
+<tr>
+<td data-label="Compatibility">ChameleonUltra</td>
+<td data-label="UID">❌</td>
+<td data-label="R/W">❌</td>
+<td data-label="Config">❌</td>
+<td data-label="Notes"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<h2>Hands on: See the card in action</h2>
+<h3>Proxmark / iCopy-X</h3>
+<p>Modification of the UID is simple:</p>
+<code><pre>hf 15 csetuid 11223344</pre></code>
+<p>Where 11223344 is your target UID.</p>
+<h3>IMPORTANT:</h3>
+<p>Lab401 cannot provide support or refunds under any circumstances for cards that were 'bricked' due to incorrect configuration/programming.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>13.56MHz (HF)</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Family: SLI/SLIX</s:tag>
+    <s:tag>Gen: 2</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/4363917983855</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">29.99</s:price>
+      <s:sku>ICODE-CARD</s:sku>
+      <s:grams>6</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/4492302483567</id>
+    <published>2022-06-20T15:00:25+02:00</published>
+    <updated>2022-06-20T15:00:25+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/125khz-t5577-keyfobs-pack-of-5"/>
+    <title>125KHz T5577 Keyfobs - Pack of 5</title>
+    <s:type>RFID Tags</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/Lab401-T5577-Keyfob-Solo.png?v=1592478352"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>RFID Tags<br>
+        <strong>Price: </strong>
+            12.99
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>125KHz T5577 Keyfobs - Pack of 5</h2>
+<p>Need to make perfect clones for your 125KHz tags? Our T5577 tags are the solution.</p>
+<p><strong>Please note</strong>: <strong>Sold in a </strong><strong>pack of 5</strong></p>
+<p>Unlike 13.56MHz RFID chipsets, 125KHz are much less standardised. It is common to encounter several different data rates with multiple modulation types.</p>
+<p>Duplicating 125KHz tags required careful knowledge of each tag type, its modulation and data rates, and a selection of blank tags.</p>
+<p><span>The T5577 chip is a multi-purpose 125KHz RFID emulator, capable of emulating practically every modulation and data-rate combination:</span></p>
+<ul>
+<li><span>Modulation: Biphase, Manchester, FSK, PSK, NRZ</span></li>
+<li><span>Data Rates: RF/2 to RF/128</span></li>
+</ul>
+<p><span>This enables it to successfully clone almost every 125KHz tag in existence, including:</span></p>
+<ul>
+<li>HID Prox (Proxcard, ISOProx, ProxKey)<br> (Emulation not supported on multiClass readers, can still clone to rewritable)</li>
+<li>HID Indala (Motorola Indala)</li>
+<li>EM400x, EM410x, EM420x</li>
+<li>Noralsy (KCP3000)</li>
+<li>Farpointe Pyramid</li>
+<li>Keri (KC-10X, MT-10X, PKT-10X)</li>
+<li>Kantech ioProx</li>
+<li>DoorKing (DKProx) [Not DKProx Long Range]</li>
+<li>AWID (Low frequency only – CS-AWID, GR-AWID, KT-AWID, PW-AWID)<br> (Emulation not supported, can still clone to rewritable)</li>
+<li>Radio Key (SecuraKey RKKT-01, RKKT-02)</li>
+<li>Viking</li>
+<li>Visa2000</li>
+<li>Schlage IBF iButton (RFID portion only)</li>
+</ul>
+<p>The Lab401 T5577 Keyfobs are high quality, water resistant with an ABS and metal finish. They are compatible with the Proxmark 3 and any standard LF read/write tools.</p>
+<div class="chipset--tables-wrapper">
+<div class="chipset--table-title">Technical Specifications</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Feature</th>
+<th>Information</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Feature">Chipset</td>
+<td data-label="Information">T5577</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">Memory Size</td>
+<td data-label="Information">363 bits, 11 pages</td>
+<td data-label="Notes">224-Bits user memory</td>
+</tr>
+<tr>
+<td data-label="Feature">UID Size</td>
+<td data-label="Information">2x 32-bit blocks</td>
+<td data-label="Notes">ID Length depends on card config</td>
+</tr>
+<tr>
+<td data-label="Feature">UID Modifiable</td>
+<td data-label="Information">✔️</td>
+<td data-label="Notes"></td>
+</tr>
+<tr>
+<td data-label="Feature">Packaging</td>
+<td data-label="Information">5 per pack</td>
+<td data-label="Notes"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chipset--table-title">Device Compatibility</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Compatibility</th>
+<th>UID</th>
+<th>R/W</th>
+<th>Config</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Compatibility">Flipper Zero</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">Proxmark / iCopy-X</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">Keysy</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>125KHz (LF)</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/4492302483567</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">12.99</s:price>
+      <s:sku>125KHZ-KEYFOB-x5</s:sku>
+      <s:grams>3</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/6051921789128</id>
+    <published>2022-06-20T15:00:23+02:00</published>
+    <updated>2022-06-20T15:00:23+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/mifare-classic-compatible-4k-7-byte-uid-modifiable-by-directwrite"/>
+    <title>MIFARE Classic® Compatible 4K 7-byte UID Modifiable by DirectWrite</title>
+    <s:type>RFID Tags</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/MIFARE-Compatible-4K-7-byte-DirectWrite-Gen2.png?v=1606498718"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>RFID Tags<br>
+        <strong>Price: </strong>
+            29.99
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>INTRODUCTION</h2>
+<p>Need to make perfect clones of MIFARE Classic® 4K 7-Byte UID cards and tags ? Our UID Modifiable "Magic" MIFARE Classic® Compatible 4K Direct Write tags are what you need.</p>
+<p>Our UID Modifiable "Magic" MIFARE Classic® Compatible 4K Direct Write tags are designed for users who need to create perfect clones with changeable UIDs. These tags offer reliable performance and compatibility with all major RFID tools and platforms.</p>
+<div class="chipset--tables-wrapper">
+<div class="chipset--table-title">Technical Specifications</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Feature</th>
+<th>Information</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Feature">Chipset</td>
+<td data-label="Information">MIFARE Classic® Compatible</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">Memory Size</td>
+<td data-label="Information">4K</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">UID Size</td>
+<td data-label="Information">7 Byte</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">UID Modifiable</td>
+<td data-label="Information">✔️</td>
+<td data-label="Notes">Multiple times</td>
+</tr>
+<tr>
+<td data-label="Feature">Chip Generation</td>
+<td data-label="Information">Gen 2</td>
+<td data-label="Notes"><a href="/blogs/academy/know-your-magic-cards" title="Magic tag / card generation guide">Chipset Generation Guide</a></td>
+</tr>
+<tr>
+<td data-label="Feature">Write Method</td>
+<td data-label="Information">DirectWrite</td>
+<td data-label="Notes"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chipset--table-title">Write Capabilities</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>UID Modifiable</th>
+<th>Unlock Required</th>
+<th>DirectWrite / Block 0</th>
+<th>One Time Write</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="UID Modifiable">✔️</td>
+<td data-label="Unlock Required"><br></td>
+<td data-label="DirectWrite / Block 0">✔️</td>
+<td data-label="One Time Write"><br></td>
+<td data-label="Notes"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chipset--table-title">Device Compatibility</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Compatibility</th>
+<th>UID</th>
+<th>R/W</th>
+<th>Config</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Compatibility">Flipper Zero</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">Proxmark / iCopy-X</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">Android &amp; iOS</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes">MTools Recommended</td>
+</tr>
+<tr>
+<td data-label="Compatibility">LibNFC</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">ChameleonUltra</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W"></td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes">Requires Mtools Premium</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<h2>Hands on: See the card in action</h2>
+<h3>LibNFC - change UID</h3>
+<p>To update the UID of the badge, simply write the dump contents to the badge.</p>
+<pre><code>nfc-mfclassic w a u /tmp/4K.dmp</code></pre>
+<h3>Proxmark - change UID</h3>
+<p>To update the UID of the badge, simply write the dump contents to the badge. When using <code>wrbl</code> - you are directly modifiying the card's configuration. <b>Ensure that all data is correct</b> including BCC - otherwise you <b>will</b> brick your card.</p>
+<pre><code>hf mf wrbl --blk 0 -k FFFFFFFFFFFF -d 04112233445566184200626364656667 # Where 04112233445566 is the UID</code></pre>
+<h3>Live Demonstration<h3></h3>
+</h3><p><script src="https://asciinema.org/a/WFm8VDQUWSFvv3dqTxjLbQMFd.js" id="asciicast-WFm8VDQUWSFvv3dqTxjLbQMFd" async=""></script> </p>
+  
+<h2>Unbricking</h2>
+<p>"Soft-bricking" refers to when a magic card has been configured in a way that prevents it from being detected. Ways of soft-bricking tags include:
+</p><ul>
+<li>Incorrect BCC</li>
+<li>Incorrect SAK</li>
+<li>Incorrect ATQA</li>
+<li>Incorrect ATS</li>
+<li>Incorrect ACL (Access Control) Values</li>
+</ul>
+<h3>IMPORTANT:</h3>
+<p>Lab401 cannot provide refunds under any circumstances for cards that were 'bricked' due to incorrect configurations.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>13.56MHz (HF)</s:tag>
+    <s:tag>Compat: Android</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Family: MIFARE®</s:tag>
+    <s:tag>Gen: 2</s:tag>
+    <s:tag>Size: 4K</s:tag>
+    <s:tag>UID: 7-byte</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/6051921789128</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">29.99</s:price>
+      <s:sku>MF-4K-7B-GEN2</s:sku>
+      <s:grams>3</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/6102270083272</id>
+    <published>2022-06-20T15:00:22+02:00</published>
+    <updated>2022-06-20T15:00:22+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/mifare-mini-compatible-uid-modifable-direct-write"/>
+    <title>MIFARE Mini® Compatible - UID Modifable - Direct Write</title>
+    <s:type>RFID Tags</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/Mifare-Mini-Compatible-UID-Changeable.png?v=1606496086"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>RFID Tags<br>
+        <strong>Price: </strong>
+            29.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>INTRODUCTION</h2>
+<p>Need to make perfect clones of MIFARE Mini® Compatible 0.3k UID cards and tags ? Our UID Modifiable "Magic" MIFARE Mini® Compatible UID Direct Write tags are what you need.</p>
+<p><strong>Not all 'Magic' cards are alike.</strong> There are many chipset types, each with different levels of reliability and functionality. Lab401 has spent years sourcing, testing and visiting factories to find the most reliable and flexible 'magic' cards on the market.</p>
+<div class="chipset--tables-wrapper">
+<div class="chipset--table-title">Technical Specifications</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Feature</th>
+<th>Information</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Feature">Chipset</td>
+<td data-label="Information">MIFARE Mini® Compatible</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">Memory Size</td>
+<td data-label="Information">0.3k</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">UID Size</td>
+<td data-label="Information">4 Byte</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Feature">UID Modifiable</td>
+<td data-label="Information">✔️</td>
+<td data-label="Notes">Multiple times</td>
+</tr>
+<tr>
+<td data-label="Feature">Chip Generation</td>
+<td data-label="Information">Gen 2</td>
+<td data-label="Notes"><a href="/blogs/academy/know-your-magic-cards" title="Magic tag / card generation guide">Chipset Generation Guide</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chipset--table-title">Write Capabilities</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>UID Modifiable</th>
+<th>Unlock Required</th>
+<th>DirectWrite / Block 0</th>
+<th>One Time Write</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="UID Modifiable">✔️</td>
+<td data-label="Unlock Required"></td>
+<td data-label="DirectWrite / Block 0">✔️</td>
+<td data-label="One Time Write"></td>
+<td data-label="Notes"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chipset--table-title">Device Compatibility</div>
+<div class="chipset--table-container">
+<table class="chipset--table">
+<thead>
+<tr>
+<th>Compatibility</th>
+<th>UID</th>
+<th>R/W</th>
+<th>Config</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Compatibility">Flipper Zero</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">Proxmark / iCopy-X</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">Android &amp; iOS</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes">MTools recommended</td>
+</tr>
+<tr>
+<td data-label="Compatibility">LibNFC</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes"><br></td>
+</tr>
+<tr>
+<td data-label="Compatibility">ChameleonUltra</td>
+<td data-label="UID">✔️</td>
+<td data-label="R/W">✔️</td>
+<td data-label="Config">✔️</td>
+<td data-label="Notes">Requires MTools Premium</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<h2>Hands on: See the card in action</h2>
+<p>The MIFARE Classic® Mini UID Changeable via Direct Write card is compatible with several tools:</p>
+<h3>LibNFC - change UID</h3>
+<p>To update the UID of the badge, simply write the dump contents to the badge.</p>
+<pre><code>nfc-mfclassic w a u /tmp/1K.dmp</code></pre>
+<h3>Proxmark - change UID</h3>
+<p>To update the UID of the badge, simply write the dump contents to the badge. When using <code>wrbl</code> - you are directly modifying the card's configuration. <b>Ensure that all data is correct</b> including BCC - otherwise you <b>will</b> brick your card.</p>
+<pre><code>hf mf wrbl --blk 0 -k FFFFFFFFFFFF -d 11223344440804006263646566676869 # Where 11223344 is the UID, 08 is the BCC</code></pre>
+<h3>Live Demonstration<h3>
+</h3>
+</h3><p><script src="https://asciinema.org/a/eFT9PUOwEz6JLklmsZzjIOksE.js" id="asciicast-eFT9PUOwEz6JLklmsZzjIOksE" async=""></script> </p>
+<h2>Unbricking</h2>
+<p>"Soft-bricking" refers to when a magic card has been configured in a way that prevents it from being detected. Ways of soft-bricking tags include:
+</p><ul>
+<li>Incorrect BCC</li>
+<li>Incorrect SAK</li>
+<li>Incorrect ATQA</li>
+<li>Incorrect ATS</li>
+<li>Incorrect ACL (Access Control) Values</li>
+</ul>
+Some "soft-brick" situations can be resolved with special commands. If your MIFARE Mini® Compatible 4-byte UID Modifiable is "soft-bricked", you can try recovering it with the following methods: 
+<h3>With Proxmark / iCopy-X</h3>
+<pre><code>hf 14a config --atqa force --bcc ignore --cl2 skip --rats skip
+# for 1k
+hf mf wrbl --blk 0 -k FFFFFFFFFFFF -d 11223344440804006263646566676869 --force
+hf 14a config --std
+hf 14a reader</code></pre>
+<h3>Via external reader/writer and MTOOLS</h3>
+<p>Select the "UID Changer" function in MTools, select "bricked" and run the task</p>
+<h3>IMPORTANT:</h3>
+<p>Lab401 cannot provide refunds under any circumstances for cards that were 'bricked' due to incorrect configurations.</p>
+</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>13.56MHz (HF)</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Family: MIFARE Mini®</s:tag>
+    <s:tag>Gen: 2</s:tag>
+    <s:tag>Size: 0.3K</s:tag>
+    <s:tag>UID: 4-byte</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/6102270083272</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">29.95</s:price>
+      <s:sku>MF-MINI-GEN2</s:sku>
+      <s:grams>6</s:grams>
+    </s:variant>
+  </entry>
+</feed>

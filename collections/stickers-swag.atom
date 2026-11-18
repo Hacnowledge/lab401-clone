@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/collections/stickers-swag.atom"/>
+  <title>Lab401</title>
+  <updated>2026-05-26T03:29:57+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/products/10457905168731</id>
+    <published>2026-05-26T03:29:57+02:00</published>
+    <updated>2026-05-26T03:29:57+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/usbkill-invader-pin-copy"/>
+    <title>USBKill Logo Pin</title>
+    <s:type></s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Lab401---Pin_0f708e89-51cb-4590-b1f1-50d24ca4e0b4.png?v=1778077796"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            12.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>These USBKill logo pins were originally strictly limited to USBKill resellers, but after being inundated with requests, we've managed to get our hands on enough for everyone.    </p>
+<p>Made from eye-catching gold-plated hardened brass, if you're looking to add some swag to your bag, or some shine on your shirt - these badges will do the trick!</p>
+<p><strong>What's included</strong></p>
+<ul>
+<li><strong>1x USBKill Gold Pin</strong></li>
+</ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10457905168731</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">12.00</s:price>
+      <s:sku>USBK-PIN-GOLD</s:sku>
+      <s:grams>10</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/10457898746203</id>
+    <published>2026-05-26T03:29:56+02:00</published>
+    <updated>2026-05-26T03:29:56+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/usbkill-invader-pin"/>
+    <title>USBKill Invader Pin</title>
+    <s:type></s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/USBKill-Invader-Pin-1.png?v=1777285774"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            15.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>We couldn't resist adding this USBKill "Invader" pin. Hand-designed by a real human being, the "Invader" pin is a conversation starter - good luck explaining the backstory!</p>
+<p>If you're looking to add some swag to your bag, or some shine on your shirt - the "Invader" badge will most definitely do the job!</p>
+<p><strong>What's included</strong></p>
+<ul>
+<li><strong>1x USBKill "Invader" Pin</strong></li>
+</ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10457898746203</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">15.00</s:price>
+      <s:sku>USBK-CLASSIC-PIN</s:sku>
+      <s:grams>10</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/10149113168219</id>
+    <published>2026-03-16T18:14:00+01:00</published>
+    <updated>2026-03-16T18:14:00+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/lab401-pin"/>
+    <title>LAB401 Pin</title>
+    <s:type></s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Lab401---Pin.png?v=1773680915"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            3.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>We made a limited run of gold-plated Lab401 pins for an event - and were surprised that before lunch - we'd already sold them all.</p>
+<p>If you're looking to add some swag to your bag, or some shine on your shirt - the Lab401 badge may just be for you. Sadly, these are the boring types of badge - no RFID chip included 😔.</p>
+<p>
+<strong>What's included</strong>
+</p><ul>
+<li><strong>1x Lab401 Pin</strong></li>
+</ul>
+</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10149113168219</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">3.95</s:price>
+      <s:sku>LAB401-PIN</s:sku>
+      <s:grams>10</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/8435342377307</id>
+    <published>2023-05-26T18:08:28+02:00</published>
+    <updated>2023-05-26T18:08:28+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/lab401-hacker-stickers"/>
+    <title>Lab401 Pentest Sticker Pack</title>
+    <s:type>Pen Testing</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Lab401-Stickers-Sample.png?v=1685363670"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>Pen Testing<br>
+        <strong>Price: </strong>
+            8.00 - 25.00
+            <a href="https://lab401.com/products/lab401-hacker-stickers">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>After much demand, Lab401's "Stickers that don't suck" are available for purchase.<br></p>
+<p>High-quality, UV-fixed stickers for Pentesters, Hackers and Geeks. Each sticker is approximately 50 x 50mm (2 x 2 inches) with a white border ensuring they will look good on any surface or product.</p>
+<p>In total, there are <strong>fifty unique designs</strong>, but can be purchased in packs of 10, 20 and 50. <br><strong>Smaller packs (10 and 20) contain a random selection (but no doubles); the pack of 50 has all designs.</strong></p>
+<p>Perfect as a gift for a beloved hacker, or to proudly show one's geek flair.</p>
+<p> <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Lab401-Stickers-Sample-Cropped_1024x1024.png?v=1685363657" alt="" data-mce-fragment="1" data-mce-src="https://cdn.shopify.com/s/files/1/2175/8571/files/Lab401-Stickers-Sample-Cropped_1024x1024.png?v=1685363657"></p>
+<div style="text-align: center;"></div>
+<div style="text-align: center;"><img style="margin-bottom: 16px; float: none;" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Lab401-Stickers-Overview-Full-Pack_1024x1024.png?v=16853622501"></div>
+<div style="text-align: left;" data-mce-style="text-align: left;"><br></div>
+<p> </p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Stickers</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/8435342377307</id>
+      <title>10 Stickers</title>
+      <s:price currency="EUR">8.00</s:price>
+      <s:sku>LAB401-STICKERS-10</s:sku>
+      <s:grams>10</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/8435342377307</id>
+      <title>20 Stickers</title>
+      <s:price currency="EUR">15.00</s:price>
+      <s:sku>LAB401-STICKERS-20</s:sku>
+      <s:grams>20</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/8435342377307</id>
+      <title>50 Stickers</title>
+      <s:price currency="EUR">25.00</s:price>
+      <s:sku>LAB401-STICKERS-50</s:sku>
+      <s:grams>30</s:grams>
+    </s:variant>
+  </entry>
+</feed>

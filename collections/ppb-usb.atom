@@ -1,0 +1,897 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/collections/ppb-usb.atom"/>
+  <title>Lab401</title>
+  <updated>2026-02-11T13:00:55+01:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/products/10317475217755</id>
+    <published>2026-02-11T13:00:55+01:00</published>
+    <updated>2026-02-11T13:00:55+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/o-mg-adapter-elite"/>
+    <title>O.MG Adapter Elite</title>
+    <s:type></s:type>
+    <s:vendor>Hak5</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Hak5---Adaptor---Front---White.png?v=1770241159"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hak5<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            295.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="contentGroup">
+<h2>INTRODUCTION</h2>
+<p>Over the years, the capabilities of O.MG cables has evolved rapidly, becoming more and more advanced.</p>
+<p>Scripting, payloads, keystroke injection, wireless administration, stealth modes, self-destruct, geo-fencing, remote triggers and so much more - have turned these cables into a deeply comprehensive physical payload platform. </p>
+<p>After much demand, the power of O.MG cables is available in other form-factors!</p>
+<p>The O.MG Adapter Elite is <b>embedded in USB-A to USB-C "OTG" Cable.</b></p>
+<p>In this form factor - it's guaranteed to never arouse suspicion. When dormant - it acts as a typical USB 2.0 adapter - completely undetectable. When activated, payloads are delivered on the <b>USB-C side</b> of the adapter.</p>
+<p>Even better - the cable will act as an O.TG cable - making it perfect for mobile payloads!</p>
+<p><b>Important</b>: The O.MG Plug is shipped in <i>deactivated mode</i> - it <b>requires flashing before use</b>. We recommend using the O.MG Programmer - which is compatible with <i>all O.MG devices and cables</i>. Flashing is performed easily via any web-browser.</p>
+</div>
+<div class="contentGroup">
+<h2>FEATURES</h2>
+<ul>
+<li>
+<strong>WebUI over WiFi</strong>: Control everything remotely with a web browser. Desktop or mobile.<br>
+</li>
+<li>
+<strong>Keystroke Injection</strong>: Instant DuckyScript payloads. No recompiling or reprogramming, just click run! And with industry-leading 890keys/sec speeds.<br>
+</li>
+<li>
+<strong>Lots of Payload slots</strong>: Storage allows up to 300 slots!<br>
+</li>
+<li>
+<strong>Global Keymaps</strong>: With 192 keymaps already built in, you can target machines across the world.<br>
+</li>
+<li>
+<strong>Built in IDE</strong>: The WebUI not only provides 100% of the controls, but also gives you helpful feedback to catch syntax errors while rapidly building payloads.<br>
+</li>
+<li>
+<strong>Stealth</strong>: Spoof any USB identifier (VID/PID), extended USB Identifier, and network MAC address. Port Stealthing (Elite Models) lets the Plug stay dormant until a payload is deployed. No logs. No detections.<br>
+</li>
+<li>
+<strong>HIDX StealthLink</strong>: Elite model: setup a bidirectional tunnel from Target Host &gt; O.MG &gt; Control Machine.<br>
+</li>
+<li>
+<strong>Encrypted Network C2</strong>: Elite models: Use an encrypted connection to access &amp; control your O.MG from anywhere. Then disable the onboard WebUI to hide and protect your O.MG on untrusted networks. Compatible with any server that runs python.<br>
+</li>
+<li>
+<strong>Self-Destruct</strong>: Elite model: Make your legal team happy by ensuring sensitive payloads &amp; loot are gone, and the O.MG Plug is fully inert. (recoverable with O.MG Programmer)<br>
+</li>
+<li>
+<strong>Geo-Fencing</strong>: Trigger payloads or other actions based on location. Keep your tool from falling out of scope! Ex: self-destruct if someone takes the O.MG Plug out of scope.<br>
+</li>
+<li>
+<strong>WiFi Triggers</strong>: Trigger payloads at long range with a single beacon.</li>
+</ul>
+</div>
+<div class="contentGroup">
+<h2>ELITE</h2>
+<div class="chipset--tables-wrapper">
+<div class="chipset--table-title">Feature Tier</div>
+<div class="chipset--table-container">
+  <table class="chipset--table">
+    <thead>
+      <tr>
+        <th>Feature</th>
+        <th>Elite</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td data-label="Feature">Keystroke Injection</td>
+        <td data-label="Elite">DuckyScript 3</td>
+      </tr>
+      <tr>
+        <td data-label="Feature">Mouse Injection</td>
+        <td data-label="Elite">✔</td>
+      </tr>
+      <tr>
+        <td data-label="Feature">Payload Slots</td>
+        <td data-label="Elite">50-300</td>
+      </tr>
+      <tr>
+        <td data-label="Feature">Max Payload Size</td>
+        <td data-label="Elite">1,500,000 keystrokes</td>
+      </tr>
+      <tr>
+        <td data-label="Feature">Max Payload Speed</td>
+        <td data-label="Elite">890 keys/sec</td>
+      </tr>
+      <tr>
+        <td data-label="Feature">Geo-Fencing</td>
+        <td data-label="Elite">✔</td>
+      </tr>
+      <tr>
+        <td data-label="Feature">WiFi Triggers</td>
+        <td data-label="Elite">✔</td>
+      </tr>
+      <tr>
+        <td data-label="Feature">Port Stealthing</td>
+        <td data-label="Elite">✔</td>
+      </tr>
+      <tr>
+        <td data-label="Feature">Self-Destruct</td>
+        <td data-label="Elite">✔</td>
+      </tr>
+      <tr>
+        <td data-label="Feature">HIDX StealthLink</td>
+        <td data-label="Elite">✔</td>
+      </tr>
+      <tr>
+        <td data-label="Feature">Encrypted Network C2</td>
+        <td data-label="Elite">✔</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="2" style="color:#777; text-align:center; font-size:12px;">
+          All specs are based on devices using the latest Beta firmware
+        </td>
+      </tr>
+    </tfoot>
+  </table>
+</div>
+</div>
+</div>
+<div class="contentGroup">
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>Usage Instructions</strong></h2>
+<p>The O.MG Adaptor has three distinct modes:</p>
+<ol>
+<li>
+<strong>Programming<br></strong>Because the device acts as a standard USB device, it needs to be pushed into programming / DFU mode. This is done by using the "Programming Shield".<br><br>The Programming Shield is connected to a host device, and the O.MG Plug is plugged into the Shield. <br><br>The O.MG Plug can now be programmed: Its WIFI settings can be configured, and payloads and trigger settings can be uploaded to the device.<br><br>Programming is possible via a web-interface or smartphone app.<br><br>
+</li>
+<li>
+<strong>Deployed<br></strong>The device is 'Deployed' when it is connected to the target machine. <br>It can be configured to have any USB identifier (VID/PID) or network MAC address. In this mode, the device is dormant until triggered.<br><br>
+</li>
+<li>
+<strong>Triggered<br></strong>The device is triggered wirelessly via Wifi. It can be triggered by smartphone, or by dedicated remote control.<br>
+</li>
+</ol>
+<ul>
+<ul></ul>
+</ul>
+<ul></ul>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h3>Technical Specifications</h3>
+<meta charset="utf-8">
+<ul>
+<li>
+<strong>Physical Characteristics</strong>
+<ul>
+<li>Color: Black or White<br>
+</li>
+<li>Connector: USB-A, USB-C</li>
+<li>Active Side: USB-C</li>
+</ul>
+</li>
+</ul>
+<li><strong>Wireless Specifications</strong></li>
+<ul>
+<li>Wifi, 802.11b/g/n (2.4GHz)</li>
+</ul>
+<li>
+<strong>Mobile App</strong>
+<ul>
+<li>Alternative to remote control for triggering payload</li>
+<li>Open source and freely available</li>
+</ul>
+</li>
+<li>
+<strong>Programming</strong>
+<ul>
+<li>Payload Script: DuckyScript compatible with additional features.<br>
+</li>
+<li>Smartphone interface<br>
+</li>
+<li>In-Browser interface<br>
+</li>
+</ul>
+</li>
+<meta charset="utf-8">
+<h3>Technical Resources:</h3>
+<ul>
+<li><a href="https://o.mg.lol/setup/" target="_blank">O.MG Official Wiki</a></li>
+<li><a href="https://github.com/O-MG/" target="_blank">O.MG Official GitHub</a></li>
+<li><a href="https://hak5.org/discord" target="_blank">O.MG Official Discord</a></li>
+</ul>
+</div>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Hak5</s:tag>
+    <s:tag>O.MG</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10317475217755</id>
+      <title>Black</title>
+      <s:price currency="EUR">295.00</s:price>
+      <s:sku>HAK5-OMG-ADAPTOR-ELITE-BLACK</s:sku>
+      <s:grams>50</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/10317475217755</id>
+      <title>White</title>
+      <s:price currency="EUR">295.00</s:price>
+      <s:sku>HAK5-OMG-ADAPTOR-ELITE-WHITE</s:sku>
+      <s:grams>50</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/10317477183835</id>
+    <published>2026-02-11T13:00:38+01:00</published>
+    <updated>2026-02-11T13:00:38+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/o-mg-plug-elite"/>
+    <title>O.MG Plug</title>
+    <s:type>Pen Testing</s:type>
+    <s:vendor>Hak5</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/OMG---Plug---Black-and-White.png?v=1770237551"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hak5<br>
+        <strong>Type: </strong>Pen Testing<br>
+        <strong>Price: </strong>
+            120.00 - 165.00
+            <a href="https://lab401.com/products/o-mg-plug-elite">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="contentGroup">
+<h2>INTRODUCTION</h2>
+<p>Over the years, the capabilities of O.MG cables has evolved rapidly, becoming more and more advanced.</p>
+<p>Scripting, payloads, keystroke injection, wireless administration, stealth modes, self-destruct, geo-fencing, remote triggers and so much more - have turned these cables into a deeply comprehensive physical payload platform. </p>
+<p>After much demand, the power of O.MG cables is available in other form-factors!</p>
+<p>The O.MG plug appears to be a simple USB Drive on your keychain - but hidden inside are the full O.MG capabilities! Available in <b>Basic</b> and <b>Elite</b> versions, depending on your budget and requirements.</p>
+<p><b>Important</b>: The O.MG Plug is shipped in <i>deactivated mode</i> - it <b>requires flashing before use</b>. We recommend using the O.MG Programmer - which is compatible with <i>all O.MG devices and cables</i>. Flashing is performed easily via any web-browser.</p>
+</div>
+<div class="contentGroup">
+<h2>FEATURES</h2>
+<ul>
+<li>
+<strong>WebUI over WiFi</strong>: Control everything remotely with a web browser. Desktop or mobile.<br>
+</li>
+<li>
+<strong>Keystroke Injection</strong>: Instant DuckyScript payloads. No recompiling or reprogramming, just click run! And with industry-leading 890keys/sec speeds.<br>
+</li>
+<li>
+<strong>Lots of Payload slots</strong>: Basic model comes with 8 slots. Elite's extra storage allows up to 300 slots!<br>
+</li>
+<li>
+<strong>Global Keymaps</strong>: With 192 keymaps already built in, you can target machines across the world.<br>
+</li>
+<li>
+<strong>Built in IDE</strong>: The WebUI not only provides 100% of the controls, but also gives you helpful feedback to catch syntax errors while rapidly building payloads.<br>
+</li>
+<li>
+<strong>Stealth</strong>: Spoof any USB identifier (VID/PID), extended USB Identifier, and network MAC address. Port Stealthing (Elite Models) lets the Plug stay dormant until a payload is deployed. No logs. No detections.<br>
+</li>
+<li>
+<strong>HIDX StealthLink</strong>: Elite model: setup a bidirectional tunnel from Target Host &gt; O.MG &gt; Control Machine.<br>
+</li>
+<li>
+<strong>Encrypted Network C2</strong>: Elite models: Use an encrypted connection to access &amp; control your O.MG from anywhere. Then disable the onboard WebUI to hide and protect your O.MG on untrusted networks. Compatible with any server that runs python.<br>
+</li>
+<li>
+<strong>Self-Destruct</strong>: Elite model: Make your legal team happy by ensuring sensitive payloads &amp; loot are gone, and the O.MG Plug is fully inert. (recoverable with O.MG Programmer)<br>
+</li>
+<li>
+<strong>Geo-Fencing</strong>: Trigger payloads or other actions based on location. Keep your tool from falling out of scope! Ex: self-destruct if someone takes the O.MG Plug out of scope.<br>
+</li>
+<li>
+<strong>WiFi Triggers</strong>: Trigger payloads at long range with a single beacon.</li>
+</ul>
+</div>
+<div class="contentGroup">
+<h2>BASIC vs ELITE</h2>
+<div class="chipset--tables-wrapper">
+<div class="chipset--table-title">Feature Tier</div>
+<div class="chipset--table-container">
+  <table class="chipset--table">
+    <thead>
+      <tr>
+        <th>Feature</th>
+        <th>Basic</th>
+        <th>Elite</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td data-label="Feature">Keystroke Injection</td>
+        <td data-label="Basic">DuckyScript 2</td>
+        <td data-label="Elite">DuckyScript 3</td>
+      </tr>
+      <tr>
+        <td data-label="Feature">Mouse Injection</td>
+        <td data-label="Basic">✔</td>
+        <td data-label="Elite">✔</td>
+      </tr>
+      <tr>
+        <td data-label="Feature">Payload Slots</td>
+        <td data-label="Basic">8</td>
+        <td data-label="Elite">50-300</td>
+      </tr>
+      <tr>
+        <td data-label="Feature">Max Payload Size</td>
+        <td data-label="Basic">4,000 keystrokes</td>
+        <td data-label="Elite">1,500,000 keystrokes</td>
+      </tr>
+      <tr>
+        <td data-label="Feature">Max Payload Speed</td>
+        <td data-label="Basic">120 keys/sec</td>
+        <td data-label="Elite">890 keys/sec</td>
+      </tr>
+      <tr>
+        <td data-label="Feature">Geo-Fencing</td>
+        <td data-label="Basic">✔</td>
+        <td data-label="Elite">✔</td>
+      </tr>
+      <tr>
+        <td data-label="Feature">WiFi Triggers</td>
+        <td data-label="Basic">✔</td>
+        <td data-label="Elite">✔</td>
+      </tr>
+      <tr>
+        <td data-label="Feature">Port Stealthing</td>
+        <td data-label="Basic"><br></td>
+        <td data-label="Elite">✔</td>
+      </tr>
+      <tr>
+        <td data-label="Feature">Self-Destruct</td>
+        <td data-label="Basic"><br></td>
+        <td data-label="Elite">✔</td>
+      </tr>
+      <tr>
+        <td data-label="Feature">HIDX StealthLink</td>
+        <td data-label="Basic"><br></td>
+        <td data-label="Elite">✔</td>
+      </tr>
+      <tr>
+        <td data-label="Feature">Encrypted Network C2</td>
+        <td data-label="Basic"><br></td>
+        <td data-label="Elite">✔</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="3" style="color:#777; text-align:center; font-size:12px;">
+          All specs are based on devices using the latest Beta firmware
+        </td>
+      </tr>
+    </tfoot>
+  </table>
+</div>
+</div>
+</div>
+<div class="contentGroup">
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>Usage Instructions</strong></h2>
+<p>The O.MG Plug has three distinct modes:</p>
+<ol>
+<li>
+<strong>Programming<br></strong>Because the device acts as a standard USB device, it needs to be pushed into programming / DFU mode. This is done by using the "Programming Shield".<br><br>The Programming Shield is connected to a host device, and the O.MG Plug is plugged into the Shield. <br><br>The O.MG Plug can now be programmed: Its WIFI settings can be configured, and payloads and trigger settings can be uploaded to the device.<br><br>Programming is possible via a web-interface or smartphone app.<br><br>
+</li>
+<li>
+<strong>Deployed<br></strong>The device is 'Deployed' when it is connected to the target machine. <br>It can be configured to have any USB identifier (VID/PID) or network MAC address. In this mode, the device is dormant until triggered.<br><br>
+</li>
+<li>
+<strong>Triggered<br></strong>The device is triggered wirelessly via Wifi. It can be triggered by smartphone, or by dedicated remote control.<br>
+</li>
+</ol>
+<ul>
+<ul></ul>
+</ul>
+<ul></ul>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h3>Technical Specifications</h3>
+<meta charset="utf-8">
+<ul>
+<li>
+<strong>Physical Characteristics</strong>
+<ul>
+<li>Color: Black or White<br>
+</li>
+<li>Connector: USB-A</li>
+</ul>
+</li>
+</ul>
+<li><strong>Wireless Specifications</strong></li>
+<ul>
+<li>Wifi, 802.11b/g/n (2.4GHz)</li>
+</ul>
+<li>
+<strong>Mobile App</strong>
+<ul>
+<li>Alternative to remote control for triggering payload</li>
+<li>Open source and freely available</li>
+</ul>
+</li>
+<li>
+<strong>Programming</strong>
+<ul>
+<li>Payload Script: DuckyScript compatible with additional features.<br>
+</li>
+<li>Smartphone interface<br>
+</li>
+<li>In-Browser interface<br>
+</li>
+</ul>
+</li>
+<meta charset="utf-8">
+<h3>Technical Resources:</h3>
+<ul>
+<li><a href="https://o.mg.lol/setup/" target="_blank">O.MG Official Wiki</a></li>
+<li><a href="https://github.com/O-MG/" target="_blank">O.MG Official GitHub</a></li>
+<li><a href="https://hak5.org/discord" target="_blank">O.MG Official Discord</a></li>
+</ul>
+</div>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Hak5</s:tag>
+    <s:tag>O.MG</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10317477183835</id>
+      <title>Basic / White</title>
+      <s:price currency="EUR">120.00</s:price>
+      <s:sku>HAK5-OMG-PLUG-BASIC-WHITE</s:sku>
+      <s:grams>50</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/10317477183835</id>
+      <title>Elite / Black</title>
+      <s:price currency="EUR">165.00</s:price>
+      <s:sku>HAK5-OMG-PLUG-ELITE-BLACK</s:sku>
+      <s:grams>50</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/10317477183835</id>
+      <title>Elite / White</title>
+      <s:price currency="EUR">165.00</s:price>
+      <s:sku>HAK5-OMG-PLUG-ELITE-WHITE</s:sku>
+      <s:grams>50</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/3948055101551</id>
+    <published>2022-06-20T15:00:36+02:00</published>
+    <updated>2022-06-20T15:00:36+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/rubber-ducky"/>
+    <title>Rubber Ducky</title>
+    <s:type>Pen Testing</s:type>
+    <s:vendor>Hak5</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/2023---hak5-rubber-ducky-1.png?v=1689852107"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hak5<br>
+        <strong>Type: </strong>Pen Testing<br>
+        <strong>Price: </strong>
+            150.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><em>This is the updated edition of the Rubber Ducky with USB-C and USB-A connections!<br></em></p>
+<p>The <strong>Hak5 Rubber Ducky</strong> is an automated USB-Keystroke Injection Platform. Pocket-sized, powerful and cross-platform, when plugged into a device, the Rubber Ducky emulates a keyboard and executes its payload, typing at over 1000 words per minute.</p>
+<p>Whatever you could do via keyboard on a machine, the Rubber Ducky can do, but better, faster and covert.</p>
+<p>Available with or without the official Hak5 Rubber Ducky Field Guide <em>(50 pages)</em> - perfect for hitting the ground running.</p>
+<h2><strong>Platform Overview <br></strong></h2>
+<p>Regardless of operating system (MacOS, Linux, Windows, Android) - all modern devices implement the notion of <em>trusted devices - </em>that is devices that a system will automatically trust and accept <em>without the need for confirmation</em> or drivers.</p>
+<p>HID ("Human Input Devices") - Keyboards, Mice, etc are the cornerstone of this trust system. Across all platforms - Windows, MacOS, Linux, Android - devices have complete trust of keyboards.</p>
+<p>The Rubber Ducky abuses this trust. By masquerading as a keyboard, it is able to deliver keystrokes at highspeed.</p>
+<p>Payloads are completely customisable, and the Rubber Ducky is backed by the Hak5 Community - hundreds of payloads are available.</p>
+<p>Although it is infinitely configurable, common use cases include:</p>
+<div class="grid" style="margin: 2em 3em;">
+<div class="grid-item small--one-whole medium--one-whole large--one-half text-center">
+<h3>Penetration Testing</h3>
+<p>Whatever you could do in front of a keyboard, the Rubber Ducky can do faster. Steal passwords. Establish RATs. Exfiltrate data. Install backdoors. Poison DNS.<br>If you've got access to an unlocked system, put the Rubber Ducky to work for you.</p>
+</div>
+<div class="grid-item small--one-whole medium--one-whole large--one-half text-center">
+<h3>System Administration</h3>
+<p>Leverage Keystroke Injection to automate repetitive tasks. Log cleaning, forensics, system updates. Let the Rubber Ducky do the typing for you.</p>
+</div>
+</div>
+<div class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x Hak5 Rubber Ducky</li>
+<li>1x Quick-Start Guide</li>
+<li>1x Rubber Ducky</li>
+</ul>
+<h2><strong>Technical Specifications<br></strong></h2>
+<ul>
+<li>Weight: 15g</li>
+<li>Dimensions: 50x20x9mm<br><br>
+</li>
+<li>Atmel 32bit AVR Microcontroller AT32UC3B1256<br><br>
+</li>
+<li>1x RGB Indicator LED</li>
+<li>1x Programmable Push Button</li>
+<li>1x JTAG Interface</li>
+<li>1x MicroSD Card reader</li>
+</ul>
+<meta charset="utf-8">
+<h2><strong>Shipping &amp; Packaging</strong></h2>
+<ul>
+<li>Each Rubber Ducky is dispatched from <strong>Europe</strong> - no need to worry about slow shipping times, import duties or damaged goods.</li>
+<li>Packed in a sturdy compact 85x130x45mm box.</li>
+<li>We provide worldwide shipping with express options.</li>
+</ul>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>Rubber Ducky Technical Resources</strong></h2>
+<strong>Tutorials &amp; Guides</strong>
+<ul>
+<li>
+<a href="https://documentation.hak5.org/hak5-usb-rubber-ducky/unboxing-quack-start-guide" target="_blank">Getting Started</a> <em>(4 Articles)</em>
+</li>
+<li>
+<a href="https://shop.hak5.org/blogs/usb-rubber-ducky" target="_blank">Payloads and How-To</a> <em>(4 Articles)</em>
+</li>
+<li>
+<a href="https://documentation.hak5.org/hak5-usb-rubber-ducky/tips-and-troubleshooting/common-issues" target="_blank">FAQ / Troubleshooting</a> <em>(6 Articles)<br><br></em>
+</li>
+<li>
+<a href="https://shop.hak5.org/blogs/usb-rubber-ducky/the-3-second-reverse-shell-with-a-usb-rubber-ducky" target="_blank">Get a reverse shell in 3 seconds</a><em></em>
+</li>
+<li><a href="https://shop.hak5.org/blogs/usb-rubber-ducky/15-second-password-hack-mr-robot-style" target="_blank">15 Second Password Hack: Mr Robot Style</a></li>
+<li><a href="https://shop.hak5.org/blogs/usb-rubber-ducky/whats-the-quickest-way-to-steal-a-windows-password-hash" target="_blank">Rubber Ducky Data Exfiltration</a></li>
+</ul>
+<strong>Community Resources</strong>
+<ul>
+<li><a href="https://payloadstudio.hak5.org">Payload Generator / Encoder / Decoder</a></li>
+<li><a href="https://github.com/hak5/usbrubberducky-payloads" target="_blank">Hak5 Rubber Ducky Payload Repository</a></li>
+<li><a href="https://forums.hak5.org/forum/111-new-usb-rubber-ducky/" target="_blank">Rubber Ducky Forum</a></li>
+</ul>
+<h2><strong>Compatible Systems</strong></h2>
+<ul>
+<li>Windows: XP, 7, 8, 10 (All Versions)</li>
+<li>OS/X: 10.0 - 10.7 (All Versions)</li>
+<li>Linux: Debian, Ubuntu, CentOS, etc (All Versions)</li>
+<li>Android: Requires USB / OTG Support</li>
+</ul>
+</div>
+</div>
+<div>
+<h2>New USB Rubber Ducky - Overview</h2>
+<figure><video lite-youtube="" videoid="r2Gd7BtE0i0" posterquality="maxresdefault" params="rel=0"></video></figure>
+<h2>Keystroke Reflection - New Side-Channel Exfiltration Technique</h2>
+<figure><video lite-youtube="" videoid="Qg1M3jUCPgw" posterquality="maxresdefault" params="rel=0"></video></figure>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Hak5</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>Red Teaming</s:tag>
+    <s:tag>Rubber Ducky</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:tag>USB</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/3948055101551</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">150.00</s:price>
+      <s:sku>HAK5-RUBBERDUCKY</s:sku>
+      <s:grams>200</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/7822844133606</id>
+    <published>2022-06-20T15:00:07+02:00</published>
+    <updated>2022-06-20T15:00:07+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/o-mg-cable"/>
+    <title>O.MG Cable</title>
+    <s:type>Pen Testing</s:type>
+    <s:vendor>Hak5</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/2023---OMG-Cable---USB-A-to-MicroUSB.png?v=1689850687"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hak5<br>
+        <strong>Type: </strong>Pen Testing<br>
+        <strong>Price: </strong>
+            210.00 - 295.00
+            <a href="https://lab401.com/products/o-mg-cable">(9 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2><strong>Introduction</strong></h2>
+<p><em>All O.M.G products are the updated (2024-25) versions.<br></em></p>
+<p>The O.MG Cable resembles an ordinary USB-cable with a highly covert secret. Invisibly concealed in the cable is a USB exploit framework allowing for HID-attacks remote via local or remote triggering of custom payloads.<br></p>
+<p>While dormant, the O.MG cable functions as a regular USB Cable: Data Transfer, Recharging, etc. However, when triggered (via smartphone / computer / plugging in) - it executes its preprogrammed payload on the host device.</p>
+<p>Emulating keyboard and mouse actions, payloads are completely customisable, and can be highly targeted.</p>
+<p>Undetectable by firewalls, AV software or visual inspection, the O.MG is an ideal tool for penetration testers, police and government.</p>
+<h2><strong>Functionality in a glance</strong></h2>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-third medium--one-third large--one-third text-center">
+<h2>Undetectable</h2>
+<p>Invisible to firewalls, anti-virus and visual inspection.</p>
+</div>
+<div class="grid-item small--one-third medium--one-third large--one-third text-center">
+<h2>Highly targetable</h2>
+<p>Customise payloads to match specific environments.</p>
+</div>
+<div class="grid-item small--one-third medium--one-third large--one-third text-center">
+<h2>Wireless triggering</h2>
+<p>Payload can be triggered wirelessly at any time.</p>
+</div>
+</div>
+<div style="margin-top: 2em;">
+<h2>Basic Vs Elite</h2>
+<p>The newly released <b>elite</b> O.MG cables have a more powerful chipset, allowing for even more advanced functionality: Injections are 8x faster, 25x more memory, covert data ex-filtration (even in air-gapped situations) and extended WiFi range.</p>
+<p>Check out the full comparison below:</p>
+</div>
+<table width="100%">
+<thead>
+<tr>
+<th class="col0">Cable Version</th>
+<th class="col1" align="center">Basic</th>
+<th class="col2" align="center">Elite</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="col0" align="center" style="text-align: left;"><strong>Keystroke Injection (DuckyScript™)</strong></td>
+<td class="col1" align="center">✔️</td>
+<td class="col2" align="center">✔️</td>
+</tr>
+<tr>
+<td class="col0" align="center" style="text-align: left;"><strong>Mouse Injection</strong></td>
+<td class="col1" align="center">✔️</td>
+<td class="col2" align="center">✔️</td>
+</tr>
+<tr>
+<td class="col0" align="center" style="text-align: left;"><strong>Payload Slots</strong></td>
+<td class="col1" align="center">8</td>
+<td class="col2" align="center">50 - 200</td>
+</tr>
+<tr>
+<td class="col0" align="center" style="text-align: left;"><strong>Payload Speed</strong></td>
+<td class="col1" align="center">120 keys/sec</td>
+<td class="col2" align="center">890 keys/sec</td>
+</tr>
+<tr>
+<td class="col0" align="center" style="text-align: left;"><strong>Self-Destruct</strong></td>
+<td class="col1" align="center">✔️</td>
+<td class="col2" align="center">✔️</td>
+</tr>
+<tr>
+<td class="col0" align="center" style="text-align: left;"><strong>Geo-Fencing</strong></td>
+<td class="col1" align="center">✔️</td>
+<td class="col2" align="center">✔️</td>
+</tr>
+<tr>
+<td class="col0" align="center" style="text-align: left;"><strong>WiFi Triggers</strong></td>
+<td class="col1" align="center">✔️</td>
+<td class="col2" align="center">✔️</td>
+</tr>
+<tr>
+<td class="col0" align="center" style="text-align: left;"><strong>Keyboard Logging</strong></td>
+<td class="col1" align="center"></td>
+<td class="col2" align="center">✔️</td>
+</tr>
+<tr>
+<td class="col0" align="center" style="text-align: left;"><strong>Covert Data Exfil</strong></td>
+<td class="col1" align="center"></td>
+<td class="col2" align="center">✔️</td>
+</tr>
+<tr>
+<td class="col0" align="center" style="text-align: left;"><strong>Air Gap Comms</strong></td>
+<td class="col1" align="center"></td>
+<td class="col2" align="center">✔️</td>
+</tr>
+<tr>
+<td class="col0" align="center" style="text-align: left;"><strong>Networked C2</strong></td>
+<td class="col1" align="center"></td>
+<td class="col2" align="center">✔️</td>
+</tr>
+<tr>
+<td class="col0" align="center" style="text-align: left;"><strong>Extended Wifi Range</strong></td>
+<td class="col1" align="center"></td>
+<td class="col2" align="center">✔️</td>
+</tr>
+<tr>
+<td class="col0" align="center" style="text-align: left;"><strong>Stealth-Optimized Power Draw</strong></td>
+<td class="col1" align="center"></td>
+<td class="col2" align="center">✔️</td>
+</tr>
+</tbody>
+</table>
+<div style="margin-top: 2em;">
+<h2>What's Included</h2>
+<p>The O.MG Cable comes in multiple versions depending on your target systems:</p>
+<ul>
+<li>USB-C (White Cable)<br>
+</li>
+<li>MicroUSB (Black Cable)<br>
+</li>
+<li>Lightning (White Cable)<br>
+</li>
+</ul>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>Usage Instructions</strong></h2>
+<p>The O.MG Cable has three distinct modes:</p>
+<ol>
+<li>
+<strong>Programming<br></strong>Because the device acts as a standard USB cable, it needs to be pushed into programming / DFU mode. This is done by using the "Programming Shield".<br><br>The Programming Shield is connected to a host device, and the O.MG cable is plugged into the Shield. <br><br>The O.MG Cable can now be programmed: Its WIFI settings can be configured, and payloads and trigger settings can be uploaded to the device.<br><br>Programming is possible via a web-interface or smartphone app.<br><br>
+</li>
+<li>
+<strong>Deployed<br></strong>The device is 'Deployed' when it is connected to the target machine. <br>It will operate as a standard USB cable, allowing for data transfer and power transfer. It is able to stay in this state indefinitely until it is triggered.<br><br>
+</li>
+<li>
+<strong>Triggered<br></strong>The device is triggered wirelessly via Wifi. It can be triggered by smartphone, or by dedicated remote control.<br>
+</li>
+</ol>
+<ul>
+<ul></ul>
+</ul>
+<ul></ul>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h3>Technical Specifications</h3>
+<meta charset="utf-8">
+<ul>
+<li>
+<strong>Cable Physical Characteristics</strong>
+<ul>
+<li>Length: 1 m</li>
+<li>Color: white for USB-C and Lightning, Black for Micro-USB &amp; USB-C<br>
+</li>
+<li>Connector options: Micro-USB, USB Type-C, Lightning</li>
+<li>Voltage range: 5v (supports fast charging)</li>
+<li>Current consumption: 10 mA (typical)</li>
+<li>Data Speed: USB 2.0<br>
+</li>
+</ul>
+</li>
+<li><strong>Wireless Specifications</strong></li>
+<ul>
+<li>Wifi, 802.11b/g/n (2.4GHz)</li>
+</ul>
+<li>
+<strong>Mobile App</strong>
+<ul>
+<li>Alternative to remote control for triggering payload</li>
+<li>Open source and freely available</li>
+</ul>
+</li>
+<li>
+<strong>Programming</strong>
+<ul>
+<li>Payload Script: DuckyScript compatible with additional features.<br>
+</li>
+<li>Smartphone interface<br>
+</li>
+<li>In-Browser interface<br>
+</li>
+</ul>
+</li>
+</ul>
+<meta charset="utf-8">
+<h3>Technical Resources:</h3>
+<ul>
+<li><a href="https://o.mg.lol/setup/" target="_blank">O.MG Official Wiki</a></li>
+<li><a href="https://github.com/O-MG/" target="_blank">O.MG Official GitHub</a></li>
+<li><a href="https://hak5.org/discord" target="_blank">O.MG Official Discord</a></li>
+</ul>
+</div>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Hak5</s:tag>
+    <s:tag>O.MG</s:tag>
+    <s:tag>OMG</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/7822844133606</id>
+      <title>USB-C to USB-C / Elite / Black</title>
+      <s:price currency="EUR">295.00</s:price>
+      <s:sku>HAK5-OMG-USB-C-TO-C-ELITE-BLACK</s:sku>
+      <s:grams>50</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/7822844133606</id>
+      <title>USB-A to USB-C / Elite / White</title>
+      <s:price currency="EUR">265.00</s:price>
+      <s:sku>HAK5-OMG-USB-C-ELITE</s:sku>
+      <s:grams>50</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/7822844133606</id>
+      <title>USB-A to USB-C / Elite / Black</title>
+      <s:price currency="EUR">265.00</s:price>
+      <s:sku>HAK5-OMG-USB-C-ELITE-BLACK</s:sku>
+      <s:grams>50</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/7822844133606</id>
+      <title>USB-A to USB-C / Standard / White</title>
+      <s:price currency="EUR">210.00</s:price>
+      <s:sku>HAK5-OMG-USB-C</s:sku>
+      <s:grams>50</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/7822844133606</id>
+      <title>USB-A to USB-C / Standard / Black</title>
+      <s:price currency="EUR">210.00</s:price>
+      <s:sku>HAK5-OMG-USB-C-BLACK</s:sku>
+      <s:grams>50</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/7822844133606</id>
+      <title>USB-A to MicroUSB / Elite / Black</title>
+      <s:price currency="EUR">265.00</s:price>
+      <s:sku>HAK5-OMG-MICROUSB-ELITE</s:sku>
+      <s:grams>50</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/7822844133606</id>
+      <title>USB-A to MicroUSB / Standard / Black</title>
+      <s:price currency="EUR">210.00</s:price>
+      <s:sku>HAK5-OMG-MICROUSB</s:sku>
+      <s:grams>50</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/7822844133606</id>
+      <title>USB-A to Lightning / Elite / White</title>
+      <s:price currency="EUR">265.00</s:price>
+      <s:sku>HAK5-OMG-LIGHTNING-ELITE</s:sku>
+      <s:grams>50</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/7822844133606</id>
+      <title>USB-A to Lightning / Standard / White</title>
+      <s:price currency="EUR">210.00</s:price>
+      <s:sku>HAK5-OMG-LIGHTNING</s:sku>
+      <s:grams>50</s:grams>
+    </s:variant>
+  </entry>
+</feed>

@@ -1,0 +1,1012 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/collections/proxmark.atom"/>
+  <title>Lab401</title>
+  <updated>2022-06-20T15:00:42+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/products/1350524502127</id>
+    <published>2022-06-20T15:00:42+02:00</published>
+    <updated>2022-06-20T15:00:42+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/proxmark-3-rdv4"/>
+    <title>Proxmark 3 RDV4.01</title>
+    <s:type>Proxmark</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/Proxmark-3-RDV-4.1-New-Antenna-Front.png?v=1567146103"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>Proxmark<br>
+        <strong>Price: </strong>
+            329.00 - 529.00
+            <a href="https://lab401.com/products/proxmark-3-rdv4">(2 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="highlight-block">
+   <p>Also available in the <strong><em><a href="/products/lab401-pentester-pack">Lab401 Pentester Pack</a></em></strong> - with an instant discount of €105.</p>
+</div>
+<p>The Proxmark 3 is a dedicated, highly-capable multi-tool for RFID analysis, <span>providing reading, writing, analysis, snooping, replaying, emulation, modulation, demodulation, decoding, encoding, decryption, encryption for any RFID system operating in the 125KHz, 134KHz and 13.56MHz frequencies.</span> </p>
+<p>Since its original creation in 2007, there have been huge leaps in the electronics field. The Proxmark 3 RDV4.01 is a fully revised, modernized version of the already powerful RDV2.</p>
+<p>This is the <strong>4.01</strong> version of the device which includes multiple improvements over the 4.0 version, including:</p>
+<ul>
+   <li>Reduced power supply noise</li>
+   <li>Gold-plated FPC Connector</li>
+   <li>Antenna "Q-Switch" allowing for adapting antennas to specific operations</li>
+   <li>Antenna Frequency Switch allowing for optimised 125KHz and 134KHz performance</li>
+</ul>
+<p> </p>
+<h2><strong>Overview</strong></h2>
+<p>The Proxmark 3 RDV4.01 is the latest revision of the Proxmark 3 Platform. It is designed and manufactured by RRG, a company formed by four people instrumental to the Proxmark 3 including:</p>
+<ul>
+   <li>Chris Hermann (iceman) - Moderator of the proxmark forums</li>
+   <li>Kevin (0xFFFF) - Moderator of the proxmark forums</li>
+</ul>
+<p>The RDV 4.01 revision represents a highly optimised piece of hardware specifically designed for the pen-testing community:</p>
+<ul>
+   <li> <strong>Covert</strong>: Fits easily into a hand and pocket</li>
+   <li> <strong>Modular</strong>: Rapidly switch pre-tuned antennas for more range when in the field</li>
+   <li> <strong>Intuiative</strong>: Multiple Status LEDs for at-a-glance status checking</li>
+   <li> <strong>Android Compatible</strong>: Works with<span> </span><a href="https://walrus.app/">Project Walrus</a><span> </span>for automated red-teaming</li>
+   <li> <strong>Expandable</strong>: BLE/Wifi module expansion capability for automated data egress</li>
+</ul>
+<ul></ul>
+<h2><strong>Improvements</strong></h2>
+<p>The RDV4 has been designed and optimised for penetration testing, where performance and discretion are utmost priorities.<br>Below is a non-exhaustive list of improvements over the Proxmark 3 RDV2.</p>
+<div class="grid" style="margin: 2em 3em;">
+   <div class="grid-item small--one-whole medium--one-half large--one-fifth text-center">
+      <h3>Small &amp; durable</h3>
+      <p>Business card sized, ABS case. </p>
+   </div>
+   <div class="grid-item small--one-whole medium--one-half large--one-fifth text-center">
+      <h3>More Capable</h3>
+      <p>Updated CPU and over 8x memory.</p>
+   </div>
+   <div class="grid-item small--one-whole medium--one-half large--one-fifth text-center">
+      <h3>Internal Antennas</h3>
+      <p>Highly optimised internal antennas.</p>
+   </div>
+   <div class="grid-item small--one-whole medium--one-half large--one-fifth text-center">
+      <meta charset="utf-8">
+      <h3>Modular System</h3>
+      <p>Hot-swappable antennas &amp; SIM reader.</p>
+   </div>
+   <div class="grid-item small--one-whole medium--one-half large--one-fifth text-center">
+      <h3>Ready to go</h3>
+      <p>Everything you need is included in the box.</p>
+   </div>
+</div>
+<div class="grid">
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+      <h2><strong>Proxmark 3 Functionality Comparison</strong></h2>
+      <p>There are multiple versions of the Proxmark, optimised for desktop use or penetration testing. Please check the table below to find the version that corresponds with your needs.</p>
+      <table class="table table-striped table-bordered">
+         <thead>
+            <tr>
+               <th>Feature</th>
+               <th>Proxmark 3 RDV 4.01</th>
+               <th>Proxmark 3 EVO</th>
+               <th>Others (RDV2, Easy, etc)</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>Internal Antennas</td>
+               <td>X</td>
+               <td>X</td>
+               <td><br></td>
+            </tr>
+            <tr>
+               <td>ABS Case</td>
+               <td>X</td>
+               <td>X</td>
+               <td><br></td>
+            </tr>
+            <tr>
+               <td>Miniaturised</td>
+               <td>X</td>
+               <td>X</td>
+               <td><br></td>
+            </tr>
+            <tr>
+               <td>Pentesting Optimised</td>
+               <td>X</td>
+               <td><br></td>
+               <td><br></td>
+            </tr>
+            <tr>
+               <td>Desktop Optimised</td>
+               <td><br></td>
+               <td>X</td>
+               <td><br></td>
+            </tr>
+            <tr>
+               <td>SIM/SAM Reader</td>
+               <td>X</td>
+               <td><br></td>
+               <td><br></td>
+            </tr>
+            <tr>
+               <td>Swappable Antennas</td>
+               <td>X</td>
+               <td><br></td>
+               <td><br></td>
+            </tr>
+            <tr>
+               <td>Long Range Antenna</td>
+               <td>X</td>
+               <td><br></td>
+               <td><br></td>
+            </tr>
+            <tr>
+               <td>Interface</td>
+               <td>8x LED</td>
+               <td>1x RGB LED</td>
+               <td>1x LED</td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+      <h2><strong>Proxmark 3 Technical Comparison</strong></h2>
+      <meta charset="utf-8">
+      <meta charset="utf-8">
+      <p><span>There are multiple versions of the Proxmark, optimised for desktop use or penetration testing. Please check the table below to find the version that corresponds with your needs.</span></p>
+      <table class="table table-striped table-bordered" style="margin-bottom: 3em;">
+         <thead>
+            <tr>
+               <th>Feature</th>
+               <th>Proxmark 3 RDV 4.01</th>
+               <th>Proxmark 3 EVO</th>
+               <th>Others (RDV2, Easy, etc)</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>CPU</td>
+               <td>SAM7S512</td>
+               <td>AT91SAM7S512</td>
+               <td>AT91SAM7S512 / AT91SAM7S256</td>
+            </tr>
+            <tr>
+               <td>Memory</td>
+               <td>External 2MBits Internal 512Kb SPI</td>
+               <td>External 2MBits Internal 512Kb SPI</td>
+               <td>External None Internal 256 - 512Kb SPI</td>
+            </tr>
+            <tr>
+               <td>LF Read Range</td>
+               <td>70mm @ 65V</td>
+               <td>40mm @ 55V</td>
+               <td>10mm - 35mm</td>
+            </tr>
+            <tr>
+               <td>HF Read Range</td>
+               <td>40 - 85mm @ 44V</td>
+               <td>50mm @ 40V</td>
+               <td>10mm - 40mm</td>
+            </tr>
+            <tr>
+               <td>HF Read Range (medium antenna)</td>
+               <td>90mm</td>
+               <td><br></td>
+               <td><br></td>
+            </tr>
+            <tr>
+               <td>HF Read Range (large antenna)</td>
+               <td>100 - 120mm</td>
+               <td><br></td>
+               <td><br></td>
+            </tr>
+            <tr>
+               <td>Dimensions</td>
+               <td>54x87x10mm</td>
+               <td>60x90x12mm</td>
+               <td>At least 150x50mmx50mm</td>
+            </tr>
+            <tr>
+               <td>Expandable Framework?</td>
+               <td>Yes</td>
+               <td><br></td>
+               <td><br></td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
+</div>
+<div class="grid">
+   <div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+      <h2><strong>What's included</strong></h2>
+      <meta charset="utf-8">
+      <p><strong>Standard Accessory Pack</strong></p>
+      <ul>
+         <li>1x Proxmark 3 RDV4.01<strong></strong> </li>
+         <li>1x Pretuned LF Antenna - 125KHz &amp; 134KHz (Internal)</li>
+         <li>1x Pretuned HF Antenna - 13.56MHz (Internal)</li>
+         <li>1x Micro USB Cable</li>
+         <li>1x Screw Driver (for external antenna mounting)</li>
+         <li>1x SIM / SAM Reader Module</li>
+      </ul>
+      <p><strong>RFID Tags / Cards</strong></p>
+      <ul>
+         <li>1x 'Magic' 1k UID Changeable - PVC Card format</li>
+         <li>1x T5577 Tag - PVC Card format</li>
+      </ul>
+      <meta charset="utf-8">
+      <strong>Complete Accessory Pack</strong><br> 
+      <ul>
+         <li>1x <a href="https://lab401.com/products/proxmark-3-rdv4-standalone-kit">Standalone Module (Battery + Bluetooth)</a> </li>
+         <li>1x <a href="/products/proxmark-3-rdv4-long-range-hf-antenna-1" target="_blank">HF Antenna Pack (1x Mid Range, 1x Long Range)</a> </li>
+         <li>1x <a href="/products/proxmark-3-rdv4-01-long-range-lf-antenna-pack">LF Antenna Pack (1x Mid Range, 1x Long Range)</a> </li>
+      </ul>
+      <h2><strong>Shipping &amp; Packaging</strong></h2>
+      <ul>
+         <li>Each Proxmark 3 RDV 4 is dispatched from <strong>Europe</strong> - no need to worry about slow shipping times, import duties or damaged goods.</li>
+         <li>Packed in a sturdy compact 85x130x45mm box.</li>
+         <li>We provide worldwide shipping with express options.</li>
+      </ul>
+   </div>
+   <div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+      <h2><strong>Compatible Systems</strong></h2>
+      <ul>
+         <li>Windows: XP, 7, 8, 10 (All Versions)</li>
+         <li>OS/X: 10.0 - 10.7 (All Versions)</li>
+         <li>Linux: Debian, Ubuntu, CentOS, etc (All Versions)</li>
+         <li>Android: Specific Builds</li>
+      </ul>
+      <h2><strong>Proxmark Resources</strong></h2>
+      <strong>Technical Documents</strong> 
+      <ul>
+         <li><a href="/docs/Proxmark%20III%20User%20Guide.pdf" target="_blank">Installation / Introduction Manual</a></li>
+         <li><a href="https://github.com/rfidResearchGroup/proxmark3">Compiling / Flashing Manual</a></li>
+         <li><a href="https://github.com/RfidResearchGroup/proxmark3/blob/master/doc/termux_notes.md">Android Usage</a></li>
+         <li><a href="https://youtu.be/HRVPyRTZqy8" target="_blank">Updating Proxmark 3 Firmware on Kali</a></li>
+         <li><a href="https://youtu.be/lPe9Y-YpWnY">Updating Proxmark 3 Firmware on Windows</a></li>
+      </ul>
+      <strong>Community / Usage / Tutorial Resources</strong> 
+      <ul>
+         <li><a href="https://www.proxmark.org/forum/index.php" target="_blank">Proxmark Community Forums</a></li>
+         <li><a href="https://github.com/rfidResearchGroup/proxmark3" target="_blank">Proxmark Github repository</a></li>
+         <li><a href="https://youtu.be/pE50JHaYvSU" title="RFID 101 : Understand what is RFID and how it works" target="_blank">Tutorial 1: Introduction to RFID</a></li>
+         <li><a href="https://youtu.be/kk-W7aZXIS4" title="Identify Unknown Cards with the Proxmark" target="_blank">Tutorial 2: Identifying Unknown Cards with Proxmark</a></li>
+         <li><a href="https://lab401.com/blogs/academy/proxmark-basics-cloning-mifare" target="_blank">Tutorial 3: Cloning MIFARE Cards with Proxmark 3</a></li>
+         <li><a href="https://www.fuzzysecurity.com/tutorials/rfid/3.html">Tutorial 4: EasyCard - Reverse engineering an RFID Payment System</a></li>
+      </ul>
+      <strong>Proxmark Research Papers / Presentations</strong> 
+      <ul>
+         <li><a href="https://flaviodgarcia.com/publications/Tutorial_Proxmark_the_Swiss_Army_Knife_for_RFID_Security_Research-RFIDSec12.pdf" target="_blank">Proxmark3: The Swiss Army Knife of Security Research</a></li>
+         <li><a href="https://media.blackhat.com/bh-us-12/Briefings/C_Miller/BH_US_12_Miller_NFC_attack_surface_WP.pdf" target="_blank">Exploring the NFC Attack Surface</a></li>
+         <li><a href="https://www.proxmark.org/documents/mifare_weakness.pdf">A Practical Attack on the MF Classic</a></li>
+         <li><a href="https://proxmark.nl/files/Documents/NFC/Potential_misuse_of_NFC_enabled_mobile_phones_with_embedded_security_elements_as_contactless_attack_platforms.pdf">Potential Misuse of NFC Enabled Mobile Phones with Embedded Security Elements as Contactless Attack Platforms</a></li>
+         <li><a href="https://gerhard.dekoninggans.nl/documents/publications/dekoninggans.phd.thesis.pdf">Outsmarting Smart Cards</a></li>
+         <li><a href="/blogs/news/proxmark-3-rdv2-bypasses-millions-of-hotel-rooms">Proxmark 3 RDV2 cracks Millions of Hotel Rooms</a></li>
+      </ul>
+   </div>
+</div>
+<div>
+   <h2><strong>Proxmark 3 RDV4.01 Unboxing and overview</strong></h2>
+   <p>
+      <figure>
+         <video lite-youtube="" videoid="51bWAtraEDw" posterquality="maxresdefault" params="rel=0"></video>
+      </figure>
+   </p>
+</div>
+</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>proxmark</s:tag>
+    <s:tag>Proxmark 3 RDV4</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/1350524502127</id>
+      <title>Standard</title>
+      <s:price currency="EUR">329.00</s:price>
+      <s:sku>PM3-RDV4-BASIC</s:sku>
+      <s:grams>184</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/1350524502127</id>
+      <title>Complete</title>
+      <s:price currency="EUR">529.00</s:price>
+      <s:sku>PM3-RDV4-COMPLETE</s:sku>
+      <s:grams>226</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/1385019179119</id>
+    <published>2022-06-20T15:00:41+02:00</published>
+    <updated>2022-06-20T15:00:41+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/proxmark-3-rdv4-long-range-hf-antenna-1"/>
+    <title>Proxmark 3 RDV4.01- Long Range HF Antenna Pack</title>
+    <s:type>Proxmark</s:type>
+    <s:vendor>RRG</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/Proxmark-3-RDV-4.1-HF-Antenna-Box.png?v=1567172483"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>RRG<br>
+        <strong>Type: </strong>Proxmark<br>
+        <strong>Price: </strong>
+            79.99
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2><strong>Introduction</strong></h2>
+<p>The Proxmark 3 RDV4 has a modular antenna system, allowing for antennas to be hot-swapped depending on your assignment requirements.</p>
+<p>The Long Range HF External Antenna Pack containts two high performance, pre-tuned for antennas the Proxmark 3 RDV4, providing the highest read/write/sniff performance possible on an un-amplified external antenna</p>
+<p>Performance information is below:</p>
+<table class="table table-striped table-bordered">
+<thead>
+<tr>
+<th>Antenna Type</th>
+<th>Read Distance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HF Read Range (Built-in)</td>
+<td>40 - 85mm</td>
+</tr>
+<tr>
+<td><strong>HF Read Range (medium antenna)</strong></td>
+<td>90mm</td>
+</tr>
+<tr>
+<td><strong>HF Read Range (long range antenna)</strong></td>
+<td><strong>100 - 120mm</strong></td>
+</tr>
+</tbody>
+</table>
+<h2><strong></strong></h2>
+<div class="grid">
+<div class="grid-item small--one-fifth medium--one-fifth large--one-fifth text-center"></div>
+</div>
+<div class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x Long Range Antenna</li>
+<li>1x Medium Range Antenna</li>
+</ul>
+<ul></ul>
+<h2><strong>Shipping &amp; Packaging</strong></h2>
+<ul>
+<li>Each item is dispatched from <strong>Europe</strong> - no need to worry about slow shipping times, import duties or damaged goods.</li>
+<li>Packed in sturdy packaging.</li>
+<li>We provide worldwide shipping with express options.</li>
+</ul>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>Compatible Systems</strong></h2>
+<ul>
+<li><a href="/collections/hardware/products/proxmark-3-rdv4">Proxmark 3 RDV 4.01</a></li>
+</ul>
+<h2><strong></strong></h2>
+</div>
+</div>
+<h2><strong>Long Range HF Antenna Pack Unboxing</strong></h2>
+<figure><video lite-youtube="" videoid="oMlATY2mtgw" posterquality="maxresdefault" params="rel=0"></video></figure></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>antenna</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>proxmark</s:tag>
+    <s:tag>Proxmark 3 RDV4</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/1385019179119</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">79.99</s:price>
+      <s:sku>PM3-RDV4-HF-PACK</s:sku>
+      <s:grams>50</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/1435438874735</id>
+    <published>2022-06-20T15:00:40+02:00</published>
+    <updated>2022-06-20T15:00:40+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/proxmark-3-rdv4-sim-sam-extension"/>
+    <title>Proxmark 3 RDV4 - SIM/SAM Extension</title>
+    <s:type>Proxmark</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/SIMHolder.png?v=1534892810"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>Proxmark<br>
+        <strong>Price: </strong>
+            19.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2><strong>Introduction</strong></h2>
+<p>The Proxmark 3 RDV4 has support for SIM/SAM debugging / programming / manipulation.</p>
+<p>The SIM/SAM extension connects to the SIM/SAM slot on the Proxmark 3 RDV4.</p>
+<p><strong>Since 2021, this product is bundled with all Proxmark 3 RDV4.01.</strong><br></p>
+<h2><strong></strong></h2>
+<div class="grid">
+<div class="grid-item small--one-fifth medium--one-fifth large--one-fifth text-center"></div>
+</div>
+<div class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x SIM/SAM Extension Module</li>
+</ul>
+<ul></ul>
+<h2><strong>Shipping &amp; Packaging</strong></h2>
+<ul>
+<li>Each item is dispatched from <strong>Europe</strong> - no need to worry about slow shipping times, import duties or damaged goods.</li>
+<li>Packed in sturdy packaging.</li>
+<li>We provide worldwide shipping with express options.</li>
+</ul>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>Compatible Systems</strong></h2>
+<ul>
+<li><a href="/collections/hardware/products/proxmark-3-rdv4">Proxmark 3 RDV 4</a></li>
+</ul>
+<h2><strong></strong></h2>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>proxmark</s:tag>
+    <s:tag>Proxmark 3 RDV4</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>sim</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/1435438874735</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">19.95</s:price>
+      <s:sku>PM3-RDV4-SIM</s:sku>
+      <s:grams>9</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/1385032024175</id>
+    <published>2022-06-20T15:00:40+02:00</published>
+    <updated>2022-06-20T15:00:40+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/proxmark-3-rdv4-flash-support"/>
+    <title>Lab401 Flashing Multi-tool for Proxmark &amp; Chameleon</title>
+    <s:type>Proxmark</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/Proxmark-3-Flashing-Adaptor.png?v=1567242511"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>Proxmark<br>
+        <strong>Price: </strong>
+            29.99
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2><strong>Introduction</strong></h2>
+<p>The Lab401 Flashing Multi-tool allows reflashing of your important pen-testing hardware quickly and easily.</p>
+<p>Compatible with the <strong>Proxmark 3 RDV4 &amp; 4.01</strong>, and the <strong>ChameleonMini RevE &amp; RevG</strong> - all headers and pins are in place for painless, solder free flashing.</p>
+<p>There multi-tool has inputs for two programmers, the <strong>AVR ISPmII </strong>(used for flashing the Chameleon) and the <strong>Segger J-LINK</strong> (used for flashing the Proxmark).</p>
+<p>Please note, the programmers themselves are sold separately.</p>
+<h2><strong></strong></h2>
+<div class="grid">
+<div class="grid-item small--one-fifth medium--one-fifth large--one-fifth text-center"></div>
+</div>
+<div class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x Lab401 Flashing Multi-tool</li>
+</ul>
+<h2><strong>Compatible Products<br></strong></h2>
+<ul>
+<li><a href="/collections/rfid-tools/products/proxmark-3-rdv4?lshst=collection">Proxmark 3</a></li>
+<li>
+ChameleonMini &amp; ChameleonTiny
+</li>
+</ul>
+<h2><strong>Supported Accessories<br></strong></h2>
+<ul>
+<li>Segger J-LINK</li>
+<li>AVR ISPmII</li>
+</ul>
+<ul></ul>
+<h2><strong>Shipping &amp; Packaging</strong></h2>
+<ul>
+<li>Each item is dispatched from <strong>Europe</strong> - no need to worry about slow shipping times, import duties or damaged goods.</li>
+<li>Packed in sturdy packaging.</li>
+<li>We provide worldwide shipping with express options.</li>
+</ul>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong></strong></h2>
+</div>
+</div>
+<h2>Proxmark 3 &amp; Chameleon Mini Flashing Tool Unboxing</h2>
+<figure><video lite-youtube="" videoid="6oy48vXBhjQ" posterquality="maxresdefault" params="rel=0"></video></figure></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>avrisp</s:tag>
+    <s:tag>chameleon</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>flashing</s:tag>
+    <s:tag>jlink</s:tag>
+    <s:tag>proxmark</s:tag>
+    <s:tag>Proxmark 3 RDV4</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>segger</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/1385032024175</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">29.99</s:price>
+      <s:sku>MULTI-FLASH-ADAPTOR</s:sku>
+      <s:grams>9</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/2230425911407</id>
+    <published>2022-06-20T15:00:38+02:00</published>
+    <updated>2022-06-20T15:00:38+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/proxmark-3-rdv4-standalone-kit"/>
+    <title>Proxmark 3 RDV4 - BlueShark Standalone Module</title>
+    <s:type>Proxmark</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/BT_ADDON_PIC1.jpg?v=1570172108"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>Proxmark<br>
+        <strong>Price: </strong>
+            99.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2><strong>Introduction</strong></h2>
+<p>The Proxmark 3 RDV4 "BlueShark" Standalone Kit brings integrated, wireless standalone functionality to the Proxmark 3 RDV 4: </p>
+<ul>
+<li>Standalone Mode</li>
+<li>Offline sniffing</li>
+<li>Offline reading &amp; simulation</li>
+</ul>
+<p>Built with penetration testers in mind, this upgrade consists of:</p>
+<ul>
+<li>Bluetooth 2.0 EDR module</li>
+<li>Rechargeable polymer lithium-ion Battery module</li>
+<li>Aluminium case + heatsink</li>
+<li>Tempered glass cover</li>
+</ul>
+<p>The high-grade aluminium case not only protects against bumps, scratches and shock, but also acts as a heat-sink, providing increased performance and read/write ranges for the Proxmark.</p>
+<p>Backward compatible with all Proxmark 3 RDV4 devices, and fully integrated into the official <a href="https://github.com/RfidResearchGroup/proxmark3">RDV 4 Github Codebase</a> allows for:</p>
+<ul>
+<li>Full <strong>Standalone Mode</strong> support</li>
+<li>Full High-speed Bluetooth support</li>
+</ul>
+<p>What's<strong> included</strong></p>
+<div class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<ul>
+<li>1x BLE Module</li>
+<li>1x Rechargeable Battery Module</li>
+<li>1x Aluminium Case</li>
+</ul>
+<p><strong>Does NOT INCLUDE</strong> the Proxmark 3 RDV4, which must be purchased separately.</p>
+<h2><strong>Technical Specifications</strong></h2>
+<p><strong>Battery<br></strong>Charging Current: 200mA (Plugin USB Default Charging)<strong><br></strong>Charging time: 2.5h</p>
+<ul>
+<li>Battery capacity: 400 mAh</li>
+<li>Standby time:</li>
+<li>3.5h@StandBy;</li>
+<li>2.9h@LF-On;</li>
+<li>50min@HF-On;</li>
+</ul>
+<p><strong>Bluetooth</strong></p>
+<ul>
+<li>Power: 4dBm, -85 dBm@2Mbps</li>
+<li>Distance: 6m (depending on the environment and device orientation)</li>
+</ul>
+<p><strong>Device</strong></p>
+<ul>
+<li>Dimensions: 54.4 x 29.4 x 13.5mm</li>
+<li>Weight: 24g</li>
+</ul>
+<ul></ul>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>Compatible Systems</strong></h2>
+<ul>
+<li><a href="/collections/hardware/products/proxmark-3-rdv4">Proxmark 3 RDV 4</a></li>
+</ul>
+<h2><strong>Assembly &amp; First Use Instructions</strong></h2>
+<ul>
+<li><a href="/blogs/academy/proxmark-3-rdv-4-standalone-module-assembly-first-use" target="_blank" title="Proxmark 3 + Bluetooth Standalone Module BlueShark: Assembly and setup" rel="noopener noreferrer">Proxmark + Blueshark: Assembly + Installation</a></li>
+<li><a href="/blogs/academy/proxmark-basics-going-standalone-with-the-blueshark" target="_blank" rel="noopener noreferrer">Proxmark + Blueshark: Connecting with Kali</a></li>
+</ul>
+<p> </p>
+<h2><strong>Shipping &amp; Packaging</strong></h2>
+<ul>
+<li>Each item is dispatched from <strong>Europe</strong> - no need to worry about slow shipping times, import duties or damaged goods.</li>
+<li>Packed in sturdy packaging.</li>
+<li>We provide worldwide shipping with express options.</li>
+</ul>
+<h2><strong></strong></h2>
+</div>
+</div>
+<h2>Proxmark 3 Bluetooth / Battery Module Unboxing</h2>
+<figure><video lite-youtube="" videoid="Udc9gDW9TN8" posterquality="maxresdefault" params="rel=0"></video></figure>
+<h2>Proxmark 3 BlueShark Module Assembly Video</h2>
+<figure><video lite-youtube="" videoid="3a4TU8il88Y" posterquality="maxresdefault" params="rel=0"></video></figure>
+</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>proxmark</s:tag>
+    <s:tag>proxmark 3 battery</s:tag>
+    <s:tag>Proxmark 3 RDV4</s:tag>
+    <s:tag>proxmark 3 standalone</s:tag>
+    <s:tag>proxmark 3 wireless</s:tag>
+    <s:tag>proxmark battery</s:tag>
+    <s:tag>proxmark bluetooth</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/2230425911407</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">99.00</s:price>
+      <s:sku>PM3-RDV4-BLUESHARK</s:sku>
+      <s:grams>510</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/3967634964591</id>
+    <published>2022-06-20T15:00:34+02:00</published>
+    <updated>2022-06-20T15:00:34+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/proxmark-3-rdv4-01-upgraded-replacement-antenna"/>
+    <title>Proxmark 3 RDV4.01- Upgrade / Replacement Antenna</title>
+    <s:type>Proxmark</s:type>
+    <s:vendor>RRG</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/Proxmark-3-RDV-4.1-Back---New-Antenna.png?v=1567198154"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>RRG<br>
+        <strong>Type: </strong>Proxmark<br>
+        <strong>Price: </strong>
+            24.99
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2><strong>Introduction</strong></h2>
+<p>One of the advantages of the Proxmark 3 RDV4.01 is its enhanced built-in antenna system, which includes the new "Q-Switch" and "F-Switch" functionality on the LF Antenna, and the improved performance of the HF Antenna.</p>
+<p>Users with the original Proxmark 3 RDV4 (Original Antennas) can upgrade their antennas without having to purchase an entirely new device.</p>
+<p>Meticulously engineered with 6-layer PCBs, featuring a <strong>Frequency Switch</strong> and <strong>Q Switch</strong> - enabling targeting of specific frequencies and badge types.</p>
+<p><strong>Q-Switch</strong><br>The Q-Switch has two settings: 14 (Extended Range) and 7 (Extended Accuracy).</p>
+<p><strong>A Q-Switch setting of 14</strong> will give up to 30% further read range (on lf search / lf hid read etc commands).</p>
+<p><strong>A Q-Switch setting of 7</strong> will give better writing performance on T55XX and EM410XX tags.</p>
+<p><strong>Frequency Switch</strong></p>
+<p>The frequency switch allows for tuning to specific tag types: 125KHz or 134KHz.</p>
+<div class="grid">
+<div class="grid-item small--one-fifth medium--one-fifth large--one-fifth text-center"></div>
+</div>
+<div class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x LF Antenna (Q-Switch &amp; F-Switch)</li>
+<li>1x HF Antenna</li>
+</ul>
+<h2><strong>Shipping &amp; Packaging</strong></h2>
+<ul>
+<li>Each item is dispatched from <strong>Europe</strong> - no need to worry about slow shipping times, import duties or damaged goods.</li>
+<li>Packed in sturdy packaging.</li>
+<li>We provide worldwide shipping with express options.</li>
+</ul>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>Compatible Systems</strong></h2>
+<ul>
+<li><a href="/collections/hardware/products/proxmark-3-rdv4">Proxmark 3 RDV 4</a></li>
+</ul>
+<h2><strong></strong></h2>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>antenna</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>proxmark</s:tag>
+    <s:tag>Proxmark 3 RDV4</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/3967634964591</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">24.99</s:price>
+      <s:sku>PM3-RDV4-UPGRADE-ANTENNA</s:sku>
+      <s:grams>8</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/3967479677039</id>
+    <published>2022-06-20T15:00:34+02:00</published>
+    <updated>2022-06-20T15:00:34+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/proxmark-3-rdv4-01-long-range-lf-antenna-pack"/>
+    <title>Proxmark 3 RDV4.01- Long Range LF Antenna Pack</title>
+    <s:type>Proxmark</s:type>
+    <s:vendor>RRG</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/Proxmark-3-RDV-4.1-LF-Antenna-Box.png?v=1567172987"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>RRG<br>
+        <strong>Type: </strong>Proxmark<br>
+        <strong>Price: </strong>
+            79.99
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2><strong>Introduction</strong></h2>
+<p>The Proxmark 3 RDV4 has a modular antenna system, allowing for antennas to be hot-swapped depending on your assignment requirements.</p>
+<p>The Long Range LF External Antenna Pack containts two high performance, pre-tuned for antennas the Proxmark 3 RDV4, providing the highest read/write/sniff performance possible on an un-amplified external antenna.</p>
+<p>Meticulously engineered with 6-layer PCBs, featuring a <strong>Frequency Switch</strong> and <strong>Q Switch</strong> - enabling targeting of specific frequencies and badge types.</p>
+<p><strong>Q-Switch</strong><br>The Q-Switch has two settings: 14 (Extended Range) and 7 (Extended Accuracy).</p>
+<p><strong>A Q-Switch setting of 14</strong> will give up to 30% further read range (on lf search / lf hid read etc commands).</p>
+<p><strong>A Q-Switch setting of 7</strong> will give better writing performance on T55XX and EM410XX tags.</p>
+<p><strong>Frequency Switch</strong></p>
+<p>The frequency switch allows for tuning to specific tag types: 125KHz or 134KHz.</p>
+<p>Performance information is below:</p>
+<table class="table table-striped table-bordered">
+<thead>
+<tr>
+<th>Antenna Type</th>
+<th>Read Distance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>LF Read Range (Built-in)</td>
+<td>66 - 72mm</td>
+</tr>
+<tr>
+<td><strong>LF Read Range (medium antenna)</strong></td>
+<td>90mm</td>
+</tr>
+<tr>
+<td><strong>LF Read Range (long range antenna)</strong></td>
+<td><strong>110 - 133mm</strong></td>
+</tr>
+</tbody>
+</table>
+<h2><strong></strong></h2>
+<div class="grid">
+<div class="grid-item small--one-fifth medium--one-fifth large--one-fifth text-center"></div>
+</div>
+<div class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x Long Range Antenna</li>
+<li>1x Medium Range Antenna</li>
+</ul>
+<ul></ul>
+<h2><strong>Shipping &amp; Packaging</strong></h2>
+<ul>
+<li>Each item is dispatched from <strong>Europe</strong> - no need to worry about slow shipping times, import duties or damaged goods.</li>
+<li>Packed in sturdy packaging.</li>
+<li>We provide worldwide shipping with express options.</li>
+</ul>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>Compatible Systems</strong></h2>
+<ul>
+<li><a href="/collections/hardware/products/proxmark-3-rdv4">Proxmark 3 RDV 4.01</a></li>
+</ul>
+<h2><strong></strong></h2>
+</div>
+</div>
+<h2><strong>Long Range LF Antenna Pack Unboxing<br></strong></h2>
+<figure><video lite-youtube="" videoid="f3ex7UkvVHs" posterquality="maxresdefault" params="rel=0"></video></figure></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>antenna</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>proxmark</s:tag>
+    <s:tag>Proxmark 3 RDV4</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/3967479677039</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">79.99</s:price>
+      <s:sku>PM3-RDV4-LF-PACK</s:sku>
+      <s:grams>50</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/6102281289928</id>
+    <published>2022-06-20T15:00:22+02:00</published>
+    <updated>2022-06-20T15:00:22+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/proxrf-125khz-biochip-antenna"/>
+    <title>ProxRF 125KHz Biochip Antenna</title>
+    <s:type>Proxmark</s:type>
+    <s:vendor>RRG</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/ProxLFAntenna-1.jpg?v=1606496927"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>RRG<br>
+        <strong>Type: </strong>Proxmark<br>
+        <strong>Price: </strong>
+            29.99
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>The Proxmark 3 RDV4 has a modular antenna system, allowing for antennas to be hot-swapped depending on your assignment requirements.</p>
+<p>The ProxLF 125KHz antenna is designed specifically for communicating with Dangerous Things biochips.</p>
+<p>125KHz chips have limited anti-tearing support; interrupted writes can leave the chips bricked. The risk of bricked chips is increased with injectable / bio-chips, as their antennas are smaller - and replacement is difficult (and painful)</p>
+<p>The ProxLF ferrite-core antenna optimises communication, reducing the chances of bricking your injectable.<br></p>
+<p>To install, simply remove the dual antenna from your Proxmark 3 RDV4, and attach the ProxLF antenna.</p>
+<p><strong>IMPORTANT: </strong>Requires a Proxmark 3 RDV4 (not included)</p>
+<strong>What's included</strong>
+<div class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<ul>
+<li>1x ProxLF Ferrite 125KHz Antenna<br>
+</li>
+</ul>
+<ul></ul>
+<h2><strong>Shipping &amp; Packaging</strong></h2>
+<ul>
+<li>Each item is dispatched from <strong>Europe</strong> - no need to worry about slow shipping times, import duties or damaged goods.</li>
+<li>Packed in sturdy packaging.</li>
+<li>We provide worldwide shipping with express options.</li>
+</ul>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>Compatible Systems</strong></h2>
+<ul>
+<li><a href="/collections/hardware/products/proxmark-3-rdv4">Proxmark 3 RDV 4.01</a></li>
+</ul>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>antenna</s:tag>
+    <s:tag>dangerous things</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>injectable</s:tag>
+    <s:tag>proxlf</s:tag>
+    <s:tag>proxmark</s:tag>
+    <s:tag>Proxmark 3 RDV4</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/6102281289928</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">29.99</s:price>
+      <s:sku>PROXRF-ANTENNA</s:sku>
+      <s:grams>18</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/6130484052168</id>
+    <published>2022-06-20T15:00:21+02:00</published>
+    <updated>2022-06-20T15:00:21+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/usb-bluetooth-adaptor-hc-06"/>
+    <title>USB Bluetooth Adaptor HC-06</title>
+    <s:type>Tools</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/Proxmark-Bluetooth-Key-HC-06-USB-front.png?v=1608128631"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>Tools<br>
+        <strong>Price: </strong>
+            29.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2><strong>Introduction</strong></h2>
+<p>The HC-06 is a Bluetooth Low Energy USB Adaptor, officially compatible with the Proxmark 3 RDV4.01 device.</p>
+<div class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h3><strong>Technical Specifications<br></strong></h3>
+<ul>
+<li>Size: 27 x 13 x 5mm<br>
+</li>
+<li>Power Consumption: <span class="dltab">8mA</span><br>
+</li>
+</ul>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h3><strong>What's included</strong></h3>
+<ul>
+<li>1x HC-06 BLE Adaptor<br>
+</li>
+</ul>
+<h3><strong>Technical Resources<br></strong></h3>
+<ul>
+<li><a rel="noopener noreferrer" href="https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers" target="_blank">HC06 BLE Adaptor Drivers</a></li>
+</ul>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Hardware</s:tag>
+    <s:tag>Proxmark 3 RDV4</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/6130484052168</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">29.00</s:price>
+      <s:sku>HC06-USB-BLE</s:sku>
+      <s:grams>10</s:grams>
+    </s:variant>
+  </entry>
+</feed>

@@ -1,0 +1,9 @@
+/* Lab401: Tax & Duty, Warranty and Customer Support Information blocks on PDP */
+
+.product-block--tax-duty-info,
+.product-block--warranty-info,
+.product-block--customer-support-info {
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: -0.5em;
+}

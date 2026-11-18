@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/collections/hardware-audit-accessories.atom"/>
+  <title>Lab401</title>
+  <updated>2026-07-31T17:09:12+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/products/10547531481435</id>
+    <published>2026-07-31T17:09:12+02:00</published>
+    <updated>2026-07-31T17:09:12+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/project-reboot-hardware-target"/>
+    <title>Project Reboot: Hardware Audit Training Target</title>
+    <s:type></s:type>
+    <s:vendor>Mindstorm Security</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Project-Reboot---Front.png?v=1782226504"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Mindstorm Security<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            102.50 - 125.50
+            <a href="https://lab401.com/products/project-reboot-hardware-target">(2 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><strong>Ever wanted to learn</strong> how to <strong>reverse-engineer hardware</strong> but were intimidated by its steep learning curve? Or maybe you <strong>understand the basics,</strong> but don't know how to <strong>level up your skills? </strong>Or maybe you teach hardware auditing, but can't find targets that are flexible, economical and progressive?</p>
+<p><strong>Meet Project Reboot.</strong> Developed by the MACOBOX team, Project Reboot is a <strong>progressive hardware target board:</strong> a hardware device specifically made to make learning hardware reverse engineering<strong> progressive and fun.</strong></p>
+<p><strong>Your Mission:</strong> Your robot has had a bad day. During its last run, a crash corrupted critical systems. The core is still alive, but all high-level functions are offline.</p>
+<p><strong>Your Character:</strong> You are the field engineer assigned to bring the unit back online. You have direct access to low-level interfaces (UART, I²C, SPI, BLE). The robot will not simply accept a reset: you must prove you actually understand what you're doing by solving four protocol-based challenges.</p>
+<div style="text-align: left;"><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Robot---Float.gif?v=1782309056" alt="" style="margin-bottom: 16px; float: left; max-width: 30%;"></div>
+<p><strong>Your Objectives:</strong></p>
+<ol>
+<li>Recover the robot's UART recovery console and inspect its pseudo-filesystem.</li>
+<li>Sniff the I²C bus and reconstruct a flag from sensor traffic.</li>
+<li>Interact with the external SPI flash and recover a flag from firmware data.</li>
+<li>Use BLE to talk to the robot, set modes, and submit flags. Interact with packets and characteristics to solve the challenge.</li>
+</ol>
+<p><strong>Each challenge exists in two flavours:</strong> Normal mode and Hard mode. Normal mode shows you the core mechanics; Hard mode forces you to apply them in a more challenging way.</p>
+<p><strong>What you'll learn along the way:</strong></p>
+<ul>
+<li>Understand how UART, I²C, SPI and BLE work in real embedded systems.</li>
+<li>Use these interfaces for debugging, reverse engineering and exploitation.</li>
+<li>Extract and submit flags that confirm you solved each challenge.</li>
+</ul>
+<p>To help you, Lab401 has written a <a href="https://lab-401.github.io/Project-Reboot-eLearning/"><b>complete walkthrough</b></a> - taking you through everything you need to know - theory, techniques, approaches, software and commands. If you get stuck, there's ample tips to help you through each section. You'll get full knowledge, the right amount of challenge - but never frustrated or completely lost.</p>
+<p>Project Reboot is available in <span style="text-decoration: underline;">two configurations:</span><br></p>
+<ul>
+<li>
+<strong>Complete:</strong> Contains everything you need to solve the challenge - all tools, accessories, wires, gizmos - everything you need is included. These are <b>real tools</b> - they form the base of every hardware auditor's toolkit - and will be useful for years to come.
+</li>
+<li>
+<strong>Basic:</strong> Device only - if you've already got tools and accessories, you can buy the Project Robot board standalone.</li>
+</ul>
+<figure style="margin-top:2em; margin-bottom:2em">
+   <video lite-youtube="" videoid="7TroJG5w4Z4" posterquality="maxresdefault" params="rel=0"></video>
+</figure>
+<div class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<b>Basic Pack</b>
+<ul>
+<li>1x <b>Project Reboot Device</b>
+</li>
+</ul>
+<b>Complete Pack</b>
+<ul>
+<li>1x <b>Project Reboot Device</b>
+</li>
+<li>1x USB-TTL Serial Adaptor (+ Cables)</li>
+<li>1x CH341A Memory Reader (+ Cables)</li>
+<li>1x SPI SOP-8 Memory Clip</li>
+<li>1x 24MHz, 8-Channel Logic Analyser (+ Cables)</li>
+<li>1x Digital Pen-Style Multimetre (+ Cables)</li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>Technical Resources</strong></h2>
+<strong>Documentation &amp; Support</strong>
+<ul>
+<li>
+<a href="https://lab-401.github.io/Project-Reboot-eLearning/" target="_blank">Lab401's Project Reboot Walkthrough Tutorial</a>
+</li>
+<li><a href="https://mindstormsecurity.com/d7f3a9b2c1e5/project_reboot_manual.html" target="_blank">Project Reboot Documentation</a></li>
+</ul>
+<h2><strong>Learning Objectives</strong></h2>
+<b>Interfaces</b>
+<ul>
+<li>UART (TX/RX Theory, Baud Rate, Frames, Typical Uses)</li>
+<li>I2C (Physical Connection, Address Spaces, Clock Theory, Master/Slave Configurations, Typical Uses)</li>
+<li>SPI (Physical Connection, Address Spaces, Duplex Transmission)</li>
+<li>BLE (Services, GAT, properties, advertising packets, use-cases)</li>
+</ul>
+</div>
+</div>
+<div class="contentGroup">
+  <h3>Project Reboot - Product &amp; Challenge Walthrough</h3>
+  <p>If you've just received your Project Reboot device, or you want to see how it works hands-on, this (spoiler free) walkthrough video shows unboxing, orientation, and steps through challenge-by-challenge. Use it in conjunction with <a href="https://lab-401.github.io/Project-Reboot-eLearning/" target="_blank">Lab401's Project Reboot Walkthrough Tutorial</a> for a full, in-depth guide!</p>
+<figure style="margin-top:2em; margin-bottom:2em">
+   <video lite-youtube="" videoid="K8mnbfALGMU" posterquality="maxresdefault" params="rel=0"></video>
+</figure>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10547531481435</id>
+      <title>Basic</title>
+      <s:price currency="EUR">102.50</s:price>
+      <s:sku>MS-PROJECT-REBOOT</s:sku>
+      <s:grams>30</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/10547531481435</id>
+      <title>Complete Pack</title>
+      <s:price currency="EUR">125.50</s:price>
+      <s:sku>MS-PROJECT-REBOOT-PACK</s:sku>
+      <s:grams>500</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/10202834862427</id>
+    <published>2025-12-05T13:20:36+01:00</published>
+    <updated>2025-12-05T13:20:36+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/ec-canbus"/>
+    <title>CANBus Module for Flipper Zero</title>
+    <s:type></s:type>
+    <s:vendor>Electronic Cats</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/FlipperZero-Canbus--Module-Square.png?v=1764863346"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Electronic Cats<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            39.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>Introduction</h2>
+<p>CANBus is a communication protocol originally built for the automotive industry; it forms the literal communications backbone of all modern vehicles. It's simple to implement, using only two wires, but powerful: it supports up to 127 individual nodes, individually-addressed &amp; broadcast messaging, message prioritization, and variable speeds up to 20Mbit/s.</p>
+<p>One of the most common implementations of CANBus is in vehicles - via the OBD-II port. OBD, or On-Board-Diagnostics is a standardised interface, allowing direct access to a vehicle's communications network. Since 2008 - CANBus is the standardised communication protocol.</p>
+<p><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/CANBUS-with-OBD-II.png?v=1764851629" alt=""></p>
+<p>CANBus is everywhere - not just in vehicles. It's found in battery controllers, 3D printers, elevators, medical equipment, aviation, maritime and agricultural equipment. If the requirements are robust communications, it's probably CANBus.</p>
+<p>The ElectronicCats CANBus Module for Flipper Zero, with its accompanying Flipper App, allows you to get hands on with CANBus. It has full low-level tools to send sniff, log, and replay CAN messages, and higher level tools for interacting with vehicles via the OBD2 Scanner function.</p>
+<p>If you've worked with CAN before, you know that there are dozens of half-finished, semi-abandoned tools and products, or non-cross-platform expensive tools. The Flipper CANBus module solves all of these problems.</p>
+<h2 style="margin-top: 3em;">CANBus Module Demonstration Videos</h2>
+<p><video lite-youtube-playlist params="rel=0" thumb-layout="vertical" auto-play-thumb="true">
+                <video playlist-entry params="rel=0" videotitle="Flipper Zero CANBus: Sniffing and Sending Messages" videodescription="Real-world demonstration using the FlipperZero CANBUS Module to sniff and send CAN Frames" videoid="jtZJBNnAUts" posterquality="maxresdefault"></video>
+                <video playlist-entry videotitle="FlipperZero ODB-II functionality" videodescription="Hands on with the OBD-II FlipperZero application, showing various built-in functions." videoid="CfUZCfT7R5s" posterquality="maxresdefault"></video>
+                <video playlist-entry videotitle="Flipper Zero / Injecting with the CANBus Add-on" videodescription="Using the ElectronicCats CANBUS shield for FlipperZero to inject CAN frames into vehicles" videoid="Mm8NkwKuSso" posterquality="maxresdefault">
+                </video>
+            </video></p>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2>Hardware Specifications</h2>
+<ul>
+<li>
+<strong>Chipset: </strong>MCP2515</li>
+<li>
+<strong>Protocols:</strong> CAN v2.0B (Supports standard + extended data frames)</li>
+<li>
+<strong>Operating Voltage:</strong> 2.7 - 5.5v</li>
+<li>
+<strong>Interface:</strong> High-Speed SPI (10MHz)</li>
+</ul>
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x CANBus Module</li>
+<li>1x OBD-II Module</li>
+</ul>
+<h2><strong>Technical Resources<br></strong></h2>
+<ul>
+<li><a rel="noopener" href="https://github.com/ElectronicCats/flipper-MCP2515-CANBUS/wiki/2.-Understanding-Flipper-CAN-Bus-app" target="_blank">Flipper CAN Bus wiki</a></li>
+<li><a rel="noopener" href="https://github.com/ElectronicCats/flipper-MCP2515-CANBUS/releases" target="_blank">Flipper Application</a></li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2>Functionality Specifications</h2>
+<ul>
+<li>
+<strong>Sniffer:</strong> Sniff &amp; Log all data</li>
+<li>
+<strong>Sender:</strong> Send indivudually crafted &amp; addresed messages</li>
+<li>
+<strong>Player:</strong> Replay logged data</li>
+<li>
+<strong>Log Viewer:</strong> Examine saved logs</li>
+<li>
+<strong>OBD2 Scanner:</strong>
+<ul>
+<li>Fetch PID Codes</li>
+<li>Fetch VIN</li>
+<li>Fetch Engine Speed</li>
+<li>Fetch Vehicle Speed</li>
+<li>Fetch Engine Load</li>
+<li>Fetch Throttle Position</li>
+<li>Fetch Fuel Level</li>
+<li>Fetch Enging Timing</li>
+<li>Fetch Error DTC</li>
+<li>Reset Error DTC</li>
+</ul>
+</li>
+</ul>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10202834862427</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">39.00</s:price>
+      <s:sku>EC-CANBUS-OBD2</s:sku>
+      <s:grams>100</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/9281751974235</id>
+    <published>2024-06-18T18:05:45+02:00</published>
+    <updated>2024-06-18T18:05:45+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/bus-pirate-5-sim-smart-ic-adapter"/>
+    <title>Bus Pirate 5 SIM &amp; Smart IC Adapter</title>
+    <s:type>Tools</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/BusPirate-SIM-Accessory.png?v=1718725967"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>Tools<br>
+        <strong>Price: </strong>
+            14.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>Introduction</h2>
+<p>Rapidly connect and communicate with SIM Cards and ISO 7816-3 Smart IC Cards.<br></p>
+<p>Working with SIM Cards? The BusPirate 5 has built-in support for SIM cards out of the box, via its Half-Duplex Serial UART interface (HDPLXUART).</p>
+<p>The adapter supports mini, micro and nano SIM Cards, with each socket carefully selected to ensure stable connections and longevity.<br></p>
+<p>For Smart IC Cards, a KF-011C socket on the rear of the adapter accepts most ISO 7816-3 Smart IC cards - and have built-in support in the BusPirate 5:</p>
+<ul>
+<li>SLE4442 IC Cards (incl. password protected) via 2-Wire : 2-Wire Protocol Mode</li>
+<li>24C02/24C04/24C08/24C16 EEPROM cards: I2C Protocol Mode<br>
+</li>
+<li>Bank cards, ID cards, other smart cards: Half-Duplex Serial UART Mode.</li>
+</ul>
+<p>An onboard LED lights up when a smart-card is recognised.</p>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x SIM &amp; Smart IC Adapter<br>
+</li>
+</ul>
+<h2><strong>Supported Cards<br></strong></h2>
+<ul>
+<li>SIM Cards<br>
+<ul>
+<li>Mini</li>
+<li>Micro</li>
+<li>Nano</li>
+</ul>
+</li>
+<li>Smart IC Cards: ISO 7816-3
+<ul>
+<li>2-Wire Protocol
+<ul>
+<li><a href="https://firmware.buspirate.com/devices/sle4442" rel="noopener" target="_blank">SLE4442 Cards</a></li>
+</ul>
+</li>
+<li> I2C Cards<br>
+<ul>
+<li><a href="https://firmware.buspirate.com/devices/24c02" rel="noopener" target="_blank">23C02 Cards</a></li>
+</ul>
+</li>
+<li>Half-Duplex Serial UART Cards <br>
+<ul>
+<li><a href="https://firmware.buspirate.com/devices/sim-bank-ic-cards" rel="noopener" target="_blank">Bank SAMs, Java Cards..</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>Technical Resources<br></strong></h2>
+<ul>
+<li><a href="https://firmware.buspirate.com/overview/sim-iccard-adapter">Bus Pirate SIM / Smart Card Adapter Technical Documentation</a></li>
+<li><a title="Bus Pirate Firmware" href="https://firmware.buspirate.com/" target="_blank">Bus Pirate Firmware Information</a></li>
+<li><a title="Bus Pirate Forum" href="https://forum.buspirate.com/" target="_blank">Bus Pirate Forum</a></li>
+<li><a title="Bus Pirate Github Repos" href="https://github.com/DangerousPrototypes?tab=repositories" target="_blank">Bus Pirate GitHub Repos</a></li>
+</ul>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Bus Pirate</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>sim</s:tag>
+    <s:tag>Smart Card</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/9281751974235</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">14.95</s:price>
+      <s:sku>BUSPIRATE-SIM-ADAPTER</s:sku>
+      <s:grams>250</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/9239565828443</id>
+    <published>2024-06-05T10:44:06+02:00</published>
+    <updated>2024-06-05T10:44:06+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/bus-pirate-5-flash-adaptors"/>
+    <title>Bus Pirate 5 Flash Adapters</title>
+    <s:type>Tools</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/BusPirate-Accessory-Flash-Pack_793bfac8-8b90-478f-84a5-188a548fb708.png?v=1717428836"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>Tools<br>
+        <strong>Price: </strong>
+            34.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>Introduction</h2>
+<p>Easily connect 8-pin SPI Flash chips to the BusPirate 5.<br></p>
+<p>The kit three dedicated adaptors, compatible with DIP8, SOP8 and WSON8 packages.<br></p>
+<ul>
+<li>DIP8 (through hole)<br>
+</li>
+<li>SOP8 (150mil + 208mil)<br>
+</li>
+<li>WSON8 (5x6, 5x8)<br>
+</li>
+</ul>
+<p>Each adapter also includes a compatible flash chip.</p>
+<figure></figure>
+<div style="margin-top: 2em;" class="grid" data-mce-style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x DIP8 Adapter + DIP8 Flash Memory<br>
+</li>
+<li>1x SOP8 Adapter + SOP8 Flash Memory</li>
+<li>1x WSON8 Adapter + WSON8 Flash Memory</li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>Technical Resources<br></strong></h2>
+<ul>
+<li><a rel="noopener" href="https://firmware.buspirate.com/overview/spi-flash-adapters" target="_blank">SPI Flash Adapter documentation</a></li>
+<li><a href="https://hardware.buspirate.com/?ref=lab401.com" title="Bus Pirate Hardware REference" target="_blank" data-mce-href="https://hardware.buspirate.com/?ref=lab401.com">Bus Pirate Hardware Specs</a></li>
+<li><a href="https://firmware.buspirate.com/" title="Bus Pirate Firmware" target="_blank" data-mce-href="https://firmware.buspirate.com/">Bus Pirate Firmware Information</a></li>
+<li><a href="https://forum.buspirate.com/" title="Bus Pirate Forum" target="_blank" data-mce-href="https://forum.buspirate.com/">Bus Pirate Forum</a></li>
+<li><a href="https://github.com/DangerousPrototypes?tab=repositories" title="Bus Pirate Github Repos" target="_blank" data-mce-href="https://github.com/DangerousPrototypes?tab=repositories">Bus Pirate GitHub Repos</a></li>
+</ul>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Bus Pirate</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/9239565828443</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">34.95</s:price>
+      <s:sku>BUSPIRATE-5-FLASH-ADAPTOR-PACK</s:sku>
+      <s:grams>250</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/9087661408603</id>
+    <published>2024-04-05T16:42:43+02:00</published>
+    <updated>2024-04-05T16:42:43+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/bus-pirate-5-raspberry-pi-pico-headers"/>
+    <title>Bus Pirate 5 Raspberry Pi Pico Headers</title>
+    <s:type>Tools</s:type>
+    <s:vendor>BusPirate</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Bus-Pirate-Pico-Headers.png?v=1712247185"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>BusPirate<br>
+        <strong>Type: </strong>Tools<br>
+        <strong>Price: </strong>
+            5.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>Introduction</h2>
+<p>The Raspberry Pi Pico is a fun and powerful development board, but the pin labels are printed in tiny letters on the bottom of the board, which makes things very annoying when trying to connect, debug and check at the same time.</p>
+<p>Kit comes with a pair of 20 pin headers (left and right) with high quality pin name silkscreen in black and white - in a right angle configuration.<br></p>
+<h2>Bus Pirate 5 - RPi Pico Headers Unboxing</h2>
+<figure><video lite-youtube="" videoid="WtQKUmNasVU" posterquality="maxresdefault" params="rel=0"></video></figure>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>2x Raspberry Pi Pico Headers (Left + Right) - Right Angle<br>
+</li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>Technical Resources<br></strong></h2>
+<ul>
+<li><a title="Bus Pirate Hardware REference" href="https://hardware.buspirate.com/?ref=lab401.com" target="_blank">Bus Pirate Hardware Specs</a></li>
+<li><a title="Bus Pirate Firmware" href="https://firmware.buspirate.com/" target="_blank">Bus Pirate Firmware Information</a></li>
+<li><a title="Bus Pirate Forum" href="https://forum.buspirate.com/" target="_blank">Bus Pirate Forum</a></li>
+<li><a title="Bus Pirate Github Repos" href="https://github.com/DangerousPrototypes?tab=repositories" target="_blank">Bus Pirate GitHub Repos</a></li>
+</ul>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Bus Pirate</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/9087661408603</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">5.95</s:price>
+      <s:sku>BUSPIRATE-PICO-RA</s:sku>
+      <s:grams>250</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/9087645712731</id>
+    <published>2024-04-05T16:42:42+02:00</published>
+    <updated>2024-04-05T16:42:42+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/bus-pirate-5-kf141-quick-connect"/>
+    <title>Bus Pirate 5 KF141 Quick Connect</title>
+    <s:type>Tools</s:type>
+    <s:vendor>BusPirate</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/BusPirate-RC-QC.png?v=1712245592"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>BusPirate<br>
+        <strong>Type: </strong>Tools<br>
+        <strong>Price: </strong>
+            6.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>Introduction</h2>
+<p>Connect wires quickly, and securely, without a fuss.</p>
+<p>KF141 is a popular quick connector block with sturdy spring retention clamps. Press the lever, insert a stripped wire, then release the lever to clamp it firmly in place. Pin names are silkscreened in bright orange so you get the right connection the first time.</p>
+<h2>Bus Pirate 5 - Quick Connect Unboxing</h2>
+<figure><video lite-youtube="" videoid="fWGQyFYJeX0" posterquality="maxresdefault" params="rel=0"></video></figure>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x KF141 Quick Connect Adaptor<br>
+</li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>Technical Resources<br></strong></h2>
+<ul>
+<li><a title="Bus Pirate Hardware REference" href="https://hardware.buspirate.com/?ref=lab401.com" target="_blank">Bus Pirate Hardware Specs</a></li>
+<li><a title="Bus Pirate Firmware" href="https://firmware.buspirate.com/" target="_blank">Bus Pirate Firmware Information</a></li>
+<li><a title="Bus Pirate Forum" href="https://forum.buspirate.com/" target="_blank">Bus Pirate Forum</a></li>
+<li><a title="Bus Pirate Github Repos" href="https://github.com/DangerousPrototypes?tab=repositories" target="_blank">Bus Pirate GitHub Repos</a></li>
+</ul>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Bus Pirate</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/9087645712731</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">6.95</s:price>
+      <s:sku>BUSPIRATE-QC-RA</s:sku>
+      <s:grams>250</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/9087642272091</id>
+    <published>2024-04-05T16:42:42+02:00</published>
+    <updated>2024-04-05T16:42:42+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/bus-pirate-5-auxiliary-cable"/>
+    <title>Bus Pirate 5 Auxiliary Cable</title>
+    <s:type>Tools</s:type>
+    <s:vendor>BusPirate</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Bus-Pirate-Aux-Cable.png?v=1712250867"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>BusPirate<br>
+        <strong>Type: </strong>Tools<br>
+        <strong>Price: </strong>
+            9.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>Introduction</h2>
+<p>The Auxiliary Connector Cable with color coded crimp housings - without the jumper and splitter cables.</p>
+<p>Connect the Bus Pirate 5 auxiliary connector to other equipment such as logic analyzers and oscilloscopes. (9 pin, 1.0mm “SH” and 2.54mm "DuPont" connectors)</p>
+<h2>Bus Pirate 5 - Auxiliary Cables Unboxing</h2>
+<figure><video lite-youtube="" videoid="Fp1WnHWmJJk" posterquality="maxresdefault" params="rel=0"></video></figure>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x Colour Coded Aux Connector Cable<br>
+</li>
+</ul>
+</div>
+  
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>Technical Resources<br></strong></h2>
+<ul>
+<li><a title="Bus Pirate Hardware REference" href="https://hardware.buspirate.com/?ref=lab401.com" target="_blank">Bus Pirate Hardware Specs</a></li>
+<li><a title="Bus Pirate Firmware" href="https://firmware.buspirate.com/" target="_blank">Bus Pirate Firmware Information</a></li>
+<li><a title="Bus Pirate Forum" href="https://forum.buspirate.com/" target="_blank">Bus Pirate Forum</a></li>
+<li><a title="Bus Pirate Github Repos" href="https://github.com/DangerousPrototypes?tab=repositories" target="_blank">Bus Pirate GitHub Repos</a></li>
+</ul>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Bus Pirate</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/9087642272091</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">9.95</s:price>
+      <s:sku>BUSPIRATE-CABLE</s:sku>
+      <s:grams>250</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/9087635095899</id>
+    <published>2024-04-05T16:42:41+02:00</published>
+    <updated>2024-04-05T16:42:41+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/bus-pirate-5-coloured-auxiliary-cable"/>
+    <title>Bus Pirate 5 Auxiliary Cable Set</title>
+    <s:type>Tools</s:type>
+    <s:vendor>BusPirate</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Bus-Pirate-Aux-Cable-Pack.png?v=1712245134"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>BusPirate<br>
+        <strong>Type: </strong>Tools<br>
+        <strong>Price: </strong>
+            11.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>Introduction</h2>
+A collection of auxiliary cables made from premium soft and flexible silicone coated wire.<br data-mce-fragment="1">
+<ul>
+<li>1 Auxiliary Connector Cable with color coded crimp housings. Connect the Bus Pirate 5 auxiliary connector to other equipment such as logic analyzers and oscilloscopes. (9 pin, 1.0mm “SH” and 2.54mm "DuPont" connectors)<br><br>
+</li>
+<li>4 “Y” Splitter Cables (2 grey, 1 black, 1 red) with matching color crimp housings. (2.54mm "DuPont" connectors)<br><br>
+</li>
+<li>10 Jumper Cables (8 grey, 1 black, 1 red) with matching color crimp housings. (2.54mm "DuPont" connectors)<br>
+</li>
+</ul>
+<h2>Bus Pirate 5 - Auxiliary Cables Kit Unboxing</h2>
+<figure><video lite-youtube="" videoid="PepwGrqnw0Q" posterquality="maxresdefault" params="rel=0"></video></figure>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x Colour Coded Aux Connector Cable<br>
+</li>
+<li>4x "Y" Splitter Cables<br>
+</li>
+<li>10x Jumper Cables<br>
+</li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>Technical Resources<br></strong></h2>
+<ul>
+<li><a href="https://hardware.buspirate.com/?ref=lab401.com" title="Bus Pirate Hardware REference" target="_blank">Bus Pirate Hardware Specs</a></li>
+<li><a href="https://firmware.buspirate.com/" title="Bus Pirate Firmware" target="_blank">Bus Pirate Firmware Information</a></li>
+<li><a href="https://forum.buspirate.com/" title="Bus Pirate Forum" target="_blank">Bus Pirate Forum</a></li>
+<li><a href="https://github.com/DangerousPrototypes?tab=repositories" title="Bus Pirate Github Repos" target="_blank">Bus Pirate GitHub Repos</a></li>
+</ul>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Bus Pirate</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/9087635095899</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">11.95</s:price>
+      <s:sku>BUSPIRATE-AUX</s:sku>
+      <s:grams>250</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/9087631294811</id>
+    <published>2024-04-05T16:42:40+02:00</published>
+    <updated>2024-04-05T16:42:40+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/bus-pirate-5-auxilary-probe-kit"/>
+    <title>Bus Pirate 5 Probe Kit</title>
+    <s:type>Tools</s:type>
+    <s:vendor>BusPirate</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Bus-Pirate-Probe-Kit-2.png?v=1712244805"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>BusPirate<br>
+        <strong>Type: </strong>Tools<br>
+        <strong>Price: </strong>
+            11.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>Introduction</h2>
+<p>A keyed and locking probe cable made of premium soft and flexible silicone coated wire connects to the Bus Pirate 10 pin main header.</p>
+<p>The ends are 2.54mm Dupont connectors that fit many different types of probe hooks as well as our custom milled breadboard adapter pins. Each lead is wrapped with labeled and color coded shrink tube.</p>
+<p>10 black Probe Hooks and 10 custom milled breadboard pins are included. See the <a href="https://firmware.buspirate.com/overview/probehooks" rel="noopener" target="_blank">probe hook guide</a> for an overview of common affordable hooks.<br></p>
+<h2>Bus Pirate 5 - Probe Kit Unboxing</h2>
+<figure><video lite-youtube="" videoid="Yr-qLe18DVk" posterquality="maxresdefault" params="rel=0"></video></figure>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x Premium Probe Cable<br>
+</li>
+<li>10x Probe Hooks<br>
+</li>
+<li>10x Custom-milled breadboard pins<br><br>
+</li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>Technical Resources<br></strong></h2>
+<ul>
+<li><a title="Bus Pirate Hardware REference" href="https://hardware.buspirate.com/?ref=lab401.com" target="_blank">Bus Pirate Hardware Specs</a></li>
+<li><a title="Bus Pirate Firmware" href="https://firmware.buspirate.com/" target="_blank">Bus Pirate Firmware Information</a></li>
+<li><a title="Bus Pirate Forum" href="https://forum.buspirate.com/" target="_blank">Bus Pirate Forum</a></li>
+<li><a title="Bus Pirate Github Repos" href="https://github.com/DangerousPrototypes?tab=repositories" target="_blank">Bus Pirate GitHub Repos</a></li>
+</ul>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Bus Pirate</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/9087631294811</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">11.95</s:price>
+      <s:sku>BUSPIRATE-PROBES</s:sku>
+      <s:grams>250</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/8748898058587</id>
+    <published>2024-01-15T20:35:29+01:00</published>
+    <updated>2024-01-15T20:35:29+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/greatfet-one-daffodil"/>
+    <title>GreatFET One - Daffodil</title>
+    <s:type>Tools</s:type>
+    <s:vendor>GreatScott Gadgets</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/GreatFET-Daffodil-Connected_3c86f9eb-6ce7-46df-ab13-785230c07757.png?v=1705346516"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>GreatScott Gadgets<br>
+        <strong>Type: </strong>Tools<br>
+        <strong>Price: </strong>
+            35.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>Introduction</h2>
+<p>The Daffodil is a prototyping "neighbour" / shield for the GreatFet One which allows rapid temporary and semi-permanent prototyping.<br></p>
+<p>Breadboard, 2 rows of female GPIO connectors, one row of male connectors, and 72 predrilled perf-board points for soldering components.</p>
+<br>
+<div class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h3><strong>Technical Specifications</strong></h3>
+<ul>
+<li>1x Mini Breadboard (170 pins) / PRT-12047<br>
+</li>
+<li>2x 40 pin female GPIO connectors</li>
+<li>1x 20 pin male connectors</li>
+<li>72 through-hole perf-board connectors for soldered connections</li>
+</ul>
+</div>
+<h3><strong>What's included</strong></h3>
+<ul>
+<li>1x Daffodil<br>
+</li>
+</ul>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h3><strong>Technical Resources<br></strong></h3>
+<ul>
+<li>Product Overview : <a href="https://hackaday.com/2019/07/02/hands-on-greatfet-is-an-embedded-tool-that-does-it-all/" target="_blank">Hands on with the GreatFET</a><br>
+</li>
+<li>Official Documentation</li>
+<ul>
+<li><a href="https://greatscottgadgets.github.io/greatfet-tutorials/" target="_blank">GreatFET Introduction</a></li>
+<li><a href="https://greatfet.readthedocs.io/en/latest/" target="_blank">API Documentation</a></li>
+<li><a href="https://github.com/greatfet-hardware/azalea" target="_blank">Pinouts</a></li>
+</ul>
+<li>Source code</li>
+<ul>
+<li><a href="https://github.com/greatfet-hardware/azalea" target="_blank">Hardware</a></li>
+<li><a href="https://github.com/greatscottgadgets/greatfet" target="_blank">Software</a></li>
+</ul>
+</ul>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Debugging</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Hardware</s:tag>
+    <s:tag>Revese Engineering</s:tag>
+    <s:tag>Sniffing</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:tag>USB</s:tag>
+    <s:tag>USB Sniff</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/8748898058587</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">35.00</s:price>
+      <s:sku>GSG-DAFFODIL</s:sku>
+      <s:grams>100</s:grams>
+    </s:variant>
+  </entry>
+</feed>

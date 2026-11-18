@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/collections/ppb-hardware-extras.atom"/>
+  <title>Lab401</title>
+  <updated>2026-07-31T17:09:12+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/products/10547531481435</id>
+    <published>2026-07-31T17:09:12+02:00</published>
+    <updated>2026-07-31T17:09:12+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/project-reboot-hardware-target"/>
+    <title>Project Reboot: Hardware Audit Training Target</title>
+    <s:type></s:type>
+    <s:vendor>Mindstorm Security</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Project-Reboot---Front.png?v=1782226504"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Mindstorm Security<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            102.50 - 125.50
+            <a href="https://lab401.com/products/project-reboot-hardware-target">(2 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><strong>Ever wanted to learn</strong> how to <strong>reverse-engineer hardware</strong> but were intimidated by its steep learning curve? Or maybe you <strong>understand the basics,</strong> but don't know how to <strong>level up your skills? </strong>Or maybe you teach hardware auditing, but can't find targets that are flexible, economical and progressive?</p>
+<p><strong>Meet Project Reboot.</strong> Developed by the MACOBOX team, Project Reboot is a <strong>progressive hardware target board:</strong> a hardware device specifically made to make learning hardware reverse engineering<strong> progressive and fun.</strong></p>
+<p><strong>Your Mission:</strong> Your robot has had a bad day. During its last run, a crash corrupted critical systems. The core is still alive, but all high-level functions are offline.</p>
+<p><strong>Your Character:</strong> You are the field engineer assigned to bring the unit back online. You have direct access to low-level interfaces (UART, I²C, SPI, BLE). The robot will not simply accept a reset: you must prove you actually understand what you're doing by solving four protocol-based challenges.</p>
+<div style="text-align: left;"><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Robot---Float.gif?v=1782309056" alt="" style="margin-bottom: 16px; float: left; max-width: 30%;"></div>
+<p><strong>Your Objectives:</strong></p>
+<ol>
+<li>Recover the robot's UART recovery console and inspect its pseudo-filesystem.</li>
+<li>Sniff the I²C bus and reconstruct a flag from sensor traffic.</li>
+<li>Interact with the external SPI flash and recover a flag from firmware data.</li>
+<li>Use BLE to talk to the robot, set modes, and submit flags. Interact with packets and characteristics to solve the challenge.</li>
+</ol>
+<p><strong>Each challenge exists in two flavours:</strong> Normal mode and Hard mode. Normal mode shows you the core mechanics; Hard mode forces you to apply them in a more challenging way.</p>
+<p><strong>What you'll learn along the way:</strong></p>
+<ul>
+<li>Understand how UART, I²C, SPI and BLE work in real embedded systems.</li>
+<li>Use these interfaces for debugging, reverse engineering and exploitation.</li>
+<li>Extract and submit flags that confirm you solved each challenge.</li>
+</ul>
+<p>To help you, Lab401 has written a <a href="https://lab-401.github.io/Project-Reboot-eLearning/"><b>complete walkthrough</b></a> - taking you through everything you need to know - theory, techniques, approaches, software and commands. If you get stuck, there's ample tips to help you through each section. You'll get full knowledge, the right amount of challenge - but never frustrated or completely lost.</p>
+<p>Project Reboot is available in <span style="text-decoration: underline;">two configurations:</span><br></p>
+<ul>
+<li>
+<strong>Complete:</strong> Contains everything you need to solve the challenge - all tools, accessories, wires, gizmos - everything you need is included. These are <b>real tools</b> - they form the base of every hardware auditor's toolkit - and will be useful for years to come.
+</li>
+<li>
+<strong>Basic:</strong> Device only - if you've already got tools and accessories, you can buy the Project Robot board standalone.</li>
+</ul>
+<figure style="margin-top:2em; margin-bottom:2em">
+   <video lite-youtube="" videoid="7TroJG5w4Z4" posterquality="maxresdefault" params="rel=0"></video>
+</figure>
+<div class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<b>Basic Pack</b>
+<ul>
+<li>1x <b>Project Reboot Device</b>
+</li>
+</ul>
+<b>Complete Pack</b>
+<ul>
+<li>1x <b>Project Reboot Device</b>
+</li>
+<li>1x USB-TTL Serial Adaptor (+ Cables)</li>
+<li>1x CH341A Memory Reader (+ Cables)</li>
+<li>1x SPI SOP-8 Memory Clip</li>
+<li>1x 24MHz, 8-Channel Logic Analyser (+ Cables)</li>
+<li>1x Digital Pen-Style Multimetre (+ Cables)</li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>Technical Resources</strong></h2>
+<strong>Documentation &amp; Support</strong>
+<ul>
+<li>
+<a href="https://lab-401.github.io/Project-Reboot-eLearning/" target="_blank">Lab401's Project Reboot Walkthrough Tutorial</a>
+</li>
+<li><a href="https://mindstormsecurity.com/d7f3a9b2c1e5/project_reboot_manual.html" target="_blank">Project Reboot Documentation</a></li>
+</ul>
+<h2><strong>Learning Objectives</strong></h2>
+<b>Interfaces</b>
+<ul>
+<li>UART (TX/RX Theory, Baud Rate, Frames, Typical Uses)</li>
+<li>I2C (Physical Connection, Address Spaces, Clock Theory, Master/Slave Configurations, Typical Uses)</li>
+<li>SPI (Physical Connection, Address Spaces, Duplex Transmission)</li>
+<li>BLE (Services, GAT, properties, advertising packets, use-cases)</li>
+</ul>
+</div>
+</div>
+<div class="contentGroup">
+  <h3>Project Reboot - Product &amp; Challenge Walthrough</h3>
+  <p>If you've just received your Project Reboot device, or you want to see how it works hands-on, this (spoiler free) walkthrough video shows unboxing, orientation, and steps through challenge-by-challenge. Use it in conjunction with <a href="https://lab-401.github.io/Project-Reboot-eLearning/" target="_blank">Lab401's Project Reboot Walkthrough Tutorial</a> for a full, in-depth guide!</p>
+<figure style="margin-top:2em; margin-bottom:2em">
+   <video lite-youtube="" videoid="K8mnbfALGMU" posterquality="maxresdefault" params="rel=0"></video>
+</figure>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10547531481435</id>
+      <title>Basic</title>
+      <s:price currency="EUR">102.50</s:price>
+      <s:sku>MS-PROJECT-REBOOT</s:sku>
+      <s:grams>30</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/10547531481435</id>
+      <title>Complete Pack</title>
+      <s:price currency="EUR">125.50</s:price>
+      <s:sku>MS-PROJECT-REBOOT-PACK</s:sku>
+      <s:grams>500</s:grams>
+    </s:variant>
+  </entry>
+</feed>

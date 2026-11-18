@@ -1,0 +1,1852 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/collections/rfid-tools-development-diagnostic.atom"/>
+  <title>Lab401</title>
+  <updated>2026-08-22T20:10:42+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/products/10620418621787</id>
+    <published>2026-08-22T20:10:42+02:00</published>
+    <updated>2026-08-22T20:10:42+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/proxmark-5"/>
+    <title>Proxmark 5</title>
+    <s:type></s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Proxmark-5---Front.png?v=1786219407"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            325.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="contentGroup">
+<p>The <b>Proxmark is the industry standard</b> device for <b>RFID analysis</b>, providing multi-frequency reading, writing, emulating, demodulation, sniffing and cracking across almost any RFID system and frequency.</p>
+<p>The Proxmark 5 is a <b>generational upgrade</b> over the Proxmark 3, covering both operational improvements and adding new functionality. The upgraded system core brings <b>increased frequency range</b>, optimised RFID <b>performance</b>, improved <b>stability</b>, <b>faster</b> operations.</p>
+<p>The <b>fully redesigned core</b> is faster, more stable, supports more frequencies. The redesigned antennas are hot-swappable and feature dynamic power adjustment - meaning better performance in challenging conditions, further read-range and “no dead-spots”. The <b>modular architecture</b> allows for drop-in modules (like the wireless module), expansion via GPIO, and even pairing with the Flipper Zero.</p>
+<p>Users can now connect two Proxmark 5 devices to perform <b>relay attacks</b>: one device reads the original card and transmits its data wirelessly to another device positioned on a reader, enabling a new class of RFID audit capability.</p>
+<p>The Proxmark 5 was designed in close collaboration with the Proxmark community; <b>all functionality and features are integrated</b> and supported in the <b>“iceman” firmware</b>.</p>
+</div>
+<div class="l401-notice">
+<p><b>IMPORTANT ⚠️ Pre-release firmware</b></p>
+<p>The Proxmark 5's firmware is <b>pre-release</b> / <a href="https://github.com/RfidResearchGroup/proxmark3/#proxmark5" target="_blank">currently unstable</a>. If you required <b>stable, out-of-the-box functionality</b> we advise purchasing the <a href="/products/proxmark-3-rdv4"><b>Proxmark 3 RDV4.01</b></a></p>
+</div>
+<div class="contentGroup">
+<h2>Discover the Proxmark 5</h2>
+</div>
+<!-- START Feature Video -->
+<figure class="pm5-video" style="margin-top: 0em; margin-bottom: 3em;">
+<video lite-youtube="" videoid="LEhEvpyb2AI" posterquality="maxresdefault" params="rel=0">
+<img slot="image" src="https://cdn.shopify.com/s/files/1/2175/8571/files/YT-Thumb_3a720ddc-9ff7-486b-9eb2-42aeb996bc1d.jpg?v=1785967639" alt="">
+</video>
+</figure>
+<!-- END Feature Video -->
+<!-- START Discover Grid -->
+<h2>Proxmark 5 Advantages</h2>
+<p>Eight years of community feedback, technical improvements and RFID research culminated in one device. Discover how the Proxmark 5 will improve your RFID workflow:</p>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left product-image-container">
+<div><img alt="Proxmark 5" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Proxmark5---Floating-Sticker.png?v=1786222135"></div>
+<ul class="markers-list">
+<li data-y="8" data-x="69" data-feature-id="1" class="feature-marker">1</li>
+<li data-y="42" data-x="54" data-feature-id="2" class="feature-marker">2</li>
+<li data-y="31" data-x="26" data-feature-id="3" class="feature-marker">3</li>
+<li data-y="11" data-x="26" data-feature-id="4" class="feature-marker">4</li>
+<li data-y="21" data-x="10" data-feature-id="5" class="feature-marker">5</li>
+<li data-y="43" data-x="25" data-feature-id="6" class="feature-marker">6</li>
+<li data-y="79" data-x="54" data-feature-id="7" class="feature-marker">7</li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<div data-feature-id="1" class="feature-item">
+<h3>New Architecture</h3>
+<p>Eight years of hardware improvements for unmatched RFID &amp; system performance: RFID operations benchmarked at least <b>65% faster.</b></p>
+</div>
+<div data-feature-id="2" class="feature-item">
+<h3>New Antennas</h3>
+<p>Hot-swappable, high-performance dynamic antennas for improved read range, no dead-spots and more stable coupling.</p>
+</div>
+<div data-feature-id="3" class="feature-item">
+<h3>Built for mobile audits</h3>
+<p>Drop-in battery+wireless module for mobile-first audits and improved standalone capabilities.</p>
+</div>
+<div data-feature-id="4" class="feature-item">
+<h3>New Pentest Functions</h3>
+<p>Two Proxmark 5 device can be paired to perform wireless relay audits: one device reads the card, the other opens the door.</p>
+</div>
+<div data-feature-id="5" class="feature-item">
+<h3>Built for flexibility</h3>
+<p>Connect anything: Flipper Zero, SPI, UART, External Mass Storage via the Dual-Mode USB-C port</p>
+</div>
+<div data-feature-id="6" class="feature-item">
+<h3>Built to be extended</h3>
+<p>Accessible GPIO and open-source code make development, modules and expansion easy.</p>
+</div>
+<div data-feature-id="7" class="feature-item">
+<h3>Integrated Frequency Detector</h3>
+<p>Detect and identify RF fields and frequencies instantly</p>
+</div>
+</div>
+</div>
+<!-- END Discover Grid -->
+<div class="contentGroup">
+<h2>Functionality</h2>
+<p>The Proxmark 5 is the most advanced and complete RFID research platform available, covering <b>high-level functions</b> (read, write, emulate, clone), <b>pentest and audit</b> oriented functionality (cracking, sniffing and relay) and <b>low-level functions</b> (interacting with the bit-stream, demodulating raw frames, analysing protocols).</p>
+<p>Designed, oriented and optimised towards technical users, the Proxmark device is controlled via its command-line interface (CLI) in a wired or wireless context. New users should expect a learning curve - but are supported by extensive documentation and tutorials, and welcomed by the active Discord and Github communities.</p>
+</div>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Proxmark 5 Specifications</h3>
+<ul>
+<li>
+<strong>Frequencies:</strong>
+<ul>
+<li>High Frequency: 13.56MHz</li>
+<li>Low Frequency: 125kHz - 500kHz</li>
+</ul>
+</li>
+<li>
+<strong>Chipset</strong>: AT32F435 (288MHz)</li>
+<li>
+<strong>FPGA</strong>: GOWIN FPGA</li>
+<li>
+<strong>ADC</strong>: 10-bit</li>
+<li>
+<strong>Connectivity</strong>:
+<ul>
+<li>Dual USB-C</li>
+<li>Wifi + Bluetooth <em>(Requires Wireless Module)</em>
+</li>
+<li>GPIO (10 pins)</li>
+</ul>
+</li>
+<li>
+<strong>Feedback</strong>
+<ul>
+<li>1x Assignable RGB LED</li>
+<li>4x Status LEDs</li>
+<li>1x Buzzer</li>
+<li>1x Multi-function button</li>
+</ul>
+</li>
+<!--
+<li><strong>High Level Functions</strong>
+<ul>
+<li>Read, Write</li>
+<li>Emulate</li>
+<li>Clone</li>
+<li>Sniff</li>
+<li>Relay <em>(Requires two Proxmark 5 devices)</em></li>
+<li>Demodulate</li>
+<li>Analyse</li>
+</ul>
+</li>-->
+</ul>
+<h3>Optional Accessories</h3>
+<ul>
+<li><a href="/products/proxmark-5-wireless-battery-module" target="_blank">Wireless + Battery Module</a></li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>What’s Included</h3>
+<ul>
+<li><strong>1x Proxmark 5</strong></li>
+<li>1x Custom Type-C to Type-C Cable</li>
+<li>1x Flipper Zero Module Cable to Proxmark 5</li>
+<li>2x RFID Testing Cards</li>
+<li>1x Proxmark 5 Sticker</li>
+</ul>
+<h3>Compatibility</h3>
+<ul>
+<li>Linux <a href="https://github.com/RfidResearchGroup/proxmark3/blob/master/doc/md/Installation_Instructions/Linux-Installation-Instructions.md" target="_blank"><i>Setup Guide</i></a>
+</li>
+<li>MacOS <a href="https://github.com/RfidResearchGroup/proxmark3/blob/master/doc/md/Installation_Instructions/macOS-MacPorts-Installation-Instructions.md" target="_blank"><i>Setup Guide</i></a>
+</li>
+<li>Windows <a href="https://github.com/RfidResearchGroup/proxmark3/blob/master/doc/md/Installation_Instructions/Windows-Installation-Instructions.md" target="_blank"><i>Setup Guide</i></a>
+</li>
+<li>Android (Termux) <a href="https://github.com/RfidResearchGroup/proxmark3/blob/master/doc/termux_notes.md" target="_blank"><i>Setup Guide</i></a>
+</li>
+<li>iOS <a href="https://github.com/RfidResearchGroup/proxmark3/blob/master/doc/md/Installation_Instructions/iOS-Installation-Instructions.md" target="_blank"><i>Setup Guide</i></a>
+</li>
+</ul>
+<h3>Proxmark 5 Resources</h3>
+<ul>
+  <li><a href="https://github.com/RfidResearchGroup/proxmark3/blob/master/doc/md/PM5_Start_Here/Getting_Started_With_PM5.md" target="_blank">Proxmark 5 Setup / Flashing Instructions</a></li>
+<li><a href="https://www.youtube.com/watch?v=LEhEvpyb2AI" target="_blank">Proxmark 5 Introduction Video</a></li>
+<li><a href="https://github.com/RfidResearchGroup/proxmark3" target="_blank">Official Github Repository</a></li>
+<li><a href="https://discord.gg/iceman" target="_blank">Official Proxmark Discord</a></li>
+</ul>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10620418621787</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">325.00</s:price>
+      <s:sku>PROXMARK5</s:sku>
+      <s:grams>300</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/10601024848219</id>
+    <published>2026-07-16T14:06:19+02:00</published>
+    <updated>2026-07-16T14:06:19+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/industrial-handheld-uhf-reader"/>
+    <title>Industrial Handheld UHF Reader</title>
+    <s:type></s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/UHFKill-Reader-2.optimised.png?v=1784202772"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            975.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>Industrial Handheld UHF Reader</h2>
+<p>This industrial handheld UHF Reader allows for precise and reliable reading of UHF tags at distances up to 1 meter. This model is tuned specifically to accurately detect tags embedded in products (footwear, apparel, eye-wear, etc), and supports tags of all antenna configurations and dimensions.</p>
+<h2>Rapid Tag-Deactivation Verification</h2>
+<p>In deactivation workflows, rapid and reliable verification is vital. The hand-held UHF Reader pairs perfectly with the UHFKill workflow, providing different modes of operation, including continuous scanning (to validate individual products and batches of processed products) and single-tag mode, where the device can filter one specific tag to assist locating any missed tags.</p>
+<p>Likewise, if your UHFKill devices are over 10,000 operational cycles, the UHF Reader is vital to ensure successful tag deactivation.</p>
+<b>Technical Specifications</b>
+<ul>
+<li>
+<b>Dimensions</b>:  177 x 88.6 x 145.8 mm</li>
+<li>
+<b>Weight</b>: 654g</li>
+<li>
+<b>Battery</b>: 8000mAh</li>
+<li>
+<b>Screen</b>: 5.2'' IPS LTPS 1920 x 1080</li>
+<li>
+<b>Connectivity</b>: Wifi, 2G/3G/4G/5G, BLE, GPS</li>
+ <li>
+<b>Certifications</b>: CE/FCC</li>
+</ul>
+<b>Tag Compatibility</b>
+<ul>
+<li>
+<b>Antenna Types</b>: </li>
+<li>
+<b>Frequency</b>:  	865-868 MHz / 920-925 MHz / 902-928 MHz</li>
+<li>
+<b>Antenna Dimensions</b>: 3x5mm - 130x42mm</li>
+<li>
+<b>Embedded Tag Support</b>: Yes</li>
+<li>
+<b>Max Read Range</b>: 10m+ outdoors</li>
+<li>
+<b>Max Read Rate</b>: 1300 tags per second</li>
+</ul>
+<b>Features</b>
+<ul>
+<li>
+<b>Continuous Scan</b>: Yes</li>
+<li>
+<b>Audible Alert</b>: Yes</li>
+<li>
+<b>Screen Freeze</b>: Yes</li>
+<li>
+<b>UID Focus Mode</b>: Yes</li>
+</ul>
+</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://lab401.com/products/10601024848219</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">975.00</s:price>
+      <s:sku>UHFKILL-READER</s:sku>
+      <s:grams>400</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/10287081718107</id>
+    <published>2026-01-13T17:11:28+01:00</published>
+    <updated>2026-01-13T17:11:28+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/13-56mhz-rfid-field-strength-meter"/>
+    <title>13.56MHZ RFID Field Strength Meter</title>
+    <s:type>RFID</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Field-Strength---Meter---1.png?v=1768317488"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>RFID<br>
+        <strong>Price: </strong>
+            80.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2><strong>Introduction</strong></h2>
+<p>The 13.56MHz Field Strength Meter is a device that allows for quantitative measurement of 13.56MHz RF Fields. When placed in an active 13.56MHz field, an indicator LED shows the measurement result. LEDs are colour-coded for rapid visual confirmation of ISO standard compliance.</p>
+<p>The device is entirely passive - it is powered by RFID field itself. Each Field Strength Meter has been tested and calibrated in accordance to ISO 14443 and ISO 15683 standards using an ISO 10373-7 testing framework, ensuring accurate measurements.</p>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-whole large--one-half text-left product-image-container">
+<video loop="loop" muted="muted" autoplay="autoplay" style="width: 100%;"><source src="https://cdn.shopify.com/videos/c/o/v/0213280581464257b22dc9e40ced7fb9.mp4"></video>
+<ul class="markers-list">
+<li data-y="36" data-x="50" data-feature-id="1" class="feature-marker">1</li>
+<li data-y="50" data-x="4" data-feature-id="2" class="feature-marker">2</li>
+<li data-y="53" data-x="74" data-feature-id="3" class="feature-marker">3</li>
+<li data-y="61" data-x="41" data-feature-id="4" class="feature-marker">4</li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left" style="text-align: start;">
+<div data-feature-id="1" class="feature-item">
+<h3>1. ISO CALIBRATED</h3>
+<p>Each reader is ISO calibrated allowing to accurately test devices for compliance with ISO 14443 and ISO 15693 standards.</p>
+</div>
+<div data-feature-id="2" class="feature-item">
+<h3>2. ENTIRELY PASSIVE</h3>
+<p>No batteries required, no charging required, no software required. The device is powered via the RFID field itself.</p>
+</div>
+<div data-feature-id="3" class="feature-item">
+<h3>3. ISO Standard Size</h3>
+<p>ISO 7810 compliant dimensions: accurately test of readers calibrated for standard card sizes.</p>
+</div>
+<div data-feature-id="4" class="feature-item">
+<h3>4. Ultra portable, ultra-durable</h3>
+<p>Built to last - no moving parts, no batteries. Each device is delivered in a protective case. </p>
+</div>
+</div>
+</div>
+<div class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>Technical Specifications<br></strong></h2>
+<ul>
+<li><span>Size: 86.0 x 54.0 mm (ISO 7810)</span></li>
+<li><span>Weight: 10g<br></span></li>
+<li><span>Frequency: 13.56MHz</span></li>
+<li><span>Indicators: 15 LEDs (including ISO 14443 &amp; 15693 specification ranges)</span></li>
+</ul>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x 13.56MHz Field Strength Meter</li>
+<li>1x Plastic Protective Case</li>
+</ul>
+</div>
+</div>
+</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>13.56MHz (HF)</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10287081718107</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">80.00</s:price>
+      <s:sku>RFID-FSM</s:sku>
+      <s:grams>20</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/10050552824155</id>
+    <published>2025-09-15T10:06:43+02:00</published>
+    <updated>2025-09-15T10:06:43+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/rfid-field-detector-ultra"/>
+    <title>RFID Field Detector Ultra - LF/HF/UHF</title>
+    <s:type></s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/RFID-Field-Detector---With-UHF.png?v=1754955174"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            24.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2><strong>Introduction</strong></h2>
+<p>The RFID Field Detector is a device that allows you to rapidily detect the presence of RFID Fields, and identify RFID which frequency is used.<br>Lab401's RFID Field Detector is the world's first <i>triple-band</i> detector - working with LF (125KHz), HF (13.56MHz) and UHF (860MHz).</p>
+<p>Small enough to fit onto your keyring, and durable enough to survive: the RFID Field Detector is perfect for pentesters who need to rapidly perform access control reconnaissance, and indispensible for developers and RFID enthusiasts, allowing quick testing and identification of different RFID types.</p>
+<p>The device is entirely passive - no batteries to recharge, no firmware to update, no switches to break. Simple place it on an RFID reader, and when an RFID field is detected, an LED indicates the frequency of the field.</p>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left product-image-container">
+<video loop="loop" muted="muted" autoplay="autoplay" style="width: 100%;"><source src="https://cdn.shopify.com/videos/c/o/v/ec26c62899674cf5800cf626fc240adf.mp4"></video>
+<ul class="markers-list">
+<li data-y="17" data-x="44" data-feature-id="1" class="feature-marker">1</li>
+<li data-y="29" data-x="20" data-feature-id="2" class="feature-marker">2</li>
+<li data-y="72" data-x="30" data-feature-id="3" class="feature-marker">3</li>
+<li data-y="64" data-x="12" data-feature-id="4" class="feature-marker">4</li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left" style="text-align: start;">
+<div data-feature-id="1" class="feature-item">
+<h3>1. Detect all RFID readers and signals</h3>
+<p>World's first tri-band RFID detector, featuring detection across the full UHF frequency range: 860 - 960MHz</p>
+</div>
+<div data-feature-id="2" class="feature-item">
+<h3>2. Always ready, no batteries required</h3>
+<p>The RF Field Detector is completely passive - no batteries required, no charging required, no software required. The device uses wireless power from the RFID field to power itself.</p>
+</div>
+<div data-feature-id="3" class="feature-item">
+<h3>3. Simultaneous multi-frequency detection</h3>
+<p>Features dual &amp; tri-band simultaneous detection. If your target reader is multi-frequency, you'll know instantly.</p>
+</div>
+<div data-feature-id="4" class="feature-item">
+<h3>4. Ultra portable, ultra-durable</h3>
+<p>Fits perfectly on your keyring with the included keyring loop, completely protected from bumps and shocks with its high-quality industrial-grade epoxy finish</p>
+</div>
+</div>
+</div>
+<div style="margin-top: 2em;">
+<h2>Hands on with the RFID Detector Ultra</h2>
+<p>Get hands-on with Lab401's RFID Field Detector Ultra and see how it can be used to detect all types of RFID readers and fields and readers: LF, HF and UHF - without guessing and without batteries.
+<figure><video lite-youtube="" videoid="LIMG__9Zx44" posterquality="maxresdefault" params="rel=0"></video></figure>
+</p>
+</div>
+<div class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>Technical Specifications<br></strong></h2>
+<ul>
+<li><span>Size: 42 x 32 x 3 mm</span></li>
+<li><span>Weight: 10g<br></span></li>
+</ul>
+<strong>Supported Frequencies</strong><br>
+<ul>
+<li>Low Frequency (125KHz) : Red LED</li>
+<li>High Frequency (13.56MHz) : Green LED</li>
+<li>Ultra High Frequency (860-960MHz) : Blue LED</li>
+</ul>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x LF/HF/UHF RFID Field Detector</li>
+<li>1x Keychain attachment</li>
+</ul>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>125KHz (LF)</s:tag>
+    <s:tag>13.56MHz (HF)</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>RF</s:tag>
+    <s:tag>rfid</s:tag>
+    <s:tag>UHF</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10050552824155</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">24.95</s:price>
+      <s:sku>RF-DETECTOR-ULTRA</s:sku>
+      <s:grams>10</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/8585786818907</id>
+    <published>2023-10-04T11:16:39+02:00</published>
+    <updated>2023-10-04T11:16:39+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/chameleon-ultra-devkit"/>
+    <title>Chameleon Ultra DevKit</title>
+    <s:type>Pen Testing</s:type>
+    <s:vendor>RRG</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/ChamUltra-Devkit.png?v=1696350912"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>RRG<br>
+        <strong>Type: </strong>Pen Testing<br>
+        <strong>Price: </strong>
+            129.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>The ChameleonUltra is built on a highly capable framework, making it a powerful RFID development platform. While the ChameleonUltra has been optimised for size, the <strong>ChameleonUltra Devkit has been optimised for development.</strong><br><br>Flashing and debug break-out points are easily accessible; the PCBA and silkscreen are arranged in logical groups for easy access and development.</p>
+<p>The Chameleon Ultra is the ultimate RFID emulation device : Low and high-frequency emulation, full read &amp; write capabilities, bleeding-edge cracking, wireless control : all wrapped up in a key-chain sized, fully open-sourced device.<br></p>
+<p>The Chameleon Ultra is the result of exceptional engineering ingenuity : the development team discovered that little-known RFID function in a popular Bluetooth controller could be pushed to provide high-performance, multi-frequency RFID reading, writing and cracking - and emulation performance almost identical to that of a physical card.</p>
+<p><strong>Lab401 is the exclusive distributor for the Chameleon Ultra in Europe.</strong></p>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Low &amp; High Frequency Emulation<br>
+</h3>
+<p>"Frame Delay Time" is the most important metric in emulation: slower performance means that emulation doesn't meet protocol specifications, data can be lost, and ultimately, the emulation can fail.</p>
+<p>The Chameleon Ultra has the <strong>world's most precise emulation</strong>: it's the most precise emulator in the world.</p>
+<p><video loop="loop" autoplay="autoplay"><source src="https://cdn.shopify.com/videos/c/o/v/467ed47ac5884af3b99d8d1d11b4bcf8.webm"></video></p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Optimised MIFARE Classic® Cracking<br>
+</h3>
+<p>The Chameleon Ultra's powerful chip supports all known MIFARE Classic® cracking algorithms - at speeds faster than the Proxmark!</p>
+<p>The device supports all classic and modern attacks, including MFKEY32 v2, Darkside, Nested, StaticNested and Hardnested attacks - for incredibly quick key recovery.</p>
+<p><video loop="loop" autoplay="autoplay"><source src="https://cdn.shopify.com/videos/c/o/v/b022ef9392fa482da1037281055f790e.webm"></video></p>
+</div>
+</div>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Low &amp; High Frequency Reading / Writing<br>
+</h3>
+<p>The Chameleon Ultra hardware supports high and low frequency reading and writing - allowing it to be used as a standalone or connected reader/writer device.</p>
+<p>For High Frequency, the device supports ISO14443A chipsets: MIFARE Classic® (1K/2K/4K, 4-byte &amp;, 7-byte UID), NTAG® (210 - 218), Ultralight® (Standard, C, EV1), DESFire® (EV1 &amp; 2) and MIFARE® Plus.</p>
+<p>For Low Frequency, the device supports ASK, FSK and PSK modulations - almost 99% of 125KHz chipsets: EM410x, T5577, HID Prox, Indala, FDX-B, Paradox, AWD, PAC/Stanley, etc.</p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Wireless, UI and CLI Control<br>
+</h3>
+<p>The Chameleon Ultra can be controlled and updated in several ways.<br></p>
+<p>Firmware can be flashed via USB-C or Over-the-Air; badge dumps can be uploaded and downloaded via wireless or wired connections.<br></p>
+<p>Likewise, the device can be controlled via GUI Tool, mobile phone, or via CLI - depending on your workflow.<br></p>
+<p>The CLI and UI tools are continuously updated by the community, with new functionality and stability being constantly added.</p>
+</div>
+</div>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Incredible hardware<br>
+</h3>
+<p>The ChameleonUltra's hardware has been pushed to its limits : despite its size, it boasts better emulation than the Flipper Zero and even Proxmark 3 - and can run for 6 months off a single battery charge!</p>
+<p>The device itself is beautiful - a masterpiece of copper, epoxy, fiberglass and stainless steel.</p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>100% Open Source<br>
+</h3>
+<p>The Chameleon Ultra is fully open-source : all firmware, hardware, software and resources are available on the Chameleon Ultra Github page.</p>
+<p>The frequent contributions from RFID superstars such as iceman and doegox ensure that the Chameleon Ultra is a well-supported, high-performance device.</p>
+</div>
+</div>
+<h2><strong>Understand the ChameleonUltra<br></strong></h2>
+<p>The Chameleon Ultra's primary use is for RFID Emulation. Instead of needing physical cards, you can emulate multiple different types of chips and different frequencies with one device.<br></p>
+<p>The Chameleon Ultra also has several other powerful features : cracking, reading, writing.</p>
+<p>When working with RFID tags, there are typically five required functions:</p>
+<ol>
+<li>
+<strong>Identification</strong> - identifying the badge : frequency, modulation, chipset, protocol, etc. Most tags can be easily identified. However, some tags need to be manually identified, requiring specialty hardware such as the <strong>Proxmark</strong>.<br><br>
+</li>
+<li>
+<strong>Cracking</strong> - many common chipsets (MIFARE Classic®, etc) require keys to read or write the contents of the badge. If the keys are unknown, they need to be cracked. The ChameleonUltra cracking capabilities equal to Proxmark.<br>
+</li>
+<li>
+<strong>Reading</strong> - Reading the data from a badge.<br>
+</li>
+<li>
+<strong>Emulation</strong> - Emulation allows for simulating a badge digitally. Instead of needing multiple physical cards, they can be replaced with an emulator. Further, emulated data and chipsets can be customised completely - something impossible with physical cards.<br>
+</li>
+<li>
+<strong>Writing</strong> - Writing data to an existing badge, or cloning data to a new badge.</li>
+</ol>
+<p>The below table shows the coverage that the ChameleonUltra provides in each of these categories, and how it compares to other tools.</p>
+<div style="text-align: center;">
+<div class="ratings-outer-container">
+<div class="flex-holder">
+<h3>Chameleon Ultra</h3>
+<div class="flex-container">
+<div class="flex-items">Emulate</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 100;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Crack</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 90;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Read</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 75;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Write</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 65;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Identify</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 35;"></div>
+</div>
+</div>
+</div>
+<div class="flex-holder">
+<h3>Flipper Zero</h3>
+<div class="flex-container">
+<div class="flex-items">Emulate</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 45;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Crack</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 20;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Read</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 25;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Write</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 25;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Identify</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 15;"></div>
+</div>
+</div>
+</div>
+<div class="flex-holder">
+<h3>Proxmark</h3>
+<div class="flex-container">
+<div class="flex-items">Emulate</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 55;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Crack</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 75;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Read</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 75;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Write</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 75;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Identify</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 100;"></div>
+</div>
+</div>
+</div>
+<div class="flex-holder">
+<h3>iCopy-X</h3>
+<div class="flex-container">
+<div class="flex-items">Emulate</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 45;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Crack</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 75;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Read</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 75;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Write</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 75;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Identify</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 75;"></div>
+</div>
+</div>
+</div>
+<div class="flex-holder">
+<h3>DL-533N</h3>
+<div class="flex-container">
+<div class="flex-items">Emulate</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 10;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Crack</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 40;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Read</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 25;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Write</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 25;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Identify</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 25;"></div>
+</div>
+</div>
+</div>
+<div class="flex-holder">
+<h3>Chameleon Tiny</h3>
+<div class="flex-container">
+<div class="flex-items">Emulate</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 50;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Crack</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 5;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Read</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 10;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Write</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 5;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Identify</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 5;"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p>For users that don't require advanced identification or rapid cloning, the ChameleonUltra could be the perfect match for your needs.<br></p>
+<h2><strong>ChameleonUltra Community and Ecosystem</strong></h2>
+<p data-mce-fragment="1">The Chameleon Ultra is fully open-source : all firmware, hardware, software and resources are available on the Chameleon Ultra Github page.</p>
+<p data-mce-fragment="1">The frequent contributions from RFID superstars such as iceman and doegox ensure that the Chameleon Ultra is a well-supported, high-performance device.</p>
+<h2>ChameleonUltra Product Presentation</h2>
+<figure></figure>
+<h2>ChameleonUltra Unboxing</h2>
+<figure></figure>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x ChameleonUltra DEvKit<br>
+</li>
+<li>1x USB-A - USB-C Cable</li>
+<li>2-year guarantee</li>
+</ul>
+<br>
+<h2><strong>Device Specifications<br></strong></h2>
+<ul>
+<li><strong>Processor + Memory:</strong></li>
+<ul>
+<li>NRF52840</li>
+<li>ARM Cortex-M4 32-bit 64 MHz (Application Processor)<br>
+</li>
+<li>1MB Flash</li>
+<li>256KB RAM<br>
+</li>
+</ul>
+<li>
+<strong>Tactile Controls</strong>: 2x Physical Buttons<br>
+</li>
+<li>
+<strong>Internal Battery:</strong> LiPo 90mAh (6 months without charge)</li>
+<li>
+<strong>Connectivity:</strong> USB 2.0, Type-C<br>
+</li>
+<li>
+<strong>Dimensions:</strong> 40 x 24 x 8 mm<br>
+</li>
+<li>
+<strong>Weight:</strong> 8g</li>
+</ul>
+<h2><strong>Technical Resources<br></strong></h2>
+<ul>
+<li>
+<a href="https://github.com/GameTec-live/ChameleonUltraGUI/">ChameleonUltra UI Tools</a> (Windows/MacOS/Linux/Android)</li>
+<li>
+<a href="https://github.com/RfidResearchGroup/ChameleonUltra" target="_blank">Official Github</a><br>
+</li>
+<li><a href="https://discord.gg/QfPvGFRQxH" target="_blank">Community Discord Server</a></li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>RFID Specifications<br></strong></h2>
+<ul>
+<li>
+<strong>Reading, Emulation</strong> <br>
+</li>
+<ul>
+<li>High Frequency / 13.56MHz</li>
+<ul>
+<li>ISO-14443A</li>
+<li>Mifare Classic® (1K / 2K / 4K - 4-byte &amp; 7-byte UID)<br>
+</li>
+<li>Ultralight® (Standard, C &amp; EV1)<br>
+</li>
+<li>NTAG® (210 - 218)<br>
+</li>
+</ul>
+<li>Low Frequency / 125KHz</li>
+<ul>
+<li>Modulation: AM / PSK / FSK</li>
+<li>Supported Cards: <br>
+</li>
+<ul>
+<li>EM4XX / T5577<br>
+</li>
+<li>HID Prox / Indala / PAC/Stanley</li>
+<li>FDX-B / Paradox / Keri</li>
+<li>etc <em>(full list below)</em><br>
+</li>
+</ul>
+</ul>
+</ul>
+<li>
+<strong>Cracking</strong> <br>
+</li>
+<ul>
+<li>MIFARE Classic®</li>
+<ul>
+<li>MFKey32v2 (Key Calculation from sniffed exchanges)</li>
+<li>DarkSide (Key derivation from no known keys)</li>
+<li>Nested (Key derivation from one known key)<br>
+</li>
+<li>StaticNested (Key derivation from static PRNG)<br>
+</li>
+<li>HardNested (Key derivation from hardened PRNG)<br>
+</li>
+</ul>
+<li>Low Frequency / 125KHz</li>
+<ul>
+<li>T5577 Password Bruteforcing<br>
+</li>
+<li>UID Bruteforcing</li>
+</ul>
+</ul>
+</ul>
+</div>
+</div>
+<h2><strong>Chameleon Ultra Chipset Datasheets<br></strong></h2>
+<h3><strong>Device Comparison</strong></h3>
+<p>Summary of functionality across similar devices.</p>
+<p> </p>
+<table width="100%">
+<thead>
+<tr>
+<th>Device</th>
+<th align="center">Chameleon Ultra</th>
+<th align="center">Flipper Zero</th>
+<th align="center">Keysy</th>
+<th align="center">Proxmark</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>High-Frequency</strong></td>
+<td colspan="4"></td>
+</tr>
+<tr>
+<td><strong>ISO14443A Emulation</strong></td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+<td align="center">❌</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td><strong>Full MIFARE® Emulation</strong></td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+<td align="center">❌</td>
+<td align="center">✔️</td>
+</tr>
+<tr>
+<td><strong>ISO14443A Reading</strong></td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+<td align="center">❌</td>
+<td align="center">✔️</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<table width="100%">
+<tbody>
+<tr>
+<td><strong>Low-Frequency<strong></strong></strong></td>
+<td colspan="4"></td>
+</tr>
+<tr>
+<td><strong>LF Emulation</strong></td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+</tr>
+<tr>
+<td><strong>LF Reading</strong></td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<table width="100%">
+<tbody>
+<tr>
+<td><strong>Cracking</strong></td>
+<td colspan="4"></td>
+</tr>
+<tr>
+<td><strong>Darkside</strong></td>
+<td align="center">✔️</td>
+<td align="center">❌</td>
+<td align="center">❌</td>
+<td align="center">✔️</td>
+</tr>
+<tr>
+<td><strong>Nested</strong></td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">❌</td>
+<td align="center">✔️</td>
+</tr>
+<tr>
+<td><strong>StaticNested</strong></td>
+<td align="center">✔️</td>
+<td align="center">❌</td>
+<td align="center">❌</td>
+<td align="center">✔️</td>
+</tr>
+<tr>
+<td><strong>HardNested</strong></td>
+<td align="center">✔️</td>
+<td align="center">❌</td>
+<td align="center">❌</td>
+<td align="center">✔️</td>
+</tr>
+<tr>
+<td><strong>Relay attack</strong></td>
+<td align="center">✔️</td>
+<td align="center">❌</td>
+<td align="center">❌</td>
+<td align="center">✔️</td>
+</tr>
+</tbody>
+</table>
+<h3><strong>High Frequency Cracking Support</strong></h3>
+<p>Current support levels (hardware / firmware / application) support for High-Frequency Chipsets. Sniffing is not supported.</p>
+<table width="100%">
+<thead>
+<tr>
+<th>Attack</th>
+<th align="center">Chipset</th>
+<th align="center">Hardware Support</th>
+<th align="center">Firmware Support</th>
+<th align="center">Application Support</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>MFKEY32 V2</strong></td>
+<td align="center">MIFARE Classic®</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+</tr>
+<tr>
+<td><strong>Darkside</strong></td>
+<td align="center">MIFARE Classic®</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+<td align="center">✔️</td>
+</tr>
+<tr>
+<td><strong>Nested</strong></td>
+<td align="center">MIFARE Classic®</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+<td align="center">✔️</td>
+</tr>
+<tr>
+<td><strong>StaticNested</strong></td>
+<td align="center">MIFARE Classic®</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td><strong>HardNested</strong></td>
+<td align="center">MIFARE Classic®</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td><strong>Relay attack</strong></td>
+<td align="center">ISO14443A</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h3><strong>High Frequency Reading Support<br></strong></h3>
+<p>Current support levels (hardware / firmware / application) support for High-Frequency Chipsets. Only ISO14443A chipsets are supported,<br></p>
+<table width="100%">
+<thead>
+<tr>
+<th>Chipset</th>
+<th align="center">Encoding</th>
+<th align="center">Hardware Support</th>
+<th>Software Support</th>
+<th align="center">Application Support</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;" align="center"><strong>NTAG® 21x (210-218)</strong></td>
+<td align="center">ISO14443A/106 kbit/s</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>Mifare® Ultralight</strong></td>
+<td align="center">ISO14443A/106 kbit/s</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>Mifare® Ultralight Ev1</strong></td>
+<td align="center">ISO14443A/106 kbit/s</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>Mifare® Ultralight C</strong></td>
+<td align="center">ISO14443A/106 kbit/s</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>Mifare® Classic 1K/2K/4K : 4b/7b</strong></td>
+<td align="center">ISO14443A/106 kbit/s</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>Mifare® DESFire®</strong></td>
+<td align="center">ISO14443A High Rate</td>
+<td align="center">Low bitrate only</td>
+<td align="center">Low bitrate only</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>Mifare® DESFire® EV1</strong></td>
+<td align="center">ISO14443A High rate</td>
+<td align="center">Low bitrate only</td>
+<td align="center">Low bitrate only</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>Mifare DESFire EV2</strong></td>
+<td align="center">ISO14443A High rate</td>
+<td align="center">Low bitrate only</td>
+<td align="center">Low bitrate only</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>Mifare® PLUS</strong></td>
+<td align="center">ISO14443A High rate</td>
+<td align="center">Low bitrate only</td>
+<td align="center">Low bitrate only</td>
+<td align="center">🟡</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h3><strong>Low Frequency Support<br></strong></h3>
+<p>Current support levels (hardware / firmware / application) support for LowFrequency Chipsets. Only ASK/PSK/FSK modulation is supported.<br></p>
+<table width="100%">
+<thead>
+<tr>
+<th>Card Type</th>
+<th align="center">Chipset</th>
+<th align="center">Hardware Support</th>
+<th align="center">Firmware Support</th>
+<th align="center">Application Support</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;" align="center"><strong>EM410x</strong></td>
+<td align="center">ASK</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>T5577</strong></td>
+<td align="center">ASK</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>HID Prox</strong></td>
+<td align="center">FSK</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>Indala</strong></td>
+<td align="center">PSK</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>FDX-B</strong></td>
+<td align="center">ASK</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>Paradox</strong></td>
+<td align="center">FSK</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>Keri</strong></td>
+<td align="center">PSK</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>AWD</strong></td>
+<td align="center">FSK</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>ioProx</strong></td>
+<td align="center">FSK</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>securakey</strong></td>
+<td align="center">ASK</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>gallagher</strong></td>
+<td align="center">ASK</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>PAC/Stanley</strong></td>
+<td align="center">ASK</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>Presco</strong></td>
+<td align="center">ASK</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>Visa2000</strong></td>
+<td align="center">ASK</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>Viking</strong></td>
+<td align="center">ASK</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>Noralsy</strong></td>
+<td align="center">ASK</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>NexWatch</strong></td>
+<td align="center">PSK</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>Jablotron</strong></td>
+<td align="center">ASK</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+</tbody>
+</table>
+<style><!--
+.glamour, video {
+ max-width:100%
+}
+    .ratings-outer-container {
+    display: flex;   
+    justify-content: space-between; 
+    align-items: stretch; 
+    /* flex-flow: wrap; */  
+    flex-wrap: wrap; 
+    align-content: stretch;
+    height: 100%;
+    padding: 15px;
+    gap: 1em;
+}
+  .ratings-outer-container div.flex-holder {
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    padding: 1em;
+    flex-grow: 1;
+  }
+  .flex-holder {
+    max-width: 30%;
+    display: flex;   
+    justify-content: center; 
+    align-items: stretch; 
+    /* flex-flow: wrap; */  
+    flex-wrap: wrap; 
+}
+.flex-holder h3 {
+  margin: unset;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  width: 100%;
+  display: block;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: normal;
+  align-items: normal;
+  align-content: normal;
+  padding: 0.3em;
+  width: 100%;
+}
+.flex-items:nth-child(1) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  margin-right: 1em;
+  min-width: 50px;
+}
+.flex-items:nth-child(2) {
+  display: block;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: center;
+  order: 0;
+}
+  .bar {
+      height: 6px;    
+      padding: 0px;
+      border-radius: 30px;
+      background: rgba(0, 0, 0, 0.1);  
+    }
+    .bar::before {
+      content: '';
+      display: flex;
+      justify-content: end;
+      width: calc(var(--percent) * 1%);
+      height: 100%;
+      white-space: nowrap;
+      height: 6px;
+      border-radius: 4px;          
+      background-color: #2a62c2;
+      animation: progressAnimation 1s;
+      
+      background-image: linear-gradient(#2a62c2, #2a62c2),
+        linear-gradient(#5d83c3, #5d83c3),
+        linear-gradient(#889ec4, #889ec4),
+        linear-gradient(#afbcd4, #afbcd4),
+        linear-gradient(#c8ced8, #c8ced8);
+      background-size: calc((var(--percent) - 80) * 100%) 100%,
+        calc((var(--percent) - 60) * 100%) 100%,
+        calc((var(--percent) - 40) * 100%) 100%,
+        calc((var(--percent) - 20) * 100%) 100%,
+        100% 100%;      
+    }
+@keyframes progressAnimation {
+  0%   { width: 0%; }
+  100% { width: calc(var(--percent) * 1%) }
+}
+/*desktops - higher resolution*/
+@media (min-width: 1281px) {    .flex-holder { min-width: 30%;}  }
+/*laptops, desktops*/
+@media (min-width: 1025px) and (max-width: 1280px)  {    .flex-holder { max-width: 45%;}  }
+/*tablets, ipads (portrait)*/
+@media (min-width: 768px) and (max-width: 1024px) {    .flex-holder { max-width: 45%;}  }
+/*tablets, ipads (landscape)*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {    .flex-holder { max-width: 45%;}  }
+/*low resolution tablets, mobiles (landscape)*/
+@media (min-width: 481px) and (max-width: 767px) {    .flex-holder { max-width: 90%;}  }
+/*smartphones mobiles (portrait)*/
+@media (min-width: 320px) and (max-width: 480px) {    .flex-holder { max-width: 90%;}  }
+--></style></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>chameleon</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/8585786818907</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">129.00</s:price>
+      <s:sku>CHAMELEON-ULTRA-DEVKIT</s:sku>
+      <s:grams>80</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/1350524502127</id>
+    <published>2022-06-20T15:00:42+02:00</published>
+    <updated>2022-06-20T15:00:42+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/proxmark-3-rdv4"/>
+    <title>Proxmark 3 RDV4.01</title>
+    <s:type>Proxmark</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/Proxmark-3-RDV-4.1-New-Antenna-Front.png?v=1567146103"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>Proxmark<br>
+        <strong>Price: </strong>
+            329.00 - 529.00
+            <a href="https://lab401.com/products/proxmark-3-rdv4">(2 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="highlight-block">
+   <p>Also available in the <strong><em><a href="/products/lab401-pentester-pack">Lab401 Pentester Pack</a></em></strong> - with an instant discount of €105.</p>
+</div>
+<p>The Proxmark 3 is a dedicated, highly-capable multi-tool for RFID analysis, <span>providing reading, writing, analysis, snooping, replaying, emulation, modulation, demodulation, decoding, encoding, decryption, encryption for any RFID system operating in the 125KHz, 134KHz and 13.56MHz frequencies.</span> </p>
+<p>Since its original creation in 2007, there have been huge leaps in the electronics field. The Proxmark 3 RDV4.01 is a fully revised, modernized version of the already powerful RDV2.</p>
+<p>This is the <strong>4.01</strong> version of the device which includes multiple improvements over the 4.0 version, including:</p>
+<ul>
+   <li>Reduced power supply noise</li>
+   <li>Gold-plated FPC Connector</li>
+   <li>Antenna "Q-Switch" allowing for adapting antennas to specific operations</li>
+   <li>Antenna Frequency Switch allowing for optimised 125KHz and 134KHz performance</li>
+</ul>
+<p> </p>
+<h2><strong>Overview</strong></h2>
+<p>The Proxmark 3 RDV4.01 is the latest revision of the Proxmark 3 Platform. It is designed and manufactured by RRG, a company formed by four people instrumental to the Proxmark 3 including:</p>
+<ul>
+   <li>Chris Hermann (iceman) - Moderator of the proxmark forums</li>
+   <li>Kevin (0xFFFF) - Moderator of the proxmark forums</li>
+</ul>
+<p>The RDV 4.01 revision represents a highly optimised piece of hardware specifically designed for the pen-testing community:</p>
+<ul>
+   <li> <strong>Covert</strong>: Fits easily into a hand and pocket</li>
+   <li> <strong>Modular</strong>: Rapidly switch pre-tuned antennas for more range when in the field</li>
+   <li> <strong>Intuiative</strong>: Multiple Status LEDs for at-a-glance status checking</li>
+   <li> <strong>Android Compatible</strong>: Works with<span> </span><a href="https://walrus.app/">Project Walrus</a><span> </span>for automated red-teaming</li>
+   <li> <strong>Expandable</strong>: BLE/Wifi module expansion capability for automated data egress</li>
+</ul>
+<ul></ul>
+<h2><strong>Improvements</strong></h2>
+<p>The RDV4 has been designed and optimised for penetration testing, where performance and discretion are utmost priorities.<br>Below is a non-exhaustive list of improvements over the Proxmark 3 RDV2.</p>
+<div class="grid" style="margin: 2em 3em;">
+   <div class="grid-item small--one-whole medium--one-half large--one-fifth text-center">
+      <h3>Small &amp; durable</h3>
+      <p>Business card sized, ABS case. </p>
+   </div>
+   <div class="grid-item small--one-whole medium--one-half large--one-fifth text-center">
+      <h3>More Capable</h3>
+      <p>Updated CPU and over 8x memory.</p>
+   </div>
+   <div class="grid-item small--one-whole medium--one-half large--one-fifth text-center">
+      <h3>Internal Antennas</h3>
+      <p>Highly optimised internal antennas.</p>
+   </div>
+   <div class="grid-item small--one-whole medium--one-half large--one-fifth text-center">
+      <meta charset="utf-8">
+      <h3>Modular System</h3>
+      <p>Hot-swappable antennas &amp; SIM reader.</p>
+   </div>
+   <div class="grid-item small--one-whole medium--one-half large--one-fifth text-center">
+      <h3>Ready to go</h3>
+      <p>Everything you need is included in the box.</p>
+   </div>
+</div>
+<div class="grid">
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+      <h2><strong>Proxmark 3 Functionality Comparison</strong></h2>
+      <p>There are multiple versions of the Proxmark, optimised for desktop use or penetration testing. Please check the table below to find the version that corresponds with your needs.</p>
+      <table class="table table-striped table-bordered">
+         <thead>
+            <tr>
+               <th>Feature</th>
+               <th>Proxmark 3 RDV 4.01</th>
+               <th>Proxmark 3 EVO</th>
+               <th>Others (RDV2, Easy, etc)</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>Internal Antennas</td>
+               <td>X</td>
+               <td>X</td>
+               <td><br></td>
+            </tr>
+            <tr>
+               <td>ABS Case</td>
+               <td>X</td>
+               <td>X</td>
+               <td><br></td>
+            </tr>
+            <tr>
+               <td>Miniaturised</td>
+               <td>X</td>
+               <td>X</td>
+               <td><br></td>
+            </tr>
+            <tr>
+               <td>Pentesting Optimised</td>
+               <td>X</td>
+               <td><br></td>
+               <td><br></td>
+            </tr>
+            <tr>
+               <td>Desktop Optimised</td>
+               <td><br></td>
+               <td>X</td>
+               <td><br></td>
+            </tr>
+            <tr>
+               <td>SIM/SAM Reader</td>
+               <td>X</td>
+               <td><br></td>
+               <td><br></td>
+            </tr>
+            <tr>
+               <td>Swappable Antennas</td>
+               <td>X</td>
+               <td><br></td>
+               <td><br></td>
+            </tr>
+            <tr>
+               <td>Long Range Antenna</td>
+               <td>X</td>
+               <td><br></td>
+               <td><br></td>
+            </tr>
+            <tr>
+               <td>Interface</td>
+               <td>8x LED</td>
+               <td>1x RGB LED</td>
+               <td>1x LED</td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+      <h2><strong>Proxmark 3 Technical Comparison</strong></h2>
+      <meta charset="utf-8">
+      <meta charset="utf-8">
+      <p><span>There are multiple versions of the Proxmark, optimised for desktop use or penetration testing. Please check the table below to find the version that corresponds with your needs.</span></p>
+      <table class="table table-striped table-bordered" style="margin-bottom: 3em;">
+         <thead>
+            <tr>
+               <th>Feature</th>
+               <th>Proxmark 3 RDV 4.01</th>
+               <th>Proxmark 3 EVO</th>
+               <th>Others (RDV2, Easy, etc)</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>CPU</td>
+               <td>SAM7S512</td>
+               <td>AT91SAM7S512</td>
+               <td>AT91SAM7S512 / AT91SAM7S256</td>
+            </tr>
+            <tr>
+               <td>Memory</td>
+               <td>External 2MBits Internal 512Kb SPI</td>
+               <td>External 2MBits Internal 512Kb SPI</td>
+               <td>External None Internal 256 - 512Kb SPI</td>
+            </tr>
+            <tr>
+               <td>LF Read Range</td>
+               <td>70mm @ 65V</td>
+               <td>40mm @ 55V</td>
+               <td>10mm - 35mm</td>
+            </tr>
+            <tr>
+               <td>HF Read Range</td>
+               <td>40 - 85mm @ 44V</td>
+               <td>50mm @ 40V</td>
+               <td>10mm - 40mm</td>
+            </tr>
+            <tr>
+               <td>HF Read Range (medium antenna)</td>
+               <td>90mm</td>
+               <td><br></td>
+               <td><br></td>
+            </tr>
+            <tr>
+               <td>HF Read Range (large antenna)</td>
+               <td>100 - 120mm</td>
+               <td><br></td>
+               <td><br></td>
+            </tr>
+            <tr>
+               <td>Dimensions</td>
+               <td>54x87x10mm</td>
+               <td>60x90x12mm</td>
+               <td>At least 150x50mmx50mm</td>
+            </tr>
+            <tr>
+               <td>Expandable Framework?</td>
+               <td>Yes</td>
+               <td><br></td>
+               <td><br></td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
+</div>
+<div class="grid">
+   <div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+      <h2><strong>What's included</strong></h2>
+      <meta charset="utf-8">
+      <p><strong>Standard Accessory Pack</strong></p>
+      <ul>
+         <li>1x Proxmark 3 RDV4.01<strong></strong> </li>
+         <li>1x Pretuned LF Antenna - 125KHz &amp; 134KHz (Internal)</li>
+         <li>1x Pretuned HF Antenna - 13.56MHz (Internal)</li>
+         <li>1x Micro USB Cable</li>
+         <li>1x Screw Driver (for external antenna mounting)</li>
+         <li>1x SIM / SAM Reader Module</li>
+      </ul>
+      <p><strong>RFID Tags / Cards</strong></p>
+      <ul>
+         <li>1x 'Magic' 1k UID Changeable - PVC Card format</li>
+         <li>1x T5577 Tag - PVC Card format</li>
+      </ul>
+      <meta charset="utf-8">
+      <strong>Complete Accessory Pack</strong><br> 
+      <ul>
+         <li>1x <a href="https://lab401.com/products/proxmark-3-rdv4-standalone-kit">Standalone Module (Battery + Bluetooth)</a> </li>
+         <li>1x <a href="/products/proxmark-3-rdv4-long-range-hf-antenna-1" target="_blank">HF Antenna Pack (1x Mid Range, 1x Long Range)</a> </li>
+         <li>1x <a href="/products/proxmark-3-rdv4-01-long-range-lf-antenna-pack">LF Antenna Pack (1x Mid Range, 1x Long Range)</a> </li>
+      </ul>
+      <h2><strong>Shipping &amp; Packaging</strong></h2>
+      <ul>
+         <li>Each Proxmark 3 RDV 4 is dispatched from <strong>Europe</strong> - no need to worry about slow shipping times, import duties or damaged goods.</li>
+         <li>Packed in a sturdy compact 85x130x45mm box.</li>
+         <li>We provide worldwide shipping with express options.</li>
+      </ul>
+   </div>
+   <div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+      <h2><strong>Compatible Systems</strong></h2>
+      <ul>
+         <li>Windows: XP, 7, 8, 10 (All Versions)</li>
+         <li>OS/X: 10.0 - 10.7 (All Versions)</li>
+         <li>Linux: Debian, Ubuntu, CentOS, etc (All Versions)</li>
+         <li>Android: Specific Builds</li>
+      </ul>
+      <h2><strong>Proxmark Resources</strong></h2>
+      <strong>Technical Documents</strong> 
+      <ul>
+         <li><a href="/docs/Proxmark%20III%20User%20Guide.pdf" target="_blank">Installation / Introduction Manual</a></li>
+         <li><a href="https://github.com/rfidResearchGroup/proxmark3">Compiling / Flashing Manual</a></li>
+         <li><a href="https://github.com/RfidResearchGroup/proxmark3/blob/master/doc/termux_notes.md">Android Usage</a></li>
+         <li><a href="https://youtu.be/HRVPyRTZqy8" target="_blank">Updating Proxmark 3 Firmware on Kali</a></li>
+         <li><a href="https://youtu.be/lPe9Y-YpWnY">Updating Proxmark 3 Firmware on Windows</a></li>
+      </ul>
+      <strong>Community / Usage / Tutorial Resources</strong> 
+      <ul>
+         <li><a href="https://www.proxmark.org/forum/index.php" target="_blank">Proxmark Community Forums</a></li>
+         <li><a href="https://github.com/rfidResearchGroup/proxmark3" target="_blank">Proxmark Github repository</a></li>
+         <li><a href="https://youtu.be/pE50JHaYvSU" title="RFID 101 : Understand what is RFID and how it works" target="_blank">Tutorial 1: Introduction to RFID</a></li>
+         <li><a href="https://youtu.be/kk-W7aZXIS4" title="Identify Unknown Cards with the Proxmark" target="_blank">Tutorial 2: Identifying Unknown Cards with Proxmark</a></li>
+         <li><a href="https://lab401.com/blogs/academy/proxmark-basics-cloning-mifare" target="_blank">Tutorial 3: Cloning MIFARE Cards with Proxmark 3</a></li>
+         <li><a href="https://www.fuzzysecurity.com/tutorials/rfid/3.html">Tutorial 4: EasyCard - Reverse engineering an RFID Payment System</a></li>
+      </ul>
+      <strong>Proxmark Research Papers / Presentations</strong> 
+      <ul>
+         <li><a href="https://flaviodgarcia.com/publications/Tutorial_Proxmark_the_Swiss_Army_Knife_for_RFID_Security_Research-RFIDSec12.pdf" target="_blank">Proxmark3: The Swiss Army Knife of Security Research</a></li>
+         <li><a href="https://media.blackhat.com/bh-us-12/Briefings/C_Miller/BH_US_12_Miller_NFC_attack_surface_WP.pdf" target="_blank">Exploring the NFC Attack Surface</a></li>
+         <li><a href="https://www.proxmark.org/documents/mifare_weakness.pdf">A Practical Attack on the MF Classic</a></li>
+         <li><a href="https://proxmark.nl/files/Documents/NFC/Potential_misuse_of_NFC_enabled_mobile_phones_with_embedded_security_elements_as_contactless_attack_platforms.pdf">Potential Misuse of NFC Enabled Mobile Phones with Embedded Security Elements as Contactless Attack Platforms</a></li>
+         <li><a href="https://gerhard.dekoninggans.nl/documents/publications/dekoninggans.phd.thesis.pdf">Outsmarting Smart Cards</a></li>
+         <li><a href="/blogs/news/proxmark-3-rdv2-bypasses-millions-of-hotel-rooms">Proxmark 3 RDV2 cracks Millions of Hotel Rooms</a></li>
+      </ul>
+   </div>
+</div>
+<div>
+   <h2><strong>Proxmark 3 RDV4.01 Unboxing and overview</strong></h2>
+   <p>
+      <figure>
+         <video lite-youtube="" videoid="51bWAtraEDw" posterquality="maxresdefault" params="rel=0"></video>
+      </figure>
+   </p>
+</div>
+</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>proxmark</s:tag>
+    <s:tag>Proxmark 3 RDV4</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/1350524502127</id>
+      <title>Standard</title>
+      <s:price currency="EUR">329.00</s:price>
+      <s:sku>PM3-RDV4-BASIC</s:sku>
+      <s:grams>184</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/1350524502127</id>
+      <title>Complete</title>
+      <s:price currency="EUR">529.00</s:price>
+      <s:sku>PM3-RDV4-COMPLETE</s:sku>
+      <s:grams>226</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/2025417244783</id>
+    <published>2022-06-20T15:00:39+02:00</published>
+    <updated>2022-06-20T15:00:39+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/nfckill-professional-version"/>
+    <title>NFCKill (Professional Version)</title>
+    <s:type>Pen Testing</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/header-with-glow.png?v=1544632683"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>Pen Testing<br>
+        <strong>Price: </strong>
+            229.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>Introduction</h2>
+<p>The <a href="https://www.nfckill.com" target="_blank">NFC Kill</a> is the world's only RFID fuzzing tool. It is used to securely disable RFID badges, test RFID hardware, audit access control failure modes, and probe / exploit RFID attack surfaces during penetration testing.</p>
+<p>It is the only tool available to <strong>securely and permanently disable RFID cards in a manner compliant with the GDPR. </strong>Clients in high-security environments (Law Enforcement, Government, Corporate and Industrial) use NFC Kill as part of their Data Destruction Policy.</p>
+<h2><strong>Functionality in a glance</strong></h2>
+<p>The NFCKill is a highly capable device, providing unique functionality to several key industries: Data Security, Law Enforcement, RFID Hardware Developers, Penetration Testers and security conscious individuals.</p>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-third medium--one-third large--one-third text-center">
+<h2>Secure Card Destruction</h2>
+<p>All common card frequencies: 13.56MHz &amp; 125KHz (Including reader/writers)</p>
+</div>
+<div class="grid-item small--one-third medium--one-third large--one-third text-center">
+<h2>New RFID Attack Surface</h2>
+<p>Test, glitch and disable RFID access control systems and badges.</p>
+</div>
+<div class="grid-item small--one-third medium--one-third large--one-third text-center">
+<h2>Portable and Capable</h2>
+<p>Long-life internal rechargeable battery, tough ABS case, hands-free operation.</p>
+</div>
+</div>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>Compatibility</strong></h2>
+<p>While the NFCKill is tuned to the most common RFID frequencies, it is effective against all RFID technologies. Likewise, it is able to inductively couple with most devices that contain an form of coil.</p>
+<p><strong>Targeted Frequencies</strong>:</p>
+<ul>
+<li>High Frequency (13.56MHz)</li>
+<ul>
+<li>Tags: All known tags (MIFARE Family, HID iCLASS, Calypso, Contactless Payment, etc)</li>
+<li>Hardware: Most reader and writer hardware, NFC-equipped phones, Contactless Payment Terminals, etc</li>
+<li>Effective Range: 0 - 6cm</li>
+</ul>
+<li>Low Frequency (125 - 134KHz)</li>
+<ul>
+<li>Tags: All known tags (HID, Indala, etc)</li>
+<li>Hardware: Most reader and writer hardware</li>
+<li>Effective Range: 0 - 5cm</li>
+</ul>
+<li>Ultra High Frequency (850 - 930 MHz)</li>
+<ul>
+<li>Tags: Limited. For UHF tags, use the dedicated <a href="/products/uhfkill" target="_blank">UHFKill product</a><br>
+</li>
+<li>Effective Range: 0 - 3cm</li>
+</ul>
+</ul>
+<p><strong>Other Technologies</strong></p>
+<ul>
+<li>Wireless charging (chargers and devices)</li>
+<li>POS systems</li>
+<li>Induction-Loop equipped systems</li>
+<li>Systems with coils that can have current induced</li>
+</ul>
+<p><strong>Known Limitations</strong></p>
+Due to their extremely small antenna sizes, the NFCKill <b>does not work</b> reliability with FDX / Injectable / Animal RFID tags.
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h3>Technical Specifications</h3>
+<p>The NFCKill has the following technical specifications:</p>
+<p><strong>Frequencies</strong></p>
+<ul>
+<li>Tuned Frequencies: 125KHz - 13.56MHz</li>
+<li>Effective Frequencies: 125KHz - 950MHz</li>
+</ul>
+<p><strong>Hardware</strong></p>
+<ul>
+<li>Battery: Rechargable Li-ion, 3.3V</li>
+<li>Input Frequency: 3.3V</li>
+<li>Output Voltage: ~1600V</li>
+</ul>
+<p><strong>Operating Modes</strong></p>
+<ul>
+<li>Single Pulse</li>
+<li>Continuous (2 Hz / 0.5s)</li>
+</ul>
+<p><strong>Miscellaneous:</strong></p>
+<ul>
+<li>Battery Life: ~10,000 discharge cycles</li>
+<li>Charge Interface: Micro-USB</li>
+<li>Case: ABS</li>
+<li>LEDs: 4x Battery Level indication, 1x Power, 1x Operation Indication</li>
+</ul>
+<p><strong>Operational Warning</strong></p>
+<p>The NFCKill is a <strong>high-voltage device,</strong> containing several shock-hazards. It must be kept and operated in a controlled environment, by a trained and responsible technician. Unintentional damage may occur to due irresponsible operator error.<br>NFCKill.com declines any responsibility from the use of the device. For more information, please review our terms and conditions.</p>
+</div>
+</div>
+<div style="margin-top: 3em;">
+<h2><strong>Product Presentation: NFC Kill</strong></h2>
+  <figure><video lite-youtube="" videoid="4rQPvkXaxX4" posterquality="maxresdefault" params="rel=0"></video></figure>
+</div>
+<div style="margin-header: 2em;" class="grid grid--header">
+<div class="grid-item small--one-half medium--one-half large--one-half">
+<h2><strong>NFCKill Secure RFID Destruction</strong></h2>
+<figure><video lite-youtube="" videoid="3nHOiuitNKY" posterquality="maxresdefault" params="rel=0"></video></figure>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half">
+<h2><strong>Access Control Glitching / Failure Testing</strong></h2>
+<figure><video lite-youtube="" videoid="zIuN8rai7PU" posterquality="maxresdefault" params="rel=0"></video></figure>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/2025417244783</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">229.00</s:price>
+      <s:sku>NFCK-PRO</s:sku>
+      <s:grams>200</s:grams>
+    </s:variant>
+  </entry>
+</feed>

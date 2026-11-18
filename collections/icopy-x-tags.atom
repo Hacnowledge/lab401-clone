@@ -1,0 +1,863 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/collections/icopy-x-tags.atom"/>
+  <title>Lab401</title>
+  <updated>2022-06-20T15:00:15+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/products/7009318240456</id>
+    <published>2022-06-20T15:00:15+02:00</published>
+    <updated>2022-06-20T15:00:15+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/icopy-x-advanced-tag-pack"/>
+    <title>iCopy-X Advanced Tag Pack</title>
+    <s:type></s:type>
+    <s:vendor>ICopyX</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/iCopy-X-Card-Pack-Advanced.png?v=1658240137"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>ICopyX<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            189.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Official iCopy-X Advanced Tag Pack.</p>
+<p>Pack contains:</p>
+<p>• MIFARE Classic® Compatible 1K 4-Byte Blank Tag<br> <em>◦ 2x Magic Cards ("Gen1") Blank Tags</em><br><em> ◦ 1x Direct Write Cards ("Gen2") Blank Tag</em><br><em> ◦ 1x One-Time-Write Cards ("Gen2a") Blank Tag<br></em></p>
+<p>• 1x MIFARE Classic® Compatible 1K 7-Byte Blank Tag<br>• 1x MIFARE Classic® Compatible 4K 4-Byte Blank Tag<br> • 1x MIFARE Classic® Compatible 4K 7-Byte Blank Tag<br></p>
+<p>• 1x MIFARE Ultralight® Compatible Blank Tag<br> • 1x MIFARE Ultralight-C® Compatible Blank Tag<br> • 1x MIFARE Ultralight-EV1® Compatible Blank Tag<br> • 1x MIFARE NTAG® Compatible Blank Tag<br></p>
+<p>• 1x ICODE SLI/SLIX® Compatible Blank Tag<br> • 1x iCLASS® Legacy Compatible Blank Tag<br> • 1x iCLASS® Elite Compatible Blank Tag<br></p>
+<p><b>• Low Frequency</b><br> ◦ 2x T5577 Cards</p>
+<p>Cards are delivered <span style="text-decoration: underline;" data-mce-style="text-decoration: underline;">without printing / white.</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>icopy-x</s:tag>
+    <s:tag>tag</s:tag>
+    <s:tag>Tag Packs</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/7009318240456</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">189.95</s:price>
+      <s:sku>ICPYX-TAG-PACK-ADVANCED</s:sku>
+      <s:grams>510</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/7009318404296</id>
+    <published>2022-06-20T15:00:14+02:00</published>
+    <updated>2022-06-20T15:00:14+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/t5577-low-frequency-blank"/>
+    <title>T5577 / Low Frequency Blank Blank Tag</title>
+    <s:type></s:type>
+    <s:vendor>ICopyX</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/T5577-LF.png?v=1629299353"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>ICopyX<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            2.50
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>T5577 / Low Frequency Blank</p>
+<p>Compatible with the iCopy-X.</p>
+<p>Supports all low frequency tags.<br></p>
+<p>iCopy-X Reference: ID1<br></p>
+<p>Cards are delivered <span style="text-decoration: underline;" data-mce-style="text-decoration: underline;">without printing / white.</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>icopy-x</s:tag>
+    <s:tag>ID1</s:tag>
+    <s:tag>tag</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/7009318404296</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">2.50</s:price>
+      <s:sku>ICPX-ID1</s:sku>
+      <s:grams>6</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/7009318305992</id>
+    <published>2022-06-20T15:00:14+02:00</published>
+    <updated>2022-06-20T15:00:14+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/icopy-x-basic-tag-pack"/>
+    <title>iCopy-X Basic Tag Pack</title>
+    <s:type></s:type>
+    <s:vendor>ICopyX</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/iCopy-X-Card-Pack-Basic.png?v=1658240265"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>ICopyX<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            19.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Official iCopy-X Basic Tag Pack.</p>
+<p>Pack contains:</p>
+<p>• MIFARE 1K 4-Byte<br> <em>◦ 4x Magic Cards ("Gen1")</em><br><em> ◦ 4x Direct Write Cards ("Gen2")</em><br><em> ◦ 4x One-Time-Write Cards ("Gen2a")</em></p>
+<p><b>• Low Frequency</b><br> ◦ 4x T5577 Cards</p>
+<p>Cards are delivered <span style="text-decoration: underline;" data-mce-style="text-decoration: underline;">without printing / white.</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>icopy-x</s:tag>
+    <s:tag>tag</s:tag>
+    <s:tag>Tag Packs</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/7009318305992</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">19.95</s:price>
+      <s:sku>ICPYX-TAG-PACK-BASIC</s:sku>
+      <s:grams>510</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/7009318273224</id>
+    <published>2022-06-20T15:00:14+02:00</published>
+    <updated>2022-06-20T15:00:14+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/icopy-x-intermediate-tag-pack"/>
+    <title>iCopy-X Intermediate Tag Pack</title>
+    <s:type></s:type>
+    <s:vendor>ICopyX</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/iCopy-X-Card-Pack-Intermediate.png?v=1658240142"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>ICopyX<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            129.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Official iCopy-X Intermediate Tag Pack.</p>
+<p>Pack contains:</p>
+<p data-mce-fragment="1">• MIFARE Classic® Compatible 1K 4-Byte Blank Tag<br data-mce-fragment="1"> <em data-mce-fragment="1">◦ 4x Magic Cards ("Gen1") Blank Tags</em><br data-mce-fragment="1"><em data-mce-fragment="1"> ◦ 1x Direct Write Cards ("Gen2") Blank Tag</em><br data-mce-fragment="1"><em data-mce-fragment="1"> ◦ 1x One-Time-Write Cards ("Gen2a") Blank Tag<br></em></p>
+<p data-mce-fragment="1">• 1x MIFARE Classic® Compatible 1K 7-Byte Blank Tag<br>• 1x MIFARE Classic® Compatible 4K 4-Byte Blank Tag<br data-mce-fragment="1"> • 1x MIFARE Classic® Compatible 4K 7-Byte Blank Tag<br data-mce-fragment="1"></p>
+<p data-mce-fragment="1">• 1x MIFARE Ultralight® Compatible Blank Tag<br data-mce-fragment="1"> • 1x MIFARE Ultralight-C® Compatible Blank Tag<br data-mce-fragment="1"> • 1x MIFARE Ultralight-EV1® Compatible Blank Tag<br data-mce-fragment="1"> • 1x MIFARE NTAG® Compatible Blank Tag<br data-mce-fragment="1"></p>
+<p data-mce-fragment="1"><b data-mce-fragment="1">• Low Frequency</b><br data-mce-fragment="1"> ◦ 3x T5577 Cards</p>
+<p>Cards are delivered <span style="text-decoration: underline;" data-mce-fragment="1" data-mce-style="text-decoration: underline;">without printing / white.</span><br></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>icopy-x</s:tag>
+    <s:tag>tag</s:tag>
+    <s:tag>Tag Packs</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/7009318273224</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">129.95</s:price>
+      <s:sku>ICPYX-TAG-PACK-INTERMEDIATE</s:sku>
+      <s:grams>510</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/7009318666440</id>
+    <published>2022-06-20T15:00:13+02:00</published>
+    <updated>2022-06-20T15:00:13+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/iclass-legacy-compatible"/>
+    <title>iCLASS® Legacy Compatible Blank Tag</title>
+    <s:type></s:type>
+    <s:vendor>ICopyX</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/iClass-Legacy-Gen2.png?v=1629299359"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>ICopyX<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            24.95 - 29.95
+            <a href="https://lab401.com/products/iclass-legacy-compatible">(2 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>iCLASS® Compatible Blank Tag: iCopy-X Reference: iCL<br></p>
+<p>Compatible with the iCopy-X, and also available in keyfob format.<br></p>
+<p>Please note: these tags / fobs are <span style="text-decoration: underline;" data-mce-style="text-decoration: underline;">One Time Write.<br>Cards are delivered without printing / white.<br></span><em></em></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>iCL</s:tag>
+    <s:tag>icopy-x</s:tag>
+    <s:tag>tag</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/7009318666440</id>
+      <title>Card</title>
+      <s:price currency="EUR">24.95</s:price>
+      <s:sku>ICPX-ICL</s:sku>
+      <s:grams>6</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/7009318666440</id>
+      <title>Fob</title>
+      <s:price currency="EUR">29.95</s:price>
+      <s:sku>ICPX-ICL-KEYFOB</s:sku>
+      <s:grams>3</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/7009318600904</id>
+    <published>2022-06-20T15:00:13+02:00</published>
+    <updated>2022-06-20T15:00:13+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/iclass-elite-compatible"/>
+    <title>iCLASS® Elite Compatible Blank Tag</title>
+    <s:type></s:type>
+    <s:vendor>ICopyX</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/iClass-Elite-Gen2.png?v=1629299357"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>ICopyX<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            29.95 - 34.95
+            <a href="https://lab401.com/products/iclass-elite-compatible">(2 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>iCLASS® Elite Compatible Blank Tag: iCopy-X Reference: iCE<br></p>
+<p>Compatible with the iCopy-X, and also available in keyfob format.<br></p>
+<p>Please note: these tags / fobs are <span style="text-decoration: underline;" data-mce-style="text-decoration: underline;">One Time Write.<br></span>Cards are delivered <span style="text-decoration: underline;">without printing / white.</span><span style="text-decoration: underline;" data-mce-style="text-decoration: underline;"><br></span><em></em></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>iCE</s:tag>
+    <s:tag>icopy-x</s:tag>
+    <s:tag>tag</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/7009318600904</id>
+      <title>Card</title>
+      <s:price currency="EUR">29.95</s:price>
+      <s:sku>ICPX-ICE</s:sku>
+      <s:grams>6</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/7009318600904</id>
+      <title>Fob</title>
+      <s:price currency="EUR">34.95</s:price>
+      <s:sku>ICPX-ICE-KEYFOB</s:sku>
+      <s:grams>3</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/7009318535368</id>
+    <published>2022-06-20T15:00:13+02:00</published>
+    <updated>2022-06-20T15:00:13+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/iclass-se-seos-compatible"/>
+    <title>iCLASS® SE/SEOS Compatible Blank Tag</title>
+    <s:type></s:type>
+    <s:vendor>ICopyX</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/iCLASS-SE-SEOS.png?v=1629299355"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>ICopyX<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            29.95 - 34.95
+            <a href="https://lab401.com/products/iclass-se-seos-compatible">(2 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>iCLASS® SE/SEOS Compatible Blank Tag. iCopy-X Reference: iCS<br></p>
+<p>Compatible with the iCopy-X, and also available in keyfob format.<br></p>
+<p>Supports:</p>
+<ul>
+<li>iCLASS® SE</li>
+<li>iCLASS® SEOS</li>
+</ul>
+<p><strong>Please note</strong>: These blanks require using the iCopy-X SE/SEOS Decoder - and are <span style="text-decoration: underline;">one time write.<br></span>Cards are delivered<span style="text-decoration: underline;"> without printing / white.</span><br></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>icopy-x</s:tag>
+    <s:tag>iCS</s:tag>
+    <s:tag>tag</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/7009318535368</id>
+      <title>Card</title>
+      <s:price currency="EUR">29.95</s:price>
+      <s:sku>ICPX-ICS</s:sku>
+      <s:grams>6</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/7009318535368</id>
+      <title>Fob</title>
+      <s:price currency="EUR">34.95</s:price>
+      <s:sku>ICPX-ICS-KEYFOB</s:sku>
+      <s:grams>3</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/7009318830280</id>
+    <published>2022-06-20T15:00:12+02:00</published>
+    <updated>2022-06-20T15:00:12+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/mifare-ultralight-c-compatible-1"/>
+    <title>MIFARE Ultralight® EV1 Compatible Blank Tag</title>
+    <s:type></s:type>
+    <s:vendor>ICopyX</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/Mifare-Ultralight-EV1-Gen2.png?v=1629299365"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>ICopyX<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            21.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>MIFARE Ultralight® EV1 Compatible<br></p>
+<p>Compatible with the iCopy-X.</p>
+<p>iCopy-X Reference: UL-EV1</p>
+<p>Cards are delivered <span style="text-decoration: underline;" data-mce-style="text-decoration: underline;">without printing / white.</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>icopy-x</s:tag>
+    <s:tag>tag</s:tag>
+    <s:tag>UL-EV1</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/7009318830280</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">21.95</s:price>
+      <s:sku>ICPX-UL-EV1</s:sku>
+      <s:grams>6</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/7009318797512</id>
+    <published>2022-06-20T15:00:12+02:00</published>
+    <updated>2022-06-20T15:00:12+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/mifare-ntag-compatible"/>
+    <title>MIFARE NTAG® Compatible Blank Tag</title>
+    <s:type></s:type>
+    <s:vendor>ICopyX</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/NTAG-Gen2.png?v=1629299363"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>ICopyX<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            21.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>NTAG® 21x Compatible Blank Tag<br></p>
+<p>Compatible with the iCopy-X.</p>
+<p>This blank is fully compatible with:</p>
+<ul>
+<li>NTAG® 213</li>
+<li>NTAG® 215</li>
+<li>NTAG® 216<br>
+</li>
+</ul>
+<p>The blank is also compatible with:<br></p>
+<ul>
+<li>NTAG® 210</li>
+<li>NTAG® 212<br>
+</li>
+<li>NTAG® 12C 1K</li>
+<li>NTAG® 12C 2K</li>
+<li>NTAG® 12C 1K Plus</li>
+<li>NTAG® 12C 2K Plus</li>
+</ul>
+<p><em>For these chipsets, counter and tearing emulation are not 1:1 with original chipsets.</em></p>
+<p>iCopy-X Reference: NTAG</p>
+<p>Cards are delivered <span style="text-decoration: underline;" data-mce-style="text-decoration: underline;">without printing / white.</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>icopy-x</s:tag>
+    <s:tag>NTAG</s:tag>
+    <s:tag>tag</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/7009318797512</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">21.95</s:price>
+      <s:sku>ICPX-NTAG</s:sku>
+      <s:grams>6</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/7009318699208</id>
+    <published>2022-06-20T15:00:12+02:00</published>
+    <updated>2022-06-20T15:00:12+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/icode-compatible"/>
+    <title>ICODE® Compatible Blank Tag</title>
+    <s:type></s:type>
+    <s:vendor>ICopyX</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/ICODE-SLI-SLIX-Gen2.png?v=1629299361"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>ICopyX<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            21.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>ICODE® Compatible Blank Tag<br></p>
+<p>Compatible with the iCopy-X.</p>
+<p>Suitable for:</p>
+<ul>
+<li>ICODE® SLI</li>
+<li>ICODE® SLIX</li>
+</ul>
+iCopy-X Reference: ICODE<br>Cards are delivered <span style="text-decoration: underline;" data-mce-fragment="1" data-mce-style="text-decoration: underline;">without printing / white.</span><br></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>ICODE</s:tag>
+    <s:tag>icopy-x</s:tag>
+    <s:tag>tag</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/7009318699208</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">21.95</s:price>
+      <s:sku>ICPX-ICODE</s:sku>
+      <s:grams>6</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/7009319059656</id>
+    <published>2022-06-20T15:00:11+02:00</published>
+    <updated>2022-06-20T15:00:11+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/mifare-classic-4k-4-byte-uid-compatible-gen2"/>
+    <title>MIFARE Classic® 4K 4-Byte UID Compatible (Gen2) Blank Tag</title>
+    <s:type></s:type>
+    <s:vendor>ICopyX</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/Mifare-Classic-4k-4b-Gen2.png?v=1629299370"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>ICopyX<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            21.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>MIFARE Classic® 4K 4-Byte Compatible, Gen2 / Direct Write<br></p>
+<p>Compatible with the iCopy-X.</p>
+<p>iCopy-X Reference: M4-4b</p>
+<p>Cards are delivered <span style="text-decoration: underline;" data-mce-style="text-decoration: underline;">without printing / white.</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>icopy-x</s:tag>
+    <s:tag>M4-4b</s:tag>
+    <s:tag>tag</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/7009319059656</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">21.95</s:price>
+      <s:sku>ICPX-M4-4B</s:sku>
+      <s:grams>6</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/7009318994120</id>
+    <published>2022-06-20T15:00:11+02:00</published>
+    <updated>2022-06-20T15:00:11+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/mifare-ultralight-compatible"/>
+    <title>MIFARE Ultralight® Compatible Blank Tag</title>
+    <s:type></s:type>
+    <s:vendor>ICopyX</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/Mifare-Ultralight-Gen2.png?v=1629299368"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>ICopyX<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            21.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>MIFARE Ultralight® Compatible<br></p>
+<p>Compatible with the iCopy-X.</p>
+<p>iCopy-X Reference: UL</p>
+<p>Cards are delivered <span style="text-decoration: underline;" data-mce-style="text-decoration: underline;">without printing / white.</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>icopy-x</s:tag>
+    <s:tag>tag</s:tag>
+    <s:tag>UL</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/7009318994120</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">21.95</s:price>
+      <s:sku>ICPX-UL</s:sku>
+      <s:grams>6</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/7009318928584</id>
+    <published>2022-06-20T15:00:11+02:00</published>
+    <updated>2022-06-20T15:00:11+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/mifare-ultralight-c-compatible"/>
+    <title>MIFARE Ultralight® C Compatible Blank Tag</title>
+    <s:type></s:type>
+    <s:vendor>ICopyX</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/Mifare-Ultralight-C-Gen2.png?v=1629299367"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>ICopyX<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            21.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>MIFARE Ultralight® C Compatible<br></p>
+<p>Compatible with the iCopy-X.</p>
+<p>iCopy-X Reference: UL-C</p>
+<p>Cards are delivered <span style="text-decoration: underline;" data-mce-style="text-decoration: underline;">without printing / white.</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>icopy-x</s:tag>
+    <s:tag>tag</s:tag>
+    <s:tag>UL-C</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/7009318928584</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">21.95</s:price>
+      <s:sku>ICPX-UL-C</s:sku>
+      <s:grams>6</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/7009319190728</id>
+    <published>2022-06-20T15:00:10+02:00</published>
+    <updated>2022-06-20T15:00:10+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/mifare-classic-1k-4-byte-compatible-gen2a"/>
+    <title>MIFARE Classic® 1K 4-Byte Compatible (Gen2a) Blank Tag</title>
+    <s:type></s:type>
+    <s:vendor>ICopyX</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/Mifare-Classic-1k-4b-Gen2a_c8305a47-b717-4ed6-acf8-665003da233b.png?v=1629966311"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>ICopyX<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            2.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>MIFARE Classic® 1K 4-Byte Compatible, Gen2a / One Time Write UID<br></p>
+<p>Compatible with the iCopy-X.</p>
+<p>iCopy-X Reference: M1-4b (L3)</p>
+<p>Cards are delivered <span style="text-decoration: underline;" data-mce-style="text-decoration: underline;">without printing / white.</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>icopy-x</s:tag>
+    <s:tag>M1-4b (L3)</s:tag>
+    <s:tag>tag</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/7009319190728</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">2.95</s:price>
+      <s:sku>ICPX-M1-4B-L3</s:sku>
+      <s:grams>6</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/7009319157960</id>
+    <published>2022-06-20T15:00:10+02:00</published>
+    <updated>2022-06-20T15:00:10+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/mifare-classic-1k-7-byte-uid-compatible-gen2"/>
+    <title>MIFARE Classic® 1K 7-Byte UID Compatible (Gen2) Blank Tag</title>
+    <s:type></s:type>
+    <s:vendor>ICopyX</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/Mifare-Classic-1k-7b-Gen2.png?v=1629299374"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>ICopyX<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            21.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>MIFARE Classic® 1K 7-Byte Compatible, Gen2 / Direct Write<br></p>
+<p>Compatible with the iCopy-X.</p>
+<p>iCopy-X Reference: M1-7b</p>
+<p>Cards are delivered <span style="text-decoration: underline;" data-mce-style="text-decoration: underline;">without printing / white.</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>icopy-x</s:tag>
+    <s:tag>M1-7b</s:tag>
+    <s:tag>tag</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/7009319157960</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">21.95</s:price>
+      <s:sku>ICPX-M1-7B</s:sku>
+      <s:grams>6</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/7009319092424</id>
+    <published>2022-06-20T15:00:10+02:00</published>
+    <updated>2022-06-20T15:00:10+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/mifare-classic-4k-7-byte-uid-compatible-gen2"/>
+    <title>MIFARE Classic® 4K 7-Byte UID Compatible (Gen2) Blank Tag</title>
+    <s:type></s:type>
+    <s:vendor>ICopyX</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/Mifare-Classic-4k-7b-Gen2_166f656e-d65b-4bda-9fb1-8689bf040c7a.png?v=1629299372"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>ICopyX<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            21.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>MIFARE Classic® 4K 7-Byte Compatible, Gen2<br></p>
+<p>Compatible with the iCopy-X.</p>
+<p>iCopy-X Reference: M4-7b</p>
+<p>Cards are delivered <span style="text-decoration: underline;" data-mce-style="text-decoration: underline;">without printing / white.</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Family: MIFARE®</s:tag>
+    <s:tag>icopy-x</s:tag>
+    <s:tag>M4-7B</s:tag>
+    <s:tag>Size: 4K</s:tag>
+    <s:tag>tag</s:tag>
+    <s:tag>UID: 7-byte</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/7009319092424</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">21.95</s:price>
+      <s:sku>ICPX-M4-7B</s:sku>
+      <s:grams>6</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/7009319354568</id>
+    <published>2022-06-20T15:00:09+02:00</published>
+    <updated>2022-06-20T15:00:09+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/mifare-classic-1k-4-byte-compatible"/>
+    <title>MIFARE Classic® 1K 4-Byte Compatible (Gen1) Blank Tag</title>
+    <s:type></s:type>
+    <s:vendor>ICopyX</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/Mifare-Classic-1k-4b-Gen1.png?v=1629299380"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>ICopyX<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            2.50
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>MIFARE Classic® 1K 4-Byte Compatible, Gen1 / Magic Card.</p>
+<p>Compatible with the iCopy-X.</p>
+<p>iCopy-X Reference: M1-4b (L1)</p>
+<p>Cards are delivered <span style="text-decoration: underline;" data-mce-style="text-decoration: underline;">without printing / white.</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>icopy-x</s:tag>
+    <s:tag>M1-4b (L1)</s:tag>
+    <s:tag>tag</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/7009319354568</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">2.50</s:price>
+      <s:sku>ICPX-M1-4B-L1</s:sku>
+      <s:grams>6</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/7009319321800</id>
+    <published>2022-06-20T15:00:09+02:00</published>
+    <updated>2022-06-20T15:00:09+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/mifare-classic-1k-4-byte-compatible-gen2"/>
+    <title>MIFARE Classic® 1K 4-Byte Compatible (Gen2) Blank Tag</title>
+    <s:type></s:type>
+    <s:vendor>ICopyX</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/Mifare-Classic-1k-4b-Gen2.png?v=1629299378"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>ICopyX<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            2.50
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>MIFARE Classic® 1K 4-Byte Compatible, Gen2 / Direct Write<br></p>
+<p>Compatible with the iCopy-X.</p>
+<p>iCopy-X Reference: M1-4b (L2)</p>
+<p>Cards are delivered <span style="text-decoration: underline;" data-mce-style="text-decoration: underline;">without printing / white.</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>icopy-x</s:tag>
+    <s:tag>M1-4b (L2)</s:tag>
+    <s:tag>tag</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/7009319321800</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">2.50</s:price>
+      <s:sku>ICPX-M1-4B-L2</s:sku>
+      <s:grams>6</s:grams>
+    </s:variant>
+  </entry>
+</feed>

@@ -1,0 +1,2501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/collections/rfid-tools-read-write.atom"/>
+  <title>Lab401</title>
+  <updated>2026-08-22T20:10:42+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/products/10620418621787</id>
+    <published>2026-08-22T20:10:42+02:00</published>
+    <updated>2026-08-22T20:10:42+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/proxmark-5"/>
+    <title>Proxmark 5</title>
+    <s:type></s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Proxmark-5---Front.png?v=1786219407"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            325.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="contentGroup">
+<p>The <b>Proxmark is the industry standard</b> device for <b>RFID analysis</b>, providing multi-frequency reading, writing, emulating, demodulation, sniffing and cracking across almost any RFID system and frequency.</p>
+<p>The Proxmark 5 is a <b>generational upgrade</b> over the Proxmark 3, covering both operational improvements and adding new functionality. The upgraded system core brings <b>increased frequency range</b>, optimised RFID <b>performance</b>, improved <b>stability</b>, <b>faster</b> operations.</p>
+<p>The <b>fully redesigned core</b> is faster, more stable, supports more frequencies. The redesigned antennas are hot-swappable and feature dynamic power adjustment - meaning better performance in challenging conditions, further read-range and “no dead-spots”. The <b>modular architecture</b> allows for drop-in modules (like the wireless module), expansion via GPIO, and even pairing with the Flipper Zero.</p>
+<p>Users can now connect two Proxmark 5 devices to perform <b>relay attacks</b>: one device reads the original card and transmits its data wirelessly to another device positioned on a reader, enabling a new class of RFID audit capability.</p>
+<p>The Proxmark 5 was designed in close collaboration with the Proxmark community; <b>all functionality and features are integrated</b> and supported in the <b>“iceman” firmware</b>.</p>
+</div>
+<div class="l401-notice">
+<p><b>IMPORTANT ⚠️ Pre-release firmware</b></p>
+<p>The Proxmark 5's firmware is <b>pre-release</b> / <a href="https://github.com/RfidResearchGroup/proxmark3/#proxmark5" target="_blank">currently unstable</a>. If you required <b>stable, out-of-the-box functionality</b> we advise purchasing the <a href="/products/proxmark-3-rdv4"><b>Proxmark 3 RDV4.01</b></a></p>
+</div>
+<div class="contentGroup">
+<h2>Discover the Proxmark 5</h2>
+</div>
+<!-- START Feature Video -->
+<figure class="pm5-video" style="margin-top: 0em; margin-bottom: 3em;">
+<video lite-youtube="" videoid="LEhEvpyb2AI" posterquality="maxresdefault" params="rel=0">
+<img slot="image" src="https://cdn.shopify.com/s/files/1/2175/8571/files/YT-Thumb_3a720ddc-9ff7-486b-9eb2-42aeb996bc1d.jpg?v=1785967639" alt="">
+</video>
+</figure>
+<!-- END Feature Video -->
+<!-- START Discover Grid -->
+<h2>Proxmark 5 Advantages</h2>
+<p>Eight years of community feedback, technical improvements and RFID research culminated in one device. Discover how the Proxmark 5 will improve your RFID workflow:</p>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left product-image-container">
+<div><img alt="Proxmark 5" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Proxmark5---Floating-Sticker.png?v=1786222135"></div>
+<ul class="markers-list">
+<li data-y="8" data-x="69" data-feature-id="1" class="feature-marker">1</li>
+<li data-y="42" data-x="54" data-feature-id="2" class="feature-marker">2</li>
+<li data-y="31" data-x="26" data-feature-id="3" class="feature-marker">3</li>
+<li data-y="11" data-x="26" data-feature-id="4" class="feature-marker">4</li>
+<li data-y="21" data-x="10" data-feature-id="5" class="feature-marker">5</li>
+<li data-y="43" data-x="25" data-feature-id="6" class="feature-marker">6</li>
+<li data-y="79" data-x="54" data-feature-id="7" class="feature-marker">7</li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<div data-feature-id="1" class="feature-item">
+<h3>New Architecture</h3>
+<p>Eight years of hardware improvements for unmatched RFID &amp; system performance: RFID operations benchmarked at least <b>65% faster.</b></p>
+</div>
+<div data-feature-id="2" class="feature-item">
+<h3>New Antennas</h3>
+<p>Hot-swappable, high-performance dynamic antennas for improved read range, no dead-spots and more stable coupling.</p>
+</div>
+<div data-feature-id="3" class="feature-item">
+<h3>Built for mobile audits</h3>
+<p>Drop-in battery+wireless module for mobile-first audits and improved standalone capabilities.</p>
+</div>
+<div data-feature-id="4" class="feature-item">
+<h3>New Pentest Functions</h3>
+<p>Two Proxmark 5 device can be paired to perform wireless relay audits: one device reads the card, the other opens the door.</p>
+</div>
+<div data-feature-id="5" class="feature-item">
+<h3>Built for flexibility</h3>
+<p>Connect anything: Flipper Zero, SPI, UART, External Mass Storage via the Dual-Mode USB-C port</p>
+</div>
+<div data-feature-id="6" class="feature-item">
+<h3>Built to be extended</h3>
+<p>Accessible GPIO and open-source code make development, modules and expansion easy.</p>
+</div>
+<div data-feature-id="7" class="feature-item">
+<h3>Integrated Frequency Detector</h3>
+<p>Detect and identify RF fields and frequencies instantly</p>
+</div>
+</div>
+</div>
+<!-- END Discover Grid -->
+<div class="contentGroup">
+<h2>Functionality</h2>
+<p>The Proxmark 5 is the most advanced and complete RFID research platform available, covering <b>high-level functions</b> (read, write, emulate, clone), <b>pentest and audit</b> oriented functionality (cracking, sniffing and relay) and <b>low-level functions</b> (interacting with the bit-stream, demodulating raw frames, analysing protocols).</p>
+<p>Designed, oriented and optimised towards technical users, the Proxmark device is controlled via its command-line interface (CLI) in a wired or wireless context. New users should expect a learning curve - but are supported by extensive documentation and tutorials, and welcomed by the active Discord and Github communities.</p>
+</div>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Proxmark 5 Specifications</h3>
+<ul>
+<li>
+<strong>Frequencies:</strong>
+<ul>
+<li>High Frequency: 13.56MHz</li>
+<li>Low Frequency: 125kHz - 500kHz</li>
+</ul>
+</li>
+<li>
+<strong>Chipset</strong>: AT32F435 (288MHz)</li>
+<li>
+<strong>FPGA</strong>: GOWIN FPGA</li>
+<li>
+<strong>ADC</strong>: 10-bit</li>
+<li>
+<strong>Connectivity</strong>:
+<ul>
+<li>Dual USB-C</li>
+<li>Wifi + Bluetooth <em>(Requires Wireless Module)</em>
+</li>
+<li>GPIO (10 pins)</li>
+</ul>
+</li>
+<li>
+<strong>Feedback</strong>
+<ul>
+<li>1x Assignable RGB LED</li>
+<li>4x Status LEDs</li>
+<li>1x Buzzer</li>
+<li>1x Multi-function button</li>
+</ul>
+</li>
+<!--
+<li><strong>High Level Functions</strong>
+<ul>
+<li>Read, Write</li>
+<li>Emulate</li>
+<li>Clone</li>
+<li>Sniff</li>
+<li>Relay <em>(Requires two Proxmark 5 devices)</em></li>
+<li>Demodulate</li>
+<li>Analyse</li>
+</ul>
+</li>-->
+</ul>
+<h3>Optional Accessories</h3>
+<ul>
+<li><a href="/products/proxmark-5-wireless-battery-module" target="_blank">Wireless + Battery Module</a></li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>What’s Included</h3>
+<ul>
+<li><strong>1x Proxmark 5</strong></li>
+<li>1x Custom Type-C to Type-C Cable</li>
+<li>1x Flipper Zero Module Cable to Proxmark 5</li>
+<li>2x RFID Testing Cards</li>
+<li>1x Proxmark 5 Sticker</li>
+</ul>
+<h3>Compatibility</h3>
+<ul>
+<li>Linux <a href="https://github.com/RfidResearchGroup/proxmark3/blob/master/doc/md/Installation_Instructions/Linux-Installation-Instructions.md" target="_blank"><i>Setup Guide</i></a>
+</li>
+<li>MacOS <a href="https://github.com/RfidResearchGroup/proxmark3/blob/master/doc/md/Installation_Instructions/macOS-MacPorts-Installation-Instructions.md" target="_blank"><i>Setup Guide</i></a>
+</li>
+<li>Windows <a href="https://github.com/RfidResearchGroup/proxmark3/blob/master/doc/md/Installation_Instructions/Windows-Installation-Instructions.md" target="_blank"><i>Setup Guide</i></a>
+</li>
+<li>Android (Termux) <a href="https://github.com/RfidResearchGroup/proxmark3/blob/master/doc/termux_notes.md" target="_blank"><i>Setup Guide</i></a>
+</li>
+<li>iOS <a href="https://github.com/RfidResearchGroup/proxmark3/blob/master/doc/md/Installation_Instructions/iOS-Installation-Instructions.md" target="_blank"><i>Setup Guide</i></a>
+</li>
+</ul>
+<h3>Proxmark 5 Resources</h3>
+<ul>
+  <li><a href="https://github.com/RfidResearchGroup/proxmark3/blob/master/doc/md/PM5_Start_Here/Getting_Started_With_PM5.md" target="_blank">Proxmark 5 Setup / Flashing Instructions</a></li>
+<li><a href="https://www.youtube.com/watch?v=LEhEvpyb2AI" target="_blank">Proxmark 5 Introduction Video</a></li>
+<li><a href="https://github.com/RfidResearchGroup/proxmark3" target="_blank">Official Github Repository</a></li>
+<li><a href="https://discord.gg/iceman" target="_blank">Official Proxmark Discord</a></li>
+</ul>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10620418621787</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">325.00</s:price>
+      <s:sku>PROXMARK5</s:sku>
+      <s:grams>300</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/10315424399707</id>
+    <published>2026-02-20T12:10:52+01:00</published>
+    <updated>2026-02-20T12:10:52+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/kiisu"/>
+    <title>KIISU - Compact Flipper alternative</title>
+    <s:type></s:type>
+    <s:vendor>KIISU</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/KIISU---PCB---Ready---Logo.png?v=1769779088"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>KIISU<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            79.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>MEET KIISU</h2>
+<p>The Flipper Zero is an <i>open-source project</i>, KIISU is a credit-card sized Flipper Zero compatible device. Everything you can do on a Flipper: NFC, RFID, SubGHz, Infrared, Bluetooth, iButton - you can do on KIISU.</p>
+<p>There's even bunch of extra sensors - temperature, light, air-pressure, accelerometer &amp; compass you can use! <br>
+Flipper Zero firmware: original and alternative run directly on the KIISU without any modification or fiddling about.</p>
+<p>Built to be more developer-friendly and hackable, it's also compact, budget-friendly and wallet sized!</p>
+<div class="grid" style="margin-top: 2em;">
+  <div class="grid-item small--one-whole medium--one-whole large--one-third text-left">
+    <h3>CREDIT CARD-SIZED &amp; CUTE</h3>
+    <p>Incredibly compact - the power of Flipper crammed into credit-card format. Slips into your wallet: ready for every moment.</p>
+  </div>
+  <div class="grid-item small--one-whole medium--one-whole large--one-third text-left">
+    <h3>100% COMPATIBLE</h3>
+    <p>Built on the Flipper Zero's Open-Source schematics - KIISU is completely compatible: hardware, firmware, functionality.</p>
+  </div>
+  <div class="grid-item small--one-whole medium--one-whole large--one-third text-left">
+    <h3>BUDGET &amp; DEV FRIENDLY</h3>
+    <p>If you're a tinkerer at heart, you'll love KIISU's open nature. If you're looking for a budget-friendly alternative KIISU is for you.</p>
+  </div>
+</div>
+<!-- main Atropos container (required), add your custom class here -->
+<div class="atropos my-atropos atropos-forced-size">
+  <!-- scale container (required) -->
+  <div class="atropos-scale">
+    <!-- rotate container (required) -->
+    <div class="atropos-rotate">
+      <!-- inner container (required) -->
+      <div class="atropos-inner">
+        <!-- put your custom content here -->
+        <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/PCB-Zoom.png?v=1769774796">
+      </div>
+    </div>
+  </div>
+</div>
+<div style="margin-top: 1em;">
+<h2>THE ORIGIN STORY</h2>
+<p>KIISU is the first fully-compatible device built from Flipper Zero's open-source schematics. Originally built as a proof-of-concept, KIISU scratches an itch for multiple people: it's budget-friendly, its naked PCB format is easier to hack and develop on, it's got a bunch of extra sensors - and its form factor means you can always have a Flipper in your pocket.</p>
+</div>
+<style>
+ .feature-item { margin-bottom: 1.5em }
+</style>
+<div class="grid" style="margin-top: 3em;">
+    <div class="grid-item small--one-whole medium--one-whole large--one-half text-left product-image-container">
+        <img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/KIISU---Perspective---Taller.jpg?v=1769775161" style="margin-bottom: -2em">
+        <ul class="markers-list">
+            <li data-y="24" data-x="18" data-feature-id="1" class="feature-marker">1</li>
+            <li data-y="16" data-x="50" data-feature-id="2" class="feature-marker">2</li>
+            <li data-y="35" data-x="90" data-feature-id="3" class="feature-marker">3</li>
+            <li data-y="52" data-x="57" data-feature-id="4" class="feature-marker">4</li>
+        </ul>
+    </div>
+    <div class="grid-item small--one-whole medium--one-half large--one-half text-left" style="text-align: start;">
+        <div data-feature-id="1" class="feature-item">
+            <h3>1. DREAM SCREEN</h3>
+            KIISU's screen is an identical resolution OLED for beautiful crisp black and white pixels.
+        </div>
+        <div data-feature-id="2" class="feature-item">
+            <h3>2. FLIPPER, BUT FLATTER</h3>
+            All hardware, firmware (original and alternative) and software (desktop, cli and mobile apps) are completely compatible with the original Flipper.
+        </div>
+        <div data-feature-id="3" class="feature-item">
+            <h3>3. BATTERIES INCLUDED</h3>
+            Rechargeable LIR2032 batteries give KIISU juice on the go - it really is a Flipper for your wallet!
+        </div>
+        <div data-feature-id="4" class="feature-item">
+            <h3>4. ONBOARD EVERYTHING</h3>
+            The perfectly tuned SubHZ, BLE, NFC and RFID antennas are embedded into the PCB - along with extra sensors like accelerometers, a compass, light and pressure!
+        </div>
+    </div>
+</div>
+<p>Quirky and cute, compact and wallet-friendly, there are many reasons to be seduced by KIISU. There's an active community building all sorts of extensions, a forked-firmware and even 3D printable accessories. All that's needed is your participation - and KIISU!</p>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+        <ul>
+            <li>KIISU (v4BR)</li>
+            <li>1x LIR-2032 Rechargeable Battery</li>
+            <li>1x Quickstart Guide</li>
+            <li>1x KIISU Mascot Keychain</li>
+        </ul>
+    
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>Technical resources</strong></h2>
+        <ul>
+            <li><a href="https://raw.githubusercontent.com/kiisu-io/kiisu4/refs/heads/main/kiisu%20v4b%20manual%20and%20quick%20start.pdf" target="_blank">KIISU Manual + Quickstart Guide</a></li>
+            <li><a href="https://github.com/kiisu-io/" target="_blank">KIISU Github Repo</a></li>
+            <li><a href="https://discord.gg/kiisu" target="_blank">KIISU Discord Community</a></li>
+            <li><a href="https://makerworld.com/en/models/1821178-kiisu-v4b-official-shield-variations#profileId-1943956" target="_blank">3D Printable KIISU Case models</a></li>
+        </ul>
+    
+</div>
+</div>
+<div class="contentGroup">
+   <h2>Frequently Asked Questions</h2>
+   <p><b>What are the functional differences between the KIISU and Flipper?</b></p>
+   <p>
+Although this board can run almost any Flipper Zero firmware, there are a
+few limitations:
+</p>
+<ul>
+<li>It lacks Flipper Zero secret keys, so some SubGhz rolling-code protocols and
+U2F may not work with official firmware.</li>
+<li>Antennas performance may vary.</li>
+<li>Certain schematic differences mean features like battery status
+rely on Aux MCU firmware.</li>
+</ul>
+<p><b>I flashed Flipper Firmware onto the KIISU, and see "No Factory Keys Found. Secure enclosure is damaged.  Some apps will not work".</b></p>
+<p>
+Because the KIISU hardware is not produced by Flipper Labs - it doesn't have their factory keys - so the Flipper Firmware shows this notification.
+The "no factory keys damaged enclave" only impacts functions where Official Flipper keys are required: some SubGHZ rolling codes, and the U2F functionality.
+In stock KIISU firmware that notification is hidden -  this notification only appears when running official Flipper firmware.</p>
+</div>
+</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Flipper Zero Accessory</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10315424399707</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">79.00</s:price>
+      <s:sku>KIISU-4B</s:sku>
+      <s:grams>200</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/8522872258907</id>
+    <published>2023-08-02T22:07:36+02:00</published>
+    <updated>2023-08-02T22:07:36+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/chameleon-ultra"/>
+    <title>Chameleon Ultra</title>
+    <s:type>Pen Testing</s:type>
+    <s:vendor>RRG</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Chameleon-Ultra-MIFARE-Cracking-Tool.png?v=1691595167"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>RRG<br>
+        <strong>Type: </strong>Pen Testing<br>
+        <strong>Price: </strong>
+            129.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>The Chameleon Ultra is the ultimate RFID emulation device : Low and high-frequency emulation, full read &amp; write capabilities, bleeding-edge cracking, wireless control : all wrapped up in a key-chain sized, fully open-sourced device.<br></p>
+<p>The Chameleon Ultra is the result of exceptional engineering ingenuity : the development team discovered that little-known RFID function in a popular Bluetooth controller could be pushed to provide high-performance, multi-frequency RFID reading, writing and cracking - and emulation performance almost identical to that of a physical card.</p>
+<p><strong>Lab401 is the exclusive distributor for the Chameleon Ultra in Europe.</strong></p>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Low &amp; High Frequency Emulation<br>
+</h3>
+<p>"Frame Delay Time" is the most important metric in emulation: slower performance means that emulation doesn't meet protocol specifications, data can be lost, and ultimately, the emulation can fail.</p>
+<p>The Chameleon Ultra has the <strong>world's most precise emulation</strong>: it's the most precise emulator in the world.</p>
+<p><video loop="loop" autoplay="autoplay"><source src="https://cdn.shopify.com/videos/c/o/v/467ed47ac5884af3b99d8d1d11b4bcf8.webm"></video></p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Optimised MIFARE Classic® Cracking<br>
+</h3>
+<p>The Chameleon Ultra's powerful chip supports all known MIFARE Classic® cracking algorithms - at speeds faster than the Proxmark!</p>
+<p>The device supports all classic and modern attacks, including MFKEY32 v2, Darkside, Nested, StaticNested and Hardnested attacks - for incredibly quick key recovery.</p>
+<p><video loop="loop" autoplay="autoplay"><source src="https://cdn.shopify.com/videos/c/o/v/b022ef9392fa482da1037281055f790e.webm"></video></p>
+</div>
+</div>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Low &amp; High Frequency Reading / Writing<br>
+</h3>
+<p>The Chameleon Ultra hardware supports high and low frequency reading and writing - allowing it to be used as a standalone or connected reader/writer device.</p>
+<p>For High Frequency, the device supports ISO14443A chipsets: MIFARE Classic® (1K/2K/4K, 4-byte &amp;, 7-byte UID), NTAG® (210 - 218), Ultralight® (Standard, C, EV1), DESFire® (EV1 &amp; 2) and MIFARE® Plus.</p>
+<p>For Low Frequency, the device supports ASK, FSK and PSK modulations - almost 99% of 125KHz chipsets: EM410x, T5577, HID Prox, Indala, FDX-B, Paradox, AWD, PAC/Stanley, etc.</p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Wireless, UI and CLI Control<br>
+</h3>
+<p>The Chameleon Ultra can be controlled and updated in several ways.<br></p>
+<p>Firmware can be flashed via USB-C or Over-the-Air; badge dumps can be uploaded and downloaded via wireless or wired connections.<br></p>
+<p>Likewise, the device can be controlled via GUI Tool, mobile phone, or via CLI - depending on your workflow.<br></p>
+<p>The CLI and UI tools are continuously updated by the community, with new functionality and stability being constantly added.</p>
+</div>
+</div>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Incredible hardware<br>
+</h3>
+<p>The ChameleonUltra's hardware has been pushed to its limits : despite its size, it boasts better emulation than the Flipper Zero and even Proxmark 3 - and can run for 6 months off a single battery charge!</p>
+<p>The device itself is beautiful - a masterpiece of copper, epoxy, fiberglass and stainless steel.</p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>100% Open Source<br>
+</h3>
+<p>The Chameleon Ultra is fully open-source : all firmware, hardware, software and resources are available on the Chameleon Ultra Github page.</p>
+<p>The frequent contributions from RFID superstars such as iceman and doegox ensure that the Chameleon Ultra is a well-supported, high-performance device.</p>
+</div>
+</div>
+<h2><strong>Understand the ChameleonUltra<br></strong></h2>
+<p>The Chameleon Ultra's primary use is for RFID Emulation. Instead of needing physical cards, you can emulate multiple different types of chips and different frequencies with one device.<br></p>
+<p>The Chameleon Ultra also has several other powerful features : cracking, reading, writing.</p>
+<p>When working with RFID tags, there are typically five required functions:</p>
+<ol>
+<li>
+<strong>Identification</strong> - identifying the badge : frequency, modulation, chipset, protocol, etc. Most tags can be easily identified. However, some tags need to be manually identified, requiring specialty hardware such as the <strong>Proxmark</strong>.<br><br>
+</li>
+<li>
+<strong>Cracking</strong> - many common chipsets (MIFARE Classic®, etc) require keys to read or write the contents of the badge. If the keys are unknown, they need to be cracked. The ChameleonUltra cracking capabilities equal to Proxmark.<br>
+</li>
+<li>
+<strong>Reading</strong> - Reading the data from a badge.<br>
+</li>
+<li>
+<strong>Emulation</strong> - Emulation allows for simulating a badge digitally. Instead of needing multiple physical cards, they can be replaced with an emulator. Further, emulated data and chipsets can be customised completely - something impossible with physical cards.<br>
+</li>
+<li>
+<strong>Writing</strong> - Writing data to an existing badge, or cloning data to a new badge.</li>
+</ol>
+<p>The below table shows the coverage that the ChameleonUltra provides in each of these categories, and how it compares to other tools.</p>
+<div style="text-align: center;">
+<div class="ratings-outer-container">
+<div class="flex-holder">
+<h3>Chameleon Ultra</h3>
+<div class="flex-container">
+<div class="flex-items">Emulate</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 100;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Crack</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 90;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Read</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 75;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Write</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 65;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Identify</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 35;"></div>
+</div>
+</div>
+</div>
+<div class="flex-holder">
+<h3>Flipper Zero</h3>
+<div class="flex-container">
+<div class="flex-items">Emulate</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 45;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Crack</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 20;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Read</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 25;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Write</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 25;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Identify</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 15;"></div>
+</div>
+</div>
+</div>
+<div class="flex-holder">
+<h3>Proxmark</h3>
+<div class="flex-container">
+<div class="flex-items">Emulate</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 55;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Crack</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 75;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Read</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 75;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Write</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 75;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Identify</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 100;"></div>
+</div>
+</div>
+</div>
+<div class="flex-holder">
+<h3>iCopy-X</h3>
+<div class="flex-container">
+<div class="flex-items">Emulate</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 45;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Crack</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 75;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Read</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 75;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Write</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 75;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Identify</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 75;"></div>
+</div>
+</div>
+</div>
+<div class="flex-holder">
+<h3>DL-533N</h3>
+<div class="flex-container">
+<div class="flex-items">Emulate</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 10;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Crack</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 40;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Read</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 25;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Write</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 25;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Identify</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 25;"></div>
+</div>
+</div>
+</div>
+<div class="flex-holder">
+<h3>Chameleon Tiny</h3>
+<div class="flex-container">
+<div class="flex-items">Emulate</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 50;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Crack</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 5;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Read</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 10;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Write</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 5;"></div>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-items">Identify</div>
+<div class="flex-items">
+<div class="bar" style="--percent: 5;"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p>For users that don't require advanced identification or rapid cloning, the ChameleonUltra could be the perfect match for your needs.<br></p>
+<h2><strong>ChameleonUltra Community and Ecosystem</strong></h2>
+<p data-mce-fragment="1">The Chameleon Ultra is fully open-source : all firmware, hardware, software and resources are available on the Chameleon Ultra Github page.</p>
+<p data-mce-fragment="1">The frequent contributions from RFID superstars such as iceman and doegox ensure that the Chameleon Ultra is a well-supported, high-performance device.</p>
+<h2>ChameleonUltra Product Presentation</h2>
+<figure><lite-youtube videoid="F5zSCCWAfLo" title="Play: Video" posterquality="maxresdefault" params="rel=0"></lite-youtube></figure>
+<h2>ChameleonUltra Unboxing</h2>
+<figure><lite-youtube videoid="9jtKNJ5-kVY" title="Play: Video" posterquality="maxresdefault" params="rel=0"></lite-youtube></figure>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x ChameleonUltra<br>
+</li>
+<li>1x USB-A - USB-C Cable</li>
+<li>2-year guarantee</li>
+</ul>
+<br>
+<h2><strong>Device Specifications<br></strong></h2>
+<ul>
+<li><strong>Processor + Memory:</strong></li>
+<ul>
+<li>NRF52840</li>
+<li>ARM Cortex-M4 32-bit 64 MHz (Application Processor)<br>
+</li>
+<li>1MB Flash</li>
+<li>256KB RAM<br>
+</li>
+</ul>
+<li>
+<strong>Tactile Controls</strong>: 2x Physical Buttons<br>
+</li>
+<li>
+<strong>Internal Battery:</strong> LiPo 90mAh (6 months without charge)</li>
+<li>
+<strong>Connectivity:</strong> USB 2.0, Type-C<br>
+</li>
+<li>
+<strong>Dimensions:</strong> 40 x 24 x 8 mm<br>
+</li>
+<li>
+<strong>Weight:</strong> 8g</li>
+</ul>
+<h2><strong>Technical Resources<br></strong></h2>
+<ul>
+<li>
+<a href="https://github.com/GameTec-live/ChameleonUltraGUI/">ChameleonUltra UI Tools</a> (Windows/MacOS/Linux/Android)</li>
+<li>
+<a href="https://github.com/RfidResearchGroup/ChameleonUltra" target="_blank">Official Github</a><br>
+</li>
+<li><a href="https://discord.gg/QfPvGFRQxH" target="_blank">Community Discord Server</a></li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>RFID Specifications<br></strong></h2>
+<ul>
+<li>
+<strong>Reading, Emulation</strong> <br>
+</li>
+<ul>
+<li>High Frequency / 13.56MHz</li>
+<ul>
+<li>ISO-14443A</li>
+<li>Mifare Classic® (1K / 2K / 4K - 4-byte &amp; 7-byte UID)<br>
+</li>
+<li>Ultralight® (Standard, C &amp; EV1)<br>
+</li>
+<li>NTAG® (210 - 218)<br>
+</li>
+</ul>
+<li>Low Frequency / 125KHz</li>
+<ul>
+<li>Modulation: AM / PSK / FSK</li>
+<li>Supported Cards: <br>
+</li>
+<ul>
+<li>EM4XX / T5577<br>
+</li>
+<li>HID Prox / Indala / PAC/Stanley</li>
+<li>FDX-B / Paradox / Keri</li>
+<li>etc <em>(full list below)</em><br>
+</li>
+</ul>
+</ul>
+</ul>
+<li>
+<strong>Cracking</strong> <br>
+</li>
+<ul>
+<li>MIFARE Classic®</li>
+<ul>
+<li>MFKey32v2 (Key Calculation from sniffed exchanges)</li>
+<li>DarkSide (Key derivation from no known keys)</li>
+<li>Nested (Key derivation from one known key)<br>
+</li>
+<li>StaticNested (Key derivation from static PRNG)<br>
+</li>
+<li>HardNested (Key derivation from hardened PRNG)<br>
+</li>
+</ul>
+<li>Low Frequency / 125KHz</li>
+<ul>
+<li>T5577 Password Bruteforcing<br>
+</li>
+<li>UID Bruteforcing</li>
+</ul>
+</ul>
+</ul>
+</div>
+</div>
+<h2><strong>ChameleonUltra: Genuine Hardware</strong></h2>
+<p>There is only one official manufacturer of the ChameleonUltra: <strong>Proxgrind</strong>. Likewise, there is only one official version of the ChameleonUltra.</p>
+<p>The ChameleonUltra is based on an open-source project. Although its schematics are open, its electronics - the PCB, routing and mechanical design - were never released. Any other "versions" are reverse-engineered devices cloned by other manufacturers.</p>
+<p>For example:</p>
+<ul>
+  <li>ChameleonUltra Ultra</li>
+  <li>ChameleonUltra SE</li>
+  <li>ChameleonUltra SE2</li>
+  <li>ChameleonUltra SE3</li>
+  <li>ChameleonUltra V2</li>
+  <li>ChameleonUltra V3.0</li>
+  <li>ChameleonUltra 4th Generation</li>
+</ul>
+<h3>Why Clones Underperform</h3>
+<p>Stable RFID requires accurate timing and tuned antennas for perfect coupling.</p>
+<p>Cloned devices compete on price. Reducing the price means using lower-quality components (less precise, wider tolerance), which results in poor performance. Likewise, lowering testing standards means a cloning factory has fewer rejects - but customers receive devices of unproven stability and performance.</p>
+<h3>Lab401's No-Clones Policy</h3>
+<p>Lab401 has a strict no-clones policy. We only work with original factories, for three reasons:</p>
+<ul>
+  <li>
+<strong>Quality:</strong> We can guarantee consistent, dependable quality, and that every individual device is tested to meet our standards.</li>
+  <li>
+<strong>Support:</strong> Because we trust the factory, we provide a 2-year warranty on all products.</li>
+  <li>
+<strong>Fairness:</strong> We believe the team that built the original devices should be the ones rewarded for their work. If we support cloners, developers have less incentive to build products.</li>
+</ul>
+<h3>Verify Your Device</h3>
+<p>Lab401's ChameleonUltra devices are produced by the original factory. You can verify that your device is genuine by removing the top PCB and scanning the QR code underneath.</p>
+<p>For more information, please see our <a href="https://lab401.com/pages/no-clones" target="_blank"><b>Original Hardware Policy</b></a>.</p>
+<h2><strong>Chameleon Ultra Chipset Datasheets<br></strong></h2>
+<h3><strong>Device Comparison</strong></h3>
+<p>Summary of functionality across similar devices.</p>
+<p> </p>
+<table width="100%">
+<thead>
+<tr>
+<th>Device</th>
+<th align="center">Chameleon Ultra</th>
+<th align="center">Flipper Zero</th>
+<th align="center">Keysy</th>
+<th align="center">Proxmark</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>High-Frequency</strong></td>
+<td colspan="4"></td>
+</tr>
+<tr>
+<td><strong>ISO14443A Emulation</strong></td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+<td align="center">❌</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td><strong>Full MIFARE® Emulation</strong></td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+<td align="center">❌</td>
+<td align="center">✔️</td>
+</tr>
+<tr>
+<td><strong>ISO14443A Reading</strong></td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+<td align="center">❌</td>
+<td align="center">✔️</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<table width="100%">
+<tbody>
+<tr>
+<td><strong>Low-Frequency<strong></strong></strong></td>
+<td colspan="4"></td>
+</tr>
+<tr>
+<td><strong>LF Emulation</strong></td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+</tr>
+<tr>
+<td><strong>LF Reading</strong></td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<table width="100%">
+<tbody>
+<tr>
+<td><strong>Cracking</strong></td>
+<td colspan="4"></td>
+</tr>
+<tr>
+<td><strong>Darkside</strong></td>
+<td align="center">✔️</td>
+<td align="center">❌</td>
+<td align="center">❌</td>
+<td align="center">✔️</td>
+</tr>
+<tr>
+<td><strong>Nested</strong></td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">❌</td>
+<td align="center">✔️</td>
+</tr>
+<tr>
+<td><strong>StaticNested</strong></td>
+<td align="center">✔️</td>
+<td align="center">❌</td>
+<td align="center">❌</td>
+<td align="center">✔️</td>
+</tr>
+<tr>
+<td><strong>HardNested</strong></td>
+<td align="center">✔️</td>
+<td align="center">❌</td>
+<td align="center">❌</td>
+<td align="center">✔️</td>
+</tr>
+<tr>
+<td><strong>Relay attack</strong></td>
+<td align="center">✔️</td>
+<td align="center">❌</td>
+<td align="center">❌</td>
+<td align="center">✔️</td>
+</tr>
+</tbody>
+</table>
+<h3><strong>High Frequency Cracking Support</strong></h3>
+<p>Current support levels (hardware / firmware / application) support for High-Frequency Chipsets. Sniffing is not supported.</p>
+<table width="100%">
+<thead>
+<tr>
+<th>Attack</th>
+<th align="center">Chipset</th>
+<th align="center">Hardware Support</th>
+<th align="center">Firmware Support</th>
+<th align="center">Application Support</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>MFKEY32 V2</strong></td>
+<td align="center">MIFARE Classic®</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+</tr>
+<tr>
+<td><strong>Darkside</strong></td>
+<td align="center">MIFARE Classic®</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+<td align="center">✔️</td>
+</tr>
+<tr>
+<td><strong>Nested</strong></td>
+<td align="center">MIFARE Classic®</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+<td align="center">✔️</td>
+</tr>
+<tr>
+<td><strong>StaticNested</strong></td>
+<td align="center">MIFARE Classic®</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td><strong>HardNested</strong></td>
+<td align="center">MIFARE Classic®</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td><strong>Relay attack</strong></td>
+<td align="center">ISO14443A</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h3><strong>High Frequency Reading Support<br></strong></h3>
+<p>Current support levels (hardware / firmware / application) support for High-Frequency Chipsets. Only ISO14443A chipsets are supported,<br></p>
+<table width="100%">
+<thead>
+<tr>
+<th>Chipset</th>
+<th align="center">Encoding</th>
+<th align="center">Hardware Support</th>
+<th>Software Support</th>
+<th align="center">Application Support</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;" align="center"><strong>NTAG® 21x (210-218)</strong></td>
+<td align="center">ISO14443A/106 kbit/s</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>Mifare® Ultralight</strong></td>
+<td align="center">ISO14443A/106 kbit/s</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>Mifare® Ultralight Ev1</strong></td>
+<td align="center">ISO14443A/106 kbit/s</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>Mifare® Ultralight C</strong></td>
+<td align="center">ISO14443A/106 kbit/s</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>Mifare® Classic 1K/2K/4K : 4b/7b</strong></td>
+<td align="center">ISO14443A/106 kbit/s</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>Mifare® DESFire®</strong></td>
+<td align="center">ISO14443A High Rate</td>
+<td align="center">Low bitrate only</td>
+<td align="center">Low bitrate only</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>Mifare® DESFire® EV1</strong></td>
+<td align="center">ISO14443A High rate</td>
+<td align="center">Low bitrate only</td>
+<td align="center">Low bitrate only</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>Mifare DESFire EV2</strong></td>
+<td align="center">ISO14443A High rate</td>
+<td align="center">Low bitrate only</td>
+<td align="center">Low bitrate only</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>Mifare® PLUS</strong></td>
+<td align="center">ISO14443A High rate</td>
+<td align="center">Low bitrate only</td>
+<td align="center">Low bitrate only</td>
+<td align="center">🟡</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h3><strong>Low Frequency Support<br></strong></h3>
+<p>Current support levels (hardware / firmware / application) support for LowFrequency Chipsets. Only ASK/PSK/FSK modulation is supported.<br></p>
+<table width="100%">
+<thead>
+<tr>
+<th>Card Type</th>
+<th align="center">Chipset</th>
+<th align="center">Hardware Support</th>
+<th align="center">Firmware Support</th>
+<th align="center">Application Support</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;" align="center"><strong>EM410x</strong></td>
+<td align="center">ASK</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>T5577</strong></td>
+<td align="center">ASK</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>HID Prox</strong></td>
+<td align="center">FSK</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>Indala</strong></td>
+<td align="center">PSK</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>FDX-B</strong></td>
+<td align="center">ASK</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>Paradox</strong></td>
+<td align="center">FSK</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>Keri</strong></td>
+<td align="center">PSK</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>AWD</strong></td>
+<td align="center">FSK</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>ioProx</strong></td>
+<td align="center">FSK</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>securakey</strong></td>
+<td align="center">ASK</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>gallagher</strong></td>
+<td align="center">ASK</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>PAC/Stanley</strong></td>
+<td align="center">ASK</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>Presco</strong></td>
+<td align="center">ASK</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>Visa2000</strong></td>
+<td align="center">ASK</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>Viking</strong></td>
+<td align="center">ASK</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>Noralsy</strong></td>
+<td align="center">ASK</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>NexWatch</strong></td>
+<td align="center">PSK</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+<tr>
+<td style="text-align: left;" align="center"><strong>Jablotron</strong></td>
+<td align="center">ASK</td>
+<td align="center">✔️</td>
+<td align="center">✔️</td>
+<td align="center">🟡</td>
+</tr>
+</tbody>
+</table>
+<style><!--
+.glamour, video {
+ max-width:100%
+}
+    .ratings-outer-container {
+    display: flex;   
+    justify-content: space-between; 
+    align-items: stretch; 
+    /* flex-flow: wrap; */  
+    flex-wrap: wrap; 
+    align-content: stretch;
+    height: 100%;
+    padding: 15px;
+    gap: 1em;
+}
+  .ratings-outer-container div.flex-holder {
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    padding: 1em;
+    flex-grow: 1;
+  }
+  .flex-holder {
+    max-width: 30%;
+    display: flex;   
+    justify-content: center; 
+    align-items: stretch; 
+    /* flex-flow: wrap; */  
+    flex-wrap: wrap; 
+}
+.flex-holder h3 {
+  margin: unset;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  width: 100%;
+  display: block;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: normal;
+  align-items: normal;
+  align-content: normal;
+  padding: 0.3em;
+  width: 100%;
+}
+.flex-items:nth-child(1) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  margin-right: 1em;
+  min-width: 50px;
+}
+.flex-items:nth-child(2) {
+  display: block;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: center;
+  order: 0;
+}
+  .bar {
+      height: 6px;    
+      padding: 0px;
+      border-radius: 30px;
+      background: rgba(0, 0, 0, 0.1);  
+    }
+    .bar::before {
+      content: '';
+      display: flex;
+      justify-content: end;
+      width: calc(var(--percent) * 1%);
+      height: 100%;
+      white-space: nowrap;
+      height: 6px;
+      border-radius: 4px;          
+      background-color: #2a62c2;
+      animation: progressAnimation 1s;
+      
+      background-image: linear-gradient(#2a62c2, #2a62c2),
+        linear-gradient(#5d83c3, #5d83c3),
+        linear-gradient(#889ec4, #889ec4),
+        linear-gradient(#afbcd4, #afbcd4),
+        linear-gradient(#c8ced8, #c8ced8);
+      background-size: calc((var(--percent) - 80) * 100%) 100%,
+        calc((var(--percent) - 60) * 100%) 100%,
+        calc((var(--percent) - 40) * 100%) 100%,
+        calc((var(--percent) - 20) * 100%) 100%,
+        100% 100%;      
+    }
+@keyframes progressAnimation {
+  0%   { width: 0%; }
+  100% { width: calc(var(--percent) * 1%) }
+}
+/*desktops - higher resolution*/
+@media (min-width: 1281px) {    .flex-holder { min-width: 30%;}  }
+/*laptops, desktops*/
+@media (min-width: 1025px) and (max-width: 1280px)  {    .flex-holder { max-width: 45%;}  }
+/*tablets, ipads (portrait)*/
+@media (min-width: 768px) and (max-width: 1024px) {    .flex-holder { max-width: 45%;}  }
+/*tablets, ipads (landscape)*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {    .flex-holder { max-width: 45%;}  }
+/*low resolution tablets, mobiles (landscape)*/
+@media (min-width: 481px) and (max-width: 767px) {    .flex-holder { max-width: 90%;}  }
+/*smartphones mobiles (portrait)*/
+@media (min-width: 320px) and (max-width: 480px) {    .flex-holder { max-width: 90%;}  }
+--></style></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>chameleon</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/8522872258907</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">129.00</s:price>
+      <s:sku>CHAMELEON-ULTRA</s:sku>
+      <s:grams>80</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/7790553465062</id>
+    <published>2022-06-23T08:59:23+02:00</published>
+    <updated>2022-06-23T08:59:23+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/flipper-zero"/>
+    <title>Flipper Zero</title>
+    <s:type>Pen Testing</s:type>
+    <s:vendor>Flipper Zero</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Flipper-Zero---Front.png?v=1773345630"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Flipper Zero<br>
+        <strong>Type: </strong>Pen Testing<br>
+        <strong>Price: </strong>
+            149.17 - 274.08
+            <a href="https://lab401.com/products/flipper-zero">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>The Flipper Zero is the ultimate multi-tool for pentesters, geeks, ethical hackers and hardware hobbyists alike. One pocket-sized device combines multiple tools: RFID, RF, Infrared, HID emulation, GPIO, Hardware debugging, 1-Wire, Bluetooth, Wifi and more.<br></p>
+<p>Inspired by great open-source projects: Proxmark, HydraNFC, Rubber Ducky, pwnagotchi - the Flipper Zero manages to pack serious functionality into a tiny, professionally manufactured device - and stays true to its Open Source roots.</p>
+<p>Entirely independent, the Flipper Zero requires no external computer or hardware to function - everything is driven by the its 5-way navigation button and LCD screen. When connected to a computer or the included Android / iOS apps, the Flipper can be extended, modified, upgraded and reflashed according to your needs.</p>
+<p>With over two years of meticulous design, prototyping and iteration, the Flipper Zero is a mature platform, ready to use out of the box, meeting the needs of professionals and enthusiasts alike.</p>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>RF Transceiver</h3>
+<p>The Flipper Zero contains a fully-controllable RF platform, based on the TI CC1101 chip, allowing for RF Signal capture, analysis and transmission.</p>
+<p>The Flipper Zero has a built-in library of common remote control algorithms for capturing, decoding and analysing and replaying signals.</p>
+<p>Users have <b>full access</b> to the radio sub-system, allowing custom RF modules to be easily built.</p>
+<p><video autoplay="autoplay" loop="loop">
+            <source src="https://cdn.shopify.com/s/files/1/2175/8571/files/FlipperZero_-_SDR_-_RF_Capture_Replay.webm?v=1660841703"></video></p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>RFID Reader/Writer/Emulator</h3>
+<p>The Flipper Zero allows for Reading, Writing and Emulation of both High-Frequency (13.56MHz) and Low-Frequency (125KHz) RFID tags.</p>
+<p><b>Low Frequency</b> tags can be easily read, saved, cloned to a new card, or exported for analysis.</p>
+<p>Multiple <b>High Frequency</b> protocols are supported, and the Flipper Zero can even sniff authentification nonces to extract unknown MIFARE keys.</p>
+<p><video autoplay="autoplay" loop="loop">
+            <source src="https://cdn.shopify.com/s/files/1/2175/8571/files/Flipper_Zero_-_RFID_125KHz_13-56Mhz_MIFARE_Emulation_Cracking.webm?v=1660841703"></video></p>
+</div>
+</div>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Infrared Transceiver</h3>
+<p>The Flipper Zero has a powerful, fully programmable IR transceiver for IR signal capture and replay.</p>
+<p>Out of the box, it includes a fully featured signal library for hundreds of IR-controlled devices: TVs, Stereos, Air-Con, etc.</p>
+<p><video autoplay="autoplay" loop="loop">
+            <source src="https://cdn.shopify.com/s/files/1/2175/8571/files/Flipper_Zero_-_IR_Transceiver_-_Universal_Remote_Control.webm?v=1660841703"></video></p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>GPIO Pinouts</h3>
+<p>The GPIO Pinouts &amp; Breakout boards allow for controlling electronics directly via the Flipper.</p>
+<p>The Flipper can also be used as a USB to SPI/UART/I2C bridge for debugging, flashing and fuzzing.</p>
+<p><video autoplay="autoplay" loop="loop">
+            <source src="https://cdn.shopify.com/s/files/1/2175/8571/files/Flipper_Zero_-_GPIO.webm?v=1660841703"></video></p>
+</div>
+</div>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>HID Emulation</h3>
+<p>The Flipper Zero emulate HID devices (Keyboard, Ethernet, etc) over USB, allowing it to perform BadUSB / RubberDucky attacks.</p>
+<p>Users can easily upload and deploy scripts directly from the device for task automation, pentesting and more.</p>
+<p><video autoplay="autoplay" loop="loop">
+            <source src="https://cdn.shopify.com/s/files/1/2175/8571/files/Flipper_Zero_-_BadUSB_Rubber_Ducky.webm?v=1660841703"></video></p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Open Source &amp; Extendable</h3>
+<p>The Flipper Zero is Open-Source &amp; Open-Hardware: firmware, schematics, and desktop &amp; mobile tools are available to everyone.</p>
+<p>Extend your Flipper's capabilities with accessories - <a href="/collections/flipper-zero-accessories" target="_blank">check out the most popular</a>, or build your own!</p>
+<p><video autoplay="autoplay" loop="loop">
+            <source src="https://cdn.shopify.com/s/files/1/2175/8571/files/Flipper_Zero_-_Wifi_Card.webm?v=1660841703"></video></p>
+</div>
+</div>
+<h2><strong>Flipper Community and Ecosystem</strong></h2>
+<p>Flipper is backed by an incredibly talented and motivated team of engineers, programmers, hardware experts and artists, who are dedicated to building and maintaining a reliable, mature and long-term platform.</p>
+<p>Beyond its hardware capabilities, Flipper stays true to its geek origins: Flipper, the tamagotchi-esque dolphin and product mascot lives inside each device. Flipper thrives on experience: the more you use the device, the happier he becomes: just don't forget him, or you might learn why dolphin have teeth..</p>
+<p>The Flipper Zero is CE+FCC approved, robust built to withstand the bumps and bruises of daily use. Each device is backed by a <b>2-year warranty</b> and Lab401's fantastic customer support, should you ever have a problem.</p>
+<section id="flipper-video-carousel" aria-label="Flipper Zero videos">
+  <div class="zpvc-items" tabindex="0" role="region" aria-label="Video carousel: scroll horizontally for more videos">
+    <div class="zpvc-item zp-bubble-radius-lg">
+      <div class="video-player-wrapper">
+        <video class="zpvc-video" controls playsinline preload="metadata" width="606" height="1080" tabindex="0" aria-label="Flipper Zero video 1" poster="https://cdn.shopify.com/s/files/1/2175/8571/files/flipper-carousel-01.jpg?v=1791300045">
+          <source src="https://cdn.shopify.com/videos/c/o/v/e51cc641ebb54163af2fe408de0ebb13.mp4" type="video/mp4"></video>
+      </div>
+    </div>
+    <div class="zpvc-item zp-bubble-radius-lg">
+      <div class="video-player-wrapper">
+        <video class="zpvc-video" controls playsinline preload="metadata" width="606" height="1080" tabindex="0" aria-label="Flipper Zero video 2" poster="https://cdn.shopify.com/s/files/1/2175/8571/files/flipper-carousel-02.jpg?v=1791300045">
+          <source src="https://cdn.shopify.com/videos/c/o/v/f1f99c07c2444e6bbb0a62f63252b1bb.mp4" type="video/mp4"></video>
+      </div>
+    </div>
+    <div class="zpvc-item zp-bubble-radius-lg">
+      <div class="video-player-wrapper">
+        <video class="zpvc-video" controls playsinline preload="metadata" width="606" height="1080" tabindex="0" aria-label="Flipper Zero video 3" poster="https://cdn.shopify.com/s/files/1/2175/8571/files/flipper-carousel-03.jpg?v=1791300045">
+          <source src="https://cdn.shopify.com/videos/c/o/v/5a6bf3795e934154b7c6fdc3e3fd0425.mp4" type="video/mp4"></video>
+      </div>
+    </div>
+    <div class="zpvc-item zp-bubble-radius-lg">
+      <div class="video-player-wrapper">
+        <video class="zpvc-video" controls playsinline preload="metadata" width="606" height="1080" tabindex="0" aria-label="Flipper Zero video 4" poster="https://cdn.shopify.com/s/files/1/2175/8571/files/flipper-carousel-04.jpg?v=1791300045">
+          <source src="https://cdn.shopify.com/videos/c/o/v/d1224f8d3b5445139ffacf3cae18e143.mp4" type="video/mp4"></video>
+      </div>
+    </div>
+    <div class="zpvc-item zp-bubble-radius-lg">
+      <div class="video-player-wrapper">
+        <video class="zpvc-video" controls playsinline preload="metadata" width="606" height="1080" tabindex="0" aria-label="Flipper Zero video 5" poster="https://cdn.shopify.com/s/files/1/2175/8571/files/flipper-carousel-05.jpg?v=1791300045">
+          <source src="https://cdn.shopify.com/videos/c/o/v/b4cc3ea7fb514c55ab64a03e22b1d5f4.mp4" type="video/mp4"></video>
+      </div>
+    </div>
+    <div class="zpvc-item zp-bubble-radius-lg">
+      <div class="video-player-wrapper">
+        <video class="zpvc-video" controls playsinline preload="metadata" width="606" height="1080" tabindex="0" aria-label="Flipper Zero video 6" poster="https://cdn.shopify.com/s/files/1/2175/8571/files/flipper-carousel-06.jpg?v=1791300045">
+          <source src="https://cdn.shopify.com/videos/c/o/v/ed02331776b74d198b6874b76fc616af.mp4" type="video/mp4"></video>
+      </div>
+    </div>
+    <div class="zpvc-item zp-bubble-radius-lg">
+      <div class="video-player-wrapper">
+        <video class="zpvc-video" controls playsinline preload="metadata" width="606" height="1080" tabindex="0" aria-label="Flipper Zero video 7" poster="https://cdn.shopify.com/s/files/1/2175/8571/files/flipper-carousel-07.jpg?v=1791300045">
+          <source src="https://cdn.shopify.com/videos/c/o/v/7877cb68c95e476d87f8f6ee4ed4856f.mp4" type="video/mp4"></video>
+      </div>
+    </div>
+    <div class="zpvc-item zp-bubble-radius-lg">
+      <div class="video-player-wrapper">
+        <video class="zpvc-video" controls playsinline preload="metadata" width="606" height="1080" tabindex="0" aria-label="Flipper Zero video 8" poster="https://cdn.shopify.com/s/files/1/2175/8571/files/flipper-carousel-08.jpg?v=1791300045">
+          <source src="https://cdn.shopify.com/videos/c/o/v/6601ce90de6b47b495977eb566aff85c.mp4" type="video/mp4"></video>
+      </div>
+    </div>
+  </div>
+</section>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<p><strong>Basic Pack<br></strong></p>
+<ul>
+<li>1x Flipper Zero</li>
+<li>1x USB-A - USB-C Cable</li>
+</ul>
+<p><strong>Standard Pack</strong></p>
+<ul>
+<li>1x Flipper Zero</li>
+<li>1x Flipper Compatible 8GB microSD card</li>
+<li>1x Silicone Protective Case</li>
+<li>3x Screen Protectors</li>
+</ul>
+<p><strong>Complete Pack</strong></p>
+<ul>
+<li>1x Flipper Zero</li>
+<li>1x Flipper Compatible 8GB microSD card</li>
+<li>1x Silicone Protective Case</li>
+<li>1x Video Game Module</li>
+<li>1x Wifi Dev Board</li>
+<li>3x GPIO Prototyping Boards</li>
+<li>3x Screen Protectors</li>
+</ul>
+<h2><strong>Device Specifications<br></strong></h2>
+<ul>
+<li>
+<strong>Screen:</strong> 128x64 1.4" LCD Monochrome (Backlit)<br>
+</li>
+<li>
+<strong>Tactile Controls</strong>: 5-Way Direction Pad + Select Button</li>
+<li>
+<strong>Internal Battery:</strong> LiPo 2000mAh (7-days without charge)<br><br>
+</li>
+<li><strong>CPU:</strong></li>
+<ul>
+<li>STM32WB55RG</li>
+<li>ARM Cortex-M4 32-bit 64 MHz (Application Processor)<br>
+</li>
+<li>ARM Cortex-M0+ 32 MHz (Network Processor)<br><br>
+</li>
+</ul>
+<li>
+<strong>Buzzer:</strong> 100-2500Hz</li>
+<li><strong>Vibration Motor</strong></li>
+<li>
+<strong>Memory:</strong> 1024KB Flash, 256KB SRAM</li>
+<li>
+<strong>Storage:</strong> MicroSD (Up to 64GB)<br>
+</li>
+<li>
+<strong>Connectivity:</strong> USB 2.0, Type-C<br><br>
+</li>
+<li>
+<strong>Dimensions:</strong> 100 x 40 x 25 mm<br>
+</li>
+<li>
+<strong>Weight:</strong> 102g</li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>Module Specifications<br></strong></h2>
+<ul>
+<li><strong>RF:</strong></li>
+<ul>
+<li>Chipset: TI CC1101</li>
+<li>Frequency bands: 315MHz, 433MHz, 868MHz, 915MHz</li>
+<li>TX Power: 0dBm Max (~100m transmit range)<br>
+</li>
+</ul>
+<li>
+<strong>RFID:</strong> <br>
+</li>
+<ul>
+<li>High Frequency / 13.56MHz</li>
+<ul>
+<li>ISO-14443A/B</li>
+<li>NXP Mifare® Classic/Ultralight/DESFire/etc</li>
+<li>FeliCa™</li>
+<li>NFC Forum protocols</li>
+</ul>
+<li>Low Frequency / 125KHz</li>
+<ul>
+<li>Modulation: AM / PSK / FSK</li>
+<li>Supported Cards: EM400x, EM410x, EM420x</li>
+<li>HIDProx, Indala</li>
+<li>T5577<br>
+</li>
+</ul>
+</ul>
+<li><strong>GPIO:</strong></li>
+<ul>
+<li>3.3v CMOS Level</li>
+<li>5V tolerant</li>
+<li>Up to 20mA per digital pin<br>
+</li>
+</ul>
+<li><strong>Infrared:</strong></li>
+<ul>
+<li>RX/TX Frequency: 800-950nm</li>
+<li>TX Power: 300 mW<br>
+</li>
+</ul>
+<li><strong>Bluetooth:</strong></li>
+<ul>
+<li>Bluetooth LE 5.0</li>
+<li>TX Power: 0dBm Max</li>
+<li>RX Sensitivity: -96dBm</li>
+<li>Data Rate: 2 Mbps<br>
+</li>
+</ul>
+<li><strong>iButton 1-Wire:</strong></li>
+<ul>
+<li>Dallas DS1990A</li>
+<li>CYFRAL<br>
+</li>
+</ul>
+</ul>
+</div>
+</div>
+<div style="margin-top: 1em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>Technical Resources<br></strong></h2>
+<ul>
+<li><a href="https://flipper.net/pages/downloads" title="Flipper Zero Official Firmware Update" target="_blank">Firmware Update</a></li>
+<li><a href="https://forum.flipper.net/" title="Flipper Zero Official Forum" target="_blank">Flipper Zero Forum</a></li>
+<li><a href="https://docs.flipper.net/zero" title="Flipper Zero Documentation" target="_blank">Flipper Zero Official Documentation</a></li>
+<li>
+<a href="https://flipp.dev/discord" title="Official Flipper Zero Discord" target="_blank">Flipper Zero Official Discord</a><br>
+</li>
+<li><a href="https://github.com/flipperdevices" title="Flipper Zero Source Code / Official GitHub" target="_blank">Official Github</a></li>
+<li><a href="https://cdn.shopify.com/s/files/1/2175/8571/files/GPIO_Pinout.jpg?v=1652983900" title="Flipper Zero GPIO Pinout" target="_blank">GPIO / Pinout Diagram</a></li>
+</ul>
+</div>
+<h2><strong>Shipping &amp; Warranty</strong></h2>
+<ul>
+<li>Ships worldwide from our <b>EU or US warehouse</b> to minimise shipping shipping and import duties.</li>
+<li>Backed by a <b>2-year warranty</b>
+</li>
+<li>
+<b>Need help?</b> 100% Human customer support available at <a href="mailto:support@lab401.com"><b>support@lab401.com</b></a>
+</li>
+</ul>
+</div>
+<div class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>LinusTechTips Talks Flipper Zero</h3>
+<figure>
+   <video lite-youtube="" videoid="nLIp4wd0oXs" posterquality="maxresdefault" params="rel=0" class="rounded"></video>
+</figure>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Adam Savage tests the Flipper Zero</h3>
+<figure>
+   <video lite-youtube="" videoid="c8q2YVRiOAE" posterquality="maxresdefault" params="rel=0" class="rounded"></video>
+</figure>
+</div>
+</div>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>FlipperZero: First Steps</h3>
+<figure>
+   <video lite-youtube="" videoid="KeFrVW2VE4M" posterquality="maxresdefault" params="rel=0" class="rounded"></video>
+</figure>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>FlipperZero: In depth functionality</h3>
+<figure>
+   <video lite-youtube="" videoid="VF3xlAm_tdo" posterquality="maxresdefault" params="rel=0" class="rounded"></video>
+</figure>
+</div>
+</div>
+</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Flipper</s:tag>
+    <s:tag>Flipper Zero</s:tag>
+    <s:tag>FlipperZero</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/7790553465062</id>
+      <title>Basic</title>
+      <s:price currency="EUR">149.17</s:price>
+      <s:sku>FLP-Z-W-R04</s:sku>
+      <s:grams>154</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/7790553465062</id>
+      <title>Standard</title>
+      <s:price currency="EUR">186.67</s:price>
+      <s:sku>FLIPPERZERO-STANDARD-PACK</s:sku>
+      <s:grams>205</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/7790553465062</id>
+      <title>Complete</title>
+      <s:price currency="EUR">274.08</s:price>
+      <s:sku>FLIPPERZERO-COMPLETE-PACK</s:sku>
+      <s:grams>310</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/1350524502127</id>
+    <published>2022-06-20T15:00:42+02:00</published>
+    <updated>2022-06-20T15:00:42+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/proxmark-3-rdv4"/>
+    <title>Proxmark 3 RDV4.01</title>
+    <s:type>Proxmark</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/Proxmark-3-RDV-4.1-New-Antenna-Front.png?v=1567146103"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>Proxmark<br>
+        <strong>Price: </strong>
+            329.00 - 529.00
+            <a href="https://lab401.com/products/proxmark-3-rdv4">(2 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="highlight-block">
+   <p>Also available in the <strong><em><a href="/products/lab401-pentester-pack">Lab401 Pentester Pack</a></em></strong> - with an instant discount of €105.</p>
+</div>
+<p>The Proxmark 3 is a dedicated, highly-capable multi-tool for RFID analysis, <span>providing reading, writing, analysis, snooping, replaying, emulation, modulation, demodulation, decoding, encoding, decryption, encryption for any RFID system operating in the 125KHz, 134KHz and 13.56MHz frequencies.</span> </p>
+<p>Since its original creation in 2007, there have been huge leaps in the electronics field. The Proxmark 3 RDV4.01 is a fully revised, modernized version of the already powerful RDV2.</p>
+<p>This is the <strong>4.01</strong> version of the device which includes multiple improvements over the 4.0 version, including:</p>
+<ul>
+   <li>Reduced power supply noise</li>
+   <li>Gold-plated FPC Connector</li>
+   <li>Antenna "Q-Switch" allowing for adapting antennas to specific operations</li>
+   <li>Antenna Frequency Switch allowing for optimised 125KHz and 134KHz performance</li>
+</ul>
+<p> </p>
+<h2><strong>Overview</strong></h2>
+<p>The Proxmark 3 RDV4.01 is the latest revision of the Proxmark 3 Platform. It is designed and manufactured by RRG, a company formed by four people instrumental to the Proxmark 3 including:</p>
+<ul>
+   <li>Chris Hermann (iceman) - Moderator of the proxmark forums</li>
+   <li>Kevin (0xFFFF) - Moderator of the proxmark forums</li>
+</ul>
+<p>The RDV 4.01 revision represents a highly optimised piece of hardware specifically designed for the pen-testing community:</p>
+<ul>
+   <li> <strong>Covert</strong>: Fits easily into a hand and pocket</li>
+   <li> <strong>Modular</strong>: Rapidly switch pre-tuned antennas for more range when in the field</li>
+   <li> <strong>Intuiative</strong>: Multiple Status LEDs for at-a-glance status checking</li>
+   <li> <strong>Android Compatible</strong>: Works with<span> </span><a href="https://walrus.app/">Project Walrus</a><span> </span>for automated red-teaming</li>
+   <li> <strong>Expandable</strong>: BLE/Wifi module expansion capability for automated data egress</li>
+</ul>
+<ul></ul>
+<h2><strong>Improvements</strong></h2>
+<p>The RDV4 has been designed and optimised for penetration testing, where performance and discretion are utmost priorities.<br>Below is a non-exhaustive list of improvements over the Proxmark 3 RDV2.</p>
+<div class="grid" style="margin: 2em 3em;">
+   <div class="grid-item small--one-whole medium--one-half large--one-fifth text-center">
+      <h3>Small &amp; durable</h3>
+      <p>Business card sized, ABS case. </p>
+   </div>
+   <div class="grid-item small--one-whole medium--one-half large--one-fifth text-center">
+      <h3>More Capable</h3>
+      <p>Updated CPU and over 8x memory.</p>
+   </div>
+   <div class="grid-item small--one-whole medium--one-half large--one-fifth text-center">
+      <h3>Internal Antennas</h3>
+      <p>Highly optimised internal antennas.</p>
+   </div>
+   <div class="grid-item small--one-whole medium--one-half large--one-fifth text-center">
+      <meta charset="utf-8">
+      <h3>Modular System</h3>
+      <p>Hot-swappable antennas &amp; SIM reader.</p>
+   </div>
+   <div class="grid-item small--one-whole medium--one-half large--one-fifth text-center">
+      <h3>Ready to go</h3>
+      <p>Everything you need is included in the box.</p>
+   </div>
+</div>
+<div class="grid">
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+      <h2><strong>Proxmark 3 Functionality Comparison</strong></h2>
+      <p>There are multiple versions of the Proxmark, optimised for desktop use or penetration testing. Please check the table below to find the version that corresponds with your needs.</p>
+      <table class="table table-striped table-bordered">
+         <thead>
+            <tr>
+               <th>Feature</th>
+               <th>Proxmark 3 RDV 4.01</th>
+               <th>Proxmark 3 EVO</th>
+               <th>Others (RDV2, Easy, etc)</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>Internal Antennas</td>
+               <td>X</td>
+               <td>X</td>
+               <td><br></td>
+            </tr>
+            <tr>
+               <td>ABS Case</td>
+               <td>X</td>
+               <td>X</td>
+               <td><br></td>
+            </tr>
+            <tr>
+               <td>Miniaturised</td>
+               <td>X</td>
+               <td>X</td>
+               <td><br></td>
+            </tr>
+            <tr>
+               <td>Pentesting Optimised</td>
+               <td>X</td>
+               <td><br></td>
+               <td><br></td>
+            </tr>
+            <tr>
+               <td>Desktop Optimised</td>
+               <td><br></td>
+               <td>X</td>
+               <td><br></td>
+            </tr>
+            <tr>
+               <td>SIM/SAM Reader</td>
+               <td>X</td>
+               <td><br></td>
+               <td><br></td>
+            </tr>
+            <tr>
+               <td>Swappable Antennas</td>
+               <td>X</td>
+               <td><br></td>
+               <td><br></td>
+            </tr>
+            <tr>
+               <td>Long Range Antenna</td>
+               <td>X</td>
+               <td><br></td>
+               <td><br></td>
+            </tr>
+            <tr>
+               <td>Interface</td>
+               <td>8x LED</td>
+               <td>1x RGB LED</td>
+               <td>1x LED</td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+      <h2><strong>Proxmark 3 Technical Comparison</strong></h2>
+      <meta charset="utf-8">
+      <meta charset="utf-8">
+      <p><span>There are multiple versions of the Proxmark, optimised for desktop use or penetration testing. Please check the table below to find the version that corresponds with your needs.</span></p>
+      <table class="table table-striped table-bordered" style="margin-bottom: 3em;">
+         <thead>
+            <tr>
+               <th>Feature</th>
+               <th>Proxmark 3 RDV 4.01</th>
+               <th>Proxmark 3 EVO</th>
+               <th>Others (RDV2, Easy, etc)</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>CPU</td>
+               <td>SAM7S512</td>
+               <td>AT91SAM7S512</td>
+               <td>AT91SAM7S512 / AT91SAM7S256</td>
+            </tr>
+            <tr>
+               <td>Memory</td>
+               <td>External 2MBits Internal 512Kb SPI</td>
+               <td>External 2MBits Internal 512Kb SPI</td>
+               <td>External None Internal 256 - 512Kb SPI</td>
+            </tr>
+            <tr>
+               <td>LF Read Range</td>
+               <td>70mm @ 65V</td>
+               <td>40mm @ 55V</td>
+               <td>10mm - 35mm</td>
+            </tr>
+            <tr>
+               <td>HF Read Range</td>
+               <td>40 - 85mm @ 44V</td>
+               <td>50mm @ 40V</td>
+               <td>10mm - 40mm</td>
+            </tr>
+            <tr>
+               <td>HF Read Range (medium antenna)</td>
+               <td>90mm</td>
+               <td><br></td>
+               <td><br></td>
+            </tr>
+            <tr>
+               <td>HF Read Range (large antenna)</td>
+               <td>100 - 120mm</td>
+               <td><br></td>
+               <td><br></td>
+            </tr>
+            <tr>
+               <td>Dimensions</td>
+               <td>54x87x10mm</td>
+               <td>60x90x12mm</td>
+               <td>At least 150x50mmx50mm</td>
+            </tr>
+            <tr>
+               <td>Expandable Framework?</td>
+               <td>Yes</td>
+               <td><br></td>
+               <td><br></td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
+</div>
+<div class="grid">
+   <div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+      <h2><strong>What's included</strong></h2>
+      <meta charset="utf-8">
+      <p><strong>Standard Accessory Pack</strong></p>
+      <ul>
+         <li>1x Proxmark 3 RDV4.01<strong></strong> </li>
+         <li>1x Pretuned LF Antenna - 125KHz &amp; 134KHz (Internal)</li>
+         <li>1x Pretuned HF Antenna - 13.56MHz (Internal)</li>
+         <li>1x Micro USB Cable</li>
+         <li>1x Screw Driver (for external antenna mounting)</li>
+         <li>1x SIM / SAM Reader Module</li>
+      </ul>
+      <p><strong>RFID Tags / Cards</strong></p>
+      <ul>
+         <li>1x 'Magic' 1k UID Changeable - PVC Card format</li>
+         <li>1x T5577 Tag - PVC Card format</li>
+      </ul>
+      <meta charset="utf-8">
+      <strong>Complete Accessory Pack</strong><br> 
+      <ul>
+         <li>1x <a href="https://lab401.com/products/proxmark-3-rdv4-standalone-kit">Standalone Module (Battery + Bluetooth)</a> </li>
+         <li>1x <a href="/products/proxmark-3-rdv4-long-range-hf-antenna-1" target="_blank">HF Antenna Pack (1x Mid Range, 1x Long Range)</a> </li>
+         <li>1x <a href="/products/proxmark-3-rdv4-01-long-range-lf-antenna-pack">LF Antenna Pack (1x Mid Range, 1x Long Range)</a> </li>
+      </ul>
+      <h2><strong>Shipping &amp; Packaging</strong></h2>
+      <ul>
+         <li>Each Proxmark 3 RDV 4 is dispatched from <strong>Europe</strong> - no need to worry about slow shipping times, import duties or damaged goods.</li>
+         <li>Packed in a sturdy compact 85x130x45mm box.</li>
+         <li>We provide worldwide shipping with express options.</li>
+      </ul>
+   </div>
+   <div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+      <h2><strong>Compatible Systems</strong></h2>
+      <ul>
+         <li>Windows: XP, 7, 8, 10 (All Versions)</li>
+         <li>OS/X: 10.0 - 10.7 (All Versions)</li>
+         <li>Linux: Debian, Ubuntu, CentOS, etc (All Versions)</li>
+         <li>Android: Specific Builds</li>
+      </ul>
+      <h2><strong>Proxmark Resources</strong></h2>
+      <strong>Technical Documents</strong> 
+      <ul>
+         <li><a href="/docs/Proxmark%20III%20User%20Guide.pdf" target="_blank">Installation / Introduction Manual</a></li>
+         <li><a href="https://github.com/rfidResearchGroup/proxmark3">Compiling / Flashing Manual</a></li>
+         <li><a href="https://github.com/RfidResearchGroup/proxmark3/blob/master/doc/termux_notes.md">Android Usage</a></li>
+         <li><a href="https://youtu.be/HRVPyRTZqy8" target="_blank">Updating Proxmark 3 Firmware on Kali</a></li>
+         <li><a href="https://youtu.be/lPe9Y-YpWnY">Updating Proxmark 3 Firmware on Windows</a></li>
+      </ul>
+      <strong>Community / Usage / Tutorial Resources</strong> 
+      <ul>
+         <li><a href="https://www.proxmark.org/forum/index.php" target="_blank">Proxmark Community Forums</a></li>
+         <li><a href="https://github.com/rfidResearchGroup/proxmark3" target="_blank">Proxmark Github repository</a></li>
+         <li><a href="https://youtu.be/pE50JHaYvSU" title="RFID 101 : Understand what is RFID and how it works" target="_blank">Tutorial 1: Introduction to RFID</a></li>
+         <li><a href="https://youtu.be/kk-W7aZXIS4" title="Identify Unknown Cards with the Proxmark" target="_blank">Tutorial 2: Identifying Unknown Cards with Proxmark</a></li>
+         <li><a href="https://lab401.com/blogs/academy/proxmark-basics-cloning-mifare" target="_blank">Tutorial 3: Cloning MIFARE Cards with Proxmark 3</a></li>
+         <li><a href="https://www.fuzzysecurity.com/tutorials/rfid/3.html">Tutorial 4: EasyCard - Reverse engineering an RFID Payment System</a></li>
+      </ul>
+      <strong>Proxmark Research Papers / Presentations</strong> 
+      <ul>
+         <li><a href="https://flaviodgarcia.com/publications/Tutorial_Proxmark_the_Swiss_Army_Knife_for_RFID_Security_Research-RFIDSec12.pdf" target="_blank">Proxmark3: The Swiss Army Knife of Security Research</a></li>
+         <li><a href="https://media.blackhat.com/bh-us-12/Briefings/C_Miller/BH_US_12_Miller_NFC_attack_surface_WP.pdf" target="_blank">Exploring the NFC Attack Surface</a></li>
+         <li><a href="https://www.proxmark.org/documents/mifare_weakness.pdf">A Practical Attack on the MF Classic</a></li>
+         <li><a href="https://proxmark.nl/files/Documents/NFC/Potential_misuse_of_NFC_enabled_mobile_phones_with_embedded_security_elements_as_contactless_attack_platforms.pdf">Potential Misuse of NFC Enabled Mobile Phones with Embedded Security Elements as Contactless Attack Platforms</a></li>
+         <li><a href="https://gerhard.dekoninggans.nl/documents/publications/dekoninggans.phd.thesis.pdf">Outsmarting Smart Cards</a></li>
+         <li><a href="/blogs/news/proxmark-3-rdv2-bypasses-millions-of-hotel-rooms">Proxmark 3 RDV2 cracks Millions of Hotel Rooms</a></li>
+      </ul>
+   </div>
+</div>
+<div>
+   <h2><strong>Proxmark 3 RDV4.01 Unboxing and overview</strong></h2>
+   <p>
+      <figure>
+         <video lite-youtube="" videoid="51bWAtraEDw" posterquality="maxresdefault" params="rel=0"></video>
+      </figure>
+   </p>
+</div>
+</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>proxmark</s:tag>
+    <s:tag>Proxmark 3 RDV4</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/1350524502127</id>
+      <title>Standard</title>
+      <s:price currency="EUR">329.00</s:price>
+      <s:sku>PM3-RDV4-BASIC</s:sku>
+      <s:grams>184</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/1350524502127</id>
+      <title>Complete</title>
+      <s:price currency="EUR">529.00</s:price>
+      <s:sku>PM3-RDV4-COMPLETE</s:sku>
+      <s:grams>226</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/3948580929647</id>
+    <published>2022-06-20T15:00:35+02:00</published>
+    <updated>2022-06-20T15:00:35+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/long-range-rfid-reader-writer-dl533n-xl"/>
+    <title>Long Range RFID Reader / Writer DL533N XL</title>
+    <s:type>Reader / Writer</s:type>
+    <s:vendor>D-Logic</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/DL533N-XL-long-range-mifare-sniffer.png?v=1581181917"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>D-Logic<br>
+        <strong>Type: </strong>Reader / Writer<br>
+        <strong>Price: </strong>
+            129.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h4>The world's only LibNFC Compatible Long Range Reader / Writer</h4>
+<p>The DL533N XL is the first publicly available Long Range, LibNFC Compatible Reading / Writing Device, providing <strong>read, write and sniff distances of up to 180mm.</strong></p>
+<p>Based on the rock-solid DL533N hardware, the XL is 178x178mm, with a built in active RF range-booster providing unmatched reading distances without any dead spots.</p>
+<p>Compatible out of the box with LibNFC on Windows, MacOS, Linux and Android, this is a stable RFID reader / writer perfectly suited and tested with our badges.</p>
+<p>Finally, long-distance high-frequency RFID sniffing is practical.</p>
+<div class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2>Specifications</h2>
+<ul>
+<li>Dimensions: 178 x 178 x 6mm</li>
+<li>Max Read / Write Distance: 180mm</li>
+</ul>
+<p>Operates in the following modes:</p>
+<ul>
+<li>ISO/IEC 14443A/MIFARE® Reader/Writer</li>
+<li>FeliCa Reader/Writer</li>
+<li>ISO/IEC 14443B Reader/Writer</li>
+<li>ISO/IEC 14443A/MIFARE Classic® 1K or MIFARE Classic® 4K emulation</li>
+<li>FeliCa Card emulation</li>
+<li>ISO/IEC 18092, ECMA 340 Peer-to-Peer</li>
+</ul>
+<h2>Compatible Systems</h2>
+<p>Device is compatible with the following operating systems</p>
+<ul>
+<li>Windows: XP, 7, 8, 10 (All Versions)</li>
+<li>MacOS (All Versions)</li>
+<li>Linux: Debian, Ubuntu, CentOS, etc (All Versions)</li>
+<li>Android: Specific Builds</li>
+</ul>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2>Compatible Tools</h2>
+<p>Device is compatible with LibNFC, including the following tools:</p>
+<ul>
+<li>
+<strong>nfc-mfclassic</strong> (Read/Write MIFARE Classic® 1K or MIFARE Classic® 4K, and MIFARE Classic® "Magic" UID cards)</li>
+<li>
+<strong>nfc-mfsetuid</strong> (Set the UID on MIFARE Classic® "Magic" UID cards)</li>
+<li>
+<strong>nfc-mfultralight</strong> (Read/Write MIFARE Ultralight / MIFARE Ultralight EV1, NTAG etc cards)</li>
+<li>
+<strong>mfoc</strong> (MIFARE Classic® 1K / 4K cracking with known key)</li>
+<li>
+<strong>mfcuk</strong> (MIFARE Classic® 1K / 4K cracking without known key)</li>
+</ul>
+</div>
+</div>
+<div class="grid">
+<div class="grid-item small--one-third medium--one-third large--one-third text-center">
+<h4>Covert</h4>
+<p>Slim form-factor allows for covert concealment (briefcase, backpack, books, under desks, etc)</p>
+</div>
+<div class="grid-item small--one-third medium--one-third large--one-third text-center">
+<h4>Works with your hardware</h4>
+<p>Works on everything - with everything. Windows, Linux, MacOS, Android; Based on the NXP PN533 Chipset - Supports a huge range of cards.</p>
+</div>
+<div class="grid-item small--one-third medium--one-third large--one-third text-center">
+<h4>Huge Operational Distance</h4>
+<p>Read, Write, Sniff and Crack at distances up to 18cm. For red-teams and pentesters, open a new world of practical attacks</p>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>libNFC</s:tag>
+    <s:tag>long distance</s:tag>
+    <s:tag>long range</s:tag>
+    <s:tag>mfcuk</s:tag>
+    <s:tag>mfoc</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>RFID</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/3948580929647</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">129.00</s:price>
+      <s:sku>DL533N-XL</s:sku>
+      <s:grams>127</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/3948549800047</id>
+    <published>2022-06-20T15:00:35+02:00</published>
+    <updated>2022-06-20T15:00:35+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/usb-rfid-reader-writer-dl533n"/>
+    <title>USB RFID Reader/Writer DL533N</title>
+    <s:type>Reader / Writer</s:type>
+    <s:vendor>D-Logic</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/LibNFC-MFOC-Reader-Writer-cropped.png?v=1581182606"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>D-Logic<br>
+        <strong>Type: </strong>Reader / Writer<br>
+        <strong>Price: </strong>
+            49.99
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h4>Lab401's DL533N - Compact and capable USB 13.56MHz RFID reader/writer</h4>
+<p><strong>The recommended reader for MIFARE® Compatible UID Changeable Tags!</strong></p>
+<p>DL533N has a small form factor to make it the optimal NFC reader and writer for mobile usage. Plug it into your laptop to instantly upgrade your machine with NFC capability.</p>
+<p>Compatible out of the box with LibNFC on Windows, MacOS, Linux and Android, this is a stable RFID reader / writer perfectly suited and tested with our badges.</p>
+<p>The DL533N is compact and portable, and is a vital part of any RFID / NFC testing toolkit.</p>
+<div class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2>Specifications</h2>
+<p>Operates in the following modes:</p>
+<ul>
+<li>ISO/IEC 14443A/MIFARE® Reader/Writer</li>
+<li>FeliCa Reader/Writer</li>
+<li>ISO/IEC 14443B Reader/Writer</li>
+<li>ISO/IEC 14443A/MIFARE Classic® 1K or MIFARE Classic® 4K emulation</li>
+<li>FeliCa Card emulation</li>
+<li>ISO/IEC 18092, ECMA 340 Peer-to-Peer</li>
+</ul>
+<h2>Compatible Systems</h2>
+<p>Device is compatible with the following operating systems</p>
+<ul>
+<li>Windows: XP, 7, 8, 10 (All Versions)</li>
+<li>MacOS (All Versions)</li>
+<li>Linux: Debian, Ubuntu, CentOS, etc (All Versions)</li>
+<li>Android: Specific Builds</li>
+</ul>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2>Compatible Tools</h2>
+<p>Device is compatible with LibNFC, including the following tools:</p>
+<ul>
+<li>
+<strong>nfc-mfclassic</strong> (Read/Write MIFARE Classic® 1K or MIFARE Classic® 4K, and MIFARE Classic® "Magic" UID cards)</li>
+<li>
+<strong>nfc-mfsetuid</strong> (Set the UID on MIFARE Classic® "Magic" UID cards)</li>
+<li>
+<strong>nfc-mfultralight</strong> (Read/Write MIFARE Ultralight / MIFARE Ultralight EV1, NTAG etc cards)</li>
+<li>
+<strong>mfoc</strong> (MIFARE Classic® 1K / 4K cracking with known key)</li>
+<li>
+<strong>mfcuk</strong> (MIFARE Classic® 1K / 4K cracking without known key)</li>
+</ul>
+</div>
+</div>
+<div class="grid">
+<div class="grid-item small--one-third medium--one-third large--one-third text-center">
+<h4>Compact</h4>
+<p>Fully functional RFID R/W unit that fits easily into your pocket. Never be caught without your tools.</p>
+</div>
+<div class="grid-item small--one-third medium--one-third large--one-third text-center">
+<h4>Works with your hardware</h4>
+<p>Works on everything - with everything. Windows, Linux, MacOS, Android; Based on the NXP PN533 Chipset - Supports a huge range of cards.</p>
+</div>
+<div class="grid-item small--one-third medium--one-third large--one-third text-center">
+<h4>Works with your toolkit</h4>
+<p>Out of the box support for LibNFC - so supports all your favourite tools: mfoc, mfcuk, RFIDIOt, pssi.. everything you need.</p>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>libNFC</s:tag>
+    <s:tag>mfcuk</s:tag>
+    <s:tag>mfoc</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>RFID</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/3948549800047</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">49.99</s:price>
+      <s:sku>DL533N-STICK</s:sku>
+      <s:grams>15</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/6982516080840</id>
+    <published>2022-06-20T15:00:16+02:00</published>
+    <updated>2022-06-20T15:00:16+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/icopy-x"/>
+    <title>ICopy-XS</title>
+    <s:type>RF</s:type>
+    <s:vendor>ICopyX</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/ICopyX-RFID-Cloner-3-4-1.png?v=1629380189"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>ICopyX<br>
+        <strong>Type: </strong>RF<br>
+        <strong>Price: </strong>
+            375.00 - 529.00
+            <a href="https://lab401.com/products/icopy-x">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>The ICopy-X is designed to meet the daily needs of Pentesters and security researchers - easily and rapidly clone RFID badges while in the field.</p>
+<p>Built around the powerful Proxmark 3, the ICopy-X is a portable device specialised in the rapid cloning of RFID badges, capable of automatically reading, cracking and writing the vast majority of LF and HF RFID tags on the market.<br></p>
+<p>Designed to be intuitive, users control the device via its screen and navigation buttons to place a badge and start the desired operation.</p>
+<p>Lab401 sells the "XS" model of the iCopy-X - the most powerful available.</p>
+<p>The iCopy-XS is <strong>now open-source</strong>, and runs the <b>latest Proxmark 'iceman' firmware</b>.</p>
+<h2><strong>Functionality in a glance<br></strong></h2>
+<div style="margin: 2em 3em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-quarter text-center">
+<h3>Portable RFID Cloner<br>
+</h3>
+<p>No need for an external computer<br></p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-quarter text-center">
+<h3>Powerful RFID System<br>
+</h3>
+<p>Built around the Proxmark 3 RDV<br></p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-quarter text-center">
+<h3>LF &amp; HF Tag Support<br>
+</h3>
+<p>Supports the vast majority of LF and HF cards<br></p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-quarter text-center">
+<meta charset="utf-8">
+<h3>OPEN SOURCE<br>
+</h3>
+<p>Runs the latest "iceman" Proxmark firmware.</p>
+</div>
+</div>
+<h2><strong>Overview</strong></h2>
+<p>The ICopy-X is designed to take the pain out of RFID cloning, while also providing power users with the tools they need.<br></p>
+<p>The device is driven via its tactile navigation buttons and intuitive UI. Once a badge is placed, the device interacts with the Proxmark 3 to automatically determine the badge frequency and required steps to detect, crack, read and decode a badge.<br></p>
+<p>Badge data can be saved, exported/imported via the 16GB internal memory.</p>
+<p>The device can also be connected to a computer to allow power users to drop into the Proxmark client shell, if advanced operations need to be performed.</p>
+<p><strong>Please note: </strong>Because it is an independant and offline device, the ICopy-X cannot detect or bypass Anti-Copy algorithms that are increasingly present in European RFID Access Control Systems.</p>
+<p>For European locksmiths looking for a feature-complete RFID cloning system, we recommend the <a href="https://rebadge.co" target="_blank">Rebadge solution</a>, which is optimised for European residential access control systems.</p>
+<p><figure>
+   <video lite-youtube="" videoid="UTVgaDciNM4" posterquality="maxresdefault" params="rel=0"></video>
+</figure></p>
+<h2><strong>Badge Support<br></strong></h2>
+<p>The ICopy-X supports the majority of LF and HF badges available on the market.</p>
+<p><strong>Please note:</strong> The iCopy-X <em>does not support</em> the following badges: MIFARE DESFire, iCLASS Elite with Custom Keys / EMV (Bank / Credit Cards).</p>
+<p>Cloning iCLASS SE / iCLASS SEOS requires the <a href="/products/ics-decoder-iclass-se-seos-cloner-decoder">iCS Decoder tool.</a></p>
+<div class="grid" style="margin: 2em 3em;">
+<div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+<p><strong>High Frequency: </strong><br></p>
+<ul>
+<li>
+<strong>MIFARE</strong><br>
+</li>
+<ul>
+<li>MIFARE 1K / 4K (4 &amp; 7 byte UIDs)</li>
+<li>MIFARE Ultralight</li>
+<li>MIFARE Ultralight C</li>
+<li>MIFARE Ultralight EV1</li>
+<li>NTAG<br>
+</li>
+</ul>
+<li>
+<strong>ISO14443B</strong><br>
+</li>
+<ul>
+<li>ICLASS Legacy<br>
+</li>
+<li>ICLASS Elite<br>
+</li>
+<li>ICLASS SE (<em>with the <a href="/products/ics-decoder-iclass-se-seos-cloner-decoder">iCS Decoder Tool</a>)</em>
+</li>
+<li>ICLASS SEOS<em> (with the <a href="/products/ics-decoder-iclass-se-seos-cloner-decoder">iCS Decoder Tool</a>)</em>
+</li>
+</ul>
+<li><strong>ISO 15693</strong></li>
+<ul>
+<li>iCODE SLI (Partial)<br>
+</li>
+<li>iCODE SLIX (Partial)</li>
+</ul>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+<p><strong>Low Frequency: </strong><br></p>
+<ul>
+<li>EM4XX</li>
+<li>T5577</li>
+<li>HID Prox</li>
+<li>Indala</li>
+<li>AWOD</li>
+<li>ioProx</li>
+<li>Viking</li>
+<li>FDX-B</li>
+<li>KERI</li>
+<li>VISA2000</li>
+<li>HITAG</li>
+<li>...and many more</li>
+</ul>
+</div>
+</div>
+<h2><strong>Blank Tag Packs<br></strong></h2>
+<p>The ICopy-X has three different Blank Tag Pack options: <strong>Basic, Intermediate and Advanced. Please note: </strong>The device only supports ICopy-X blank badges. Generic blanks are not supported on the device. <a href="/collections/icopy-x-tags"><strong>Additional Blank Tag Packs can be purchased here.</strong></a><br></p>
+<table class="tg">
+<tbody>
+<tr>
+<td class="tg-3m6e tg-bold" colspan="4">High Frequency</td>
+</tr>
+<tr>
+<th class="tg-jjqf tg-bold tg-quarter"><strong>Card Type</strong></th>
+<th class="tg-jjqf tg-bold"><strong>Basic Included Cards</strong></th>
+<th class="tg-jjqf tg-bold"><a href="/products/icopy-x-intermediate-tag-pack"><strong>Intermediate Card Pack</strong></a></th>
+<th class="tg-jjqf tg-bold"><a href="/products/icopy-x-advanced-tag-pack"><strong>Advanced Card Pack</strong></a></th>
+</tr>
+<tr>
+<td class="tg-aqib tg-bold" colspan="4">MIFARE® Family</td>
+</tr>
+<tr>
+<td class="tg-8gh4 tg-padded">MIFARE Classic® 1K 4-Byte Compatible</td>
+<td class="tg-h9p8">4x Gen1<br>2x Gen2<br>2x Gen2a<br>1x Gen1 Sticker<br>1x Gen1 Testing Card<br>
+</td>
+<td class="tg-jjqf">4x Gen1<br>1x Gen2<br>1x Gen2a</td>
+<td class="tg-h9p8">2x Gen1<br>1x Gen2<br>1x Gen2a</td>
+</tr>
+<tr>
+<td class="tg-8gh4 tg-padded">MIFARE Classic® 1K 7-Byte Compatible</td>
+<td class="tg-h9p8"><br></td>
+<td class="tg-jjqf">x1</td>
+<td class="tg-h9p8">x1</td>
+</tr>
+<tr>
+<td class="tg-8gh4 tg-padded">MIFARE Classic® 4K 4-Byte Compatible</td>
+<td class="tg-h9p8"><br></td>
+<td class="tg-jjqf">x1</td>
+<td class="tg-h9p8">x1</td>
+</tr>
+<tr>
+<td class="tg-8gh4 tg-padded">MIFARE Classic® 4K 7-Byte Compatible</td>
+<td class="tg-h9p8"><br></td>
+<td class="tg-jjqf">x1</td>
+<td class="tg-h9p8">x1</td>
+</tr>
+<tr>
+<td class="tg-8gh4 tg-padded">MIFARE Ultralight® Compatible</td>
+<td class="tg-h9p8"><br></td>
+<td class="tg-jjqf">x1</td>
+<td class="tg-h9p8">x1</td>
+</tr>
+<tr>
+<td class="tg-8gh4 tg-padded">MIFARE Ultralight® C Compatible</td>
+<td class="tg-h9p8"><br></td>
+<td class="tg-jjqf">x1</td>
+<td class="tg-h9p8">x1</td>
+</tr>
+<tr>
+<td class="tg-8gh4 tg-padded">MIFARE Ultralight® EV1 Compatible</td>
+<td class="tg-h9p8"><br></td>
+<td class="tg-jjqf">x1</td>
+<td class="tg-h9p8">x1</td>
+</tr>
+<tr>
+<td class="tg-8gh4 tg-padded">NTAG® Compatible</td>
+<td class="tg-h9p8"><br></td>
+<td class="tg-jjqf">x1</td>
+<td class="tg-h9p8">x1</td>
+</tr>
+<tr>
+<td class="tg-aqib tg-bold" colspan="4">ISO14443B</td>
+</tr>
+<tr>
+<td class="tg-8gh4 tg-padded">ICLASS® Legacy Compatible</td>
+<td class="tg-h9p8"><br></td>
+<td class="tg-jjqf"><br></td>
+<td class="tg-h9p8">x1</td>
+</tr>
+<tr>
+<td class="tg-8gh4 tg-padded">ICLASS® Elite Compatible</td>
+<td class="tg-h9p8"><br></td>
+<td class="tg-jjqf"><br></td>
+<td class="tg-h9p8">x1</td>
+</tr>
+<tr>
+<td class="tg-aqib tg-bold" colspan="4">ISO 15693</td>
+</tr>
+<tr>
+<td class="tg-8gh4 tg-padded">iCODE® SLI / SLIX Compatible</td>
+<td class="tg-h9p8"><br></td>
+<td class="tg-jjqf"><br></td>
+<td class="tg-h9p8">x1</td>
+</tr>
+<tr>
+<td class="tg-3m6e" colspan="4">
+<p class="tg-bold">Low Frequency</p>
+<span style="font-style: italic;">All supported Low-Frequency tags can be cloned onto "T5577" cards.</span>
+</td>
+</tr>
+<tr>
+<th class="tg-jjqf tg-bold"><strong>Card Type</strong></th>
+<th class="tg-jjqf tg-bold"><strong>Basic Card Pack</strong></th>
+<th class="tg-jjqf tg-bold"><strong>Intermediate Card Pack</strong></th>
+<th class="tg-jjqf tg-bold"><strong>Advanced Card Pack</strong></th>
+</tr>
+<tr>
+<td class="tg-8gh4 tg-padded">T5577</td>
+<td class="tg-h9p8">x4<br>x1 Sticker<br>x1 Testing Card<br>
+</td>
+<td class="tg-jjqf">x3</td>
+<td class="tg-h9p8">x2</td>
+</tr>
+</tbody>
+</table>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<p><strong>Basic Pack<br></strong></p>
+<ul>
+<li>1x ICopy-X "XS"<br>
+</li>
+<li>1x Basic Included Card Pack<br>
+</li>
+</ul>
+<p><strong>Intermediate Pack<br></strong></p>
+<ul>
+<li>1x ICopy-X "XS"<br>
+</li>
+<li>1x Intermediate Card Pack<br>
+</li>
+</ul>
+<p><strong>Advanced Pack<br></strong></p>
+<ul>
+<li>1x ICopy-X "XS"<br>
+</li>
+<li>1x Advanced Card Pack</li>
+</ul>
+<p>Cards are delivered <span style="text-decoration: underline;">without printing / white.</span></p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>Device Specifications<br></strong></h2>
+<ul>
+<li>
+<strong>Screen:</strong> 1.3 Inch 240x240 RGB LCD<br>
+</li>
+<li>
+<strong>Tactile Controls</strong>: Arrow Keys, Select Buttons</li>
+<li>
+<strong>Internal Memory:</strong> <strong></strong>256MB Ram, 16GB User Storage<br>
+</li>
+<li>
+<strong>Internal Battery:</strong> 2000mAh Li-ion battery<br>
+</li>
+<li>
+<strong>RFID System:</strong> Customised Proxmark 3 <br>
+</li>
+<li>
+<strong>Connectivity:</strong> USB-C</li>
+<li>
+<strong>Dimensions:</strong> 120 x 55 x 24mm<br>
+</li>
+<li>
+<strong>Weight:</strong> 113g</li>
+</ul>
+<h2><strong>Technical Resources<br></strong></h2>
+<ul>
+<li>
+<a href="https://github.com/lab-401/icopy-x" target="_blank">iCopy-XS Open Source Firmware</a><br>
+</li>
+<li>
+<a href="https://cdn.shopify.com/s/files/1/2175/8571/files/iCopy-X-User-Manual.pdf?v=1632844443">ICopy-X User Manual (PDF)</a><br>
+</li>
+</ul>
+</div>
+</div>
+<h2><strong>Open-Source</strong></h2>
+<p>The iCopy-XS is <b><a href="https://github.com/lab-401/icopy-x" target="_blank">now open source</a></b>, and now runs the <b>latest "iceman" Proxmark firmware.</b></p> It has several other features including plugin system, UI framework for rapid app development, screen-mirroring and more! 
+<figure>
+<video lite-youtube="" videoid="WWS-9QdulC0" posterquality="maxresdefault" params="rel=0">
+<img slot="image" src="https://cdn.shopify.com/s/files/1/2175/8571/files/2026-06-11---iCopy-XS---Open-Source.png?v=1781699642">
+</video>
+</figure>
+</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>125KHz (LF)</s:tag>
+    <s:tag>13.56MHz (HF)</s:tag>
+    <s:tag>cloning</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>icopy-x</s:tag>
+    <s:tag>icopyx</s:tag>
+    <s:tag>Physical Entry</s:tag>
+    <s:tag>proxmark</s:tag>
+    <s:tag>Proxmark 3 RDV4</s:tag>
+    <s:tag>rfid</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/6982516080840</id>
+      <title>Basic</title>
+      <s:price currency="EUR">375.00</s:price>
+      <s:sku>ICOPYX-BASIC</s:sku>
+      <s:grams>366</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/6982516080840</id>
+      <title>Intermediate</title>
+      <s:price currency="EUR">465.00</s:price>
+      <s:sku>ICOPYX-INTERMEDIATE</s:sku>
+      <s:grams>489</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/6982516080840</id>
+      <title>Advanced</title>
+      <s:price currency="EUR">529.00</s:price>
+      <s:sku>ICOPYX-ADVANCED</s:sku>
+      <s:grams>488</s:grams>
+    </s:variant>
+  </entry>
+</feed>

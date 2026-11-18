@@ -1,0 +1,1389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/collections/debug-development-tools-development-tools.atom"/>
+  <title>Lab401</title>
+  <updated>2025-09-15T10:06:40+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/products/10066762105179</id>
+    <published>2025-09-15T10:06:40+02:00</published>
+    <updated>2025-09-15T10:06:40+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/digilab-for-flipperzero"/>
+    <title>DigiLab for FlipperZero</title>
+    <s:type></s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab---Connected.png?v=1756235925"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            49.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Lab401's DigiLab by tixlegeek is a Flipper Zero® accessory that introduces a new way to explore electronics. Designed to be the first tool you reach for when you're developing, debugging, tinkering or exploring digital electronics.</p>
+<p>Want to <em>feel</em> voltages? <em>See</em> signals? <em>Hear</em> protocols? Reach directly into the memory of sensors and modules? Sounds crazy, but it's possible with the DigiLab.</p>
+<p>Discover signals via the Scope application, probe for voltages and frequencies in the Probe function, and detect, discover and directly interact with SPI &amp; I2C devices via the SPI Probe and I2C Probe functions.</p>
+<div class="animation-container">
+   <div class="flipper-stage" data-tilt="" data-tilt-max="1" data-tilt-perspective="1000" data-tilt-full-page-listening="" data-max-tilt="">
+      <div class="flipper-assembly">
+         <!-- Base Flipper device (always visible) --> <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab-Flipper.png?v=1756138151" alt="Flipper Base" class="flipper-element flipper-base"> <!-- Initial animation screen --> <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab-Animation.gif?v=1756138146" alt="Flipper Animation" class="flipper-element flipper-animation"> <!-- PCB coming from top --> <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab-PCB.png?v=1756138148" alt="Flipper PCB" class="flipper-element flipper-pcb"> <!-- Probe coming from left --> <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab-Probe.png?v=1756138147" alt="Flipper Probe" class="flipper-element flipper-probe"> <!-- Final app screen --> <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab-App.png?v=1756138146" alt="Flipper App" class="flipper-element flipper-app"> 
+      </div>
+   </div>
+</div>
+<p>By combining an RGB LED, Flipper's speaker and vibration motor, you can see voltages fluctuations, hear the difference between different protocols, and feel the different signals flowing around a circuit.</p>
+<p>The DigiLab is even compatible with the full range of BusPirate accessories; making SPI and I2C exploration even more easy. It's 100% Open Source and Open Hardware, and is the perfect combination of functional, fun and educational that your Flipper has been waiting for.</p>
+<p><strong>If you love electronics, you'll love Lab401's DigiLab.</strong></p>
+<p>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+</p>
+<style>         .animation-container {             margin: 0;             padding: 0;             box-sizing: border-box;             /*height: 300vh;*/             position: relative;             /*background: linear-gradient(180deg, #764ba2 0%, #667eea 50%, #f093fb 100%);*/         }     .rte .animation-container img {             margin: 0;             padding: 0;     }         .flipper-stage {             position: sticky;             top: 0;             /*height: 100vh;*/             display: flex;             align-items: center;             justify-content: center;             /*overflow: hidden;*/         }         .flipper-assembly {             position: relative;             width: 916px;             height: 500px;             margin-top: 3em;             margin-bottom: -4em;         }         .flipper-element {             position: absolute;             max-width: 100%;             height: auto;         }         /* Base Flipper device - always visible, centered */         .flipper-base {             top: 50%;             left: 50%;             transform: translate(-50%, -50%);             z-index: 1;             width: 500px;         }         /* Initial animation screen - positioned over orange screen */         .flipper-animation {             top: 50%;             left: 50%;             transform: translate(-50%, -50%);             z-index: 2;             width: 172px;             /* Fine-tune position to match orange screen exactly */             margin-top: -18px !important;             margin-left: -31px !important;         }         /* PCB - starts from top, ends positioned above the main device */         .flipper-pcb {             width: 750px;             z-index: 3;             opacity: 0;             top: -100px;             left: 50%;             transform: translateX(-50%);         }         /* Probe - starts from left, ends positioned on the left side */         .flipper-probe {             width: 916px;             z-index: 4;             opacity: 0;             top: 24%;             left: -50%;             transform: translate(0%, -50%);         margin-top: 1em;         }         .flipper-app {             top: 50%;             left: 50%;             transform: translate(-50%, -50%);             z-index: 5;             opacity: 0;             width: 172px;             margin-top: -18px !important;             margin-left: -31px !important;         }         @keyframes animatedgradient {             0% {                 filter: drop-shadow(0px 0px 10px rgba(247, 149, 51, 0.2)) drop-shadow(0px 0px 20px rgba(243, 112, 85, 0.2)) drop-shadow(0px 0px 30px rgba(239, 78, 123, 0.2));             }             100% {                 filter: drop-shadow(0px 0px 10px rgba(161, 102, 171, 0.2)) drop-shadow(0px 0px 20px rgba(80, 115, 184, 0.2)) drop-shadow(0px 0px 30px rgba(16, 152, 173, 0.2));             }         }         .flipper-glow {             filter: drop-shadow(0px 0px 10px rgba(247, 149, 51, 0.2)) drop-shadow(0px 0px 20px rgba(243, 112, 85, 0.2)) drop-shadow(0px 0px 30px rgba(239, 78, 123, 0.2));             animation: animatedgradient 10s ease alternate infinite;         }         @media (max-width: 1100px) {             .animation-container {                 /*height: 300vh;*/                 position: relative;                 /*background: linear-gradient(180deg, #764ba2 0%, #667eea 50%, #f093fb 100%);*/             }             .flipper-stage {                 position: sticky;                 top: 0;                 /*height: 100vh;*/                 display: flex;                 align-items: center;                 justify-content: center;                 /*overflow: hidden;*/             }             .flipper-assembly {                 position: relative;                 width: 90vw;                 max-width: 916px;                 height: auto;                 aspect-ratio: 11 / 6;             }             .flipper-element {                 position: absolute;                 max-width: 100%;                 height: auto;             }             /* Base Flipper device */             .flipper-base {                 top: 50%;                 left: 50%;                 transform: translate(-50%, -50%);                 z-index: 1;                 width: 55%;             }             /* Initial animation screen */             .flipper-animation {                 top: 50%;                 left: 50%;                 transform: translate(-50%, -50%);                 z-index: 2;                 width: 19%;                 margin-top: -2% !important;                 margin-left: -3.5%  !important;             }             /* PCB */             .flipper-pcb {                 width: 82%;                 z-index: 3;                 opacity: 0;                 top: -10%;                 left: 50%;                 transform: translateX(-50%);             }             /* Probe */             .flipper-probe {                 width: 100%;                 z-index: 4;                 opacity: 0;                 top: 24%;                 left: -50%;                 transform: translate(0%, -50%);             }             /* Final app screen */             .flipper-app {                 top: 50%;                 left: 50%;                 transform: translate(-50%, -50%);                 z-index: 5;                 opacity: 0;                 width: 19%;                 margin-top: -2% !important;                 margin-left: -3.5% !important;             }         }         @media (max-width: 768px) {         }   lite-youtube {     /* No Shadow */     --lite-youtube-frame-shadow-visible: no;   }   video {max-width:100%; border-radius: 15px;}       </style>
+<h2>Discover what's possible with the DigiLab</h2>
+<figure>
+   <video lite-youtube="" videoid="_d2J8e9RIu4" posterquality="maxresdefault" params="rel=0"></video>
+</figure>
+<div class="grid" style="margin-top: 2em;">
+   <div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+      <h3>See, hear and feel circuits</h3>
+      <p>The DigiLab's Scope function allows you to see, hear and feel voltages and signals: it honestly feels a bit magic.</p>
+      <p>Which is CAN_HI and CAN_LO? They sound <i>completely different!</i>. What's the baud rate on this line? <i>Sounds like 9600bps!</i> Display voltage gradients via RGB LED? <i>Totally possible!</i></p>
+      <p>
+         <video autoplay="autoplay" muted="muted" loop="loop">
+            <source src="https://cdn.shopify.com/videos/c/o/v/4749a7807fb34e49baf4e42833cc5b36.mp4"></video>
+      </p>
+   </div>
+   <div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+      <h3>Probe, measure and detect signals</h3>
+      <p>The Probe function allows you to rapidly map out a circuit during debug or development.</p>
+      <p>Where are the data traces? Is the serial interface active? Is there a signal on this line? Is this plain 5v or is it UART? What's the frequency of the signal? Get answers quickly with the Probe tool.</p>
+      <p>
+         <video autoplay="autoplay" muted="muted" loop="loop">
+            <source src="https://cdn.shopify.com/videos/c/o/v/d3fe6f9f979f45a5a1389094d5903a62.mp4"></video>
+      </p>
+   </div>
+</div>
+<div class="grid" style="margin-top: 2em;">
+   <div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+      <h3>Discover and identify I2C and SPI devices</h3>
+      <p>The DigiLab has a built-in <i>Predictive Engine</i> for rapidly identifing I2C and SPI devices.</p>
+      <p>Working with chips that have no markings? Uncover its secrets without fuss. Need to identify multiple devices on the same bus? No problems! With DigiLab, discovery &amp; identification is painless!</p>
+      <p><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Detection-Animation.gif?v=1756153677"></p>
+   </div>
+   <div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+      <h3>Real-time, direct I2C &amp; SPI interaction</h3>
+      <p>Discover, read and Write directly to and from sensors, memory and other I2C prehipherals.</p>
+      <p>Forget fighting with Arduinos &amp; ESP-32s - the DigiLab just made SPI &amp; I2C manipulation simple. Debugging and development with modules is a breeze: get hands on directly with the devices!</p>
+      <p><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Hexedit-Animation.gif?v=1756155034"></p>
+   </div>
+</div>
+<h2>Detailed functionality</h2>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+   <p><strong>Scope Tool</strong> The scope tool provides an oscilloscope-style screen, with real-time, average and max voltage and the wave-form of the detected signal. When coupled with the <strong>feedback options</strong> it becomes a powerful way to navigate circuits.</p>
+   <p><strong>Sound</strong></p>
+   <ul>
+      <li>Off - <i>no audio feedback</i> </li>
+      <li>Alert - <i>Audio triggers when "Alert" condition is met</i> </li>
+      <li>On - <i>Follows the voltage/signal measured</i> </li>
+   </ul>
+   <strong>Haptic/Vibration</strong> 
+   <ul>
+      <li>Off - <i>no haptic feedback</i> </li>
+      <li>Alert - <i>Triggers when "Alert" condition is met</i> </li>
+   </ul>
+   <strong>LED</strong> 
+   <ul>
+      <li>Off - <i>no LED feedback</i> </li>
+      <li>Alert - <i>Triggers when "Alert" condition is met</i> </li>
+      <li>Follow - <i>Follows the voltage (0v Green, 12v Red)</i> </li>
+      <li>Variance - <i>Follows the calculated variance of the measured signal</i> </li>
+      <li>Trigger - <i>Follows when signal exceeds auto-calculated trigger level</i> </li>
+   </ul>
+   <strong>Alert Options</strong> 
+   <ul>
+      <li>Voltage - <i>v&lt;3.3, v&gt;3.3, v&lt;5, v&gt;5, MAX</i> </li>
+      <li>Osc - <i>When signal oscillates around 0v (digital signals, clocks, communications)</i> </li>
+      <li>~x - <i>When signal is close to x volts</i> </li>
+   </ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+   <p><strong>Probe Tool</strong> The Probe tool is ideal for initial circuit exploration or debugging multiple pins via the clear real-time UI:</p>
+   <ul>
+      <li>Voltage Range: <i> 0 - 12v</i> </li>
+      <li>Frequencies: <i> Up to ~200kHz</i> </li>
+      <li>Real-time voltage <i> indicator</i> </li>
+      <li>Real-time frequency <i> indicator</i> </li>
+   </ul>
+   <p><strong>I2C Probe</strong> Detect, identify and interact directly with attached I2C devices. GPIO Pinout is compatible with BusPirate accessories.</p>
+   <ul>
+      <li>Detection Engine: <i> Multiple Simultaneous I2C devices</i> </li>
+      <li>Prediction Engine: <i> Instant Device Identification (Device type, Address, Reference, Manufacturer, Description)</i> </li>
+      <li>Register Explorer</li>
+      <li>Register Editor: <i>Read / Write</i> </li>
+      <li>Hex-editor</li>
+   </ul>
+   <p><strong>SPI Probe</strong> Detect, identify and interact directly with attached SPI devices. GPIO Pinout is compatible with BusPirate accessories.</p>
+   <ul>
+      <li>Detection Engine: <i> Multiple Simultaneous I2C devices</i> </li>
+      <li>Prediction Engine: <i> Instant Device Identification (Device type, Address, Reference, Manufacturer, Description)</i> </li>
+      <li>Register Explorer</li>
+      <li>Register Editor: <i>Read / Write</i> </li>
+      <li>Hex-editor</li>
+   </ul>
+</div>
+<div style="margin-top: 2em;" class="grid">
+   <div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+      <h2><strong>What's included</strong></h2>
+      <ul>
+         <li>
+            <strong>1x DigiLab</strong> 
+            <ul>
+               <li>1x Probe Pair (Shielded RG-178 cable with SMA connector)</li>
+               <li>1x Probe Point (Connects via screw attachment)</li>
+            </ul>
+         </li>
+      </ul>
+      <ul>
+         <li>DigiLab <a href="https://lab.flipper.net/apps/401_digilab" target="_blank">Flipper Application</a> </li>
+      </ul>
+   </div>
+   <div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+      <h2><strong>DigiLab Resources</strong></h2>
+      <ul>
+         <li><a href="https://lab.flipper.net/apps/401_digilab" target="_blank">DigiLab Flipper Application</a></li>
+         <li><a href="https://github.com/lab-401/fzDigiLab" target="_blank">DigiLab Github Repository</a></li>
+         <li><a href="/blogs/news/building-the-digilab-behind-the-scenes" target="_blank">Building the DigiLab : Behind the scenes with Lab401</a></li>
+      </ul>
+      <h2><strong>DigiLab Tutorials</strong></h2>
+      <ul>
+         <li><a href="/blogs/academy/digilab-pulling-data-from-thin-air-and-a-bmp280-module" target="_blank">DigiLab &amp; BMP280 : Reading Pressure, Temperature &amp; Altitude directly from the BMP280.</a></li>
+         <li><a href="/blogs/academy/i2c-sensor-seduction-digilab-flipper" target="_blank">Sensor Seduction: No fuss data downloading from sensors with the DigiLab</a></li>
+      </ul>
+   </div>
+</div>
+</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Flipper</s:tag>
+    <s:tag>Flipper Zero</s:tag>
+    <s:tag>Flipper Zero Accessory</s:tag>
+    <s:tag>FlipperZero</s:tag>
+    <s:tag>I2C</s:tag>
+    <s:tag>IoT</s:tag>
+    <s:tag>SPI</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10066762105179</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">49.00</s:price>
+      <s:sku>LAB401-DIGILAB</s:sku>
+      <s:grams>125</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/9359330345307</id>
+    <published>2024-07-28T12:41:50+02:00</published>
+    <updated>2024-07-28T12:41:50+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/cynthion"/>
+    <title>Cynthion</title>
+    <s:type>Tools</s:type>
+    <s:vendor>GreatScott Gadgets</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Cynthion-USB-Reverse-Engineering-Tool-1.png?v=1722092250"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>GreatScott Gadgets<br>
+        <strong>Type: </strong>Tools<br>
+        <strong>Price: </strong>
+            209.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>The Cynthion is an all-new, highly capable USB-hacking multi-tool : The Proxmark of the USB world. Sniff and analyse High-Speed USB traffic on the protocol level, intercept and manipulate USB-devices in real-time, emulate USB-devices and even build your own <i>real</i> USB-devices directly in the FPA.</p>
+<p>Built by GreatScottGadgets, the Cynthion shares the same design-DNA as the HackRF: build a powerful, no-compromise tool that is accessible to everyone. The Cynthion's feature-set is unmatched by devices 10 times as expensive and bulky.</p>
+<p>As with all GreatScottGadget products, the Cynthion has a rich, mature ecosystem of open-source tools that work out of the box.</p>
+<p>Whether you're curious to tinker with USB or you're a engineer building enterprise hardware - the Cynthion is a must-have tool.</p>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Protocol Analyser</h3>
+Passively capture low, full and high-speed USB traffic and up to 16 related digital signals simultaneously for analysis.</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Reverse Engineer Communications</h3>
+Full-featured open-source tools for capturing, filtering, visualising and analysing USB-traffic on a protocol level.</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>MITM USB Devices</h3>
+Sniff, analyse and manipulate high-speed USB-packets on the wire in real-time via the <i>USBProxy</i> tool.
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Build your own USB device</h3>
+Build custom USB devices rapdily in software via Python, or semi-permanently onto the Cynthion's FPGA.
+</div>
+</div>
+<h2 style="margin-top: 2em;">Key Features</h2>
+<ul>
+<li>
+<strong>Protocol Analyser</strong> - Fully-featured low/full/high speed USB Analysis tools via Packetry</li>
+<li>
+<strong>USB Device Designer</strong> With Facedancer, build custom USB-devices, either emulated via Python and/or real via the FPGA with LUNA.</li>
+<li>
+<strong>MITM Platform</strong> - Real-time manipulation of USB-device communication</li>
+<li>
+<strong>Reverse-Engineering Toolkit</strong> - full-stack (software + gateware) tooling for fuzzing, prototyping and emulation of low/full/high-speed USB devices.</li>
+<li>
+<strong>Open Source</strong> - 100% open-source software, firmware, gateware and hardware.</li>
+<li>
+<strong>Unibody aluminium case</strong> - Robust, sleek annodised aluminium CNC-milled case for complete PCB-protection.</li>
+</ul>
+<!--
+<h2>Bus Pirate 5 - Unboxing</h2>
+<figure></figure>
+-->
+<h2 style="margin-top: 2em;">The Cynthion in action</h2>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<strong>Building a RubberDucky in 6 lines of code</strong>
+<pre><code>
+device = USBKeyboardDevice()
+async def type_letters():
+    await device.type_string('r', modifiers=KeyboardModifiers.MOD_LEFT_META)
+    await asyncio.sleep(0.5)
+    await device.type_string('calc\n')
+main(device, type_letters())
+</code>
+</pre>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<strong>Flip the X-Axis of a USB Controller in 6 lines</strong>
+<pre><code>
+class SwitchControllerInvertXFilter(USBProxyFilter):
+    def filter_in(self, ep_num, data):
+        # The fourth byte of our packets contains the
+        # joystick X position, as a number between 0 and 255.
+        data[3] = 0xff - data[3]
+        return en_num, data
+</code>
+</pre>
+</div>
+</div>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>Device Specifications<br></strong></h2>
+<ul>
+<li>
+<strong>FPGA:</strong> ECP5 FPGA<br>
+</li>
+<li>
+<strong>USB Interfaces:</strong>
+<ul>
+<li>Left side: 2x USB Type-C (device-mode)</li>
+<li>Right side: 1x USB Type-C (host/device mode &amp; analysis)</li>
+<li>Right side: 1x USB Type-A (host mode &amp; analysis)</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>
+<strong>Diagnostic Interface:</strong> Microchip SAMD11
+<ul>
+<li>JTAG</li>
+<li>USB-Serial</li>
+<li>Register Interface debuggers</li>
+</ul>
+</li>
+<li>
+<strong>Power</strong>: 3x USB Power Switches
+</li>
+<li>
+<strong>RAM</strong>: 64 Mbit (8 MiB) RAM (Buffering + Userspace)
+</li>
+<li>
+<strong>Flash</strong>: 32Mbit (4 MiB) SPI-Flash for standalone FPGA configuration
+</li>
+<li>
+<strong>LEDs</strong>:
+<ul>
+<li>6x FPGA Controlled LEDs</li>
+<li>5x MCU controlled Status LEDs</li>
+</ul>
+</li>
+<li>
+<strong>IO</strong>: 2x Digilent Pmod I/O Connectors<strong></strong>
+</li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li><strong>1x Cynthion PCB</strong></li>
+<li><strong>1x Milled Aluminium Enclosure</strong></li>
+</ul>
+<h2><strong>Technical Resources<br></strong></h2>
+<ul>
+<li>
+<a href="https://cynthion.readthedocs.io/en/latest/" target="_blank" title="Cynthion Latest Documentation" rel="noopener">Cynthion Documentation</a><a href="https://hardware.buspirate.com/?ref=lab401.com" title="Bus Pirate Hardware REference" target="_blank"></a>
+</li>
+<li>
+<a href="https://github.com/greatscottgadgets/luna" target="_blank" title="Cynthion Github Repo" rel="noopener">Cynthion Github</a><a href="https://firmware.buspirate.com/" title="Bus Pirate Firmware" target="_blank"></a>
+</li>
+<li>
+<a href="https://github.com/greatscottgadgets/cynthion-hardware" target="_blank" title="Cynthion Hardware Source" rel="noopener">Cynthion Hardware Source</a><a href="https://forum.buspirate.com/" title="Bus Pirate Forum" target="_blank"></a>
+</li>
+<li><a href="https://greatscottgadgets.com/tags/cynthion/" target="_blank" rel="noopener">Cynthion Development Notes</a></li>
+</ul>
+</div>
+</div>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/tokyo-night-dark.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/python.min.js"></script>
+  
+  <script>hljs.highlightAll();</script></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Cynthion</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>FPGA</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:tag>USB</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/9359330345307</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">209.00</s:price>
+      <s:sku>GSG-CYNTHION</s:sku>
+      <s:grams>300</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/9087302566235</id>
+    <published>2024-04-05T16:43:29+02:00</published>
+    <updated>2024-04-05T16:43:29+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/bus-pirate-v5"/>
+    <title>Bus Pirate 5</title>
+    <s:type>Tools</s:type>
+    <s:vendor>BusPirate</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/BusPirate-Lab401-1.png?v=1713389104"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>BusPirate<br>
+        <strong>Type: </strong>Tools<br>
+        <strong>Price: </strong>
+            59.00 - 89.00
+            <a href="https://lab401.com/products/bus-pirate-v5">(2 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>Introduction</h2>
+<p>The Bus Pirate is the world's best known hardware hacking / debugging / development device. Whether you're debugging hardware, tinkering with unknown devices, flashing micro-controllers, sniffing unknown protocols, side-channel attacks, prototyping new PCBs .. the Bus Pirate has you covered.</p>
+<p>The <strong>Bus Pirate's killer feature</strong> is its <strong>built-in terminal</strong>: Instead of fighting with multiple tools, exotic protocols, frustrating voltage levels and rewriting code for every project - simply connect to the full-colour VT100 terminal.<br></p>
+<p>Configure the device you're working with, whether it's a known protocol or something exotic, and <strong>send commands directly to your device</strong> : chips, sensors, etc - the Bus Pirate handles the heavy lifting - <strong>without writing a single line of code.</strong></p>
+<p>The Bus Pirate 5 is the culmination of over 10 years of hard work and relentless development, and features an incredibly dedicated and active community.<br></p>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Terminal Interface<br>
+</h3>
+Full colour (VT100) terminal with real-time pin status (voltage + function), system configuration and direct command CLI.<br>
+<p><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Bus-Pirate-Terminal-2.png?v=1712236404" alt=""></p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Full Colour IPS LCD<br>
+</h3>
+Configurable pin labels, real-time voltage monitoring and current consumption of the programmable power supply unit.<br>
+<p><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/BusPirate-Screen.png?v=1712236406" alt=""></p>
+</div>
+</div>
+<h2>Key Features</h2>
+<ul>
+<li>
+<strong>Bulldozer buffered IO</strong> - 1.2 to 5volt direct interfacing with 8 bidirectional buffered IOs</li>
+<li>
+<strong>Voltage measurement extravaganza</strong> - Bus Pirate 5 displays voltage readings for every pin, right on its vibrant LCD screen and in the terminal statusbar</li>
+<li>
+<strong>Current measurement</strong> - Get a reality check by monitoring current use in real time</li>
+<li>
+<strong>Programmable power supply</strong> - 1 to 5volt output, 400mA max, for powering all kinds of devices</li>
+<li>
+<strong>Programmable current limit</strong> - A 0 to 500mA programmable hardware fuse sets current limits that keep your projects safe and sane</li>
+<li>
+<strong>A big colorful display</strong> - Keep track of pin assignments, voltages and current</li>
+<li>
+<strong>Color terminal and statusbar</strong> - VT100 terminal emulation for that modern 1970s feel</li>
+<li>
+<strong>Just One Button</strong> - A dedicated button for automating repetitive debug commands while you're wrist deep in circuits</li>
+<li>
+<strong>Auxiliary Header</strong> - A second header to easily connect logic analyzers and other tools. Stop struggling to fit multiple probe hooks on tiny chip leads<br>
+</li>
+</ul>
+<p>The Bus Pirate has a full range of accessories, available in a pack, or individually.<br></p>
+<ul>
+<li>
+<strong>Premium Probe Cable Set</strong>: color-coded, labeled leads, breadboard pins</li>
+<li>
+<strong>Premium Auxiliary Cable Set</strong>: color-coded, silicone-coated wires</li>
+<li>
+<strong>Auxiliary cable</strong>: color-coded crimp housings</li>
+<li>
+<strong>KF141 connector board</strong>: right angle, labeled IO pins</li>
+<li>
+<strong>Raspberry Pi Pico</strong> right-angle connectors.</li>
+</ul>
+<h2>Bus Pirate 5 - Unboxing</h2>
+<figure><video lite-youtube="" videoid="1GIqLmzRPBg" posterquality="maxresdefault" params="rel=0"></video></figure>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>
+<strong>Standalone</strong><br>
+</li>
+<ul>
+<li>1x Bus Pirate v5<br>
+</li>
+<li>1x Injection Molded Enclosure</li>
+<li>6x Interchangeable buttons</li>
+<li>Custom-scent scratch-n-sniff stickers<br><br>
+</li>
+</ul>
+<li><strong>Complete Pack</strong></li>
+<ul>
+<li>1x Bus Pirate v5<br>
+</li>
+<li>1x Injection Molded Enclosure</li>
+<li>6x Interchangeable buttons<br>
+</li>
+<li>Custom-scent scratch-n-sniff stickers<br><br>
+</li>
+<li>Auxiliary Cable Set<br>
+</li>
+<li>Probe Cable Kit</li>
+<li>KF141 Connector (Right Angle)</li>
+<li>Raspberry Pi Pico Connecter (Right Angle)</li>
+</ul>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>Device Specifications<br></strong></h2>
+<ul>
+<li>
+<strong>Cores:</strong> 2x32-bits @ 125MHz RP2040/ARM<br>
+</li>
+<li>
+<strong>Flash:</strong> 128Mbits</li>
+<li>
+<strong>Storage</strong>: 1GB NAND (100MB Usable)</li>
+<li>
+<strong>Display</strong>: 320x240 IPS all-angles</li>
+<li>
+<strong>Magic Peripheral</strong>: RP2040 PIO module</li>
+<li>
+<strong>Terminal</strong>: VT100 color with live statusbar</li>
+<li>
+<strong>LEDs</strong>: 18 RGB LEDs</li>
+<li>
+<strong>IO Pins</strong>: 8x IOs @ 1.2 - 5.0v</li>
+<li>
+<strong>Pull Up Resistors</strong>: 8x Pins</li>
+<li>
+<strong>ADC / Voltage Measurement</strong>: All pins</li>
+<li>
+<strong>Power Supply</strong>: 1 - 5v</li>
+<li>
+<strong>Current Sense</strong>: 0 - 500mA</li>
+<li>
+<strong>Programmable Fuse</strong>: 0 - 500mA</li>
+</ul>
+<h2><strong>Technical Resources<br></strong></h2>
+<ul>
+<li><a href="https://hardware.buspirate.com/?ref=lab401.com" title="Bus Pirate Hardware REference" target="_blank">Bus Pirate Hardware Specs</a></li>
+<li><a href="https://firmware.buspirate.com/" title="Bus Pirate Firmware" target="_blank">Bus Pirate Firmware Information</a></li>
+<li><a href="https://forum.buspirate.com/" title="Bus Pirate Forum" target="_blank">Bus Pirate Forum</a></li>
+<li><a href="https://github.com/DangerousPrototypes?tab=repositories" title="Bus Pirate Github Repos" target="_blank">Bus Pirate GitHub Repos</a></li>
+</ul>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Bus Pirate</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/9087302566235</id>
+      <title>Complete</title>
+      <s:price currency="EUR">89.00</s:price>
+      <s:sku>BUSPIRATE-5-PACK-COMPLETE</s:sku>
+      <s:grams>300</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/9087302566235</id>
+      <title>Standalone</title>
+      <s:price currency="EUR">59.00</s:price>
+      <s:sku>BUSPIRATE-5</s:sku>
+      <s:grams>300</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/9087661408603</id>
+    <published>2024-04-05T16:42:43+02:00</published>
+    <updated>2024-04-05T16:42:43+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/bus-pirate-5-raspberry-pi-pico-headers"/>
+    <title>Bus Pirate 5 Raspberry Pi Pico Headers</title>
+    <s:type>Tools</s:type>
+    <s:vendor>BusPirate</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Bus-Pirate-Pico-Headers.png?v=1712247185"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>BusPirate<br>
+        <strong>Type: </strong>Tools<br>
+        <strong>Price: </strong>
+            5.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>Introduction</h2>
+<p>The Raspberry Pi Pico is a fun and powerful development board, but the pin labels are printed in tiny letters on the bottom of the board, which makes things very annoying when trying to connect, debug and check at the same time.</p>
+<p>Kit comes with a pair of 20 pin headers (left and right) with high quality pin name silkscreen in black and white - in a right angle configuration.<br></p>
+<h2>Bus Pirate 5 - RPi Pico Headers Unboxing</h2>
+<figure><video lite-youtube="" videoid="WtQKUmNasVU" posterquality="maxresdefault" params="rel=0"></video></figure>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>2x Raspberry Pi Pico Headers (Left + Right) - Right Angle<br>
+</li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>Technical Resources<br></strong></h2>
+<ul>
+<li><a title="Bus Pirate Hardware REference" href="https://hardware.buspirate.com/?ref=lab401.com" target="_blank">Bus Pirate Hardware Specs</a></li>
+<li><a title="Bus Pirate Firmware" href="https://firmware.buspirate.com/" target="_blank">Bus Pirate Firmware Information</a></li>
+<li><a title="Bus Pirate Forum" href="https://forum.buspirate.com/" target="_blank">Bus Pirate Forum</a></li>
+<li><a title="Bus Pirate Github Repos" href="https://github.com/DangerousPrototypes?tab=repositories" target="_blank">Bus Pirate GitHub Repos</a></li>
+</ul>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Bus Pirate</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/9087661408603</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">5.95</s:price>
+      <s:sku>BUSPIRATE-PICO-RA</s:sku>
+      <s:grams>250</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/9087645712731</id>
+    <published>2024-04-05T16:42:42+02:00</published>
+    <updated>2024-04-05T16:42:42+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/bus-pirate-5-kf141-quick-connect"/>
+    <title>Bus Pirate 5 KF141 Quick Connect</title>
+    <s:type>Tools</s:type>
+    <s:vendor>BusPirate</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/BusPirate-RC-QC.png?v=1712245592"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>BusPirate<br>
+        <strong>Type: </strong>Tools<br>
+        <strong>Price: </strong>
+            6.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>Introduction</h2>
+<p>Connect wires quickly, and securely, without a fuss.</p>
+<p>KF141 is a popular quick connector block with sturdy spring retention clamps. Press the lever, insert a stripped wire, then release the lever to clamp it firmly in place. Pin names are silkscreened in bright orange so you get the right connection the first time.</p>
+<h2>Bus Pirate 5 - Quick Connect Unboxing</h2>
+<figure><video lite-youtube="" videoid="fWGQyFYJeX0" posterquality="maxresdefault" params="rel=0"></video></figure>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x KF141 Quick Connect Adaptor<br>
+</li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>Technical Resources<br></strong></h2>
+<ul>
+<li><a title="Bus Pirate Hardware REference" href="https://hardware.buspirate.com/?ref=lab401.com" target="_blank">Bus Pirate Hardware Specs</a></li>
+<li><a title="Bus Pirate Firmware" href="https://firmware.buspirate.com/" target="_blank">Bus Pirate Firmware Information</a></li>
+<li><a title="Bus Pirate Forum" href="https://forum.buspirate.com/" target="_blank">Bus Pirate Forum</a></li>
+<li><a title="Bus Pirate Github Repos" href="https://github.com/DangerousPrototypes?tab=repositories" target="_blank">Bus Pirate GitHub Repos</a></li>
+</ul>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Bus Pirate</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/9087645712731</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">6.95</s:price>
+      <s:sku>BUSPIRATE-QC-RA</s:sku>
+      <s:grams>250</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/9087642272091</id>
+    <published>2024-04-05T16:42:42+02:00</published>
+    <updated>2024-04-05T16:42:42+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/bus-pirate-5-auxiliary-cable"/>
+    <title>Bus Pirate 5 Auxiliary Cable</title>
+    <s:type>Tools</s:type>
+    <s:vendor>BusPirate</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Bus-Pirate-Aux-Cable.png?v=1712250867"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>BusPirate<br>
+        <strong>Type: </strong>Tools<br>
+        <strong>Price: </strong>
+            9.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>Introduction</h2>
+<p>The Auxiliary Connector Cable with color coded crimp housings - without the jumper and splitter cables.</p>
+<p>Connect the Bus Pirate 5 auxiliary connector to other equipment such as logic analyzers and oscilloscopes. (9 pin, 1.0mm “SH” and 2.54mm "DuPont" connectors)</p>
+<h2>Bus Pirate 5 - Auxiliary Cables Unboxing</h2>
+<figure><video lite-youtube="" videoid="Fp1WnHWmJJk" posterquality="maxresdefault" params="rel=0"></video></figure>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x Colour Coded Aux Connector Cable<br>
+</li>
+</ul>
+</div>
+  
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>Technical Resources<br></strong></h2>
+<ul>
+<li><a title="Bus Pirate Hardware REference" href="https://hardware.buspirate.com/?ref=lab401.com" target="_blank">Bus Pirate Hardware Specs</a></li>
+<li><a title="Bus Pirate Firmware" href="https://firmware.buspirate.com/" target="_blank">Bus Pirate Firmware Information</a></li>
+<li><a title="Bus Pirate Forum" href="https://forum.buspirate.com/" target="_blank">Bus Pirate Forum</a></li>
+<li><a title="Bus Pirate Github Repos" href="https://github.com/DangerousPrototypes?tab=repositories" target="_blank">Bus Pirate GitHub Repos</a></li>
+</ul>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Bus Pirate</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/9087642272091</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">9.95</s:price>
+      <s:sku>BUSPIRATE-CABLE</s:sku>
+      <s:grams>250</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/9087635095899</id>
+    <published>2024-04-05T16:42:41+02:00</published>
+    <updated>2024-04-05T16:42:41+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/bus-pirate-5-coloured-auxiliary-cable"/>
+    <title>Bus Pirate 5 Auxiliary Cable Set</title>
+    <s:type>Tools</s:type>
+    <s:vendor>BusPirate</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Bus-Pirate-Aux-Cable-Pack.png?v=1712245134"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>BusPirate<br>
+        <strong>Type: </strong>Tools<br>
+        <strong>Price: </strong>
+            11.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>Introduction</h2>
+A collection of auxiliary cables made from premium soft and flexible silicone coated wire.<br data-mce-fragment="1">
+<ul>
+<li>1 Auxiliary Connector Cable with color coded crimp housings. Connect the Bus Pirate 5 auxiliary connector to other equipment such as logic analyzers and oscilloscopes. (9 pin, 1.0mm “SH” and 2.54mm "DuPont" connectors)<br><br>
+</li>
+<li>4 “Y” Splitter Cables (2 grey, 1 black, 1 red) with matching color crimp housings. (2.54mm "DuPont" connectors)<br><br>
+</li>
+<li>10 Jumper Cables (8 grey, 1 black, 1 red) with matching color crimp housings. (2.54mm "DuPont" connectors)<br>
+</li>
+</ul>
+<h2>Bus Pirate 5 - Auxiliary Cables Kit Unboxing</h2>
+<figure><video lite-youtube="" videoid="PepwGrqnw0Q" posterquality="maxresdefault" params="rel=0"></video></figure>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x Colour Coded Aux Connector Cable<br>
+</li>
+<li>4x "Y" Splitter Cables<br>
+</li>
+<li>10x Jumper Cables<br>
+</li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>Technical Resources<br></strong></h2>
+<ul>
+<li><a href="https://hardware.buspirate.com/?ref=lab401.com" title="Bus Pirate Hardware REference" target="_blank">Bus Pirate Hardware Specs</a></li>
+<li><a href="https://firmware.buspirate.com/" title="Bus Pirate Firmware" target="_blank">Bus Pirate Firmware Information</a></li>
+<li><a href="https://forum.buspirate.com/" title="Bus Pirate Forum" target="_blank">Bus Pirate Forum</a></li>
+<li><a href="https://github.com/DangerousPrototypes?tab=repositories" title="Bus Pirate Github Repos" target="_blank">Bus Pirate GitHub Repos</a></li>
+</ul>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Bus Pirate</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/9087635095899</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">11.95</s:price>
+      <s:sku>BUSPIRATE-AUX</s:sku>
+      <s:grams>250</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/9087631294811</id>
+    <published>2024-04-05T16:42:40+02:00</published>
+    <updated>2024-04-05T16:42:40+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/bus-pirate-5-auxilary-probe-kit"/>
+    <title>Bus Pirate 5 Probe Kit</title>
+    <s:type>Tools</s:type>
+    <s:vendor>BusPirate</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Bus-Pirate-Probe-Kit-2.png?v=1712244805"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>BusPirate<br>
+        <strong>Type: </strong>Tools<br>
+        <strong>Price: </strong>
+            11.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>Introduction</h2>
+<p>A keyed and locking probe cable made of premium soft and flexible silicone coated wire connects to the Bus Pirate 10 pin main header.</p>
+<p>The ends are 2.54mm Dupont connectors that fit many different types of probe hooks as well as our custom milled breadboard adapter pins. Each lead is wrapped with labeled and color coded shrink tube.</p>
+<p>10 black Probe Hooks and 10 custom milled breadboard pins are included. See the <a href="https://firmware.buspirate.com/overview/probehooks" rel="noopener" target="_blank">probe hook guide</a> for an overview of common affordable hooks.<br></p>
+<h2>Bus Pirate 5 - Probe Kit Unboxing</h2>
+<figure><video lite-youtube="" videoid="Yr-qLe18DVk" posterquality="maxresdefault" params="rel=0"></video></figure>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x Premium Probe Cable<br>
+</li>
+<li>10x Probe Hooks<br>
+</li>
+<li>10x Custom-milled breadboard pins<br><br>
+</li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>Technical Resources<br></strong></h2>
+<ul>
+<li><a title="Bus Pirate Hardware REference" href="https://hardware.buspirate.com/?ref=lab401.com" target="_blank">Bus Pirate Hardware Specs</a></li>
+<li><a title="Bus Pirate Firmware" href="https://firmware.buspirate.com/" target="_blank">Bus Pirate Firmware Information</a></li>
+<li><a title="Bus Pirate Forum" href="https://forum.buspirate.com/" target="_blank">Bus Pirate Forum</a></li>
+<li><a title="Bus Pirate Github Repos" href="https://github.com/DangerousPrototypes?tab=repositories" target="_blank">Bus Pirate GitHub Repos</a></li>
+</ul>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Bus Pirate</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/9087631294811</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">11.95</s:price>
+      <s:sku>BUSPIRATE-PROBES</s:sku>
+      <s:grams>250</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/8748898058587</id>
+    <published>2024-01-15T20:35:29+01:00</published>
+    <updated>2024-01-15T20:35:29+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/greatfet-one-daffodil"/>
+    <title>GreatFET One - Daffodil</title>
+    <s:type>Tools</s:type>
+    <s:vendor>GreatScott Gadgets</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/GreatFET-Daffodil-Connected_3c86f9eb-6ce7-46df-ab13-785230c07757.png?v=1705346516"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>GreatScott Gadgets<br>
+        <strong>Type: </strong>Tools<br>
+        <strong>Price: </strong>
+            35.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>Introduction</h2>
+<p>The Daffodil is a prototyping "neighbour" / shield for the GreatFet One which allows rapid temporary and semi-permanent prototyping.<br></p>
+<p>Breadboard, 2 rows of female GPIO connectors, one row of male connectors, and 72 predrilled perf-board points for soldering components.</p>
+<br>
+<div class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h3><strong>Technical Specifications</strong></h3>
+<ul>
+<li>1x Mini Breadboard (170 pins) / PRT-12047<br>
+</li>
+<li>2x 40 pin female GPIO connectors</li>
+<li>1x 20 pin male connectors</li>
+<li>72 through-hole perf-board connectors for soldered connections</li>
+</ul>
+</div>
+<h3><strong>What's included</strong></h3>
+<ul>
+<li>1x Daffodil<br>
+</li>
+</ul>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h3><strong>Technical Resources<br></strong></h3>
+<ul>
+<li>Product Overview : <a href="https://hackaday.com/2019/07/02/hands-on-greatfet-is-an-embedded-tool-that-does-it-all/" target="_blank">Hands on with the GreatFET</a><br>
+</li>
+<li>Official Documentation</li>
+<ul>
+<li><a href="https://greatscottgadgets.github.io/greatfet-tutorials/" target="_blank">GreatFET Introduction</a></li>
+<li><a href="https://greatfet.readthedocs.io/en/latest/" target="_blank">API Documentation</a></li>
+<li><a href="https://github.com/greatfet-hardware/azalea" target="_blank">Pinouts</a></li>
+</ul>
+<li>Source code</li>
+<ul>
+<li><a href="https://github.com/greatfet-hardware/azalea" target="_blank">Hardware</a></li>
+<li><a href="https://github.com/greatscottgadgets/greatfet" target="_blank">Software</a></li>
+</ul>
+</ul>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Debugging</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Hardware</s:tag>
+    <s:tag>Revese Engineering</s:tag>
+    <s:tag>Sniffing</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:tag>USB</s:tag>
+    <s:tag>USB Sniff</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/8748898058587</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">35.00</s:price>
+      <s:sku>GSG-DAFFODIL</s:sku>
+      <s:grams>100</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/8748688703835</id>
+    <published>2024-01-15T19:00:50+01:00</published>
+    <updated>2024-01-15T19:00:50+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/greatfet"/>
+    <title>GreatFET One</title>
+    <s:type>Tools</s:type>
+    <s:vendor>GreatScott Gadgets</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/GreatFET-Top.png?v=1705341642"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>GreatScott Gadgets<br>
+        <strong>Type: </strong>Tools<br>
+        <strong>Price: </strong>
+            90.00 - 115.00
+            <a href="https://lab401.com/products/greatfet">(2 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>Introduction</h2>
+<p>If you've ever asked yourself the question: How do I talk to this piece of hardware : The GreatFET one is the answer.<br data-mce-fragment="1"><br data-mce-fragment="1">Rounding up multiple individual tools in a powerful, complete, easy-to-use package, the GreatFET one is a hardware hacker's best friend.<br></p>
+<p><strong>Out-of-the-box use cases include:</strong></p>
+<ul>
+<li>Logic Analyser</li>
+<li>Hardware debugger</li>
+<li>USB Sniffer</li>
+<li>Pattern Generator</li>
+<li>Bit-Banger</li>
+<li>Data logger</li>
+<li>Reverse engineering<br>
+</li>
+</ul>
+<p><strong>The GreatFET One has ample hardware features:</strong><br></p>
+<ul>
+<li>Native Serial Protocol support: SPI, I2C, UART, JTAG</li>
+<li>Programmable Digital I/O</li>
+<li>Programmable Analog I/O (ADC/DAC)</li>
+<li>100 GPIO Pins</li>
+<li>Dual USB Ports (Fullspeed for target devices, Highspeed for host device)</li>
+<li>On-board 3.3V regulator</li>
+<li>2MB Onboard flash</li>
+<li>4x Programmable LEDs</li>
+<li>2x Programmable Buttons</li>
+<li>Expansion shields or "neighbours"</li>
+</ul>
+<h2>Robust Software<br>
+</h2>
+<p>The GreatFET's killer feature is its software: a comprehensive Python 3 API that covers all all of the GreatFET's hardware features.<br><br>The use of Python APIs allows hackers to connect, interact and develop on the same device: No need to debug your debugger, no need to string together multiple tools.<br><br>As with all devices from Great Scott Gadgets, the GreatFET One is fully open-source, with comprehensive documentation online.<br><br>The GreatFET One pairs well with the Daffodil, a shield designed to make breadboarding and semi-permanent prototyping easy.</p>
+<div class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h3><strong>Technical Specifications<br></strong></h3>
+<ul>
+<li>
+<strong>CPU</strong> : NXP LPC4330</li>
+<li>
+<strong>Memory</strong> : 2MB Onboard</li>
+<li>
+<strong>Host USB</strong> : Highspeed MicroUSB<br>
+</li>
+<li>
+<strong>Target USB</strong> : Fullspeed MicroUSB<br>
+</li>
+<li>
+<strong>I/O </strong>:</li>
+<ul>
+<li>100 pins<br data-mce-fragment="1">
+</li>
+<li>2x 2x20 female headers<br data-mce-fragment="1">
+</li>
+<li>20x male headers</li>
+</ul>
+<li>
+<strong>LEDs</strong> : 4x</li>
+<li>
+<strong>Buttons</strong> : 2x<br>
+</li>
+</ul>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h3><strong>What's included</strong></h3>
+<ul>
+<li>1x GreatFET One<br>
+</li>
+<li>1x USB-A - MicroUSB cable<br>
+</li>
+<li>1x "Wiggler" for safe shield separation</li>
+</ul>
+<h3><strong>Technical Resources<br></strong></h3>
+<ul>
+<li>Product Overview : <a href="https://hackaday.com/2019/07/02/hands-on-greatfet-is-an-embedded-tool-that-does-it-all/" target="_blank" rel="noopener noreferrer">Hands on with the GreatFET</a><br>
+</li>
+<li>Official Documentation</li>
+<ul>
+<li><a href="https://greatscottgadgets.github.io/greatfet-tutorials/" target="_blank" rel="noopener noreferrer">GreatFET Introduction</a></li>
+<li><a href="https://greatfet.readthedocs.io/en/latest/" target="_blank" rel="noopener noreferrer">API Documentation</a></li>
+<li><a href="https://github.com/greatfet-hardware/azalea" target="_blank" rel="noopener noreferrer">Pinouts</a></li>
+</ul>
+<li>Source code</li>
+<ul>
+<li><a href="https://github.com/greatfet-hardware/azalea" target="_blank" rel="noopener noreferrer">Hardware</a></li>
+<li><a href="https://github.com/greatscottgadgets/greatfet" target="_blank" rel="noopener noreferrer">Software</a></li>
+</ul>
+</ul>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Debugging</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Hardware</s:tag>
+    <s:tag>Revese Engineering</s:tag>
+    <s:tag>Sniffing</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:tag>USB</s:tag>
+    <s:tag>USB Sniff</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/8748688703835</id>
+      <title>With Shield</title>
+      <s:price currency="EUR">115.00</s:price>
+      <s:sku>GSG-GREATFET-WITH-DAFFODIL</s:sku>
+      <s:grams>100</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/8748688703835</id>
+      <title>Without Shield</title>
+      <s:price currency="EUR">90.00</s:price>
+      <s:sku>GSG-GREATFET</s:sku>
+      <s:grams>100</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/8398743142747</id>
+    <published>2023-04-27T17:19:52+02:00</published>
+    <updated>2023-04-27T17:19:52+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/bugblat-minisniffer-v2"/>
+    <title>BugBlat miniSniffer 2</title>
+    <s:type>Tools</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/miniSniffer---USB-Analyzer---V2---Front.png?v=1682608742"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>Tools<br>
+        <strong>Price: </strong>
+            149.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2><strong>Introduction</strong></h2>
+<p>The BugBlat miniSniffer v2 is a powerful USB Sniffer / Protocol Analyser and USB inspection and debugging device.<br></p>
+<p>The V2 combines the performance and large on-board capture buffer (256MB) of the ezSniffer, and the compact form-factor of the miniSniffer V1.</p>
+<p>Compact, powerful and cross-platform, it is bundled with a mature cross-platform software suite for capturing and displaying USB traffic.</p>
+<p>The miniSniffer 2 is a special purpose logic analyzer. An on-board FPGA samples the USB signals, compresses the samples, and sends the compressed data to an analysis PC via the FX2LP's buffered high speed USB link. Software on the analysis computer decompresses the samples and converts them into a visual flow.<br></p>
+<p>Data can be sniffed and saved onboard for later analysis : the miniSniffer V2 has 256MB of storage, and supports on-the-fly compression to double your effective storage.</p>
+<p><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/ez_sw_1_1_480x480.png?v=1601288459"></p>
+<ul></ul>
+<h3><br></h3>
+<h2><strong>Functionality in a glance</strong></h2>
+<p>Below is a non-exhaustive list of the miniSniffer's advantages:</p>
+<div class="grid">
+<div class="grid-item small--one-third medium--one-third large--one-third text-center">
+<h2>Budget USB Analysis<br>
+</h2>
+<p>Full-speed and high-speed USB Analysis<br></p>
+</div>
+<div class="grid-item small--one-third medium--one-third large--one-third text-center">
+<h2>Fully Cross-Platform<br>
+</h2>
+<p>Bundled software works on Windows, Mac and Linux<br></p>
+</div>
+<div class="grid-item small--one-third medium--one-third large--one-third text-center">
+<h2>Pocket-sized Inspection<br>
+</h2>
+<p>Highly capable yet half the size of a credit card.<br></p>
+</div>
+</div>
+<div class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h3><strong>Detailed functionality</strong></h3>
+<ul>
+<li>
+<p>Disconnect and reconnect USB devices. This makes it straightforward to capture startup packets, including descriptors.</p>
+</li>
+<li>
+<p>Compresses captured data. It can capture up to 256MB of compressed data.</p>
+</li>
+<li>
+<p>Sniff USB Full-Speed (FS) device traffic at 12Mbit/s.</p>
+</li>
+<li>
+<p>Sniff USB High-Speed (HS) device traffic. 480Mbit/s High-Speed devices power up as FS devices and then attempt to move up to HS. The ezSniffer prevents HS devices moving from FS to HS, so the ezSniffer can sniff these devices as well.<br></p>
+</li>
+</ul>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h3><strong>Technical Specifications<br></strong></h3>
+<ul>
+<li>Size: 50mm x 33mm (2.0" x 1.3")<br>
+</li>
+<li>Host side: USB-C Connector</li>
+<li>Device side: USB-A and MicroUSB</li>
+<li>Power Consumption: <span class="dltab" markdown="1">0.15W</span><br>
+</li>
+<li>Power Supply: No external supply required.<br>
+</li>
+</ul>
+<h3><strong>What's included</strong></h3>
+<ul>
+<li>1x BugBlat miniSniffer<br>
+</li>
+<li>1x Cross-Platform Analysis Software<br>
+</li>
+</ul>
+<h3><strong>Technical Resources<br></strong></h3>
+<ul>
+<li><a title="MiniSniffer Technical Reference Resource" href="https://www.bugblat.com/products/minisniff2/index.html" target="_blank">miniSniffer Technical Reference Resource</a></li>
+<li><a href="https://github.com/bugblat/sniffer" target="_blank">miniSniffer API examples</a></li>
+<li><a href="https://www.bugblat.com/products/minisniff2/index.html" target="_blank">miniSniffer Companion Software </a></li>
+</ul>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Debugging</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Hardware</s:tag>
+    <s:tag>miniSniffer</s:tag>
+    <s:tag>Sniffing</s:tag>
+    <s:tag>USB</s:tag>
+    <s:tag>USB Sniff</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/8398743142747</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">149.00</s:price>
+      <s:sku>MINISNIFFER-2</s:sku>
+      <s:grams>100</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/1385032024175</id>
+    <published>2022-06-20T15:00:40+02:00</published>
+    <updated>2022-06-20T15:00:40+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/proxmark-3-rdv4-flash-support"/>
+    <title>Lab401 Flashing Multi-tool for Proxmark &amp; Chameleon</title>
+    <s:type>Proxmark</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/Proxmark-3-Flashing-Adaptor.png?v=1567242511"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>Proxmark<br>
+        <strong>Price: </strong>
+            29.99
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2><strong>Introduction</strong></h2>
+<p>The Lab401 Flashing Multi-tool allows reflashing of your important pen-testing hardware quickly and easily.</p>
+<p>Compatible with the <strong>Proxmark 3 RDV4 &amp; 4.01</strong>, and the <strong>ChameleonMini RevE &amp; RevG</strong> - all headers and pins are in place for painless, solder free flashing.</p>
+<p>There multi-tool has inputs for two programmers, the <strong>AVR ISPmII </strong>(used for flashing the Chameleon) and the <strong>Segger J-LINK</strong> (used for flashing the Proxmark).</p>
+<p>Please note, the programmers themselves are sold separately.</p>
+<h2><strong></strong></h2>
+<div class="grid">
+<div class="grid-item small--one-fifth medium--one-fifth large--one-fifth text-center"></div>
+</div>
+<div class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x Lab401 Flashing Multi-tool</li>
+</ul>
+<h2><strong>Compatible Products<br></strong></h2>
+<ul>
+<li><a href="/collections/rfid-tools/products/proxmark-3-rdv4?lshst=collection">Proxmark 3</a></li>
+<li>
+ChameleonMini &amp; ChameleonTiny
+</li>
+</ul>
+<h2><strong>Supported Accessories<br></strong></h2>
+<ul>
+<li>Segger J-LINK</li>
+<li>AVR ISPmII</li>
+</ul>
+<ul></ul>
+<h2><strong>Shipping &amp; Packaging</strong></h2>
+<ul>
+<li>Each item is dispatched from <strong>Europe</strong> - no need to worry about slow shipping times, import duties or damaged goods.</li>
+<li>Packed in sturdy packaging.</li>
+<li>We provide worldwide shipping with express options.</li>
+</ul>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong></strong></h2>
+</div>
+</div>
+<h2>Proxmark 3 &amp; Chameleon Mini Flashing Tool Unboxing</h2>
+<figure><video lite-youtube="" videoid="6oy48vXBhjQ" posterquality="maxresdefault" params="rel=0"></video></figure></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>avrisp</s:tag>
+    <s:tag>chameleon</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>flashing</s:tag>
+    <s:tag>jlink</s:tag>
+    <s:tag>proxmark</s:tag>
+    <s:tag>Proxmark 3 RDV4</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>segger</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/1385032024175</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">29.99</s:price>
+      <s:sku>MULTI-FLASH-ADAPTOR</s:sku>
+      <s:grams>9</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/4406810935407</id>
+    <published>2022-06-20T15:00:26+02:00</published>
+    <updated>2022-06-20T15:00:26+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/pocket-usb-power-supply"/>
+    <title>Pocket USB Power Supply</title>
+    <s:type>Tools</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/USB-Power-Supply---2.png?v=1585665934"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>Tools<br>
+        <strong>Price: </strong>
+            19.99
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2><strong>Introduction</strong></h2>
+<p>The Lab401 Pocket USB Power Supply is an invaluable device for every hacker's toolkit. Forget fumbling with level convertors every time you're looking to power your microcontroller, or digging through 'that' box of adaptors when you need 12 volts.<br></p>
+<p>Not everyone has the luxury of a fully equipped lab - and when we're in the field, size matters. The Pocket USB Power Supply takes in 4 - 30V via USB-C, USB-A, MicroUSB (and even terminals..) and supplies 0 - 30V at 0 - 2A.</p>
+<p>It has an adjustment resolution of 0.01V and 0.001A (1mA) - allowing for precise control of almost any device hackers and pentesters need to use.</p>
+<p>Inexpensive, compact and tested by Lab401 as a <strong>must-have</strong> device.</p>
+<h2><strong>Functionality in a glance</strong></h2>
+<p>Below is a non-exhaustive overview of the Pocket USB Power Supply.</p>
+<div class="grid" style="margin-top: 2em; margin-bottom: 2em;">
+<div class="grid-item small--one-third medium--one-third large--one-third text-center">
+<h2>Compact</h2>
+<p>Slips into your pocket, and replaces all your power supplies.<br></p>
+</div>
+<div class="grid-item small--one-third medium--one-third large--one-third text-center">
+<h2>Invaluable</h2>
+<p>0 - 30V range practically every hardware device pentesters own. <br></p>
+</div>
+<div class="grid-item small--one-third medium--one-third large--one-third text-center">
+<h2>Reliable</h2>
+<p>Overpower protection &amp; configuration memory. Lab401 tested to be precise.<br></p>
+</div>
+</div>
+<div class="grid">
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>Technical Specs</strong></h2>
+<strong>Key Features</strong><br>
+<ul>
+<li>Input: 0 - 13V up to 4A<br>
+</li>
+<li>Output: 0 - 30V up to 15W<br>
+</li>
+<li>Voltage Control: 0.01V increments</li>
+<li>Current Control: 0.001A increments<br>
+</li>
+<li>Input Interfaces: USB-C, USB-A, MicroUSB, Terminal</li>
+<li>Output Interfaces: Terminal, USB-A<br>
+</li>
+<li>Built in protection: Over-power, temperature, flow-back<br>
+</li>
+</ul>
+<h2><strong>Compatibility</strong></h2>
+<strong>Compatible with:</strong>
+<ul>
+<li><span>Input: QuickCharge, FastCharge</span></li>
+<li>Input: Standard USB devices (External Battery, USB Charger, Laptop, etc)<br><br>
+</li>
+</ul>
+</div>
+<div class="grid-item small--one-half medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<strong>Hardware</strong>
+<ul>
+<li>1x Pocket USB Power Supply<br>
+</li>
+</ul>
+</div>
+</div>
+<h2 style="margin-top: 2em;">Hands on with the Pocket USB Power Supply<br>
+</h2>
+<p>In this episode, we get hands on with the Pocket USB Power Supply and the EMUTAG, a Mifare Ultralight Emulator. The EMUTAG has a fairly obtuse battery and power requirements, so we're using the USB Pocket Power Supply to get the device powered up.<br><br>We go over the product basics, including input and output types, configuration of the device, and ultimately - how to do something useful with it.</p>
+<figure><video lite-youtube="" videoid="7C9bRzjlfXM" posterquality="maxresdefault" params="rel=0"></video></figure></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>power supply</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:tag>usb</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/4406810935407</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">19.99</s:price>
+      <s:sku>USB-POWERSUPPLY</s:sku>
+      <s:grams>30</s:grams>
+    </s:variant>
+  </entry>
+</feed>

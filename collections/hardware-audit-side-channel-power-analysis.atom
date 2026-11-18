@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/collections/hardware-audit-side-channel-power-analysis.atom"/>
+  <title>Lab401</title>
+  <updated>2026-06-30T09:10:57+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/products/10465236844891</id>
+    <published>2026-06-30T09:10:57+02:00</published>
+    <updated>2026-06-30T09:10:57+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/chipwhisperer-huskyplus"/>
+    <title>ChipWhisperer - HuskyPlus</title>
+    <s:type></s:type>
+    <s:vendor>NewAE</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/HuskyPlus---Front_8e44dbc6-6afc-4871-b054-df4339506b32.png?v=1786371810"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>NewAE<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            1195.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="contentGroup">
+<p>The ChipWhisperer HuskyPlus is a hardware auditing tool for <b>side-channel power analysis and fault injection.</b></p>
+<p>Side-channel Power Analysis and Fault Injection are typically used when target devices have no open interfaces or firmware protection.</p>
+<p><b>Side-channel Power Analysis</b> involves the <b>passive capture</b> of minuscule variations in a device's power usage, which allows for statistical analysis and the recovery of cryptographic secrets.</p>
+<p><b>Fault injection</b> is an <b>active technique</b> that precisely glitches a target's voltage or clock cycle to corrupt a single instruction. A correctly timed glitch can skip a password check, force a comparison to return the wrong answer, or bypass secure boot.</p>
+<p><b>To be successful</b>, side-channel attacks and fault injection require significant capture performance, injection with nano-second precision and extensive trigger events. Without hardware capable of ultra-high speed sampling, reliable results are practically impossible.</p>
+<p><b>The solution is the HuskyPlus.</b> It is the arguably the most capable device in its class, open-sourced modules &amp; firmware, and comes with an extensive corpus of Python tooling, tutorials and reference material. These resources are complemented with extensive online training, suitable for all levels of experience.</p>
+</div>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left product-image-container">
+<img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Product-Float_b8975977-af3a-4ddb-ada1-208a3a6abeef.jpg?v=1786371770">
+<ul class="markers-list">
+<li data-y="6" data-x="22" data-feature-id="1" class="feature-marker">1</li>
+<li data-y="-2" data-x="50" data-feature-id="2" class="feature-marker">2</li>
+<li data-y="23" data-x="78" data-feature-id="3" class="feature-marker">3</li>
+<li data-y="32" data-x="44" data-feature-id="4" class="feature-marker">4</li>
+<li data-y="72" data-x="72" data-feature-id="5" class="feature-marker">5</li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left" style="text-align: start;">
+<div data-feature-id="1" class="feature-item">
+<h3>1. Nano-second capture precision</h3>
+<p>12-bit ADC sampling at 250MS/s (4 nano-seconds), locked to the target's own clock.</p>
+</div>
+<div data-feature-id="2" class="feature-item">
+<h3>2. Voltage &amp; Clock Glitching</h3>
+<p>Crowbar voltage glitches and sub-nanosecond clock glitches; repeatable bypasses and instruction skips.</p>
+</div>
+<div data-feature-id="3" class="feature-item">
+<h3>3. Exhaustive Triggers</h3>
+<p>Multiple trigger types, including advanced multi-stage trigger sequences for highly complex scenarios.</p>
+</div>
+<div data-feature-id="4" class="feature-item">
+<h3>4. Built-in Logic Analyser</h3>
+<p>65,552-sample digital capture alongside the analog trace. Visualise glitches and protocol activity in a single shot.</p>
+</div>
+<div data-feature-id="5" class="feature-item">
+<h3>5. Complete Connectivity</h3>
+<p>20-pins of accessible I/O: GPIO, Clock, Dual Serial, Trigger Inputs and Target Power. Reconfigurable as JTAG.</p>
+</div>
+</div>
+</div>
+<div class="contentGroup">
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>Device Specifications</strong></h2>
+<ul>
+<li>
+<strong>ADC:</strong> 12-bit, 250 MS/s, synchronous to target clock</li>
+<li>
+<strong>FPGA:</strong> Xilinx Artix-7 XC7A100</li>
+<li>
+<strong>ADC Buffer:</strong> 327,828 samples</li>
+<li>
+<strong>Streaming Mode:</strong> 20+ MS/s at 8-bit, unlimited capture length</li>
+<li>
+<strong>Trigger Modes:</strong>
+<ul>
+<li>Digital edge / level</li>
+<li>Analog level threshold</li>
+<li>SAD analog pattern matching</li>
+<li>UART byte match</li>
+<li>Edge counter</li>
+<li>Arm Trace (PC value, instruction match)</li>
+<li>Trigger sequencing (up to 4 stages)</li>
+</ul>
+</li>
+<li>
+<strong>Glitching:</strong>
+<ul>
+<li>Crowbar voltage glitch (two transistor sizes)</li>
+<li>Clock glitch (sub-nanosecond width)</li>
+<li>Resolution independent of target clock</li>
+</ul>
+</li>
+<li>
+<strong>Logic Analyser:</strong> 65,552-sample digital capture</li>
+<li>
+<strong>Target Programming:</strong> JTAG / SWD with FTDI-compatible mode</li>
+<li>
+<strong>Connectors:</strong> SMA (measure, glitch, trigger), SMB (trigger / clock I/O), 20-pin target ribbon, USB-C host</li>
+<li>
+<strong>Open Source:</strong> FPGA Verilog, microcontroller firmware, Python host code</li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li><strong>1x ChipWhisperer HuskyPlus</strong></li>
+<li>1x CW313 baseboard</li>
+<li>1x SAM4S target board</li>
+<li>1x iCE40 target board</li>
+<li>3x CW308 to CW312 adapters</li>
+<li>SMA cables</li>
+<li>20-pin cables</li>
+<li>20-pin connector breakout wires</li>
+<li>1x MCX to SMA adapter</li>
+<li>1x MCX to BNC adapter</li>
+<li>1x USB-C cable with USB-A adapter</li>
+<li>Jumper wires and caps</li>
+</ul>
+<h2><strong>Technical Resources<br></strong></h2>
+<ul>
+<li><a href="https://chipwhisperer.readthedocs.io/en/latest/" rel="noopener" target="_blank">ChipWhisperer Documentation</a></li>
+<li><a href="https://media.newae.com/manuals/cwhusky_cwhuskyplus_manual_may2025.pdf" rel="noopener" target="_blank">ChipWhisperer HuskyPlus User Manual</a></li>
+<li><a href="https://github.com/newaetech/chipwhisperer" rel="noopener" target="_blank">ChipWhisperer HuskyPlus GitHub</a></li>
+<li><a href="https://github.com/newaetech/chipwhisperer-husky-fpga" rel="noopener" target="_blank">Husky FPGA Source (Verilog)</a></li>
+<li><a href="https://github.com/newaetech/chipwhisperer-jupyter" rel="noopener" target="_blank">Jupyter Tutorials &amp; Labs</a></li>
+<li><a href="https://forum.newae.com/" rel="noopener" target="_blank">NewAE Support Forum</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="contentGroup">
+<h2>What is hardware hacking?</h2>
+<p>Hardware Auditing techniques can be grouped into two categories: Side-Channel Attacks (SCA) and Electro-magnetic Fault Injection (EMFI). Which technique you need depends a lot on the target device. If the chip is locked but you've got access to its power, clock and data lines - Side Channel Attacks would be possible and effective.</p>
+<p>However, if the target is protected: hardened against side-channel attacks, or its power, clock and data lines aren't exposed, or you cannot modify the device: EMFI would be the best candidate.</p>
+<p>Side-Channel attacks capture privileged data by using an unprotected or unexpected source. Imagine two people talking in a glass sound-proof room: lip-reading allows us to derive what is being said via the visual prompts - a "side-channel" - as opposed to hearing it, the "protected channel". In hardware, a common example is extracting encryption keys by monitoring micro-fluctuations in the power-consumption when the processor is calculating them.</p>
+<p>Side-Channel attacks are not necessarily passive: side-channel extraction can be induced by glitching the target device: briefly spiking power or manipulating the target's clock line can evoke unexpected behaviour, which leads to leaks. In the contect of the glass room: turning off the lights or tapping on the glass may provoke a different behavior from the people talking - they may reveal different or unexpected information.</p>
+<p>Electro-magnetic Fault Injection creates faults in a target system without touching it - by directing high-energy electro-magnetic pulses into the chip. These pulses can cause glitches and unexpected behavior. Timing glitches to match important chip processes can allow you to jump or bypass normal behavior - like password verification.</p>
+<p>There are two approaches to EMFI: using ultra-precise, ultra-sensitive devices (such as the ChipSHOUTER) to create highly accurate, repeatable experiments. The second approach is to use a simple device designed to send large electrical pulses to cause unexpected behavior.</p>
+<p>The FaultyCat wiki has extensive information on EMFI Glitching and what it can achieve - <a href="https://github.com/ElectronicCats/faultycat/wiki/1.-Understanding-Faulty-Cat#what-is-emfi-and-how-it-works" rel="noopener" target="_blank">click here for more information.</a></p>
+<h2>Hardware Audit Lifecycle</h2>
+<p>Key to understanding hardware auditing is the lifecycle. Typically - the end goal is total device control - dumping firmware, bootloaders, or getting a root shell.</p>
+<p>If your target device has no protection: you can concentrate on firmware extraction.<br>If the target is locked, you'll need to unlock it, typically via Side-Channel attacks and tools.<br>Likewise, if it's protected, you'll need to use EMFI to bypass protection, and then use Side Channel Attacks to unlock the target, before extracting firmware.</p>
+<p>The following table provides a summary of the Hardware Audit Lifecycle.</p>
+<div class="hwaudit">
+<div class="hwaudit__grid">
+<!-- ============ HARDENED ============ -->
+<div class="hwaudit__col">
+<h2 class="hwaudit__title">Hardened Devices</h2>
+<div class="hwaudit__tags">
+<div class="hwaudit__tag-row">
+<span class="hwaudit__pill hwaudit__pill--red">Restrictions</span>
+<div class="hwaudit__tag-items">
+<span>Hardened Protection</span> <span>No exposed traces</span> <span>Cannot modify hardware</span>
+</div>
+</div>
+<div class="hwaudit__tag-row">
+<span class="hwaudit__pill hwaudit__pill--blue">Approach</span>
+<div class="hwaudit__tag-items hwaudit__tag-items--bold"><span>EMFI</span></div>
+</div>
+<div class="hwaudit__tag-row">
+<span class="hwaudit__pill hwaudit__pill--blue">Tools</span>
+<div class="hwaudit__tag-items">
+<span>ChipShouter</span> <span>FaultyCat</span>
+</div>
+</div>
+</div>
+<div class="hwaudit__chip"><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Chip-Protected.png?v=1775740137" alt="Hardened chip"></div>
+<div class="hwaudit__bottom">
+<span class="hwaudit__pill hwaudit__pill--purple">Techniques</span>
+<div class="hwaudit__card">
+<div class="hwaudit__card-icon"><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/EMFI-4.png?v=1775740137" alt=""></div>
+<div class="hwaudit__card-text">
+<strong>Fault Injection</strong> <span>Non-invasive, non-destructive</span>
+</div>
+</div>
+<div class="hwaudit__card">
+<div class="hwaudit__card-icon"><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/EMFI-3.png?v=1775740137" alt=""></div>
+<div class="hwaudit__card-text">
+<strong>Bit flips, register corruption</strong> <span>Forced unexpected conditions</span>
+</div>
+</div>
+<div class="hwaudit__card">
+<div class="hwaudit__card-icon"><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/EMFI-2.png?v=1775740137" alt=""></div>
+<div class="hwaudit__card-text">
+<strong>Routine &amp; Instruction Skips</strong> <span>Glitch into unauthorised code</span>
+</div>
+</div>
+</div>
+</div>
+<!-- ============ PROTECTED ============ -->
+<div class="hwaudit__col">
+<h2 class="hwaudit__title">Protected Devices</h2>
+<div class="hwaudit__tags">
+<div class="hwaudit__tag-row">
+<span class="hwaudit__pill hwaudit__pill--red">Restrictions</span>
+<div class="hwaudit__tag-items">
+<span>No open interfaces</span> <span>Firmware protection</span>
+</div>
+</div>
+<div class="hwaudit__tag-row">
+<span class="hwaudit__pill hwaudit__pill--green">Weaknesses</span>
+<div class="hwaudit__tag-items">
+<span>Exposed power rails</span> <span>Exposed clock rails</span>
+</div>
+</div>
+<div class="hwaudit__tag-row">
+<span class="hwaudit__pill hwaudit__pill--blue">Approach</span>
+<div class="hwaudit__tag-items hwaudit__tag-items--bold"><span>Side Channel Techniques</span></div>
+</div>
+<div class="hwaudit__tag-row">
+<span class="hwaudit__pill hwaudit__pill--blue">Tools</span>
+<div class="hwaudit__tag-items"><span>ChipWhisperer HuskyPlus</span></div>
+</div>
+</div>
+<div class="hwaudit__chip"><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Chip-Locked.png?v=1775740137" alt="Protected chip"></div>
+<div class="hwaudit__bottom">
+<span class="hwaudit__pill hwaudit__pill--purple">Techniques</span>
+<div class="hwaudit__card">
+<div class="hwaudit__card-icon"><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Glitch-Power-Analysis.png?v=1775740137" alt=""></div>
+<div class="hwaudit__card-text">
+<strong>Power Analysis</strong> <span>For key + secrets extraction</span>
+</div>
+</div>
+<div class="hwaudit__card">
+<div class="hwaudit__card-icon"><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Glitch-Power.png?v=1775740137" alt=""></div>
+<div class="hwaudit__card-text">
+<strong>Power Glitching</strong> <span>Bypass protection routines</span>
+</div>
+</div>
+<div class="hwaudit__card">
+<div class="hwaudit__card-icon"><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Glitch-Clock.png?v=1775740137" alt=""></div>
+<div class="hwaudit__card-text">
+<strong>Clock Glitching</strong> <span>Bypass protection routines</span>
+</div>
+</div>
+</div>
+</div>
+<!-- ============ UNPROTECTED ============ -->
+<div class="hwaudit__col">
+<h2 class="hwaudit__title">Unprotected Devices</h2>
+<div class="hwaudit__tags">
+<div class="hwaudit__tag-row">
+<span class="hwaudit__pill hwaudit__pill--red">Restrictions</span>
+<div class="hwaudit__tag-items">
+<span>Unlabeled interfaces</span> <span>Undocumented chip</span>
+</div>
+</div>
+<div class="hwaudit__tag-row">
+<span class="hwaudit__pill hwaudit__pill--green">Weaknesses</span>
+<div class="hwaudit__tag-items"><span>Security through obscurity</span></div>
+</div>
+<div class="hwaudit__tag-row">
+<span class="hwaudit__pill hwaudit__pill--blue">Approach</span>
+<div class="hwaudit__tag-items hwaudit__tag-items--bold">
+<span>Pin Enumeration</span><br><span>Firmware Extraction</span>
+</div>
+</div>
+<div class="hwaudit__tag-row">
+<span class="hwaudit__pill hwaudit__pill--blue">Tools</span>
+<div class="hwaudit__tag-items">
+<span>WHIDBoard</span> <span>MACOBox</span> <span>BusPirate</span>
+</div>
+</div>
+</div>
+<div class="hwaudit__chip"><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Chip-Unprotected.png?v=1775740137" alt="Unprotected chip"></div>
+<div class="hwaudit__bottom">
+<span class="hwaudit__pill hwaudit__pill--purple">Techniques</span>
+<div class="hwaudit__card">
+<div class="hwaudit__card-icon"><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/HW-Pin-Enumeration.png?v=1775740137" alt=""></div>
+<div class="hwaudit__card-text">
+<strong>Pin Enumeration</strong> <span>Automatically detect lines</span>
+</div>
+</div>
+<div class="hwaudit__card">
+<div class="hwaudit__card-icon"><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/HW-Logic.png?v=1775740137" alt=""></div>
+<div class="hwaudit__card-text">
+<strong>Logic Analyser</strong> <span>Convert captures to data</span>
+</div>
+</div>
+<div class="hwaudit__card">
+<div class="hwaudit__card-icon"><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/HW-Multi-Interface.png?v=1775740137" alt=""></div>
+<div class="hwaudit__card-text">
+<strong>Multi Protocol Support</strong> <span>Connect with any interface</span>
+</div>
+</div>
+<div class="hwaudit__card">
+<div class="hwaudit__card-icon"><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/HW-BaudDetection.png?v=1775740137" alt=""></div>
+<div class="hwaudit__card-text">
+<strong>Auto Speed Detection</strong> <span>Automatically detect speeds</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<h3>ChipWhisperer Husky: Hands on</h3>
+<p>Get hands on with the ChipWhisperer Husky: Sniff Side-Channels, Insert Glitches, Extract Secrets.</p>
+<figure style="margin-top: 1em;">
+   <video lite-youtube="" videoid="YizRvmxDsZk" posterquality="maxresdefault" params="rel=0">
+   </video>
+</figure>  
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10465236844891</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">1195.00</s:price>
+      <s:sku>NAE-CWHUSKYPLUS</s:sku>
+      <s:grams>250</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/10349796720987</id>
+    <published>2026-04-02T00:54:11+02:00</published>
+    <updated>2026-04-02T00:54:11+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/faultycat"/>
+    <title>Faulty Cat</title>
+    <s:type></s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/FaultyCat---Top.png?v=1775066561"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            165.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="contentGroup">
+<p><strong>The FaultyCat is the "bump key" of hardware auditing. </strong>It sends high-energy electro-magnetic pulses into target devices, which can cause them to glitch. often revealing encryption keys, bypassing security checks or resetting protection mechanisms.</p>
+<p>When starting a hardware audit - the FaultyCat should be the<strong> first tool you reach for</strong>: it can be used to quickly check if the target device is protected, and if not, glitch it to reveal secrets or bypass protection.</p>
+<p>Built on the foundations on an open-source product (the PicoEMP) - the FaultyCat has extra functionality, but remains economical, easy-to-use and safe. <b>Version 2.2</b> adds extended functionality.</p>
+<p>It's portable and self-contained - it's powered by 3xAA batteries - so you're never caught short.<br>The onboard RapsberryPi controller is fully accessible and programmable by the user for custom functionality.</p>
+</div>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left product-image-container">
+<img src="https://cdn.shopify.com/s/files/1/2175/8571/files/FaultyCat---Feature---2.png?v=1775083081">
+<ul class="markers-list">
+<li data-y="5" data-x="64" data-feature-id="1" class="feature-marker">1</li>
+<li data-y="30" data-x="34" data-feature-id="2" class="feature-marker">2</li>
+<li data-y="41" data-x="38" data-feature-id="3" class="feature-marker">3</li>
+<li data-y="21" data-x="31" data-feature-id="4" class="feature-marker">4</li>
+<li data-y="14" data-x="28" data-feature-id="5" class="feature-marker">5</li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left" style="text-align: start;">
+<div data-feature-id="1" class="feature-item">
+<h3>1. Direct Voltage glitching</h3>
+<p>Precisely glitch and spike signals such as reset or voltage to manipulate the target system</p>
+</div>
+<div data-feature-id="2" class="feature-item">
+<h3>2. External Triggers</h3>
+<p>Trigger the FaultyCat manually or electronically device via dedicated pins. Use external triggers such as timers or sensors.</p>
+</div>
+<div data-feature-id="3" class="feature-item">
+<h3>3. Voltage Triggers</h3>
+<p>Monitor the target's voltage levels and trigger at glitch at preset voltage levels. Allows for triggering glitches during critical phases, such as device boot.</p>
+</div>
+<div data-feature-id="4" class="feature-item">
+<h3>4. Analog Input</h3>
+<p>Monitor and log analog data from the target; build a knowledge-base of actions and responses to make repeatable operations.</p>
+</div>
+<div data-feature-id="5" class="feature-item">
+<h3>5. JTAG/JWD Scanner</h3>
+<p>Built-in JTAG/JWD Scanner finds and detects hidden JTAG/JWD pads to find undocumented debug interfaces.</p>
+</div>
+</div>
+</div>
+<div class="grid">
+<div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li><strong>1x FaultyCat 2.2</strong></li>
+<li>1x Inductor Tip</li>
+<li>1x USB-C Cable</li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+<h2><strong>Technical Resources<br></strong></h2>
+<ul>
+<li><a href="https://github.com/ElectronicCats/faultycat/wiki" rel="noopener" target="_blank">User Manual / Wiki</a></li>
+<li><a href="https://github.com/ElectronicCats/faultycat?tab=readme-ov-file" rel="noopener" target="_blank">GitHub Repository</a></li>
+<li><a href="https://physicalexploit.com/docs/products/code/assistant" rel="noopener" target="_blank">Doppelgänger Assistant Documentation and Configuration</a></li>
+<li><a href="https://physicalexploit.com/docs/products/code/flashing_firmware" rel="noopener" target="_blank">Firmware &amp; Flashing Documentation</a></li>
+</ul>
+</div>
+</div>
+<div class="contentGroup">
+<h2>What is hardware hacking?</h2>
+<p>Hardware Auditing techniques can be grouped into two categories: Side-Channel Attacks (SCA) and Electro-magnetic Fault Injection (EMFI). Which technique you need depends a lot on the target device. If the chip is locked but you've got access to its power, clock and data lines - Side Channel Attacks would be possible and effective.</p>
+<p>However, if the target is protected: hardened against side-channel attacks, or its power, clock and data lines aren't exposed, or you cannot modify the device: EMFI would be the best candidate.</p>
+<p>Side-Channel attacks capture privileged data by using an unprotected or unexpected source. Imagine two people talking in a glass sound-proof room: lip-reading allows us to derive what is being said via the visual prompts - a "side-channel" - as opposed to hearing it, the "protected channel". In hardware, a common example is extracting encryption keys by monitoring micro-fluctuations in the power-consumption when the processor is calculating them.</p>
+<p>Side-Channel attacks are not necessarily passive: side-channel extraction can be induced by glitching the target device: briefly spiking power or manipulating the target's clock line can evoke unexpected behaviour, which leads to leaks. In the contect of the glass room: turning off the lights or tapping on the glass may provoke a different behavior from the people talking - they may reveal different or unexpected information.</p>
+<p>Electro-magnetic Fault Injection creates faults in a target system without touching it - by directing high-energy electro-magnetic pulses into the chip. These pulses can cause glitches and unexpected behavior. Timing glitches to match important chip processes can allow you to jump or bypass normal behavior - like password verification.</p>
+<p>There are two approaches to EMFI: using ultra-precise, ultra-sensitive devices (such as the ChipSHOUTER) to create highly accurate, repeatable experiments. The second approach is to use a simple device designed to send large electrical pulses to cause unexpected behavior.</p>
+<p>The FaultyCat wiki has extensive information on EMFI Glitching and what it can achieve - <a href="https://github.com/ElectronicCats/faultycat/wiki/1.-Understanding-Faulty-Cat#what-is-emfi-and-how-it-works" rel="noopener" target="_blank">click here for more information.</a></p>
+<h2>Hardware Audit Lifecycle</h2>
+<p>Key to understanding hardware auditing is the lifecycle. Typically - the end goal is total device control - dumping firmware, bootloaders, or getting a root shell.</p>
+<p>If your target device has no protection: you can concentrate on firmware extraction.<br>If the target is locked, you'll need to unlock it, typically via Side-Channel attacks and tools.<br>Likewise, if it's protected, you'll need to use EMFI to bypass protection, and then use Side Channel Attacks to unlock the target, before extracting firmware.</p>
+<p>The following table provides a summary of the Hardware Audit Lifecycle.</p>
+<div class="hwaudit">
+  <div class="hwaudit__grid">
+    <!-- ============ HARDENED ============ -->
+    <div class="hwaudit__col">
+      <h2 class="hwaudit__title">Hardened Devices</h2>
+      <div class="hwaudit__tags">
+        <div class="hwaudit__tag-row">
+          <span class="hwaudit__pill hwaudit__pill--red">Restrictions</span>
+          <div class="hwaudit__tag-items">
+            <span>Hardened Protection</span>
+            <span>No exposed traces</span>
+            <span>Cannot modify hardware</span>
+          </div>
+        </div>
+        <div class="hwaudit__tag-row">
+          <span class="hwaudit__pill hwaudit__pill--blue">Approach</span>
+          <div class="hwaudit__tag-items hwaudit__tag-items--bold">
+            <span>EMFI</span>
+          </div>
+        </div>
+        <div class="hwaudit__tag-row">
+          <span class="hwaudit__pill hwaudit__pill--blue">Tools</span>
+          <div class="hwaudit__tag-items">
+            <span>ChipShouter</span>
+            <span>FaultyCat</span>
+          </div>
+        </div>
+      </div>
+      <div class="hwaudit__chip">
+        <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Chip-Protected.png?v=1775740137" alt="Hardened chip">
+      </div>
+      <div class="hwaudit__bottom">
+        <span class="hwaudit__pill hwaudit__pill--purple">Techniques</span>
+        <div class="hwaudit__card">
+          <div class="hwaudit__card-icon"><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/EMFI-4.png?v=1775740137" alt=""></div>
+          <div class="hwaudit__card-text">
+            <strong>Fault Injection</strong>
+            <span>Non-invasive, non-destructive</span>
+          </div>
+        </div>
+        <div class="hwaudit__card">
+          <div class="hwaudit__card-icon"><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/EMFI-3.png?v=1775740137" alt=""></div>
+          <div class="hwaudit__card-text">
+            <strong>Bit flips, register corruption</strong>
+            <span>Forced unexpected conditions</span>
+          </div>
+        </div>
+        <div class="hwaudit__card">
+          <div class="hwaudit__card-icon"><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/EMFI-2.png?v=1775740137" alt=""></div>
+          <div class="hwaudit__card-text">
+            <strong>Routine &amp; Instruction Skips</strong>
+            <span>Glitch into unauthorised code</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ============ PROTECTED ============ -->
+    <div class="hwaudit__col">
+      <h2 class="hwaudit__title">Protected Devices</h2>
+      <div class="hwaudit__tags">
+        <div class="hwaudit__tag-row">
+          <span class="hwaudit__pill hwaudit__pill--red">Restrictions</span>
+          <div class="hwaudit__tag-items">
+            <span>No open interfaces</span>
+            <span>Firmware protection</span>
+          </div>
+        </div>
+        <div class="hwaudit__tag-row">
+          <span class="hwaudit__pill hwaudit__pill--green">Weaknesses</span>
+          <div class="hwaudit__tag-items">
+            <span>Exposed power rails</span>
+            <span>Exposed clock rails</span>
+          </div>
+        </div>
+        <div class="hwaudit__tag-row">
+          <span class="hwaudit__pill hwaudit__pill--blue">Approach</span>
+          <div class="hwaudit__tag-items hwaudit__tag-items--bold">
+            <span>Side Channel Techniques</span>
+          </div>
+        </div>
+        <div class="hwaudit__tag-row">
+          <span class="hwaudit__pill hwaudit__pill--blue">Tools</span>
+          <div class="hwaudit__tag-items">
+            <span>ChipWhisperer HuskyPlus</span>
+          </div>
+        </div>
+      </div>
+      <div class="hwaudit__chip">
+        <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Chip-Locked.png?v=1775740137" alt="Protected chip">
+      </div>
+      <div class="hwaudit__bottom">
+        <span class="hwaudit__pill hwaudit__pill--purple">Techniques</span>
+        <div class="hwaudit__card">
+          <div class="hwaudit__card-icon"><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Glitch-Power-Analysis.png?v=1775740137" alt=""></div>
+          <div class="hwaudit__card-text">
+            <strong>Power Analysis</strong>
+            <span>For key + secrets extraction</span>
+          </div>
+        </div>
+        <div class="hwaudit__card">
+          <div class="hwaudit__card-icon"><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Glitch-Power.png?v=1775740137" alt=""></div>
+          <div class="hwaudit__card-text">
+            <strong>Power Glitching</strong>
+            <span>Bypass protection routines</span>
+          </div>
+        </div>
+        <div class="hwaudit__card">
+          <div class="hwaudit__card-icon"><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Glitch-Clock.png?v=1775740137" alt=""></div>
+          <div class="hwaudit__card-text">
+            <strong>Clock Glitching</strong>
+            <span>Bypass protection routines</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ============ UNPROTECTED ============ -->
+    <div class="hwaudit__col">
+      <h2 class="hwaudit__title">Unprotected Devices</h2>
+      <div class="hwaudit__tags">
+        <div class="hwaudit__tag-row">
+          <span class="hwaudit__pill hwaudit__pill--red">Restrictions</span>
+          <div class="hwaudit__tag-items">
+            <span>Unlabeled interfaces</span>
+            <span>Undocumented chip</span>
+          </div>
+        </div>
+        <div class="hwaudit__tag-row">
+          <span class="hwaudit__pill hwaudit__pill--green">Weaknesses</span>
+          <div class="hwaudit__tag-items">
+            <span>Security through obscurity</span>
+          </div>
+        </div>
+        <div class="hwaudit__tag-row">
+          <span class="hwaudit__pill hwaudit__pill--blue">Approach</span>
+          <div class="hwaudit__tag-items hwaudit__tag-items--bold">
+            <span>Pin Enumeration</span><br>
+	    <span>Firmware Extraction</span>
+          </div>
+        </div>
+        <div class="hwaudit__tag-row">
+          <span class="hwaudit__pill hwaudit__pill--blue">Tools</span>
+          <div class="hwaudit__tag-items">
+            <span>WHIDBoard</span>
+            <span>MACOBox</span>
+            <span>BusPirate</span>
+          </div>
+        </div>
+      </div>
+      <div class="hwaudit__chip">
+        <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Chip-Unprotected.png?v=1775740137" alt="Unprotected chip">
+      </div>
+      <div class="hwaudit__bottom">
+        <span class="hwaudit__pill hwaudit__pill--purple">Techniques</span>
+        <div class="hwaudit__card">
+          <div class="hwaudit__card-icon"><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/HW-Pin-Enumeration.png?v=1775740137" alt=""></div>
+          <div class="hwaudit__card-text">
+            <strong>Pin Enumeration</strong>
+            <span>Automatically detect lines</span>
+          </div>
+        </div>
+        <div class="hwaudit__card">
+          <div class="hwaudit__card-icon"><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/HW-Logic.png?v=1775740137" alt=""></div>
+          <div class="hwaudit__card-text">
+            <strong>Logic Analyser</strong>
+            <span>Convert captures to data</span>
+          </div>
+        </div>
+        <div class="hwaudit__card">
+          <div class="hwaudit__card-icon"><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/HW-Multi-Interface.png?v=1775740137" alt=""></div>
+          <div class="hwaudit__card-text">
+            <strong>Multi Protocol Support</strong>
+            <span>Connect with any interface</span>
+          </div>
+        </div>
+        <div class="hwaudit__card">
+          <div class="hwaudit__card-icon"><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/HW-BaudDetection.png?v=1775740137" alt=""></div>
+          <div class="hwaudit__card-text">
+            <strong>Auto Speed Detection</strong>
+            <span>Automatically detect speeds</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<h3>Case Study: Hacking an automotive ECU</h3>
+<p>In depth, hands-on presentation using FaultyCat-type product to glitch secrets from an automotive controller circuit.</p>
+  <figure style="margin-top: 1em;">
+   <video lite-youtube="" videoid="0tkdst3JE0g" posterquality="maxresdefault" params="rel=0">
+           <img slot="image" src="https://cdn.shopify.com/s/files/1/2175/8571/files/YT-Thumb.png?v=1775081615">
+   </video>
+</figure>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://lab401.com/products/10349796720987</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">165.00</s:price>
+      <s:sku>EC-FAULTYCAT</s:sku>
+      <s:grams>200</s:grams>
+    </s:variant>
+  </entry>
+</feed>

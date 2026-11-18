@@ -1,0 +1,1889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/collections/flipper-zero.atom"/>
+  <title>Lab401</title>
+  <updated>2026-05-15T18:42:55+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/products/10412249776475</id>
+    <published>2026-05-15T18:42:55+02:00</published>
+    <updated>2026-05-15T18:42:55+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/lab401-microsd-card-for-flipper-zero"/>
+    <title>Lab401 microSD Card for Flipper Zero</title>
+    <s:type></s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Lab401-8GB-MicroSD.png?v=1778863349"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            15.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Expand the on-board storage of your Flipper Zero up to 8GB.</p>
+<p>By plugging in a microSD Card, firmware updates, RFID tags, remote-control databases, payloads and scripts can all be stocked without having to juggle for memory like it was 1995.</p>
+<p><strong>Important note:</strong> The Flipper Zero uses the SPI-interface on microSD cards, not the standard SDIO interface. As a result, many off-brand / grey market / cheap SD cards will not work, or not work reliably with the device.</p>
+<p>This microSD brand and model were tested by Lab401 and are directly sourced from the supplier and comes with a <span style="text-decoration: underline;">lifetime warranty.</span><br></p>
+<p><strong>Please note: </strong>This microSD card is included by default in the <a href="/products/flipper-zero">Flipper Zero Standard</a> and <a href="/products/flipper-zero">Flipper Zero Complete Packs!</a><br></p>
+<div class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3><strong>Technical Specifications<br></strong></h3>
+<ul>
+<li>Size: 11 mm x 15 mm x 1 mm<br>
+</li>
+<li>Format: FAT32 (8 GB)<br>
+</li>
+<li>Performance (SDIO): 100MB/s Read, UHS-I Speed Class, U1, V10 (8GB) </li>
+<li>Warranty: Lifetime<br>
+</li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3><strong>Technical Resources<br></strong></h3>
+<ul>
+<li><a href="https://docs.flipper.net/zero/basics/sd-card" target="_blank">Official Flipper Zero MicroSD Card FAQ</a></li>
+</ul>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Flipper</s:tag>
+    <s:tag>Flipper Zero</s:tag>
+    <s:tag>FlipperZero</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10412249776475</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">15.00</s:price>
+      <s:sku>LAB401-SD-8GB</s:sku>
+      <s:grams>12</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/10417621533019</id>
+    <published>2026-05-05T21:27:05+02:00</published>
+    <updated>2026-05-05T21:27:05+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/masta-blasta-ir-blaster"/>
+    <title>MastaBlasta - IR Blaster</title>
+    <s:type></s:type>
+    <s:vendor>Rabbit-Labs</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Rabbit-Labs---MASTA-BLASTA---Top.png?v=1775483512"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Rabbit-Labs<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            52.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>The Masta-Blasta transforms your Flipper Zero into a powerful infrared projector. With 12 high-power long-throw LEDs on board, the Masta-Blasta performs <strong>orders of magnitude better than Flipper's inbuilt infrared LED.</strong></p>
+<p>The Masta-Blasta has been optimised as a <b>long throw</b> projector: it's built to send IR a very, very long way in concentrated beam. This allows you target specific devices from previously impossible distances.</p>
+<p><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Throw-Difference.jpg?v=1775504231" alt=""></p>
+<p>If you need <strong>wide-area IR coverage</strong>, check out the "<a href="/products/slim-shady-ir-blaster" target="_blank" rel="noopener"><strong>Slim Shady</strong></a>" - which features the same high-power LED arrays, but optimised for wide-angle "flood" - giving you absolute coverage in a space, and increasing the chances of "lucky reflections" - to help you hit hard-to-reach devices, or multiple devices at once.</p>
+<div class="contentDiv" style="margin-top: 2em">
+<h2>Using the Masta Blasta:</h2>
+<p>To enable external IR devices, you need to enable external Infrared Devices on your Flipper Zero</p>
+<div class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>1) Enable External IR devices</h3>
+Navigate to <b>Infrared &gt; GPIO Settings &gt; Signal Output</b> and toggle to "Detect"<br><br>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>2) Enable 5V GPIO</h3>
+Confirm that <b>"5V on GPIO"</b> is set to <b>"Auto"</b>
+</div>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10417621533019</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">52.00</s:price>
+      <s:sku>RL-MASTA-BLASTA</s:sku>
+      <s:grams>50</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/10417628414299</id>
+    <published>2026-04-22T08:57:29+02:00</published>
+    <updated>2026-04-22T08:57:29+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/slim-shady-ir-blaster"/>
+    <title>Slim Shady - IR Blaster</title>
+    <s:type></s:type>
+    <s:vendor>Rabbit-Labs</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Slim-Shady---Top.png?v=1775507141"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Rabbit-Labs<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            68.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>The "Slim Shady" transforms your Flipper Zero into a powerful infrared wide-angle blaster. With 12 high-power wide-angle LEDs on board, the Masta-Blasta performs <strong>orders of magnitude better than Flipper's inbuilt infrared LED.</strong></p>
+<p>The Masta-Blasta has been <strong>optimised for wide-angle "flooding"</strong> - giving you absolute coverage in a space, and increasing the chances of "lucky reflections" - to help you hit hard-to-reach devices, or multiple devices at once.</p>
+<p><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Throw-Difference.jpg?v=1775504231" alt=""></p>
+<p>If you need <strong>wide-area IR coverage</strong>, check out the "<a rel="noopener" href="/products/masta-blasta-ir-blaster" target="_blank"><strong>Masta Blasta</strong></a>" - which features the same high-power LED arrays, but <strong>optimised for long-distances:</strong> it's built to send IR a very, very long way in concentrated beam. This allows you target specific devices from previously impossible distances.</p>
+<div class="contentDiv" style="margin-top: 2em">
+<h2>Using the Slim Shady:</h2>
+<p>To enable external IR devices, you need to enable external Infrared Devices on your Flipper Zero</p>
+<div class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>1) Enable External IR devices</h3>
+Navigate to <b>Infrared &gt; GPIO Settings &gt; Signal Output</b> and toggle to "Detect"<br><br>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>2) Enable 5V GPIO</h3>
+Confirm that <b>"5V on GPIO"</b> is set to <b>"Auto"</b>
+</div>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10417628414299</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">68.00</s:price>
+      <s:sku>RL-SLIM-SHADY</s:sku>
+      <s:grams>50</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/10323653067099</id>
+    <published>2026-03-13T11:54:59+01:00</published>
+    <updated>2026-03-13T11:54:59+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/lab401-hardshell-for-flipper-zero"/>
+    <title>Lab401 HardShell for Flipper Zero</title>
+    <s:type></s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/HardShell---Production---1---Closed.png?v=1769624410"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            29.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2><b>Meet the Real Flipper Killers</b></h2>
+<p>Accidental <b>drops</b>, unstable <b>over-sized accessories</b>, over-used, loose and <b>damaged GPIO sockets</b> and <b>blown internal fuses</b>: These are the real Flipper Zero killers. Each one <b>will kill your Flipper</b> or leave it crippled. They're the most common causes for damaged or failing devices - if it hasn't already happened to you - it's just a matter of time. </p>
+<div class="hardshell-widget">
+   <div class="hw-text-area" id="hwTextArea">
+      <div class="hw-slide" data-slide="0">
+         <h2 class="hw-heading">Over-sized <b>Accessories</b>
+</h2>
+         <p class="hw-description">Large accessories flexing causes stress and can break pins and the Flipper's GPIO sockets.</p>
+      </div>
+      <div class="hw-slide" data-slide="1">
+         <h2 class="hw-heading">Damaged <b>GPIO Sockets</b>
+</h2>
+         <p class="hw-description">Loose and broken GPIO sockets mean accessories are unstable, fall out, or cause crashes.</p>
+      </div>
+      <div class="hw-slide" data-slide="2">
+         <h2 class="hw-heading">Blown <b>Fuse</b>
+</h2>
+         <p class="hw-description">Flipper's fuse is easy to blow but impossible to repair easily. A blown fuse means no accessories - Flipper is crippled.</p>
+      </div>
+      <div class="hw-slide" data-slide="3">
+         <h2 class="hw-heading">Dropped <b>Devices</b>
+</h2>
+         <p class="hw-description">Drops, shocks and bumps - all can kill your Flipper. Silicone covers aren't enough - you need a hard shell.</p>
+      </div>
+   </div>
+   <div class="hw-images-area">
+      <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/1---Heavy.png?v=1773241066" alt="Heavy accessory on Flipper" data-index="0">
+      <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/2---Bending.png?v=1773241067" alt="Bent accessory on Flipper" data-index="1">
+      <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/3---Fuse.png?v=1773241067" alt="Blown fuse on Flipper" data-index="2">
+      <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/4---Fall.png?v=1773241067" alt="Dropped Flipper" data-index="3">
+   </div>
+</div>
+<h2><b>The solution: The Lab401 HardShell</b></h2>
+<p style="position: relative; z-index: 20">One product can protect your Flipper completely: the <b>Lab401 HardShell.</b> It's a battle-ready shell system with <b>three layers of protection</b> to reinforce your Flipper - inside and out. It only takes seconds to install, doesn't require any soldering or modification.</p>
+<p style="margin-top: -50px; margin-bottom: -110px">
+   <video autoplay="autoplay" loop="loop" muted="" style="max-width: 100%;">
+      <source src="https://cdn.shopify.com/videos/c/o/v/ab9eaf4d54c44805b992c89f3a6a10d8.mp4" type="video/mp4"></video>
+</p>
+<div class="grid" style="margin-top: 2em; position: relative; z-index: 20">
+   <div class="grid-item small--one-whole medium--one-whole large--one-third text-left">
+      <h3>BATTLE-READY ABS CASE</h3>
+      <p><b>Protection Layer One</b>: Drop &amp; Shock resistant three-part moulded ABS case, secured with stainless steel bolts.</p>
+   </div>
+   <div class="grid-item small--one-whole medium--one-whole large--one-third text-left">
+      <h3>REPLACEABLE GPIO BOARDS</h3>
+      <p><b>Protection Layer Two</b>: Swappable GPIO Boards. Protects your Flipper's GPIO sockets and internal fuse. Three included.</p>
+   </div>
+   <div class="grid-item small--one-whole medium--one-whole large--one-third text-left">
+      <h3>SILICONE SHOULDER PADS</h3>
+      <p><b>Protection Layer Three</b>: Silicone Shoulder pads prevent large accessories from flexing and damaging your device.</p>
+   </div>
+</div>
+<div style="margin-top: 2em;">
+   <h2><b>SEE THE HARDSHELL IN REAL-WORLD TESTS</b></h2>
+   <p>The HardShell was built to solve real-world, day-to-day problems that many customers face: GPIO degradation, blown fuses, unstable accessories and physical damage. Check out our <b>real-world test video</b> below, and see why <b>your Flipper deserves the HardShell.</b></p>
+</div>
+<figure style="margin-top: 1em;">
+   <video lite-youtube="" videoid="GPNJsUj4vy0" posterquality="maxresdefault" params="rel=0">
+      <img slot="image" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Product-Page---YT-Thumb---3_x1200.png?v=1770725136">
+   </video>
+</figure>
+<style>
+   .feature-item { margin-bottom: 1.5em }
+</style>
+<h2><b>HOW THE HARDSHELL WORKS</b></h2>
+<p>The HardShell has three layers of protection - each layer is engineered with precision and a protects a specific part of your Flipper or its accessories.</p>
+<div class="grid" style="margin-top: 3em;">
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left product-image-container">
+      <img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/HardShell---Parts-Zoom.png?v=1769624248">
+      <ul class="markers-list">
+         <li data-y="0" data-x="28" data-feature-id="1" class="feature-marker">1</li>
+         <li data-y="12" data-x="46.2" data-feature-id="2" class="feature-marker">2</li>
+         <li data-y="25" data-x="75" data-feature-id="3" class="feature-marker">3</li>
+         <li data-y="41" data-x="82" data-feature-id="4" class="feature-marker">4</li>
+      </ul>
+   </div>
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left" style="text-align: start;">
+      <div data-feature-id="1" class="feature-item">
+         <h3>1. SILICONE SHOULDER PADS</h3>
+         Give your larger accessories a shoulder to lean on, without falling out, bending pins or stressing sockets.
+      </div>
+      <div data-feature-id="2" class="feature-item">
+         <h3>2. REINFORCED GPIO SOCKET</h3>
+         Incredibly rugged GPIO socket reinforcement, built to last years of abuse / oversized accessories.
+      </div>
+      <div data-feature-id="3" class="feature-item">
+         <h3>3. SWAPPABLE, FUSED GPIO BOARDS</h3>
+         Replaceable GPIO boards transform your Flipper from useful to industrial. Blow a fuse or break a pin: simply swap in a new board. (Three are included!)
+      </div>
+      <div data-feature-id="4" class="feature-item">
+         <h3>4. BUILT TO <s>IMPRESS</s> LAST</h3>
+         The HardShell looks and feels great. Highest quality design, manufacturing and materials mean that it will probably outlast your Flipper!
+      </div>
+   </div>
+</div>
+<div class="grid">
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+      <h2><strong>OVER-ENGINEERED WITH LOVE</strong></h2>
+      <p>The Flipper was never built to handle giant "everything-plus-a-goat" accessories - which strain the GPIO and push the power-supply to breaking point. The HardShell solves these problems - and solves them in style!</p>
+      <p>Featuring reinforced injection-molded ABS, internal clasps for structural integrity and stainless steel bolts - it's the perfect combination of functionality, protection, style (and a sprinkling of mad-scientist for good measure..)</p>
+   </div>
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left"><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/HardShell---Assembled---Angle.png?v=1769624196" style="margin-bottom: -6em;"></div>
+</div>
+<div class="grid">
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left"><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Fuse-PCB.png?v=1769624196" style="margin-bottom: -1em;"></div>
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+      <h2><strong>REAL PROTECTION, INSIDE AND OUT</strong></h2>
+      <p>Blowing Flipper's internal fuse means open-heart surgery and soldering SMD components on your Flipper's motherboard.</p>
+      <p>The HardShell's comes with fused GPIO boards (5v and 3.3v) that are calibrated to blow before your Flipper's fuses.</p>
+      <p>Blow a fuse? Swap out the PCB and you're back in business!</p>
+   </div>
+</div>
+<div class="grid">
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+      <h2><strong>BUILT FOR TODAY'S ACCESSORIES</strong></h2>
+      <p>Flipper accessories have become large and heavy - which rapidly degrades the Flipper's internal GPIO sockets.</p>
+      <p>The most critical parts of the Flipper and accessory - the GPIO pins - become a dangerous pivot point.</p>
+      <p>The HardShell's included (and removable) Silicone Shoulders support your larger accessories to improve support.</p>
+   </div>
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left"><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/HardShell---Zoom---Bumper---AWOK.png?v=1769624196" style="margin-bottom: -5em;"></div>
+</div>
+<h2>BUILT FOR YOU</h2>
+<p>Whether you're using your Flipper on professional engagements, or enjoy modding your device - the Lab401 HardShell is for you. It adds much needed protection, adds new functionality, and looks good at the same time!</p>
+<p><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Boxes---horizontal.jpg?v=1769624196"></p>
+<div style="margin-top: 2em;" class="grid">
+   <div class="grid-item small--one-whole medium--one-whole large--one-half text-left">
+      <h2><strong>What's included</strong></h2>
+      <ul>
+         <li>Lab401 HardShell (3 parts)</li>
+         <li>2x non-fused GPIO Replacement boards</li>
+         <li>1x fused GPIO Replacement board</li>
+         <li>1x Double Silicone Shoulder</li>
+         <li>1x Short Silicone Shoulder</li>
+         <li>Screws + Tools for assembly</li>
+      </ul>
+   </div>
+</div>
+</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Flipper Zero</s:tag>
+    <s:tag>Flipper Zero Accessory</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10323653067099</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">29.95</s:price>
+      <s:sku>LAB401-FLP-HARDSHELL-PACK</s:sku>
+      <s:grams>150</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/10315424399707</id>
+    <published>2026-02-20T12:10:52+01:00</published>
+    <updated>2026-02-20T12:10:52+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/kiisu"/>
+    <title>KIISU - Compact Flipper alternative</title>
+    <s:type></s:type>
+    <s:vendor>KIISU</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/KIISU---PCB---Ready---Logo.png?v=1769779088"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>KIISU<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            79.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>MEET KIISU</h2>
+<p>The Flipper Zero is an <i>open-source project</i>, KIISU is a credit-card sized Flipper Zero compatible device. Everything you can do on a Flipper: NFC, RFID, SubGHz, Infrared, Bluetooth, iButton - you can do on KIISU.</p>
+<p>There's even bunch of extra sensors - temperature, light, air-pressure, accelerometer &amp; compass you can use! <br>
+Flipper Zero firmware: original and alternative run directly on the KIISU without any modification or fiddling about.</p>
+<p>Built to be more developer-friendly and hackable, it's also compact, budget-friendly and wallet sized!</p>
+<div class="grid" style="margin-top: 2em;">
+  <div class="grid-item small--one-whole medium--one-whole large--one-third text-left">
+    <h3>CREDIT CARD-SIZED &amp; CUTE</h3>
+    <p>Incredibly compact - the power of Flipper crammed into credit-card format. Slips into your wallet: ready for every moment.</p>
+  </div>
+  <div class="grid-item small--one-whole medium--one-whole large--one-third text-left">
+    <h3>100% COMPATIBLE</h3>
+    <p>Built on the Flipper Zero's Open-Source schematics - KIISU is completely compatible: hardware, firmware, functionality.</p>
+  </div>
+  <div class="grid-item small--one-whole medium--one-whole large--one-third text-left">
+    <h3>BUDGET &amp; DEV FRIENDLY</h3>
+    <p>If you're a tinkerer at heart, you'll love KIISU's open nature. If you're looking for a budget-friendly alternative KIISU is for you.</p>
+  </div>
+</div>
+<!-- main Atropos container (required), add your custom class here -->
+<div class="atropos my-atropos atropos-forced-size">
+  <!-- scale container (required) -->
+  <div class="atropos-scale">
+    <!-- rotate container (required) -->
+    <div class="atropos-rotate">
+      <!-- inner container (required) -->
+      <div class="atropos-inner">
+        <!-- put your custom content here -->
+        <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/PCB-Zoom.png?v=1769774796">
+      </div>
+    </div>
+  </div>
+</div>
+<div style="margin-top: 1em;">
+<h2>THE ORIGIN STORY</h2>
+<p>KIISU is the first fully-compatible device built from Flipper Zero's open-source schematics. Originally built as a proof-of-concept, KIISU scratches an itch for multiple people: it's budget-friendly, its naked PCB format is easier to hack and develop on, it's got a bunch of extra sensors - and its form factor means you can always have a Flipper in your pocket.</p>
+</div>
+<style>
+ .feature-item { margin-bottom: 1.5em }
+</style>
+<div class="grid" style="margin-top: 3em;">
+    <div class="grid-item small--one-whole medium--one-whole large--one-half text-left product-image-container">
+        <img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/KIISU---Perspective---Taller.jpg?v=1769775161" style="margin-bottom: -2em">
+        <ul class="markers-list">
+            <li data-y="24" data-x="18" data-feature-id="1" class="feature-marker">1</li>
+            <li data-y="16" data-x="50" data-feature-id="2" class="feature-marker">2</li>
+            <li data-y="35" data-x="90" data-feature-id="3" class="feature-marker">3</li>
+            <li data-y="52" data-x="57" data-feature-id="4" class="feature-marker">4</li>
+        </ul>
+    </div>
+    <div class="grid-item small--one-whole medium--one-half large--one-half text-left" style="text-align: start;">
+        <div data-feature-id="1" class="feature-item">
+            <h3>1. DREAM SCREEN</h3>
+            KIISU's screen is an identical resolution OLED for beautiful crisp black and white pixels.
+        </div>
+        <div data-feature-id="2" class="feature-item">
+            <h3>2. FLIPPER, BUT FLATTER</h3>
+            All hardware, firmware (original and alternative) and software (desktop, cli and mobile apps) are completely compatible with the original Flipper.
+        </div>
+        <div data-feature-id="3" class="feature-item">
+            <h3>3. BATTERIES INCLUDED</h3>
+            Rechargeable LIR2032 batteries give KIISU juice on the go - it really is a Flipper for your wallet!
+        </div>
+        <div data-feature-id="4" class="feature-item">
+            <h3>4. ONBOARD EVERYTHING</h3>
+            The perfectly tuned SubHZ, BLE, NFC and RFID antennas are embedded into the PCB - along with extra sensors like accelerometers, a compass, light and pressure!
+        </div>
+    </div>
+</div>
+<p>Quirky and cute, compact and wallet-friendly, there are many reasons to be seduced by KIISU. There's an active community building all sorts of extensions, a forked-firmware and even 3D printable accessories. All that's needed is your participation - and KIISU!</p>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+        <ul>
+            <li>KIISU (v4BR)</li>
+            <li>1x LIR-2032 Rechargeable Battery</li>
+            <li>1x Quickstart Guide</li>
+            <li>1x KIISU Mascot Keychain</li>
+        </ul>
+    
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>Technical resources</strong></h2>
+        <ul>
+            <li><a href="https://raw.githubusercontent.com/kiisu-io/kiisu4/refs/heads/main/kiisu%20v4b%20manual%20and%20quick%20start.pdf" target="_blank">KIISU Manual + Quickstart Guide</a></li>
+            <li><a href="https://github.com/kiisu-io/" target="_blank">KIISU Github Repo</a></li>
+            <li><a href="https://discord.gg/kiisu" target="_blank">KIISU Discord Community</a></li>
+            <li><a href="https://makerworld.com/en/models/1821178-kiisu-v4b-official-shield-variations#profileId-1943956" target="_blank">3D Printable KIISU Case models</a></li>
+        </ul>
+    
+</div>
+</div>
+<div class="contentGroup">
+   <h2>Frequently Asked Questions</h2>
+   <p><b>What are the functional differences between the KIISU and Flipper?</b></p>
+   <p>
+Although this board can run almost any Flipper Zero firmware, there are a
+few limitations:
+</p>
+<ul>
+<li>It lacks Flipper Zero secret keys, so some SubGhz rolling-code protocols and
+U2F may not work with official firmware.</li>
+<li>Antennas performance may vary.</li>
+<li>Certain schematic differences mean features like battery status
+rely on Aux MCU firmware.</li>
+</ul>
+<p><b>I flashed Flipper Firmware onto the KIISU, and see "No Factory Keys Found. Secure enclosure is damaged.  Some apps will not work".</b></p>
+<p>
+Because the KIISU hardware is not produced by Flipper Labs - it doesn't have their factory keys - so the Flipper Firmware shows this notification.
+The "no factory keys damaged enclave" only impacts functions where Official Flipper keys are required: some SubGHZ rolling codes, and the U2F functionality.
+In stock KIISU firmware that notification is hidden -  this notification only appears when running official Flipper firmware.</p>
+</div>
+</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Flipper Zero Accessory</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10315424399707</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">79.00</s:price>
+      <s:sku>KIISU-4B</s:sku>
+      <s:grams>200</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/10332680520027</id>
+    <published>2026-02-11T15:59:13+01:00</published>
+    <updated>2026-02-11T15:59:13+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/nfc-booster-antenna-for-flipper-zero"/>
+    <title>NFC Booster Antenna for Flipper Zero</title>
+    <s:type>RFID</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Flipper-Zero-NFC-Booster.png?v=1770321122"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>RFID<br>
+        <strong>Price: </strong>
+            10.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="contentGroup">
+<h2><strong>Introduction</strong></h2>
+<p>The NFC Booster Antenna is an ingenious way to boost NFC (13.56MHz) performance of your Flipper Zero.</p>
+<p>It's a flexible PCB sticker that has two embedded antennas: one is tuned <i>exactly</i> to your Flipper Zero's NFC antenna - and the other is larger antenna that modifies the RF field shape for better performance &amp; read range, especially for <b>emulation</b>, <b>implants and small fobs</b>.</p>
+<p>It's completely passive, no batteries are required. Simply stick it to the back of your Flipper, and you're boosted!</p>
+<p>Range improvements vary on the size of the target badge: <b>implants and small fobs</b> can see up to <b>10mm extra</b> read distance, and <b>emulation</b> performance is dramatically better. Business-card sized tags see smaller range improvements, as their antennas are already large and well matched with the Flipper's internal antenna.</p>
+</div>
+<div class="contentGroup">
+<p>These are <i>boosters</i>: The increase the read range. If you're looking to also <i>displace</i> the reading zone to somewhere else, we recommend the <a href="/products/nfc-range-extender-for-flipper-zero">Range Extender</a> product for Flipper Zero - which has a built in booster, but also has an external antenna + cable, allowing you to move the reading field completely apart from your Flipper!</p>
+</div>
+<div class="contentGroup">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x NFC Booster Antenna for Flipper Zero</li>
+</ul>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>13.56MHz (HF)</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Flipper Zero</s:tag>
+    <s:tag>Flipper Zero Accessory</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10332680520027</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">10.00</s:price>
+      <s:sku>MW-FZR</s:sku>
+      <s:grams>10</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/10332680257883</id>
+    <published>2026-02-11T15:59:05+01:00</published>
+    <updated>2026-02-11T15:59:05+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/13-56mhz-rfid-range-boosters"/>
+    <title>13.56MHz RFID Range Boosters</title>
+    <s:type>RFID</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Boosters---Large.png?v=1770322473"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>RFID<br>
+        <strong>Price: </strong>
+            10.00 - 22.00
+            <a href="https://lab401.com/products/13-56mhz-rfid-range-boosters">(2 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="contentGroup">
+<h2><strong>Introduction</strong></h2>
+<p>The NFC Booster Antennas are a simple, cost way effective way to squeeze additional performance out of NFC readers.</p>
+<p>They are extremely thin PCBs that have an antenna on each side. Both have been perfectly tuned to 13.56MHz - when they encounter a 13.56MHz field, they repeat the signal.</p>
+<p>It's completely passive, no batteries are required. These boosters can be used in projects that would require you to scan NFC devices through objects where the reader isn't powerful enough by itself to pass the signal through. You could place this item on one side of the obstruction, and the reader on the other:
+</p>
+<ul>
+<li>Placed between a phone and phone-case to boost the read range of your phone</li>
+<li>Placed inside your wallet to boost the read-distance of your cards inside the wallet</li>
+<li>Placed on readers with poor performance: Proxmark 3, Chameleon Ultra, etc.</li>
+</ul>
+<p>Range improvements vary on the size of the target badge: cards and fobs enjoy up to <b>double the read range</b> with smaller tags getting an <b>additional 10mm</b>.</p>
+</div>
+<div class="contentGroup">
+<p><b>Two sizes are available</b>: Small (28mm diameter) and Large (62mm). The small antennas come in a <b>pack of four</b> - the large antennas individually.</p>
+</div>
+<div class="contentGroup">
+<p>These are <i>boosters</i>: The increase the read range. If you're looking to also <i>displace</i> the reading zone to somewhere else, we recommend the <a href="/products/rfid-antenna-extender">Range Extender</a> product, which allows you to displace the RFID field up to 30 or even 50cm away from the reading device.</p>
+</div>
+<div class="contentGroup">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>
+<b>Small</b>: 4x 28mm Booster Antennas, or</li>
+<li>
+<b>Large</b>: 1x 62mm Booster Antenna</li>
+</ul>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>13.56MHz (HF)</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Flipper Zero</s:tag>
+    <s:tag>Flipper Zero Accessory</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10332680257883</id>
+      <title>Small</title>
+      <s:price currency="EUR">10.00</s:price>
+      <s:sku>MW-V3F-4PCS</s:sku>
+      <s:grams>10</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/10332680257883</id>
+      <title>Large</title>
+      <s:price currency="EUR">22.00</s:price>
+      <s:sku>MW-V3L</s:sku>
+      <s:grams>10</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/10332677701979</id>
+    <published>2026-02-11T15:58:05+01:00</published>
+    <updated>2026-02-11T15:58:05+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/nfc-range-extender-for-flipper-zero"/>
+    <title>NFC Range Extender for Flipper Zero</title>
+    <s:type>RFID</s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Flipper-Extender---All-Parts.png?v=1770320821"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong>RFID<br>
+        <strong>Price: </strong>
+            75.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="contentGroup">
+<h2><strong>Introduction</strong></h2>
+<p>The NFC Extender Antenna is an ingenious <b>dual-purpose</b> accessory for boosting <i>and</i> extending the read range of your Flipper Zero.</p>
+<p>As a <b>booster</b> - you simply stick it one the back of your Flipper Zero, and instantly boost the NFC performance - up to <b>two times the read distance</b>. It's a flexible, ultra thin PCB with two embedded antennas: one is tuned <i>exactly</i> to your Flipper Zero's NFC antenna - and the other is larger antenna that increases read range.</p>
+<p>As an <b>extender</b> - you can connect an external antenna + cable to the board: suddenly the reading zone of your Flipper is wherever you want it to be!</p>
+<p>It's completely passive, no batteries are required. Simply stick it to the back of your Flipper, and you're boosted!</p>
+<p>Range improvements vary on the size of the target badge: cards and fobs enjoy up to <b>double the read range</b> with smaller tags getting an <b>additional 10mm</b>.</p>
+</div>
+<div class="contentGroup">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x NFC Extender Antenna for Flipper Zero</li>
+<li>1x IPEX antenna cable</li>
+<li>1x External Antenna (Card Format)</li>
+</ul>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>13.56MHz (HF)</s:tag>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Flipper Zero</s:tag>
+    <s:tag>Flipper Zero Accessory</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10332677701979</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">75.00</s:price>
+      <s:sku>MW-FZREH_CA</s:sku>
+      <s:grams>10</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/10299408875867</id>
+    <published>2026-02-02T13:55:02+01:00</published>
+    <updated>2026-02-02T13:55:02+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/awok-gps-antenna-ad-301"/>
+    <title>AWOK GPS Antenna AD-301</title>
+    <s:type>Tools</s:type>
+    <s:vendor>AWOK Dynamics</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/AD-301.png?v=1769000151"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>AWOK Dynamics<br>
+        <strong>Type: </strong>Tools<br>
+        <strong>Price: </strong>
+            45.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Waterproof active, four-band GPS antenna accessory for the AWOK Dual Touch V3.</p>
+<ul>
+<li>GPS: L1/L2/L5</li>
+<li>GLONASS: G1/G2<br>
+</li>
+<li>BDS: B1/B2/B3<br>
+</li>
+<li>GALILEO: E1/E5a/E5b/E6<br>
+</li>
+</ul>
+<p>Includes the SMA+Pigtail cable.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Flipper Zero Accessory</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10299408875867</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">45.00</s:price>
+      <s:sku>AWOK-GPS-AD-301</s:sku>
+      <s:grams>75</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/10202834862427</id>
+    <published>2025-12-05T13:20:36+01:00</published>
+    <updated>2025-12-05T13:20:36+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/ec-canbus"/>
+    <title>CANBus Module for Flipper Zero</title>
+    <s:type></s:type>
+    <s:vendor>Electronic Cats</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/FlipperZero-Canbus--Module-Square.png?v=1764863346"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Electronic Cats<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            39.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2>Introduction</h2>
+<p>CANBus is a communication protocol originally built for the automotive industry; it forms the literal communications backbone of all modern vehicles. It's simple to implement, using only two wires, but powerful: it supports up to 127 individual nodes, individually-addressed &amp; broadcast messaging, message prioritization, and variable speeds up to 20Mbit/s.</p>
+<p>One of the most common implementations of CANBus is in vehicles - via the OBD-II port. OBD, or On-Board-Diagnostics is a standardised interface, allowing direct access to a vehicle's communications network. Since 2008 - CANBus is the standardised communication protocol.</p>
+<p><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/CANBUS-with-OBD-II.png?v=1764851629" alt=""></p>
+<p>CANBus is everywhere - not just in vehicles. It's found in battery controllers, 3D printers, elevators, medical equipment, aviation, maritime and agricultural equipment. If the requirements are robust communications, it's probably CANBus.</p>
+<p>The ElectronicCats CANBus Module for Flipper Zero, with its accompanying Flipper App, allows you to get hands on with CANBus. It has full low-level tools to send sniff, log, and replay CAN messages, and higher level tools for interacting with vehicles via the OBD2 Scanner function.</p>
+<p>If you've worked with CAN before, you know that there are dozens of half-finished, semi-abandoned tools and products, or non-cross-platform expensive tools. The Flipper CANBus module solves all of these problems.</p>
+<h2 style="margin-top: 3em;">CANBus Module Demonstration Videos</h2>
+<p><video lite-youtube-playlist params="rel=0" thumb-layout="vertical" auto-play-thumb="true">
+                <video playlist-entry params="rel=0" videotitle="Flipper Zero CANBus: Sniffing and Sending Messages" videodescription="Real-world demonstration using the FlipperZero CANBUS Module to sniff and send CAN Frames" videoid="jtZJBNnAUts" posterquality="maxresdefault"></video>
+                <video playlist-entry videotitle="FlipperZero ODB-II functionality" videodescription="Hands on with the OBD-II FlipperZero application, showing various built-in functions." videoid="CfUZCfT7R5s" posterquality="maxresdefault"></video>
+                <video playlist-entry videotitle="Flipper Zero / Injecting with the CANBus Add-on" videodescription="Using the ElectronicCats CANBUS shield for FlipperZero to inject CAN frames into vehicles" videoid="Mm8NkwKuSso" posterquality="maxresdefault">
+                </video>
+            </video></p>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2>Hardware Specifications</h2>
+<ul>
+<li>
+<strong>Chipset: </strong>MCP2515</li>
+<li>
+<strong>Protocols:</strong> CAN v2.0B (Supports standard + extended data frames)</li>
+<li>
+<strong>Operating Voltage:</strong> 2.7 - 5.5v</li>
+<li>
+<strong>Interface:</strong> High-Speed SPI (10MHz)</li>
+</ul>
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x CANBus Module</li>
+<li>1x OBD-II Module</li>
+</ul>
+<h2><strong>Technical Resources<br></strong></h2>
+<ul>
+<li><a rel="noopener" href="https://github.com/ElectronicCats/flipper-MCP2515-CANBUS/wiki/2.-Understanding-Flipper-CAN-Bus-app" target="_blank">Flipper CAN Bus wiki</a></li>
+<li><a rel="noopener" href="https://github.com/ElectronicCats/flipper-MCP2515-CANBUS/releases" target="_blank">Flipper Application</a></li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2>Functionality Specifications</h2>
+<ul>
+<li>
+<strong>Sniffer:</strong> Sniff &amp; Log all data</li>
+<li>
+<strong>Sender:</strong> Send indivudually crafted &amp; addresed messages</li>
+<li>
+<strong>Player:</strong> Replay logged data</li>
+<li>
+<strong>Log Viewer:</strong> Examine saved logs</li>
+<li>
+<strong>OBD2 Scanner:</strong>
+<ul>
+<li>Fetch PID Codes</li>
+<li>Fetch VIN</li>
+<li>Fetch Engine Speed</li>
+<li>Fetch Vehicle Speed</li>
+<li>Fetch Engine Load</li>
+<li>Fetch Throttle Position</li>
+<li>Fetch Fuel Level</li>
+<li>Fetch Enging Timing</li>
+<li>Fetch Error DTC</li>
+<li>Reset Error DTC</li>
+</ul>
+</li>
+</ul>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10202834862427</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">39.00</s:price>
+      <s:sku>EC-CANBUS-OBD2</s:sku>
+      <s:grams>100</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/10066762105179</id>
+    <published>2025-09-15T10:06:40+02:00</published>
+    <updated>2025-09-15T10:06:40+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/digilab-for-flipperzero"/>
+    <title>DigiLab for FlipperZero</title>
+    <s:type></s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab---Connected.png?v=1756235925"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            49.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Lab401's DigiLab by tixlegeek is a Flipper Zero® accessory that introduces a new way to explore electronics. Designed to be the first tool you reach for when you're developing, debugging, tinkering or exploring digital electronics.</p>
+<p>Want to <em>feel</em> voltages? <em>See</em> signals? <em>Hear</em> protocols? Reach directly into the memory of sensors and modules? Sounds crazy, but it's possible with the DigiLab.</p>
+<p>Discover signals via the Scope application, probe for voltages and frequencies in the Probe function, and detect, discover and directly interact with SPI &amp; I2C devices via the SPI Probe and I2C Probe functions.</p>
+<div class="animation-container">
+   <div class="flipper-stage" data-tilt="" data-tilt-max="1" data-tilt-perspective="1000" data-tilt-full-page-listening="" data-max-tilt="">
+      <div class="flipper-assembly">
+         <!-- Base Flipper device (always visible) --> <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab-Flipper.png?v=1756138151" alt="Flipper Base" class="flipper-element flipper-base"> <!-- Initial animation screen --> <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab-Animation.gif?v=1756138146" alt="Flipper Animation" class="flipper-element flipper-animation"> <!-- PCB coming from top --> <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab-PCB.png?v=1756138148" alt="Flipper PCB" class="flipper-element flipper-pcb"> <!-- Probe coming from left --> <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab-Probe.png?v=1756138147" alt="Flipper Probe" class="flipper-element flipper-probe"> <!-- Final app screen --> <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab-App.png?v=1756138146" alt="Flipper App" class="flipper-element flipper-app"> 
+      </div>
+   </div>
+</div>
+<p>By combining an RGB LED, Flipper's speaker and vibration motor, you can see voltages fluctuations, hear the difference between different protocols, and feel the different signals flowing around a circuit.</p>
+<p>The DigiLab is even compatible with the full range of BusPirate accessories; making SPI and I2C exploration even more easy. It's 100% Open Source and Open Hardware, and is the perfect combination of functional, fun and educational that your Flipper has been waiting for.</p>
+<p><strong>If you love electronics, you'll love Lab401's DigiLab.</strong></p>
+<p>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+</p>
+<style>         .animation-container {             margin: 0;             padding: 0;             box-sizing: border-box;             /*height: 300vh;*/             position: relative;             /*background: linear-gradient(180deg, #764ba2 0%, #667eea 50%, #f093fb 100%);*/         }     .rte .animation-container img {             margin: 0;             padding: 0;     }         .flipper-stage {             position: sticky;             top: 0;             /*height: 100vh;*/             display: flex;             align-items: center;             justify-content: center;             /*overflow: hidden;*/         }         .flipper-assembly {             position: relative;             width: 916px;             height: 500px;             margin-top: 3em;             margin-bottom: -4em;         }         .flipper-element {             position: absolute;             max-width: 100%;             height: auto;         }         /* Base Flipper device - always visible, centered */         .flipper-base {             top: 50%;             left: 50%;             transform: translate(-50%, -50%);             z-index: 1;             width: 500px;         }         /* Initial animation screen - positioned over orange screen */         .flipper-animation {             top: 50%;             left: 50%;             transform: translate(-50%, -50%);             z-index: 2;             width: 172px;             /* Fine-tune position to match orange screen exactly */             margin-top: -18px !important;             margin-left: -31px !important;         }         /* PCB - starts from top, ends positioned above the main device */         .flipper-pcb {             width: 750px;             z-index: 3;             opacity: 0;             top: -100px;             left: 50%;             transform: translateX(-50%);         }         /* Probe - starts from left, ends positioned on the left side */         .flipper-probe {             width: 916px;             z-index: 4;             opacity: 0;             top: 24%;             left: -50%;             transform: translate(0%, -50%);         margin-top: 1em;         }         .flipper-app {             top: 50%;             left: 50%;             transform: translate(-50%, -50%);             z-index: 5;             opacity: 0;             width: 172px;             margin-top: -18px !important;             margin-left: -31px !important;         }         @keyframes animatedgradient {             0% {                 filter: drop-shadow(0px 0px 10px rgba(247, 149, 51, 0.2)) drop-shadow(0px 0px 20px rgba(243, 112, 85, 0.2)) drop-shadow(0px 0px 30px rgba(239, 78, 123, 0.2));             }             100% {                 filter: drop-shadow(0px 0px 10px rgba(161, 102, 171, 0.2)) drop-shadow(0px 0px 20px rgba(80, 115, 184, 0.2)) drop-shadow(0px 0px 30px rgba(16, 152, 173, 0.2));             }         }         .flipper-glow {             filter: drop-shadow(0px 0px 10px rgba(247, 149, 51, 0.2)) drop-shadow(0px 0px 20px rgba(243, 112, 85, 0.2)) drop-shadow(0px 0px 30px rgba(239, 78, 123, 0.2));             animation: animatedgradient 10s ease alternate infinite;         }         @media (max-width: 1100px) {             .animation-container {                 /*height: 300vh;*/                 position: relative;                 /*background: linear-gradient(180deg, #764ba2 0%, #667eea 50%, #f093fb 100%);*/             }             .flipper-stage {                 position: sticky;                 top: 0;                 /*height: 100vh;*/                 display: flex;                 align-items: center;                 justify-content: center;                 /*overflow: hidden;*/             }             .flipper-assembly {                 position: relative;                 width: 90vw;                 max-width: 916px;                 height: auto;                 aspect-ratio: 11 / 6;             }             .flipper-element {                 position: absolute;                 max-width: 100%;                 height: auto;             }             /* Base Flipper device */             .flipper-base {                 top: 50%;                 left: 50%;                 transform: translate(-50%, -50%);                 z-index: 1;                 width: 55%;             }             /* Initial animation screen */             .flipper-animation {                 top: 50%;                 left: 50%;                 transform: translate(-50%, -50%);                 z-index: 2;                 width: 19%;                 margin-top: -2% !important;                 margin-left: -3.5%  !important;             }             /* PCB */             .flipper-pcb {                 width: 82%;                 z-index: 3;                 opacity: 0;                 top: -10%;                 left: 50%;                 transform: translateX(-50%);             }             /* Probe */             .flipper-probe {                 width: 100%;                 z-index: 4;                 opacity: 0;                 top: 24%;                 left: -50%;                 transform: translate(0%, -50%);             }             /* Final app screen */             .flipper-app {                 top: 50%;                 left: 50%;                 transform: translate(-50%, -50%);                 z-index: 5;                 opacity: 0;                 width: 19%;                 margin-top: -2% !important;                 margin-left: -3.5% !important;             }         }         @media (max-width: 768px) {         }   lite-youtube {     /* No Shadow */     --lite-youtube-frame-shadow-visible: no;   }   video {max-width:100%; border-radius: 15px;}       </style>
+<h2>Discover what's possible with the DigiLab</h2>
+<figure>
+   <video lite-youtube="" videoid="_d2J8e9RIu4" posterquality="maxresdefault" params="rel=0"></video>
+</figure>
+<div class="grid" style="margin-top: 2em;">
+   <div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+      <h3>See, hear and feel circuits</h3>
+      <p>The DigiLab's Scope function allows you to see, hear and feel voltages and signals: it honestly feels a bit magic.</p>
+      <p>Which is CAN_HI and CAN_LO? They sound <i>completely different!</i>. What's the baud rate on this line? <i>Sounds like 9600bps!</i> Display voltage gradients via RGB LED? <i>Totally possible!</i></p>
+      <p>
+         <video autoplay="autoplay" muted="muted" loop="loop">
+            <source src="https://cdn.shopify.com/videos/c/o/v/4749a7807fb34e49baf4e42833cc5b36.mp4"></video>
+      </p>
+   </div>
+   <div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+      <h3>Probe, measure and detect signals</h3>
+      <p>The Probe function allows you to rapidly map out a circuit during debug or development.</p>
+      <p>Where are the data traces? Is the serial interface active? Is there a signal on this line? Is this plain 5v or is it UART? What's the frequency of the signal? Get answers quickly with the Probe tool.</p>
+      <p>
+         <video autoplay="autoplay" muted="muted" loop="loop">
+            <source src="https://cdn.shopify.com/videos/c/o/v/d3fe6f9f979f45a5a1389094d5903a62.mp4"></video>
+      </p>
+   </div>
+</div>
+<div class="grid" style="margin-top: 2em;">
+   <div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+      <h3>Discover and identify I2C and SPI devices</h3>
+      <p>The DigiLab has a built-in <i>Predictive Engine</i> for rapidly identifing I2C and SPI devices.</p>
+      <p>Working with chips that have no markings? Uncover its secrets without fuss. Need to identify multiple devices on the same bus? No problems! With DigiLab, discovery &amp; identification is painless!</p>
+      <p><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Detection-Animation.gif?v=1756153677"></p>
+   </div>
+   <div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+      <h3>Real-time, direct I2C &amp; SPI interaction</h3>
+      <p>Discover, read and Write directly to and from sensors, memory and other I2C prehipherals.</p>
+      <p>Forget fighting with Arduinos &amp; ESP-32s - the DigiLab just made SPI &amp; I2C manipulation simple. Debugging and development with modules is a breeze: get hands on directly with the devices!</p>
+      <p><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Hexedit-Animation.gif?v=1756155034"></p>
+   </div>
+</div>
+<h2>Detailed functionality</h2>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+   <p><strong>Scope Tool</strong> The scope tool provides an oscilloscope-style screen, with real-time, average and max voltage and the wave-form of the detected signal. When coupled with the <strong>feedback options</strong> it becomes a powerful way to navigate circuits.</p>
+   <p><strong>Sound</strong></p>
+   <ul>
+      <li>Off - <i>no audio feedback</i> </li>
+      <li>Alert - <i>Audio triggers when "Alert" condition is met</i> </li>
+      <li>On - <i>Follows the voltage/signal measured</i> </li>
+   </ul>
+   <strong>Haptic/Vibration</strong> 
+   <ul>
+      <li>Off - <i>no haptic feedback</i> </li>
+      <li>Alert - <i>Triggers when "Alert" condition is met</i> </li>
+   </ul>
+   <strong>LED</strong> 
+   <ul>
+      <li>Off - <i>no LED feedback</i> </li>
+      <li>Alert - <i>Triggers when "Alert" condition is met</i> </li>
+      <li>Follow - <i>Follows the voltage (0v Green, 12v Red)</i> </li>
+      <li>Variance - <i>Follows the calculated variance of the measured signal</i> </li>
+      <li>Trigger - <i>Follows when signal exceeds auto-calculated trigger level</i> </li>
+   </ul>
+   <strong>Alert Options</strong> 
+   <ul>
+      <li>Voltage - <i>v&lt;3.3, v&gt;3.3, v&lt;5, v&gt;5, MAX</i> </li>
+      <li>Osc - <i>When signal oscillates around 0v (digital signals, clocks, communications)</i> </li>
+      <li>~x - <i>When signal is close to x volts</i> </li>
+   </ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+   <p><strong>Probe Tool</strong> The Probe tool is ideal for initial circuit exploration or debugging multiple pins via the clear real-time UI:</p>
+   <ul>
+      <li>Voltage Range: <i> 0 - 12v</i> </li>
+      <li>Frequencies: <i> Up to ~200kHz</i> </li>
+      <li>Real-time voltage <i> indicator</i> </li>
+      <li>Real-time frequency <i> indicator</i> </li>
+   </ul>
+   <p><strong>I2C Probe</strong> Detect, identify and interact directly with attached I2C devices. GPIO Pinout is compatible with BusPirate accessories.</p>
+   <ul>
+      <li>Detection Engine: <i> Multiple Simultaneous I2C devices</i> </li>
+      <li>Prediction Engine: <i> Instant Device Identification (Device type, Address, Reference, Manufacturer, Description)</i> </li>
+      <li>Register Explorer</li>
+      <li>Register Editor: <i>Read / Write</i> </li>
+      <li>Hex-editor</li>
+   </ul>
+   <p><strong>SPI Probe</strong> Detect, identify and interact directly with attached SPI devices. GPIO Pinout is compatible with BusPirate accessories.</p>
+   <ul>
+      <li>Detection Engine: <i> Multiple Simultaneous I2C devices</i> </li>
+      <li>Prediction Engine: <i> Instant Device Identification (Device type, Address, Reference, Manufacturer, Description)</i> </li>
+      <li>Register Explorer</li>
+      <li>Register Editor: <i>Read / Write</i> </li>
+      <li>Hex-editor</li>
+   </ul>
+</div>
+<div style="margin-top: 2em;" class="grid">
+   <div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+      <h2><strong>What's included</strong></h2>
+      <ul>
+         <li>
+            <strong>1x DigiLab</strong> 
+            <ul>
+               <li>1x Probe Pair (Shielded RG-178 cable with SMA connector)</li>
+               <li>1x Probe Point (Connects via screw attachment)</li>
+            </ul>
+         </li>
+      </ul>
+      <ul>
+         <li>DigiLab <a href="https://lab.flipper.net/apps/401_digilab" target="_blank">Flipper Application</a> </li>
+      </ul>
+   </div>
+   <div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+      <h2><strong>DigiLab Resources</strong></h2>
+      <ul>
+         <li><a href="https://lab.flipper.net/apps/401_digilab" target="_blank">DigiLab Flipper Application</a></li>
+         <li><a href="https://github.com/lab-401/fzDigiLab" target="_blank">DigiLab Github Repository</a></li>
+         <li><a href="/blogs/news/building-the-digilab-behind-the-scenes" target="_blank">Building the DigiLab : Behind the scenes with Lab401</a></li>
+      </ul>
+      <h2><strong>DigiLab Tutorials</strong></h2>
+      <ul>
+         <li><a href="/blogs/academy/digilab-pulling-data-from-thin-air-and-a-bmp280-module" target="_blank">DigiLab &amp; BMP280 : Reading Pressure, Temperature &amp; Altitude directly from the BMP280.</a></li>
+         <li><a href="/blogs/academy/i2c-sensor-seduction-digilab-flipper" target="_blank">Sensor Seduction: No fuss data downloading from sensors with the DigiLab</a></li>
+      </ul>
+   </div>
+</div>
+</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Flipper</s:tag>
+    <s:tag>Flipper Zero</s:tag>
+    <s:tag>Flipper Zero Accessory</s:tag>
+    <s:tag>FlipperZero</s:tag>
+    <s:tag>I2C</s:tag>
+    <s:tag>IoT</s:tag>
+    <s:tag>SPI</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/10066762105179</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">49.00</s:price>
+      <s:sku>LAB401-DIGILAB</s:sku>
+      <s:grams>125</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/9709931626843</id>
+    <published>2025-02-18T15:42:11+01:00</published>
+    <updated>2025-02-18T15:42:11+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/flux-capacitor"/>
+    <title>Flux Capacitor</title>
+    <s:type></s:type>
+    <s:vendor>Rabbit-Labs</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Flux-Capacitor-Front.png?v=1737712382"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Rabbit-Labs<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            65.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>The <strong>Flux Capacitor</strong> from Rabbit Labs <strong>super-charges</strong> the radio capabilities of your Flipper Zero.</p>
+<p>The FlipperZero's standard internal radio module and antenna are great for close range capture and replay, but are actually <a rel="noopener" href="https://antennatestlab.com/antenna-education-tutorials/consumer_antenans/flipper-zero-antenna-patterns" target="_blank"><em>less than 1% efficient.</em></a><em><br></em></p>
+<p>The Flux Capacitor's amplified CC1101 module and tuned antenna output up to 100mW, several <em>orders of magnitude greater</em> than the standard module.<br></p>
+<p>This translates to an in-the-field range of up to 100m - which can be further improved with a higher gain antenna.</p>
+<p>For pentesters, the Flux Capacitor could spell the difference between capturing a signal from a safe distance or blowing your cover. For hobbyist users, this means you can finally operate your gadgets from much further distances.</p>
+<p>Works out-of-the-box with <strong>alternative firmware </strong>- plug it into your Flipper, and the status LED indicating that it's ready to rock-n-roll will light up.</p>
+<p><strong>IMPORTANT:</strong> Do not transmit without an antenna - you will cause irreversible damage to the radio module. Damage caused by misuse is not covered by warranty.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Flipper</s:tag>
+    <s:tag>Flipper Zero</s:tag>
+    <s:tag>Flipper Zero Accessory</s:tag>
+    <s:tag>FlipperZero</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/9709931626843</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">65.00</s:price>
+      <s:sku>RL-FLUX-CAP</s:sku>
+      <s:grams>100</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/9707761303899</id>
+    <published>2025-02-18T15:42:00+01:00</published>
+    <updated>2025-02-18T15:42:00+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/ir-blaster"/>
+    <title>IR Blaster</title>
+    <s:type></s:type>
+    <s:vendor>Rabbit-Labs</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/IR-Blaster-With-Flipper.png?v=1737575490"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Rabbit-Labs<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            34.95
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>The IR Blaster from Rabbit Labs <strong>super-charges</strong> the infrared remote control capabilities of your Flipper Zero.</p>
+<p>Packing <strong>seven high-intensity IR LEDs</strong>, the IR Blaster is so powerful that if you can see a device, chances are it's in range.</p>
+<p>Works out-of-the-box with <strong>official firmware</strong> - plug it into your Flipper, and the status LED indicating that it's ready to rock-n-roll will light up.<br></p>
+<p>Whether you're a pentester looking to extend your reach on your next assignment, or simply want to control everything without leaving your couch, the IR Blaster is a very worthy accessory for your Flipper!</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Flipper</s:tag>
+    <s:tag>Flipper Zero</s:tag>
+    <s:tag>Flipper Zero Accessory</s:tag>
+    <s:tag>FlipperZero</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/9707761303899</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">34.95</s:price>
+      <s:sku>RL-IR-BLASTER</s:sku>
+      <s:grams>100</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/9713259020635</id>
+    <published>2025-02-12T06:39:52+01:00</published>
+    <updated>2025-02-12T06:39:52+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/light-messenger"/>
+    <title>Light Messenger - POV Light Painter for Flipper Zero</title>
+    <s:type></s:type>
+    <s:vendor>Lab401</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Light-Messenger---Front-with-Gradient.png?v=1737989847"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Lab401<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            29.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2><strong>Introduction</strong></h2>
+<p>The <b>Light Messenger</b> is a <a href="https://en.wikipedia.org/wiki/Persistence_of_vision" target="_blank"> Persistence of Vision</a> accessory for the Flipper Zero, allowing users to "paint" text and images into the air. It has a companion Flipper App that includes a fully-featured bitmap editor (for creating sprites without a computer), a text editor, light and animation controls - and even a flashlight function.</p>
+<p>The Light Messenger can also be used for light-painting, allowing you to create incredible images that slips into your pocket.</p>
+<p>Naturally, everything is open-source - and with 16 fully-addressable RGB LEDs, an accelerometer, and a feature-complete App, the Light Messenger was made to be customised and extended. Want to make colours change according to how you move the device? Totally possible. Want to show a different sprite with every swipe? Hack it in!</p>
+<figure><video lite-youtube="" videoid="NlNuNxXg9r0" posterquality="maxresdefault" params="rel=0"></video></figure>
+<div style="margin-top: 1em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Persistence of Vision</h3>
+<p>Swipe the Light Messenger back and forth, and your designs will appear to float in the air like magic!</p>
+<p><video loop="loop" muted="muted" autoplay="autoplay" style="width: 100%;"><source src="https://cdn.shopify.com/videos/c/o/v/6c599a21b92a4bd1afec28532ab7e460.mp4"></video></p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Pocket-sized Light Painter</h3>
+<p>With infinite light, colour and animation options, your Flipper Zero is now a fully-qualified light-painting device!</p>
+<p><video loop="loop" muted="muted" autoplay="autoplay" style="width: 100%;"><source src="https://cdn.shopify.com/videos/c/o/v/eb996317e2d943ceb01c3a4fed063e96.mp4"></video></p>
+</div>
+</div>
+<div class="grid">
+<div class="grid-item small--one-whole medium--one-whole large--one-whole text-left">
+<h2><strong>How does the Light Messenger work?</strong></h2>
+<p>The Light Messenger has an on-board accelerometer, and can calculate its position in real-time. As you wave your hand back and forth, the device calculates the limits of each "sweep", and then triggers the 16 LEDs to paint "pixels" of light across the arc - which your eye determines as a floating image!</p>
+<p>The smoother you swipe, the more stable the image is - it only takes a little bit of practice to become a pro!</p>
+</div>
+</div>
+<div class="grid">
+<div class="grid-item small--one-whole medium--one-whole large--one-whole text-left product-image-container">
+<img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Light-Messenger---Front-with-Gradient-Cropped-Transparent-POV-Tool.png?v=1737969734" alt="">
+<ul class="markers-list">
+<li class="feature-marker" data-feature-id="1" data-x="25" data-y="20">1</li>
+<li class="feature-marker" data-feature-id="2" data-x="75" data-y="43">2</li>
+<li class="feature-marker" data-feature-id="3" data-x="35" data-y="50">3</li>
+<li class="feature-marker" data-feature-id="4" data-x="57" data-y="70">4</li>
+</ul>
+</div>
+<div style="text-align: start;" class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<div class="feature-item" data-feature-id="1">
+<h3>1. Sixteen RGB LEDs</h3>
+<p>Sixteen powerful, individually controlled RGB LEDs for beautiful colour effects.</p>
+</div>
+<div class="feature-item" data-feature-id="3">
+<h3>3. Light Messenger App</h3>
+<p>Easy-to-use App contains everything: Bitmap painter, text-editor, colour + effect selectors and more!</p>
+</div>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<div class="feature-item" data-feature-id="2">
+<h3>2. Accelerometer</h3>
+<p>The magic behind the Light Messenger, allowing the LEDs to reaction in real-time to your movements.</p>
+</div>
+<div class="feature-item" data-feature-id="4">
+<h3>4. Open Source</h3>
+<p>Everything is open-source: Learn how POV code works, modify, customise and add your own features!</p>
+</div>
+</div>
+</div>
+<h2 style="margin-top: 2em;"><strong>HOWTO: LightMessenger</strong></h2>
+<p><strong>The LightMessenger is slightly different / more powerful</strong> than other Persistence of Vision devices, because it can <strong>display images &amp; text of varying lengths and varying distances.</strong></p>
+<p>For example, if you're showing a text message, you might do longer, slower swipes - and the LightMessenger will calculate how big your swipes are to take advantage of the "full swipe" to show your message.</p>
+<p>Alternatively, if you're doing smaller, faster swipes, it will ensure that the message or image fits into your swipes.</p>
+<p>To perform these calculations, <strong>the device needs three swipes to calibrate.</strong><br>During these first swipes, <strong>it will calculate </strong>the <strong>distance</strong> of your swipes, and the <strong>speed</strong> of your swipes. <strong>Once these are calculated, the message will show.</strong></p>
+<div style="text-align: center;"><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/LM-HowTo.png?v=1739527660" alt="" style="margin: 5px 5px 5px 5px; float: none;"></div>
+<p><strong>Speed is not the most important factor - it's being consistent.</strong> Try to make your swipes as uniform as possible. Don't worry - if you change the swipe speed or distance during use, the LightMessenger will recalculate.</p>
+<p><strong>It might take a few tries to get the hang of it - but if you remember: 1, 2, 3 - Go! - this should help you get great results faster!</strong></p>
+<h2><strong>A family of accessories</strong></h2>
+<p>The <b>Light Messenger</b> is Lab401's first of several accessories for the Flipper Zero. We're passionate about building innovative, useful and educational products, and the Flipper Zero is the perfect platform for development.</p>
+<p>If you're curious to read more read more about the development of the Light Messenger, and all the behind-the-scenes work, check out our Accessory Development posts!</p>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>Device Specifications<br></strong></h2>
+<ul>
+<li>
+<strong>LEDs:</strong> 16x SK6805 RGB LEDs<br>
+</li>
+<li>
+<strong>Accelerometer</strong>: I2C LIS2XX12</li>
+<li>
+<strong>Resolution: </strong>16 pixels vertical, "unlimited" horizontal pixels</li>
+</ul>
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>
+<strong>1x Light Messenger</strong> (FlipperZero NOT included)</li>
+<li>1x Light Messenger App (Available in the Flipper App Store)</li>
+</ul>
+</div>
+<h2><strong>Light Messenger Resources</strong></h2>
+<ul>
+<li><a href="https://github.com/lab-401/fzLightMessenger" target="_blank">Official Github Repository</a></li>
+<li><a rel="noopener" href="https://lab.flipper.net/apps/401_light_msg" target="_blank">Light Messenger Application</a></li>
+<li><a rel="noopener" href="https://github.com/spyx/LightFlashPro" target="_blank">Community Custom Flashlight tool</a></li>
+</ul>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Flipper Zero</s:tag>
+    <s:tag>Flipper Zero Accessory</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/9713259020635</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">29.00</s:price>
+      <s:sku>LAB401-LIGHT-MESSENGER</s:sku>
+      <s:grams>40</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/8786050187611</id>
+    <published>2024-02-13T15:02:09+01:00</published>
+    <updated>2024-02-13T15:02:09+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/flipper-zero-video-game-module"/>
+    <title>Flipper Zero Video Game Module</title>
+    <s:type>Tools</s:type>
+    <s:vendor>Flipper Zero</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/1.jpg?v=1707753663"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Flipper Zero<br>
+        <strong>Type: </strong>Tools<br>
+        <strong>Price: </strong>
+            45.85
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>The Flipper Zero Video Game Module unlocks endless entertainment and development possibilities for your Flipper Zero!</p>
+<p>Out of the box, mirror your Flipper's screen on your TV via the HDMI output cable, and thanks to the internal gyroscope module, interact with Flipper's games in an innovative way.</p>
+<p>Under the hood, the Video Game Module is powered by a Raspberry Pi RP2040: the same controller that is used in thousands of Open-Source projects, from Robotics, IoT, Home Automation, Retro-Gaming and much more. Also built in is a fully-accessible gyroscope: unlocking a completely new sensor for your Flipper.</p>
+<p>The Video Game Module is a fully standalone platform with the power of the Pico and its GPIO fully accessible - for all sorts of electronic, development and debugging applications. When plugged into the Flipper, your Flipper levels up with all the extra features.</p>
+<ul>
+<li>Video Out: See your Flipper Zero screen on your TV</li>
+<li>Raspberry Pi RP2040 Microcontroller: Same as in Raspberry Pi Pico, allowing you to run Raspberry Pi Pico code</li>
+<li>Motion Sensor: Comes with an IMU that has a gyroscope and accelerometer for motion tracking</li>
+<li>Connectivity: Has a 14-pin GPIO for plugging in joysticks, sensors, and more</li>
+<li>Flexible Use: Works with Flipper Zero or on its own</li>
+<li>Open-Source Firmware: Updateable via Flipper Zero or a PC</li>
+</ul>
+<p><em>Flipper Zero not included. Shown for reference only.</em></p>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>HDMI Out</h3>
+<p>Hook up any TV, monitor or projector with the full-size HDMI connector.</p>
+<p>Mirror your Flipper Zero's screen (640x480 DVI-D @ 60Hz) whether it's for work or for play.</p>
+<p><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Flipper---VGM---1---HDMI-Out.png?v=1707421622" alt=""></p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Standalone Mode</h3>
+<p>The Video Game Module is a fully-independant development platform.</p>
+<p>Access all of the Raspberry Pi Pico's functionality and also the Gyroscopic sensor via the GPIO.</p>
+<p><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/Flipper---VGM---1---Standalone.png?v=1707421622" alt=""></p>
+</div>
+</div>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x Video Game Module <i>(Flipper Zero not included!)</i>
+</li>
+</ul>
+<h2><strong>Device Specifications<br></strong></h2>
+<ul>
+<li>
+<strong>Video Out:</strong> Full-Size HDMI (640x480 DVI-D @ 60Hz)<br>
+</li>
+<li>
+<strong>CPU:</strong> RP2040<br><br>
+</li>
+<li>
+<strong>GPIO</strong>: 14-Pin GPIO</li>
+<li>
+<strong>Gyroscope:</strong> TDK ICM-42688-P (6-Axis)<br><br>
+</li>
+<ul></ul>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>Technical Resources<br></strong></h2>
+<ul>
+<li><a title="Flipper Zero Official Firmware Update" href="https://flipper.net/pages/downloads" target="_blank">Firmware Update</a></li>
+<li><a title="Flipper Zero Official Forum" href="https://forum.flipper.net/" target="_blank">Flipper Zero Forum</a></li>
+<li><a title="Flipper Zero Documentation" href="https://docs.flipper.net/zero" target="_blank">Flipper Zero Official Documentation</a></li>
+<li>
+<a title="Official Flipper Zero Discord" href="https://flipp.dev/discord" target="_blank">Flipper Zero Official Discord</a><br>
+</li>
+<li><a title="RP2040 Official Documentation" href="https://www.raspberrypi.com/documentation/microcontrollers/microcontroller-chips.html#rp2040" target="_blank">RP2040 Official Documentation</a></li>
+<li><a title="TDK ICM-42688-P Datasheets" href="https://www.invensense.tdk.com/en-us/products/6-axis/icm-42688-p" target="_blank">Gyroscope Datasheets</a></li>
+</ul>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Flipper</s:tag>
+    <s:tag>Flipper Zero</s:tag>
+    <s:tag>FlipperZero</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/8786050187611</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">45.85</s:price>
+      <s:sku>FLP-M-VGM</s:sku>
+      <s:grams>300</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/7933103407334</id>
+    <published>2022-08-21T21:34:58+02:00</published>
+    <updated>2022-08-21T21:34:58+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/flipper-zero-screen-protectors"/>
+    <title>Flipper Zero Screen Protectors</title>
+    <s:type></s:type>
+    <s:vendor>Flipper Zero</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/Flipper-Zero---Screen-Protectors.png?v=1661110397"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Flipper Zero<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            7.50
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Protect your Flipper Zero's screen from scratches and marks with these screen protectors.<br>Application is quick, and the final result is invisible.<br></p>
+<p>Three protectors included in every pack.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Flipper</s:tag>
+    <s:tag>Flipper Zero</s:tag>
+    <s:tag>FlipperZero</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/7933103407334</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">7.50</s:price>
+      <s:sku>FLP-A-FILM-3X</s:sku>
+      <s:grams>40</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/7795868074214</id>
+    <published>2022-06-23T08:59:24+02:00</published>
+    <updated>2022-06-23T08:59:24+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/flipper-zero-wifi-devboard"/>
+    <title>Flipper Zero Wifi Devboard</title>
+    <s:type></s:type>
+    <s:vendor>Flipper Zero</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Flipper-Zero---Wifi-Board.optimised.png?v=1773346349"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Flipper Zero<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            32.50
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>The Flipper Zero Wifi devboard brings Wi-Fi connectivity to your Flipper device.<br></p>
+<p>Out of the box the Wifi Devboard adds the following functionality:</p>
+<ul>
+<li>Advanced, in-circuit debugging via USB or Wifi, via Black Magic Probe project</li>
+<li>Wireless / OTA Firmware Updates</li>
+</ul>
+<p>Internet connectivity on the Flipper opens a world of possibilities, turning your device into an all-powerful controller that slips into your pocket:</p>
+<ul>
+<li>Control and Monitor your IoT devices remotely (Lights, heating, etc)</li>
+<li>Write modules using connected APIs (Twitter, Twilio, etc)</li>
+</ul>
+<p>Advanced users can take advantage of the board's ESP32-S2 chipset to enable Wi-Fi penetration testing:</p>
+<ul>
+<li>PMKID capturing</li>
+<li>Passive packet capture in promiscuous mode</li>
+</ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Flipper</s:tag>
+    <s:tag>Flipper Zero</s:tag>
+    <s:tag>FlipperZero</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/7795868074214</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">32.50</s:price>
+      <s:sku>FLP-M-WIFI</s:sku>
+      <s:grams>200</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/7795856867558</id>
+    <published>2022-06-23T08:59:24+02:00</published>
+    <updated>2022-06-23T08:59:24+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/flipper-zero-prototyping-boards"/>
+    <title>Flipper Zero Prototyping Boards</title>
+    <s:type></s:type>
+    <s:vendor>Flipper Zero</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/products/Flipper-Zero---Proto-Kit.png?v=1654133668"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Flipper Zero<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            9.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Develop new hardware modules for your Flipper Zero easily and quickly with the Prototyping Boards pack.<br></p>
+<p>Built specifically to plug into the GPIO headers on the Flipper Zero, and directly controllable via the device, these boards allow your to create hot-swappable custom modules for your Flipper Zero.</p>
+<p>Contains 2x small breakout boards, 1x large breakout board and unsoldered pin-headers.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Flipper</s:tag>
+    <s:tag>Flipper Zero</s:tag>
+    <s:tag>FlipperZero</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/7795856867558</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">9.00</s:price>
+      <s:sku>FLP-M-PROTO-3X</s:sku>
+      <s:grams>27</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/7795853689062</id>
+    <published>2022-06-23T08:59:23+02:00</published>
+    <updated>2022-06-23T08:59:23+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/flipper-zero-silicon-case"/>
+    <title>Flipper Zero Silicone Case</title>
+    <s:type></s:type>
+    <s:vendor>Flipper Zero</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Flipper-Zero---Silicone-Case.optimised.png?v=1773346628"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Flipper Zero<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            13.33
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Protect your Flipper Zero from the wear and tear of daily used with this high-quality injection-molded silicone case. Soft-touch but highly resistant, while retaining full access to all ports (GPIO, USB-C, Infrared..).<br></p>
+<p>Emblazoned with "FLIPPER" in Japanese and Russian, level up your cyber-geek credit while taking care of your device.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Flipper</s:tag>
+    <s:tag>Flipper Zero</s:tag>
+    <s:tag>FlipperZero</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/7795853689062</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">13.33</s:price>
+      <s:sku>FLP-A-CASE-OR</s:sku>
+      <s:grams>200</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/7790553465062</id>
+    <published>2022-06-23T08:59:23+02:00</published>
+    <updated>2022-06-23T08:59:23+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/flipper-zero"/>
+    <title>Flipper Zero</title>
+    <s:type>Pen Testing</s:type>
+    <s:vendor>Flipper Zero</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Flipper-Zero---Front.png?v=1773345630"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Flipper Zero<br>
+        <strong>Type: </strong>Pen Testing<br>
+        <strong>Price: </strong>
+            149.17 - 274.08
+            <a href="https://lab401.com/products/flipper-zero">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>The Flipper Zero is the ultimate multi-tool for pentesters, geeks, ethical hackers and hardware hobbyists alike. One pocket-sized device combines multiple tools: RFID, RF, Infrared, HID emulation, GPIO, Hardware debugging, 1-Wire, Bluetooth, Wifi and more.<br></p>
+<p>Inspired by great open-source projects: Proxmark, HydraNFC, Rubber Ducky, pwnagotchi - the Flipper Zero manages to pack serious functionality into a tiny, professionally manufactured device - and stays true to its Open Source roots.</p>
+<p>Entirely independent, the Flipper Zero requires no external computer or hardware to function - everything is driven by the its 5-way navigation button and LCD screen. When connected to a computer or the included Android / iOS apps, the Flipper can be extended, modified, upgraded and reflashed according to your needs.</p>
+<p>With over two years of meticulous design, prototyping and iteration, the Flipper Zero is a mature platform, ready to use out of the box, meeting the needs of professionals and enthusiasts alike.</p>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>RF Transceiver</h3>
+<p>The Flipper Zero contains a fully-controllable RF platform, based on the TI CC1101 chip, allowing for RF Signal capture, analysis and transmission.</p>
+<p>The Flipper Zero has a built-in library of common remote control algorithms for capturing, decoding and analysing and replaying signals.</p>
+<p>Users have <b>full access</b> to the radio sub-system, allowing custom RF modules to be easily built.</p>
+<p><video autoplay="autoplay" loop="loop">
+            <source src="https://cdn.shopify.com/s/files/1/2175/8571/files/FlipperZero_-_SDR_-_RF_Capture_Replay.webm?v=1660841703"></video></p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>RFID Reader/Writer/Emulator</h3>
+<p>The Flipper Zero allows for Reading, Writing and Emulation of both High-Frequency (13.56MHz) and Low-Frequency (125KHz) RFID tags.</p>
+<p><b>Low Frequency</b> tags can be easily read, saved, cloned to a new card, or exported for analysis.</p>
+<p>Multiple <b>High Frequency</b> protocols are supported, and the Flipper Zero can even sniff authentification nonces to extract unknown MIFARE keys.</p>
+<p><video autoplay="autoplay" loop="loop">
+            <source src="https://cdn.shopify.com/s/files/1/2175/8571/files/Flipper_Zero_-_RFID_125KHz_13-56Mhz_MIFARE_Emulation_Cracking.webm?v=1660841703"></video></p>
+</div>
+</div>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Infrared Transceiver</h3>
+<p>The Flipper Zero has a powerful, fully programmable IR transceiver for IR signal capture and replay.</p>
+<p>Out of the box, it includes a fully featured signal library for hundreds of IR-controlled devices: TVs, Stereos, Air-Con, etc.</p>
+<p><video autoplay="autoplay" loop="loop">
+            <source src="https://cdn.shopify.com/s/files/1/2175/8571/files/Flipper_Zero_-_IR_Transceiver_-_Universal_Remote_Control.webm?v=1660841703"></video></p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>GPIO Pinouts</h3>
+<p>The GPIO Pinouts &amp; Breakout boards allow for controlling electronics directly via the Flipper.</p>
+<p>The Flipper can also be used as a USB to SPI/UART/I2C bridge for debugging, flashing and fuzzing.</p>
+<p><video autoplay="autoplay" loop="loop">
+            <source src="https://cdn.shopify.com/s/files/1/2175/8571/files/Flipper_Zero_-_GPIO.webm?v=1660841703"></video></p>
+</div>
+</div>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>HID Emulation</h3>
+<p>The Flipper Zero emulate HID devices (Keyboard, Ethernet, etc) over USB, allowing it to perform BadUSB / RubberDucky attacks.</p>
+<p>Users can easily upload and deploy scripts directly from the device for task automation, pentesting and more.</p>
+<p><video autoplay="autoplay" loop="loop">
+            <source src="https://cdn.shopify.com/s/files/1/2175/8571/files/Flipper_Zero_-_BadUSB_Rubber_Ducky.webm?v=1660841703"></video></p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Open Source &amp; Extendable</h3>
+<p>The Flipper Zero is Open-Source &amp; Open-Hardware: firmware, schematics, and desktop &amp; mobile tools are available to everyone.</p>
+<p>Extend your Flipper's capabilities with accessories - <a href="/collections/flipper-zero-accessories" target="_blank">check out the most popular</a>, or build your own!</p>
+<p><video autoplay="autoplay" loop="loop">
+            <source src="https://cdn.shopify.com/s/files/1/2175/8571/files/Flipper_Zero_-_Wifi_Card.webm?v=1660841703"></video></p>
+</div>
+</div>
+<h2><strong>Flipper Community and Ecosystem</strong></h2>
+<p>Flipper is backed by an incredibly talented and motivated team of engineers, programmers, hardware experts and artists, who are dedicated to building and maintaining a reliable, mature and long-term platform.</p>
+<p>Beyond its hardware capabilities, Flipper stays true to its geek origins: Flipper, the tamagotchi-esque dolphin and product mascot lives inside each device. Flipper thrives on experience: the more you use the device, the happier he becomes: just don't forget him, or you might learn why dolphin have teeth..</p>
+<p>The Flipper Zero is CE+FCC approved, robust built to withstand the bumps and bruises of daily use. Each device is backed by a <b>2-year warranty</b> and Lab401's fantastic customer support, should you ever have a problem.</p>
+<section id="flipper-video-carousel" aria-label="Flipper Zero videos">
+  <div class="zpvc-items" tabindex="0" role="region" aria-label="Video carousel: scroll horizontally for more videos">
+    <div class="zpvc-item zp-bubble-radius-lg">
+      <div class="video-player-wrapper">
+        <video class="zpvc-video" controls playsinline preload="metadata" width="606" height="1080" tabindex="0" aria-label="Flipper Zero video 1" poster="https://cdn.shopify.com/s/files/1/2175/8571/files/flipper-carousel-01.jpg?v=1791300045">
+          <source src="https://cdn.shopify.com/videos/c/o/v/e51cc641ebb54163af2fe408de0ebb13.mp4" type="video/mp4"></video>
+      </div>
+    </div>
+    <div class="zpvc-item zp-bubble-radius-lg">
+      <div class="video-player-wrapper">
+        <video class="zpvc-video" controls playsinline preload="metadata" width="606" height="1080" tabindex="0" aria-label="Flipper Zero video 2" poster="https://cdn.shopify.com/s/files/1/2175/8571/files/flipper-carousel-02.jpg?v=1791300045">
+          <source src="https://cdn.shopify.com/videos/c/o/v/f1f99c07c2444e6bbb0a62f63252b1bb.mp4" type="video/mp4"></video>
+      </div>
+    </div>
+    <div class="zpvc-item zp-bubble-radius-lg">
+      <div class="video-player-wrapper">
+        <video class="zpvc-video" controls playsinline preload="metadata" width="606" height="1080" tabindex="0" aria-label="Flipper Zero video 3" poster="https://cdn.shopify.com/s/files/1/2175/8571/files/flipper-carousel-03.jpg?v=1791300045">
+          <source src="https://cdn.shopify.com/videos/c/o/v/5a6bf3795e934154b7c6fdc3e3fd0425.mp4" type="video/mp4"></video>
+      </div>
+    </div>
+    <div class="zpvc-item zp-bubble-radius-lg">
+      <div class="video-player-wrapper">
+        <video class="zpvc-video" controls playsinline preload="metadata" width="606" height="1080" tabindex="0" aria-label="Flipper Zero video 4" poster="https://cdn.shopify.com/s/files/1/2175/8571/files/flipper-carousel-04.jpg?v=1791300045">
+          <source src="https://cdn.shopify.com/videos/c/o/v/d1224f8d3b5445139ffacf3cae18e143.mp4" type="video/mp4"></video>
+      </div>
+    </div>
+    <div class="zpvc-item zp-bubble-radius-lg">
+      <div class="video-player-wrapper">
+        <video class="zpvc-video" controls playsinline preload="metadata" width="606" height="1080" tabindex="0" aria-label="Flipper Zero video 5" poster="https://cdn.shopify.com/s/files/1/2175/8571/files/flipper-carousel-05.jpg?v=1791300045">
+          <source src="https://cdn.shopify.com/videos/c/o/v/b4cc3ea7fb514c55ab64a03e22b1d5f4.mp4" type="video/mp4"></video>
+      </div>
+    </div>
+    <div class="zpvc-item zp-bubble-radius-lg">
+      <div class="video-player-wrapper">
+        <video class="zpvc-video" controls playsinline preload="metadata" width="606" height="1080" tabindex="0" aria-label="Flipper Zero video 6" poster="https://cdn.shopify.com/s/files/1/2175/8571/files/flipper-carousel-06.jpg?v=1791300045">
+          <source src="https://cdn.shopify.com/videos/c/o/v/ed02331776b74d198b6874b76fc616af.mp4" type="video/mp4"></video>
+      </div>
+    </div>
+    <div class="zpvc-item zp-bubble-radius-lg">
+      <div class="video-player-wrapper">
+        <video class="zpvc-video" controls playsinline preload="metadata" width="606" height="1080" tabindex="0" aria-label="Flipper Zero video 7" poster="https://cdn.shopify.com/s/files/1/2175/8571/files/flipper-carousel-07.jpg?v=1791300045">
+          <source src="https://cdn.shopify.com/videos/c/o/v/7877cb68c95e476d87f8f6ee4ed4856f.mp4" type="video/mp4"></video>
+      </div>
+    </div>
+    <div class="zpvc-item zp-bubble-radius-lg">
+      <div class="video-player-wrapper">
+        <video class="zpvc-video" controls playsinline preload="metadata" width="606" height="1080" tabindex="0" aria-label="Flipper Zero video 8" poster="https://cdn.shopify.com/s/files/1/2175/8571/files/flipper-carousel-08.jpg?v=1791300045">
+          <source src="https://cdn.shopify.com/videos/c/o/v/6601ce90de6b47b495977eb566aff85c.mp4" type="video/mp4"></video>
+      </div>
+    </div>
+  </div>
+</section>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<p><strong>Basic Pack<br></strong></p>
+<ul>
+<li>1x Flipper Zero</li>
+<li>1x USB-A - USB-C Cable</li>
+</ul>
+<p><strong>Standard Pack</strong></p>
+<ul>
+<li>1x Flipper Zero</li>
+<li>1x Flipper Compatible 8GB microSD card</li>
+<li>1x Silicone Protective Case</li>
+<li>3x Screen Protectors</li>
+</ul>
+<p><strong>Complete Pack</strong></p>
+<ul>
+<li>1x Flipper Zero</li>
+<li>1x Flipper Compatible 8GB microSD card</li>
+<li>1x Silicone Protective Case</li>
+<li>1x Video Game Module</li>
+<li>1x Wifi Dev Board</li>
+<li>3x GPIO Prototyping Boards</li>
+<li>3x Screen Protectors</li>
+</ul>
+<h2><strong>Device Specifications<br></strong></h2>
+<ul>
+<li>
+<strong>Screen:</strong> 128x64 1.4" LCD Monochrome (Backlit)<br>
+</li>
+<li>
+<strong>Tactile Controls</strong>: 5-Way Direction Pad + Select Button</li>
+<li>
+<strong>Internal Battery:</strong> LiPo 2000mAh (7-days without charge)<br><br>
+</li>
+<li><strong>CPU:</strong></li>
+<ul>
+<li>STM32WB55RG</li>
+<li>ARM Cortex-M4 32-bit 64 MHz (Application Processor)<br>
+</li>
+<li>ARM Cortex-M0+ 32 MHz (Network Processor)<br><br>
+</li>
+</ul>
+<li>
+<strong>Buzzer:</strong> 100-2500Hz</li>
+<li><strong>Vibration Motor</strong></li>
+<li>
+<strong>Memory:</strong> 1024KB Flash, 256KB SRAM</li>
+<li>
+<strong>Storage:</strong> MicroSD (Up to 64GB)<br>
+</li>
+<li>
+<strong>Connectivity:</strong> USB 2.0, Type-C<br><br>
+</li>
+<li>
+<strong>Dimensions:</strong> 100 x 40 x 25 mm<br>
+</li>
+<li>
+<strong>Weight:</strong> 102g</li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>Module Specifications<br></strong></h2>
+<ul>
+<li><strong>RF:</strong></li>
+<ul>
+<li>Chipset: TI CC1101</li>
+<li>Frequency bands: 315MHz, 433MHz, 868MHz, 915MHz</li>
+<li>TX Power: 0dBm Max (~100m transmit range)<br>
+</li>
+</ul>
+<li>
+<strong>RFID:</strong> <br>
+</li>
+<ul>
+<li>High Frequency / 13.56MHz</li>
+<ul>
+<li>ISO-14443A/B</li>
+<li>NXP Mifare® Classic/Ultralight/DESFire/etc</li>
+<li>FeliCa™</li>
+<li>NFC Forum protocols</li>
+</ul>
+<li>Low Frequency / 125KHz</li>
+<ul>
+<li>Modulation: AM / PSK / FSK</li>
+<li>Supported Cards: EM400x, EM410x, EM420x</li>
+<li>HIDProx, Indala</li>
+<li>T5577<br>
+</li>
+</ul>
+</ul>
+<li><strong>GPIO:</strong></li>
+<ul>
+<li>3.3v CMOS Level</li>
+<li>5V tolerant</li>
+<li>Up to 20mA per digital pin<br>
+</li>
+</ul>
+<li><strong>Infrared:</strong></li>
+<ul>
+<li>RX/TX Frequency: 800-950nm</li>
+<li>TX Power: 300 mW<br>
+</li>
+</ul>
+<li><strong>Bluetooth:</strong></li>
+<ul>
+<li>Bluetooth LE 5.0</li>
+<li>TX Power: 0dBm Max</li>
+<li>RX Sensitivity: -96dBm</li>
+<li>Data Rate: 2 Mbps<br>
+</li>
+</ul>
+<li><strong>iButton 1-Wire:</strong></li>
+<ul>
+<li>Dallas DS1990A</li>
+<li>CYFRAL<br>
+</li>
+</ul>
+</ul>
+</div>
+</div>
+<div style="margin-top: 1em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>Technical Resources<br></strong></h2>
+<ul>
+<li><a href="https://flipper.net/pages/downloads" title="Flipper Zero Official Firmware Update" target="_blank">Firmware Update</a></li>
+<li><a href="https://forum.flipper.net/" title="Flipper Zero Official Forum" target="_blank">Flipper Zero Forum</a></li>
+<li><a href="https://docs.flipper.net/zero" title="Flipper Zero Documentation" target="_blank">Flipper Zero Official Documentation</a></li>
+<li>
+<a href="https://flipp.dev/discord" title="Official Flipper Zero Discord" target="_blank">Flipper Zero Official Discord</a><br>
+</li>
+<li><a href="https://github.com/flipperdevices" title="Flipper Zero Source Code / Official GitHub" target="_blank">Official Github</a></li>
+<li><a href="https://cdn.shopify.com/s/files/1/2175/8571/files/GPIO_Pinout.jpg?v=1652983900" title="Flipper Zero GPIO Pinout" target="_blank">GPIO / Pinout Diagram</a></li>
+</ul>
+</div>
+<h2><strong>Shipping &amp; Warranty</strong></h2>
+<ul>
+<li>Ships worldwide from our <b>EU or US warehouse</b> to minimise shipping shipping and import duties.</li>
+<li>Backed by a <b>2-year warranty</b>
+</li>
+<li>
+<b>Need help?</b> 100% Human customer support available at <a href="mailto:support@lab401.com"><b>support@lab401.com</b></a>
+</li>
+</ul>
+</div>
+<div class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>LinusTechTips Talks Flipper Zero</h3>
+<figure>
+   <video lite-youtube="" videoid="nLIp4wd0oXs" posterquality="maxresdefault" params="rel=0" class="rounded"></video>
+</figure>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Adam Savage tests the Flipper Zero</h3>
+<figure>
+   <video lite-youtube="" videoid="c8q2YVRiOAE" posterquality="maxresdefault" params="rel=0" class="rounded"></video>
+</figure>
+</div>
+</div>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>FlipperZero: First Steps</h3>
+<figure>
+   <video lite-youtube="" videoid="KeFrVW2VE4M" posterquality="maxresdefault" params="rel=0" class="rounded"></video>
+</figure>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>FlipperZero: In depth functionality</h3>
+<figure>
+   <video lite-youtube="" videoid="VF3xlAm_tdo" posterquality="maxresdefault" params="rel=0" class="rounded"></video>
+</figure>
+</div>
+</div>
+</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Flipper</s:tag>
+    <s:tag>Flipper Zero</s:tag>
+    <s:tag>FlipperZero</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/7790553465062</id>
+      <title>Basic</title>
+      <s:price currency="EUR">149.17</s:price>
+      <s:sku>FLP-Z-W-R04</s:sku>
+      <s:grams>154</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/7790553465062</id>
+      <title>Standard</title>
+      <s:price currency="EUR">186.67</s:price>
+      <s:sku>FLIPPERZERO-STANDARD-PACK</s:sku>
+      <s:grams>205</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/7790553465062</id>
+      <title>Complete</title>
+      <s:price currency="EUR">274.08</s:price>
+      <s:sku>FLIPPERZERO-COMPLETE-PACK</s:sku>
+      <s:grams>310</s:grams>
+    </s:variant>
+  </entry>
+</feed>

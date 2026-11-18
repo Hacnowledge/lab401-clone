@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lab401.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://lab401.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://lab401.com/collections/subghz-tools-spectrum-analysers.atom"/>
+  <title>Lab401</title>
+  <updated>2026-09-09T15:43:06+02:00</updated>
+  <author>
+    <name>Lab401</name>
+  </author>
+  <entry>
+    <id>https://lab401.com/products/9594964967771</id>
+    <published>2026-09-09T15:43:06+02:00</published>
+    <updated>2026-09-09T15:43:06+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/portapack-h4m-pro"/>
+    <title>PortaPack H4M Pro</title>
+    <s:type>RF</s:type>
+    <s:vendor>OpenSource SDR</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/PortaPack---H4M-Pro---Front.png?v=1785152197"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>OpenSource SDR<br>
+        <strong>Type: </strong>RF<br>
+        <strong>Price: </strong>
+            280.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>The <b>PortaPack H4M Pro</b> is a stand-alone, all-in-one portable SDR device based on the <strong>latest HackRF Pro framework.</strong> The pre-flashed MAYHEM firmware provides vital out-of-the-box functionality for pentesters: Receive / Transmit / Replay / Scan, with dozens of baked in high-level functions: Real-time Spectrum Monitoring, Key-Fob demodulation, ADS-B/AIS, Bluetooth, and much, much more.</p>
+<p>This <strong>all-in-one device includes the HackRF Pro + PortaPack </strong>in a fully-assembled, rugged injection molded ABS case - no extra hardware, cables, modification or soldering required.</p>
+<p>While the HackRF One redefined the pentest/hacker community as a completely affordable, hugely capable, open-source SDR device - it required an external computer, software and advanced knowledge to use. The H4M gives you the power of the HackRF - it's still usable directly - but also the flexibility of a compact, rugged device that requires no external devices.</p>
+<p><em>This product is not made by Great Scott Gadgets. The trademark “HackRF” is used by permission.</em></p>
+<figure style="margin-top:2em; margin-bottom:2em">
+   <video lite-youtube="" videoid="n-khaJyY50Y" posterquality="maxresdefault" params="rel=0"></video>
+</figure>
+<h2><strong>H4M Pro Advantages</strong></h2>
+<p>The PortaPack H4M Pro is a truly integrated, truly portable SDR laboratory. Based on the latest HackRF Pro architecture, the Portapack H4M Pro has multiple advantages over previous versions:</p>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left product-image-container">
+<img src="https://cdn.shopify.com/s/files/1/2175/8571/files/PortaPack---H4M-Pro---Front-Float-2.png?v=1785076266" alt="">
+<ul class="markers-list">
+<li class="feature-marker" data-feature-id="1" data-x="47" data-y="14">1</li>
+<li class="feature-marker" data-feature-id="2" data-x="65" data-y="2">2</li>
+<li class="feature-marker" data-feature-id="3" data-x="27" data-y="75">3</li>
+<li class="feature-marker" data-feature-id="4" data-x="39" data-y="53">4</li>
+<li class="feature-marker" data-feature-id="5" data-x="3" data-y="57">5</li>
+<li class="feature-marker" data-feature-id="6" data-x="97" data-y="53">6</li>
+</ul>
+</div>
+<div style="text-align: start;" class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<div class="feature-item" data-feature-id="1">
+<h3>1. Remastered Hardware</h3>
+<p>Increased operating frequency, memory, precision. Improved shielding, better RF performance, on-board FPGA.</p>
+</div>
+<div class="feature-item" data-feature-id="2">
+<h3>2. Expanded Frequency</h3>
+<p>The H4M Pro now operates natively between 100kHz and 6GHz</p>
+</div>
+<div class="feature-item" data-feature-id="3">
+<h3>3. Integrated TCXO</h3>
+<p>Use the internal TXCO, or external clocks via the dual clock SMA connectors for synchronising multiple devices.</p>
+</div>
+<div class="feature-item" data-feature-id="4">
+<h3>4. Improved RF Shielding &amp; Antenna Protection</h3>
+<p>Greatly increased RF Shielding for perfect reception; integrated antenna surge-protection</p>
+</div>
+<div class="feature-item" data-feature-id="5">
+<h3>5. Replacable Battery (included)</h3>
+<p>The industry-standard 18650 battery can be swapped in seconds - meaning you'll never run out of power.</p>
+</div>
+<div class="feature-item" data-feature-id="6">
+<h3>6. Everything Onboard</h3>
+<p>Integrated touchscreen, speaker, microphone and tactile navigation wheel for fully untethered operations.</p>
+</div>
+</div>
+</div>
+<div style="margin-top: 2em;" class="grid">
+<h2>Functionality at a glance</h2>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Signal Capture</h3>
+<p>Easily perform raw signal capture - for instant replay, or for offline demodulation, analysis and modification.</p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Signal Replay</h3>
+<p>Oranised and Replay raw signals - directly after capture, or from the SD card or from otther sources.</p>
+</div>
+</div>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Signal Detection</h3>
+<p>Detect and identify the frequency of nearby transmission sources. Useful for reconaissance and identifcation.</p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Frequency Scanner</h3>
+<p>Constantly scan a configurable range of frequencies to consecutively or in parallel.</p>
+</div>
+</div>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>In-built Apps</h3>
+<p>Dozens of inbuilt applications, such as real-time ADB-S scanner, GPS-Simulator, TPMS decoders.. and more</p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Signal Generator</h3>
+<p>Generate customised signals - and even spectrum outputs - for device configuration &amp; testing or even fuzzing.</p>
+</div>
+</div>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Custom Apps</h3>
+<p>Open-source hardware and software and an active community - with support for custom applications.</p>
+</div>
+<div style="text-align: start;" class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>HackRF Pro Mode</h3>
+<p>Naturally - you still have direct access to the HackRF - with full support for all common SDR tools - GNU Radio etc.</p>
+</div>
+</div>
+<div style="margin-top: 2em;" class="grid">
+<h2>Detailed functionality</h2>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<p><strong>Receive:</strong></p>
+<ul>
+<li>
+<strong>Sniff &amp; Capture</strong>: Sniff &amp; capture easily for instant replay, or save to the SD card for demodulation, analysis and modification.<br>
+</li>
+<li>
+<strong>ADS-B</strong>: Receive and analyse ADS-B (Aviation) Signals, with the ability to display real-time locations on a map.<br>
+</li>
+<li>
+<strong>AIS</strong>: Receive and analyse AIS (Marine) Signals<br>
+</li>
+<li>
+<strong>AFSK</strong>: Receive, demodulate and analyse AFSK Signals<br>
+</li>
+<li>
+<strong>Bluetooth:</strong> Sniff MAC addresses of BLE devices<br>
+</li>
+<li>
+<strong>NRF:</strong> Decode NRF24L01 signals, commonly used for drones</li>
+<li>
+<strong>Audio</strong>: Decode WFM/NFM/AM</li>
+<li>
+<strong>Spectrum Analyser:</strong> Waterfall spectrum analyser for detecting signals</li>
+<li>
+<strong>Analog TV:</strong> Decode and watch Analog TV signals, commonly used on FPV drones</li>
+<li>
+<strong>ERT Meters:</strong> Decode ERT Meter signals</li>
+<li>
+<strong>POCSAG:</strong> Sniff and decode pager signals</li>
+<li>
+<strong>Radiosonde:</strong> Sniff and decode RadioSonde signals, commonly used in weather stations</li>
+<li>
+<strong>TPMS:</strong> Decode TPMS sensors (used in car tires)</li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<p><strong>Transmit:</strong></p>
+<ul>
+<li>
+<strong>ADS-B</strong>: Real-time Capture &amp; Analysis of ADS-B (Aviation) Signals</li>
+<li>
+<strong>APRS: </strong>Capture and craft APRS packets, commonly used for weather stations and other various telemetry</li>
+<li>
+<strong>GPS:</strong> Audit &amp; analyse GPS signals</li>
+<li>
+<strong>Key Fob:</strong> Key-fob capture, replay and emulation for multiple models of remotes</li>
+<li>
+<strong>Morse Code:</strong> Morse code transmission tool</li>
+<li>
+<strong>Burger Pager: </strong>Decode "Burger Pager" (Restaurant pager) signals</li>
+<li>
+<strong>POCSAG: </strong>Send Pager signals</li>
+<li>
+<strong>SSTV: </strong>Send SSTV Signals</li>
+<li>
+<strong>RDS:</strong> Send RDS messages</li>
+<li>
+<strong>OOK: </strong>Send OOK Packages</li>
+</ul>
+</div>
+</div>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>Device Specifications<br></strong></h2>
+<ul>
+<li>
+<strong>Screen:</strong> LCD Touch Screen<br>
+</li>
+<li>
+<strong>Tactile Controls</strong>: Arrow Keys, Rotary Wheel, Select Buttons</li>
+<li>
+<strong>Headphone / Mic Socket: </strong>3.5mm headphone / microphone jack</li>
+<li>
+<strong>Internal Coin Battery:</strong> Coin battery for RTC &amp; Settings storage</li>
+<li>
+<strong>MicroSD Card Slot:</strong> For data import / export</li>
+<li>
+<strong>Case:</strong> Transluscent ABS</li>
+<li>
+<strong>Battery:</strong> 18650 (Included)</li>
+</ul>
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>
+<strong>1x PortaPack H4M Pro</strong> (HackRF Pro + PortaPack H4M Pro v1.2.1)</li>
+<li>
+<strong>1x 18650 Rechargeable Li-ion Battery</strong> (9250mWh, Replaceable)</li>
+<li>1x USB-A to USB-C 3.0 Cable</li>
+<li>1x 75MHz - 1GHz Telescopic Antenna</li>
+<li>1x 40MHz - 6GHz Telescopic Antenna</li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>Compatible Systems</strong></h2>
+<ul>
+<li>Windows/macOS/Linux/Android (Specific Builds)</li>
+<li>GNU Radio / GQRX / SDR#, SDR Console, Universal Radio Hacker etc</li>
+</ul>
+<h2><strong>PortaPack Resources</strong></h2>
+<strong>Lab401 Academy Tutorials</strong>
+<ul>
+<li><a href="https://lab401.com/blogs/academy/first-steps-with-the-portapack-h4m-pro" target="_blank">H4M Pro: First steps - Flashing, Testing and What's New</a></li>
+</ul>
+<strong>Official Manufacturer Links<br></strong>
+<ul>
+<li><a href="https://blog.opensourcesdrlab.com/archives/hackrf-pro-h4m-pro" target="_blank">Manufacturer H4M Pro Quickstart Guide</a></li>
+<li><a href="https://t.me/OpenSourceSDRLab" target="_blank">Official Support Telegram Group</a></li>
+</ul>
+<ul>
+<li><a href="https://github.com/portapack-mayhem/mayhem-firmware/releases" target="_blank">Mayhem Firmware Repository</a></li>
+<li><a href="https://github.com/orgs/OpenSourceSDRLab/discussions/5" target="_blank">Official Firmware Repository</a></li>
+</ul>
+<strong>PortaPack Tutorials<br></strong>
+<ul>
+<li><a href="https://www.youtube.com/@sn0ren" target="_blank">@sn0ren's SDR YouTube Channel</a></li>
+<li><a href="https://www.youtube.com/watch?v=xGR_PMD9LeU" target="_blank">HackRF 101: Day One, Basics</a></li>
+</ul>
+</div>
+</div>
+<div class="l401-notice">
+<p><b>WARNING ⚠️ Understand your responsibilities</b></p>
+<p>The PortaPack H4M is a wide-band radio device, with transceiver capabilities.<br>
+The EU Radio Equipment Directive (2014/53/EU) Annex I places custom-built evaluation kits outside its scope for professional use in research and development contexts.</p>
+<p>Restrictions for transmitting <i>and receiving</i> vary. You are responsible for ensuring that your possession and use of these devices complies with the law in your jurisdiction.</p>
+<p><b>Receiving</b>: Several countries restrict monitoring outside broadcast and amateur allocations, and a few restrict what you may do with what you hear. Check the rules where you are before you tune.</p>
+<p><b>Transmitting</b>: Transmit only on bands you are licensed for, at or below the power your license and national regulations allow. Where you hold no license for a band, work with a dummy load, a shielded enclosure, or a cabled and attenuated link so that nothing reaches the air.</p>
+</div>
+<div class="l401-notice">
+<p><b>WARNING ⚠️ Before you tune or transmit</b></p>
+<p>Never tune or transmit your device without an antenna or balanced dummy load. Doing so can <b>permanently damage</b> your device and void your warranty. Please refer to the below videos for further information on how to appropriately setup your device.</p>
+</div>
+<h3>PortaPack: Beginner's guide</h3>
+<figure>
+   <video lite-youtube="" videoid="n7N7G_9tj9w" posterquality="maxresdefault" params="rel=0"></video>
+</figure>
+<h3>PortaPack Antennas: Learn, build, understand with @sn0ren</h3>
+<figure>
+   <video lite-youtube="" videoid="wUE8DI61s60" posterquality="maxresdefault" params="rel=0"></video>
+</figure>
+</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>gnuradio</s:tag>
+    <s:tag>gps</s:tag>
+    <s:tag>hackrf</s:tag>
+    <s:tag>public</s:tag>
+    <s:tag>sdr</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/9594964967771</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">280.00</s:price>
+      <s:sku>PORTAPACK-H4M-PRO</s:sku>
+      <s:grams>301</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/9707173216603</id>
+    <published>2025-02-12T07:27:56+01:00</published>
+    <updated>2025-02-12T07:27:56+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/tinysa-ultra"/>
+    <title>TinySA Ultra+</title>
+    <s:type>SDR</s:type>
+    <s:vendor>Zeenko</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/TinySA-Ultra-Plus.png?v=1737551515"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Zeenko<br>
+        <strong>Type: </strong>SDR<br>
+        <strong>Price: </strong>
+            163.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h3>Introduction</h3>
+<p>Spectrum Analysers allow you to observe radio signals visually in real-time.</p>
+<p>For pentesters working with RF, Remotes or IoT, this tool allows you to quickly identify a target device's frequency, so you can prepare an appropriate attack: A classic example would be to identify the frequency of a target remote control: 30MHz, 433MHz or 866MHz.</p>
+<p>The TinySA is an affordable, pocket-sized portable powerhouse, working from 100kHz to to 960MHz. On the go, use its touchscreen - at the desk, it connects to your workstation expanded functionality. <br></p>
+<p>The TinySA also has a built-in signal generator (useful for tests, or even close-range roll-jam functionality) capable of generating sine &amp; square-wave signals from 0.1MHz - 950MHz.<br></p>
+<p>As an Open Source device, there are multiple versions available. Lab401 stocks the <strong>TinySA Ultra Plus</strong> - the most recent, powerful and CE compliant version.<br></p>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Portable</h3>
+Pocket-sized with internal battery &amp; touch-screen.<br>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Powerful</h3>
+Desktop &amp; mobile apps provide extra functionality.<br>
+</div>
+</div>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>Device Specifications<br></strong></h2>
+<ul>
+<li>
+<strong>Frequency Range: </strong>100kHz - 900MHz, 5.4GHz in Ultra mode, 10GHz in Harmonic Mode<br>
+</li>
+<li>
+<strong>Bandpass Filters:</strong> 2.6KHz - 640KHz</li>
+<li>
+<strong>Inbuilt Attenuator:</strong> -31dB &gt; 0dB</li>
+<li>
+<strong>Resolution:</strong> 200kHz to 850KHz</li>
+<li>
+<strong>Display Points Per Scan:</strong> up to 450</li>
+<li>
+<strong>Signal Generator</strong>:
+<ul>
+<li>
+<strong>Sine</strong>: 0.1MHz - 350MHz</li>
+<li>
+<strong>Square:</strong> 250MHz - 960MHz</li>
+</ul>
+</li>
+<li>
+<strong>Calibration:</strong> Automatic</li>
+<li>
+<strong>Display: </strong>4" Touchscreen 480x320 TFT</li>
+<li>
+<strong>Dimensions: </strong>117mm x 72mm x 22mm <br>
+</li>
+<li>
+<strong>Connectivity: </strong>USB-C</li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<ul>
+<li>1x TinySA Ultra+<br>
+</li>
+<li>1x Telescopic SMA Antenna</li>
+<li>1x Female-Female SMA through connector<br>
+</li>
+<li>2x SMA Male-Male extension cables</li>
+<li>1x USB-A to USB-C Cable<br>
+</li>
+</ul>
+<h2><strong>Technical Resources<br></strong></h2>
+<ul>
+<li><a rel="noopener" href="https://tinysa.org/wiki/pmwiki.php?n=Main.HomePage" target="_blank">TinySA : Wiki</a></li>
+<li><a rel="noopener" href="http://athome.kaashoek.com/tinySA/DFU/" target="_blank">TinySA : Firmware Updates</a></li>
+<li><a rel="noopener" href="https://tinysa.org/wiki/pmwiki.php?n=Main.TechnicalDescription" target="_blank">TinySA : Block Diagram</a></li>
+<li><a rel="noopener" href="https://tinysa.org/wiki/pmwiki.php?n=Main.Specification" target="_blank">TinySA : Full Technical Details</a></li>
+<li><a href="https://github.com/erikkaashoek/tinySA" target="_blank">TinySA : GitHub Repo</a></li>
+</ul>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>RF</s:tag>
+    <s:tag>sdr</s:tag>
+    <s:tag>Spectrum Analyser</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/9707173216603</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">163.00</s:price>
+      <s:sku>TINYSA-ULTRAPLUS</s:sku>
+      <s:grams>300</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lab401.com/products/7790553465062</id>
+    <published>2022-06-23T08:59:23+02:00</published>
+    <updated>2022-06-23T08:59:23+02:00</updated>
+    <link rel="alternate" type="text/html" href="https://lab401.com/products/flipper-zero"/>
+    <title>Flipper Zero</title>
+    <s:type>Pen Testing</s:type>
+    <s:vendor>Flipper Zero</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/2175/8571/files/Flipper-Zero---Front.png?v=1773345630"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Flipper Zero<br>
+        <strong>Type: </strong>Pen Testing<br>
+        <strong>Price: </strong>
+            149.17 - 274.08
+            <a href="https://lab401.com/products/flipper-zero">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>The Flipper Zero is the ultimate multi-tool for pentesters, geeks, ethical hackers and hardware hobbyists alike. One pocket-sized device combines multiple tools: RFID, RF, Infrared, HID emulation, GPIO, Hardware debugging, 1-Wire, Bluetooth, Wifi and more.<br></p>
+<p>Inspired by great open-source projects: Proxmark, HydraNFC, Rubber Ducky, pwnagotchi - the Flipper Zero manages to pack serious functionality into a tiny, professionally manufactured device - and stays true to its Open Source roots.</p>
+<p>Entirely independent, the Flipper Zero requires no external computer or hardware to function - everything is driven by the its 5-way navigation button and LCD screen. When connected to a computer or the included Android / iOS apps, the Flipper can be extended, modified, upgraded and reflashed according to your needs.</p>
+<p>With over two years of meticulous design, prototyping and iteration, the Flipper Zero is a mature platform, ready to use out of the box, meeting the needs of professionals and enthusiasts alike.</p>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>RF Transceiver</h3>
+<p>The Flipper Zero contains a fully-controllable RF platform, based on the TI CC1101 chip, allowing for RF Signal capture, analysis and transmission.</p>
+<p>The Flipper Zero has a built-in library of common remote control algorithms for capturing, decoding and analysing and replaying signals.</p>
+<p>Users have <b>full access</b> to the radio sub-system, allowing custom RF modules to be easily built.</p>
+<p><video autoplay="autoplay" loop="loop">
+            <source src="https://cdn.shopify.com/s/files/1/2175/8571/files/FlipperZero_-_SDR_-_RF_Capture_Replay.webm?v=1660841703"></video></p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>RFID Reader/Writer/Emulator</h3>
+<p>The Flipper Zero allows for Reading, Writing and Emulation of both High-Frequency (13.56MHz) and Low-Frequency (125KHz) RFID tags.</p>
+<p><b>Low Frequency</b> tags can be easily read, saved, cloned to a new card, or exported for analysis.</p>
+<p>Multiple <b>High Frequency</b> protocols are supported, and the Flipper Zero can even sniff authentification nonces to extract unknown MIFARE keys.</p>
+<p><video autoplay="autoplay" loop="loop">
+            <source src="https://cdn.shopify.com/s/files/1/2175/8571/files/Flipper_Zero_-_RFID_125KHz_13-56Mhz_MIFARE_Emulation_Cracking.webm?v=1660841703"></video></p>
+</div>
+</div>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Infrared Transceiver</h3>
+<p>The Flipper Zero has a powerful, fully programmable IR transceiver for IR signal capture and replay.</p>
+<p>Out of the box, it includes a fully featured signal library for hundreds of IR-controlled devices: TVs, Stereos, Air-Con, etc.</p>
+<p><video autoplay="autoplay" loop="loop">
+            <source src="https://cdn.shopify.com/s/files/1/2175/8571/files/Flipper_Zero_-_IR_Transceiver_-_Universal_Remote_Control.webm?v=1660841703"></video></p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>GPIO Pinouts</h3>
+<p>The GPIO Pinouts &amp; Breakout boards allow for controlling electronics directly via the Flipper.</p>
+<p>The Flipper can also be used as a USB to SPI/UART/I2C bridge for debugging, flashing and fuzzing.</p>
+<p><video autoplay="autoplay" loop="loop">
+            <source src="https://cdn.shopify.com/s/files/1/2175/8571/files/Flipper_Zero_-_GPIO.webm?v=1660841703"></video></p>
+</div>
+</div>
+<div class="grid" style="margin-top: 2em;">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>HID Emulation</h3>
+<p>The Flipper Zero emulate HID devices (Keyboard, Ethernet, etc) over USB, allowing it to perform BadUSB / RubberDucky attacks.</p>
+<p>Users can easily upload and deploy scripts directly from the device for task automation, pentesting and more.</p>
+<p><video autoplay="autoplay" loop="loop">
+            <source src="https://cdn.shopify.com/s/files/1/2175/8571/files/Flipper_Zero_-_BadUSB_Rubber_Ducky.webm?v=1660841703"></video></p>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Open Source &amp; Extendable</h3>
+<p>The Flipper Zero is Open-Source &amp; Open-Hardware: firmware, schematics, and desktop &amp; mobile tools are available to everyone.</p>
+<p>Extend your Flipper's capabilities with accessories - <a href="/collections/flipper-zero-accessories" target="_blank">check out the most popular</a>, or build your own!</p>
+<p><video autoplay="autoplay" loop="loop">
+            <source src="https://cdn.shopify.com/s/files/1/2175/8571/files/Flipper_Zero_-_Wifi_Card.webm?v=1660841703"></video></p>
+</div>
+</div>
+<h2><strong>Flipper Community and Ecosystem</strong></h2>
+<p>Flipper is backed by an incredibly talented and motivated team of engineers, programmers, hardware experts and artists, who are dedicated to building and maintaining a reliable, mature and long-term platform.</p>
+<p>Beyond its hardware capabilities, Flipper stays true to its geek origins: Flipper, the tamagotchi-esque dolphin and product mascot lives inside each device. Flipper thrives on experience: the more you use the device, the happier he becomes: just don't forget him, or you might learn why dolphin have teeth..</p>
+<p>The Flipper Zero is CE+FCC approved, robust built to withstand the bumps and bruises of daily use. Each device is backed by a <b>2-year warranty</b> and Lab401's fantastic customer support, should you ever have a problem.</p>
+<section id="flipper-video-carousel" aria-label="Flipper Zero videos">
+  <div class="zpvc-items" tabindex="0" role="region" aria-label="Video carousel: scroll horizontally for more videos">
+    <div class="zpvc-item zp-bubble-radius-lg">
+      <div class="video-player-wrapper">
+        <video class="zpvc-video" controls playsinline preload="metadata" width="606" height="1080" tabindex="0" aria-label="Flipper Zero video 1" poster="https://cdn.shopify.com/s/files/1/2175/8571/files/flipper-carousel-01.jpg?v=1791300045">
+          <source src="https://cdn.shopify.com/videos/c/o/v/e51cc641ebb54163af2fe408de0ebb13.mp4" type="video/mp4"></video>
+      </div>
+    </div>
+    <div class="zpvc-item zp-bubble-radius-lg">
+      <div class="video-player-wrapper">
+        <video class="zpvc-video" controls playsinline preload="metadata" width="606" height="1080" tabindex="0" aria-label="Flipper Zero video 2" poster="https://cdn.shopify.com/s/files/1/2175/8571/files/flipper-carousel-02.jpg?v=1791300045">
+          <source src="https://cdn.shopify.com/videos/c/o/v/f1f99c07c2444e6bbb0a62f63252b1bb.mp4" type="video/mp4"></video>
+      </div>
+    </div>
+    <div class="zpvc-item zp-bubble-radius-lg">
+      <div class="video-player-wrapper">
+        <video class="zpvc-video" controls playsinline preload="metadata" width="606" height="1080" tabindex="0" aria-label="Flipper Zero video 3" poster="https://cdn.shopify.com/s/files/1/2175/8571/files/flipper-carousel-03.jpg?v=1791300045">
+          <source src="https://cdn.shopify.com/videos/c/o/v/5a6bf3795e934154b7c6fdc3e3fd0425.mp4" type="video/mp4"></video>
+      </div>
+    </div>
+    <div class="zpvc-item zp-bubble-radius-lg">
+      <div class="video-player-wrapper">
+        <video class="zpvc-video" controls playsinline preload="metadata" width="606" height="1080" tabindex="0" aria-label="Flipper Zero video 4" poster="https://cdn.shopify.com/s/files/1/2175/8571/files/flipper-carousel-04.jpg?v=1791300045">
+          <source src="https://cdn.shopify.com/videos/c/o/v/d1224f8d3b5445139ffacf3cae18e143.mp4" type="video/mp4"></video>
+      </div>
+    </div>
+    <div class="zpvc-item zp-bubble-radius-lg">
+      <div class="video-player-wrapper">
+        <video class="zpvc-video" controls playsinline preload="metadata" width="606" height="1080" tabindex="0" aria-label="Flipper Zero video 5" poster="https://cdn.shopify.com/s/files/1/2175/8571/files/flipper-carousel-05.jpg?v=1791300045">
+          <source src="https://cdn.shopify.com/videos/c/o/v/b4cc3ea7fb514c55ab64a03e22b1d5f4.mp4" type="video/mp4"></video>
+      </div>
+    </div>
+    <div class="zpvc-item zp-bubble-radius-lg">
+      <div class="video-player-wrapper">
+        <video class="zpvc-video" controls playsinline preload="metadata" width="606" height="1080" tabindex="0" aria-label="Flipper Zero video 6" poster="https://cdn.shopify.com/s/files/1/2175/8571/files/flipper-carousel-06.jpg?v=1791300045">
+          <source src="https://cdn.shopify.com/videos/c/o/v/ed02331776b74d198b6874b76fc616af.mp4" type="video/mp4"></video>
+      </div>
+    </div>
+    <div class="zpvc-item zp-bubble-radius-lg">
+      <div class="video-player-wrapper">
+        <video class="zpvc-video" controls playsinline preload="metadata" width="606" height="1080" tabindex="0" aria-label="Flipper Zero video 7" poster="https://cdn.shopify.com/s/files/1/2175/8571/files/flipper-carousel-07.jpg?v=1791300045">
+          <source src="https://cdn.shopify.com/videos/c/o/v/7877cb68c95e476d87f8f6ee4ed4856f.mp4" type="video/mp4"></video>
+      </div>
+    </div>
+    <div class="zpvc-item zp-bubble-radius-lg">
+      <div class="video-player-wrapper">
+        <video class="zpvc-video" controls playsinline preload="metadata" width="606" height="1080" tabindex="0" aria-label="Flipper Zero video 8" poster="https://cdn.shopify.com/s/files/1/2175/8571/files/flipper-carousel-08.jpg?v=1791300045">
+          <source src="https://cdn.shopify.com/videos/c/o/v/6601ce90de6b47b495977eb566aff85c.mp4" type="video/mp4"></video>
+      </div>
+    </div>
+  </div>
+</section>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>What's included</strong></h2>
+<p><strong>Basic Pack<br></strong></p>
+<ul>
+<li>1x Flipper Zero</li>
+<li>1x USB-A - USB-C Cable</li>
+</ul>
+<p><strong>Standard Pack</strong></p>
+<ul>
+<li>1x Flipper Zero</li>
+<li>1x Flipper Compatible 8GB microSD card</li>
+<li>1x Silicone Protective Case</li>
+<li>3x Screen Protectors</li>
+</ul>
+<p><strong>Complete Pack</strong></p>
+<ul>
+<li>1x Flipper Zero</li>
+<li>1x Flipper Compatible 8GB microSD card</li>
+<li>1x Silicone Protective Case</li>
+<li>1x Video Game Module</li>
+<li>1x Wifi Dev Board</li>
+<li>3x GPIO Prototyping Boards</li>
+<li>3x Screen Protectors</li>
+</ul>
+<h2><strong>Device Specifications<br></strong></h2>
+<ul>
+<li>
+<strong>Screen:</strong> 128x64 1.4" LCD Monochrome (Backlit)<br>
+</li>
+<li>
+<strong>Tactile Controls</strong>: 5-Way Direction Pad + Select Button</li>
+<li>
+<strong>Internal Battery:</strong> LiPo 2000mAh (7-days without charge)<br><br>
+</li>
+<li><strong>CPU:</strong></li>
+<ul>
+<li>STM32WB55RG</li>
+<li>ARM Cortex-M4 32-bit 64 MHz (Application Processor)<br>
+</li>
+<li>ARM Cortex-M0+ 32 MHz (Network Processor)<br><br>
+</li>
+</ul>
+<li>
+<strong>Buzzer:</strong> 100-2500Hz</li>
+<li><strong>Vibration Motor</strong></li>
+<li>
+<strong>Memory:</strong> 1024KB Flash, 256KB SRAM</li>
+<li>
+<strong>Storage:</strong> MicroSD (Up to 64GB)<br>
+</li>
+<li>
+<strong>Connectivity:</strong> USB 2.0, Type-C<br><br>
+</li>
+<li>
+<strong>Dimensions:</strong> 100 x 40 x 25 mm<br>
+</li>
+<li>
+<strong>Weight:</strong> 102g</li>
+</ul>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>Module Specifications<br></strong></h2>
+<ul>
+<li><strong>RF:</strong></li>
+<ul>
+<li>Chipset: TI CC1101</li>
+<li>Frequency bands: 315MHz, 433MHz, 868MHz, 915MHz</li>
+<li>TX Power: 0dBm Max (~100m transmit range)<br>
+</li>
+</ul>
+<li>
+<strong>RFID:</strong> <br>
+</li>
+<ul>
+<li>High Frequency / 13.56MHz</li>
+<ul>
+<li>ISO-14443A/B</li>
+<li>NXP Mifare® Classic/Ultralight/DESFire/etc</li>
+<li>FeliCa™</li>
+<li>NFC Forum protocols</li>
+</ul>
+<li>Low Frequency / 125KHz</li>
+<ul>
+<li>Modulation: AM / PSK / FSK</li>
+<li>Supported Cards: EM400x, EM410x, EM420x</li>
+<li>HIDProx, Indala</li>
+<li>T5577<br>
+</li>
+</ul>
+</ul>
+<li><strong>GPIO:</strong></li>
+<ul>
+<li>3.3v CMOS Level</li>
+<li>5V tolerant</li>
+<li>Up to 20mA per digital pin<br>
+</li>
+</ul>
+<li><strong>Infrared:</strong></li>
+<ul>
+<li>RX/TX Frequency: 800-950nm</li>
+<li>TX Power: 300 mW<br>
+</li>
+</ul>
+<li><strong>Bluetooth:</strong></li>
+<ul>
+<li>Bluetooth LE 5.0</li>
+<li>TX Power: 0dBm Max</li>
+<li>RX Sensitivity: -96dBm</li>
+<li>Data Rate: 2 Mbps<br>
+</li>
+</ul>
+<li><strong>iButton 1-Wire:</strong></li>
+<ul>
+<li>Dallas DS1990A</li>
+<li>CYFRAL<br>
+</li>
+</ul>
+</ul>
+</div>
+</div>
+<div style="margin-top: 1em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h2><strong>Technical Resources<br></strong></h2>
+<ul>
+<li><a href="https://flipper.net/pages/downloads" title="Flipper Zero Official Firmware Update" target="_blank">Firmware Update</a></li>
+<li><a href="https://forum.flipper.net/" title="Flipper Zero Official Forum" target="_blank">Flipper Zero Forum</a></li>
+<li><a href="https://docs.flipper.net/zero" title="Flipper Zero Documentation" target="_blank">Flipper Zero Official Documentation</a></li>
+<li>
+<a href="https://flipp.dev/discord" title="Official Flipper Zero Discord" target="_blank">Flipper Zero Official Discord</a><br>
+</li>
+<li><a href="https://github.com/flipperdevices" title="Flipper Zero Source Code / Official GitHub" target="_blank">Official Github</a></li>
+<li><a href="https://cdn.shopify.com/s/files/1/2175/8571/files/GPIO_Pinout.jpg?v=1652983900" title="Flipper Zero GPIO Pinout" target="_blank">GPIO / Pinout Diagram</a></li>
+</ul>
+</div>
+<h2><strong>Shipping &amp; Warranty</strong></h2>
+<ul>
+<li>Ships worldwide from our <b>EU or US warehouse</b> to minimise shipping shipping and import duties.</li>
+<li>Backed by a <b>2-year warranty</b>
+</li>
+<li>
+<b>Need help?</b> 100% Human customer support available at <a href="mailto:support@lab401.com"><b>support@lab401.com</b></a>
+</li>
+</ul>
+</div>
+<div class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>LinusTechTips Talks Flipper Zero</h3>
+<figure>
+   <video lite-youtube="" videoid="nLIp4wd0oXs" posterquality="maxresdefault" params="rel=0" class="rounded"></video>
+</figure>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>Adam Savage tests the Flipper Zero</h3>
+<figure>
+   <video lite-youtube="" videoid="c8q2YVRiOAE" posterquality="maxresdefault" params="rel=0" class="rounded"></video>
+</figure>
+</div>
+</div>
+<div style="margin-top: 2em;" class="grid">
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>FlipperZero: First Steps</h3>
+<figure>
+   <video lite-youtube="" videoid="KeFrVW2VE4M" posterquality="maxresdefault" params="rel=0" class="rounded"></video>
+</figure>
+</div>
+<div class="grid-item small--one-whole medium--one-half large--one-half text-left">
+<h3>FlipperZero: In depth functionality</h3>
+<figure>
+   <video lite-youtube="" videoid="VF3xlAm_tdo" posterquality="maxresdefault" params="rel=0" class="rounded"></video>
+</figure>
+</div>
+</div>
+</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EU Warehouse</s:tag>
+    <s:tag>Flipper</s:tag>
+    <s:tag>Flipper Zero</s:tag>
+    <s:tag>FlipperZero</s:tag>
+    <s:tag>US Warehouse</s:tag>
+    <s:variant>
+      <id>https://lab401.com/products/7790553465062</id>
+      <title>Basic</title>
+      <s:price currency="EUR">149.17</s:price>
+      <s:sku>FLP-Z-W-R04</s:sku>
+      <s:grams>154</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/7790553465062</id>
+      <title>Standard</title>
+      <s:price currency="EUR">186.67</s:price>
+      <s:sku>FLIPPERZERO-STANDARD-PACK</s:sku>
+      <s:grams>205</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lab401.com/products/7790553465062</id>
+      <title>Complete</title>
+      <s:price currency="EUR">274.08</s:price>
+      <s:sku>FLIPPERZERO-COMPLETE-PACK</s:sku>
+      <s:grams>310</s:grams>
+    </s:variant>
+  </entry>
+</feed>
