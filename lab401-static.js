@@ -277,8 +277,14 @@
     Object.keys(COUNTRIES).forEach(function (c) { if (c !== state.country) order.push(c); });
     var hl = $('.header-currency-selector__list');
     if (hl) { hl.innerHTML = ''; order.forEach(function (c) { hl.appendChild(headerOption(c)); }); }
-    var ml = $('.mobile-currency__list');
-    if (ml) { ml.innerHTML = ''; order.forEach(function (c) { ml.appendChild(mobileOption(c)); }); }
+    /* Remplir TOUTES les listes mobiles (pas seulement la premiere) : le
+       theme peut recreer le menu mobile, et la liste visible n'est alors
+       plus celle remplie a l'initialisation (elle reste vide -> le bouton
+       ouvre un mince espace blanc). */
+    $$('.mobile-currency__list').forEach(function (ml) {
+      ml.innerHTML = '';
+      order.forEach(function (c) { ml.appendChild(mobileOption(c)); });
+    });
   }
   function updateCurrencyButtons(code, info) {
     var shortLabel = info.symbol + ' ' + info.currency;
@@ -462,6 +468,10 @@
       var mlist = mwrap && mwrap.querySelector('[data-mobile-currency-list]');
       if (mlist) {
         var isOpen = mlist.style.display === 'block';
+        /* Re-remplir la liste a chaque ouverture : si le theme a recree le
+           menu mobile depuis l'initialisation, la liste visible est vide
+           (le bouton n'ouvrait qu'un mince espace blanc). */
+        if (!isOpen) populateCurrencyLists();
         mlist.style.display = isOpen ? 'none' : 'block';
         mct.setAttribute('aria-expanded', isOpen ? 'false' : 'true');
       }
