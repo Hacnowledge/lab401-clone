@@ -1,0 +1,933 @@
+{
+ "125khz-t5577-keyfobs-pack-of-5": {
+  "price": {
+   "12.99": 23.0
+  }
+ },
+ "13-56mhz-rfid-field-strength-meter": {
+  "price": {
+   "80.00": 139.0
+  }
+ },
+ "13-56mhz-rfid-range-boosters": {
+  "price": {
+   "10.00": 18.0,
+   "22.00": 39.0
+  }
+ },
+ "6-pin-cutaway-training-cylinder": {
+  "price": {
+   "60.00": 106.0
+  }
+ },
+ "alpha-awus036achm": {
+  "price": {
+   "59.00": 116.0
+  }
+ },
+ "atlas-1-year-licence": {
+  "price": {
+   "80.00": 117.0
+  }
+ },
+ "awok-gps-antenna-ad-301": {
+  "price": {
+   "45.00": 87.0
+  }
+ },
+ "bladerf-sdr-2-micro-xa4": {
+  "price": {
+   "649.00": 1131.0,
+   "899.00": 1218.0
+  }
+ },
+ "bugblat-minisniffer-v2": {
+  "price": {
+   "149.00": 285.0
+  }
+ },
+ "bump-key-hammer": {
+  "price": {
+   "16.95": 30.0
+  }
+ },
+ "bus-pirate-5-auxilary-probe-kit": {
+  "price": {
+   "11.95": 28.0
+  }
+ },
+ "bus-pirate-5-auxiliary-cable": {
+  "price": {
+   "9.95": 22.0
+  }
+ },
+ "bus-pirate-5-coloured-auxiliary-cable": {
+  "price": {
+   "11.95": 28.0
+  }
+ },
+ "bus-pirate-5-flash-adaptors": {
+  "price": {
+   "34.95": 81.0
+  }
+ },
+ "bus-pirate-5-kf141-quick-connect": {
+  "price": {
+   "6.95": 18.0
+  }
+ },
+ "bus-pirate-5-raspberry-pi-pico-headers": {
+  "price": {
+   "5.95": 15.0
+  }
+ },
+ "bus-pirate-5-sim-smart-ic-adapter": {
+  "price": {
+   "14.95": 37.0
+  }
+ },
+ "bus-pirate-v5": {
+  "price": {
+   "59.00": 132.0,
+   "89.00": 197.0
+  }
+ },
+ "chameleon-lite": {
+  "price": {
+   "59.00": 104.0
+  }
+ },
+ "chameleon-ultra": {
+  "price": {
+   "129.00": 227.0
+  }
+ },
+ "chameleon-ultra-devkit": {
+  "price": {
+   "129.00": 227.0
+  }
+ },
+ "chipwhisperer-huskyplus": {
+  "price": {
+   "1195.00": 1823.0
+  }
+ },
+ "creeper-case": {
+  "price": {
+   "15.95": 29.0
+  }
+ },
+ "cynthion": {
+  "price": {
+   "209.00": 368.0
+  }
+ },
+ "desfire-compatible-emulator-uid-modifiable": {
+  "price": {
+   "29.99": 53.0
+  }
+ },
+ "digilab-for-flipperzero": {
+  "price": {
+   "49.00": 87.0
+  }
+ },
+ "digilab-module-kit": {
+  "price": {
+   "14.95": 27.0
+  }
+ },
+ "doppelganger-core-rfid-dev-board": {
+  "price": {
+   "60.00": 88.0
+  }
+ },
+ "dual-mode-paxton-long-range-stealth-decoy-reader": {
+  "price": {
+   "475.00": 693.0
+  }
+ },
+ "ec-canbus": {
+  "price": {
+   "39.00": 57.0
+  }
+ },
+ "european-bump-key-kit": {
+  "price": {
+   "36.00": 64.0
+  }
+ },
+ "faultycat": {
+  "price": {
+   "165.00": 241.0
+  }
+ },
+ "fitd-door-bypass-tools": {
+  "price": {
+   "20.00": 36.0
+  }
+ },
+ "flipper-zero": {
+  "price": {
+   "149.17": 247.0,
+   "186.67": 302.0,
+   "236.00": 439.0
+  }
+ },
+ "flipper-zero-prototyping-boards": {
+  "price": {
+   "9.08": 15.0
+  }
+ },
+ "flipper-zero-screen-protectors": {
+  "price": {
+   "7.50": 11.0
+  }
+ },
+ "flipper-zero-silicon-case": {
+  "price": {
+   "13.33": 22.0
+  }
+ },
+ "flipper-zero-video-game-module": {
+  "price": {
+   "45.85": 72.0
+  }
+ },
+ "flipper-zero-wifi-devboard": {
+  "price": {
+   "32.50": 52.0
+  }
+ },
+ "flux-capacitor": {
+  "price": {
+   "65.00": 95.0
+  }
+ },
+ "glytch-ethernet-module-for-pineapple-pager": {
+  "price": {
+   "59.00": 87.0
+  }
+ },
+ "glytch-gps-module-for-pineapple-pager": {
+  "price": {
+   "79.00": 116.0
+  }
+ },
+ "glytch-mesh-module-for-pineapple-pager": {
+  "price": {
+   "79.00": 116.0
+  }
+ },
+ "greatfet": {
+  "price": {
+   "115.00": 203.0,
+   "90.00": 159.0
+  }
+ },
+ "greatfet-one-daffodil": {
+  "price": {
+   "35.00": 62.0
+  }
+ },
+ "hackrf-pro": {
+  "price": {
+   "400.00": 704.0
+  }
+ },
+ "hak5-plunder-bug-lan-sniffer": {
+  "price": {
+   "195.00": 285.0
+  }
+ },
+ "hak5-screen-crab": {
+  "price": {
+   "400.00": 584.0
+  }
+ },
+ "hid-emulator-bash-bunny": {
+  "price": {
+   "355.00": 438.0
+  }
+ },
+ "i2c-driver": {
+  "price": {
+   "35.00": 52.0
+  }
+ },
+ "iclass-elite-compatible": {
+  "price": {
+   "29.95": 59.0,
+   "34.95": 66.0
+  }
+ },
+ "iclass-legacy-compatible": {
+  "price": {
+   "24.95": 51.0,
+   "29.95": 59.0
+  }
+ },
+ "iclass-se-seos-compatible": {
+  "price": {
+   "29.95": 59.0,
+   "34.95": 66.0
+  }
+ },
+ "icode-compatible": {
+  "price": {
+   "21.95": 44.0
+  }
+ },
+ "icode-sli-gen2-uid-changeable-iso15693": {
+  "price": {
+   "29.95": 66.0
+  }
+ },
+ "icode-sli-slix-compatible-uid-modifiable": {
+  "price": {
+   "29.99": 53.0
+  }
+ },
+ "icopy-x": {
+  "price": {
+   "375.00": 620.0,
+   "465.00": 766.0,
+   "529.00": 846.0
+  }
+ },
+ "icopy-x-advanced-tag-pack": {
+  "price": {
+   "189.95": 285.0
+  }
+ },
+ "icopy-x-basic-tag-pack": {
+  "price": {
+   "19.95": 37.0
+  }
+ },
+ "icopy-x-intermediate-tag-pack": {
+  "price": {
+   "129.95": 212.0
+  }
+ },
+ "ics-decoder-iclass-se-seos-cloner-decoder": {
+  "price": {
+   "425.00": 649.0
+  }
+ },
+ "industrial-handheld-uhf-reader": {
+  "price": {
+   "975.00": 1715.0
+  }
+ },
+ "inputstick-rat": {
+  "price": {
+   "39.99": 71.0
+  }
+ },
+ "ir-blaster": {
+  "price": {
+   "34.95": 66.0
+  }
+ },
+ "key-molding-kit": {
+  "price": {
+   "129.00": 227.0
+  }
+ },
+ "keysy-blank-lf-tag-pack-of-5": {
+  "price": {
+   "21.99": 37.0
+  }
+ },
+ "keysy-lf-rfid-emulator-duplicator": {
+  "price": {
+   "65.00": 95.0
+  }
+ },
+ "kiisu": {
+  "price": {
+   "79.00": 197.0
+  }
+ },
+ "krakensdr": {
+  "price": {
+   "1020.00": 1517.0
+  }
+ },
+ "kronos-electric-pick": {
+  "price": {
+   "215.00": 379.0
+  }
+ },
+ "lab401-hacker-stickers": {
+  "price": {
+   "15.00": 27.0,
+   "25.00": 44.0,
+   "8.00": 15.0
+  }
+ },
+ "lab401-hardshell-for-flipper-zero": {
+  "price": {
+   "29.95": 53.0
+  }
+ },
+ "lab401-microsd-card-for-flipper-zero": {
+  "price": {
+   "16.67": 27.0
+  }
+ },
+ "lab401-pin": {
+  "price": {
+   "3.95": 8.0
+  }
+ },
+ "liftd-door-bypass-tools": {
+  "price": {
+   "20.00": 36.0
+  }
+ },
+ "light-messenger": {
+  "price": {
+   "29.00": 51.0
+  }
+ },
+ "litevna": {
+  "price": {
+   "192.00": 285.0
+  }
+ },
+ "lock-bypass-kit": {
+  "price": {
+   "110.00": 194.0
+  }
+ },
+ "lockpick-kit": {
+  "price": {
+   "49.95": 88.0
+  }
+ },
+ "long-range-maxiprox-5375-125khz-capture-system": {
+  "price": {
+   "995.00": 1305.0
+  }
+ },
+ "long-range-rfid-reader-writer-dl533n-xl": {
+  "price": {
+   "129.00": 227.0
+  }
+ },
+ "macobox-hardware-pentest-platform": {
+  "price": {
+   "9700.00": 16039.0
+  }
+ },
+ "masta-blasta-ir-blaster": {
+  "price": {
+   "52.00": 73.0
+  }
+ },
+ "mifare-classic-1k-4-byte-compatible": {
+  "price": {
+   "2.50": 5.0
+  }
+ },
+ "mifare-classic-1k-4-byte-compatible-gen2": {
+  "price": {
+   "2.50": 5.0
+  }
+ },
+ "mifare-classic-1k-4-byte-compatible-gen2a": {
+  "price": {
+   "2.95": 5.0
+  }
+ },
+ "mifare-classic-1k-7-byte-uid-compatible-gen2": {
+  "price": {
+   "21.95": 44.0
+  }
+ },
+ "mifare-classic-4k-4-byte-uid-compatible-gen2": {
+  "price": {
+   "21.95": 44.0
+  }
+ },
+ "mifare-classic-4k-7-byte-uid-compatible-gen2": {
+  "price": {
+   "21.95": 44.0
+  }
+ },
+ "mifare-classic-compatible-1k-7-byte-direct-write-uid": {
+  "price": {
+   "29.99": 53.0
+  }
+ },
+ "mifare-classic-compatible-1k-one-time-write-uid-modifiable-coin-tag-gen2a": {
+  "price": {
+   "15.00": 27.0
+  }
+ },
+ "mifare-classic-compatible-1k-uid-modifiable-gen1a-tiny-fpc-tags-pack-of-5": {
+  "price": {
+   "4.95": 9.0
+  }
+ },
+ "mifare-classic-compatible-4k-7-byte-uid-modifiable-by-directwrite": {
+  "price": {
+   "29.99": 53.0
+  }
+ },
+ "mifare-classic-compatible-4k-gen3": {
+  "price": {
+   "9.95": 18.0
+  }
+ },
+ "mifare-compatible-1k-direct-write-uid": {
+  "price": {
+   "12.99": 23.0
+  }
+ },
+ "mifare-compatible-1k-uid-modifiable": {
+  "price": {
+   "13.99": 25.0
+  }
+ },
+ "mifare-compatible-1k-uid-modifiable-pack-of-5": {
+  "price": {
+   "3.99": 8.0
+  }
+ },
+ "mifare-compatible-4k-direct-write-uid": {
+  "price": {
+   "29.99": 53.0
+  }
+ },
+ "mifare-desfire-ev2-compatible-modifiable-uid-atqa-sak-ats-apdu": {
+  "price": {
+   "29.99": 53.0
+  }
+ },
+ "mifare-mini-compatible-uid-modifable-direct-write": {
+  "price": {
+   "29.95": 53.0
+  }
+ },
+ "mifare-ntag-compatible": {
+  "price": {
+   "21.95": 44.0
+  }
+ },
+ "mifare-ultralight-c-compatible": {
+  "price": {
+   "21.95": 44.0
+  }
+ },
+ "mifare-ultralight-c-compatible-1": {
+  "price": {
+   "21.95": 44.0
+  }
+ },
+ "mifare-ultralight-compatible": {
+  "price": {
+   "21.95": 44.0
+  }
+ },
+ "multi-rfid-keyfob": {
+  "price": {
+   "25.00": 44.0
+  }
+ },
+ "nanovna": {
+  "price": {
+   "110.00": 194.0
+  }
+ },
+ "nfc-booster-antenna-for-flipper-zero": {
+  "price": {
+   "10.00": 18.0
+  }
+ },
+ "nfc-range-extender-for-flipper-zero": {
+  "price": {
+   "75.00": 110.0
+  }
+ },
+ "nfckill-professional-version": {
+  "price": {
+   "229.00": 436.0
+  }
+ },
+ "ntag-compatible-213-direct-write-uid": {
+  "price": {
+   "14.99": 27.0
+  }
+ },
+ "ntag-compatible-21x": {
+  "price": {
+   "29.99": 53.0
+  }
+ },
+ "o-mg-adapter-elite": {
+  "price": {
+   "295.00": 519.0
+  }
+ },
+ "o-mg-cable": {
+  "price": {
+   "210.00": 307.0,
+   "265.00": 387.0,
+   "295.00": 431.0
+  }
+ },
+ "o-mg-cable-pack": {
+  "price": {
+   "1170.00": 1706.0,
+   "710.00": 1036.0
+  }
+ },
+ "o-mg-cable-programmer-usb-a": {
+  "price": {
+   "49.00": 59.0
+  }
+ },
+ "o-mg-malicious-cable-detector": {
+  "price": {
+   "69.00": 88.0
+  }
+ },
+ "o-mg-plug-elite": {
+  "price": {
+   "120.00": 205.0,
+   "165.00": 234.0
+  }
+ },
+ "o-mg-unblocker": {
+  "price": {
+   "210.00": 292.0
+  }
+ },
+ "opera-cake-for-hackrf": {
+  "price": {
+   "190.00": 285.0
+  }
+ },
+ "packet-squirrel-mark-ii": {
+  "price": {
+   "180.00": 263.0
+  }
+ },
+ "packet-squirrel-pocket-guide": {
+  "price": {
+   "19.95": 22.0
+  }
+ },
+ "packet-squirrel-textbook": {
+  "price": {
+   "49.00": 88.0
+  }
+ },
+ "pandwarf-kaiju-license": {
+  "price": {
+   "1699.00": 2988.0,
+   "290.00": 510.0,
+   "5799.00": 10198.0,
+   "990.00": 1741.0
+  }
+ },
+ "pandwarf-marauder": {
+  "price": {
+   "790.00": 1390.0
+  }
+ },
+ "pandwarf-rogue-pro": {
+  "price": {
+   "449.00": 790.0
+  }
+ },
+ "phantom-drive": {
+  "price": {
+   "49.95": 88.0
+  }
+ },
+ "pikvm-v4-plus-hardware-rat": {
+  "price": {
+   "359.00": 788.0
+  }
+ },
+ "pocket-usb-power-supply": {
+  "price": {
+   "19.99": 36.0
+  }
+ },
+ "ppe-2-in-1-fast-usb-c-battery-charger": {
+  "price": {
+   "30.00": 44.0
+  }
+ },
+ "ppe-extra-stealth-decoy-reader-battery": {
+  "price": {
+   "15.00": 22.0
+  }
+ },
+ "ppe-iclass-longrange-rfid-capture-system": {
+  "price": {
+   "895.00": 1305.0
+  }
+ },
+ "ppe-long-range-reader-power-supply": {
+  "price": {
+   "255.00": 256.0
+  }
+ },
+ "project-reboot-hardware-target": {
+  "price": {
+   "102.50": 181.0,
+   "125.50": 221.0
+  }
+ },
+ "proxmark-3-rdv4": {
+  "price": {
+   "329.00": 547.0,
+   "529.00": 1007.0
+  }
+ },
+ "proxmark-3-rdv4-01-long-range-lf-antenna-pack": {
+  "price": {
+   "79.99": 141.0
+  }
+ },
+ "proxmark-3-rdv4-01-upgraded-replacement-antenna": {
+  "price": {
+   "24.99": 44.0
+  }
+ },
+ "proxmark-3-rdv4-long-range-hf-antenna-1": {
+  "price": {
+   "79.99": 141.0
+  }
+ },
+ "proxmark-3-rdv4-sim-sam-extension": {
+  "price": {
+   "19.95": 36.0
+  }
+ },
+ "proxmark-3-rdv4-standalone-kit": {
+  "price": {
+   "99.00": 175.0
+  }
+ },
+ "proxmark-5": {
+  "price": {
+   "325.00": 511.0
+  }
+ },
+ "proxmark-5-wireless-battery-module": {
+  "price": {
+   "99.00": 161.0
+  }
+ },
+ "proxrf-125khz-biochip-antenna": {
+  "price": {
+   "29.99": 53.0
+  }
+ },
+ "replacement-electric-pick-blades": {
+  "price": {
+   "30.00": 53.0
+  }
+ },
+ "rfid-antenna-extender": {
+  "price": {
+   "35.00": 62.0,
+   "45.00": 80.0
+  }
+ },
+ "rfid-field-detector": {
+  "price": {
+   "16.99": 30.0
+  }
+ },
+ "rfid-field-detector-ultra": {
+  "price": {
+   "24.95": 44.0
+  }
+ },
+ "rfid-pentester-tag-pack": {
+  "price": {
+   "270.00": 475.0,
+   "400.00": 704.0,
+   "75.00": 132.0
+  }
+ },
+ "rubber-ducky": {
+  "price": {
+   "150.00": 219.0
+  }
+ },
+ "rubber-ducky-pocket-guide": {
+  "price": {
+   "19.95": 22.0
+  }
+ },
+ "rubber-ducky-textbook": {
+  "price": {
+   "60.00": 88.0
+  }
+ },
+ "shark-jack": {
+  "price": {
+   "150.00": 219.0,
+   "160.00": 263.0
+  }
+ },
+ "shark-jack-display": {
+  "price": {
+   "185.00": 248.0
+  }
+ },
+ "signalsdr-pro": {
+  "price": {
+   "1100.00": 1823.0
+  }
+ },
+ "silver-bullet-2": {
+  "price": {
+   "600.00": 1020.0
+  }
+ },
+ "skimmerguard": {
+  "price": {
+   "49.00": 87.0
+  }
+ },
+ "slim-shady-ir-blaster": {
+  "price": {
+   "68.00": 95.0
+  }
+ },
+ "spi-driver": {
+  "price": {
+   "35.00": 51.0
+  }
+ },
+ "stealth-decoy-reader": {
+  "price": {
+   "125.00": 183.0,
+   "325.00": 474.0,
+   "375.00": 547.0,
+   "400.00": 584.0,
+   "410.00": 598.0,
+   "450.00": 657.0,
+   "650.00": 948.0,
+   "675.00": 985.0,
+   "685.00": 999.0
+  }
+ },
+ "t5577-low-frequency-blank": {
+  "price": {
+   "2.50": 5.0
+  }
+ },
+ "termdriver2": {
+  "price": {
+   "29.00": 44.0
+  }
+ },
+ "tiny-detector-led-ntag213-10p": {
+  "price": {
+   "19.95": 37.0
+  }
+ },
+ "tiny-mf-gen1a-5pc": {
+  "price": {
+   "4.95": 9.0
+  }
+ },
+ "tiny-mf-gen2a-one-time-write": {
+  "price": {
+   "9.95": 18.0
+  }
+ },
+ "tinysa-ultra": {
+  "price": {
+   "163.00": 305.0
+  }
+ },
+ "uhfkill": {
+  "price": {
+   "1495.00": 2552.0,
+   "1950.00": 3281.0
+  }
+ },
+ "uhfkill-tag-testing-service": {
+  "price": {
+   "250.00": 440.0
+  }
+ },
+ "ultimate-magic-card-gen4": {
+  "price": {
+   "29.00": 51.0
+  }
+ },
+ "ultralight-c-compatible-uid-modifiable": {
+  "price": {
+   "29.99": 53.0
+  }
+ },
+ "ultralight-compatible-uid-modifiable": {
+  "price": {
+   "4.99": 9.0
+  }
+ },
+ "ultralight-compatiblr-direct-write-uid": {
+  "price": {
+   "4.99": 9.0
+  }
+ },
+ "under-the-door-bypass-tool": {
+  "price": {
+   "55.00": 97.0
+  }
+ },
+ "undetectable-mifare-compatible-1k-one-time-write-uid": {
+  "price": {
+   "4.99": 9.0
+  }
+ },
+ "us-bump-key-kit": {
+  "price": {
+   "36.00": 64.0
+  }
+ },
+ "usb-rfid-reader-writer-dl533n": {
+  "price": {
+   "49.99": 88.0
+  }
+ },
+ "usbkill-invader-pin": {
+  "price": {
+   "15.00": 22.0
+  }
+ },
+ "usbkill-invader-pin-copy": {
+  "price": {
+   "12.00": 15.0
+  }
+ },
+ "usbkill-v4-pro-kit": {
+  "price": {
+   "135.00": 238.0,
+   "305.00": 537.0
+  }
+ },
+ "whidboard-pro": {
+  "price": {
+   "295.00": 511.0
+  }
+ },
+ "wiegand-sniffer-esp-rfid-tool": {
+  "price": {
+   "30.00": 53.0
+  }
+ }
+}
