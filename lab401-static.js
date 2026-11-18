@@ -75,7 +75,7 @@
   }
   window.Lab401_switchLocale = function (code) {
     code = (code || '').toLowerCase();
-    if (['en', 'fr'].indexOf(code) === -1) return;
+    if (['en', 'fr', 'es'].indexOf(code) === -1) return;
     window.location.href = targetForLocale(code);
   };
   window.Lab401_switchCountry = function (code) {
