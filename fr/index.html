@@ -46,7 +46,7 @@
     
 
     
-      <link rel="shortcut icon" href="../cdn/shop/files/Logo-Square_9ea90937-9697-4f59-97a7-be3f21764ba7_32x32.png?v=1722166262" type="image/png">
+      <link rel="shortcut icon" href="../cdn/shop/files/Logo-Square_9ea90937-9697-4f59-97a7-be3f21764ba7_32x32.png" type="image/png">
     
 
     
@@ -91,7 +91,7 @@
 
 
     
-    <link rel="preload" href="../cdn/fonts/inter/inter_n4.b2a3f24c19b4de56e8871f609e73ca7f6d2e2bb9.woff2" as="font" type="font/woff2" crossorigin="anonymous"><link rel="preload" href="../cdn/fonts/inter/inter_n4.b2a3f24c19b4de56e8871f609e73ca7f6d2e2bb9.woff2" as="font" type="font/woff2" crossorigin="anonymous"><link rel="preload" as="style" href="../cdn/shop/t/60/assets/theme.css?v=74250596282648218241773059622.css"><script async crossorigin fetchpriority="high" src="../cdn/shopifycloud/importmap-polyfill/es-modules-shim.2.4.0.js"></script>
+    <link rel="preload" href="../cdn/fonts/inter/inter_n4.b2a3f24c19b4de56e8871f609e73ca7f6d2e2bb9.woff2" as="font" type="font/woff2" crossorigin="anonymous"><link rel="preload" href="../cdn/fonts/inter/inter_n4.b2a3f24c19b4de56e8871f609e73ca7f6d2e2bb9.woff2" as="font" type="font/woff2" crossorigin="anonymous"><link rel="preload" as="style" href="../cdn/shop/t/60/assets/theme.css"><script async crossorigin fetchpriority="high" src="../cdn/shopifycloud/importmap-polyfill/es-modules-shim.2.4.0.js"></script>
 <script type="importmap">
 {
   "imports": {
@@ -125,7 +125,7 @@
     document.head.appendChild(el)
   }
 </script>
-<script type="module" src="../cdn/shop/t/60/assets/is-land.min.js?v=92343381495565747271772550680"></script>
+<script type="module" src="../cdn/shop/t/60/assets/is-land.min.js"></script>
 <style data-shopify>:root {
     /* Core Sizes */
     --size-0-25: 0.0625rem; /* 1px */
@@ -367,7 +367,7 @@
     --z-index-loader: 4;
     --z-index-header-search-overlay: 1;
     --url-ico-select: url(//lab401.com/cdn/shop/t/60/assets/ico-select.svg);
-    --url-swirl-svg: url(//lab401.com/cdn/shop/t/60/assets/swirl.svg);
+    --url-swirl-svg: url(../cdn/shop/t/60/assets/swirl.svg);
     --header-padding-bottom: 0;
     --gutter: 30px;
     --page-width: 1500px;
@@ -683,11 +683,11 @@
     --button-link-underline-thickness: 1px;
     --button-link-underline-style: solid;
   }</style>
-<style-sheet name="vendor.flickity.css" remove-duplicate="true" load="async" style="display: none;"><link href="//lab401.com/cdn/shop/t/60/assets/vendor.flickity.css?v=168134560433028609901772550680" rel="preload" as="style" onload="this.rel='stylesheet'">
-<script type="module" src="../cdn/shop/t/60/assets/utility.stylesheet.js?v=115421978848924304161772550677"></script></style-sheet>
+<style-sheet name="vendor.flickity.css" remove-duplicate="true" load="async" style="display: none;"><link href="../cdn/shop/t/60/assets/vendor.flickity.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+<script type="module" src="../cdn/shop/t/60/assets/utility.stylesheet.js"></script></style-sheet>
 
-<style-sheet name="vendor.swiper.css" remove-duplicate="true" load="async" style="display: none;"><link href="//lab401.com/cdn/shop/t/60/assets/vendor.swiper.css?v=103091539061108917781772550678" rel="preload" as="style" onload="this.rel='stylesheet'">
-<script type="module" src="../cdn/shop/t/60/assets/utility.stylesheet.js?v=115421978848924304161772550677"></script></style-sheet>
+<style-sheet name="vendor.swiper.css" remove-duplicate="true" load="async" style="display: none;"><link href="../cdn/shop/t/60/assets/vendor.swiper.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+<script type="module" src="../cdn/shop/t/60/assets/utility.stylesheet.js"></script></style-sheet>
 
 
 
@@ -1020,7 +1020,7 @@ Shopify.SignInWithShop.User.recognized = false;</script>
 <script>window.ShopifyPaypalV4VisibilityTracking = true;</script>
 <script id="captcha-bootstrap">!function(){'use strict';const t='contact',e='account',n='new_comment',o=[[t,t],['blogs',n],['comments',n],[t,'customer']],c=[[e,'customer_login'],[e,'guest_login'],[e,'recover_customer_password'],[e,'create_customer']],r=t=>t.map((([t,e])=>`form[action*='/${t}']:not([data-nocaptcha='true']) input[name='form_type'][value='${e}']`)).join(','),a=t=>()=>t?[...document.querySelectorAll(t)].map((t=>t.form)):[];function s(){const t=[...o],e=r(t);return a(e)}const i='password',u='form_key',d=['recaptcha-v3-token','g-recaptcha-response','h-captcha-response',i],f=()=>{try{return window.sessionStorage}catch{return}},m='__shopify_v',_=t=>t.elements[u];function p(t,e,n=!1){try{const o=window.sessionStorage,c=JSON.parse(o.getItem(e)),{data:r}=function(t){const{data:e,action:n}=t;return t[m]||n?{data:e,action:n}:{data:t,action:n}}(c);for(const[e,n]of Object.entries(r))t.elements[e]&&(t.elements[e].value=n);n&&o.removeItem(e)}catch(o){console.error('form repopulation failed',{error:o})}}const l='form_type',E='cptcha';function T(t){t.dataset[E]=!0}const w=window,h=w.document,L='Shopify',v='ce_forms',y='captcha';let A=!1;((t,e)=>{const n=(g='f06e6c50-85a8-45c8-87d0-21a2b65856fe',I='https://cdn.shopify.com/shopifycloud/storefront-forms-hcaptcha/ce_storefront_forms_captcha_hcaptcha.v1.5.3.iife.js',D={infoText:'Protégé par hCaptcha',privacyText:'Confidentialité',termsText:'Conditions'},(t,e,n)=>{const o=w[L][v],c=o.bindForm;if(c)return c(t,g,e,D).then(n);var r;o.q.push([[t,g,e,D],n]),r=I,A||(h.body.append(Object.assign(h.createElement('script'),{id:'captcha-provider',async:!0,src:r})),A=!0)});var g,I,D;w[L]=w[L]||{},w[L][v]=w[L][v]||{},w[L][v].q=[],w[L][y]=w[L][y]||{},w[L][y].protect=function(t,e){n(t,void 0,e),T(t)},Object.freeze(w[L][y]),function(t,e,n,w,h,L){const[v,y,A,g]=function(t,e,n){const i=e?o:[],u=t?c:[],d=[...i,...u],f=r(d),m=r(i),_=r(d.filter((([t,e])=>n.includes(e))));return[a(f),a(m),a(_),s()]}(w,h,L),I=t=>{const e=t.target;return e instanceof HTMLFormElement?e:e&&e.form},D=t=>v().includes(t);t.addEventListener('submit',(t=>{const e=I(t);if(!e)return;const n=D(e)&&!e.dataset.hcaptchaBound&&!e.dataset.recaptchaBound,o=_(e),c=g().includes(e)&&(!o||!o.value);(n||c)&&t.preventDefault(),c&&!n&&(function(t){try{if(!f())return;!function(t){const e=f();if(!e)return;const n=_(t);if(!n)return;const o=n.value;o&&e.removeItem(o)}(t);const e=Array.from(Array(32),(()=>Math.random().toString(36)[2])).join('');!function(t,e){_(t)||t.append(Object.assign(document.createElement('input'),{type:'hidden',name:u})),t.elements[u].value=e}(t,e),function(t,e){const n=f();if(!n)return;const o=[...t.querySelectorAll(`input[type='${i}']`)].map((({name:t})=>t)),c=[...d,...o],r={};for(const[a,s]of new FormData(t).entries())c.includes(a)||(r[a]=s);n.setItem(e,JSON.stringify({[m]:1,action:t.action,data:r}))}(t,e)}catch(e){console.error('failed to persist form',e)}}(e),e.submit())}));const S=(t,e)=>{t&&!t.dataset[E]&&(n(t,e.some((e=>e===t))),T(t))};for(const o of['focusin','change'])t.addEventListener(o,(t=>{const e=I(t);D(e)&&S(e,y())}));const B=e.get('form_key'),M=e.get(l),P=B&&M;t.addEventListener('DOMContentLoaded',(()=>{const t=y();if(P)for(const e of t)e.elements[l].value===M&&p(e,B);[...new Set([...A(),...v().filter((t=>'true'===t.dataset.shopifyCaptcha))])].forEach((e=>S(e,t)))}))}(h,new URLSearchParams(w.location.search),n,t,e,['guest_login'])})(!0,!0)}();</script>
 <script integrity="sha256-FYHzja/5XSmzkjz6zHj7s4rACJGFuVoYZdumgoO2Ecs=" data-source-attribution="shopify.loadfeatures" defer="defer" src="../cdn/shopifycloud/storefront/assets/storefront/load_feature-ed94c51f.js" crossorigin="anonymous"></script>
-<script>(function () {var userAgent = navigator.userAgent;var platform = navigator.platform;var maxTouchPoints = navigator.maxTouchPoints || 0;var isIOS = /iPad|iPhone|iPod/.test(platform) || (platform === 'MacIntel' && maxTouchPoints > 1);var isMacSafari = platform.indexOf('Mac') === 0 && /Safari/.test(userAgent) && !/Chrome|Chromium|CriOS|FxiOS|Edg|OPR|Android/.test(userAgent);var isAppleSafari = isIOS || isMacSafari;if (isAppleSafari) {fetch('/sf_private_access_tokens' + location.search).catch(function () {});}function browserMajorVersion(pattern) {var match = userAgent.match(pattern);return match ? parseInt(match[1], 10) : null;}function shouldLoadAutosizesPolyfill() {if (!window.PerformanceObserver?.supportedEntryTypes?.includes('paint')) {return false;}var chromeVersion = browserMajorVersion(/Chrome\/(\d+)/);if (chromeVersion !== null) {return chromeVersion < 126;}var firefoxVersion = browserMajorVersion(/Firefox\/(\d+)/);if (firefoxVersion !== null) {return firefoxVersion < 150;}var safariVersion = isAppleSafari ? browserMajorVersion(/Version\/(\d+).*Safari\//) : null;if (safariVersion !== null) {return safariVersion < 27;}return true;}if (shouldLoadAutosizesPolyfill()) {var autosizesScript = document.createElement('script');autosizesScript.async = true;autosizesScript.crossOrigin = 'anonymous';autosizesScript.src = "//lab401.com/cdn/shopifycloud/storefront/assets/storefront/autosizes-84416378.js";(document.head || document.documentElement).appendChild(autosizesScript);}window.ShopifyAnalytics = window.ShopifyAnalytics || {};window.ShopifyAnalytics.performance = window.ShopifyAnalytics.performance || {};(function () {var LONG_FRAME_THRESHOLD = 50;var longAnimationFrames = [];var activeRafId = null;function collectLongFrames() {var previousTime = null;function rafMonitor(now) {if (activeRafId === null) {return;}var delta = now - previousTime;if (delta > LONG_FRAME_THRESHOLD) {longAnimationFrames.push({startTime: previousTime,endTime: now,});}previousTime = now;activeRafId = requestAnimationFrame(rafMonitor);}previousTime = performance.now();activeRafId = requestAnimationFrame(rafMonitor);}if (!window.PerformanceObserver?.supportedEntryTypes?.includes('long-animation-frame')) {collectLongFrames();var timeoutId = setTimeout(function () {cancelAnimationFrame(activeRafId);}, 10000);window.ShopifyAnalytics.performance.getLongAnimationFrames = function (stopCollection) {if (stopCollection === undefined) {stopCollection = false;}if (stopCollection) {clearTimeout(timeoutId);cancelAnimationFrame(activeRafId);}return longAnimationFrames;};}})();})();</script><script crossorigin="anonymous" defer="defer" src="../cdn/shopifycloud/storefront/assets/shopify_pay/storefront-f0e26bdf.js?v=20250812"></script>
+<script>(function () {var userAgent = navigator.userAgent;var platform = navigator.platform;var maxTouchPoints = navigator.maxTouchPoints || 0;var isIOS = /iPad|iPhone|iPod/.test(platform) || (platform === 'MacIntel' && maxTouchPoints > 1);var isMacSafari = platform.indexOf('Mac') === 0 && /Safari/.test(userAgent) && !/Chrome|Chromium|CriOS|FxiOS|Edg|OPR|Android/.test(userAgent);var isAppleSafari = isIOS || isMacSafari;if (isAppleSafari) {fetch('/sf_private_access_tokens' + location.search).catch(function () {});}function browserMajorVersion(pattern) {var match = userAgent.match(pattern);return match ? parseInt(match[1], 10) : null;}function shouldLoadAutosizesPolyfill() {if (!window.PerformanceObserver?.supportedEntryTypes?.includes('paint')) {return false;}var chromeVersion = browserMajorVersion(/Chrome\/(\d+)/);if (chromeVersion !== null) {return chromeVersion < 126;}var firefoxVersion = browserMajorVersion(/Firefox\/(\d+)/);if (firefoxVersion !== null) {return firefoxVersion < 150;}var safariVersion = isAppleSafari ? browserMajorVersion(/Version\/(\d+).*Safari\//) : null;if (safariVersion !== null) {return safariVersion < 27;}return true;}if (shouldLoadAutosizesPolyfill()) {var autosizesScript = document.createElement('script');autosizesScript.async = true;autosizesScript.crossOrigin = 'anonymous';autosizesScript.src = "//lab401.com/cdn/shopifycloud/storefront/assets/storefront/autosizes-84416378.js";(document.head || document.documentElement).appendChild(autosizesScript);}window.ShopifyAnalytics = window.ShopifyAnalytics || {};window.ShopifyAnalytics.performance = window.ShopifyAnalytics.performance || {};(function () {var LONG_FRAME_THRESHOLD = 50;var longAnimationFrames = [];var activeRafId = null;function collectLongFrames() {var previousTime = null;function rafMonitor(now) {if (activeRafId === null) {return;}var delta = now - previousTime;if (delta > LONG_FRAME_THRESHOLD) {longAnimationFrames.push({startTime: previousTime,endTime: now,});}previousTime = now;activeRafId = requestAnimationFrame(rafMonitor);}previousTime = performance.now();activeRafId = requestAnimationFrame(rafMonitor);}if (!window.PerformanceObserver?.supportedEntryTypes?.includes('long-animation-frame')) {collectLongFrames();var timeoutId = setTimeout(function () {cancelAnimationFrame(activeRafId);}, 10000);window.ShopifyAnalytics.performance.getLongAnimationFrames = function (stopCollection) {if (stopCollection === undefined) {stopCollection = false;}if (stopCollection) {clearTimeout(timeoutId);cancelAnimationFrame(activeRafId);}return longAnimationFrames;};}})();})();</script><script crossorigin="anonymous" defer="defer" src="../cdn/shopifycloud/storefront/assets/shopify_pay/storefront-f0e26bdf.js"></script>
 <script id="shopify-origin-trials" async="async" integrity="sha256-hfGAxKJ6MFnGQCYgUfqgtJBsk7WSUo2LPuoHgEkokSg=" src="//cdn.shopify.com/shopifycloud/storefront/assets/storefront/origin_trials-6af5f5e9.js" crossorigin="anonymous" onload="window.__shopifyOriginTrialsDone = true" onerror="window.__shopifyOriginTrialsDone = true"></script>
 <script>(()=>{var d="shopify:webmcp_adapter_loaded",n=Symbol.for("shopify.webmcp_adapter_loading");function s(c,a,{win:r=window,doc:o=document}={}){function p(){try{return r.localStorage.getItem(d)==="true"}catch{return!1}}function l(){try{r.localStorage.setItem(d,"true")}catch{}}function u(){return typeof(o.modelContext||r.navigator?.modelContext)?.registerTool=="function"}function f(){if(r[n]||!u())return;let t=o.head||o.getElementsByTagName("head")[0];if(!t)return;let e=o.createElement("script");e.type="module",e.crossOrigin="anonymous",a&&(e.integrity=a),e.src=c,e.addEventListener("load",l,{once:!0}),e.addEventListener("error",()=>{r[n]=!1},{once:!0}),t.appendChild(e),r[n]=!0}function _(t){let e=o.getElementById("shopify-origin-trials");if(!e||r.__shopifyOriginTrialsDone){t();return}e.addEventListener("load",t,{once:!0}),e.addEventListener("error",t,{once:!0})}function i(){_(()=>r.setTimeout(f,0))}function m(){o.addEventListener("DOMContentLoaded",i,{once:!0})}p()?i():m()}s("\/\/lab401.com\/cdn\/shopifycloud\/storefront\/assets\/storefront\/webmcp-cfeae510.js","sha256-hdSsaskU5p37T8dqwXSuZ1454uxl\/hhOLZu33d3jWEE=");})();
 </script>
@@ -1057,7 +1057,7 @@ Shopify.SignInWithShop.User.recognized = false;</script>
 }
 
       </style>
-<link rel="stylesheet" media="screen" href="../cdn/shop/t/60/compiled_assets/styles.css?v=119480888857929495061794829675.css">
+<link rel="stylesheet" media="screen" href="../cdn/shop/t/60/compiled_assets/styles.css">
 <script id="shopify-cfh-end">window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.end');</script>
 
     
@@ -1236,16 +1236,16 @@ Shopify.SignInWithShop.User.recognized = false;</script>
       })();
     </script>
 
-    <link href="../cdn/shop/t/60/assets/theme.css?v=74250596282648218241773059622.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="../cdn/shop/t/60/assets/lab401-accessibility.css?v=7170805246475472781773498491.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="../cdn/shop/t/60/assets/lab401-high-contrast.css?v=64771544482704160301785277895.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="../cdn/shop/t/60/assets/lab401-footer.css?v=183729840715629052621788372973.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="../cdn/shop/t/60/assets/lab401-preferred-source.css?v=140356400046481504821788370163.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../cdn/shop/t/60/assets/theme.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../cdn/shop/t/60/assets/lab401-accessibility.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../cdn/shop/t/60/assets/lab401-high-contrast.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../cdn/shop/t/60/assets/lab401-footer.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../cdn/shop/t/60/assets/lab401-preferred-source.css" rel="stylesheet" type="text/css" media="all" />
     
-    <link href="../cdn/shop/t/60/assets/lab401-collection-page.css?v=170626641111371536791790957665.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="../cdn/shop/t/60/assets/lab401-product-page.css?v=45537347979535771841790957666.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="../cdn/shop/t/60/assets/lab401-featured-collection.css?v=135148425974489036941773844336.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="../cdn/shop/t/60/assets/lab401-search.css?v=106323725438832973291773869744.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../cdn/shop/t/60/assets/lab401-collection-page.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../cdn/shop/t/60/assets/lab401-product-page.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../cdn/shop/t/60/assets/lab401-featured-collection.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../cdn/shop/t/60/assets/lab401-search.css" rel="stylesheet" type="text/css" media="all" />
     
 
 <style>
@@ -1261,7 +1261,7 @@ Shopify.SignInWithShop.User.recognized = false;</script>
     </style>
 
     
-      <link href="../cdn/shop/t/60/assets/ripple.css?v=100240391239311985871772550681.css" rel="stylesheet" type="text/css" media="all" />
+      <link href="../cdn/shop/t/60/assets/ripple.css" rel="stylesheet" type="text/css" media="all" />
     
 
     
@@ -2626,13 +2626,13 @@ customContents["US-based customer support team, available at support@lab401.com"
 
   <img
     
-      src="../cdn/shop/files/Logo-Square_150x150.png?v=1693574957"
+      src="../cdn/shop/files/Logo-Square_150x150.png"
     
     alt="Lab401"
 
     
       data-rimg
-      srcset="../cdn/shop/files/Logo-Square_150x150.png?v=1693574957 1x, ../cdn/shop/files/Logo-Square_300x300.png?v=1693574957 2x, ../cdn/shop/files/Logo-Square_324x324.png?v=1693574957 2.16x"
+      srcset="../cdn/shop/files/Logo-Square_150x150.png 1x, ../cdn/shop/files/Logo-Square_300x300.png 2x, ../cdn/shop/files/Logo-Square_324x324.png 2.16x"
     
 
     class="site-logo-image"
@@ -9461,11 +9461,11 @@ customContents["US-based customer support team, available at support@lab401.com"
 </style>
 
 
-<style-sheet name="vendor.swiper.css" remove-duplicate="true" load="inline" style="display: none;"><link href="//lab401.com/cdn/shop/t/60/assets/vendor.swiper.css?v=103091539061108917781772550678" rel="stylesheet" type="text/css" media="all" />
+<style-sheet name="vendor.swiper.css" remove-duplicate="true" load="inline" style="display: none;"><link href="../cdn/shop/t/60/assets/vendor.swiper.css" rel="stylesheet" type="text/css" media="all" />
         <script>
           console.warn('Asset size is too large to inline stylesheet: vendor.swiper.css')
         </script>
-<script type="module" src="../cdn/shop/t/60/assets/utility.stylesheet.js?v=115421978848924304161772550677"></script></style-sheet>
+<script type="module" src="../cdn/shop/t/60/assets/utility.stylesheet.js"></script></style-sheet>
 
 <style-sheet name="vendor.animate.css" remove-duplicate="true" load="inline" style="display: none;"><style>
           /*!
@@ -9479,7 +9479,7 @@ customContents["US-based customer support team, available at support@lab401.com"
 
 
         </style>
-<script type="module" src="../cdn/shop/t/60/assets/utility.stylesheet.js?v=115421978848924304161772550677"></script></style-sheet>
+<script type="module" src="../cdn/shop/t/60/assets/utility.stylesheet.js"></script></style-sheet>
 
 
 
@@ -9989,7 +9989,7 @@ Diapositive 1 sur 3
   >
     
       <img
-        src="//lab401.com/cdn/shop/files/Promo---Header-EN_2000x.jpg?v=1787647297"
+        src="../cdn/shop/files/Promo---Header-EN_2000x.jpg"
         alt=""
         class="slideshow-slide__image slideshow-slide__image--desktop slideshow-slide__image--contain"
         loading="eager"
@@ -10079,7 +10079,7 @@ Diapositive 2 sur 3
   >
     
       <img
-        src="//lab401.com/cdn/shop/files/Flipper-Zero---Header---EN_2000x.jpg?v=1773759066"
+        src="../cdn/shop/files/Flipper-Zero---Header---EN_2000x.jpg"
         alt=""
         class="slideshow-slide__image slideshow-slide__image--desktop slideshow-slide__image--contain"
         loading="lazy"
@@ -10169,7 +10169,7 @@ Diapositive 3 sur 3
   >
     
       <img
-        src="//lab401.com/cdn/shop/files/MAyWeather---RFID---EN_2000x.jpg?v=1776433008"
+        src="../cdn/shop/files/MAyWeather---RFID---EN_2000x.jpg"
         alt=""
         class="slideshow-slide__image slideshow-slide__image--desktop slideshow-slide__image--contain"
         loading="lazy"
@@ -10318,7 +10318,7 @@ Diapositive {{ count }} sur {{ total }}
   import 'section.slideshow';
 </script>
 
-</div><div id="shopify-section-template--28353746665819__product_categories_6cmxBV" class="shopify-section"><link href="../cdn/shop/t/60/assets/product-categories.css?v=40794198670956973271774271426.css" rel="stylesheet" type="text/css" media="all" />
+</div><div id="shopify-section-template--28353746665819__product_categories_6cmxBV" class="shopify-section"><link href="../cdn/shop/t/60/assets/product-categories.css" rel="stylesheet" type="text/css" media="all" />
 
 
 
@@ -10548,12 +10548,12 @@ Diapositive {{ count }} sur {{ total }}
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/Flipper-Zero---Front_512x449.png?v=1773345630"
+          src="../cdn/shop/files/Flipper-Zero---Front_512x449.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/Flipper-Zero---Front_512x449.png?v=1773345630 1x, ../cdn/shop/files/Flipper-Zero---Front_1024x898.png?v=1773345630 2x, ../cdn/shop/files/Flipper-Zero---Front_1234x1082.png?v=1773345630 2.41x"
+        srcset="../cdn/shop/files/Flipper-Zero---Front_512x449.png 1x, ../cdn/shop/files/Flipper-Zero---Front_1024x898.png 2x, ../cdn/shop/files/Flipper-Zero---Front_1234x1082.png 2.41x"
         class="productitem--image-primary"
         
         
@@ -10563,7 +10563,7 @@ Diapositive {{ count }} sur {{ total }}
 
   <img
     
-      src="../cdn/shop/files/Flipper-Zero---Front_512x449.png?v=1773345630"
+      src="../cdn/shop/files/Flipper-Zero---Front_512x449.png"
     
     alt=""
     
@@ -10849,12 +10849,12 @@ Diapositive {{ count }} sur {{ total }}
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/HardShell---Production---1---Closed_512x512.png?v=1769624410"
+          src="../cdn/shop/files/HardShell---Production---1---Closed_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/HardShell---Production---1---Closed_512x512.png?v=1769624410 1x, ../cdn/shop/files/HardShell---Production---1---Closed_1024x1024.png?v=1769624410 2x, ../cdn/shop/files/HardShell---Production---1---Closed_1106x1106.png?v=1769624410 2.16x"
+        srcset="../cdn/shop/files/HardShell---Production---1---Closed_512x512.png 1x, ../cdn/shop/files/HardShell---Production---1---Closed_1024x1024.png 2x, ../cdn/shop/files/HardShell---Production---1---Closed_1106x1106.png 2.16x"
         class="productitem--image-primary"
         
         
@@ -10864,7 +10864,7 @@ Diapositive {{ count }} sur {{ total }}
 
   <img
     
-      src="../cdn/shop/files/HardShell---Production---1---Closed_512x512.png?v=1769624410"
+      src="../cdn/shop/files/HardShell---Production---1---Closed_512x512.png"
     
     alt=""
     
@@ -11148,12 +11148,12 @@ Diapositive {{ count }} sur {{ total }}
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/Light-Messenger---Front-with-Gradient_512x512.png?v=1737989847"
+          src="../cdn/shop/files/Light-Messenger---Front-with-Gradient_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/Light-Messenger---Front-with-Gradient_512x512.png?v=1737989847 1x, ../cdn/shop/files/Light-Messenger---Front-with-Gradient_1024x1024.png?v=1737989847 2x, ../cdn/shop/files/Light-Messenger---Front-with-Gradient_1536x1536.png?v=1737989847 3x, ../cdn/shop/files/Light-Messenger---Front-with-Gradient_1731x1731.png?v=1737989847 3.38x"
+        srcset="../cdn/shop/files/Light-Messenger---Front-with-Gradient_512x512.png 1x, ../cdn/shop/files/Light-Messenger---Front-with-Gradient_1024x1024.png 2x, ../cdn/shop/files/Light-Messenger---Front-with-Gradient_1536x1536.png 3x, ../cdn/shop/files/Light-Messenger---Front-with-Gradient_1731x1731.png 3.38x"
         class="productitem--image-primary"
         
         
@@ -11163,7 +11163,7 @@ Diapositive {{ count }} sur {{ total }}
 
   <img
     
-      src="../cdn/shop/files/Light-Messenger---Front-with-Gradient_512x512.png?v=1737989847"
+      src="../cdn/shop/files/Light-Messenger---Front-with-Gradient_512x512.png"
     
     alt=""
     
@@ -11458,12 +11458,12 @@ Diapositive {{ count }} sur {{ total }}
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/Flipper-Zero---Wifi-Board.optimised_512x449.png?v=1773346349"
+          src="../cdn/shop/files/Flipper-Zero---Wifi-Board.optimised_512x449.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/Flipper-Zero---Wifi-Board.optimised_512x449.png?v=1773346349 1x, ../cdn/shop/files/Flipper-Zero---Wifi-Board.optimised_1024x898.png?v=1773346349 2x, ../cdn/shop/files/Flipper-Zero---Wifi-Board.optimised_1234x1082.png?v=1773346349 2.41x"
+        srcset="../cdn/shop/files/Flipper-Zero---Wifi-Board.optimised_512x449.png 1x, ../cdn/shop/files/Flipper-Zero---Wifi-Board.optimised_1024x898.png 2x, ../cdn/shop/files/Flipper-Zero---Wifi-Board.optimised_1234x1082.png 2.41x"
         class="productitem--image-primary"
         
         
@@ -11473,7 +11473,7 @@ Diapositive {{ count }} sur {{ total }}
 
   <img
     
-      src="../cdn/shop/files/Flipper-Zero---Wifi-Board.optimised_512x449.png?v=1773346349"
+      src="../cdn/shop/files/Flipper-Zero---Wifi-Board.optimised_512x449.png"
     
     alt=""
     
@@ -11767,12 +11767,12 @@ Diapositive {{ count }} sur {{ total }}
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/KIISU---PCB---Ready---Logo_512x512.png?v=1769779088"
+          src="../cdn/shop/files/KIISU---PCB---Ready---Logo_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/KIISU---PCB---Ready---Logo_512x512.png?v=1769779088 1x, ../cdn/shop/files/KIISU---PCB---Ready---Logo_1024x1024.png?v=1769779088 2x, ../cdn/shop/files/KIISU---PCB---Ready---Logo_1357x1357.png?v=1769779088 2.65x"
+        srcset="../cdn/shop/files/KIISU---PCB---Ready---Logo_512x512.png 1x, ../cdn/shop/files/KIISU---PCB---Ready---Logo_1024x1024.png 2x, ../cdn/shop/files/KIISU---PCB---Ready---Logo_1357x1357.png 2.65x"
         class="productitem--image-primary"
         
         
@@ -11782,7 +11782,7 @@ Diapositive {{ count }} sur {{ total }}
 
   <img
     
-      src="../cdn/shop/files/KIISU---PCB---Ready---Logo_512x512.png?v=1769779088"
+      src="../cdn/shop/files/KIISU---PCB---Ready---Logo_512x512.png"
     
     alt=""
     
@@ -12076,12 +12076,12 @@ Diapositive {{ count }} sur {{ total }}
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/Flux-Capacitor-Front_512x512.png?v=1737712382"
+          src="../cdn/shop/files/Flux-Capacitor-Front_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/Flux-Capacitor-Front_512x512.png?v=1737712382 1x, ../cdn/shop/files/Flux-Capacitor-Front_1024x1024.png?v=1737712382 2x, ../cdn/shop/files/Flux-Capacitor-Front_1137x1137.png?v=1737712382 2.22x"
+        srcset="../cdn/shop/files/Flux-Capacitor-Front_512x512.png 1x, ../cdn/shop/files/Flux-Capacitor-Front_1024x1024.png 2x, ../cdn/shop/files/Flux-Capacitor-Front_1137x1137.png 2.22x"
         class="productitem--image-primary"
         
         
@@ -12091,7 +12091,7 @@ Diapositive {{ count }} sur {{ total }}
 
   <img
     
-      src="../cdn/shop/files/Flux-Capacitor-Front_512x512.png?v=1737712382"
+      src="../cdn/shop/files/Flux-Capacitor-Front_512x512.png"
     
     alt=""
     
@@ -12385,12 +12385,12 @@ Diapositive {{ count }} sur {{ total }}
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/IR-Blaster-With-Flipper_512x449.png?v=1737575490"
+          src="../cdn/shop/files/IR-Blaster-With-Flipper_512x449.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/IR-Blaster-With-Flipper_512x449.png?v=1737575490 1x, ../cdn/shop/files/IR-Blaster-With-Flipper_1024x898.png?v=1737575490 2x, ../cdn/shop/files/IR-Blaster-With-Flipper_1234x1082.png?v=1737575490 2.41x"
+        srcset="../cdn/shop/files/IR-Blaster-With-Flipper_512x449.png 1x, ../cdn/shop/files/IR-Blaster-With-Flipper_1024x898.png 2x, ../cdn/shop/files/IR-Blaster-With-Flipper_1234x1082.png 2.41x"
         class="productitem--image-primary"
         
         
@@ -12400,7 +12400,7 @@ Diapositive {{ count }} sur {{ total }}
 
   <img
     
-      src="../cdn/shop/files/IR-Blaster-With-Flipper_512x449.png?v=1737575490"
+      src="../cdn/shop/files/IR-Blaster-With-Flipper_512x449.png"
     
     alt=""
     
@@ -12688,12 +12688,12 @@ Diapositive {{ count }} sur {{ total }}
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/Flipper-Zero---Silicone-Case.optimised_512x449.png?v=1773346628"
+          src="../cdn/shop/files/Flipper-Zero---Silicone-Case.optimised_512x449.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/Flipper-Zero---Silicone-Case.optimised_512x449.png?v=1773346628 1x, ../cdn/shop/files/Flipper-Zero---Silicone-Case.optimised_1024x898.png?v=1773346628 2x, ../cdn/shop/files/Flipper-Zero---Silicone-Case.optimised_1234x1082.png?v=1773346628 2.41x"
+        srcset="../cdn/shop/files/Flipper-Zero---Silicone-Case.optimised_512x449.png 1x, ../cdn/shop/files/Flipper-Zero---Silicone-Case.optimised_1024x898.png 2x, ../cdn/shop/files/Flipper-Zero---Silicone-Case.optimised_1234x1082.png 2.41x"
         class="productitem--image-primary"
         
         
@@ -12703,7 +12703,7 @@ Diapositive {{ count }} sur {{ total }}
 
   <img
     
-      src="../cdn/shop/files/Flipper-Zero---Silicone-Case.optimised_512x449.png?v=1773346628"
+      src="../cdn/shop/files/Flipper-Zero---Silicone-Case.optimised_512x449.png"
     
     alt=""
     
@@ -13101,12 +13101,12 @@ Diapositive {{ count }} sur {{ total }}
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/products/ICopyX-RFID-Cloner-3-4-1_512x547.png?v=1629380189"
+          src="../cdn/shop/products/ICopyX-RFID-Cloner-3-4-1_512x547.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/products/ICopyX-RFID-Cloner-3-4-1_512x547.png?v=1629380189 1x, ../cdn/shop/products/ICopyX-RFID-Cloner-3-4-1_1024x1094.png?v=1629380189 2x, ../cdn/shop/products/ICopyX-RFID-Cloner-3-4-1_1536x1641.png?v=1629380189 3x, ../cdn/shop/products/ICopyX-RFID-Cloner-3-4-1_1905x2035.png?v=1629380189 3.72x"
+        srcset="../cdn/shop/products/ICopyX-RFID-Cloner-3-4-1_512x547.png 1x, ../cdn/shop/products/ICopyX-RFID-Cloner-3-4-1_1024x1094.png 2x, ../cdn/shop/products/ICopyX-RFID-Cloner-3-4-1_1536x1641.png 3x, ../cdn/shop/products/ICopyX-RFID-Cloner-3-4-1_1905x2035.png 3.72x"
         class="productitem--image-primary"
         
         
@@ -13116,7 +13116,7 @@ Diapositive {{ count }} sur {{ total }}
 
   <img
     
-      src="../cdn/shop/products/ICopyX-RFID-Cloner-3-4-1_512x547.png?v=1629380189"
+      src="../cdn/shop/products/ICopyX-RFID-Cloner-3-4-1_512x547.png"
     
     alt=""
     
@@ -13406,12 +13406,12 @@ Diapositive {{ count }} sur {{ total }}
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/Proxmark-5---Front_512x512.png?v=1786219407"
+          src="../cdn/shop/files/Proxmark-5---Front_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/Proxmark-5---Front_512x512.png?v=1786219407 1x, ../cdn/shop/files/Proxmark-5---Front_1024x1024.png?v=1786219407 2x, ../cdn/shop/files/Proxmark-5---Front_1172x1172.png?v=1786219407 2.29x"
+        srcset="../cdn/shop/files/Proxmark-5---Front_512x512.png 1x, ../cdn/shop/files/Proxmark-5---Front_1024x1024.png 2x, ../cdn/shop/files/Proxmark-5---Front_1172x1172.png 2.29x"
         class="productitem--image-primary"
         
         
@@ -13421,7 +13421,7 @@ Diapositive {{ count }} sur {{ total }}
 
   <img
     
-      src="../cdn/shop/files/Proxmark-5---Front_512x512.png?v=1786219407"
+      src="../cdn/shop/files/Proxmark-5---Front_512x512.png"
     
     alt=""
     
@@ -13709,12 +13709,12 @@ Diapositive {{ count }} sur {{ total }}
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/Flipper-Zero---Front_512x449.png?v=1773345630"
+          src="../cdn/shop/files/Flipper-Zero---Front_512x449.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/Flipper-Zero---Front_512x449.png?v=1773345630 1x, ../cdn/shop/files/Flipper-Zero---Front_1024x898.png?v=1773345630 2x, ../cdn/shop/files/Flipper-Zero---Front_1234x1082.png?v=1773345630 2.41x"
+        srcset="../cdn/shop/files/Flipper-Zero---Front_512x449.png 1x, ../cdn/shop/files/Flipper-Zero---Front_1024x898.png 2x, ../cdn/shop/files/Flipper-Zero---Front_1234x1082.png 2.41x"
         class="productitem--image-primary"
         
         
@@ -13724,7 +13724,7 @@ Diapositive {{ count }} sur {{ total }}
 
   <img
     
-      src="../cdn/shop/files/Flipper-Zero---Front_512x449.png?v=1773345630"
+      src="../cdn/shop/files/Flipper-Zero---Front_512x449.png"
     
     alt=""
     
@@ -14026,12 +14026,12 @@ Diapositive {{ count }} sur {{ total }}
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/2023---OMG-Cable---USB-A-to-MicroUSB_512x512.png?v=1689850687"
+          src="../cdn/shop/files/2023---OMG-Cable---USB-A-to-MicroUSB_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/2023---OMG-Cable---USB-A-to-MicroUSB_512x512.png?v=1689850687 1x, ../cdn/shop/files/2023---OMG-Cable---USB-A-to-MicroUSB_876x876.png?v=1689850687 1.71x"
+        srcset="../cdn/shop/files/2023---OMG-Cable---USB-A-to-MicroUSB_512x512.png 1x, ../cdn/shop/files/2023---OMG-Cable---USB-A-to-MicroUSB_876x876.png 1.71x"
         class="productitem--image-primary"
         
         
@@ -14041,7 +14041,7 @@ Diapositive {{ count }} sur {{ total }}
 
   <img
     
-      src="../cdn/shop/files/2023---OMG-Cable---USB-A-to-MicroUSB_512x512.png?v=1689850687"
+      src="../cdn/shop/files/2023---OMG-Cable---USB-A-to-MicroUSB_512x512.png"
     
     alt=""
     
@@ -14333,12 +14333,12 @@ Diapositive {{ count }} sur {{ total }}
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/products/Proxmark-3-RDV-4.1-New-Antenna-Front_512x412.png?v=1567146103"
+          src="../cdn/shop/products/Proxmark-3-RDV-4.1-New-Antenna-Front_512x412.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/products/Proxmark-3-RDV-4.1-New-Antenna-Front_512x412.png?v=1567146103 1x, ../cdn/shop/products/Proxmark-3-RDV-4.1-New-Antenna-Front_1024x824.png?v=1567146103 2x, ../cdn/shop/products/Proxmark-3-RDV-4.1-New-Antenna-Front_1505x1211.png?v=1567146103 2.94x"
+        srcset="../cdn/shop/products/Proxmark-3-RDV-4.1-New-Antenna-Front_512x412.png 1x, ../cdn/shop/products/Proxmark-3-RDV-4.1-New-Antenna-Front_1024x824.png 2x, ../cdn/shop/products/Proxmark-3-RDV-4.1-New-Antenna-Front_1505x1211.png 2.94x"
         class="productitem--image-primary"
         
         
@@ -14348,7 +14348,7 @@ Diapositive {{ count }} sur {{ total }}
 
   <img
     
-      src="../cdn/shop/products/Proxmark-3-RDV-4.1-New-Antenna-Front_512x412.png?v=1567146103"
+      src="../cdn/shop/products/Proxmark-3-RDV-4.1-New-Antenna-Front_512x412.png"
     
     alt=""
     
@@ -14640,12 +14640,12 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/2023---hak5-rubber-ducky-1_512x512.png?v=1689852107"
+          src="../cdn/shop/files/2023---hak5-rubber-ducky-1_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/2023---hak5-rubber-ducky-1_512x512.png?v=1689852107 1x, ../cdn/shop/files/2023---hak5-rubber-ducky-1_1024x1024.png?v=1689852107 2x, ../cdn/shop/files/2023---hak5-rubber-ducky-1_1295x1295.png?v=1689852107 2.53x"
+        srcset="../cdn/shop/files/2023---hak5-rubber-ducky-1_512x512.png 1x, ../cdn/shop/files/2023---hak5-rubber-ducky-1_1024x1024.png 2x, ../cdn/shop/files/2023---hak5-rubber-ducky-1_1295x1295.png 2.53x"
         class="productitem--image-primary"
         
         
@@ -14655,7 +14655,7 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
 
   <img
     
-      src="../cdn/shop/files/2023---hak5-rubber-ducky-1_512x512.png?v=1689852107"
+      src="../cdn/shop/files/2023---hak5-rubber-ducky-1_512x512.png"
     
     alt=""
     
@@ -14943,12 +14943,12 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/Chameleon-Ultra-MIFARE-Cracking-Tool_512x512.png?v=1691595167"
+          src="../cdn/shop/files/Chameleon-Ultra-MIFARE-Cracking-Tool_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/Chameleon-Ultra-MIFARE-Cracking-Tool_512x512.png?v=1691595167 1x, ../cdn/shop/files/Chameleon-Ultra-MIFARE-Cracking-Tool_937x937.png?v=1691595167 1.83x"
+        srcset="../cdn/shop/files/Chameleon-Ultra-MIFARE-Cracking-Tool_512x512.png 1x, ../cdn/shop/files/Chameleon-Ultra-MIFARE-Cracking-Tool_937x937.png 1.83x"
         class="productitem--image-primary"
         
         
@@ -14958,7 +14958,7 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
 
   <img
     
-      src="../cdn/shop/files/Chameleon-Ultra-MIFARE-Cracking-Tool_512x512.png?v=1691595167"
+      src="../cdn/shop/files/Chameleon-Ultra-MIFARE-Cracking-Tool_512x512.png"
     
     alt=""
     
@@ -15345,12 +15345,12 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/PhantomDrive---Encrypted-USB-Drive---Cap-Cropped_512x512.png?v=1792160561"
+          src="../cdn/shop/files/PhantomDrive---Encrypted-USB-Drive---Cap-Cropped_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/PhantomDrive---Encrypted-USB-Drive---Cap-Cropped_512x512.png?v=1792160561 1x, ../cdn/shop/files/PhantomDrive---Encrypted-USB-Drive---Cap-Cropped_1024x1024.png?v=1792160561 2x, ../cdn/shop/files/PhantomDrive---Encrypted-USB-Drive---Cap-Cropped_1172x1172.png?v=1792160561 2.29x"
+        srcset="../cdn/shop/files/PhantomDrive---Encrypted-USB-Drive---Cap-Cropped_512x512.png 1x, ../cdn/shop/files/PhantomDrive---Encrypted-USB-Drive---Cap-Cropped_1024x1024.png 2x, ../cdn/shop/files/PhantomDrive---Encrypted-USB-Drive---Cap-Cropped_1172x1172.png 2.29x"
         class="productitem--image-primary"
         
         
@@ -15360,7 +15360,7 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
 
   <img
     
-      src="../cdn/shop/files/PhantomDrive---Encrypted-USB-Drive---Cap-Cropped_512x512.png?v=1792160561"
+      src="../cdn/shop/files/PhantomDrive---Encrypted-USB-Drive---Cap-Cropped_512x512.png"
     
     alt=""
     
@@ -15648,12 +15648,12 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/Proxmark5---Wireless-Module---Installed_512x512.png?v=1786349460"
+          src="../cdn/shop/files/Proxmark5---Wireless-Module---Installed_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/Proxmark5---Wireless-Module---Installed_512x512.png?v=1786349460 1x, ../cdn/shop/files/Proxmark5---Wireless-Module---Installed_1024x1024.png?v=1786349460 2x, ../cdn/shop/files/Proxmark5---Wireless-Module---Installed_1172x1172.png?v=1786349460 2.29x"
+        srcset="../cdn/shop/files/Proxmark5---Wireless-Module---Installed_512x512.png 1x, ../cdn/shop/files/Proxmark5---Wireless-Module---Installed_1024x1024.png 2x, ../cdn/shop/files/Proxmark5---Wireless-Module---Installed_1172x1172.png 2.29x"
         class="productitem--image-primary"
         
         
@@ -15663,7 +15663,7 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
 
   <img
     
-      src="../cdn/shop/files/Proxmark5---Wireless-Module---Installed_512x512.png?v=1786349460"
+      src="../cdn/shop/files/Proxmark5---Wireless-Module---Installed_512x512.png"
     
     alt=""
     
@@ -15957,12 +15957,12 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/Proxmark-5---Front_512x512.png?v=1786219407"
+          src="../cdn/shop/files/Proxmark-5---Front_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/Proxmark-5---Front_512x512.png?v=1786219407 1x, ../cdn/shop/files/Proxmark-5---Front_1024x1024.png?v=1786219407 2x, ../cdn/shop/files/Proxmark-5---Front_1172x1172.png?v=1786219407 2.29x"
+        srcset="../cdn/shop/files/Proxmark-5---Front_512x512.png 1x, ../cdn/shop/files/Proxmark-5---Front_1024x1024.png 2x, ../cdn/shop/files/Proxmark-5---Front_1172x1172.png 2.29x"
         class="productitem--image-primary"
         
         
@@ -15972,7 +15972,7 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
 
   <img
     
-      src="../cdn/shop/files/Proxmark-5---Front_512x512.png?v=1786219407"
+      src="../cdn/shop/files/Proxmark-5---Front_512x512.png"
     
     alt=""
     
@@ -16256,12 +16256,12 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/UHFKill-Reader-2.optimised_512x512.png?v=1784202772"
+          src="../cdn/shop/files/UHFKill-Reader-2.optimised_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/UHFKill-Reader-2.optimised_512x512.png?v=1784202772 1x, ../cdn/shop/files/UHFKill-Reader-2.optimised_1024x1024.png?v=1784202772 2x, ../cdn/shop/files/UHFKill-Reader-2.optimised_1326x1326.png?v=1784202772 2.59x"
+        srcset="../cdn/shop/files/UHFKill-Reader-2.optimised_512x512.png 1x, ../cdn/shop/files/UHFKill-Reader-2.optimised_1024x1024.png 2x, ../cdn/shop/files/UHFKill-Reader-2.optimised_1326x1326.png 2.59x"
         class="productitem--image-primary"
         
         
@@ -16271,7 +16271,7 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
 
   <img
     
-      src="../cdn/shop/files/UHFKill-Reader-2.optimised_512x512.png?v=1784202772"
+      src="../cdn/shop/files/UHFKill-Reader-2.optimised_512x512.png"
     
     alt=""
     
@@ -16565,12 +16565,12 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/Tag-Testing---Service---2_512x463.png?v=1784202611"
+          src="../cdn/shop/files/Tag-Testing---Service---2_512x463.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/Tag-Testing---Service---2_512x463.png?v=1784202611 1x, ../cdn/shop/files/Tag-Testing---Service---2_819x741.png?v=1784202611 1.6x"
+        srcset="../cdn/shop/files/Tag-Testing---Service---2_512x463.png 1x, ../cdn/shop/files/Tag-Testing---Service---2_819x741.png 1.6x"
         class="productitem--image-primary"
         
         
@@ -16580,7 +16580,7 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
 
   <img
     
-      src="../cdn/shop/files/Tag-Testing---Service---2_512x463.png?v=1784202611"
+      src="../cdn/shop/files/Tag-Testing---Service---2_512x463.png"
     
     alt=""
     
@@ -16874,12 +16874,12 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/SilverBullet-2-Half-Box-Open_512x512.png?v=1784106491"
+          src="../cdn/shop/files/SilverBullet-2-Half-Box-Open_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/SilverBullet-2-Half-Box-Open_512x512.png?v=1784106491 1x, ../cdn/shop/files/SilverBullet-2-Half-Box-Open_1024x1024.png?v=1784106491 2x, ../cdn/shop/files/SilverBullet-2-Half-Box-Open_1500x1500.png?v=1784106491 2.93x"
+        srcset="../cdn/shop/files/SilverBullet-2-Half-Box-Open_512x512.png 1x, ../cdn/shop/files/SilverBullet-2-Half-Box-Open_1024x1024.png 2x, ../cdn/shop/files/SilverBullet-2-Half-Box-Open_1500x1500.png 2.93x"
         class="productitem--image-primary"
         
         
@@ -16889,7 +16889,7 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
 
   <img
     
-      src="../cdn/shop/files/SilverBullet-2-Half-Box-Open_512x512.png?v=1784106491"
+      src="../cdn/shop/files/SilverBullet-2-Half-Box-Open_512x512.png"
     
     alt=""
     
@@ -17179,12 +17179,12 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/Project-Reboot---Front_512x512.png?v=1782226504"
+          src="../cdn/shop/files/Project-Reboot---Front_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/Project-Reboot---Front_512x512.png?v=1782226504 1x, ../cdn/shop/files/Project-Reboot---Front_1024x1024.png?v=1782226504 2x, ../cdn/shop/files/Project-Reboot---Front_1198x1198.png?v=1782226504 2.34x"
+        srcset="../cdn/shop/files/Project-Reboot---Front_512x512.png 1x, ../cdn/shop/files/Project-Reboot---Front_1024x1024.png 2x, ../cdn/shop/files/Project-Reboot---Front_1198x1198.png 2.34x"
         class="productitem--image-primary"
         
         
@@ -17194,7 +17194,7 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
 
   <img
     
-      src="../cdn/shop/files/Project-Reboot---Front_512x512.png?v=1782226504"
+      src="../cdn/shop/files/Project-Reboot---Front_512x512.png"
     
     alt=""
     
@@ -17490,12 +17490,12 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/SharkJack-Display_512x512.png?v=1782373344"
+          src="../cdn/shop/files/SharkJack-Display_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/SharkJack-Display_512x512.png?v=1782373344 1x, ../cdn/shop/files/SharkJack-Display_1024x1024.png?v=1782373344 2x, ../cdn/shop/files/SharkJack-Display_1198x1198.png?v=1782373344 2.34x"
+        srcset="../cdn/shop/files/SharkJack-Display_512x512.png 1x, ../cdn/shop/files/SharkJack-Display_1024x1024.png 2x, ../cdn/shop/files/SharkJack-Display_1198x1198.png 2.34x"
         class="productitem--image-primary"
         
         
@@ -17505,7 +17505,7 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
 
   <img
     
-      src="../cdn/shop/files/SharkJack-Display_512x512.png?v=1782373344"
+      src="../cdn/shop/files/SharkJack-Display_512x512.png"
     
     alt=""
     
@@ -17793,12 +17793,12 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/Lab401-North-America---Lockpick-Bump-Pack_512x512.png?v=1778854972"
+          src="../cdn/shop/files/Lab401-North-America---Lockpick-Bump-Pack_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/Lab401-North-America---Lockpick-Bump-Pack_512x512.png?v=1778854972 1x, ../cdn/shop/files/Lab401-North-America---Lockpick-Bump-Pack_1024x1024.png?v=1778854972 2x, ../cdn/shop/files/Lab401-North-America---Lockpick-Bump-Pack_1536x1536.png?v=1778854972 3x, ../cdn/shop/files/Lab401-North-America---Lockpick-Bump-Pack_1884x1884.png?v=1778854972 3.68x"
+        srcset="../cdn/shop/files/Lab401-North-America---Lockpick-Bump-Pack_512x512.png 1x, ../cdn/shop/files/Lab401-North-America---Lockpick-Bump-Pack_1024x1024.png 2x, ../cdn/shop/files/Lab401-North-America---Lockpick-Bump-Pack_1536x1536.png 3x, ../cdn/shop/files/Lab401-North-America---Lockpick-Bump-Pack_1884x1884.png 3.68x"
         class="productitem--image-primary"
         
         
@@ -17808,7 +17808,7 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
 
   <img
     
-      src="../cdn/shop/files/Lab401-North-America---Lockpick-Bump-Pack_512x512.png?v=1778854972"
+      src="../cdn/shop/files/Lab401-North-America---Lockpick-Bump-Pack_512x512.png"
     
     alt=""
     
@@ -18072,7 +18072,7 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
 </div>
 
 
-</div><div id="shopify-section-template--28353746665819__partners_e446pb" class="shopify-section slider-section"><link href="//lab401.com/cdn/shop/t/60/assets/partners.css?v=172223725574064530251773920007" rel="stylesheet" type="text/css" media="all" />
+</div><div id="shopify-section-template--28353746665819__partners_e446pb" class="shopify-section slider-section"><link href="../cdn/shop/t/60/assets/partners.css" rel="stylesheet" type="text/css" media="all" />
 <style>.partners-block-image{max-width:350px;height:auto}.partners-shop-logo{height:16px;width:auto}.partners-block-logo-image{max-height:125px;width:100%;object-fit:scale-down}is-land{display:contents}@media(min-width:1051px){.partners-block-logo{display:grid;grid-template-columns:repeat(5,1fr);grid-template-rows:125px;align-items:center;justify-items:center}}</style>
 <div class="partners-container">
   <div class="partners-block">
@@ -18086,7 +18086,7 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
 
 
 
-<is-land on:visible data-image-type=""><img src="//lab401.com/cdn/shop/files/Review-Stars.png?v=1645187289&amp;width=1600" alt="img" srcset="//lab401.com/cdn/shop/files/Review-Stars.png?v=1645187289&amp;width=350 350w, //lab401.com/cdn/shop/files/Review-Stars.png?v=1645187289&amp;width=352 352w, //lab401.com/cdn/shop/files/Review-Stars.png?v=1645187289&amp;width=832 832w, //lab401.com/cdn/shop/files/Review-Stars.png?v=1645187289&amp;width=1200 1200w" width="350" height="65" loading="lazy" class="partners-block-image image-element" sizes="350px" style="max-width:350px;height:auto;" data-animate="fadein">
+<is-land on:visible data-image-type=""><img src="../cdn/shop/files/Review-Stars_w1600.png" alt="img" srcset="../cdn/shop/files/Review-Stars_w350.png 350w, ../cdn/shop/files/Review-Stars_w352.png 352w, ../cdn/shop/files/Review-Stars_w832.png 832w, ../cdn/shop/files/Review-Stars_w1200.png 1200w" width="350" height="65" loading="lazy" class="partners-block-image image-element" sizes="350px" style="max-width:350px;height:auto;" data-animate="fadein">
   
 
   
@@ -18169,7 +18169,7 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
           <div class="partners-block-logo-box">
 
 
-<is-land on:visible data-image-type=""><img src="//lab401.com/cdn/shop/files/Testamonial-Logo-1_2486bd92-6beb-4011-b510-d919167dd61b.png?v=1699018372&amp;width=626" alt="img" srcset="//lab401.com/cdn/shop/files/Testamonial-Logo-1_2486bd92-6beb-4011-b510-d919167dd61b.png?v=1699018372&amp;width=352 352w, //lab401.com/cdn/shop/files/Testamonial-Logo-1_2486bd92-6beb-4011-b510-d919167dd61b.png?v=1699018372&amp;width=626 626w" width="626" height="190.0" loading="lazy" class="partners-block-logo-image image-element" sizes="100vw" style="max-width:100%;height:auto;max-height:125px;object-fit:scale-down;" data-animate="fadein">
+<is-land on:visible data-image-type=""><img src="../cdn/shop/files/Testamonial-Logo-1_2486bd92-6beb-4011-b510-d919167dd61b_w626.png" alt="img" srcset="../cdn/shop/files/Testamonial-Logo-1_2486bd92-6beb-4011-b510-d919167dd61b_w352.png 352w, ../cdn/shop/files/Testamonial-Logo-1_2486bd92-6beb-4011-b510-d919167dd61b_w626.png 626w" width="626" height="190.0" loading="lazy" class="partners-block-logo-image image-element" sizes="100vw" style="max-width:100%;height:auto;max-height:125px;object-fit:scale-down;" data-animate="fadein">
   
 
   
@@ -18182,7 +18182,7 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
           <div class="partners-block-logo-box">
 
 
-<is-land on:visible data-image-type=""><img src="//lab401.com/cdn/shop/files/Testamonial-Logo-6_baa62586-312a-462c-ba72-0b2e1bd2df5c.png?v=1773348515&amp;width=960" alt="img" srcset="//lab401.com/cdn/shop/files/Testamonial-Logo-6_baa62586-312a-462c-ba72-0b2e1bd2df5c.png?v=1773348515&amp;width=352 352w, //lab401.com/cdn/shop/files/Testamonial-Logo-6_baa62586-312a-462c-ba72-0b2e1bd2df5c.png?v=1773348515&amp;width=832 832w, //lab401.com/cdn/shop/files/Testamonial-Logo-6_baa62586-312a-462c-ba72-0b2e1bd2df5c.png?v=1773348515&amp;width=960 960w" width="960" height="120.0" loading="lazy" class="partners-block-logo-image image-element" sizes="100vw" style="max-width:100%;height:auto;max-height:125px;object-fit:scale-down;" data-animate="fadein">
+<is-land on:visible data-image-type=""><img src="../cdn/shop/files/Testamonial-Logo-6_baa62586-312a-462c-ba72-0b2e1bd2df5c_w960.png" alt="img" srcset="../cdn/shop/files/Testamonial-Logo-6_baa62586-312a-462c-ba72-0b2e1bd2df5c_w352.png 352w, ../cdn/shop/files/Testamonial-Logo-6_baa62586-312a-462c-ba72-0b2e1bd2df5c_w832.png 832w, ../cdn/shop/files/Testamonial-Logo-6_baa62586-312a-462c-ba72-0b2e1bd2df5c_w960.png 960w" width="960" height="120.0" loading="lazy" class="partners-block-logo-image image-element" sizes="100vw" style="max-width:100%;height:auto;max-height:125px;object-fit:scale-down;" data-animate="fadein">
   
 
   
@@ -18195,7 +18195,7 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
           <div class="partners-block-logo-box">
 
 
-<is-land on:visible data-image-type=""><img src="//lab401.com/cdn/shop/files/Testamonial-Logo-4.png?v=1645187500&amp;width=452" alt="img" srcset="//lab401.com/cdn/shop/files/Testamonial-Logo-4.png?v=1645187500&amp;width=352 352w, //lab401.com/cdn/shop/files/Testamonial-Logo-4.png?v=1645187500&amp;width=452 452w" width="452" height="204.0" loading="lazy" class="partners-block-logo-image image-element" sizes="100vw" style="max-width:100%;height:auto;max-height:125px;object-fit:scale-down;" data-animate="fadein">
+<is-land on:visible data-image-type=""><img src="../cdn/shop/files/Testamonial-Logo-4_w452.png" alt="img" srcset="../cdn/shop/files/Testamonial-Logo-4_w352.png 352w, ../cdn/shop/files/Testamonial-Logo-4_w452.png 452w" width="452" height="204.0" loading="lazy" class="partners-block-logo-image image-element" sizes="100vw" style="max-width:100%;height:auto;max-height:125px;object-fit:scale-down;" data-animate="fadein">
   
 
   
@@ -18208,7 +18208,7 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
           <div class="partners-block-logo-box">
 
 
-<is-land on:visible data-image-type=""><img src="//lab401.com/cdn/shop/files/Testamonial-Logo-2.png?v=1645187500&amp;width=244" alt="img" srcset="//lab401.com/cdn/shop/files/Testamonial-Logo-2.png?v=1645187500&amp;width=244 244w" width="244" height="248.0" loading="lazy" class="partners-block-logo-image image-element" sizes="100vw" style="max-width:100%;height:auto;max-height:125px;object-fit:scale-down;" data-animate="fadein">
+<is-land on:visible data-image-type=""><img src="../cdn/shop/files/Testamonial-Logo-2_w244.png" alt="img" srcset="../cdn/shop/files/Testamonial-Logo-2_w244.png 244w" width="244" height="248.0" loading="lazy" class="partners-block-logo-image image-element" sizes="100vw" style="max-width:100%;height:auto;max-height:125px;object-fit:scale-down;" data-animate="fadein">
   
 
   
@@ -18221,7 +18221,7 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
           <div class="partners-block-logo-box">
 
 
-<is-land on:visible data-image-type=""><img src="//lab401.com/cdn/shop/files/Testamonial-Logo-5.png?v=1645187503&amp;width=186" alt="img" srcset="//lab401.com/cdn/shop/files/Testamonial-Logo-5.png?v=1645187503&amp;width=186 186w" width="186" height="250.0" loading="lazy" class="partners-block-logo-image image-element" sizes="100vw" style="max-width:100%;height:auto;max-height:125px;object-fit:scale-down;" data-animate="fadein">
+<is-land on:visible data-image-type=""><img src="../cdn/shop/files/Testamonial-Logo-5_w186.png" alt="img" srcset="../cdn/shop/files/Testamonial-Logo-5_w186.png 186w" width="186" height="250.0" loading="lazy" class="partners-block-logo-image image-element" sizes="100vw" style="max-width:100%;height:auto;max-height:125px;object-fit:scale-down;" data-animate="fadein">
   
 
   
@@ -18256,8 +18256,8 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
 }
 </script>
 
-<script src="//lab401.com/cdn/shop/t/60/assets/partners-reviews.js?v=38241204666430100821773918365" defer></script>
-<script src="//lab401.com/cdn/shop/t/60/assets/partners-swiper.js?v=19422412190665977671772550675" defer></script>
+<script src="../cdn/shop/t/60/assets/partners-reviews.js" defer></script>
+<script src="../cdn/shop/t/60/assets/partners-swiper.js" defer></script>
 
 </div><div id="shopify-section-template--28353746665819__dynamic_featured_collection_PHhJHQ" class="shopify-section featured-collection--section"><script
   type="application/json"
@@ -18382,12 +18382,12 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/Proxmark-5---Front_512x512.png?v=1786219407"
+          src="../cdn/shop/files/Proxmark-5---Front_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/Proxmark-5---Front_512x512.png?v=1786219407 1x, ../cdn/shop/files/Proxmark-5---Front_1024x1024.png?v=1786219407 2x, ../cdn/shop/files/Proxmark-5---Front_1172x1172.png?v=1786219407 2.29x"
+        srcset="../cdn/shop/files/Proxmark-5---Front_512x512.png 1x, ../cdn/shop/files/Proxmark-5---Front_1024x1024.png 2x, ../cdn/shop/files/Proxmark-5---Front_1172x1172.png 2.29x"
         class="productitem--image-primary"
         
         
@@ -18397,7 +18397,7 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
 
   <img
     
-      src="../cdn/shop/files/Proxmark-5---Front_512x512.png?v=1786219407"
+      src="../cdn/shop/files/Proxmark-5---Front_512x512.png"
     
     alt=""
     
@@ -18682,12 +18682,12 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/products/Proxmark-3-RDV-4.1-New-Antenna-Front_512x412.png?v=1567146103"
+          src="../cdn/shop/products/Proxmark-3-RDV-4.1-New-Antenna-Front_512x412.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/products/Proxmark-3-RDV-4.1-New-Antenna-Front_512x412.png?v=1567146103 1x, ../cdn/shop/products/Proxmark-3-RDV-4.1-New-Antenna-Front_1024x824.png?v=1567146103 2x, ../cdn/shop/products/Proxmark-3-RDV-4.1-New-Antenna-Front_1505x1211.png?v=1567146103 2.94x"
+        srcset="../cdn/shop/products/Proxmark-3-RDV-4.1-New-Antenna-Front_512x412.png 1x, ../cdn/shop/products/Proxmark-3-RDV-4.1-New-Antenna-Front_1024x824.png 2x, ../cdn/shop/products/Proxmark-3-RDV-4.1-New-Antenna-Front_1505x1211.png 2.94x"
         class="productitem--image-primary"
         
         
@@ -18697,7 +18697,7 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
 
   <img
     
-      src="../cdn/shop/products/Proxmark-3-RDV-4.1-New-Antenna-Front_512x412.png?v=1567146103"
+      src="../cdn/shop/products/Proxmark-3-RDV-4.1-New-Antenna-Front_512x412.png"
     
     alt=""
     
@@ -18990,12 +18990,12 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/products/LibNFC-MFOC-Reader-Writer-cropped_512x332.png?v=1581182606"
+          src="../cdn/shop/products/LibNFC-MFOC-Reader-Writer-cropped_512x332.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/products/LibNFC-MFOC-Reader-Writer-cropped_512x332.png?v=1581182606 1x, ../cdn/shop/products/LibNFC-MFOC-Reader-Writer-cropped_1024x664.png?v=1581182606 2x, ../cdn/shop/products/LibNFC-MFOC-Reader-Writer-cropped_1126x730.png?v=1581182606 2.2x"
+        srcset="../cdn/shop/products/LibNFC-MFOC-Reader-Writer-cropped_512x332.png 1x, ../cdn/shop/products/LibNFC-MFOC-Reader-Writer-cropped_1024x664.png 2x, ../cdn/shop/products/LibNFC-MFOC-Reader-Writer-cropped_1126x730.png 2.2x"
         class="productitem--image-primary"
         
         
@@ -19005,7 +19005,7 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
 
   <img
     
-      src="../cdn/shop/products/LibNFC-MFOC-Reader-Writer-cropped_512x332.png?v=1581182606"
+      src="../cdn/shop/products/LibNFC-MFOC-Reader-Writer-cropped_512x332.png"
     
     alt=""
     
@@ -19308,12 +19308,12 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/products/ICopyX-RFID-Cloner-3-4-1_512x547.png?v=1629380189"
+          src="../cdn/shop/products/ICopyX-RFID-Cloner-3-4-1_512x547.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/products/ICopyX-RFID-Cloner-3-4-1_512x547.png?v=1629380189 1x, ../cdn/shop/products/ICopyX-RFID-Cloner-3-4-1_1024x1094.png?v=1629380189 2x, ../cdn/shop/products/ICopyX-RFID-Cloner-3-4-1_1536x1641.png?v=1629380189 3x, ../cdn/shop/products/ICopyX-RFID-Cloner-3-4-1_1905x2035.png?v=1629380189 3.72x"
+        srcset="../cdn/shop/products/ICopyX-RFID-Cloner-3-4-1_512x547.png 1x, ../cdn/shop/products/ICopyX-RFID-Cloner-3-4-1_1024x1094.png 2x, ../cdn/shop/products/ICopyX-RFID-Cloner-3-4-1_1536x1641.png 3x, ../cdn/shop/products/ICopyX-RFID-Cloner-3-4-1_1905x2035.png 3.72x"
         class="productitem--image-primary"
         
         
@@ -19323,7 +19323,7 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
 
   <img
     
-      src="../cdn/shop/products/ICopyX-RFID-Cloner-3-4-1_512x547.png?v=1629380189"
+      src="../cdn/shop/products/ICopyX-RFID-Cloner-3-4-1_512x547.png"
     
     alt=""
     
@@ -19617,12 +19617,12 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/Flipper-Zero---Front_512x449.png?v=1773345630"
+          src="../cdn/shop/files/Flipper-Zero---Front_512x449.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/Flipper-Zero---Front_512x449.png?v=1773345630 1x, ../cdn/shop/files/Flipper-Zero---Front_1024x898.png?v=1773345630 2x, ../cdn/shop/files/Flipper-Zero---Front_1234x1082.png?v=1773345630 2.41x"
+        srcset="../cdn/shop/files/Flipper-Zero---Front_512x449.png 1x, ../cdn/shop/files/Flipper-Zero---Front_1024x898.png 2x, ../cdn/shop/files/Flipper-Zero---Front_1234x1082.png 2.41x"
         class="productitem--image-primary"
         
         
@@ -19632,7 +19632,7 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
 
   <img
     
-      src="../cdn/shop/files/Flipper-Zero---Front_512x449.png?v=1773345630"
+      src="../cdn/shop/files/Flipper-Zero---Front_512x449.png"
     
     alt=""
     
@@ -19918,12 +19918,12 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/RFID-Field-Detector---With-UHF_512x512.png?v=1754955174"
+          src="../cdn/shop/files/RFID-Field-Detector---With-UHF_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/RFID-Field-Detector---With-UHF_512x512.png?v=1754955174 1x, ../cdn/shop/files/RFID-Field-Detector---With-UHF_1024x1024.png?v=1754955174 2x, ../cdn/shop/files/RFID-Field-Detector---With-UHF_1065x1065.png?v=1754955174 2.08x"
+        srcset="../cdn/shop/files/RFID-Field-Detector---With-UHF_512x512.png 1x, ../cdn/shop/files/RFID-Field-Detector---With-UHF_1024x1024.png 2x, ../cdn/shop/files/RFID-Field-Detector---With-UHF_1065x1065.png 2.08x"
         class="productitem--image-primary"
         
         
@@ -19933,7 +19933,7 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
 
   <img
     
-      src="../cdn/shop/files/RFID-Field-Detector---With-UHF_512x512.png?v=1754955174"
+      src="../cdn/shop/files/RFID-Field-Detector---With-UHF_512x512.png"
     
     alt=""
     
@@ -20227,12 +20227,12 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/Chameleon-Ultra-MIFARE-Cracking-Tool_512x512.png?v=1691595167"
+          src="../cdn/shop/files/Chameleon-Ultra-MIFARE-Cracking-Tool_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/Chameleon-Ultra-MIFARE-Cracking-Tool_512x512.png?v=1691595167 1x, ../cdn/shop/files/Chameleon-Ultra-MIFARE-Cracking-Tool_937x937.png?v=1691595167 1.83x"
+        srcset="../cdn/shop/files/Chameleon-Ultra-MIFARE-Cracking-Tool_512x512.png 1x, ../cdn/shop/files/Chameleon-Ultra-MIFARE-Cracking-Tool_937x937.png 1.83x"
         class="productitem--image-primary"
         
         
@@ -20242,7 +20242,7 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
 
   <img
     
-      src="../cdn/shop/files/Chameleon-Ultra-MIFARE-Cracking-Tool_512x512.png?v=1691595167"
+      src="../cdn/shop/files/Chameleon-Ultra-MIFARE-Cracking-Tool_512x512.png"
     
     alt=""
     
@@ -20630,12 +20630,12 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/2023-Rogue-Pro_512x589.png?v=1761138678"
+          src="../cdn/shop/files/2023-Rogue-Pro_512x589.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/2023-Rogue-Pro_512x589.png?v=1761138678 1x, ../cdn/shop/files/2023-Rogue-Pro_799x919.png?v=1761138678 1.56x"
+        srcset="../cdn/shop/files/2023-Rogue-Pro_512x589.png 1x, ../cdn/shop/files/2023-Rogue-Pro_799x919.png 1.56x"
         class="productitem--image-primary"
         
         
@@ -20645,7 +20645,7 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
 
   <img
     
-      src="../cdn/shop/files/2023-Rogue-Pro_512x589.png?v=1761138678"
+      src="../cdn/shop/files/2023-Rogue-Pro_512x589.png"
     
     alt=""
     
@@ -20938,12 +20938,12 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/Flux-Capacitor-Front_512x512.png?v=1737712382"
+          src="../cdn/shop/files/Flux-Capacitor-Front_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/Flux-Capacitor-Front_512x512.png?v=1737712382 1x, ../cdn/shop/files/Flux-Capacitor-Front_1024x1024.png?v=1737712382 2x, ../cdn/shop/files/Flux-Capacitor-Front_1137x1137.png?v=1737712382 2.22x"
+        srcset="../cdn/shop/files/Flux-Capacitor-Front_512x512.png 1x, ../cdn/shop/files/Flux-Capacitor-Front_1024x1024.png 2x, ../cdn/shop/files/Flux-Capacitor-Front_1137x1137.png 2.22x"
         class="productitem--image-primary"
         
         
@@ -20953,7 +20953,7 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
 
   <img
     
-      src="../cdn/shop/files/Flux-Capacitor-Front_512x512.png?v=1737712382"
+      src="../cdn/shop/files/Flux-Capacitor-Front_512x512.png"
     
     alt=""
     
@@ -21247,12 +21247,12 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/TinySA-Ultra-Plus_512x512.png?v=1737551515"
+          src="../cdn/shop/files/TinySA-Ultra-Plus_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/TinySA-Ultra-Plus_512x512.png?v=1737551515 1x, ../cdn/shop/files/TinySA-Ultra-Plus_1024x1024.png?v=1737551515 2x, ../cdn/shop/files/TinySA-Ultra-Plus_1137x1137.png?v=1737551515 2.22x"
+        srcset="../cdn/shop/files/TinySA-Ultra-Plus_512x512.png 1x, ../cdn/shop/files/TinySA-Ultra-Plus_1024x1024.png 2x, ../cdn/shop/files/TinySA-Ultra-Plus_1137x1137.png 2.22x"
         class="productitem--image-primary"
         
         
@@ -21262,7 +21262,7 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
 
   <img
     
-      src="../cdn/shop/files/TinySA-Ultra-Plus_512x512.png?v=1737551515"
+      src="../cdn/shop/files/TinySA-Ultra-Plus_512x512.png"
     
     alt=""
     
@@ -21554,12 +21554,12 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/Flipper-Zero---Front_512x449.png?v=1773345630"
+          src="../cdn/shop/files/Flipper-Zero---Front_512x449.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/Flipper-Zero---Front_512x449.png?v=1773345630 1x, ../cdn/shop/files/Flipper-Zero---Front_1024x898.png?v=1773345630 2x, ../cdn/shop/files/Flipper-Zero---Front_1234x1082.png?v=1773345630 2.41x"
+        srcset="../cdn/shop/files/Flipper-Zero---Front_512x449.png 1x, ../cdn/shop/files/Flipper-Zero---Front_1024x898.png 2x, ../cdn/shop/files/Flipper-Zero---Front_1234x1082.png 2.41x"
         class="productitem--image-primary"
         
         
@@ -21569,7 +21569,7 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
 
   <img
     
-      src="../cdn/shop/files/Flipper-Zero---Front_512x449.png?v=1773345630"
+      src="../cdn/shop/files/Flipper-Zero---Front_512x449.png"
     
     alt=""
     
@@ -21955,12 +21955,12 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/products/BladeRF-Transparent_512x388.png?v=1611929065"
+          src="../cdn/shop/products/BladeRF-Transparent_512x388.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/products/BladeRF-Transparent_512x388.png?v=1611929065 1x, ../cdn/shop/products/BladeRF-Transparent_1024x776.png?v=1611929065 2x, ../cdn/shop/products/BladeRF-Transparent_1060x803.png?v=1611929065 2.07x"
+        srcset="../cdn/shop/products/BladeRF-Transparent_512x388.png 1x, ../cdn/shop/products/BladeRF-Transparent_1024x776.png 2x, ../cdn/shop/products/BladeRF-Transparent_1060x803.png 2.07x"
         class="productitem--image-primary"
         
         
@@ -21970,7 +21970,7 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
 
   <img
     
-      src="../cdn/shop/products/BladeRF-Transparent_512x388.png?v=1611929065"
+      src="../cdn/shop/products/BladeRF-Transparent_512x388.png"
     
     alt=""
     
@@ -22272,12 +22272,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/SignalSDR-Pro---Top_512x512.png?v=1745426199"
+          src="../cdn/shop/files/SignalSDR-Pro---Top_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/SignalSDR-Pro---Top_512x512.png?v=1745426199 1x, ../cdn/shop/files/SignalSDR-Pro---Top_1024x1024.png?v=1745426199 2x, ../cdn/shop/files/SignalSDR-Pro---Top_1428x1428.png?v=1745426199 2.79x"
+        srcset="../cdn/shop/files/SignalSDR-Pro---Top_512x512.png 1x, ../cdn/shop/files/SignalSDR-Pro---Top_1024x1024.png 2x, ../cdn/shop/files/SignalSDR-Pro---Top_1428x1428.png 2.79x"
         class="productitem--image-primary"
         
         
@@ -22287,7 +22287,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/files/SignalSDR-Pro---Top_512x512.png?v=1745426199"
+      src="../cdn/shop/files/SignalSDR-Pro---Top_512x512.png"
     
     alt=""
     
@@ -22575,12 +22575,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/HackRF-Pro-1_512x512.png?v=1756840196"
+          src="../cdn/shop/files/HackRF-Pro-1_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/HackRF-Pro-1_512x512.png?v=1756840196 1x, ../cdn/shop/files/HackRF-Pro-1_1024x1024.png?v=1756840196 2x, ../cdn/shop/files/HackRF-Pro-1_1280x1280.png?v=1756840196 2.5x"
+        srcset="../cdn/shop/files/HackRF-Pro-1_512x512.png 1x, ../cdn/shop/files/HackRF-Pro-1_1024x1024.png 2x, ../cdn/shop/files/HackRF-Pro-1_1280x1280.png 2.5x"
         class="productitem--image-primary"
         
         
@@ -22590,7 +22590,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/files/HackRF-Pro-1_512x512.png?v=1756840196"
+      src="../cdn/shop/files/HackRF-Pro-1_512x512.png"
     
     alt=""
     
@@ -22878,12 +22878,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/KrakenSDR-Beam-forming-Signal-Tracker_512x512.png?v=1726239792"
+          src="../cdn/shop/files/KrakenSDR-Beam-forming-Signal-Tracker_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/KrakenSDR-Beam-forming-Signal-Tracker_512x512.png?v=1726239792 1x, ../cdn/shop/files/KrakenSDR-Beam-forming-Signal-Tracker_1024x1024.png?v=1726239792 2x, ../cdn/shop/files/KrakenSDR-Beam-forming-Signal-Tracker_1311x1311.png?v=1726239792 2.56x"
+        srcset="../cdn/shop/files/KrakenSDR-Beam-forming-Signal-Tracker_512x512.png 1x, ../cdn/shop/files/KrakenSDR-Beam-forming-Signal-Tracker_1024x1024.png 2x, ../cdn/shop/files/KrakenSDR-Beam-forming-Signal-Tracker_1311x1311.png 2.56x"
         class="productitem--image-primary"
         
         
@@ -22893,7 +22893,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/files/KrakenSDR-Beam-forming-Signal-Tracker_512x512.png?v=1726239792"
+      src="../cdn/shop/files/KrakenSDR-Beam-forming-Signal-Tracker_512x512.png"
     
     alt=""
     
@@ -23181,12 +23181,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/NanoVNA---Device_799a5aee-e0d2-4509-9055-b2fec8e2319a_512x512.png?v=1762867511"
+          src="../cdn/shop/files/NanoVNA---Device_799a5aee-e0d2-4509-9055-b2fec8e2319a_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/NanoVNA---Device_799a5aee-e0d2-4509-9055-b2fec8e2319a_512x512.png?v=1762867511 1x, ../cdn/shop/files/NanoVNA---Device_799a5aee-e0d2-4509-9055-b2fec8e2319a_1024x1024.png?v=1762867511 2x, ../cdn/shop/files/NanoVNA---Device_799a5aee-e0d2-4509-9055-b2fec8e2319a_1137x1137.png?v=1762867511 2.22x"
+        srcset="../cdn/shop/files/NanoVNA---Device_799a5aee-e0d2-4509-9055-b2fec8e2319a_512x512.png 1x, ../cdn/shop/files/NanoVNA---Device_799a5aee-e0d2-4509-9055-b2fec8e2319a_1024x1024.png 2x, ../cdn/shop/files/NanoVNA---Device_799a5aee-e0d2-4509-9055-b2fec8e2319a_1137x1137.png 2.22x"
         class="productitem--image-primary"
         
         
@@ -23196,7 +23196,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/files/NanoVNA---Device_799a5aee-e0d2-4509-9055-b2fec8e2319a_512x512.png?v=1762867511"
+      src="../cdn/shop/files/NanoVNA---Device_799a5aee-e0d2-4509-9055-b2fec8e2319a_512x512.png"
     
     alt=""
     
@@ -23460,7 +23460,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 </div>
 
 
-</div><div id="shopify-section-template--28353746665819__advantages_a1b2c3" class="shopify-section"><link href="//lab401.com/cdn/shop/t/60/assets/advantages.css?v=38596819017780501271773425427" rel="stylesheet" type="text/css" media="all" />
+</div><div id="shopify-section-template--28353746665819__advantages_a1b2c3" class="shopify-section"><link href="../cdn/shop/t/60/assets/advantages.css" rel="stylesheet" type="text/css" media="all" />
 
 <div class="advantages-section">
   
@@ -23681,12 +23681,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/HuskyPlus---Front_8e44dbc6-6afc-4871-b054-df4339506b32_512x512.png?v=1786371810"
+          src="../cdn/shop/files/HuskyPlus---Front_8e44dbc6-6afc-4871-b054-df4339506b32_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/HuskyPlus---Front_8e44dbc6-6afc-4871-b054-df4339506b32_512x512.png?v=1786371810 1x, ../cdn/shop/files/HuskyPlus---Front_8e44dbc6-6afc-4871-b054-df4339506b32_1024x1024.png?v=1786371810 2x, ../cdn/shop/files/HuskyPlus---Front_8e44dbc6-6afc-4871-b054-df4339506b32_1536x1536.png?v=1786371810 3x, ../cdn/shop/files/HuskyPlus---Front_8e44dbc6-6afc-4871-b054-df4339506b32_1777x1777.png?v=1786371810 3.47x"
+        srcset="../cdn/shop/files/HuskyPlus---Front_8e44dbc6-6afc-4871-b054-df4339506b32_512x512.png 1x, ../cdn/shop/files/HuskyPlus---Front_8e44dbc6-6afc-4871-b054-df4339506b32_1024x1024.png 2x, ../cdn/shop/files/HuskyPlus---Front_8e44dbc6-6afc-4871-b054-df4339506b32_1536x1536.png 3x, ../cdn/shop/files/HuskyPlus---Front_8e44dbc6-6afc-4871-b054-df4339506b32_1777x1777.png 3.47x"
         class="productitem--image-primary"
         
         
@@ -23696,7 +23696,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/files/HuskyPlus---Front_8e44dbc6-6afc-4871-b054-df4339506b32_512x512.png?v=1786371810"
+      src="../cdn/shop/files/HuskyPlus---Front_8e44dbc6-6afc-4871-b054-df4339506b32_512x512.png"
     
     alt=""
     
@@ -23980,12 +23980,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/WHIDBoard--Complete-Kit-Square_512x512.png?v=1765465610"
+          src="../cdn/shop/files/WHIDBoard--Complete-Kit-Square_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/WHIDBoard--Complete-Kit-Square_512x512.png?v=1765465610 1x, ../cdn/shop/files/WHIDBoard--Complete-Kit-Square_1024x1024.png?v=1765465610 2x, ../cdn/shop/files/WHIDBoard--Complete-Kit-Square_1536x1536.png?v=1765465610 3x, ../cdn/shop/files/WHIDBoard--Complete-Kit-Square_2048x2048.png?v=1765465610 4x"
+        srcset="../cdn/shop/files/WHIDBoard--Complete-Kit-Square_512x512.png 1x, ../cdn/shop/files/WHIDBoard--Complete-Kit-Square_1024x1024.png 2x, ../cdn/shop/files/WHIDBoard--Complete-Kit-Square_1536x1536.png 3x, ../cdn/shop/files/WHIDBoard--Complete-Kit-Square_2048x2048.png 4x"
         class="productitem--image-primary"
         
         
@@ -23995,7 +23995,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/files/WHIDBoard--Complete-Kit-Square_512x512.png?v=1765465610"
+      src="../cdn/shop/files/WHIDBoard--Complete-Kit-Square_512x512.png"
     
     alt=""
     
@@ -24279,12 +24279,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/MacoBox---Standalone_512x512.png?v=1746622691"
+          src="../cdn/shop/files/MacoBox---Standalone_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/MacoBox---Standalone_512x512.png?v=1746622691 1x, ../cdn/shop/files/MacoBox---Standalone_1024x1024.png?v=1746622691 2x, ../cdn/shop/files/MacoBox---Standalone_1428x1428.png?v=1746622691 2.79x"
+        srcset="../cdn/shop/files/MacoBox---Standalone_512x512.png 1x, ../cdn/shop/files/MacoBox---Standalone_1024x1024.png 2x, ../cdn/shop/files/MacoBox---Standalone_1428x1428.png 2.79x"
         class="productitem--image-primary"
         
         
@@ -24294,7 +24294,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/files/MacoBox---Standalone_512x512.png?v=1746622691"
+      src="../cdn/shop/files/MacoBox---Standalone_512x512.png"
     
     alt=""
     
@@ -24590,12 +24590,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/BusPirate-Lab401-1_512x398.png?v=1713389104"
+          src="../cdn/shop/files/BusPirate-Lab401-1_512x398.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/BusPirate-Lab401-1_512x398.png?v=1713389104 1x, ../cdn/shop/files/BusPirate-Lab401-1_998x776.png?v=1713389104 1.95x"
+        srcset="../cdn/shop/files/BusPirate-Lab401-1_512x398.png 1x, ../cdn/shop/files/BusPirate-Lab401-1_998x776.png 1.95x"
         class="productitem--image-primary"
         
         
@@ -24605,7 +24605,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/files/BusPirate-Lab401-1_512x398.png?v=1713389104"
+      src="../cdn/shop/files/BusPirate-Lab401-1_512x398.png"
     
     alt=""
     
@@ -24895,12 +24895,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/TermDriver---Top_512x512.png?v=1762270310"
+          src="../cdn/shop/files/TermDriver---Top_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/TermDriver---Top_512x512.png?v=1762270310 1x, ../cdn/shop/files/TermDriver---Top_1024x1024.png?v=1762270310 2x, ../cdn/shop/files/TermDriver---Top_1469x1469.png?v=1762270310 2.87x"
+        srcset="../cdn/shop/files/TermDriver---Top_512x512.png 1x, ../cdn/shop/files/TermDriver---Top_1024x1024.png 2x, ../cdn/shop/files/TermDriver---Top_1469x1469.png 2.87x"
         class="productitem--image-primary"
         
         
@@ -24910,7 +24910,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/files/TermDriver---Top_512x512.png?v=1762270310"
+      src="../cdn/shop/files/TermDriver---Top_512x512.png"
     
     alt=""
     
@@ -25198,12 +25198,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/FaultyCat---Top_512x449.png?v=1775066561"
+          src="../cdn/shop/files/FaultyCat---Top_512x449.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/FaultyCat---Top_512x449.png?v=1775066561 1x, ../cdn/shop/files/FaultyCat---Top_1024x898.png?v=1775066561 2x, ../cdn/shop/files/FaultyCat---Top_1234x1082.png?v=1775066561 2.41x"
+        srcset="../cdn/shop/files/FaultyCat---Top_512x449.png 1x, ../cdn/shop/files/FaultyCat---Top_1024x898.png 2x, ../cdn/shop/files/FaultyCat---Top_1234x1082.png 2.41x"
         class="productitem--image-primary"
         
         
@@ -25213,7 +25213,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/files/FaultyCat---Top_512x449.png?v=1775066561"
+      src="../cdn/shop/files/FaultyCat---Top_512x449.png"
     
     alt=""
     
@@ -25501,12 +25501,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/I2CDriver_512x512.png?v=1762354194"
+          src="../cdn/shop/files/I2CDriver_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/I2CDriver_512x512.png?v=1762354194 1x, ../cdn/shop/files/I2CDriver_1024x1024.png?v=1762354194 2x, ../cdn/shop/files/I2CDriver_1362x1362.png?v=1762354194 2.66x"
+        srcset="../cdn/shop/files/I2CDriver_512x512.png 1x, ../cdn/shop/files/I2CDriver_1024x1024.png 2x, ../cdn/shop/files/I2CDriver_1362x1362.png 2.66x"
         class="productitem--image-primary"
         
         
@@ -25516,7 +25516,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/files/I2CDriver_512x512.png?v=1762354194"
+      src="../cdn/shop/files/I2CDriver_512x512.png"
     
     alt=""
     
@@ -25804,12 +25804,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/Cynthion-USB-Reverse-Engineering-Tool-1_512x512.png?v=1722092250"
+          src="../cdn/shop/files/Cynthion-USB-Reverse-Engineering-Tool-1_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/Cynthion-USB-Reverse-Engineering-Tool-1_512x512.png?v=1722092250 1x, ../cdn/shop/files/Cynthion-USB-Reverse-Engineering-Tool-1_1024x1024.png?v=1722092250 2x, ../cdn/shop/files/Cynthion-USB-Reverse-Engineering-Tool-1_1536x1536.png?v=1722092250 3x, ../cdn/shop/files/Cynthion-USB-Reverse-Engineering-Tool-1_1597x1597.png?v=1722092250 3.12x"
+        srcset="../cdn/shop/files/Cynthion-USB-Reverse-Engineering-Tool-1_512x512.png 1x, ../cdn/shop/files/Cynthion-USB-Reverse-Engineering-Tool-1_1024x1024.png 2x, ../cdn/shop/files/Cynthion-USB-Reverse-Engineering-Tool-1_1536x1536.png 3x, ../cdn/shop/files/Cynthion-USB-Reverse-Engineering-Tool-1_1597x1597.png 3.12x"
         class="productitem--image-primary"
         
         
@@ -25819,7 +25819,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/files/Cynthion-USB-Reverse-Engineering-Tool-1_512x512.png?v=1722092250"
+      src="../cdn/shop/files/Cynthion-USB-Reverse-Engineering-Tool-1_512x512.png"
     
     alt=""
     
@@ -26206,12 +26206,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/SharkJack-Display_512x512.png?v=1782373344"
+          src="../cdn/shop/files/SharkJack-Display_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/SharkJack-Display_512x512.png?v=1782373344 1x, ../cdn/shop/files/SharkJack-Display_1024x1024.png?v=1782373344 2x, ../cdn/shop/files/SharkJack-Display_1198x1198.png?v=1782373344 2.34x"
+        srcset="../cdn/shop/files/SharkJack-Display_512x512.png 1x, ../cdn/shop/files/SharkJack-Display_1024x1024.png 2x, ../cdn/shop/files/SharkJack-Display_1198x1198.png 2.34x"
         class="productitem--image-primary"
         
         
@@ -26221,7 +26221,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/files/SharkJack-Display_512x512.png?v=1782373344"
+      src="../cdn/shop/files/SharkJack-Display_512x512.png"
     
     alt=""
     
@@ -26509,12 +26509,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/2023---hak5-rubber-ducky-1_512x512.png?v=1689852107"
+          src="../cdn/shop/files/2023---hak5-rubber-ducky-1_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/2023---hak5-rubber-ducky-1_512x512.png?v=1689852107 1x, ../cdn/shop/files/2023---hak5-rubber-ducky-1_1024x1024.png?v=1689852107 2x, ../cdn/shop/files/2023---hak5-rubber-ducky-1_1295x1295.png?v=1689852107 2.53x"
+        srcset="../cdn/shop/files/2023---hak5-rubber-ducky-1_512x512.png 1x, ../cdn/shop/files/2023---hak5-rubber-ducky-1_1024x1024.png 2x, ../cdn/shop/files/2023---hak5-rubber-ducky-1_1295x1295.png 2.53x"
         class="productitem--image-primary"
         
         
@@ -26524,7 +26524,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/files/2023---hak5-rubber-ducky-1_512x512.png?v=1689852107"
+      src="../cdn/shop/files/2023---hak5-rubber-ducky-1_512x512.png"
     
     alt=""
     
@@ -26812,12 +26812,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/squirrel3_512x512.webp?v=1716556037"
+          src="../cdn/shop/files/squirrel3_512x512.webp"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/squirrel3_512x512.webp?v=1716556037 1x, ../cdn/shop/files/squirrel3_998x998.webp?v=1716556037 1.95x"
+        srcset="../cdn/shop/files/squirrel3_512x512.webp 1x, ../cdn/shop/files/squirrel3_998x998.webp 1.95x"
         class="productitem--image-primary"
         
         
@@ -26827,7 +26827,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/files/squirrel3_512x512.webp?v=1716556037"
+      src="../cdn/shop/files/squirrel3_512x512.webp"
     
     alt=""
     
@@ -27137,12 +27137,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/2023---OMG-Cable---USB-A-to-MicroUSB_512x512.png?v=1689850687"
+          src="../cdn/shop/files/2023---OMG-Cable---USB-A-to-MicroUSB_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/2023---OMG-Cable---USB-A-to-MicroUSB_512x512.png?v=1689850687 1x, ../cdn/shop/files/2023---OMG-Cable---USB-A-to-MicroUSB_876x876.png?v=1689850687 1.71x"
+        srcset="../cdn/shop/files/2023---OMG-Cable---USB-A-to-MicroUSB_512x512.png 1x, ../cdn/shop/files/2023---OMG-Cable---USB-A-to-MicroUSB_876x876.png 1.71x"
         class="productitem--image-primary"
         
         
@@ -27152,7 +27152,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/files/2023---OMG-Cable---USB-A-to-MicroUSB_512x512.png?v=1689850687"
+      src="../cdn/shop/files/2023---OMG-Cable---USB-A-to-MicroUSB_512x512.png"
     
     alt=""
     
@@ -27445,12 +27445,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/products/Shark-Jack-Cable_512x356.png?v=1656347417"
+          src="../cdn/shop/products/Shark-Jack-Cable_512x356.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/products/Shark-Jack-Cable_512x356.png?v=1656347417 1x, ../cdn/shop/products/Shark-Jack-Cable_763x530.png?v=1656347417 1.49x"
+        srcset="../cdn/shop/products/Shark-Jack-Cable_512x356.png 1x, ../cdn/shop/products/Shark-Jack-Cable_763x530.png 1.49x"
         class="productitem--image-primary"
         
         
@@ -27460,7 +27460,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/products/Shark-Jack-Cable_512x356.png?v=1656347417"
+      src="../cdn/shop/products/Shark-Jack-Cable_512x356.png"
     
     alt=""
     
@@ -27750,12 +27750,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/Bash-Bunny-Mark-II_512x411.png?v=1711536452"
+          src="../cdn/shop/files/Bash-Bunny-Mark-II_512x411.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/Bash-Bunny-Mark-II_512x411.png?v=1711536452 1x, ../cdn/shop/files/Bash-Bunny-Mark-II_988x793.png?v=1711536452 1.93x"
+        srcset="../cdn/shop/files/Bash-Bunny-Mark-II_512x411.png 1x, ../cdn/shop/files/Bash-Bunny-Mark-II_988x793.png 1.93x"
         class="productitem--image-primary"
         
         
@@ -27765,7 +27765,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/files/Bash-Bunny-Mark-II_512x411.png?v=1711536452"
+      src="../cdn/shop/files/Bash-Bunny-Mark-II_512x411.png"
     
     alt=""
     
@@ -28053,12 +28053,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/products/LAN-Turtle-SD-packet-sniffer-2_512x512.jpg?v=1601991381"
+          src="../cdn/shop/products/LAN-Turtle-SD-packet-sniffer-2_512x512.jpg"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/products/LAN-Turtle-SD-packet-sniffer-2_512x512.jpg?v=1601991381 1x, ../cdn/shop/products/LAN-Turtle-SD-packet-sniffer-2_840x840.jpg?v=1601991381 1.64x"
+        srcset="../cdn/shop/products/LAN-Turtle-SD-packet-sniffer-2_512x512.jpg 1x, ../cdn/shop/products/LAN-Turtle-SD-packet-sniffer-2_840x840.jpg 1.64x"
         class="productitem--image-primary"
         
         
@@ -28068,7 +28068,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/products/LAN-Turtle-SD-packet-sniffer-2_512x512.jpg?v=1601991381"
+      src="../cdn/shop/products/LAN-Turtle-SD-packet-sniffer-2_512x512.jpg"
     
     alt=""
     
@@ -28357,12 +28357,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/OMG---2024---Elite-Pack_512x512.png?v=1731401233"
+          src="../cdn/shop/files/OMG---2024---Elite-Pack_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/OMG---2024---Elite-Pack_512x512.png?v=1731401233 1x, ../cdn/shop/files/OMG---2024---Elite-Pack_1024x1024.png?v=1731401233 2x, ../cdn/shop/files/OMG---2024---Elite-Pack_1536x1536.png?v=1731401233 3x, ../cdn/shop/files/OMG---2024---Elite-Pack_2017x2017.png?v=1731401233 3.94x"
+        srcset="../cdn/shop/files/OMG---2024---Elite-Pack_512x512.png 1x, ../cdn/shop/files/OMG---2024---Elite-Pack_1024x1024.png 2x, ../cdn/shop/files/OMG---2024---Elite-Pack_1536x1536.png 3x, ../cdn/shop/files/OMG---2024---Elite-Pack_2017x2017.png 3.94x"
         class="productitem--image-primary"
         
         
@@ -28372,7 +28372,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/files/OMG---2024---Elite-Pack_512x512.png?v=1731401233"
+      src="../cdn/shop/files/OMG---2024---Elite-Pack_512x512.png"
     
     alt=""
     
@@ -28669,12 +28669,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/2023---OMG-Malicious-Cable-Detector_d74dda8b-b250-402f-9f67-758173290a75_512x512.png?v=1689850923"
+          src="../cdn/shop/files/2023---OMG-Malicious-Cable-Detector_d74dda8b-b250-402f-9f67-758173290a75_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/2023---OMG-Malicious-Cable-Detector_d74dda8b-b250-402f-9f67-758173290a75_512x512.png?v=1689850923 1x, ../cdn/shop/files/2023---OMG-Malicious-Cable-Detector_d74dda8b-b250-402f-9f67-758173290a75_876x876.png?v=1689850923 1.71x"
+        srcset="../cdn/shop/files/2023---OMG-Malicious-Cable-Detector_d74dda8b-b250-402f-9f67-758173290a75_512x512.png 1x, ../cdn/shop/files/2023---OMG-Malicious-Cable-Detector_d74dda8b-b250-402f-9f67-758173290a75_876x876.png 1.71x"
         class="productitem--image-primary"
         
         
@@ -28684,7 +28684,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/files/2023---OMG-Malicious-Cable-Detector_d74dda8b-b250-402f-9f67-758173290a75_512x512.png?v=1689850923"
+      src="../cdn/shop/files/2023---OMG-Malicious-Cable-Detector_d74dda8b-b250-402f-9f67-758173290a75_512x512.png"
     
     alt=""
     
@@ -28974,12 +28974,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/2023-OMG-Cable-Programmer---USB-AC_4c8a3ce3-5f75-453a-b2b0-d7a2ccd4b704_512x512.png?v=1689850867"
+          src="../cdn/shop/files/2023-OMG-Cable-Programmer---USB-AC_4c8a3ce3-5f75-453a-b2b0-d7a2ccd4b704_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/2023-OMG-Cable-Programmer---USB-AC_4c8a3ce3-5f75-453a-b2b0-d7a2ccd4b704_512x512.png?v=1689850867 1x, ../cdn/shop/files/2023-OMG-Cable-Programmer---USB-AC_4c8a3ce3-5f75-453a-b2b0-d7a2ccd4b704_876x876.png?v=1689850867 1.71x"
+        srcset="../cdn/shop/files/2023-OMG-Cable-Programmer---USB-AC_4c8a3ce3-5f75-453a-b2b0-d7a2ccd4b704_512x512.png 1x, ../cdn/shop/files/2023-OMG-Cable-Programmer---USB-AC_4c8a3ce3-5f75-453a-b2b0-d7a2ccd4b704_876x876.png 1.71x"
         class="productitem--image-primary"
         
         
@@ -28989,7 +28989,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/files/2023-OMG-Cable-Programmer---USB-AC_4c8a3ce3-5f75-453a-b2b0-d7a2ccd4b704_512x512.png?v=1689850867"
+      src="../cdn/shop/files/2023-OMG-Cable-Programmer---USB-AC_4c8a3ce3-5f75-453a-b2b0-d7a2ccd4b704_512x512.png"
     
     alt=""
     
@@ -29378,12 +29378,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/products/Ultimate-Magic-Card-_Gen4_512x417.png?v=1664544498"
+          src="../cdn/shop/products/Ultimate-Magic-Card-_Gen4_512x417.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/products/Ultimate-Magic-Card-_Gen4_512x417.png?v=1664544498 1x, ../cdn/shop/products/Ultimate-Magic-Card-_Gen4_1024x834.png?v=1664544498 2x, ../cdn/shop/products/Ultimate-Magic-Card-_Gen4_1198x976.png?v=1664544498 2.34x"
+        srcset="../cdn/shop/products/Ultimate-Magic-Card-_Gen4_512x417.png 1x, ../cdn/shop/products/Ultimate-Magic-Card-_Gen4_1024x834.png 2x, ../cdn/shop/products/Ultimate-Magic-Card-_Gen4_1198x976.png 2.34x"
         class="productitem--image-primary"
         
         
@@ -29393,7 +29393,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/products/Ultimate-Magic-Card-_Gen4_512x417.png?v=1664544498"
+      src="../cdn/shop/products/Ultimate-Magic-Card-_Gen4_512x417.png"
     
     alt=""
     
@@ -29688,12 +29688,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/products/Multi-RFID-Keyfob-1_478x692.png?v=1635844505"
+          src="../cdn/shop/products/Multi-RFID-Keyfob-1_478x692.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/products/Multi-RFID-Keyfob-1_478x692.png?v=1635844505 1x"
+        srcset="../cdn/shop/products/Multi-RFID-Keyfob-1_478x692.png 1x"
         class="productitem--image-primary"
         
         
@@ -29703,7 +29703,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/products/Multi-RFID-Keyfob-1_478x692.png?v=1635844505"
+      src="../cdn/shop/products/Multi-RFID-Keyfob-1_478x692.png"
     
     alt=""
     
@@ -30003,12 +30003,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/products/PVC-Coin-Tags-1_512x512.png?v=1535702481"
+          src="../cdn/shop/products/PVC-Coin-Tags-1_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/products/PVC-Coin-Tags-1_512x512.png?v=1535702481 1x, ../cdn/shop/products/PVC-Coin-Tags-1_1024x1024.png?v=1535702481 2x, ../cdn/shop/products/PVC-Coin-Tags-1_1316x1316.png?v=1535702481 2.57x"
+        srcset="../cdn/shop/products/PVC-Coin-Tags-1_512x512.png 1x, ../cdn/shop/products/PVC-Coin-Tags-1_1024x1024.png 2x, ../cdn/shop/products/PVC-Coin-Tags-1_1316x1316.png 2.57x"
         class="productitem--image-primary"
         
         
@@ -30018,7 +30018,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/products/PVC-Coin-Tags-1_512x512.png?v=1535702481"
+      src="../cdn/shop/products/PVC-Coin-Tags-1_512x512.png"
     
     alt=""
     
@@ -30317,12 +30317,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/products/One-Time-Write_512x693.png?v=1509306489"
+          src="../cdn/shop/products/One-Time-Write_512x693.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/products/One-Time-Write_512x693.png?v=1509306489 1x, ../cdn/shop/products/One-Time-Write_809x1095.png?v=1509306489 1.58x"
+        srcset="../cdn/shop/products/One-Time-Write_512x693.png 1x, ../cdn/shop/products/One-Time-Write_809x1095.png 1.58x"
         class="productitem--image-primary"
         
         
@@ -30332,7 +30332,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/products/One-Time-Write_512x693.png?v=1509306489"
+      src="../cdn/shop/products/One-Time-Write_512x693.png"
     
     alt=""
     
@@ -30626,12 +30626,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/products/UL-UID_512x418.png?v=1536830258"
+          src="../cdn/shop/products/UL-UID_512x418.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/products/UL-UID_512x418.png?v=1536830258 1x, ../cdn/shop/products/UL-UID_1024x836.png?v=1536830258 2x, ../cdn/shop/products/UL-UID_1536x1254.png?v=1536830258 3x, ../cdn/shop/products/UL-UID_2048x1672.png?v=1536830258 4x"
+        srcset="../cdn/shop/products/UL-UID_512x418.png 1x, ../cdn/shop/products/UL-UID_1024x836.png 2x, ../cdn/shop/products/UL-UID_1536x1254.png 3x, ../cdn/shop/products/UL-UID_2048x1672.png 4x"
         class="productitem--image-primary"
         
         
@@ -30641,7 +30641,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/products/UL-UID_512x418.png?v=1536830258"
+      src="../cdn/shop/products/UL-UID_512x418.png"
     
     alt=""
     
@@ -30935,12 +30935,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/products/DESFire-ATQA-Card_512x417.png?v=1678716597"
+          src="../cdn/shop/products/DESFire-ATQA-Card_512x417.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/products/DESFire-ATQA-Card_512x417.png?v=1678716597 1x, ../cdn/shop/products/DESFire-ATQA-Card_768x626.png?v=1678716597 1.5x"
+        srcset="../cdn/shop/products/DESFire-ATQA-Card_512x417.png 1x, ../cdn/shop/products/DESFire-ATQA-Card_768x626.png 1.5x"
         class="productitem--image-primary"
         
         
@@ -30950,7 +30950,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/products/DESFire-ATQA-Card_512x417.png?v=1678716597"
+      src="../cdn/shop/products/DESFire-ATQA-Card_512x417.png"
     
     alt=""
     
@@ -31244,12 +31244,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/products/ULC_512x418.png?v=1536830364"
+          src="../cdn/shop/products/ULC_512x418.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/products/ULC_512x418.png?v=1536830364 1x, ../cdn/shop/products/ULC_1024x836.png?v=1536830364 2x, ../cdn/shop/products/ULC_1536x1254.png?v=1536830364 3x, ../cdn/shop/products/ULC_2048x1672.png?v=1536830364 4x"
+        srcset="../cdn/shop/products/ULC_512x418.png 1x, ../cdn/shop/products/ULC_1024x836.png 2x, ../cdn/shop/products/ULC_1536x1254.png 3x, ../cdn/shop/products/ULC_2048x1672.png 4x"
         class="productitem--image-primary"
         
         
@@ -31259,7 +31259,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/products/ULC_512x418.png?v=1536830364"
+      src="../cdn/shop/products/ULC_512x418.png"
     
     alt=""
     
@@ -31553,12 +31553,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/products/Lab401-NTag-emu_512x418.png?v=1536828058"
+          src="../cdn/shop/products/Lab401-NTag-emu_512x418.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/products/Lab401-NTag-emu_512x418.png?v=1536828058 1x, ../cdn/shop/products/Lab401-NTag-emu_1024x836.png?v=1536828058 2x, ../cdn/shop/products/Lab401-NTag-emu_1536x1254.png?v=1536828058 3x, ../cdn/shop/products/Lab401-NTag-emu_2048x1672.png?v=1536828058 4x"
+        srcset="../cdn/shop/products/Lab401-NTag-emu_512x418.png 1x, ../cdn/shop/products/Lab401-NTag-emu_1024x836.png 2x, ../cdn/shop/products/Lab401-NTag-emu_1536x1254.png 3x, ../cdn/shop/products/Lab401-NTag-emu_2048x1672.png 4x"
         class="productitem--image-primary"
         
         
@@ -31568,7 +31568,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/products/Lab401-NTag-emu_512x418.png?v=1536828058"
+      src="../cdn/shop/products/Lab401-NTag-emu_512x418.png"
     
     alt=""
     
@@ -31863,12 +31863,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/products/tag-corrected_512x517.png?v=1501837819"
+          src="../cdn/shop/products/tag-corrected_512x517.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/products/tag-corrected_512x517.png?v=1501837819 1x, ../cdn/shop/products/tag-corrected_855x863.png?v=1501837819 1.67x"
+        srcset="../cdn/shop/products/tag-corrected_512x517.png 1x, ../cdn/shop/products/tag-corrected_855x863.png 1.67x"
         class="productitem--image-primary"
         
         
@@ -31878,7 +31878,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/products/tag-corrected_512x517.png?v=1501837819"
+      src="../cdn/shop/products/tag-corrected_512x517.png"
     
     alt=""
     
@@ -32174,12 +32174,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/products/keysy-tag_d4e15507-d98a-4cd5-a528-236cc50d77d0_512x512.png?v=1535701682"
+          src="../cdn/shop/products/keysy-tag_d4e15507-d98a-4cd5-a528-236cc50d77d0_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/products/keysy-tag_d4e15507-d98a-4cd5-a528-236cc50d77d0_512x512.png?v=1535701682 1x, ../cdn/shop/products/keysy-tag_d4e15507-d98a-4cd5-a528-236cc50d77d0_947x947.png?v=1535701682 1.85x"
+        srcset="../cdn/shop/products/keysy-tag_d4e15507-d98a-4cd5-a528-236cc50d77d0_512x512.png 1x, ../cdn/shop/products/keysy-tag_d4e15507-d98a-4cd5-a528-236cc50d77d0_947x947.png 1.85x"
         class="productitem--image-primary"
         
         
@@ -32189,7 +32189,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/products/keysy-tag_d4e15507-d98a-4cd5-a528-236cc50d77d0_512x512.png?v=1535701682"
+      src="../cdn/shop/products/keysy-tag_d4e15507-d98a-4cd5-a528-236cc50d77d0_512x512.png"
     
     alt=""
     
@@ -32492,12 +32492,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/products/Desfire-EMU_66228fc9-f254-4818-ab63-6d72c2d5f59f_512x418.png?v=1536827027"
+          src="../cdn/shop/products/Desfire-EMU_66228fc9-f254-4818-ab63-6d72c2d5f59f_512x418.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/products/Desfire-EMU_66228fc9-f254-4818-ab63-6d72c2d5f59f_512x418.png?v=1536827027 1x, ../cdn/shop/products/Desfire-EMU_66228fc9-f254-4818-ab63-6d72c2d5f59f_1024x836.png?v=1536827027 2x, ../cdn/shop/products/Desfire-EMU_66228fc9-f254-4818-ab63-6d72c2d5f59f_1536x1254.png?v=1536827027 3x, ../cdn/shop/products/Desfire-EMU_66228fc9-f254-4818-ab63-6d72c2d5f59f_2048x1672.png?v=1536827027 4x"
+        srcset="../cdn/shop/products/Desfire-EMU_66228fc9-f254-4818-ab63-6d72c2d5f59f_512x418.png 1x, ../cdn/shop/products/Desfire-EMU_66228fc9-f254-4818-ab63-6d72c2d5f59f_1024x836.png 2x, ../cdn/shop/products/Desfire-EMU_66228fc9-f254-4818-ab63-6d72c2d5f59f_1536x1254.png 3x, ../cdn/shop/products/Desfire-EMU_66228fc9-f254-4818-ab63-6d72c2d5f59f_2048x1672.png 4x"
         class="productitem--image-primary"
         
         
@@ -32507,7 +32507,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/products/Desfire-EMU_66228fc9-f254-4818-ab63-6d72c2d5f59f_512x418.png?v=1536827027"
+      src="../cdn/shop/products/Desfire-EMU_66228fc9-f254-4818-ab63-6d72c2d5f59f_512x418.png"
     
     alt=""
     
@@ -32803,12 +32803,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/products/1K-Direct-Write_e0f1dda2-3ce3-4ce0-b8ad-b8f5257314a1_512x418.png?v=1536829114"
+          src="../cdn/shop/products/1K-Direct-Write_e0f1dda2-3ce3-4ce0-b8ad-b8f5257314a1_512x418.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/products/1K-Direct-Write_e0f1dda2-3ce3-4ce0-b8ad-b8f5257314a1_512x418.png?v=1536829114 1x, ../cdn/shop/products/1K-Direct-Write_e0f1dda2-3ce3-4ce0-b8ad-b8f5257314a1_1024x836.png?v=1536829114 2x, ../cdn/shop/products/1K-Direct-Write_e0f1dda2-3ce3-4ce0-b8ad-b8f5257314a1_1536x1254.png?v=1536829114 3x, ../cdn/shop/products/1K-Direct-Write_e0f1dda2-3ce3-4ce0-b8ad-b8f5257314a1_2048x1672.png?v=1536829114 4x"
+        srcset="../cdn/shop/products/1K-Direct-Write_e0f1dda2-3ce3-4ce0-b8ad-b8f5257314a1_512x418.png 1x, ../cdn/shop/products/1K-Direct-Write_e0f1dda2-3ce3-4ce0-b8ad-b8f5257314a1_1024x836.png 2x, ../cdn/shop/products/1K-Direct-Write_e0f1dda2-3ce3-4ce0-b8ad-b8f5257314a1_1536x1254.png 3x, ../cdn/shop/products/1K-Direct-Write_e0f1dda2-3ce3-4ce0-b8ad-b8f5257314a1_2048x1672.png 4x"
         class="productitem--image-primary"
         
         
@@ -32818,7 +32818,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/products/1K-Direct-Write_e0f1dda2-3ce3-4ce0-b8ad-b8f5257314a1_512x418.png?v=1536829114"
+      src="../cdn/shop/products/1K-Direct-Write_e0f1dda2-3ce3-4ce0-b8ad-b8f5257314a1_512x418.png"
     
     alt=""
     
@@ -33112,12 +33112,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/products/4K-Direct-Write_e90d43c2-1ef5-4a2f-9652-0f67ddfa5780_512x418.png?v=1536829806"
+          src="../cdn/shop/products/4K-Direct-Write_e90d43c2-1ef5-4a2f-9652-0f67ddfa5780_512x418.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/products/4K-Direct-Write_e90d43c2-1ef5-4a2f-9652-0f67ddfa5780_512x418.png?v=1536829806 1x, ../cdn/shop/products/4K-Direct-Write_e90d43c2-1ef5-4a2f-9652-0f67ddfa5780_1024x836.png?v=1536829806 2x, ../cdn/shop/products/4K-Direct-Write_e90d43c2-1ef5-4a2f-9652-0f67ddfa5780_1536x1254.png?v=1536829806 3x, ../cdn/shop/products/4K-Direct-Write_e90d43c2-1ef5-4a2f-9652-0f67ddfa5780_2048x1672.png?v=1536829806 4x"
+        srcset="../cdn/shop/products/4K-Direct-Write_e90d43c2-1ef5-4a2f-9652-0f67ddfa5780_512x418.png 1x, ../cdn/shop/products/4K-Direct-Write_e90d43c2-1ef5-4a2f-9652-0f67ddfa5780_1024x836.png 2x, ../cdn/shop/products/4K-Direct-Write_e90d43c2-1ef5-4a2f-9652-0f67ddfa5780_1536x1254.png 3x, ../cdn/shop/products/4K-Direct-Write_e90d43c2-1ef5-4a2f-9652-0f67ddfa5780_2048x1672.png 4x"
         class="productitem--image-primary"
         
         
@@ -33127,7 +33127,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/products/4K-Direct-Write_e90d43c2-1ef5-4a2f-9652-0f67ddfa5780_512x418.png?v=1536829806"
+      src="../cdn/shop/products/4K-Direct-Write_e90d43c2-1ef5-4a2f-9652-0f67ddfa5780_512x418.png"
     
     alt=""
     
@@ -33421,12 +33421,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/products/UL-DR_47592231-54f6-43b3-a3b0-9e2aed5c0453_512x418.png?v=1536830158"
+          src="../cdn/shop/products/UL-DR_47592231-54f6-43b3-a3b0-9e2aed5c0453_512x418.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/products/UL-DR_47592231-54f6-43b3-a3b0-9e2aed5c0453_512x418.png?v=1536830158 1x, ../cdn/shop/products/UL-DR_47592231-54f6-43b3-a3b0-9e2aed5c0453_1024x836.png?v=1536830158 2x, ../cdn/shop/products/UL-DR_47592231-54f6-43b3-a3b0-9e2aed5c0453_1536x1254.png?v=1536830158 3x, ../cdn/shop/products/UL-DR_47592231-54f6-43b3-a3b0-9e2aed5c0453_2048x1672.png?v=1536830158 4x"
+        srcset="../cdn/shop/products/UL-DR_47592231-54f6-43b3-a3b0-9e2aed5c0453_512x418.png 1x, ../cdn/shop/products/UL-DR_47592231-54f6-43b3-a3b0-9e2aed5c0453_1024x836.png 2x, ../cdn/shop/products/UL-DR_47592231-54f6-43b3-a3b0-9e2aed5c0453_1536x1254.png 3x, ../cdn/shop/products/UL-DR_47592231-54f6-43b3-a3b0-9e2aed5c0453_2048x1672.png 4x"
         class="productitem--image-primary"
         
         
@@ -33436,7 +33436,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/products/UL-DR_47592231-54f6-43b3-a3b0-9e2aed5c0453_512x418.png?v=1536830158"
+      src="../cdn/shop/products/UL-DR_47592231-54f6-43b3-a3b0-9e2aed5c0453_512x418.png"
     
     alt=""
     
@@ -33730,12 +33730,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/products/NTAG-213-Direct-Write_717ceabf-5424-4b75-81b7-dca4ac398599_512x418.png?v=1536830001"
+          src="../cdn/shop/products/NTAG-213-Direct-Write_717ceabf-5424-4b75-81b7-dca4ac398599_512x418.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/products/NTAG-213-Direct-Write_717ceabf-5424-4b75-81b7-dca4ac398599_512x418.png?v=1536830001 1x, ../cdn/shop/products/NTAG-213-Direct-Write_717ceabf-5424-4b75-81b7-dca4ac398599_1024x836.png?v=1536830001 2x, ../cdn/shop/products/NTAG-213-Direct-Write_717ceabf-5424-4b75-81b7-dca4ac398599_1536x1254.png?v=1536830001 3x, ../cdn/shop/products/NTAG-213-Direct-Write_717ceabf-5424-4b75-81b7-dca4ac398599_2048x1672.png?v=1536830001 4x"
+        srcset="../cdn/shop/products/NTAG-213-Direct-Write_717ceabf-5424-4b75-81b7-dca4ac398599_512x418.png 1x, ../cdn/shop/products/NTAG-213-Direct-Write_717ceabf-5424-4b75-81b7-dca4ac398599_1024x836.png 2x, ../cdn/shop/products/NTAG-213-Direct-Write_717ceabf-5424-4b75-81b7-dca4ac398599_1536x1254.png 3x, ../cdn/shop/products/NTAG-213-Direct-Write_717ceabf-5424-4b75-81b7-dca4ac398599_2048x1672.png 4x"
         class="productitem--image-primary"
         
         
@@ -33745,7 +33745,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/products/NTAG-213-Direct-Write_717ceabf-5424-4b75-81b7-dca4ac398599_512x418.png?v=1536830001"
+      src="../cdn/shop/products/NTAG-213-Direct-Write_717ceabf-5424-4b75-81b7-dca4ac398599_512x418.png"
     
     alt=""
     
@@ -34138,12 +34138,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/Lab401-Lockpick-Pack_512x512.png?v=1778268225"
+          src="../cdn/shop/files/Lab401-Lockpick-Pack_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/Lab401-Lockpick-Pack_512x512.png?v=1778268225 1x, ../cdn/shop/files/Lab401-Lockpick-Pack_1024x1024.png?v=1778268225 2x, ../cdn/shop/files/Lab401-Lockpick-Pack_1536x1536.png?v=1778268225 3x, ../cdn/shop/files/Lab401-Lockpick-Pack_1884x1884.png?v=1778268225 3.68x"
+        srcset="../cdn/shop/files/Lab401-Lockpick-Pack_512x512.png 1x, ../cdn/shop/files/Lab401-Lockpick-Pack_1024x1024.png 2x, ../cdn/shop/files/Lab401-Lockpick-Pack_1536x1536.png 3x, ../cdn/shop/files/Lab401-Lockpick-Pack_1884x1884.png 3.68x"
         class="productitem--image-primary"
         
         
@@ -34153,7 +34153,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/files/Lab401-Lockpick-Pack_512x512.png?v=1778268225"
+      src="../cdn/shop/files/Lab401-Lockpick-Pack_512x512.png"
     
     alt=""
     
@@ -34441,12 +34441,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/Lab401-Lockpick-Bypass-Overview_36ade2da-2531-4011-aec1-d4fd54c62e53_512x512.png?v=1778255974"
+          src="../cdn/shop/files/Lab401-Lockpick-Bypass-Overview_36ade2da-2531-4011-aec1-d4fd54c62e53_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/Lab401-Lockpick-Bypass-Overview_36ade2da-2531-4011-aec1-d4fd54c62e53_512x512.png?v=1778255974 1x, ../cdn/shop/files/Lab401-Lockpick-Bypass-Overview_36ade2da-2531-4011-aec1-d4fd54c62e53_1024x1024.png?v=1778255974 2x, ../cdn/shop/files/Lab401-Lockpick-Bypass-Overview_36ade2da-2531-4011-aec1-d4fd54c62e53_1536x1536.png?v=1778255974 3x, ../cdn/shop/files/Lab401-Lockpick-Bypass-Overview_36ade2da-2531-4011-aec1-d4fd54c62e53_1884x1884.png?v=1778255974 3.68x"
+        srcset="../cdn/shop/files/Lab401-Lockpick-Bypass-Overview_36ade2da-2531-4011-aec1-d4fd54c62e53_512x512.png 1x, ../cdn/shop/files/Lab401-Lockpick-Bypass-Overview_36ade2da-2531-4011-aec1-d4fd54c62e53_1024x1024.png 2x, ../cdn/shop/files/Lab401-Lockpick-Bypass-Overview_36ade2da-2531-4011-aec1-d4fd54c62e53_1536x1536.png 3x, ../cdn/shop/files/Lab401-Lockpick-Bypass-Overview_36ade2da-2531-4011-aec1-d4fd54c62e53_1884x1884.png 3.68x"
         class="productitem--image-primary"
         
         
@@ -34456,7 +34456,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/files/Lab401-Lockpick-Bypass-Overview_36ade2da-2531-4011-aec1-d4fd54c62e53_512x512.png?v=1778255974"
+      src="../cdn/shop/files/Lab401-Lockpick-Bypass-Overview_36ade2da-2531-4011-aec1-d4fd54c62e53_512x512.png"
     
     alt=""
     
@@ -34744,12 +34744,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/Kronos-EPG_512x512.png?v=1778276715"
+          src="../cdn/shop/files/Kronos-EPG_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/Kronos-EPG_512x512.png?v=1778276715 1x, ../cdn/shop/files/Kronos-EPG_1024x1024.png?v=1778276715 2x, ../cdn/shop/files/Kronos-EPG_1536x1536.png?v=1778276715 3x, ../cdn/shop/files/Kronos-EPG_1997x1997.png?v=1778276715 3.9x"
+        srcset="../cdn/shop/files/Kronos-EPG_512x512.png 1x, ../cdn/shop/files/Kronos-EPG_1024x1024.png 2x, ../cdn/shop/files/Kronos-EPG_1536x1536.png 3x, ../cdn/shop/files/Kronos-EPG_1997x1997.png 3.9x"
         class="productitem--image-primary"
         
         
@@ -34759,7 +34759,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/files/Kronos-EPG_512x512.png?v=1778276715"
+      src="../cdn/shop/files/Kronos-EPG_512x512.png"
     
     alt=""
     
@@ -35053,12 +35053,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/Lab401---6-Pin---Practice-Lock-2_512x512.png?v=1778850117"
+          src="../cdn/shop/files/Lab401---6-Pin---Practice-Lock-2_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/Lab401---6-Pin---Practice-Lock-2_512x512.png?v=1778850117 1x, ../cdn/shop/files/Lab401---6-Pin---Practice-Lock-2_1024x1024.png?v=1778850117 2x, ../cdn/shop/files/Lab401---6-Pin---Practice-Lock-2_1536x1536.png?v=1778850117 3x, ../cdn/shop/files/Lab401---6-Pin---Practice-Lock-2_1997x1997.png?v=1778850117 3.9x"
+        srcset="../cdn/shop/files/Lab401---6-Pin---Practice-Lock-2_512x512.png 1x, ../cdn/shop/files/Lab401---6-Pin---Practice-Lock-2_1024x1024.png 2x, ../cdn/shop/files/Lab401---6-Pin---Practice-Lock-2_1536x1536.png 3x, ../cdn/shop/files/Lab401---6-Pin---Practice-Lock-2_1997x1997.png 3.9x"
         class="productitem--image-primary"
         
         
@@ -35068,7 +35068,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/files/Lab401---6-Pin---Practice-Lock-2_512x512.png?v=1778850117"
+      src="../cdn/shop/files/Lab401---6-Pin---Practice-Lock-2_512x512.png"
     
     alt=""
     
@@ -35362,12 +35362,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/Mold-Kit-1_512x512.png?v=1778320683"
+          src="../cdn/shop/files/Mold-Kit-1_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/Mold-Kit-1_512x512.png?v=1778320683 1x, ../cdn/shop/files/Mold-Kit-1_1024x1024.png?v=1778320683 2x, ../cdn/shop/files/Mold-Kit-1_1536x1536.png?v=1778320683 3x, ../cdn/shop/files/Mold-Kit-1_1997x1997.png?v=1778320683 3.9x"
+        srcset="../cdn/shop/files/Mold-Kit-1_512x512.png 1x, ../cdn/shop/files/Mold-Kit-1_1024x1024.png 2x, ../cdn/shop/files/Mold-Kit-1_1536x1536.png 3x, ../cdn/shop/files/Mold-Kit-1_1997x1997.png 3.9x"
         class="productitem--image-primary"
         
         
@@ -35377,7 +35377,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/files/Mold-Kit-1_512x512.png?v=1778320683"
+      src="../cdn/shop/files/Mold-Kit-1_512x512.png"
     
     alt=""
     
@@ -35665,12 +35665,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/Lab401---Under-The-Door-Tool_512x512.png?v=1778342618"
+          src="../cdn/shop/files/Lab401---Under-The-Door-Tool_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/Lab401---Under-The-Door-Tool_512x512.png?v=1778342618 1x, ../cdn/shop/files/Lab401---Under-The-Door-Tool_1024x1024.png?v=1778342618 2x, ../cdn/shop/files/Lab401---Under-The-Door-Tool_1198x1198.png?v=1778342618 2.34x"
+        srcset="../cdn/shop/files/Lab401---Under-The-Door-Tool_512x512.png 1x, ../cdn/shop/files/Lab401---Under-The-Door-Tool_1024x1024.png 2x, ../cdn/shop/files/Lab401---Under-The-Door-Tool_1198x1198.png 2.34x"
         class="productitem--image-primary"
         
         
@@ -35680,7 +35680,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/files/Lab401---Under-The-Door-Tool_512x512.png?v=1778342618"
+      src="../cdn/shop/files/Lab401---Under-The-Door-Tool_512x512.png"
     
     alt=""
     
@@ -35974,12 +35974,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/SilverBullet-2-Half-Box-Open_512x512.png?v=1784106491"
+          src="../cdn/shop/files/SilverBullet-2-Half-Box-Open_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/SilverBullet-2-Half-Box-Open_512x512.png?v=1784106491 1x, ../cdn/shop/files/SilverBullet-2-Half-Box-Open_1024x1024.png?v=1784106491 2x, ../cdn/shop/files/SilverBullet-2-Half-Box-Open_1500x1500.png?v=1784106491 2.93x"
+        srcset="../cdn/shop/files/SilverBullet-2-Half-Box-Open_512x512.png 1x, ../cdn/shop/files/SilverBullet-2-Half-Box-Open_1024x1024.png 2x, ../cdn/shop/files/SilverBullet-2-Half-Box-Open_1500x1500.png 2.93x"
         class="productitem--image-primary"
         
         
@@ -35989,7 +35989,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/files/SilverBullet-2-Half-Box-Open_512x512.png?v=1784106491"
+      src="../cdn/shop/files/SilverBullet-2-Half-Box-Open_512x512.png"
     
     alt=""
     
@@ -36277,12 +36277,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/FITD---Door-Bypass-Tool_512x512.png?v=1778186538"
+          src="../cdn/shop/files/FITD---Door-Bypass-Tool_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/FITD---Door-Bypass-Tool_512x512.png?v=1778186538 1x, ../cdn/shop/files/FITD---Door-Bypass-Tool_1024x1024.png?v=1778186538 2x, ../cdn/shop/files/FITD---Door-Bypass-Tool_1198x1198.png?v=1778186538 2.34x"
+        srcset="../cdn/shop/files/FITD---Door-Bypass-Tool_512x512.png 1x, ../cdn/shop/files/FITD---Door-Bypass-Tool_1024x1024.png 2x, ../cdn/shop/files/FITD---Door-Bypass-Tool_1198x1198.png 2.34x"
         class="productitem--image-primary"
         
         
@@ -36292,7 +36292,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/files/FITD---Door-Bypass-Tool_512x512.png?v=1778186538"
+      src="../cdn/shop/files/FITD---Door-Bypass-Tool_512x512.png"
     
     alt=""
     
@@ -36586,12 +36586,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/LIFTD---Product_512x512.png?v=1778188579"
+          src="../cdn/shop/files/LIFTD---Product_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/LIFTD---Product_512x512.png?v=1778188579 1x, ../cdn/shop/files/LIFTD---Product_1024x1024.png?v=1778188579 2x, ../cdn/shop/files/LIFTD---Product_1198x1198.png?v=1778188579 2.34x"
+        srcset="../cdn/shop/files/LIFTD---Product_512x512.png 1x, ../cdn/shop/files/LIFTD---Product_1024x1024.png 2x, ../cdn/shop/files/LIFTD---Product_1198x1198.png 2.34x"
         class="productitem--image-primary"
         
         
@@ -36601,7 +36601,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/files/LIFTD---Product_512x512.png?v=1778188579"
+      src="../cdn/shop/files/LIFTD---Product_512x512.png"
     
     alt=""
     
@@ -36895,12 +36895,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../cdn/shop/files/Lab401-Bump-Key-Hammer---1_512x512.png?v=1778604644"
+          src="../cdn/shop/files/Lab401-Bump-Key-Hammer---1_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../cdn/shop/files/Lab401-Bump-Key-Hammer---1_512x512.png?v=1778604644 1x, ../cdn/shop/files/Lab401-Bump-Key-Hammer---1_1024x1024.png?v=1778604644 2x, ../cdn/shop/files/Lab401-Bump-Key-Hammer---1_1321x1321.png?v=1778604644 2.58x"
+        srcset="../cdn/shop/files/Lab401-Bump-Key-Hammer---1_512x512.png 1x, ../cdn/shop/files/Lab401-Bump-Key-Hammer---1_1024x1024.png 2x, ../cdn/shop/files/Lab401-Bump-Key-Hammer---1_1321x1321.png 2.58x"
         class="productitem--image-primary"
         
         
@@ -36910,7 +36910,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../cdn/shop/files/Lab401-Bump-Key-Hammer---1_512x512.png?v=1778604644"
+      src="../cdn/shop/files/Lab401-Bump-Key-Hammer---1_512x512.png"
     
     alt=""
     
@@ -37174,7 +37174,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 </div>
 
 
-</div><div id="shopify-section-template--28353746665819__news_dtm3pc" class="shopify-section"><link href="//lab401.com/cdn/shop/t/60/assets/news.css?v=83477395281081133701773425600" rel="stylesheet" type="text/css" media="all" />
+</div><div id="shopify-section-template--28353746665819__news_dtm3pc" class="shopify-section"><link href="../cdn/shop/t/60/assets/news.css" rel="stylesheet" type="text/css" media="all" />
 
 <div class="container-news">
   <div class="container-news_flex-box"><div class="news-block news-block--left">
@@ -37185,7 +37185,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 <div class="news-featured">
           <a href="blogs/academy/hacking-a-pos-point-of-sale-device-with-whidboard.html" class="news-featured-image-link">
             <img
-              src="//lab401.com/cdn/shop/articles/Header---2.png?v=1780578771&width=800"
+              src="../cdn/shop/articles/Header---2_w800.png"
               alt="Point of Fail: Hacking a POS Device with WHIDBOARD"
               loading="lazy"
               class="news-featured-image"
@@ -37211,7 +37211,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
           
             <a href="blogs/academy/hackers-cookbook-exploiting-iot-cooking-appliances-with-whidboard.html" class="news-article-item">
               <img
-                src="//lab401.com/cdn/shop/articles/Cooking-With-WHIDBoard_d17153bf-0936-4494-ab3a-089f365cc5fa.jpg?v=1768912949&width=120"
+                src="../cdn/shop/articles/Cooking-With-WHIDBoard_d17153bf-0936-4494-ab3a-089f365cc5fa_w120.jpg"
                 alt="Exploiting IoT Cooking Appliances with WHIDBOARD"
                 loading="lazy"
                 class="news-article-thumb"
@@ -37226,7 +37226,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
           
             <a href="blogs/academy/icopy-xs-fixing-the-boot-timeout-problem.html" class="news-article-item">
               <img
-                src="//lab401.com/cdn/shop/articles/Header-Image_b3a3b2ac-84a3-469f-a0cf-85f0fa9c844d.jpg?v=1784903321&width=120"
+                src="../cdn/shop/articles/Header-Image_b3a3b2ac-84a3-469f-a0cf-85f0fa9c844d_w120.jpg"
                 alt="iCopy-XS: Fixing the &quot;Boot Timeout&quot; problem"
                 loading="lazy"
                 class="news-article-thumb"
@@ -37241,7 +37241,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
           
             <a href="blogs/academy/i2c-sensor-seduction-digilab-flipper.html" class="news-article-item">
               <img
-                src="//lab401.com/cdn/shop/articles/Flipper-DigiLab-LM75A_4df836e7-c2f2-4ebb-8823-c3c8855f8dd5.png?v=1757880229&width=120"
+                src="../cdn/shop/articles/Flipper-DigiLab-LM75A_4df836e7-c2f2-4ebb-8823-c3c8855f8dd5_w120.png"
                 alt="I2C Sensor Seduction: DigiLab + Flipper"
                 loading="lazy"
                 class="news-article-thumb"
@@ -37261,7 +37261,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
           
             <a href="blogs/academy/hacking-a-pos-point-of-sale-device-with-whidboard.html" class="news-mobile-card">
               <img
-                src="//lab401.com/cdn/shop/articles/Header---2.png?v=1780578771&width=600"
+                src="../cdn/shop/articles/Header---2_w600.png"
                 alt="Point of Fail: Hacking a POS Device with WHIDBOARD"
                 loading="lazy"
                 class="news-mobile-card-image"
@@ -37278,7 +37278,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
           
             <a href="blogs/academy/hackers-cookbook-exploiting-iot-cooking-appliances-with-whidboard.html" class="news-mobile-card">
               <img
-                src="//lab401.com/cdn/shop/articles/Cooking-With-WHIDBoard_d17153bf-0936-4494-ab3a-089f365cc5fa.jpg?v=1768912949&width=600"
+                src="../cdn/shop/articles/Cooking-With-WHIDBoard_d17153bf-0936-4494-ab3a-089f365cc5fa_w600.jpg"
                 alt="Exploiting IoT Cooking Appliances with WHIDBOARD"
                 loading="lazy"
                 class="news-mobile-card-image"
@@ -37295,7 +37295,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
           
             <a href="blogs/academy/icopy-xs-fixing-the-boot-timeout-problem.html" class="news-mobile-card">
               <img
-                src="//lab401.com/cdn/shop/articles/Header-Image_b3a3b2ac-84a3-469f-a0cf-85f0fa9c844d.jpg?v=1784903321&width=600"
+                src="../cdn/shop/articles/Header-Image_b3a3b2ac-84a3-469f-a0cf-85f0fa9c844d_w600.jpg"
                 alt="iCopy-XS: Fixing the &quot;Boot Timeout&quot; problem"
                 loading="lazy"
                 class="news-mobile-card-image"
@@ -37312,7 +37312,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
           
             <a href="blogs/academy/i2c-sensor-seduction-digilab-flipper.html" class="news-mobile-card">
               <img
-                src="//lab401.com/cdn/shop/articles/Flipper-DigiLab-LM75A_4df836e7-c2f2-4ebb-8823-c3c8855f8dd5.png?v=1757880229&width=600"
+                src="../cdn/shop/articles/Flipper-DigiLab-LM75A_4df836e7-c2f2-4ebb-8823-c3c8855f8dd5_w600.png"
                 alt="I2C Sensor Seduction: DigiLab + Flipper"
                 loading="lazy"
                 class="news-mobile-card-image"
@@ -37366,7 +37366,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
           
             <a href="/fr/blogs/news/nous-avons-besoin-de-parler-de-la-copie-x" class="news-article-item">
               <img
-                src="//lab401.com/cdn/shop/articles/2025-11-14---iCopy-X---No-Updates_24eb4bdb-d3ed-48b4-bd30-f899aa3c85b4.png?v=1763302113&width=120"
+                src="../cdn/shop/articles/2025-11-14---iCopy-X---No-Updates_24eb4bdb-d3ed-48b4-bd30-f899aa3c85b4_w120.png"
                 alt="We need to talk about the iCopy-X."
                 loading="lazy"
                 class="news-article-thumb"
@@ -37381,7 +37381,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
           
             <a href="/fr/blogs/news/construire-le-digilab-en-coulisses" class="news-article-item">
               <img
-                src="//lab401.com/cdn/shop/articles/Blog-Header_89df48ac-d53b-4d0f-9d55-c0d9965f6bbc.png?v=1757880265&width=120"
+                src="../cdn/shop/articles/Blog-Header_89df48ac-d53b-4d0f-9d55-c0d9965f6bbc_w120.png"
                 alt="Building the DigiLab : Behind the scenes"
                 loading="lazy"
                 class="news-article-thumb"
@@ -37396,7 +37396,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
           
             <a href="blogs/news/building-the-lightmessenger-product-manufacturing-part-2.html" class="news-article-item">
               <img
-                src="//lab401.com/cdn/shop/articles/LightMessenger---Header_30f02d09-631f-4ba6-ad52-0242f71b07fc.png?v=1748048224&width=120"
+                src="../cdn/shop/articles/LightMessenger---Header_30f02d09-631f-4ba6-ad52-0242f71b07fc_w120.png"
                 alt="Building the LightMessenger : Manufacturing, Part 2"
                 loading="lazy"
                 class="news-article-thumb"
@@ -37416,7 +37416,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
           
             <a href="blogs/news/six-months-later-the-icopy-x-got-open-sourced-interview-with-quantum-x-the-man-behind-icopy-x-open.html" class="news-mobile-card">
               <img
-                src="//lab401.com/cdn/shop/articles/Open-Source_8f90b98a-4ea6-42e3-8bdb-3eade2cc4b48.png?v=1776869338&width=600"
+                src="../cdn/shop/articles/Open-Source_8f90b98a-4ea6-42e3-8bdb-3eade2cc4b48_w600.png"
                 alt="ICopy-X: Open-Sourced by Lab401"
                 loading="lazy"
                 class="news-mobile-card-image"
@@ -37433,7 +37433,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
           
             <a href="/fr/blogs/news/nous-avons-besoin-de-parler-de-la-copie-x" class="news-mobile-card">
               <img
-                src="//lab401.com/cdn/shop/articles/2025-11-14---iCopy-X---No-Updates_24eb4bdb-d3ed-48b4-bd30-f899aa3c85b4.png?v=1763302113&width=600"
+                src="../cdn/shop/articles/2025-11-14---iCopy-X---No-Updates_24eb4bdb-d3ed-48b4-bd30-f899aa3c85b4_w600.png"
                 alt="We need to talk about the iCopy-X."
                 loading="lazy"
                 class="news-mobile-card-image"
@@ -37450,7 +37450,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
           
             <a href="/fr/blogs/news/construire-le-digilab-en-coulisses" class="news-mobile-card">
               <img
-                src="//lab401.com/cdn/shop/articles/Blog-Header_89df48ac-d53b-4d0f-9d55-c0d9965f6bbc.png?v=1757880265&width=600"
+                src="../cdn/shop/articles/Blog-Header_89df48ac-d53b-4d0f-9d55-c0d9965f6bbc_w600.png"
                 alt="Building the DigiLab : Behind the scenes"
                 loading="lazy"
                 class="news-mobile-card-image"
@@ -37467,7 +37467,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
           
             <a href="blogs/news/building-the-lightmessenger-product-manufacturing-part-2.html" class="news-mobile-card">
               <img
-                src="//lab401.com/cdn/shop/articles/LightMessenger---Header_30f02d09-631f-4ba6-ad52-0242f71b07fc.png?v=1748048224&width=600"
+                src="../cdn/shop/articles/LightMessenger---Header_30f02d09-631f-4ba6-ad52-0242f71b07fc_w600.png"
                 alt="Building the LightMessenger : Manufacturing, Part 2"
                 loading="lazy"
                 class="news-mobile-card-image"
@@ -37558,7 +37558,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
 </div><div id="shopify-section-template--28353746665819__product_recommend_HLETXf" class="shopify-section product-recommend--section-wrapper">
 
-<link href="../cdn/shop/t/60/assets/product-recommend.css?v=82518478889299838651790957665.css" rel="stylesheet" type="text/css" media="all" />
+<link href="../cdn/shop/t/60/assets/product-recommend.css" rel="stylesheet" type="text/css" media="all" />
 
 <div class="product-recommend--section" data-section-id="template--28353746665819__product_recommend_HLETXf">
   <div class="product-recommend--container">
@@ -37680,7 +37680,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
   </div>
 </div>
 
-<script src="../cdn/shop/t/60/assets/product-recommend.js?v=31051315587107645591790957666" defer></script>
+<script src="../cdn/shop/t/60/assets/product-recommend.js" defer></script>
 
 <style>
   .product-recommend--section {
@@ -42195,7 +42195,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
       </script>
     
 <script
-        src="../cdn/shop/t/60/assets/empire.min.js?v=36309983166111717561773500247"
+        src="../cdn/shop/t/60/assets/empire.min.js"
         data-scripts
         data-shopify-api-url="//lab401.com/cdn/shopifycloud/storefront/assets/themes_support/api.jquery-7ab1a3a4.js"
         data-shopify-countries="/services/javascripts/countries.js"
@@ -42241,7 +42241,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     </script>
 
     <script
-      src="../cdn/shop/t/60/assets/instantPage.min.js?v=132952667689675371351772550680"
+      src="../cdn/shop/t/60/assets/instantPage.min.js"
       type="module"
       defer
     >
@@ -42249,7 +42249,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
     
     <script
-      src="../cdn/shop/t/60/assets/lab401-a11y.js?v=27954220535327733821790957665"
+      src="../cdn/shop/t/60/assets/lab401-a11y.js"
       data-scrollable-label="Contenu défilant"
       data-youtube-player="Lecteur vidéo YouTube"
       data-vimeo-player="Lecteur vidéo Vimeo"
@@ -42259,14 +42259,14 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     ></script>
 
     
-    <script src="../cdn/shop/t/60/assets/lab401-preferred-source.js?v=39855304419376939601788370164" defer></script>
+    <script src="../cdn/shop/t/60/assets/lab401-preferred-source.js" defer></script>
 
     
     
 
 
 
-    <script src="../cdn/shop/t/60/assets/lab401-country.js?v=118131794101621485741794829669" defer></script>
+    <script src="../cdn/shop/t/60/assets/lab401-country.js" defer></script>
       <script>window.LAB401_MONEY_FORMAT = "€{{amount}}";</script>
       <script>(function(n, v) {/* eslint-disable-next-line max-len */if (window.Shopify && window.Shopify.theme && navigator && navigator.sendBeacon && window.Shopify.designMode) {if (sessionStorage.getItem('oots_beacon')) return;navigator.sendBeacon('https://app.outofthesandbox.com/beacon', new URLSearchParams({shop_domain: window.Shopify.shop.toLowerCase(),shop_id: '21758571',shop_email: 'support@lab401.com',theme_name: n.toLowerCase(),theme_version: v.toLowerCase(),theme_store_id: window.Shopify.theme.theme_store_id,theme_id: window.Shopify.theme.id,theme_role: window.Shopify.theme.role,}));sessionStorage.setItem('oots_beacon', '');}}('empire','12.2.1'))</script>
   <div id="shopify-block-AeXdFL3NiTloxRjRUY__14952540001915115444" class="shopify-block shopify-app-block">

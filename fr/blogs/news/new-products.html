@@ -46,7 +46,7 @@
     
 
     
-      <link rel="shortcut icon" href="../../../cdn/shop/files/Logo-Square_9ea90937-9697-4f59-97a7-be3f21764ba7_32x32.png?v=1722166262" type="image/png">
+      <link rel="shortcut icon" href="../../../cdn/shop/files/Logo-Square_9ea90937-9697-4f59-97a7-be3f21764ba7_32x32.png" type="image/png">
     
 
     
@@ -134,7 +134,7 @@
 
 
     
-    <link rel="preload" href="../../../cdn/fonts/inter/inter_n4.b2a3f24c19b4de56e8871f609e73ca7f6d2e2bb9.woff2" as="font" type="font/woff2" crossorigin="anonymous"><link rel="preload" href="../../../cdn/fonts/inter/inter_n4.b2a3f24c19b4de56e8871f609e73ca7f6d2e2bb9.woff2" as="font" type="font/woff2" crossorigin="anonymous"><link rel="preload" as="style" href="../../../cdn/shop/t/60/assets/theme.css?v=74250596282648218241773059622.css"><script async crossorigin fetchpriority="high" src="../../../cdn/shopifycloud/importmap-polyfill/es-modules-shim.2.4.0.js"></script>
+    <link rel="preload" href="../../../cdn/fonts/inter/inter_n4.b2a3f24c19b4de56e8871f609e73ca7f6d2e2bb9.woff2" as="font" type="font/woff2" crossorigin="anonymous"><link rel="preload" href="../../../cdn/fonts/inter/inter_n4.b2a3f24c19b4de56e8871f609e73ca7f6d2e2bb9.woff2" as="font" type="font/woff2" crossorigin="anonymous"><link rel="preload" as="style" href="../../../cdn/shop/t/60/assets/theme.css"><script async crossorigin fetchpriority="high" src="../../../cdn/shopifycloud/importmap-polyfill/es-modules-shim.2.4.0.js"></script>
 <script type="importmap">
 {
   "imports": {
@@ -168,7 +168,7 @@
     document.head.appendChild(el)
   }
 </script>
-<script type="module" src="../../../cdn/shop/t/60/assets/is-land.min.js?v=92343381495565747271772550680"></script>
+<script type="module" src="../../../cdn/shop/t/60/assets/is-land.min.js"></script>
 <style data-shopify>:root {
     /* Core Sizes */
     --size-0-25: 0.0625rem; /* 1px */
@@ -410,7 +410,7 @@
     --z-index-loader: 4;
     --z-index-header-search-overlay: 1;
     --url-ico-select: url(//lab401.com/cdn/shop/t/60/assets/ico-select.svg);
-    --url-swirl-svg: url(//lab401.com/cdn/shop/t/60/assets/swirl.svg);
+    --url-swirl-svg: url(../../../cdn/shop/t/60/assets/swirl.svg);
     --header-padding-bottom: 0;
     --gutter: 30px;
     --page-width: 1500px;
@@ -726,11 +726,11 @@
     --button-link-underline-thickness: 1px;
     --button-link-underline-style: solid;
   }</style>
-<style-sheet name="vendor.flickity.css" remove-duplicate="true" load="async" style="display: none;"><link href="//lab401.com/cdn/shop/t/60/assets/vendor.flickity.css?v=168134560433028609901772550680" rel="preload" as="style" onload="this.rel='stylesheet'">
-<script type="module" src="../../../cdn/shop/t/60/assets/utility.stylesheet.js?v=115421978848924304161772550677"></script></style-sheet>
+<style-sheet name="vendor.flickity.css" remove-duplicate="true" load="async" style="display: none;"><link href="../../../cdn/shop/t/60/assets/vendor.flickity.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+<script type="module" src="../../../cdn/shop/t/60/assets/utility.stylesheet.js"></script></style-sheet>
 
-<style-sheet name="vendor.swiper.css" remove-duplicate="true" load="async" style="display: none;"><link href="//lab401.com/cdn/shop/t/60/assets/vendor.swiper.css?v=103091539061108917781772550678" rel="preload" as="style" onload="this.rel='stylesheet'">
-<script type="module" src="../../../cdn/shop/t/60/assets/utility.stylesheet.js?v=115421978848924304161772550677"></script></style-sheet>
+<style-sheet name="vendor.swiper.css" remove-duplicate="true" load="async" style="display: none;"><link href="../../../cdn/shop/t/60/assets/vendor.swiper.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+<script type="module" src="../../../cdn/shop/t/60/assets/utility.stylesheet.js"></script></style-sheet>
 
 
 
@@ -1064,7 +1064,7 @@ Shopify.SignInWithShop.User.recognized = false;</script>
 <script>window.ShopifyPaypalV4VisibilityTracking = true;</script>
 <script id="captcha-bootstrap">!function(){'use strict';const t='contact',e='account',n='new_comment',o=[[t,t],['blogs',n],['comments',n],[t,'customer']],c=[[e,'customer_login'],[e,'guest_login'],[e,'recover_customer_password'],[e,'create_customer']],r=t=>t.map((([t,e])=>`form[action*='/${t}']:not([data-nocaptcha='true']) input[name='form_type'][value='${e}']`)).join(','),a=t=>()=>t?[...document.querySelectorAll(t)].map((t=>t.form)):[];function s(){const t=[...o],e=r(t);return a(e)}const i='password',u='form_key',d=['recaptcha-v3-token','g-recaptcha-response','h-captcha-response',i],f=()=>{try{return window.sessionStorage}catch{return}},m='__shopify_v',_=t=>t.elements[u];function p(t,e,n=!1){try{const o=window.sessionStorage,c=JSON.parse(o.getItem(e)),{data:r}=function(t){const{data:e,action:n}=t;return t[m]||n?{data:e,action:n}:{data:t,action:n}}(c);for(const[e,n]of Object.entries(r))t.elements[e]&&(t.elements[e].value=n);n&&o.removeItem(e)}catch(o){console.error('form repopulation failed',{error:o})}}const l='form_type',E='cptcha';function T(t){t.dataset[E]=!0}const w=window,h=w.document,L='Shopify',v='ce_forms',y='captcha';let A=!1;((t,e)=>{const n=(g='f06e6c50-85a8-45c8-87d0-21a2b65856fe',I='https://cdn.shopify.com/shopifycloud/storefront-forms-hcaptcha/ce_storefront_forms_captcha_hcaptcha.v1.5.3.iife.js',D={infoText:'Protégé par hCaptcha',privacyText:'Confidentialité',termsText:'Conditions'},(t,e,n)=>{const o=w[L][v],c=o.bindForm;if(c)return c(t,g,e,D).then(n);var r;o.q.push([[t,g,e,D],n]),r=I,A||(h.body.append(Object.assign(h.createElement('script'),{id:'captcha-provider',async:!0,src:r})),A=!0)});var g,I,D;w[L]=w[L]||{},w[L][v]=w[L][v]||{},w[L][v].q=[],w[L][y]=w[L][y]||{},w[L][y].protect=function(t,e){n(t,void 0,e),T(t)},Object.freeze(w[L][y]),function(t,e,n,w,h,L){const[v,y,A,g]=function(t,e,n){const i=e?o:[],u=t?c:[],d=[...i,...u],f=r(d),m=r(i),_=r(d.filter((([t,e])=>n.includes(e))));return[a(f),a(m),a(_),s()]}(w,h,L),I=t=>{const e=t.target;return e instanceof HTMLFormElement?e:e&&e.form},D=t=>v().includes(t);t.addEventListener('submit',(t=>{const e=I(t);if(!e)return;const n=D(e)&&!e.dataset.hcaptchaBound&&!e.dataset.recaptchaBound,o=_(e),c=g().includes(e)&&(!o||!o.value);(n||c)&&t.preventDefault(),c&&!n&&(function(t){try{if(!f())return;!function(t){const e=f();if(!e)return;const n=_(t);if(!n)return;const o=n.value;o&&e.removeItem(o)}(t);const e=Array.from(Array(32),(()=>Math.random().toString(36)[2])).join('');!function(t,e){_(t)||t.append(Object.assign(document.createElement('input'),{type:'hidden',name:u})),t.elements[u].value=e}(t,e),function(t,e){const n=f();if(!n)return;const o=[...t.querySelectorAll(`input[type='${i}']`)].map((({name:t})=>t)),c=[...d,...o],r={};for(const[a,s]of new FormData(t).entries())c.includes(a)||(r[a]=s);n.setItem(e,JSON.stringify({[m]:1,action:t.action,data:r}))}(t,e)}catch(e){console.error('failed to persist form',e)}}(e),e.submit())}));const S=(t,e)=>{t&&!t.dataset[E]&&(n(t,e.some((e=>e===t))),T(t))};for(const o of['focusin','change'])t.addEventListener(o,(t=>{const e=I(t);D(e)&&S(e,y())}));const B=e.get('form_key'),M=e.get(l),P=B&&M;t.addEventListener('DOMContentLoaded',(()=>{const t=y();if(P)for(const e of t)e.elements[l].value===M&&p(e,B);[...new Set([...A(),...v().filter((t=>'true'===t.dataset.shopifyCaptcha))])].forEach((e=>S(e,t)))}))}(h,new URLSearchParams(w.location.search),n,t,e,['guest_login'])})(!0,!0)}();</script>
 <script integrity="sha256-FYHzja/5XSmzkjz6zHj7s4rACJGFuVoYZdumgoO2Ecs=" data-source-attribution="shopify.loadfeatures" defer="defer" src="../../../cdn/shopifycloud/storefront/assets/storefront/load_feature-ed94c51f.js" crossorigin="anonymous"></script>
-<script>(function () {var userAgent = navigator.userAgent;var platform = navigator.platform;var maxTouchPoints = navigator.maxTouchPoints || 0;var isIOS = /iPad|iPhone|iPod/.test(platform) || (platform === 'MacIntel' && maxTouchPoints > 1);var isMacSafari = platform.indexOf('Mac') === 0 && /Safari/.test(userAgent) && !/Chrome|Chromium|CriOS|FxiOS|Edg|OPR|Android/.test(userAgent);var isAppleSafari = isIOS || isMacSafari;if (isAppleSafari) {fetch('/sf_private_access_tokens' + location.search).catch(function () {});}function browserMajorVersion(pattern) {var match = userAgent.match(pattern);return match ? parseInt(match[1], 10) : null;}function shouldLoadAutosizesPolyfill() {if (!window.PerformanceObserver?.supportedEntryTypes?.includes('paint')) {return false;}var chromeVersion = browserMajorVersion(/Chrome\/(\d+)/);if (chromeVersion !== null) {return chromeVersion < 126;}var firefoxVersion = browserMajorVersion(/Firefox\/(\d+)/);if (firefoxVersion !== null) {return firefoxVersion < 150;}var safariVersion = isAppleSafari ? browserMajorVersion(/Version\/(\d+).*Safari\//) : null;if (safariVersion !== null) {return safariVersion < 27;}return true;}if (shouldLoadAutosizesPolyfill()) {var autosizesScript = document.createElement('script');autosizesScript.async = true;autosizesScript.crossOrigin = 'anonymous';autosizesScript.src = "//lab401.com/cdn/shopifycloud/storefront/assets/storefront/autosizes-84416378.js";(document.head || document.documentElement).appendChild(autosizesScript);}window.ShopifyAnalytics = window.ShopifyAnalytics || {};window.ShopifyAnalytics.performance = window.ShopifyAnalytics.performance || {};(function () {var LONG_FRAME_THRESHOLD = 50;var longAnimationFrames = [];var activeRafId = null;function collectLongFrames() {var previousTime = null;function rafMonitor(now) {if (activeRafId === null) {return;}var delta = now - previousTime;if (delta > LONG_FRAME_THRESHOLD) {longAnimationFrames.push({startTime: previousTime,endTime: now,});}previousTime = now;activeRafId = requestAnimationFrame(rafMonitor);}previousTime = performance.now();activeRafId = requestAnimationFrame(rafMonitor);}if (!window.PerformanceObserver?.supportedEntryTypes?.includes('long-animation-frame')) {collectLongFrames();var timeoutId = setTimeout(function () {cancelAnimationFrame(activeRafId);}, 10000);window.ShopifyAnalytics.performance.getLongAnimationFrames = function (stopCollection) {if (stopCollection === undefined) {stopCollection = false;}if (stopCollection) {clearTimeout(timeoutId);cancelAnimationFrame(activeRafId);}return longAnimationFrames;};}})();})();</script><script crossorigin="anonymous" defer="defer" src="../../../cdn/shopifycloud/storefront/assets/shopify_pay/storefront-f0e26bdf.js?v=20250812"></script>
+<script>(function () {var userAgent = navigator.userAgent;var platform = navigator.platform;var maxTouchPoints = navigator.maxTouchPoints || 0;var isIOS = /iPad|iPhone|iPod/.test(platform) || (platform === 'MacIntel' && maxTouchPoints > 1);var isMacSafari = platform.indexOf('Mac') === 0 && /Safari/.test(userAgent) && !/Chrome|Chromium|CriOS|FxiOS|Edg|OPR|Android/.test(userAgent);var isAppleSafari = isIOS || isMacSafari;if (isAppleSafari) {fetch('/sf_private_access_tokens' + location.search).catch(function () {});}function browserMajorVersion(pattern) {var match = userAgent.match(pattern);return match ? parseInt(match[1], 10) : null;}function shouldLoadAutosizesPolyfill() {if (!window.PerformanceObserver?.supportedEntryTypes?.includes('paint')) {return false;}var chromeVersion = browserMajorVersion(/Chrome\/(\d+)/);if (chromeVersion !== null) {return chromeVersion < 126;}var firefoxVersion = browserMajorVersion(/Firefox\/(\d+)/);if (firefoxVersion !== null) {return firefoxVersion < 150;}var safariVersion = isAppleSafari ? browserMajorVersion(/Version\/(\d+).*Safari\//) : null;if (safariVersion !== null) {return safariVersion < 27;}return true;}if (shouldLoadAutosizesPolyfill()) {var autosizesScript = document.createElement('script');autosizesScript.async = true;autosizesScript.crossOrigin = 'anonymous';autosizesScript.src = "//lab401.com/cdn/shopifycloud/storefront/assets/storefront/autosizes-84416378.js";(document.head || document.documentElement).appendChild(autosizesScript);}window.ShopifyAnalytics = window.ShopifyAnalytics || {};window.ShopifyAnalytics.performance = window.ShopifyAnalytics.performance || {};(function () {var LONG_FRAME_THRESHOLD = 50;var longAnimationFrames = [];var activeRafId = null;function collectLongFrames() {var previousTime = null;function rafMonitor(now) {if (activeRafId === null) {return;}var delta = now - previousTime;if (delta > LONG_FRAME_THRESHOLD) {longAnimationFrames.push({startTime: previousTime,endTime: now,});}previousTime = now;activeRafId = requestAnimationFrame(rafMonitor);}previousTime = performance.now();activeRafId = requestAnimationFrame(rafMonitor);}if (!window.PerformanceObserver?.supportedEntryTypes?.includes('long-animation-frame')) {collectLongFrames();var timeoutId = setTimeout(function () {cancelAnimationFrame(activeRafId);}, 10000);window.ShopifyAnalytics.performance.getLongAnimationFrames = function (stopCollection) {if (stopCollection === undefined) {stopCollection = false;}if (stopCollection) {clearTimeout(timeoutId);cancelAnimationFrame(activeRafId);}return longAnimationFrames;};}})();})();</script><script crossorigin="anonymous" defer="defer" src="../../../cdn/shopifycloud/storefront/assets/shopify_pay/storefront-f0e26bdf.js"></script>
 <script id="shopify-origin-trials" async="async" integrity="sha256-hfGAxKJ6MFnGQCYgUfqgtJBsk7WSUo2LPuoHgEkokSg=" src="//cdn.shopify.com/shopifycloud/storefront/assets/storefront/origin_trials-6af5f5e9.js" crossorigin="anonymous" onload="window.__shopifyOriginTrialsDone = true" onerror="window.__shopifyOriginTrialsDone = true"></script>
 <script>(()=>{var d="shopify:webmcp_adapter_loaded",n=Symbol.for("shopify.webmcp_adapter_loading");function s(c,a,{win:r=window,doc:o=document}={}){function p(){try{return r.localStorage.getItem(d)==="true"}catch{return!1}}function l(){try{r.localStorage.setItem(d,"true")}catch{}}function u(){return typeof(o.modelContext||r.navigator?.modelContext)?.registerTool=="function"}function f(){if(r[n]||!u())return;let t=o.head||o.getElementsByTagName("head")[0];if(!t)return;let e=o.createElement("script");e.type="module",e.crossOrigin="anonymous",a&&(e.integrity=a),e.src=c,e.addEventListener("load",l,{once:!0}),e.addEventListener("error",()=>{r[n]=!1},{once:!0}),t.appendChild(e),r[n]=!0}function _(t){let e=o.getElementById("shopify-origin-trials");if(!e||r.__shopifyOriginTrialsDone){t();return}e.addEventListener("load",t,{once:!0}),e.addEventListener("error",t,{once:!0})}function i(){_(()=>r.setTimeout(f,0))}function m(){o.addEventListener("DOMContentLoaded",i,{once:!0})}p()?i():m()}s("\/\/lab401.com\/cdn\/shopifycloud\/storefront\/assets\/storefront\/webmcp-cfeae510.js","sha256-hdSsaskU5p37T8dqwXSuZ1454uxl\/hhOLZu33d3jWEE=");})();
 </script>
@@ -1280,16 +1280,16 @@ Shopify.SignInWithShop.User.recognized = false;</script>
       })();
     </script>
 
-    <link href="../../../cdn/shop/t/60/assets/theme.css?v=74250596282648218241773059622.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="../../../cdn/shop/t/60/assets/lab401-accessibility.css?v=7170805246475472781773498491.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="../../../cdn/shop/t/60/assets/lab401-high-contrast.css?v=64771544482704160301785277895.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="../../../cdn/shop/t/60/assets/lab401-footer.css?v=183729840715629052621788372973.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="../../../cdn/shop/t/60/assets/lab401-preferred-source.css?v=140356400046481504821788370163.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../../../cdn/shop/t/60/assets/theme.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../../../cdn/shop/t/60/assets/lab401-accessibility.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../../../cdn/shop/t/60/assets/lab401-high-contrast.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../../../cdn/shop/t/60/assets/lab401-footer.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../../../cdn/shop/t/60/assets/lab401-preferred-source.css" rel="stylesheet" type="text/css" media="all" />
     
-    <link href="../../../cdn/shop/t/60/assets/lab401-collection-page.css?v=170626641111371536791790957665.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="../../../cdn/shop/t/60/assets/lab401-product-page.css?v=45537347979535771841790957666.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="../../../cdn/shop/t/60/assets/lab401-featured-collection.css?v=135148425974489036941773844336.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="../../../cdn/shop/t/60/assets/lab401-search.css?v=106323725438832973291773869744.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../../../cdn/shop/t/60/assets/lab401-collection-page.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../../../cdn/shop/t/60/assets/lab401-product-page.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../../../cdn/shop/t/60/assets/lab401-featured-collection.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../../../cdn/shop/t/60/assets/lab401-search.css" rel="stylesheet" type="text/css" media="all" />
     
 
 <style>
@@ -1305,7 +1305,7 @@ Shopify.SignInWithShop.User.recognized = false;</script>
     </style>
 
     
-      <link href="../../../cdn/shop/t/60/assets/ripple.css?v=100240391239311985871772550681.css" rel="stylesheet" type="text/css" media="all" />
+      <link href="../../../cdn/shop/t/60/assets/ripple.css" rel="stylesheet" type="text/css" media="all" />
     
 
     
@@ -2556,13 +2556,13 @@ customContents["Increased shipping delays"
 
   <img
     
-      src="../../../cdn/shop/files/Logo-Square_150x150.png?v=1693574957"
+      src="../../../cdn/shop/files/Logo-Square_150x150.png"
     
     alt="Lab401"
 
     
       data-rimg
-      srcset="../../../cdn/shop/files/Logo-Square_150x150.png?v=1693574957 1x, ../../../cdn/shop/files/Logo-Square_300x300.png?v=1693574957 2x, ../../../cdn/shop/files/Logo-Square_324x324.png?v=1693574957 2.16x"
+      srcset="../../../cdn/shop/files/Logo-Square_150x150.png 1x, ../../../cdn/shop/files/Logo-Square_300x300.png 2x, ../../../cdn/shop/files/Logo-Square_324x324.png 2.16x"
     
 
     class="site-logo-image"
@@ -9375,7 +9375,7 @@ customContents["Increased shipping delays"
     <main id="site-main" class="site-main" aria-label="Contenu principal" tabindex="-1">
       
       
-      <div id="shopify-section-template--28353749090651__main" class="shopify-section article--section section--canonical"><link href="../../../cdn/shop/t/60/assets/lab401-article.css?v=143642410424827199471773505307.css" rel="stylesheet" type="text/css" media="all" />
+      <div id="shopify-section-template--28353749090651__main" class="shopify-section article--section section--canonical"><link href="../../../cdn/shop/t/60/assets/lab401-article.css" rel="stylesheet" type="text/css" media="all" />
 
 <script
   type="application/json"
@@ -9390,7 +9390,7 @@ customContents["Increased shipping delays"
     <div class="article-hero">
       <div
         class="article-hero__blur"
-        style="background-image: url('//lab401.com/cdn/shop/articles/2017-12-Promo.png?v=1512918495&width=1800');"
+        style="background-image: url('../../../cdn/shop/articles/2017-12-Promo_w1800.png');"
       ></div>
       <img
         class="article-hero__image"
@@ -14257,7 +14257,7 @@ customContents["Increased shipping delays"
       </script>
     
 <script
-        src="../../../cdn/shop/t/60/assets/empire.min.js?v=36309983166111717561773500247"
+        src="../../../cdn/shop/t/60/assets/empire.min.js"
         data-scripts
         data-shopify-api-url="//lab401.com/cdn/shopifycloud/storefront/assets/themes_support/api.jquery-7ab1a3a4.js"
         data-shopify-countries="/services/javascripts/countries.js"
@@ -14370,7 +14370,7 @@ customContents["Increased shipping delays"
     </script>
 
     <script
-      src="../../../cdn/shop/t/60/assets/instantPage.min.js?v=132952667689675371351772550680"
+      src="../../../cdn/shop/t/60/assets/instantPage.min.js"
       type="module"
       defer
     >
@@ -14378,7 +14378,7 @@ customContents["Increased shipping delays"
 
     
     <script
-      src="../../../cdn/shop/t/60/assets/lab401-a11y.js?v=27954220535327733821790957665"
+      src="../../../cdn/shop/t/60/assets/lab401-a11y.js"
       data-scrollable-label="Contenu défilant"
       data-youtube-player="Lecteur vidéo YouTube"
       data-vimeo-player="Lecteur vidéo Vimeo"
@@ -14388,14 +14388,14 @@ customContents["Increased shipping delays"
     ></script>
 
     
-    <script src="../../../cdn/shop/t/60/assets/lab401-preferred-source.js?v=39855304419376939601788370164" defer></script>
+    <script src="../../../cdn/shop/t/60/assets/lab401-preferred-source.js" defer></script>
 
     
     
 
 
 
-    <script src="../../../cdn/shop/t/60/assets/lab401-country.js?v=118131794101621485741794829669" defer></script>
+    <script src="../../../cdn/shop/t/60/assets/lab401-country.js" defer></script>
       <script>window.LAB401_MONEY_FORMAT = "€{{amount}}";</script>
       <script>(function(n, v) {/* eslint-disable-next-line max-len */if (window.Shopify && window.Shopify.theme && navigator && navigator.sendBeacon && window.Shopify.designMode) {if (sessionStorage.getItem('oots_beacon')) return;navigator.sendBeacon('https://app.outofthesandbox.com/beacon', new URLSearchParams({shop_domain: window.Shopify.shop.toLowerCase(),shop_id: '21758571',shop_email: 'support@lab401.com',theme_name: n.toLowerCase(),theme_version: v.toLowerCase(),theme_store_id: window.Shopify.theme.theme_store_id,theme_id: window.Shopify.theme.id,theme_role: window.Shopify.theme.role,}));sessionStorage.setItem('oots_beacon', '');}}('empire','12.2.1'))</script>
   <div id="shopify-block-AaTJnSGxzM0tTc1RrN__7333856334229879547" class="shopify-block shopify-app-block">

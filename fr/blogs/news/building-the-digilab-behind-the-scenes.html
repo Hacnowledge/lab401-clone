@@ -46,7 +46,7 @@
     
 
     
-      <link rel="shortcut icon" href="../../../cdn/shop/files/Logo-Square_9ea90937-9697-4f59-97a7-be3f21764ba7_32x32.png?v=1722166262" type="image/png">
+      <link rel="shortcut icon" href="../../../cdn/shop/files/Logo-Square_9ea90937-9697-4f59-97a7-be3f21764ba7_32x32.png" type="image/png">
     
 
     
@@ -138,7 +138,7 @@
 
 
     
-    <link rel="preload" href="../../../cdn/fonts/inter/inter_n4.b2a3f24c19b4de56e8871f609e73ca7f6d2e2bb9.woff2" as="font" type="font/woff2" crossorigin="anonymous"><link rel="preload" href="../../../cdn/fonts/inter/inter_n4.b2a3f24c19b4de56e8871f609e73ca7f6d2e2bb9.woff2" as="font" type="font/woff2" crossorigin="anonymous"><link rel="preload" as="style" href="../../../cdn/shop/t/60/assets/theme.css?v=74250596282648218241773059622.css"><script async crossorigin fetchpriority="high" src="../../../cdn/shopifycloud/importmap-polyfill/es-modules-shim.2.4.0.js"></script>
+    <link rel="preload" href="../../../cdn/fonts/inter/inter_n4.b2a3f24c19b4de56e8871f609e73ca7f6d2e2bb9.woff2" as="font" type="font/woff2" crossorigin="anonymous"><link rel="preload" href="../../../cdn/fonts/inter/inter_n4.b2a3f24c19b4de56e8871f609e73ca7f6d2e2bb9.woff2" as="font" type="font/woff2" crossorigin="anonymous"><link rel="preload" as="style" href="../../../cdn/shop/t/60/assets/theme.css"><script async crossorigin fetchpriority="high" src="../../../cdn/shopifycloud/importmap-polyfill/es-modules-shim.2.4.0.js"></script>
 <script type="importmap">
 {
   "imports": {
@@ -172,7 +172,7 @@
     document.head.appendChild(el)
   }
 </script>
-<script type="module" src="../../../cdn/shop/t/60/assets/is-land.min.js?v=92343381495565747271772550680"></script>
+<script type="module" src="../../../cdn/shop/t/60/assets/is-land.min.js"></script>
 <style data-shopify>:root {
     /* Core Sizes */
     --size-0-25: 0.0625rem; /* 1px */
@@ -414,7 +414,7 @@
     --z-index-loader: 4;
     --z-index-header-search-overlay: 1;
     --url-ico-select: url(//lab401.com/cdn/shop/t/60/assets/ico-select.svg);
-    --url-swirl-svg: url(//lab401.com/cdn/shop/t/60/assets/swirl.svg);
+    --url-swirl-svg: url(../../../cdn/shop/t/60/assets/swirl.svg);
     --header-padding-bottom: 0;
     --gutter: 30px;
     --page-width: 1500px;
@@ -730,11 +730,11 @@
     --button-link-underline-thickness: 1px;
     --button-link-underline-style: solid;
   }</style>
-<style-sheet name="vendor.flickity.css" remove-duplicate="true" load="async" style="display: none;"><link href="//lab401.com/cdn/shop/t/60/assets/vendor.flickity.css?v=168134560433028609901772550680" rel="preload" as="style" onload="this.rel='stylesheet'">
-<script type="module" src="../../../cdn/shop/t/60/assets/utility.stylesheet.js?v=115421978848924304161772550677"></script></style-sheet>
+<style-sheet name="vendor.flickity.css" remove-duplicate="true" load="async" style="display: none;"><link href="../../../cdn/shop/t/60/assets/vendor.flickity.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+<script type="module" src="../../../cdn/shop/t/60/assets/utility.stylesheet.js"></script></style-sheet>
 
-<style-sheet name="vendor.swiper.css" remove-duplicate="true" load="async" style="display: none;"><link href="//lab401.com/cdn/shop/t/60/assets/vendor.swiper.css?v=103091539061108917781772550678" rel="preload" as="style" onload="this.rel='stylesheet'">
-<script type="module" src="../../../cdn/shop/t/60/assets/utility.stylesheet.js?v=115421978848924304161772550677"></script></style-sheet>
+<style-sheet name="vendor.swiper.css" remove-duplicate="true" load="async" style="display: none;"><link href="../../../cdn/shop/t/60/assets/vendor.swiper.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+<script type="module" src="../../../cdn/shop/t/60/assets/utility.stylesheet.js"></script></style-sheet>
 
 
 
@@ -1068,7 +1068,7 @@ Shopify.SignInWithShop.User.recognized = false;</script>
 <script>window.ShopifyPaypalV4VisibilityTracking = true;</script>
 <script id="captcha-bootstrap">!function(){'use strict';const t='contact',e='account',n='new_comment',o=[[t,t],['blogs',n],['comments',n],[t,'customer']],c=[[e,'customer_login'],[e,'guest_login'],[e,'recover_customer_password'],[e,'create_customer']],r=t=>t.map((([t,e])=>`form[action*='/${t}']:not([data-nocaptcha='true']) input[name='form_type'][value='${e}']`)).join(','),a=t=>()=>t?[...document.querySelectorAll(t)].map((t=>t.form)):[];function s(){const t=[...o],e=r(t);return a(e)}const i='password',u='form_key',d=['recaptcha-v3-token','g-recaptcha-response','h-captcha-response',i],f=()=>{try{return window.sessionStorage}catch{return}},m='__shopify_v',_=t=>t.elements[u];function p(t,e,n=!1){try{const o=window.sessionStorage,c=JSON.parse(o.getItem(e)),{data:r}=function(t){const{data:e,action:n}=t;return t[m]||n?{data:e,action:n}:{data:t,action:n}}(c);for(const[e,n]of Object.entries(r))t.elements[e]&&(t.elements[e].value=n);n&&o.removeItem(e)}catch(o){console.error('form repopulation failed',{error:o})}}const l='form_type',E='cptcha';function T(t){t.dataset[E]=!0}const w=window,h=w.document,L='Shopify',v='ce_forms',y='captcha';let A=!1;((t,e)=>{const n=(g='f06e6c50-85a8-45c8-87d0-21a2b65856fe',I='https://cdn.shopify.com/shopifycloud/storefront-forms-hcaptcha/ce_storefront_forms_captcha_hcaptcha.v1.5.3.iife.js',D={infoText:'Protégé par hCaptcha',privacyText:'Confidentialité',termsText:'Conditions'},(t,e,n)=>{const o=w[L][v],c=o.bindForm;if(c)return c(t,g,e,D).then(n);var r;o.q.push([[t,g,e,D],n]),r=I,A||(h.body.append(Object.assign(h.createElement('script'),{id:'captcha-provider',async:!0,src:r})),A=!0)});var g,I,D;w[L]=w[L]||{},w[L][v]=w[L][v]||{},w[L][v].q=[],w[L][y]=w[L][y]||{},w[L][y].protect=function(t,e){n(t,void 0,e),T(t)},Object.freeze(w[L][y]),function(t,e,n,w,h,L){const[v,y,A,g]=function(t,e,n){const i=e?o:[],u=t?c:[],d=[...i,...u],f=r(d),m=r(i),_=r(d.filter((([t,e])=>n.includes(e))));return[a(f),a(m),a(_),s()]}(w,h,L),I=t=>{const e=t.target;return e instanceof HTMLFormElement?e:e&&e.form},D=t=>v().includes(t);t.addEventListener('submit',(t=>{const e=I(t);if(!e)return;const n=D(e)&&!e.dataset.hcaptchaBound&&!e.dataset.recaptchaBound,o=_(e),c=g().includes(e)&&(!o||!o.value);(n||c)&&t.preventDefault(),c&&!n&&(function(t){try{if(!f())return;!function(t){const e=f();if(!e)return;const n=_(t);if(!n)return;const o=n.value;o&&e.removeItem(o)}(t);const e=Array.from(Array(32),(()=>Math.random().toString(36)[2])).join('');!function(t,e){_(t)||t.append(Object.assign(document.createElement('input'),{type:'hidden',name:u})),t.elements[u].value=e}(t,e),function(t,e){const n=f();if(!n)return;const o=[...t.querySelectorAll(`input[type='${i}']`)].map((({name:t})=>t)),c=[...d,...o],r={};for(const[a,s]of new FormData(t).entries())c.includes(a)||(r[a]=s);n.setItem(e,JSON.stringify({[m]:1,action:t.action,data:r}))}(t,e)}catch(e){console.error('failed to persist form',e)}}(e),e.submit())}));const S=(t,e)=>{t&&!t.dataset[E]&&(n(t,e.some((e=>e===t))),T(t))};for(const o of['focusin','change'])t.addEventListener(o,(t=>{const e=I(t);D(e)&&S(e,y())}));const B=e.get('form_key'),M=e.get(l),P=B&&M;t.addEventListener('DOMContentLoaded',(()=>{const t=y();if(P)for(const e of t)e.elements[l].value===M&&p(e,B);[...new Set([...A(),...v().filter((t=>'true'===t.dataset.shopifyCaptcha))])].forEach((e=>S(e,t)))}))}(h,new URLSearchParams(w.location.search),n,t,e,['guest_login'])})(!0,!0)}();</script>
 <script integrity="sha256-FYHzja/5XSmzkjz6zHj7s4rACJGFuVoYZdumgoO2Ecs=" data-source-attribution="shopify.loadfeatures" defer="defer" src="../../../cdn/shopifycloud/storefront/assets/storefront/load_feature-ed94c51f.js" crossorigin="anonymous"></script>
-<script>(function () {var userAgent = navigator.userAgent;var platform = navigator.platform;var maxTouchPoints = navigator.maxTouchPoints || 0;var isIOS = /iPad|iPhone|iPod/.test(platform) || (platform === 'MacIntel' && maxTouchPoints > 1);var isMacSafari = platform.indexOf('Mac') === 0 && /Safari/.test(userAgent) && !/Chrome|Chromium|CriOS|FxiOS|Edg|OPR|Android/.test(userAgent);var isAppleSafari = isIOS || isMacSafari;if (isAppleSafari) {fetch('/sf_private_access_tokens' + location.search).catch(function () {});}function browserMajorVersion(pattern) {var match = userAgent.match(pattern);return match ? parseInt(match[1], 10) : null;}function shouldLoadAutosizesPolyfill() {if (!window.PerformanceObserver?.supportedEntryTypes?.includes('paint')) {return false;}var chromeVersion = browserMajorVersion(/Chrome\/(\d+)/);if (chromeVersion !== null) {return chromeVersion < 126;}var firefoxVersion = browserMajorVersion(/Firefox\/(\d+)/);if (firefoxVersion !== null) {return firefoxVersion < 150;}var safariVersion = isAppleSafari ? browserMajorVersion(/Version\/(\d+).*Safari\//) : null;if (safariVersion !== null) {return safariVersion < 27;}return true;}if (shouldLoadAutosizesPolyfill()) {var autosizesScript = document.createElement('script');autosizesScript.async = true;autosizesScript.crossOrigin = 'anonymous';autosizesScript.src = "//lab401.com/cdn/shopifycloud/storefront/assets/storefront/autosizes-84416378.js";(document.head || document.documentElement).appendChild(autosizesScript);}window.ShopifyAnalytics = window.ShopifyAnalytics || {};window.ShopifyAnalytics.performance = window.ShopifyAnalytics.performance || {};(function () {var LONG_FRAME_THRESHOLD = 50;var longAnimationFrames = [];var activeRafId = null;function collectLongFrames() {var previousTime = null;function rafMonitor(now) {if (activeRafId === null) {return;}var delta = now - previousTime;if (delta > LONG_FRAME_THRESHOLD) {longAnimationFrames.push({startTime: previousTime,endTime: now,});}previousTime = now;activeRafId = requestAnimationFrame(rafMonitor);}previousTime = performance.now();activeRafId = requestAnimationFrame(rafMonitor);}if (!window.PerformanceObserver?.supportedEntryTypes?.includes('long-animation-frame')) {collectLongFrames();var timeoutId = setTimeout(function () {cancelAnimationFrame(activeRafId);}, 10000);window.ShopifyAnalytics.performance.getLongAnimationFrames = function (stopCollection) {if (stopCollection === undefined) {stopCollection = false;}if (stopCollection) {clearTimeout(timeoutId);cancelAnimationFrame(activeRafId);}return longAnimationFrames;};}})();})();</script><script crossorigin="anonymous" defer="defer" src="../../../cdn/shopifycloud/storefront/assets/shopify_pay/storefront-f0e26bdf.js?v=20250812"></script>
+<script>(function () {var userAgent = navigator.userAgent;var platform = navigator.platform;var maxTouchPoints = navigator.maxTouchPoints || 0;var isIOS = /iPad|iPhone|iPod/.test(platform) || (platform === 'MacIntel' && maxTouchPoints > 1);var isMacSafari = platform.indexOf('Mac') === 0 && /Safari/.test(userAgent) && !/Chrome|Chromium|CriOS|FxiOS|Edg|OPR|Android/.test(userAgent);var isAppleSafari = isIOS || isMacSafari;if (isAppleSafari) {fetch('/sf_private_access_tokens' + location.search).catch(function () {});}function browserMajorVersion(pattern) {var match = userAgent.match(pattern);return match ? parseInt(match[1], 10) : null;}function shouldLoadAutosizesPolyfill() {if (!window.PerformanceObserver?.supportedEntryTypes?.includes('paint')) {return false;}var chromeVersion = browserMajorVersion(/Chrome\/(\d+)/);if (chromeVersion !== null) {return chromeVersion < 126;}var firefoxVersion = browserMajorVersion(/Firefox\/(\d+)/);if (firefoxVersion !== null) {return firefoxVersion < 150;}var safariVersion = isAppleSafari ? browserMajorVersion(/Version\/(\d+).*Safari\//) : null;if (safariVersion !== null) {return safariVersion < 27;}return true;}if (shouldLoadAutosizesPolyfill()) {var autosizesScript = document.createElement('script');autosizesScript.async = true;autosizesScript.crossOrigin = 'anonymous';autosizesScript.src = "//lab401.com/cdn/shopifycloud/storefront/assets/storefront/autosizes-84416378.js";(document.head || document.documentElement).appendChild(autosizesScript);}window.ShopifyAnalytics = window.ShopifyAnalytics || {};window.ShopifyAnalytics.performance = window.ShopifyAnalytics.performance || {};(function () {var LONG_FRAME_THRESHOLD = 50;var longAnimationFrames = [];var activeRafId = null;function collectLongFrames() {var previousTime = null;function rafMonitor(now) {if (activeRafId === null) {return;}var delta = now - previousTime;if (delta > LONG_FRAME_THRESHOLD) {longAnimationFrames.push({startTime: previousTime,endTime: now,});}previousTime = now;activeRafId = requestAnimationFrame(rafMonitor);}previousTime = performance.now();activeRafId = requestAnimationFrame(rafMonitor);}if (!window.PerformanceObserver?.supportedEntryTypes?.includes('long-animation-frame')) {collectLongFrames();var timeoutId = setTimeout(function () {cancelAnimationFrame(activeRafId);}, 10000);window.ShopifyAnalytics.performance.getLongAnimationFrames = function (stopCollection) {if (stopCollection === undefined) {stopCollection = false;}if (stopCollection) {clearTimeout(timeoutId);cancelAnimationFrame(activeRafId);}return longAnimationFrames;};}})();})();</script><script crossorigin="anonymous" defer="defer" src="../../../cdn/shopifycloud/storefront/assets/shopify_pay/storefront-f0e26bdf.js"></script>
 <script id="shopify-origin-trials" async="async" integrity="sha256-hfGAxKJ6MFnGQCYgUfqgtJBsk7WSUo2LPuoHgEkokSg=" src="//cdn.shopify.com/shopifycloud/storefront/assets/storefront/origin_trials-6af5f5e9.js" crossorigin="anonymous" onload="window.__shopifyOriginTrialsDone = true" onerror="window.__shopifyOriginTrialsDone = true"></script>
 <script>(()=>{var d="shopify:webmcp_adapter_loaded",n=Symbol.for("shopify.webmcp_adapter_loading");function s(c,a,{win:r=window,doc:o=document}={}){function p(){try{return r.localStorage.getItem(d)==="true"}catch{return!1}}function l(){try{r.localStorage.setItem(d,"true")}catch{}}function u(){return typeof(o.modelContext||r.navigator?.modelContext)?.registerTool=="function"}function f(){if(r[n]||!u())return;let t=o.head||o.getElementsByTagName("head")[0];if(!t)return;let e=o.createElement("script");e.type="module",e.crossOrigin="anonymous",a&&(e.integrity=a),e.src=c,e.addEventListener("load",l,{once:!0}),e.addEventListener("error",()=>{r[n]=!1},{once:!0}),t.appendChild(e),r[n]=!0}function _(t){let e=o.getElementById("shopify-origin-trials");if(!e||r.__shopifyOriginTrialsDone){t();return}e.addEventListener("load",t,{once:!0}),e.addEventListener("error",t,{once:!0})}function i(){_(()=>r.setTimeout(f,0))}function m(){o.addEventListener("DOMContentLoaded",i,{once:!0})}p()?i():m()}s("\/\/lab401.com\/cdn\/shopifycloud\/storefront\/assets\/storefront\/webmcp-cfeae510.js","sha256-hdSsaskU5p37T8dqwXSuZ1454uxl\/hhOLZu33d3jWEE=");})();
 </script>
@@ -1284,16 +1284,16 @@ Shopify.SignInWithShop.User.recognized = false;</script>
       })();
     </script>
 
-    <link href="../../../cdn/shop/t/60/assets/theme.css?v=74250596282648218241773059622.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="../../../cdn/shop/t/60/assets/lab401-accessibility.css?v=7170805246475472781773498491.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="../../../cdn/shop/t/60/assets/lab401-high-contrast.css?v=64771544482704160301785277895.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="../../../cdn/shop/t/60/assets/lab401-footer.css?v=183729840715629052621788372973.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="../../../cdn/shop/t/60/assets/lab401-preferred-source.css?v=140356400046481504821788370163.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../../../cdn/shop/t/60/assets/theme.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../../../cdn/shop/t/60/assets/lab401-accessibility.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../../../cdn/shop/t/60/assets/lab401-high-contrast.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../../../cdn/shop/t/60/assets/lab401-footer.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../../../cdn/shop/t/60/assets/lab401-preferred-source.css" rel="stylesheet" type="text/css" media="all" />
     
-    <link href="../../../cdn/shop/t/60/assets/lab401-collection-page.css?v=170626641111371536791790957665.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="../../../cdn/shop/t/60/assets/lab401-product-page.css?v=45537347979535771841790957666.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="../../../cdn/shop/t/60/assets/lab401-featured-collection.css?v=135148425974489036941773844336.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="../../../cdn/shop/t/60/assets/lab401-search.css?v=106323725438832973291773869744.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../../../cdn/shop/t/60/assets/lab401-collection-page.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../../../cdn/shop/t/60/assets/lab401-product-page.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../../../cdn/shop/t/60/assets/lab401-featured-collection.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../../../cdn/shop/t/60/assets/lab401-search.css" rel="stylesheet" type="text/css" media="all" />
     
 
 <style>
@@ -1309,7 +1309,7 @@ Shopify.SignInWithShop.User.recognized = false;</script>
     </style>
 
     
-      <link href="../../../cdn/shop/t/60/assets/ripple.css?v=100240391239311985871772550681.css" rel="stylesheet" type="text/css" media="all" />
+      <link href="../../../cdn/shop/t/60/assets/ripple.css" rel="stylesheet" type="text/css" media="all" />
     
 
     
@@ -2560,13 +2560,13 @@ customContents["Increased shipping delays"
 
   <img
     
-      src="../../../cdn/shop/files/Logo-Square_150x150.png?v=1693574957"
+      src="../../../cdn/shop/files/Logo-Square_150x150.png"
     
     alt="Lab401"
 
     
       data-rimg
-      srcset="../../../cdn/shop/files/Logo-Square_150x150.png?v=1693574957 1x, ../../../cdn/shop/files/Logo-Square_300x300.png?v=1693574957 2x, ../../../cdn/shop/files/Logo-Square_324x324.png?v=1693574957 2.16x"
+      srcset="../../../cdn/shop/files/Logo-Square_150x150.png 1x, ../../../cdn/shop/files/Logo-Square_300x300.png 2x, ../../../cdn/shop/files/Logo-Square_324x324.png 2.16x"
     
 
     class="site-logo-image"
@@ -9379,7 +9379,7 @@ customContents["Increased shipping delays"
     <main id="site-main" class="site-main" aria-label="Contenu principal" tabindex="-1">
       
       
-      <div id="shopify-section-template--28353749090651__main" class="shopify-section article--section section--canonical"><link href="../../../cdn/shop/t/60/assets/lab401-article.css?v=143642410424827199471773505307.css" rel="stylesheet" type="text/css" media="all" />
+      <div id="shopify-section-template--28353749090651__main" class="shopify-section article--section section--canonical"><link href="../../../cdn/shop/t/60/assets/lab401-article.css" rel="stylesheet" type="text/css" media="all" />
 
 <script
   type="application/json"
@@ -9394,7 +9394,7 @@ customContents["Increased shipping delays"
     <div class="article-hero">
       <div
         class="article-hero__blur"
-        style="background-image: url('//lab401.com/cdn/shop/articles/Blog-Header_89df48ac-d53b-4d0f-9d55-c0d9965f6bbc.png?v=1757880265&width=1800');"
+        style="background-image: url('../../../cdn/shop/articles/Blog-Header_89df48ac-d53b-4d0f-9d55-c0d9965f6bbc_w1800.png');"
       ></div>
       <img
         class="article-hero__image"
@@ -9552,7 +9552,7 @@ customContents["Increased shipping delays"
 <p>Un grand coup de chapeau à <a href="https://tixlegeek.io/splash">@tixlegeek</a>, l'ingénieur à l'origine du projet.</p>
 <h2 id="what-is-the-digilab-">Qu'est-ce que le DigiLab ?</h2>
 <p>Le DigiLab est un appareil qui se fixe sur le Flipper Zero. Il s'agit d'un multi-outil électronique qui permet aux utilisateurs d'analyser et d'explorer les signaux électriques de faible puissance : Il peut détecter différents aspects des signaux et les traduire en retour cinétique "en temps réel" : audio, lumière, vibration, etc.</p>
-<p><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab---Rotoscope.gif?v=1757020607" alt=""></p>
+<p><img src="../../../cdn/shop/files/DigiLab---Rotoscope.gif" alt=""></p>
 <p>Il permet également la détection simple et intuitive, l'identification et la manipulation directe de dispositifs I²C et SPI.</p>
 <p>À la base, il s'agit d'une "sonde magique" qui traite et divise le signal, associée à une application de haut niveau qui affiche le tout.</p>
 <p>Il n'est pas destiné à remplacer les outils de précision dédiés : il est conçu comme un <em>nez numérique pour l'électronique</em> - le premier outil vers lequel vous vous tournez lorsque vous explorez l'électronique.</p>
@@ -9594,7 +9594,7 @@ customContents["Increased shipping delays"
 <p><em>J'ai commencé par dessiner et bricoler des modèles en carton pour mieux sentir l'outil :</em></p>
 <p><em><video loop="loop" muted="muted" autoplay="autoplay"><source src="https://cdn.shopify.com/videos/c/o/v/ab4fac3ee3e1489284fe4b05daf3d559.mp4"></video></em></p>
 <p><em>Parallèlement, j'ai commandé un prototype de circuit imprimé. L'objectif était de valider l'électronique et les composants, et de voir comment tout s'assemblait.</em></p>
-<p><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab---ESP32-version.png?v=1757344098" alt=""></p>
+<p><img src="../../../cdn/shop/files/DigiLab---ESP32-version.png" alt=""></p>
 <p><em>Au début, j'envisageais d'utiliser un ESP32 pour gérer les signaux et fournir des informations en ligne. Mais après en avoir discuté avec l'équipe, nous avons réalisé que ce n'était pas le véritable objectif du projet - l'idée a donc été abandonnée.</em></p>
 <p>Si l'appareil était autonome, il risquait de s'autodétruire. Dans le produit final, tout est géré directement par le Flipper Zero.</p>
 <hr>
@@ -9602,24 +9602,24 @@ customContents["Increased shipping delays"
 <p><em>J'ai travaillé avec une grande variété d'outils, chacun accompagné de son propre ensemble d'accessoires, certains plus standards que d'autres. Lorsqu'il s'agit de connecter des sondes à un circuit imprimé, il y a certainement de bonnes et de mauvaises façons de procéder, mais dans la pratique, cela se transforme souvent en un cauchemar de fiches, de prises et de connecteurs mal assortis.</em></p>
 <p>Nous voulions trouver un juste milieu entre le prix, l'aspect pratique et la robustesse. De même, nous ne voulions pas dicter à l'utilisateur la manière dont il devait utiliser l'outil - nous voulions donc garder les choses aussi ouvertes que possible.</p>
 <p>Nous avons eu beaucoup de mal à trouver le meilleur moyen de rendre le DigiLab pratique tout en limitant les coûts. À un moment donné, nous avons même essayé les fiches bananes, mais elles se sont avérées beaucoup trop encombrantes.</p>
-<p><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab---Probes.png?v=1757344545" alt=""></p>
+<p><img src="../../../cdn/shop/files/DigiLab---Probes.png" alt=""></p>
 <p>En discutant avec l'équipe, nous sommes tombés d'accord sur le fait que le SMA était la meilleure solution - il est petit, commun, et remplit toutes les conditions mécaniques. Nous avons passé beaucoup de temps à fouiller les marchés des matières premières à la recherche d'un produit existant, mais nous n'avons rien trouvé.</p>
 <div style="text-align: center;">
-<img src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab---Expensive-Cable_240x240.png?v=1757344884" style="margin-bottom: 16px; float: none; display: block; margin-left: auto; margin-right: auto;"><i>$34 pour ceci ... si vous êtes un fabricant de câbles ... il y a un marché qui s'ouvre ici !</i>
+<img src="../../../cdn/shop/files/DigiLab---Expensive-Cable_240x240.png" style="margin-bottom: 16px; float: none; display: block; margin-left: auto; margin-right: auto;"><i>$34 pour ceci ... si vous êtes un fabricant de câbles ... il y a un marché qui s'ouvre ici !</i>
 </div>
 <p>Si nous utilisons le SMA comme élément contraignant : le produit le plus proche que nous ayons trouvé est ~$34 par câble - bien en dehors de notre gamme de prix. Si nous étions flexibles avec le connecteur, il y avait des milliers de câbles multimètres disponibles - mais tous avec des connecteurs banane encombrants. Nous avons testé un prototype avec des fiches bananes. D'après nos tests, ces connecteurs étaient non seulement laids, mais ils ajoutaient un énorme levier mécanique à une carte de circuit imprimé délicate. À long terme, cela aurait fini par détruire le circuit imprimé.</p>
 <p>Finalement, nous avons choisi la voie du sur-mesure : l'avantage est que nous pouvions créer les sondes exactement comme nous le souhaitions (compactes, jolies, utiles) et utiliser le connecteur SMA. Naturellement, cela signifiait que nous devions construire l'outillage pour les sondes et fabriquer des câbles sur mesure - mais nous sommes satisfaits du résultat et heureux de ne pas avoir cédé sur ce point.</p>
-<p><img src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab---Finished.png?v=1757344105" alt=""></p>
+<p><img src="../../../cdn/shop/files/DigiLab---Finished.png" alt=""></p>
 <p>La seule partie qui est restée inchangée entre le prototype et le produit final est l'embout de la sonde. Elle permet aux utilisateurs de fouiller (littéralement) dans un circuit, à la manière d'un stylo-capteur, s'ils le souhaitent. En même temps, elle est amovible, ce qui permet d'insérer un fil comme support, donnant à l'utilisateur la liberté de décider exactement ce dont il a besoin - ou de l'enlever complètement. Si l'utilisateur connecte les sondes, il peut utiliser l'appareil en mode "bureau" ou "laboratoire".</p>
 <p>Au final, nous pensons avoir trouvé une solution élégante par sa simplicité.</p>
 <hr>
 <h2 id="aesthetic-design">Un design esthétique</h2>
 <p><em>De tixlegeek :</em></p>
 <p><em>Lorsque j'ai commencé à travailler sur l'illustration de ce produit, je connaissais déjà l'histoire que je voulais raconter. Le LightMessenger avait donné le ton, et le DigiLab devait suivre cette voie. J'avais une vision claire : un enfant avec une passoire sur la tête, brandissant un blaster de signalisation de fortune pour repousser les extraterrestres. Imaginez le </em>commandant Keen<em> rencontrant </em>Heart of Darkness<em>, dans le monde sinistre d'une dystopie de l'information.</em></p>
-<p><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab---Artwork.png?v=1757344098"></p>
-<p><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab---Boards.png?v=1757345174"></p>
+<p><img alt="" src="../../../cdn/shop/files/DigiLab---Artwork.png"></p>
+<p><img alt="" src="../../../cdn/shop/files/DigiLab---Boards.png"></p>
 <p><em>J'ai esquissé un certain nombre de concepts et les ai transformés en illustrations, dont certaines se sont retrouvées sur la boîte en carton du DigiLab.</em></p>
-<p><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab---Box.png?v=1757344102"></p>
+<p><img alt="" src="../../../cdn/shop/files/DigiLab---Box.png"></p>
 <p><br></p>
 <hr>
 <h2 id="production-ready-prototypes">Des prototypes prêts pour la production</h2>
@@ -9642,10 +9642,10 @@ customContents["Increased shipping delays"
 <p><em>Si vous fabriquez, investissez du temps dans des tests appropriés.</em></p>
 <p>Pour le DigiLab, nous avons construit un gabarit de test basé sur le CH32V003 qui vérifie toutes les fonctionnalités et fournit au fabricant un retour d'information simple et facile à comprendre. Il a fallu quelques ajustements et une procédure claire étape par étape pour s'assurer qu'il s'intègre parfaitement dans le processus de fabrication.</p>
 <p>Voici quelques photos du gabarit de test :</p>
-<p><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab---Testing-Jig.png?v=1757344106"></p>
+<p><img alt="" src="../../../cdn/shop/files/DigiLab---Testing-Jig.png"></p>
 <p><em>J'ai soudé des points d'essai pour imiter les broches de pogo et j'ai corrigé plusieurs erreurs que j'avais commises lors de la première itération.</em></p>
 <p>Ensuite, notre fabricant interne l'a intégré sur le banc d'essai, avec du matériel fait sur mesure :</p>
-<p><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab---Testing-Jig---2_6a34e8c5-8835-47f6-b802-64f8c984ee5e.png?v=1757345268"></p>
+<p><img alt="" src="../../../cdn/shop/files/DigiLab---Testing-Jig---2_6a34e8c5-8835-47f6-b802-64f8c984ee5e.png"></p>
 <hr>
 <h3 id="packaging">Emballage</h3>
 <p>Nous préférons utiliser un emballage simple :</p>
@@ -9657,7 +9657,7 @@ customContents["Increased shipping delays"
 <p>Nous pensons qu'il s'agit là d'un équilibre entre nos engagements éthiques et une expérience de déballage agréable pour le client. De même, nous sommes honnêtes envers les clients : ils ne paient pas pour quelque chose qu'ils vont jeter.</p>
 <p>Nous avions appris avec le LightMessenger que quelques centimètres supplémentaires dans l'emballage se traduisaient par des palettes supplémentaires à la livraison, et nous voulions éviter ce problème avec le DigiLab.</p>
 <p>Nous avons donc opté pour une boîte beaucoup plus fine. Nous avons expérimenté différentes configurations de mousse non découpée, mais nous n'avons pas trouvé de façon satisfaisante de présenter l'appareil, les sondes et le point de sonde. En l'absence de découpes, les objets flottaient dans la boîte. Avec plusieurs couches de mousse non découpée, les utilisateurs pouvaient ouvrir la boîte et penser qu'il manquait des pièces. Finalement, nous avons utilisé deux couches, avec une découpe "intelligente", de sorte que lorsque vous ouvriez la boîte, vous pouviez voir les sondes en dessous.</p>
-<p><em><img alt="" src="https://cdn.shopify.com/s/files/1/2175/8571/files/DigiLab---Box---Finished.png?v=1757344105"><br>Notre boîte.</em></p>
+<p><em><img alt="" src="../../../cdn/shop/files/DigiLab---Box---Finished.png"><br>Notre boîte.</em></p>
 <hr>
 <h3 id="conclusion">Conclusion</h3>
 <p>Le DigiLab est un peu difficile à décrire : il offre un moyen unique de "sentir" les circuits en utilisant la lumière, le son et les vibrations. Lorsque vous l'avez en main sur l'appareil ou que vous le voyez en action, tout s'éclaire d'un coup.</p>
@@ -14418,7 +14418,7 @@ customContents["Increased shipping delays"
       </script>
     
 <script
-        src="../../../cdn/shop/t/60/assets/empire.min.js?v=36309983166111717561773500247"
+        src="../../../cdn/shop/t/60/assets/empire.min.js"
         data-scripts
         data-shopify-api-url="//lab401.com/cdn/shopifycloud/storefront/assets/themes_support/api.jquery-7ab1a3a4.js"
         data-shopify-countries="/services/javascripts/countries.js"
@@ -14531,7 +14531,7 @@ customContents["Increased shipping delays"
     </script>
 
     <script
-      src="../../../cdn/shop/t/60/assets/instantPage.min.js?v=132952667689675371351772550680"
+      src="../../../cdn/shop/t/60/assets/instantPage.min.js"
       type="module"
       defer
     >
@@ -14539,7 +14539,7 @@ customContents["Increased shipping delays"
 
     
     <script
-      src="../../../cdn/shop/t/60/assets/lab401-a11y.js?v=27954220535327733821790957665"
+      src="../../../cdn/shop/t/60/assets/lab401-a11y.js"
       data-scrollable-label="Contenu défilant"
       data-youtube-player="Lecteur vidéo YouTube"
       data-vimeo-player="Lecteur vidéo Vimeo"
@@ -14549,14 +14549,14 @@ customContents["Increased shipping delays"
     ></script>
 
     
-    <script src="../../../cdn/shop/t/60/assets/lab401-preferred-source.js?v=39855304419376939601788370164" defer></script>
+    <script src="../../../cdn/shop/t/60/assets/lab401-preferred-source.js" defer></script>
 
     
     
 
 
 
-    <script src="../../../cdn/shop/t/60/assets/lab401-country.js?v=118131794101621485741794829669" defer></script>
+    <script src="../../../cdn/shop/t/60/assets/lab401-country.js" defer></script>
       <script>window.LAB401_MONEY_FORMAT = "€{{amount}}";</script>
       <script>(function(n, v) {/* eslint-disable-next-line max-len */if (window.Shopify && window.Shopify.theme && navigator && navigator.sendBeacon && window.Shopify.designMode) {if (sessionStorage.getItem('oots_beacon')) return;navigator.sendBeacon('https://app.outofthesandbox.com/beacon', new URLSearchParams({shop_domain: window.Shopify.shop.toLowerCase(),shop_id: '21758571',shop_email: 'support@lab401.com',theme_name: n.toLowerCase(),theme_version: v.toLowerCase(),theme_store_id: window.Shopify.theme.theme_store_id,theme_id: window.Shopify.theme.id,theme_role: window.Shopify.theme.role,}));sessionStorage.setItem('oots_beacon', '');}}('empire','12.2.1'))</script>
   <div id="shopify-block-AeXdFL3NiTloxRjRUY__14952540001915115444" class="shopify-block shopify-app-block">

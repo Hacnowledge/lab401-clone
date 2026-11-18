@@ -44,7 +44,7 @@
     
 
     
-      <link rel="shortcut icon" href="../../cdn/shop/files/Logo-Square_9ea90937-9697-4f59-97a7-be3f21764ba7_32x32.png?v=1722166262" type="image/png">
+      <link rel="shortcut icon" href="../../cdn/shop/files/Logo-Square_9ea90937-9697-4f59-97a7-be3f21764ba7_32x32.png" type="image/png">
     
 
     
@@ -89,7 +89,7 @@
 
 
     
-    <link rel="preload" href="../../cdn/fonts/inter/inter_n4.b2a3f24c19b4de56e8871f609e73ca7f6d2e2bb9.woff2" as="font" type="font/woff2" crossorigin="anonymous"><link rel="preload" href="../../cdn/fonts/inter/inter_n4.b2a3f24c19b4de56e8871f609e73ca7f6d2e2bb9.woff2" as="font" type="font/woff2" crossorigin="anonymous"><link rel="preload" as="style" href="../../cdn/shop/t/60/assets/theme.css?v=74250596282648218241773059622.css"><script async crossorigin fetchpriority="high" src="../../cdn/shopifycloud/importmap-polyfill/es-modules-shim.2.4.0.js"></script>
+    <link rel="preload" href="../../cdn/fonts/inter/inter_n4.b2a3f24c19b4de56e8871f609e73ca7f6d2e2bb9.woff2" as="font" type="font/woff2" crossorigin="anonymous"><link rel="preload" href="../../cdn/fonts/inter/inter_n4.b2a3f24c19b4de56e8871f609e73ca7f6d2e2bb9.woff2" as="font" type="font/woff2" crossorigin="anonymous"><link rel="preload" as="style" href="../../cdn/shop/t/60/assets/theme.css"><script async crossorigin fetchpriority="high" src="../../cdn/shopifycloud/importmap-polyfill/es-modules-shim.2.4.0.js"></script>
 <script type="importmap">
 {
   "imports": {
@@ -123,7 +123,7 @@
     document.head.appendChild(el)
   }
 </script>
-<script type="module" src="../../cdn/shop/t/60/assets/is-land.min.js?v=92343381495565747271772550680"></script>
+<script type="module" src="../../cdn/shop/t/60/assets/is-land.min.js"></script>
 <style data-shopify>:root {
     /* Core Sizes */
     --size-0-25: 0.0625rem; /* 1px */
@@ -365,7 +365,7 @@
     --z-index-loader: 4;
     --z-index-header-search-overlay: 1;
     --url-ico-select: url(//lab401.com/cdn/shop/t/60/assets/ico-select.svg);
-    --url-swirl-svg: url(//lab401.com/cdn/shop/t/60/assets/swirl.svg);
+    --url-swirl-svg: url(../../cdn/shop/t/60/assets/swirl.svg);
     --header-padding-bottom: 0;
     --gutter: 30px;
     --page-width: 1500px;
@@ -681,11 +681,11 @@
     --button-link-underline-thickness: 1px;
     --button-link-underline-style: solid;
   }</style>
-<style-sheet name="vendor.flickity.css" remove-duplicate="true" load="async" style="display: none;"><link href="//lab401.com/cdn/shop/t/60/assets/vendor.flickity.css?v=168134560433028609901772550680" rel="preload" as="style" onload="this.rel='stylesheet'">
-<script type="module" src="../../cdn/shop/t/60/assets/utility.stylesheet.js?v=115421978848924304161772550677"></script></style-sheet>
+<style-sheet name="vendor.flickity.css" remove-duplicate="true" load="async" style="display: none;"><link href="../../cdn/shop/t/60/assets/vendor.flickity.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+<script type="module" src="../../cdn/shop/t/60/assets/utility.stylesheet.js"></script></style-sheet>
 
-<style-sheet name="vendor.swiper.css" remove-duplicate="true" load="async" style="display: none;"><link href="//lab401.com/cdn/shop/t/60/assets/vendor.swiper.css?v=103091539061108917781772550678" rel="preload" as="style" onload="this.rel='stylesheet'">
-<script type="module" src="../../cdn/shop/t/60/assets/utility.stylesheet.js?v=115421978848924304161772550677"></script></style-sheet>
+<style-sheet name="vendor.swiper.css" remove-duplicate="true" load="async" style="display: none;"><link href="../../cdn/shop/t/60/assets/vendor.swiper.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+<script type="module" src="../../cdn/shop/t/60/assets/utility.stylesheet.js"></script></style-sheet>
 
 
 
@@ -1021,7 +1021,7 @@ Shopify.SignInWithShop.User.recognized = false;</script>
 <script>window.ShopifyPaypalV4VisibilityTracking = true;</script>
 <script id="captcha-bootstrap">!function(){'use strict';const t='contact',e='account',n='new_comment',o=[[t,t],['blogs',n],['comments',n],[t,'customer']],c=[[e,'customer_login'],[e,'guest_login'],[e,'recover_customer_password'],[e,'create_customer']],r=t=>t.map((([t,e])=>`form[action*='/${t}']:not([data-nocaptcha='true']) input[name='form_type'][value='${e}']`)).join(','),a=t=>()=>t?[...document.querySelectorAll(t)].map((t=>t.form)):[];function s(){const t=[...o],e=r(t);return a(e)}const i='password',u='form_key',d=['recaptcha-v3-token','g-recaptcha-response','h-captcha-response',i],f=()=>{try{return window.sessionStorage}catch{return}},m='__shopify_v',_=t=>t.elements[u];function p(t,e,n=!1){try{const o=window.sessionStorage,c=JSON.parse(o.getItem(e)),{data:r}=function(t){const{data:e,action:n}=t;return t[m]||n?{data:e,action:n}:{data:t,action:n}}(c);for(const[e,n]of Object.entries(r))t.elements[e]&&(t.elements[e].value=n);n&&o.removeItem(e)}catch(o){console.error('form repopulation failed',{error:o})}}const l='form_type',E='cptcha';function T(t){t.dataset[E]=!0}const w=window,h=w.document,L='Shopify',v='ce_forms',y='captcha';let A=!1;((t,e)=>{const n=(g='f06e6c50-85a8-45c8-87d0-21a2b65856fe',I='https://cdn.shopify.com/shopifycloud/storefront-forms-hcaptcha/ce_storefront_forms_captcha_hcaptcha.v1.5.3.iife.js',D={infoText:'Protégé par hCaptcha',privacyText:'Confidentialité',termsText:'Conditions'},(t,e,n)=>{const o=w[L][v],c=o.bindForm;if(c)return c(t,g,e,D).then(n);var r;o.q.push([[t,g,e,D],n]),r=I,A||(h.body.append(Object.assign(h.createElement('script'),{id:'captcha-provider',async:!0,src:r})),A=!0)});var g,I,D;w[L]=w[L]||{},w[L][v]=w[L][v]||{},w[L][v].q=[],w[L][y]=w[L][y]||{},w[L][y].protect=function(t,e){n(t,void 0,e),T(t)},Object.freeze(w[L][y]),function(t,e,n,w,h,L){const[v,y,A,g]=function(t,e,n){const i=e?o:[],u=t?c:[],d=[...i,...u],f=r(d),m=r(i),_=r(d.filter((([t,e])=>n.includes(e))));return[a(f),a(m),a(_),s()]}(w,h,L),I=t=>{const e=t.target;return e instanceof HTMLFormElement?e:e&&e.form},D=t=>v().includes(t);t.addEventListener('submit',(t=>{const e=I(t);if(!e)return;const n=D(e)&&!e.dataset.hcaptchaBound&&!e.dataset.recaptchaBound,o=_(e),c=g().includes(e)&&(!o||!o.value);(n||c)&&t.preventDefault(),c&&!n&&(function(t){try{if(!f())return;!function(t){const e=f();if(!e)return;const n=_(t);if(!n)return;const o=n.value;o&&e.removeItem(o)}(t);const e=Array.from(Array(32),(()=>Math.random().toString(36)[2])).join('');!function(t,e){_(t)||t.append(Object.assign(document.createElement('input'),{type:'hidden',name:u})),t.elements[u].value=e}(t,e),function(t,e){const n=f();if(!n)return;const o=[...t.querySelectorAll(`input[type='${i}']`)].map((({name:t})=>t)),c=[...d,...o],r={};for(const[a,s]of new FormData(t).entries())c.includes(a)||(r[a]=s);n.setItem(e,JSON.stringify({[m]:1,action:t.action,data:r}))}(t,e)}catch(e){console.error('failed to persist form',e)}}(e),e.submit())}));const S=(t,e)=>{t&&!t.dataset[E]&&(n(t,e.some((e=>e===t))),T(t))};for(const o of['focusin','change'])t.addEventListener(o,(t=>{const e=I(t);D(e)&&S(e,y())}));const B=e.get('form_key'),M=e.get(l),P=B&&M;t.addEventListener('DOMContentLoaded',(()=>{const t=y();if(P)for(const e of t)e.elements[l].value===M&&p(e,B);[...new Set([...A(),...v().filter((t=>'true'===t.dataset.shopifyCaptcha))])].forEach((e=>S(e,t)))}))}(h,new URLSearchParams(w.location.search),n,t,e,['guest_login'])})(!0,!0)}();</script>
 <script integrity="sha256-FYHzja/5XSmzkjz6zHj7s4rACJGFuVoYZdumgoO2Ecs=" data-source-attribution="shopify.loadfeatures" defer="defer" src="../../cdn/shopifycloud/storefront/assets/storefront/load_feature-ed94c51f.js" crossorigin="anonymous"></script>
-<script>(function () {var userAgent = navigator.userAgent;var platform = navigator.platform;var maxTouchPoints = navigator.maxTouchPoints || 0;var isIOS = /iPad|iPhone|iPod/.test(platform) || (platform === 'MacIntel' && maxTouchPoints > 1);var isMacSafari = platform.indexOf('Mac') === 0 && /Safari/.test(userAgent) && !/Chrome|Chromium|CriOS|FxiOS|Edg|OPR|Android/.test(userAgent);var isAppleSafari = isIOS || isMacSafari;if (isAppleSafari) {fetch('/sf_private_access_tokens' + location.search).catch(function () {});}function browserMajorVersion(pattern) {var match = userAgent.match(pattern);return match ? parseInt(match[1], 10) : null;}function shouldLoadAutosizesPolyfill() {if (!window.PerformanceObserver?.supportedEntryTypes?.includes('paint')) {return false;}var chromeVersion = browserMajorVersion(/Chrome\/(\d+)/);if (chromeVersion !== null) {return chromeVersion < 126;}var firefoxVersion = browserMajorVersion(/Firefox\/(\d+)/);if (firefoxVersion !== null) {return firefoxVersion < 150;}var safariVersion = isAppleSafari ? browserMajorVersion(/Version\/(\d+).*Safari\//) : null;if (safariVersion !== null) {return safariVersion < 27;}return true;}if (shouldLoadAutosizesPolyfill()) {var autosizesScript = document.createElement('script');autosizesScript.async = true;autosizesScript.crossOrigin = 'anonymous';autosizesScript.src = "//lab401.com/cdn/shopifycloud/storefront/assets/storefront/autosizes-84416378.js";(document.head || document.documentElement).appendChild(autosizesScript);}window.ShopifyAnalytics = window.ShopifyAnalytics || {};window.ShopifyAnalytics.performance = window.ShopifyAnalytics.performance || {};(function () {var LONG_FRAME_THRESHOLD = 50;var longAnimationFrames = [];var activeRafId = null;function collectLongFrames() {var previousTime = null;function rafMonitor(now) {if (activeRafId === null) {return;}var delta = now - previousTime;if (delta > LONG_FRAME_THRESHOLD) {longAnimationFrames.push({startTime: previousTime,endTime: now,});}previousTime = now;activeRafId = requestAnimationFrame(rafMonitor);}previousTime = performance.now();activeRafId = requestAnimationFrame(rafMonitor);}if (!window.PerformanceObserver?.supportedEntryTypes?.includes('long-animation-frame')) {collectLongFrames();var timeoutId = setTimeout(function () {cancelAnimationFrame(activeRafId);}, 10000);window.ShopifyAnalytics.performance.getLongAnimationFrames = function (stopCollection) {if (stopCollection === undefined) {stopCollection = false;}if (stopCollection) {clearTimeout(timeoutId);cancelAnimationFrame(activeRafId);}return longAnimationFrames;};}})();})();</script><script crossorigin="anonymous" defer="defer" src="../../cdn/shopifycloud/storefront/assets/shopify_pay/storefront-f0e26bdf.js?v=20250812"></script>
+<script>(function () {var userAgent = navigator.userAgent;var platform = navigator.platform;var maxTouchPoints = navigator.maxTouchPoints || 0;var isIOS = /iPad|iPhone|iPod/.test(platform) || (platform === 'MacIntel' && maxTouchPoints > 1);var isMacSafari = platform.indexOf('Mac') === 0 && /Safari/.test(userAgent) && !/Chrome|Chromium|CriOS|FxiOS|Edg|OPR|Android/.test(userAgent);var isAppleSafari = isIOS || isMacSafari;if (isAppleSafari) {fetch('/sf_private_access_tokens' + location.search).catch(function () {});}function browserMajorVersion(pattern) {var match = userAgent.match(pattern);return match ? parseInt(match[1], 10) : null;}function shouldLoadAutosizesPolyfill() {if (!window.PerformanceObserver?.supportedEntryTypes?.includes('paint')) {return false;}var chromeVersion = browserMajorVersion(/Chrome\/(\d+)/);if (chromeVersion !== null) {return chromeVersion < 126;}var firefoxVersion = browserMajorVersion(/Firefox\/(\d+)/);if (firefoxVersion !== null) {return firefoxVersion < 150;}var safariVersion = isAppleSafari ? browserMajorVersion(/Version\/(\d+).*Safari\//) : null;if (safariVersion !== null) {return safariVersion < 27;}return true;}if (shouldLoadAutosizesPolyfill()) {var autosizesScript = document.createElement('script');autosizesScript.async = true;autosizesScript.crossOrigin = 'anonymous';autosizesScript.src = "//lab401.com/cdn/shopifycloud/storefront/assets/storefront/autosizes-84416378.js";(document.head || document.documentElement).appendChild(autosizesScript);}window.ShopifyAnalytics = window.ShopifyAnalytics || {};window.ShopifyAnalytics.performance = window.ShopifyAnalytics.performance || {};(function () {var LONG_FRAME_THRESHOLD = 50;var longAnimationFrames = [];var activeRafId = null;function collectLongFrames() {var previousTime = null;function rafMonitor(now) {if (activeRafId === null) {return;}var delta = now - previousTime;if (delta > LONG_FRAME_THRESHOLD) {longAnimationFrames.push({startTime: previousTime,endTime: now,});}previousTime = now;activeRafId = requestAnimationFrame(rafMonitor);}previousTime = performance.now();activeRafId = requestAnimationFrame(rafMonitor);}if (!window.PerformanceObserver?.supportedEntryTypes?.includes('long-animation-frame')) {collectLongFrames();var timeoutId = setTimeout(function () {cancelAnimationFrame(activeRafId);}, 10000);window.ShopifyAnalytics.performance.getLongAnimationFrames = function (stopCollection) {if (stopCollection === undefined) {stopCollection = false;}if (stopCollection) {clearTimeout(timeoutId);cancelAnimationFrame(activeRafId);}return longAnimationFrames;};}})();})();</script><script crossorigin="anonymous" defer="defer" src="../../cdn/shopifycloud/storefront/assets/shopify_pay/storefront-f0e26bdf.js"></script>
 <script id="shopify-origin-trials" async="async" integrity="sha256-hfGAxKJ6MFnGQCYgUfqgtJBsk7WSUo2LPuoHgEkokSg=" src="//cdn.shopify.com/shopifycloud/storefront/assets/storefront/origin_trials-6af5f5e9.js" crossorigin="anonymous" onload="window.__shopifyOriginTrialsDone = true" onerror="window.__shopifyOriginTrialsDone = true"></script>
 <script>(()=>{var d="shopify:webmcp_adapter_loaded",n=Symbol.for("shopify.webmcp_adapter_loading");function s(c,a,{win:r=window,doc:o=document}={}){function p(){try{return r.localStorage.getItem(d)==="true"}catch{return!1}}function l(){try{r.localStorage.setItem(d,"true")}catch{}}function u(){return typeof(o.modelContext||r.navigator?.modelContext)?.registerTool=="function"}function f(){if(r[n]||!u())return;let t=o.head||o.getElementsByTagName("head")[0];if(!t)return;let e=o.createElement("script");e.type="module",e.crossOrigin="anonymous",a&&(e.integrity=a),e.src=c,e.addEventListener("load",l,{once:!0}),e.addEventListener("error",()=>{r[n]=!1},{once:!0}),t.appendChild(e),r[n]=!0}function _(t){let e=o.getElementById("shopify-origin-trials");if(!e||r.__shopifyOriginTrialsDone){t();return}e.addEventListener("load",t,{once:!0}),e.addEventListener("error",t,{once:!0})}function i(){_(()=>r.setTimeout(f,0))}function m(){o.addEventListener("DOMContentLoaded",i,{once:!0})}p()?i():m()}s("\/\/lab401.com\/cdn\/shopifycloud\/storefront\/assets\/storefront\/webmcp-cfeae510.js","sha256-hdSsaskU5p37T8dqwXSuZ1454uxl\/hhOLZu33d3jWEE=");})();
 </script>
@@ -1237,24 +1237,24 @@ Shopify.SignInWithShop.User.recognized = false;</script>
       })();
     </script>
 
-    <link href="../../cdn/shop/t/60/assets/theme.css?v=74250596282648218241773059622.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="../../cdn/shop/t/60/assets/lab401-accessibility.css?v=7170805246475472781773498491.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="../../cdn/shop/t/60/assets/lab401-high-contrast.css?v=64771544482704160301785277895.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="../../cdn/shop/t/60/assets/lab401-footer.css?v=183729840715629052621788372973.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="../../cdn/shop/t/60/assets/lab401-preferred-source.css?v=140356400046481504821788370163.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../../cdn/shop/t/60/assets/theme.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../../cdn/shop/t/60/assets/lab401-accessibility.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../../cdn/shop/t/60/assets/lab401-high-contrast.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../../cdn/shop/t/60/assets/lab401-footer.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../../cdn/shop/t/60/assets/lab401-preferred-source.css" rel="stylesheet" type="text/css" media="all" />
     
-    <link href="../../cdn/shop/t/60/assets/lab401-collection-page.css?v=170626641111371536791790957665.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="../../cdn/shop/t/60/assets/lab401-product-page.css?v=45537347979535771841790957666.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="../../cdn/shop/t/60/assets/lab401-featured-collection.css?v=135148425974489036941773844336.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="../../cdn/shop/t/60/assets/lab401-search.css?v=106323725438832973291773869744.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../../cdn/shop/t/60/assets/lab401-collection-page.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../../cdn/shop/t/60/assets/lab401-product-page.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../../cdn/shop/t/60/assets/lab401-featured-collection.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../../cdn/shop/t/60/assets/lab401-search.css" rel="stylesheet" type="text/css" media="all" />
     
 
-<link href="../../cdn/shop/t/60/assets/pack-builder.css?v=82970683375927505111773831611.css" rel="stylesheet" type="text/css" media="all" />
-      <link href="../../cdn/shop/t/60/assets/lab401-chipset-tables.css?v=51921723123729586201780600760.css" rel="stylesheet" type="text/css" media="all" />
-<script src="../../cdn/shop/t/60/assets/pack-builder.js?v=146359235795100597941790957666" defer></script>
-      <link href="../../cdn/shop/t/60/assets/collection-ui.css?v=124327958312022790071780344655.css" rel="stylesheet" type="text/css" media="all" />
-      <link href="../../cdn/shop/t/60/assets/collection-list-extended.css?v=143284481861910361421773271610.css" rel="stylesheet" type="text/css" media="all" />
-      <script src="../../cdn/shop/t/60/assets/collection-list-extended.js?v=39250823560849058131790957665" defer></script>
+<link href="../../cdn/shop/t/60/assets/pack-builder.css" rel="stylesheet" type="text/css" media="all" />
+      <link href="../../cdn/shop/t/60/assets/lab401-chipset-tables.css" rel="stylesheet" type="text/css" media="all" />
+<script src="../../cdn/shop/t/60/assets/pack-builder.js" defer></script>
+      <link href="../../cdn/shop/t/60/assets/collection-ui.css" rel="stylesheet" type="text/css" media="all" />
+      <link href="../../cdn/shop/t/60/assets/collection-list-extended.css" rel="stylesheet" type="text/css" media="all" />
+      <script src="../../cdn/shop/t/60/assets/collection-list-extended.js" defer></script>
       <script>
         (function(){
           var v = new URLSearchParams(location.search).get('grid_list');
@@ -1273,7 +1273,7 @@ Shopify.SignInWithShop.User.recognized = false;</script>
     </style>
 
     
-      <link href="../../cdn/shop/t/60/assets/ripple.css?v=100240391239311985871772550681.css" rel="stylesheet" type="text/css" media="all" />
+      <link href="../../cdn/shop/t/60/assets/ripple.css" rel="stylesheet" type="text/css" media="all" />
     
 
     
@@ -2524,13 +2524,13 @@ customContents["Increased shipping delays"
 
   <img
     
-      src="../../cdn/shop/files/Logo-Square_150x150.png?v=1693574957"
+      src="../../cdn/shop/files/Logo-Square_150x150.png"
     
     alt="Lab401"
 
     
       data-rimg
-      srcset="../../cdn/shop/files/Logo-Square_150x150.png?v=1693574957 1x, ../../cdn/shop/files/Logo-Square_300x300.png?v=1693574957 2x, ../../cdn/shop/files/Logo-Square_324x324.png?v=1693574957 2.16x"
+      srcset="../../cdn/shop/files/Logo-Square_150x150.png 1x, ../../cdn/shop/files/Logo-Square_300x300.png 2x, ../../cdn/shop/files/Logo-Square_324x324.png 2.16x"
     
 
     class="site-logo-image"
@@ -9766,13 +9766,13 @@ customContents["Increased shipping delays"
 
   <img
     
-      src="../../cdn/shop/files/Flipper-Zero---Front_512x449.png?v=1773345630"
+      src="../../cdn/shop/files/Flipper-Zero---Front_512x449.png"
     
     alt=""
 
     
       data-rimg
-      srcset="../../cdn/shop/files/Flipper-Zero---Front_512x449.png?v=1773345630 1x, ../../cdn/shop/files/Flipper-Zero---Front_1024x898.png?v=1773345630 2x, ../../cdn/shop/files/Flipper-Zero---Front_1234x1082.png?v=1773345630 2.41x"
+      srcset="../../cdn/shop/files/Flipper-Zero---Front_512x449.png 1x, ../../cdn/shop/files/Flipper-Zero---Front_1024x898.png 2x, ../../cdn/shop/files/Flipper-Zero---Front_1234x1082.png 2.41x"
     
 
     class="productitem--image-primary"
@@ -10058,13 +10058,13 @@ customContents["Increased shipping delays"
 
   <img
     
-      src="../../cdn/shop/products/ICopyX-RFID-Cloner-3-4-1_512x547.png?v=1629380189"
+      src="../../cdn/shop/products/ICopyX-RFID-Cloner-3-4-1_512x547.png"
     
     alt=""
 
     
       data-rimg
-      srcset="../../cdn/shop/products/ICopyX-RFID-Cloner-3-4-1_512x547.png?v=1629380189 1x, ../../cdn/shop/products/ICopyX-RFID-Cloner-3-4-1_1024x1094.png?v=1629380189 2x, ../../cdn/shop/products/ICopyX-RFID-Cloner-3-4-1_1536x1641.png?v=1629380189 3x, ../../cdn/shop/products/ICopyX-RFID-Cloner-3-4-1_1905x2035.png?v=1629380189 3.72x"
+      srcset="../../cdn/shop/products/ICopyX-RFID-Cloner-3-4-1_512x547.png 1x, ../../cdn/shop/products/ICopyX-RFID-Cloner-3-4-1_1024x1094.png 2x, ../../cdn/shop/products/ICopyX-RFID-Cloner-3-4-1_1536x1641.png 3x, ../../cdn/shop/products/ICopyX-RFID-Cloner-3-4-1_1905x2035.png 3.72x"
     
 
     class="productitem--image-primary"
@@ -10350,13 +10350,13 @@ customContents["Increased shipping delays"
 
   <img
     
-      src="../../cdn/shop/files/MacoBox---Standalone_512x512.png?v=1746622691"
+      src="../../cdn/shop/files/MacoBox---Standalone_512x512.png"
     
     alt=""
 
     
       data-rimg
-      srcset="../../cdn/shop/files/MacoBox---Standalone_512x512.png?v=1746622691 1x, ../../cdn/shop/files/MacoBox---Standalone_1024x1024.png?v=1746622691 2x, ../../cdn/shop/files/MacoBox---Standalone_1428x1428.png?v=1746622691 2.79x"
+      srcset="../../cdn/shop/files/MacoBox---Standalone_512x512.png 1x, ../../cdn/shop/files/MacoBox---Standalone_1024x1024.png 2x, ../../cdn/shop/files/MacoBox---Standalone_1428x1428.png 2.79x"
     
 
     class="productitem--image-primary"
@@ -10646,13 +10646,13 @@ customContents["Increased shipping delays"
 
   <img
     
-      src="../../cdn/shop/files/Chameleon-Ultra-MIFARE-Cracking-Tool_512x512.png?v=1691595167"
+      src="../../cdn/shop/files/Chameleon-Ultra-MIFARE-Cracking-Tool_512x512.png"
     
     alt=""
 
     
       data-rimg
-      srcset="../../cdn/shop/files/Chameleon-Ultra-MIFARE-Cracking-Tool_512x512.png?v=1691595167 1x, ../../cdn/shop/files/Chameleon-Ultra-MIFARE-Cracking-Tool_937x937.png?v=1691595167 1.83x"
+      srcset="../../cdn/shop/files/Chameleon-Ultra-MIFARE-Cracking-Tool_512x512.png 1x, ../../cdn/shop/files/Chameleon-Ultra-MIFARE-Cracking-Tool_937x937.png 1.83x"
     
 
     class="productitem--image-primary"
@@ -10936,12 +10936,12 @@ customContents["Increased shipping delays"
     <noscript data-rimg-noscript>
       <img
         
-          src="../../cdn/shop/files/RFID-Field-Detector---With-UHF_512x512.png?v=1754955174"
+          src="../../cdn/shop/files/RFID-Field-Detector---With-UHF_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../../cdn/shop/files/RFID-Field-Detector---With-UHF_512x512.png?v=1754955174 1x, ../../cdn/shop/files/RFID-Field-Detector---With-UHF_1024x1024.png?v=1754955174 2x, ../../cdn/shop/files/RFID-Field-Detector---With-UHF_1065x1065.png?v=1754955174 2.08x"
+        srcset="../../cdn/shop/files/RFID-Field-Detector---With-UHF_512x512.png 1x, ../../cdn/shop/files/RFID-Field-Detector---With-UHF_1024x1024.png 2x, ../../cdn/shop/files/RFID-Field-Detector---With-UHF_1065x1065.png 2.08x"
         class="productitem--image-primary"
         
         
@@ -10951,7 +10951,7 @@ customContents["Increased shipping delays"
 
   <img
     
-      src="../../cdn/shop/files/RFID-Field-Detector---With-UHF_512x512.png?v=1754955174"
+      src="../../cdn/shop/files/RFID-Field-Detector---With-UHF_512x512.png"
     
     alt=""
     
@@ -11246,12 +11246,12 @@ customContents["Increased shipping delays"
     <noscript data-rimg-noscript>
       <img
         
-          src="../../cdn/shop/products/Proxmark-3-RDV-4.1-New-Antenna-Front_512x412.png?v=1567146103"
+          src="../../cdn/shop/products/Proxmark-3-RDV-4.1-New-Antenna-Front_512x412.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../../cdn/shop/products/Proxmark-3-RDV-4.1-New-Antenna-Front_512x412.png?v=1567146103 1x, ../../cdn/shop/products/Proxmark-3-RDV-4.1-New-Antenna-Front_1024x824.png?v=1567146103 2x, ../../cdn/shop/products/Proxmark-3-RDV-4.1-New-Antenna-Front_1505x1211.png?v=1567146103 2.94x"
+        srcset="../../cdn/shop/products/Proxmark-3-RDV-4.1-New-Antenna-Front_512x412.png 1x, ../../cdn/shop/products/Proxmark-3-RDV-4.1-New-Antenna-Front_1024x824.png 2x, ../../cdn/shop/products/Proxmark-3-RDV-4.1-New-Antenna-Front_1505x1211.png 2.94x"
         class="productitem--image-primary"
         
         
@@ -11261,7 +11261,7 @@ customContents["Increased shipping delays"
 
   <img
     
-      src="../../cdn/shop/products/Proxmark-3-RDV-4.1-New-Antenna-Front_512x412.png?v=1567146103"
+      src="../../cdn/shop/products/Proxmark-3-RDV-4.1-New-Antenna-Front_512x412.png"
     
     alt=""
     
@@ -11555,12 +11555,12 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
     <noscript data-rimg-noscript>
       <img
         
-          src="../../cdn/shop/files/BusPirate-Lab401-1_512x398.png?v=1713389104"
+          src="../../cdn/shop/files/BusPirate-Lab401-1_512x398.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../../cdn/shop/files/BusPirate-Lab401-1_512x398.png?v=1713389104 1x, ../../cdn/shop/files/BusPirate-Lab401-1_998x776.png?v=1713389104 1.95x"
+        srcset="../../cdn/shop/files/BusPirate-Lab401-1_512x398.png 1x, ../../cdn/shop/files/BusPirate-Lab401-1_998x776.png 1.95x"
         class="productitem--image-primary"
         
         
@@ -11570,7 +11570,7 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
 
   <img
     
-      src="../../cdn/shop/files/BusPirate-Lab401-1_512x398.png?v=1713389104"
+      src="../../cdn/shop/files/BusPirate-Lab401-1_512x398.png"
     
     alt=""
     
@@ -11862,12 +11862,12 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
     <noscript data-rimg-noscript>
       <img
         
-          src="../../cdn/shop/products/UHFKill-2_512x512.png?v=1634725827"
+          src="../../cdn/shop/products/UHFKill-2_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../../cdn/shop/products/UHFKill-2_512x512.png?v=1634725827 1x, ../../cdn/shop/products/UHFKill-2_1024x1024.png?v=1634725827 2x, ../../cdn/shop/products/UHFKill-2_1495x1495.png?v=1634725827 2.92x"
+        srcset="../../cdn/shop/products/UHFKill-2_512x512.png 1x, ../../cdn/shop/products/UHFKill-2_1024x1024.png 2x, ../../cdn/shop/products/UHFKill-2_1495x1495.png 2.92x"
         class="productitem--image-primary"
         
         
@@ -11877,7 +11877,7 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
 
   <img
     
-      src="../../cdn/shop/products/UHFKill-2_512x512.png?v=1634725827"
+      src="../../cdn/shop/products/UHFKill-2_512x512.png"
     
     alt=""
     
@@ -12167,12 +12167,12 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
     <noscript data-rimg-noscript>
       <img
         
-          src="../../cdn/shop/files/KrakenSDR-Beam-forming-Signal-Tracker_512x512.png?v=1726239792"
+          src="../../cdn/shop/files/KrakenSDR-Beam-forming-Signal-Tracker_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../../cdn/shop/files/KrakenSDR-Beam-forming-Signal-Tracker_512x512.png?v=1726239792 1x, ../../cdn/shop/files/KrakenSDR-Beam-forming-Signal-Tracker_1024x1024.png?v=1726239792 2x, ../../cdn/shop/files/KrakenSDR-Beam-forming-Signal-Tracker_1311x1311.png?v=1726239792 2.56x"
+        srcset="../../cdn/shop/files/KrakenSDR-Beam-forming-Signal-Tracker_512x512.png 1x, ../../cdn/shop/files/KrakenSDR-Beam-forming-Signal-Tracker_1024x1024.png 2x, ../../cdn/shop/files/KrakenSDR-Beam-forming-Signal-Tracker_1311x1311.png 2.56x"
         class="productitem--image-primary"
         
         
@@ -12182,7 +12182,7 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
 
   <img
     
-      src="../../cdn/shop/files/KrakenSDR-Beam-forming-Signal-Tracker_512x512.png?v=1726239792"
+      src="../../cdn/shop/files/KrakenSDR-Beam-forming-Signal-Tracker_512x512.png"
     
     alt=""
     
@@ -12471,12 +12471,12 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
     <noscript data-rimg-noscript>
       <img
         
-          src="../../cdn/shop/products/BladeRF-Transparent_512x388.png?v=1611929065"
+          src="../../cdn/shop/products/BladeRF-Transparent_512x388.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../../cdn/shop/products/BladeRF-Transparent_512x388.png?v=1611929065 1x, ../../cdn/shop/products/BladeRF-Transparent_1024x776.png?v=1611929065 2x, ../../cdn/shop/products/BladeRF-Transparent_1060x803.png?v=1611929065 2.07x"
+        srcset="../../cdn/shop/products/BladeRF-Transparent_512x388.png 1x, ../../cdn/shop/products/BladeRF-Transparent_1024x776.png 2x, ../../cdn/shop/products/BladeRF-Transparent_1060x803.png 2.07x"
         class="productitem--image-primary"
         
         
@@ -12486,7 +12486,7 @@ Powerful, Portable, Wireless: Clone / Crack / Sniff / Emulate / Understand.
 
   <img
     
-      src="../../cdn/shop/products/BladeRF-Transparent_512x388.png?v=1611929065"
+      src="../../cdn/shop/products/BladeRF-Transparent_512x388.png"
     
     alt=""
     
@@ -12788,12 +12788,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../../cdn/shop/files/TermDriver---Top_512x512.png?v=1762270310"
+          src="../../cdn/shop/files/TermDriver---Top_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../../cdn/shop/files/TermDriver---Top_512x512.png?v=1762270310 1x, ../../cdn/shop/files/TermDriver---Top_1024x1024.png?v=1762270310 2x, ../../cdn/shop/files/TermDriver---Top_1469x1469.png?v=1762270310 2.87x"
+        srcset="../../cdn/shop/files/TermDriver---Top_512x512.png 1x, ../../cdn/shop/files/TermDriver---Top_1024x1024.png 2x, ../../cdn/shop/files/TermDriver---Top_1469x1469.png 2.87x"
         class="productitem--image-primary"
         
         
@@ -12803,7 +12803,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../../cdn/shop/files/TermDriver---Top_512x512.png?v=1762270310"
+      src="../../cdn/shop/files/TermDriver---Top_512x512.png"
     
     alt=""
     
@@ -13092,12 +13092,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../../cdn/shop/products/header-with-glow_512x539.png?v=1544632683"
+          src="../../cdn/shop/products/header-with-glow_512x539.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../../cdn/shop/products/header-with-glow_512x539.png?v=1544632683 1x, ../../cdn/shop/products/header-with-glow_568x598.png?v=1544632683 1.11x"
+        srcset="../../cdn/shop/products/header-with-glow_512x539.png 1x, ../../cdn/shop/products/header-with-glow_568x598.png 1.11x"
         class="productitem--image-primary"
         
         
@@ -13107,7 +13107,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../../cdn/shop/products/header-with-glow_512x539.png?v=1544632683"
+      src="../../cdn/shop/products/header-with-glow_512x539.png"
     
     alt=""
     
@@ -13422,12 +13422,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../../cdn/shop/files/2023---OMG-Cable---USB-A-to-MicroUSB_512x512.png?v=1689850687"
+          src="../../cdn/shop/files/2023---OMG-Cable---USB-A-to-MicroUSB_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../../cdn/shop/files/2023---OMG-Cable---USB-A-to-MicroUSB_512x512.png?v=1689850687 1x, ../../cdn/shop/files/2023---OMG-Cable---USB-A-to-MicroUSB_876x876.png?v=1689850687 1.71x"
+        srcset="../../cdn/shop/files/2023---OMG-Cable---USB-A-to-MicroUSB_512x512.png 1x, ../../cdn/shop/files/2023---OMG-Cable---USB-A-to-MicroUSB_876x876.png 1.71x"
         class="productitem--image-primary"
         
         
@@ -13437,7 +13437,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../../cdn/shop/files/2023---OMG-Cable---USB-A-to-MicroUSB_512x512.png?v=1689850687"
+      src="../../cdn/shop/files/2023---OMG-Cable---USB-A-to-MicroUSB_512x512.png"
     
     alt=""
     
@@ -13728,12 +13728,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../../cdn/shop/files/Product-Contents-Best-Linux-Wifi-Adaptor_512x512.png?v=1763564447"
+          src="../../cdn/shop/files/Product-Contents-Best-Linux-Wifi-Adaptor_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../../cdn/shop/files/Product-Contents-Best-Linux-Wifi-Adaptor_512x512.png?v=1763564447 1x, ../../cdn/shop/files/Product-Contents-Best-Linux-Wifi-Adaptor_998x998.png?v=1763564447 1.95x"
+        srcset="../../cdn/shop/files/Product-Contents-Best-Linux-Wifi-Adaptor_512x512.png 1x, ../../cdn/shop/files/Product-Contents-Best-Linux-Wifi-Adaptor_998x998.png 1.95x"
         class="productitem--image-primary"
         
         
@@ -13743,7 +13743,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../../cdn/shop/files/Product-Contents-Best-Linux-Wifi-Adaptor_512x512.png?v=1763564447"
+      src="../../cdn/shop/files/Product-Contents-Best-Linux-Wifi-Adaptor_512x512.png"
     
     alt=""
     
@@ -14031,12 +14031,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../../cdn/shop/products/DL533N-XL-long-range-mifare-sniffer_512x523.png?v=1581181917"
+          src="../../cdn/shop/products/DL533N-XL-long-range-mifare-sniffer_512x523.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../../cdn/shop/products/DL533N-XL-long-range-mifare-sniffer_512x523.png?v=1581181917 1x, ../../cdn/shop/products/DL533N-XL-long-range-mifare-sniffer_1024x1046.png?v=1581181917 2x, ../../cdn/shop/products/DL533N-XL-long-range-mifare-sniffer_1126x1151.png?v=1581181917 2.2x"
+        srcset="../../cdn/shop/products/DL533N-XL-long-range-mifare-sniffer_512x523.png 1x, ../../cdn/shop/products/DL533N-XL-long-range-mifare-sniffer_1024x1046.png 2x, ../../cdn/shop/products/DL533N-XL-long-range-mifare-sniffer_1126x1151.png 2.2x"
         class="productitem--image-primary"
         
         
@@ -14046,7 +14046,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../../cdn/shop/products/DL533N-XL-long-range-mifare-sniffer_512x523.png?v=1581181917"
+      src="../../cdn/shop/products/DL533N-XL-long-range-mifare-sniffer_512x523.png"
     
     alt=""
     
@@ -14341,12 +14341,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../../cdn/shop/products/USBKill-V4-ProKit-Inside_512x512.png?v=1599729289"
+          src="../../cdn/shop/products/USBKill-V4-ProKit-Inside_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../../cdn/shop/products/USBKill-V4-ProKit-Inside_512x512.png?v=1599729289 1x, ../../cdn/shop/products/USBKill-V4-ProKit-Inside_1024x1024.png?v=1599729289 2x, ../../cdn/shop/products/USBKill-V4-ProKit-Inside_1111x1111.png?v=1599729289 2.17x"
+        srcset="../../cdn/shop/products/USBKill-V4-ProKit-Inside_512x512.png 1x, ../../cdn/shop/products/USBKill-V4-ProKit-Inside_1024x1024.png 2x, ../../cdn/shop/products/USBKill-V4-ProKit-Inside_1111x1111.png 2.17x"
         class="productitem--image-primary"
         
         
@@ -14356,7 +14356,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../../cdn/shop/products/USBKill-V4-ProKit-Inside_512x512.png?v=1599729289"
+      src="../../cdn/shop/products/USBKill-V4-ProKit-Inside_512x512.png"
     
     alt=""
     
@@ -14653,12 +14653,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../../cdn/shop/products/Shark-Jack-Cable_512x356.png?v=1656347417"
+          src="../../cdn/shop/products/Shark-Jack-Cable_512x356.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../../cdn/shop/products/Shark-Jack-Cable_512x356.png?v=1656347417 1x, ../../cdn/shop/products/Shark-Jack-Cable_763x530.png?v=1656347417 1.49x"
+        srcset="../../cdn/shop/products/Shark-Jack-Cable_512x356.png 1x, ../../cdn/shop/products/Shark-Jack-Cable_763x530.png 1.49x"
         class="productitem--image-primary"
         
         
@@ -14668,7 +14668,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../../cdn/shop/products/Shark-Jack-Cable_512x356.png?v=1656347417"
+      src="../../cdn/shop/products/Shark-Jack-Cable_512x356.png"
     
     alt=""
     
@@ -14958,12 +14958,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../../cdn/shop/files/Bash-Bunny-Mark-II_512x411.png?v=1711536452"
+          src="../../cdn/shop/files/Bash-Bunny-Mark-II_512x411.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../../cdn/shop/files/Bash-Bunny-Mark-II_512x411.png?v=1711536452 1x, ../../cdn/shop/files/Bash-Bunny-Mark-II_988x793.png?v=1711536452 1.93x"
+        srcset="../../cdn/shop/files/Bash-Bunny-Mark-II_512x411.png 1x, ../../cdn/shop/files/Bash-Bunny-Mark-II_988x793.png 1.93x"
         class="productitem--image-primary"
         
         
@@ -14973,7 +14973,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../../cdn/shop/files/Bash-Bunny-Mark-II_512x411.png?v=1711536452"
+      src="../../cdn/shop/files/Bash-Bunny-Mark-II_512x411.png"
     
     alt=""
     
@@ -15261,12 +15261,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../../cdn/shop/files/2023---hak5-rubber-ducky-1_512x512.png?v=1689852107"
+          src="../../cdn/shop/files/2023---hak5-rubber-ducky-1_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../../cdn/shop/files/2023---hak5-rubber-ducky-1_512x512.png?v=1689852107 1x, ../../cdn/shop/files/2023---hak5-rubber-ducky-1_1024x1024.png?v=1689852107 2x, ../../cdn/shop/files/2023---hak5-rubber-ducky-1_1295x1295.png?v=1689852107 2.53x"
+        srcset="../../cdn/shop/files/2023---hak5-rubber-ducky-1_512x512.png 1x, ../../cdn/shop/files/2023---hak5-rubber-ducky-1_1024x1024.png 2x, ../../cdn/shop/files/2023---hak5-rubber-ducky-1_1295x1295.png 2.53x"
         class="productitem--image-primary"
         
         
@@ -15276,7 +15276,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../../cdn/shop/files/2023---hak5-rubber-ducky-1_512x512.png?v=1689852107"
+      src="../../cdn/shop/files/2023---hak5-rubber-ducky-1_512x512.png"
     
     alt=""
     
@@ -15565,12 +15565,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../../cdn/shop/products/Proxmark-3-RDV-4.1-HF-Antenna-Box_512x512.png?v=1567172483"
+          src="../../cdn/shop/products/Proxmark-3-RDV-4.1-HF-Antenna-Box_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../../cdn/shop/products/Proxmark-3-RDV-4.1-HF-Antenna-Box_512x512.png?v=1567172483 1x, ../../cdn/shop/products/Proxmark-3-RDV-4.1-HF-Antenna-Box_1024x1024.png?v=1567172483 2x, ../../cdn/shop/products/Proxmark-3-RDV-4.1-HF-Antenna-Box_1311x1311.png?v=1567172483 2.56x"
+        srcset="../../cdn/shop/products/Proxmark-3-RDV-4.1-HF-Antenna-Box_512x512.png 1x, ../../cdn/shop/products/Proxmark-3-RDV-4.1-HF-Antenna-Box_1024x1024.png 2x, ../../cdn/shop/products/Proxmark-3-RDV-4.1-HF-Antenna-Box_1311x1311.png 2.56x"
         class="productitem--image-primary"
         
         
@@ -15580,7 +15580,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../../cdn/shop/products/Proxmark-3-RDV-4.1-HF-Antenna-Box_512x512.png?v=1567172483"
+      src="../../cdn/shop/products/Proxmark-3-RDV-4.1-HF-Antenna-Box_512x512.png"
     
     alt=""
     
@@ -15876,12 +15876,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../../cdn/shop/products/inputstick-hardware-rat-1_512x512.png?v=1566078398"
+          src="../../cdn/shop/products/inputstick-hardware-rat-1_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../../cdn/shop/products/inputstick-hardware-rat-1_512x512.png?v=1566078398 1x, ../../cdn/shop/products/inputstick-hardware-rat-1_1024x1024.png?v=1566078398 2x, ../../cdn/shop/products/inputstick-hardware-rat-1_1198x1198.png?v=1566078398 2.34x"
+        srcset="../../cdn/shop/products/inputstick-hardware-rat-1_512x512.png 1x, ../../cdn/shop/products/inputstick-hardware-rat-1_1024x1024.png 2x, ../../cdn/shop/products/inputstick-hardware-rat-1_1198x1198.png 2.34x"
         class="productitem--image-primary"
         
         
@@ -15891,7 +15891,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../../cdn/shop/products/inputstick-hardware-rat-1_512x512.png?v=1566078398"
+      src="../../cdn/shop/products/inputstick-hardware-rat-1_512x512.png"
     
     alt=""
     
@@ -16187,12 +16187,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../../cdn/shop/products/LibNFC-MFOC-Reader-Writer-cropped_512x332.png?v=1581182606"
+          src="../../cdn/shop/products/LibNFC-MFOC-Reader-Writer-cropped_512x332.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../../cdn/shop/products/LibNFC-MFOC-Reader-Writer-cropped_512x332.png?v=1581182606 1x, ../../cdn/shop/products/LibNFC-MFOC-Reader-Writer-cropped_1024x664.png?v=1581182606 2x, ../../cdn/shop/products/LibNFC-MFOC-Reader-Writer-cropped_1126x730.png?v=1581182606 2.2x"
+        srcset="../../cdn/shop/products/LibNFC-MFOC-Reader-Writer-cropped_512x332.png 1x, ../../cdn/shop/products/LibNFC-MFOC-Reader-Writer-cropped_1024x664.png 2x, ../../cdn/shop/products/LibNFC-MFOC-Reader-Writer-cropped_1126x730.png 2.2x"
         class="productitem--image-primary"
         
         
@@ -16202,7 +16202,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../../cdn/shop/products/LibNFC-MFOC-Reader-Writer-cropped_512x332.png?v=1581182606"
+      src="../../cdn/shop/products/LibNFC-MFOC-Reader-Writer-cropped_512x332.png"
     
     alt=""
     
@@ -16502,12 +16502,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../../cdn/shop/products/Proxmark-3-Flashing-Adaptor_512x512.png?v=1567242511"
+          src="../../cdn/shop/products/Proxmark-3-Flashing-Adaptor_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../../cdn/shop/products/Proxmark-3-Flashing-Adaptor_512x512.png?v=1567242511 1x, ../../cdn/shop/products/Proxmark-3-Flashing-Adaptor_819x819.png?v=1567242511 1.6x"
+        srcset="../../cdn/shop/products/Proxmark-3-Flashing-Adaptor_512x512.png 1x, ../../cdn/shop/products/Proxmark-3-Flashing-Adaptor_819x819.png 1.6x"
         class="productitem--image-primary"
         
         
@@ -16517,7 +16517,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../../cdn/shop/products/Proxmark-3-Flashing-Adaptor_512x512.png?v=1567242511"
+      src="../../cdn/shop/products/Proxmark-3-Flashing-Adaptor_512x512.png"
     
     alt=""
     
@@ -16812,12 +16812,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../../cdn/shop/products/LAN-Turtle-SD-packet-sniffer-2_512x512.jpg?v=1601991381"
+          src="../../cdn/shop/products/LAN-Turtle-SD-packet-sniffer-2_512x512.jpg"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../../cdn/shop/products/LAN-Turtle-SD-packet-sniffer-2_512x512.jpg?v=1601991381 1x, ../../cdn/shop/products/LAN-Turtle-SD-packet-sniffer-2_840x840.jpg?v=1601991381 1.64x"
+        srcset="../../cdn/shop/products/LAN-Turtle-SD-packet-sniffer-2_512x512.jpg 1x, ../../cdn/shop/products/LAN-Turtle-SD-packet-sniffer-2_840x840.jpg 1.64x"
         class="productitem--image-primary"
         
         
@@ -16827,7 +16827,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../../cdn/shop/products/LAN-Turtle-SD-packet-sniffer-2_512x512.jpg?v=1601991381"
+      src="../../cdn/shop/products/LAN-Turtle-SD-packet-sniffer-2_512x512.jpg"
     
     alt=""
     
@@ -17115,12 +17115,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../../cdn/shop/products/plunder-bug_lan_ethernet_sniffer_512x512.jpg?v=1564237975"
+          src="../../cdn/shop/products/plunder-bug_lan_ethernet_sniffer_512x512.jpg"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../../cdn/shop/products/plunder-bug_lan_ethernet_sniffer_512x512.jpg?v=1564237975 1x, ../../cdn/shop/products/plunder-bug_lan_ethernet_sniffer_896x896.jpg?v=1564237975 1.75x"
+        srcset="../../cdn/shop/products/plunder-bug_lan_ethernet_sniffer_512x512.jpg 1x, ../../cdn/shop/products/plunder-bug_lan_ethernet_sniffer_896x896.jpg 1.75x"
         class="productitem--image-primary"
         
         
@@ -17130,7 +17130,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../../cdn/shop/products/plunder-bug_lan_ethernet_sniffer_512x512.jpg?v=1564237975"
+      src="../../cdn/shop/products/plunder-bug_lan_ethernet_sniffer_512x512.jpg"
     
     alt=""
     
@@ -17418,12 +17418,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../../cdn/shop/products/SIMHolder_512x357.png?v=1534892810"
+          src="../../cdn/shop/products/SIMHolder_512x357.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../../cdn/shop/products/SIMHolder_512x357.png?v=1534892810 1x, ../../cdn/shop/products/SIMHolder_937x653.png?v=1534892810 1.83x"
+        srcset="../../cdn/shop/products/SIMHolder_512x357.png 1x, ../../cdn/shop/products/SIMHolder_937x653.png 1.83x"
         class="productitem--image-primary"
         
         
@@ -17433,7 +17433,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../../cdn/shop/products/SIMHolder_512x357.png?v=1534892810"
+      src="../../cdn/shop/products/SIMHolder_512x357.png"
     
     alt=""
     
@@ -17725,12 +17725,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../../cdn/shop/products/RFID-Range-Extender-30_512x515.png?v=1611240067"
+          src="../../cdn/shop/products/RFID-Range-Extender-30_512x515.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../../cdn/shop/products/RFID-Range-Extender-30_512x515.png?v=1611240067 1x, ../../cdn/shop/products/RFID-Range-Extender-30_978x984.png?v=1611240067 1.91x"
+        srcset="../../cdn/shop/products/RFID-Range-Extender-30_512x515.png 1x, ../../cdn/shop/products/RFID-Range-Extender-30_978x984.png 1.91x"
         class="productitem--image-primary"
         
         
@@ -17740,7 +17740,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../../cdn/shop/products/RFID-Range-Extender-30_512x515.png?v=1611240067"
+      src="../../cdn/shop/products/RFID-Range-Extender-30_512x515.png"
     
     alt=""
     
@@ -18036,12 +18036,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../../cdn/shop/products/USB-Power-Supply---2_512x308.png?v=1585665934"
+          src="../../cdn/shop/products/USB-Power-Supply---2_512x308.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../../cdn/shop/products/USB-Power-Supply---2_512x308.png?v=1585665934 1x, ../../cdn/shop/products/USB-Power-Supply---2_794x477.png?v=1585665934 1.55x"
+        srcset="../../cdn/shop/products/USB-Power-Supply---2_512x308.png 1x, ../../cdn/shop/products/USB-Power-Supply---2_794x477.png 1.55x"
         class="productitem--image-primary"
         
         
@@ -18051,7 +18051,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../../cdn/shop/products/USB-Power-Supply---2_512x308.png?v=1585665934"
+      src="../../cdn/shop/products/USB-Power-Supply---2_512x308.png"
     
     alt=""
     
@@ -18345,12 +18345,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../../cdn/shop/products/iCS-Decoder-For-ICLASS-SE-and-SEOS-Decoder-2_512x621.png?v=1653405856"
+          src="../../cdn/shop/products/iCS-Decoder-For-ICLASS-SE-and-SEOS-Decoder-2_512x621.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../../cdn/shop/products/iCS-Decoder-For-ICLASS-SE-and-SEOS-Decoder-2_512x621.png?v=1653405856 1x, ../../cdn/shop/products/iCS-Decoder-For-ICLASS-SE-and-SEOS-Decoder-2_1024x1242.png?v=1653405856 2x, ../../cdn/shop/products/iCS-Decoder-For-ICLASS-SE-and-SEOS-Decoder-2_1536x1863.png?v=1653405856 3x, ../../cdn/shop/products/iCS-Decoder-For-ICLASS-SE-and-SEOS-Decoder-2_1700x2062.png?v=1653405856 3.32x"
+        srcset="../../cdn/shop/products/iCS-Decoder-For-ICLASS-SE-and-SEOS-Decoder-2_512x621.png 1x, ../../cdn/shop/products/iCS-Decoder-For-ICLASS-SE-and-SEOS-Decoder-2_1024x1242.png 2x, ../../cdn/shop/products/iCS-Decoder-For-ICLASS-SE-and-SEOS-Decoder-2_1536x1863.png 3x, ../../cdn/shop/products/iCS-Decoder-For-ICLASS-SE-and-SEOS-Decoder-2_1700x2062.png 3.32x"
         class="productitem--image-primary"
         
         
@@ -18360,7 +18360,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../../cdn/shop/products/iCS-Decoder-For-ICLASS-SE-and-SEOS-Decoder-2_512x621.png?v=1653405856"
+      src="../../cdn/shop/products/iCS-Decoder-For-ICLASS-SE-and-SEOS-Decoder-2_512x621.png"
     
     alt=""
     
@@ -18655,12 +18655,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../../cdn/shop/products/Proxmark-3-RDV-4.1-LF-Antenna-Box_512x512.png?v=1567172987"
+          src="../../cdn/shop/products/Proxmark-3-RDV-4.1-LF-Antenna-Box_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../../cdn/shop/products/Proxmark-3-RDV-4.1-LF-Antenna-Box_512x512.png?v=1567172987 1x, ../../cdn/shop/products/Proxmark-3-RDV-4.1-LF-Antenna-Box_1024x1024.png?v=1567172987 2x, ../../cdn/shop/products/Proxmark-3-RDV-4.1-LF-Antenna-Box_1311x1311.png?v=1567172987 2.56x"
+        srcset="../../cdn/shop/products/Proxmark-3-RDV-4.1-LF-Antenna-Box_512x512.png 1x, ../../cdn/shop/products/Proxmark-3-RDV-4.1-LF-Antenna-Box_1024x1024.png 2x, ../../cdn/shop/products/Proxmark-3-RDV-4.1-LF-Antenna-Box_1311x1311.png 2.56x"
         class="productitem--image-primary"
         
         
@@ -18670,7 +18670,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../../cdn/shop/products/Proxmark-3-RDV-4.1-LF-Antenna-Box_512x512.png?v=1567172987"
+      src="../../cdn/shop/products/Proxmark-3-RDV-4.1-LF-Antenna-Box_512x512.png"
     
     alt=""
     
@@ -18965,12 +18965,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../../cdn/shop/products/Proxmark-3-RDV-4.1-Back---New-Antenna_512x412.png?v=1567198154"
+          src="../../cdn/shop/products/Proxmark-3-RDV-4.1-Back---New-Antenna_512x412.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../../cdn/shop/products/Proxmark-3-RDV-4.1-Back---New-Antenna_512x412.png?v=1567198154 1x, ../../cdn/shop/products/Proxmark-3-RDV-4.1-Back---New-Antenna_1024x824.png?v=1567198154 2x, ../../cdn/shop/products/Proxmark-3-RDV-4.1-Back---New-Antenna_1357x1092.png?v=1567198154 2.65x"
+        srcset="../../cdn/shop/products/Proxmark-3-RDV-4.1-Back---New-Antenna_512x412.png 1x, ../../cdn/shop/products/Proxmark-3-RDV-4.1-Back---New-Antenna_1024x824.png 2x, ../../cdn/shop/products/Proxmark-3-RDV-4.1-Back---New-Antenna_1357x1092.png 2.65x"
         class="productitem--image-primary"
         
         
@@ -18980,7 +18980,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../../cdn/shop/products/Proxmark-3-RDV-4.1-Back---New-Antenna_512x412.png?v=1567198154"
+      src="../../cdn/shop/products/Proxmark-3-RDV-4.1-Back---New-Antenna_512x412.png"
     
     alt=""
     
@@ -19270,12 +19270,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../../cdn/shop/products/Hak5-Screen-Crab-HDMI-Stream-1_512x512.jpg?v=1577988008"
+          src="../../cdn/shop/products/Hak5-Screen-Crab-HDMI-Stream-1_512x512.jpg"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../../cdn/shop/products/Hak5-Screen-Crab-HDMI-Stream-1_512x512.jpg?v=1577988008 1x, ../../cdn/shop/products/Hak5-Screen-Crab-HDMI-Stream-1_799x799.jpg?v=1577988008 1.56x"
+        srcset="../../cdn/shop/products/Hak5-Screen-Crab-HDMI-Stream-1_512x512.jpg 1x, ../../cdn/shop/products/Hak5-Screen-Crab-HDMI-Stream-1_799x799.jpg 1.56x"
         class="productitem--image-primary"
         
         
@@ -19285,7 +19285,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../../cdn/shop/products/Hak5-Screen-Crab-HDMI-Stream-1_512x512.jpg?v=1577988008"
+      src="../../cdn/shop/products/Hak5-Screen-Crab-HDMI-Stream-1_512x512.jpg"
     
     alt=""
     
@@ -19573,12 +19573,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../../cdn/shop/products/ProxLFAntenna-1_512x512.jpg?v=1606496927"
+          src="../../cdn/shop/products/ProxLFAntenna-1_512x512.jpg"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../../cdn/shop/products/ProxLFAntenna-1_512x512.jpg?v=1606496927 1x, ../../cdn/shop/products/ProxLFAntenna-1_1024x1024.jpg?v=1606496927 2x, ../../cdn/shop/products/ProxLFAntenna-1_1536x1536.jpg?v=1606496927 3x, ../../cdn/shop/products/ProxLFAntenna-1_2048x2048.jpg?v=1606496927 4x"
+        srcset="../../cdn/shop/products/ProxLFAntenna-1_512x512.jpg 1x, ../../cdn/shop/products/ProxLFAntenna-1_1024x1024.jpg 2x, ../../cdn/shop/products/ProxLFAntenna-1_1536x1536.jpg 3x, ../../cdn/shop/products/ProxLFAntenna-1_2048x2048.jpg 4x"
         class="productitem--image-primary"
         
         
@@ -19588,7 +19588,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../../cdn/shop/products/ProxLFAntenna-1_512x512.jpg?v=1606496927"
+      src="../../cdn/shop/products/ProxLFAntenna-1_512x512.jpg"
     
     alt=""
     
@@ -19882,12 +19882,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../../cdn/shop/products/BT_ADDON_PIC1_512x384.jpg?v=1570172108"
+          src="../../cdn/shop/products/BT_ADDON_PIC1_512x384.jpg"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../../cdn/shop/products/BT_ADDON_PIC1_512x384.jpg?v=1570172108 1x, ../../cdn/shop/products/BT_ADDON_PIC1_1024x768.jpg?v=1570172108 2x, ../../cdn/shop/products/BT_ADDON_PIC1_1536x1152.jpg?v=1570172108 3x, ../../cdn/shop/products/BT_ADDON_PIC1_2048x1536.jpg?v=1570172108 4x"
+        srcset="../../cdn/shop/products/BT_ADDON_PIC1_512x384.jpg 1x, ../../cdn/shop/products/BT_ADDON_PIC1_1024x768.jpg 2x, ../../cdn/shop/products/BT_ADDON_PIC1_1536x1152.jpg 3x, ../../cdn/shop/products/BT_ADDON_PIC1_2048x1536.jpg 4x"
         class="productitem--image-primary"
         
         
@@ -19897,7 +19897,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../../cdn/shop/products/BT_ADDON_PIC1_512x384.jpg?v=1570172108"
+      src="../../cdn/shop/products/BT_ADDON_PIC1_512x384.jpg"
     
     alt=""
     
@@ -20187,12 +20187,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../../cdn/shop/products/Proxmark-Bluetooth-Key-HC-06-USB-front_512x224.png?v=1608128631"
+          src="../../cdn/shop/products/Proxmark-Bluetooth-Key-HC-06-USB-front_512x224.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../../cdn/shop/products/Proxmark-Bluetooth-Key-HC-06-USB-front_512x224.png?v=1608128631 1x, ../../cdn/shop/products/Proxmark-Bluetooth-Key-HC-06-USB-front_1024x448.png?v=1608128631 2x, ../../cdn/shop/products/Proxmark-Bluetooth-Key-HC-06-USB-front_1536x672.png?v=1608128631 3x, ../../cdn/shop/products/Proxmark-Bluetooth-Key-HC-06-USB-front_1644x719.png?v=1608128631 3.21x"
+        srcset="../../cdn/shop/products/Proxmark-Bluetooth-Key-HC-06-USB-front_512x224.png 1x, ../../cdn/shop/products/Proxmark-Bluetooth-Key-HC-06-USB-front_1024x448.png 2x, ../../cdn/shop/products/Proxmark-Bluetooth-Key-HC-06-USB-front_1536x672.png 3x, ../../cdn/shop/products/Proxmark-Bluetooth-Key-HC-06-USB-front_1644x719.png 3.21x"
         class="productitem--image-primary"
         
         
@@ -20202,7 +20202,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../../cdn/shop/products/Proxmark-Bluetooth-Key-HC-06-USB-front_512x224.png?v=1608128631"
+      src="../../cdn/shop/products/Proxmark-Bluetooth-Key-HC-06-USB-front_512x224.png"
     
     alt=""
     
@@ -20496,12 +20496,12 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
     <noscript data-rimg-noscript>
       <img
         
-          src="../../cdn/shop/files/2023-OMG-Cable-Programmer---USB-AC_4c8a3ce3-5f75-453a-b2b0-d7a2ccd4b704_512x512.png?v=1689850867"
+          src="../../cdn/shop/files/2023-OMG-Cable-Programmer---USB-AC_4c8a3ce3-5f75-453a-b2b0-d7a2ccd4b704_512x512.png"
         
 
         alt=""
         data-rimg="noscript"
-        srcset="../../cdn/shop/files/2023-OMG-Cable-Programmer---USB-AC_4c8a3ce3-5f75-453a-b2b0-d7a2ccd4b704_512x512.png?v=1689850867 1x, ../../cdn/shop/files/2023-OMG-Cable-Programmer---USB-AC_4c8a3ce3-5f75-453a-b2b0-d7a2ccd4b704_876x876.png?v=1689850867 1.71x"
+        srcset="../../cdn/shop/files/2023-OMG-Cable-Programmer---USB-AC_4c8a3ce3-5f75-453a-b2b0-d7a2ccd4b704_512x512.png 1x, ../../cdn/shop/files/2023-OMG-Cable-Programmer---USB-AC_4c8a3ce3-5f75-453a-b2b0-d7a2ccd4b704_876x876.png 1.71x"
         class="productitem--image-primary"
         
         
@@ -20511,7 +20511,7 @@ MITM GSM traffic. Manipulate GPS. Capture and replay Remote Controls, and much m
 
   <img
     
-      src="../../cdn/shop/files/2023-OMG-Cable-Programmer---USB-AC_4c8a3ce3-5f75-453a-b2b0-d7a2ccd4b704_512x512.png?v=1689850867"
+      src="../../cdn/shop/files/2023-OMG-Cable-Programmer---USB-AC_4c8a3ce3-5f75-453a-b2b0-d7a2ccd4b704_512x512.png"
     
     alt=""
     
@@ -22215,7 +22215,7 @@ L'un des avantages du Proxmark 3 RDV4.01 est son système d'antenne intégré am
 
 </div><div id="shopify-section-template--28353749352795__product_recommend_zBjWRA" class="shopify-section product-recommend--section-wrapper">
 
-<link href="../../cdn/shop/t/60/assets/product-recommend.css?v=82518478889299838651790957665.css" rel="stylesheet" type="text/css" media="all" />
+<link href="../../cdn/shop/t/60/assets/product-recommend.css" rel="stylesheet" type="text/css" media="all" />
 
 <div class="product-recommend--section" data-section-id="template--28353749352795__product_recommend_zBjWRA">
   <div class="product-recommend--container">
@@ -22337,7 +22337,7 @@ L'un des avantages du Proxmark 3 RDV4.01 est son système d'antenne intégré am
   </div>
 </div>
 
-<script src="../../cdn/shop/t/60/assets/product-recommend.js?v=31051315587107645591790957666" defer></script>
+<script src="../../cdn/shop/t/60/assets/product-recommend.js" defer></script>
 
 <style>
   .product-recommend--section {
@@ -26852,7 +26852,7 @@ L'un des avantages du Proxmark 3 RDV4.01 est son système d'antenne intégré am
       </script>
     
 <script
-        src="../../cdn/shop/t/60/assets/empire.min.js?v=36309983166111717561773500247"
+        src="../../cdn/shop/t/60/assets/empire.min.js"
         data-scripts
         data-shopify-api-url="//lab401.com/cdn/shopifycloud/storefront/assets/themes_support/api.jquery-7ab1a3a4.js"
         data-shopify-countries="/services/javascripts/countries.js"
@@ -26928,7 +26928,7 @@ L'un des avantages du Proxmark 3 RDV4.01 est son système d'antenne intégré am
     </script>
 
     <script
-      src="../../cdn/shop/t/60/assets/instantPage.min.js?v=132952667689675371351772550680"
+      src="../../cdn/shop/t/60/assets/instantPage.min.js"
       type="module"
       defer
     >
@@ -26936,7 +26936,7 @@ L'un des avantages du Proxmark 3 RDV4.01 est son système d'antenne intégré am
 
     
     <script
-      src="../../cdn/shop/t/60/assets/lab401-a11y.js?v=27954220535327733821790957665"
+      src="../../cdn/shop/t/60/assets/lab401-a11y.js"
       data-scrollable-label="Contenu défilant"
       data-youtube-player="Lecteur vidéo YouTube"
       data-vimeo-player="Lecteur vidéo Vimeo"
@@ -26946,14 +26946,14 @@ L'un des avantages du Proxmark 3 RDV4.01 est son système d'antenne intégré am
     ></script>
 
     
-    <script src="../../cdn/shop/t/60/assets/lab401-preferred-source.js?v=39855304419376939601788370164" defer></script>
+    <script src="../../cdn/shop/t/60/assets/lab401-preferred-source.js" defer></script>
 
     
     
 
 
 
-    <script src="../../cdn/shop/t/60/assets/lab401-country.js?v=118131794101621485741794829669" defer></script>
+    <script src="../../cdn/shop/t/60/assets/lab401-country.js" defer></script>
       <script>window.LAB401_MONEY_FORMAT = "€{{amount}}";</script>
       <script>(function(n, v) {/* eslint-disable-next-line max-len */if (window.Shopify && window.Shopify.theme && navigator && navigator.sendBeacon && window.Shopify.designMode) {if (sessionStorage.getItem('oots_beacon')) return;navigator.sendBeacon('https://app.outofthesandbox.com/beacon', new URLSearchParams({shop_domain: window.Shopify.shop.toLowerCase(),shop_id: '21758571',shop_email: 'support@lab401.com',theme_name: n.toLowerCase(),theme_version: v.toLowerCase(),theme_store_id: window.Shopify.theme.theme_store_id,theme_id: window.Shopify.theme.id,theme_role: window.Shopify.theme.role,}));sessionStorage.setItem('oots_beacon', '');}}('empire','12.2.1'))</script>
   <div id="shopify-block-AaTJnSGxzM0tTc1RrN__7333856334229879547" class="shopify-block shopify-app-block">
