@@ -48,9 +48,13 @@
   function logicalPath() {
     var cp = canonicalPath();
     if (cp) {
-      var m = cp.match(/^\/(fr|it|es|de)(\/|$)/);
-      var rest = m ? '/' + cp.slice(m[0].length) : cp;
-      return rest === '' ? '/' : rest;
+      /* Le canonical des pages EN est relatif ("index.html") : une fois
+         resolu, son chemin contient la base /lab401-clone. Il faut la
+         retirer ici, sinon le changement de langue construit une URL
+         cassee (/lab401-clone/fr/lab401-clone/index.html.html). */
+      if (CFG.base && cp.indexOf(CFG.base) === 0) cp = cp.slice(CFG.base.length);
+      cp = cp.replace(/^\/(fr|it|es|de)(\/|$)/, '/').replace(/\.html$/, '').replace(/\/index$/, '/');
+      return cp === '' ? '/' : cp;
     }
     var p = window.location.pathname;
     if (CFG.base && p.indexOf(CFG.base) === 0) p = p.slice(CFG.base.length);
