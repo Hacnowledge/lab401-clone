@@ -46,7 +46,7 @@
     
 
     
-      <link rel="shortcut icon" href="../../../cdn/shop/files/Logo-Square_9ea90937-9697-4f59-97a7-be3f21764ba7_32x32.png?v=1722166262" type="image/png">
+      <link rel="shortcut icon" href="../../../cdn/shop/files/Logo-Square_9ea90937-9697-4f59-97a7-be3f21764ba7_32x32.png" type="image/png">
     
 
     
@@ -136,7 +136,7 @@
 
 
     
-    <link rel="preload" href="../../../cdn/fonts/inter/inter_n4.b2a3f24c19b4de56e8871f609e73ca7f6d2e2bb9.woff2" as="font" type="font/woff2" crossorigin="anonymous"><link rel="preload" href="../../../cdn/fonts/inter/inter_n4.b2a3f24c19b4de56e8871f609e73ca7f6d2e2bb9.woff2" as="font" type="font/woff2" crossorigin="anonymous"><link rel="preload" as="style" href="../../../cdn/shop/t/60/assets/theme.css?v=74250596282648218241773059622.css"><script async crossorigin fetchpriority="high" src="../../../cdn/shopifycloud/importmap-polyfill/es-modules-shim.2.4.0.js"></script>
+    <link rel="preload" href="../../../cdn/fonts/inter/inter_n4.b2a3f24c19b4de56e8871f609e73ca7f6d2e2bb9.woff2" as="font" type="font/woff2" crossorigin="anonymous"><link rel="preload" href="../../../cdn/fonts/inter/inter_n4.b2a3f24c19b4de56e8871f609e73ca7f6d2e2bb9.woff2" as="font" type="font/woff2" crossorigin="anonymous"><link rel="preload" as="style" href="../../../cdn/shop/t/60/assets/theme.css"><script async crossorigin fetchpriority="high" src="../../../cdn/shopifycloud/importmap-polyfill/es-modules-shim.2.4.0.js"></script>
 <script type="importmap">
 {
   "imports": {
@@ -170,7 +170,7 @@
     document.head.appendChild(el)
   }
 </script>
-<script type="module" src="../../../cdn/shop/t/60/assets/is-land.min.js?v=92343381495565747271772550680"></script>
+<script type="module" src="../../../cdn/shop/t/60/assets/is-land.min.js"></script>
 <style data-shopify>:root {
     /* Core Sizes */
     --size-0-25: 0.0625rem; /* 1px */
@@ -412,7 +412,7 @@
     --z-index-loader: 4;
     --z-index-header-search-overlay: 1;
     --url-ico-select: url(//lab401.com/cdn/shop/t/60/assets/ico-select.svg);
-    --url-swirl-svg: url(//lab401.com/cdn/shop/t/60/assets/swirl.svg);
+    --url-swirl-svg: url(../../../cdn/shop/t/60/assets/swirl.svg);
     --header-padding-bottom: 0;
     --gutter: 30px;
     --page-width: 1500px;
@@ -728,11 +728,11 @@
     --button-link-underline-thickness: 1px;
     --button-link-underline-style: solid;
   }</style>
-<style-sheet name="vendor.flickity.css" remove-duplicate="true" load="async" style="display: none;"><link href="//lab401.com/cdn/shop/t/60/assets/vendor.flickity.css?v=168134560433028609901772550680" rel="preload" as="style" onload="this.rel='stylesheet'">
-<script type="module" src="../../../cdn/shop/t/60/assets/utility.stylesheet.js?v=115421978848924304161772550677"></script></style-sheet>
+<style-sheet name="vendor.flickity.css" remove-duplicate="true" load="async" style="display: none;"><link href="../../../cdn/shop/t/60/assets/vendor.flickity.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+<script type="module" src="../../../cdn/shop/t/60/assets/utility.stylesheet.js"></script></style-sheet>
 
-<style-sheet name="vendor.swiper.css" remove-duplicate="true" load="async" style="display: none;"><link href="//lab401.com/cdn/shop/t/60/assets/vendor.swiper.css?v=103091539061108917781772550678" rel="preload" as="style" onload="this.rel='stylesheet'">
-<script type="module" src="../../../cdn/shop/t/60/assets/utility.stylesheet.js?v=115421978848924304161772550677"></script></style-sheet>
+<style-sheet name="vendor.swiper.css" remove-duplicate="true" load="async" style="display: none;"><link href="../../../cdn/shop/t/60/assets/vendor.swiper.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+<script type="module" src="../../../cdn/shop/t/60/assets/utility.stylesheet.js"></script></style-sheet>
 
 
 
@@ -1066,7 +1066,7 @@ Shopify.SignInWithShop.User.recognized = false;</script>
 <script>window.ShopifyPaypalV4VisibilityTracking = true;</script>
 <script id="captcha-bootstrap">!function(){'use strict';const t='contact',e='account',n='new_comment',o=[[t,t],['blogs',n],['comments',n],[t,'customer']],c=[[e,'customer_login'],[e,'guest_login'],[e,'recover_customer_password'],[e,'create_customer']],r=t=>t.map((([t,e])=>`form[action*='/${t}']:not([data-nocaptcha='true']) input[name='form_type'][value='${e}']`)).join(','),a=t=>()=>t?[...document.querySelectorAll(t)].map((t=>t.form)):[];function s(){const t=[...o],e=r(t);return a(e)}const i='password',u='form_key',d=['recaptcha-v3-token','g-recaptcha-response','h-captcha-response',i],f=()=>{try{return window.sessionStorage}catch{return}},m='__shopify_v',_=t=>t.elements[u];function p(t,e,n=!1){try{const o=window.sessionStorage,c=JSON.parse(o.getItem(e)),{data:r}=function(t){const{data:e,action:n}=t;return t[m]||n?{data:e,action:n}:{data:t,action:n}}(c);for(const[e,n]of Object.entries(r))t.elements[e]&&(t.elements[e].value=n);n&&o.removeItem(e)}catch(o){console.error('form repopulation failed',{error:o})}}const l='form_type',E='cptcha';function T(t){t.dataset[E]=!0}const w=window,h=w.document,L='Shopify',v='ce_forms',y='captcha';let A=!1;((t,e)=>{const n=(g='f06e6c50-85a8-45c8-87d0-21a2b65856fe',I='https://cdn.shopify.com/shopifycloud/storefront-forms-hcaptcha/ce_storefront_forms_captcha_hcaptcha.v1.5.3.iife.js',D={infoText:'Protégé par hCaptcha',privacyText:'Confidentialité',termsText:'Conditions'},(t,e,n)=>{const o=w[L][v],c=o.bindForm;if(c)return c(t,g,e,D).then(n);var r;o.q.push([[t,g,e,D],n]),r=I,A||(h.body.append(Object.assign(h.createElement('script'),{id:'captcha-provider',async:!0,src:r})),A=!0)});var g,I,D;w[L]=w[L]||{},w[L][v]=w[L][v]||{},w[L][v].q=[],w[L][y]=w[L][y]||{},w[L][y].protect=function(t,e){n(t,void 0,e),T(t)},Object.freeze(w[L][y]),function(t,e,n,w,h,L){const[v,y,A,g]=function(t,e,n){const i=e?o:[],u=t?c:[],d=[...i,...u],f=r(d),m=r(i),_=r(d.filter((([t,e])=>n.includes(e))));return[a(f),a(m),a(_),s()]}(w,h,L),I=t=>{const e=t.target;return e instanceof HTMLFormElement?e:e&&e.form},D=t=>v().includes(t);t.addEventListener('submit',(t=>{const e=I(t);if(!e)return;const n=D(e)&&!e.dataset.hcaptchaBound&&!e.dataset.recaptchaBound,o=_(e),c=g().includes(e)&&(!o||!o.value);(n||c)&&t.preventDefault(),c&&!n&&(function(t){try{if(!f())return;!function(t){const e=f();if(!e)return;const n=_(t);if(!n)return;const o=n.value;o&&e.removeItem(o)}(t);const e=Array.from(Array(32),(()=>Math.random().toString(36)[2])).join('');!function(t,e){_(t)||t.append(Object.assign(document.createElement('input'),{type:'hidden',name:u})),t.elements[u].value=e}(t,e),function(t,e){const n=f();if(!n)return;const o=[...t.querySelectorAll(`input[type='${i}']`)].map((({name:t})=>t)),c=[...d,...o],r={};for(const[a,s]of new FormData(t).entries())c.includes(a)||(r[a]=s);n.setItem(e,JSON.stringify({[m]:1,action:t.action,data:r}))}(t,e)}catch(e){console.error('failed to persist form',e)}}(e),e.submit())}));const S=(t,e)=>{t&&!t.dataset[E]&&(n(t,e.some((e=>e===t))),T(t))};for(const o of['focusin','change'])t.addEventListener(o,(t=>{const e=I(t);D(e)&&S(e,y())}));const B=e.get('form_key'),M=e.get(l),P=B&&M;t.addEventListener('DOMContentLoaded',(()=>{const t=y();if(P)for(const e of t)e.elements[l].value===M&&p(e,B);[...new Set([...A(),...v().filter((t=>'true'===t.dataset.shopifyCaptcha))])].forEach((e=>S(e,t)))}))}(h,new URLSearchParams(w.location.search),n,t,e,['guest_login'])})(!0,!0)}();</script>
 <script integrity="sha256-FYHzja/5XSmzkjz6zHj7s4rACJGFuVoYZdumgoO2Ecs=" data-source-attribution="shopify.loadfeatures" defer="defer" src="../../../cdn/shopifycloud/storefront/assets/storefront/load_feature-ed94c51f.js" crossorigin="anonymous"></script>
-<script>(function () {var userAgent = navigator.userAgent;var platform = navigator.platform;var maxTouchPoints = navigator.maxTouchPoints || 0;var isIOS = /iPad|iPhone|iPod/.test(platform) || (platform === 'MacIntel' && maxTouchPoints > 1);var isMacSafari = platform.indexOf('Mac') === 0 && /Safari/.test(userAgent) && !/Chrome|Chromium|CriOS|FxiOS|Edg|OPR|Android/.test(userAgent);var isAppleSafari = isIOS || isMacSafari;if (isAppleSafari) {fetch('/sf_private_access_tokens' + location.search).catch(function () {});}function browserMajorVersion(pattern) {var match = userAgent.match(pattern);return match ? parseInt(match[1], 10) : null;}function shouldLoadAutosizesPolyfill() {if (!window.PerformanceObserver?.supportedEntryTypes?.includes('paint')) {return false;}var chromeVersion = browserMajorVersion(/Chrome\/(\d+)/);if (chromeVersion !== null) {return chromeVersion < 126;}var firefoxVersion = browserMajorVersion(/Firefox\/(\d+)/);if (firefoxVersion !== null) {return firefoxVersion < 150;}var safariVersion = isAppleSafari ? browserMajorVersion(/Version\/(\d+).*Safari\//) : null;if (safariVersion !== null) {return safariVersion < 27;}return true;}if (shouldLoadAutosizesPolyfill()) {var autosizesScript = document.createElement('script');autosizesScript.async = true;autosizesScript.crossOrigin = 'anonymous';autosizesScript.src = "//lab401.com/cdn/shopifycloud/storefront/assets/storefront/autosizes-84416378.js";(document.head || document.documentElement).appendChild(autosizesScript);}window.ShopifyAnalytics = window.ShopifyAnalytics || {};window.ShopifyAnalytics.performance = window.ShopifyAnalytics.performance || {};(function () {var LONG_FRAME_THRESHOLD = 50;var longAnimationFrames = [];var activeRafId = null;function collectLongFrames() {var previousTime = null;function rafMonitor(now) {if (activeRafId === null) {return;}var delta = now - previousTime;if (delta > LONG_FRAME_THRESHOLD) {longAnimationFrames.push({startTime: previousTime,endTime: now,});}previousTime = now;activeRafId = requestAnimationFrame(rafMonitor);}previousTime = performance.now();activeRafId = requestAnimationFrame(rafMonitor);}if (!window.PerformanceObserver?.supportedEntryTypes?.includes('long-animation-frame')) {collectLongFrames();var timeoutId = setTimeout(function () {cancelAnimationFrame(activeRafId);}, 10000);window.ShopifyAnalytics.performance.getLongAnimationFrames = function (stopCollection) {if (stopCollection === undefined) {stopCollection = false;}if (stopCollection) {clearTimeout(timeoutId);cancelAnimationFrame(activeRafId);}return longAnimationFrames;};}})();})();</script><script crossorigin="anonymous" defer="defer" src="../../../cdn/shopifycloud/storefront/assets/shopify_pay/storefront-f0e26bdf.js?v=20250812"></script>
+<script>(function () {var userAgent = navigator.userAgent;var platform = navigator.platform;var maxTouchPoints = navigator.maxTouchPoints || 0;var isIOS = /iPad|iPhone|iPod/.test(platform) || (platform === 'MacIntel' && maxTouchPoints > 1);var isMacSafari = platform.indexOf('Mac') === 0 && /Safari/.test(userAgent) && !/Chrome|Chromium|CriOS|FxiOS|Edg|OPR|Android/.test(userAgent);var isAppleSafari = isIOS || isMacSafari;if (isAppleSafari) {fetch('/sf_private_access_tokens' + location.search).catch(function () {});}function browserMajorVersion(pattern) {var match = userAgent.match(pattern);return match ? parseInt(match[1], 10) : null;}function shouldLoadAutosizesPolyfill() {if (!window.PerformanceObserver?.supportedEntryTypes?.includes('paint')) {return false;}var chromeVersion = browserMajorVersion(/Chrome\/(\d+)/);if (chromeVersion !== null) {return chromeVersion < 126;}var firefoxVersion = browserMajorVersion(/Firefox\/(\d+)/);if (firefoxVersion !== null) {return firefoxVersion < 150;}var safariVersion = isAppleSafari ? browserMajorVersion(/Version\/(\d+).*Safari\//) : null;if (safariVersion !== null) {return safariVersion < 27;}return true;}if (shouldLoadAutosizesPolyfill()) {var autosizesScript = document.createElement('script');autosizesScript.async = true;autosizesScript.crossOrigin = 'anonymous';autosizesScript.src = "//lab401.com/cdn/shopifycloud/storefront/assets/storefront/autosizes-84416378.js";(document.head || document.documentElement).appendChild(autosizesScript);}window.ShopifyAnalytics = window.ShopifyAnalytics || {};window.ShopifyAnalytics.performance = window.ShopifyAnalytics.performance || {};(function () {var LONG_FRAME_THRESHOLD = 50;var longAnimationFrames = [];var activeRafId = null;function collectLongFrames() {var previousTime = null;function rafMonitor(now) {if (activeRafId === null) {return;}var delta = now - previousTime;if (delta > LONG_FRAME_THRESHOLD) {longAnimationFrames.push({startTime: previousTime,endTime: now,});}previousTime = now;activeRafId = requestAnimationFrame(rafMonitor);}previousTime = performance.now();activeRafId = requestAnimationFrame(rafMonitor);}if (!window.PerformanceObserver?.supportedEntryTypes?.includes('long-animation-frame')) {collectLongFrames();var timeoutId = setTimeout(function () {cancelAnimationFrame(activeRafId);}, 10000);window.ShopifyAnalytics.performance.getLongAnimationFrames = function (stopCollection) {if (stopCollection === undefined) {stopCollection = false;}if (stopCollection) {clearTimeout(timeoutId);cancelAnimationFrame(activeRafId);}return longAnimationFrames;};}})();})();</script><script crossorigin="anonymous" defer="defer" src="../../../cdn/shopifycloud/storefront/assets/shopify_pay/storefront-f0e26bdf.js"></script>
 <script id="shopify-origin-trials" async="async" integrity="sha256-hfGAxKJ6MFnGQCYgUfqgtJBsk7WSUo2LPuoHgEkokSg=" src="//cdn.shopify.com/shopifycloud/storefront/assets/storefront/origin_trials-6af5f5e9.js" crossorigin="anonymous" onload="window.__shopifyOriginTrialsDone = true" onerror="window.__shopifyOriginTrialsDone = true"></script>
 <script>(()=>{var d="shopify:webmcp_adapter_loaded",n=Symbol.for("shopify.webmcp_adapter_loading");function s(c,a,{win:r=window,doc:o=document}={}){function p(){try{return r.localStorage.getItem(d)==="true"}catch{return!1}}function l(){try{r.localStorage.setItem(d,"true")}catch{}}function u(){return typeof(o.modelContext||r.navigator?.modelContext)?.registerTool=="function"}function f(){if(r[n]||!u())return;let t=o.head||o.getElementsByTagName("head")[0];if(!t)return;let e=o.createElement("script");e.type="module",e.crossOrigin="anonymous",a&&(e.integrity=a),e.src=c,e.addEventListener("load",l,{once:!0}),e.addEventListener("error",()=>{r[n]=!1},{once:!0}),t.appendChild(e),r[n]=!0}function _(t){let e=o.getElementById("shopify-origin-trials");if(!e||r.__shopifyOriginTrialsDone){t();return}e.addEventListener("load",t,{once:!0}),e.addEventListener("error",t,{once:!0})}function i(){_(()=>r.setTimeout(f,0))}function m(){o.addEventListener("DOMContentLoaded",i,{once:!0})}p()?i():m()}s("\/\/lab401.com\/cdn\/shopifycloud\/storefront\/assets\/storefront\/webmcp-cfeae510.js","sha256-hdSsaskU5p37T8dqwXSuZ1454uxl\/hhOLZu33d3jWEE=");})();
 </script>
@@ -1282,16 +1282,16 @@ Shopify.SignInWithShop.User.recognized = false;</script>
       })();
     </script>
 
-    <link href="../../../cdn/shop/t/60/assets/theme.css?v=74250596282648218241773059622.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="../../../cdn/shop/t/60/assets/lab401-accessibility.css?v=7170805246475472781773498491.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="../../../cdn/shop/t/60/assets/lab401-high-contrast.css?v=64771544482704160301785277895.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="../../../cdn/shop/t/60/assets/lab401-footer.css?v=183729840715629052621788372973.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="../../../cdn/shop/t/60/assets/lab401-preferred-source.css?v=140356400046481504821788370163.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../../../cdn/shop/t/60/assets/theme.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../../../cdn/shop/t/60/assets/lab401-accessibility.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../../../cdn/shop/t/60/assets/lab401-high-contrast.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../../../cdn/shop/t/60/assets/lab401-footer.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../../../cdn/shop/t/60/assets/lab401-preferred-source.css" rel="stylesheet" type="text/css" media="all" />
     
-    <link href="../../../cdn/shop/t/60/assets/lab401-collection-page.css?v=170626641111371536791790957665.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="../../../cdn/shop/t/60/assets/lab401-product-page.css?v=45537347979535771841790957666.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="../../../cdn/shop/t/60/assets/lab401-featured-collection.css?v=135148425974489036941773844336.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="../../../cdn/shop/t/60/assets/lab401-search.css?v=106323725438832973291773869744.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../../../cdn/shop/t/60/assets/lab401-collection-page.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../../../cdn/shop/t/60/assets/lab401-product-page.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../../../cdn/shop/t/60/assets/lab401-featured-collection.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../../../cdn/shop/t/60/assets/lab401-search.css" rel="stylesheet" type="text/css" media="all" />
     
 
 <style>
@@ -1307,7 +1307,7 @@ Shopify.SignInWithShop.User.recognized = false;</script>
     </style>
 
     
-      <link href="../../../cdn/shop/t/60/assets/ripple.css?v=100240391239311985871772550681.css" rel="stylesheet" type="text/css" media="all" />
+      <link href="../../../cdn/shop/t/60/assets/ripple.css" rel="stylesheet" type="text/css" media="all" />
     
 
     
@@ -2558,13 +2558,13 @@ customContents["Increased shipping delays"
 
   <img
     
-      src="../../../cdn/shop/files/Logo-Square_150x150.png?v=1693574957"
+      src="../../../cdn/shop/files/Logo-Square_150x150.png"
     
     alt="Lab401"
 
     
       data-rimg
-      srcset="../../../cdn/shop/files/Logo-Square_150x150.png?v=1693574957 1x, ../../../cdn/shop/files/Logo-Square_300x300.png?v=1693574957 2x, ../../../cdn/shop/files/Logo-Square_324x324.png?v=1693574957 2.16x"
+      srcset="../../../cdn/shop/files/Logo-Square_150x150.png 1x, ../../../cdn/shop/files/Logo-Square_300x300.png 2x, ../../../cdn/shop/files/Logo-Square_324x324.png 2.16x"
     
 
     class="site-logo-image"
@@ -9377,7 +9377,7 @@ customContents["Increased shipping delays"
     <main id="site-main" class="site-main" aria-label="Contenu principal" tabindex="-1">
       
       
-      <div id="shopify-section-template--28353749025115__main" class="shopify-section article--section section--canonical"><link href="../../../cdn/shop/t/60/assets/lab401-article.css?v=143642410424827199471773505307.css" rel="stylesheet" type="text/css" media="all" />
+      <div id="shopify-section-template--28353749025115__main" class="shopify-section article--section section--canonical"><link href="../../../cdn/shop/t/60/assets/lab401-article.css" rel="stylesheet" type="text/css" media="all" />
 
 <script
   type="application/json"
@@ -9392,11 +9392,11 @@ customContents["Increased shipping delays"
     <div class="article-hero">
       <div
         class="article-hero__blur"
-        style="background-image: url('//lab401.com/cdn/shop/articles/Header---2.png?v=1780578771&width=1800');"
+        style="background-image: url('../../../cdn/shop/articles/Header---2_w1800.png');"
       ></div>
       <img
         class="article-hero__image"
-        src="//lab401.com/cdn/shop/articles/Header---2.png?v=1780578771&width=1800"
+        src="../../../cdn/shop/articles/Header---2_w1800.png"
         alt="Point of Fail: Hacking a POS Device with WHIDBOARD"
         loading="eager"
         width="1900"
@@ -9558,19 +9558,19 @@ customContents["Increased shipping delays"
         <p>Il y a quelque temps, je faisais des courses en ville lorsque je suis tombé sur un terminal de point de vente (POS) intéressant. Pendant que la caissière préparait mon sac, j’ai rapidement sorti mon téléphone et pris quelques photos pour m’en souvenir plus tard…</p>
 
         <div class="image-container">
-            <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/01-pos-terminal-claires-checkout_205a7752-9caf-469f-8ee4-1e874b14d9fe.jpg?v=1780569255" alt="Worldline payment terminal sitting on a shop counter">
+            <img src="../../../cdn/shop/files/01-pos-terminal-claires-checkout_205a7752-9caf-469f-8ee4-1e874b14d9fe.jpg" alt="Worldline payment terminal sitting on a shop counter">
             <div class="image-caption">Le terminal de point de vente qui a attiré mon attention pendant mes achats</div>
         </div>
 
         <div class="image-container">
-            <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/02-pos-terminal-claires-checkout.jpg?v=1780569257" alt="Underside of the Worldline POS showing the regulatory label">
+            <img src="../../../cdn/shop/files/02-pos-terminal-claires-checkout.jpg" alt="Underside of the Worldline POS showing the regulatory label">
             <div class="image-caption">En le retournant rapidement, j’ai découvert l’étiquette réglementaire sur la face inférieure</div>
         </div>
 
         <p>Une fois rentré chez moi, j’ai commencé à examiner de plus près les étiquettes situées sous le terminal de point de vente et j’ai immédiatement remarqué un détail intéressant… un numéro d’identification FCC était clairement visible (c’est-à-dire <code>SEKMA512</code>)! 😎</p>
 
         <div class="image-container">
-            <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/03-pos-underside-fcc-label-closeup.jpg?v=1780568336" alt="Close-up of the POS label with the FCC ID visible">
+            <img src="../../../cdn/shop/files/03-pos-underside-fcc-label-closeup.jpg" alt="Close-up of the POS label with the FCC ID visible">
             <div class="image-caption">L'identifiant FCC sur l'étiquette – la seule information dont j'avais besoin pour me lancer</div>
         </div>
 
@@ -9579,24 +9579,24 @@ customContents["Increased shipping delays"
         <p>Grâce à cette information, j’ai pu rapidement obtenir plus de détails sur ce nouveau DUT (Device Under Test) même sans en posséder un (pour l’instant).</p>
 
         <div class="image-container">
-            <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/04-fccid-io-exhibits-list.png?v=1780568329" alt="FCC ID database exhibits listing for the device">
+            <img src="../../../cdn/shop/files/04-fccid-io-exhibits-list.png" alt="FCC ID database exhibits listing for the device">
             <div class="image-caption">La liste des éléments présentés dans la base de données de la FCC : photos internes, manuels, schémas et diagrammes fonctionnels, tous accessibles au public</div>
         </div>
 
         <p>Dans la base de données de la FCC, j’ai pu obtenir plus de détails sur les circuits imprimés internes, le fonctionnement de l’appareil et l’existence éventuelle de fonctions anti-falsification destinées à empêcher les tentatives de piratage matériel.</p>
 
         <div class="image-container">
-            <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/05-fcc-internal-pcb-bom-tamper.png?v=1780568329" alt="Bill of materials from FCC filing with tamper-related parts highlighted">
+            <img src="../../../cdn/shop/files/05-fcc-internal-pcb-bom-tamper.png" alt="Bill of materials from FCC filing with tamper-related parts highlighted">
             <div class="image-caption">La liste des composants issue du dossier FCC, avec les composants de détection de manipulation mise en évidence</div>
         </div>
 
         <div class="image-container">
-            <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/06-fcc-exploded-view-tamper-switches.png?v=1780568332" alt="Exploded view diagram pointing to the anti-tamper switches">
+            <img src="../../../cdn/shop/files/06-fcc-exploded-view-tamper-switches.png" alt="Exploded view diagram pointing to the anti-tamper switches">
             <div class="image-caption">Une vue éclatée indiquant les interrupteurs anti-falsification autour du boîtier sécurisé</div>
         </div>
 
         <div class="image-container">
-            <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/07-yomani-ccr-reader-pcb.png?v=1780568333" alt="Front and back photos of the YOMANI card reader PCB">
+            <img src="../../../cdn/shop/files/07-yomani-ccr-reader-pcb.png" alt="Front and back photos of the YOMANI card reader PCB">
             <div class="image-caption">Photos internes de la FCC du circuit imprimé du lecteur de cartes YOMANI Touch (face avant et arrière)</div>
         </div>
 
@@ -9605,21 +9605,21 @@ customContents["Increased shipping delays"
         <p>Cependant, je n’ai pas baissé les bras et j’ai continué à parcourir les documents de la base de données de la FCC afin de mieux comprendre l’ensemble du dispositif testé et de compléter mon modèle de menace initial, à la recherche de points d’entrée potentiels.</p>
 
         <div class="image-container">
-            <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/08-yomani-mlxr-mainboard-keyboard-pcb.png?v=1780568334" alt="FCC internal pictures of the YOMANI mainboard and keyboard PCBs">
+            <img src="../../../cdn/shop/files/08-yomani-mlxr-mainboard-keyboard-pcb.png" alt="FCC internal pictures of the YOMANI mainboard and keyboard PCBs">
             <div class="image-caption">Photos internes de la FCC montrant la carte mère et les circuits imprimés du clavier du YOMANI ML/XR</div>
         </div>
 
         <p>Comme vous pouvez le voir sur l'image ci-dessus, la carte mère principale comporte un certain nombre de points de test. Certains d'entre eux ont retenu mon attention, notamment parce qu'ils semblaient accessibles de l'extérieur sans ouvrir le boîtier du TPV — ce qui signifie qu'ils pouvaient être sondés sans déclencher les mécanismes anti-falsification qui effaceraient la mémoire de l'appareil.</p>
 
         <div class="image-container">
-            <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/09-touch-main-xr-test-points.png?v=1780568328" alt="Close-up of the Touch Main XR board highlighting accessible test points">
+            <img src="../../../cdn/shop/files/09-touch-main-xr-test-points.png" alt="Close-up of the Touch Main XR board highlighting accessible test points">
             <div class="image-caption">Un groupe de points de test sur la carte Touch Main XR – accessible depuis l’extérieur de la zone sécurisée</div>
         </div>
 
         <p>Maintenant que j’avais identifié quelques points d’entrée potentiels, il était temps d’acheter quelques échantillons en ligne…</p>
 
         <div class="image-container">
-            <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/10-yomani-xr-marketplace-listing.png?v=1780568331" alt="Online marketplace listing for a used YOMANI XR payment terminal">
+            <img src="../../../cdn/shop/files/10-yomani-xr-marketplace-listing.png" alt="Online marketplace listing for a used YOMANI XR payment terminal">
             <div class="image-caption">Un terminal YOMANI XR bon marché « pour pièces détachées ou défectueux », commandé en ligne</div>
         </div>
 
@@ -9630,38 +9630,38 @@ RECON active – Énumération des broches avec <a href="../../../products/whidb
         <p>Quelques jours plus tard, les échantillons DUT sont arrivés, et la première étape a consisté à tester les points de test à l’aide d’un multimètre afin d’identifier ceux qui étaient électriquement pertinents. Après avoir réduit la liste, j’ai ensuite utilisé la fonctionnalité d’analyseur logique intégrée à <a href="../../../products/whidboard-pro.html">WHIDBOARD</a> pour vérifier si des données étaient émises par le TPV.</p>
 
         <div class="image-container">
-            <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/11-whidboard-logic-analyzer-connected.jpg?v=1780568330" alt="WHIDBOARD wired to the opened POS for logic analysis">
+            <img src="../../../cdn/shop/files/11-whidboard-logic-analyzer-connected.jpg" alt="WHIDBOARD wired to the opened POS for logic analysis">
             <div class="image-caption">WHIDBOARD connecté aux points de test du POS ouvert</div>
         </div>
 
         <p>Après avoir essayé différentes broches, comme vous pouvez le voir sur la capture d'écran ci-dessous, j'ai finalement trouvé la ligne TX d'une interface de débogage UART. 😎</p>
 
         <div class="image-container">
-            <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/12-pulseview-uart-tx-decode.png?v=1780568327" alt="PulseView decoding UART data captured from the TX line">
+            <img src="../../../cdn/shop/files/12-pulseview-uart-tx-decode.png" alt="PulseView decoding UART data captured from the TX line">
             <div class="image-caption">PulseView décodant la sortie de démarrage UART capturée sur la ligne TX</div>
         </div>
 
         <p>Il est maintenant temps de lancer la fonctionnalité Pin Enumerator de <a href="../../../products/whidboard-pro.html">WHIDBOARD</a> afin de trouver également la broche RX !</p>
 
         <div class="image-container">
-            <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/13-whidboard-pin-enumerator-connected.jpg?v=1780568331" alt="WHIDBOARD Pin Enumerator wired to the POS test points">
+            <img src="../../../cdn/shop/files/13-whidboard-pin-enumerator-connected.jpg" alt="WHIDBOARD Pin Enumerator wired to the POS test points">
             <div class="image-caption">Câblage du Pin Enumerator de WHIDBOARD pour rechercher par force brute les broches UART restantes</div>
         </div>
 
         <div class="image-container">
-            <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/14-pin-enumerator-uart-pins-found.png?v=1780568327" alt="Pin Enumerator output reporting the discovered UART pins and baud rate">
+            <img src="../../../cdn/shop/files/14-pin-enumerator-uart-pins-found.png" alt="Pin Enumerator output reporting the discovered UART pins and baud rate">
             <div class="image-caption">Le Pin Enumerator se verrouille sur l'UART : TXD, RXD et un débit en bauds de 115200</div>
         </div>
 
         <div class="image-container">
-            <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/15-uart-passthrough-boot-log.png?v=1780568341" alt="UART passthrough session showing the device boot log">
+            <img src="../../../cdn/shop/files/15-uart-passthrough-boot-log.png" alt="UART passthrough session showing the device boot log">
             <div class="image-caption">Passage en mode de transfert UART et observation du démarrage de l'appareil</div>
         </div>
 
         <p>Laisser le DUT terminer le processus de démarrage a conduit à quelque chose <b>de vraiment inattendu</b>…</p>
 
         <div class="image-container">
-            <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/16-uart-root-shell-busybox.png?v=1780568326" alt="UART console dropping into a BusyBox root shell">
+            <img src="../../../cdn/shop/files/16-uart-root-shell-busybox.png" alt="UART console dropping into a BusyBox root shell">
             <div class="image-caption">Le démarrage s'est terminé directement dans un shell root BusyBox - <code>uid=0(root) gid=0(root)</code>
 </div>
         </div>
@@ -9684,25 +9684,25 @@ tar -cvf /mnt/usb/root.tar /root
         </div>
 
         <div class="image-container">
-            <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/17-dmesg-usb-flash-disk.png?v=1780568326" alt="dmesg output showing the USB flash drive being attached">
+            <img src="../../../cdn/shop/files/17-dmesg-usb-flash-disk.png" alt="dmesg output showing the USB flash drive being attached">
             <div class="image-caption">Une clé USB branchée sur le terminal de point de vente en fonctionnement et détectée par le noyau</div>
         </div>
 
         <div class="image-container">
-            <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/18-dd-dump-mtd-firmware.png?v=1780568324" alt="Terminal dumping the NAND partitions with dd to the USB drive">
+            <img src="../../../cdn/shop/files/18-dd-dump-mtd-firmware.png" alt="Terminal dumping the NAND partitions with dd to the USB drive">
             <div class="image-caption">Copie des partitions NAND brutes sur la clé USB à l'aide de <code>dd</code>
 </div>
         </div>
 
         <div class="image-container">
-            <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/19-tar-root-filesystem.png?v=1780568326" alt="tar archiving the root filesystem, listing payment application files">
+            <img src="../../../cdn/shop/files/19-tar-root-filesystem.png" alt="tar archiving the root filesystem, listing payment application files">
             <div class="image-caption">Archivage de l'intégralité du <code>/root</code> système de fichiers — y compris l'application de paiement et ses clés</div>
         </div>
 
         <p>Et pour prouver que j’étais capable non seulement de lire le système de fichiers, mais aussi de le modifier… j’ai effectivement apporté quelques modifications… 😎</p>
 
         <div class="image-container">
-            <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/20-pos-screen-hacked-tamper.jpg?v=1780568332" alt="POS screen displaying a custom hacked message">
+            <img src="../../../cdn/shop/files/20-pos-screen-hacked-tamper.jpg" alt="POS screen displaying a custom hacked message">
             <div class="image-caption">Une petite preuve de manipulation sur l'écran même du terminal</div>
         </div>
 
@@ -9715,20 +9715,20 @@ nmap -n -sS 192.168.19.100
         </div>
 
         <div class="image-container">
-            <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/21-nmap-telnet-23-open.png?v=1780568325" alt="Nmap scan reporting port 23/tcp telnet open on the POS">
+            <img src="../../../cdn/shop/files/21-nmap-telnet-23-open.png" alt="Nmap scan reporting port 23/tcp telnet open on the POS">
             <div class="image-caption">Nmap le confirme : <code>23/tcp open telnet</code> sur le terminal de paiement</div>
         </div>
 
         <p>Et oui… on pouvait s'y connecter (en tant qu'administrateur) SANS mot de passe !</p>
 
         <div class="image-container">
-            <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/22-telnet-root-no-password.png?v=1780568327" alt="Telnet session logging in as root without a password">
+            <img src="../../../cdn/shop/files/22-telnet-root-no-password.png" alt="Telnet session logging in as root without a password">
             <div class="image-caption">Une connexion root sans mot de passe via Telnet – directement vers <code>uid=0(root)</code>
 </div>
         </div>
 
         <div class="image-container">
-            <img src="https://cdn.shopify.com/s/files/1/2175/8571/files/23-shodan-samoa-login-port23.png?v=1780568326" alt="Shodan search results showing exposed POS terminals on port 23">
+            <img src="../../../cdn/shop/files/23-shodan-samoa-login-port23.png" alt="Shodan search results showing exposed POS terminals on port 23">
             <div class="image-caption">Shodan révèle qu'au moins 61 de ces terminaux sont directement exposés à Internet</div>
         </div>
 
@@ -14442,7 +14442,7 @@ nmap -n -sS 192.168.19.100
       </script>
     
 <script
-        src="../../../cdn/shop/t/60/assets/empire.min.js?v=36309983166111717561773500247"
+        src="../../../cdn/shop/t/60/assets/empire.min.js"
         data-scripts
         data-shopify-api-url="//lab401.com/cdn/shopifycloud/storefront/assets/themes_support/api.jquery-7ab1a3a4.js"
         data-shopify-countries="/services/javascripts/countries.js"
@@ -14555,7 +14555,7 @@ nmap -n -sS 192.168.19.100
     </script>
 
     <script
-      src="../../../cdn/shop/t/60/assets/instantPage.min.js?v=132952667689675371351772550680"
+      src="../../../cdn/shop/t/60/assets/instantPage.min.js"
       type="module"
       defer
     >
@@ -14563,7 +14563,7 @@ nmap -n -sS 192.168.19.100
 
     
     <script
-      src="../../../cdn/shop/t/60/assets/lab401-a11y.js?v=27954220535327733821790957665"
+      src="../../../cdn/shop/t/60/assets/lab401-a11y.js"
       data-scrollable-label="Contenu défilant"
       data-youtube-player="Lecteur vidéo YouTube"
       data-vimeo-player="Lecteur vidéo Vimeo"
@@ -14573,14 +14573,14 @@ nmap -n -sS 192.168.19.100
     ></script>
 
     
-    <script src="../../../cdn/shop/t/60/assets/lab401-preferred-source.js?v=39855304419376939601788370164" defer></script>
+    <script src="../../../cdn/shop/t/60/assets/lab401-preferred-source.js" defer></script>
 
     
     
 
 
 
-    <script src="../../../cdn/shop/t/60/assets/lab401-country.js?v=118131794101621485741794829669" defer></script>
+    <script src="../../../cdn/shop/t/60/assets/lab401-country.js" defer></script>
       <script>window.LAB401_MONEY_FORMAT = "€{{amount}}";</script>
       <script>(function(n, v) {/* eslint-disable-next-line max-len */if (window.Shopify && window.Shopify.theme && navigator && navigator.sendBeacon && window.Shopify.designMode) {if (sessionStorage.getItem('oots_beacon')) return;navigator.sendBeacon('https://app.outofthesandbox.com/beacon', new URLSearchParams({shop_domain: window.Shopify.shop.toLowerCase(),shop_id: '21758571',shop_email: 'support@lab401.com',theme_name: n.toLowerCase(),theme_version: v.toLowerCase(),theme_store_id: window.Shopify.theme.theme_store_id,theme_id: window.Shopify.theme.id,theme_role: window.Shopify.theme.role,}));sessionStorage.setItem('oots_beacon', '');}}('empire','12.2.1'))</script>
   <div id="shopify-block-AaTJnSGxzM0tTc1RrN__7333856334229879547" class="shopify-block shopify-app-block">
