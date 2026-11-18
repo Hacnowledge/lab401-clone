@@ -328,15 +328,21 @@
   }
 
   /* ---------------- application du pays ---------------- */
-  function wireDisclosure(wrapperSel) {
+  function wireDisclosure(wrapperSel, toggleSel, listSel) {
     /* Reproduit le mecanisme du selecteur de langue (script inline du theme)
        : clic sur le bouton -> ouvre/ferme la liste, clic ailleurs -> ferme.
        Ne cible que les selecteurs de DEVISE/PAYS (la langue a deja son
-       propre script inline : la rebrancher ferait basculer deux fois). */
+       propre script inline : la rebrancher ferait basculer deux fois).
+       La devise mobile utilise ses propres attributs
+       (data-mobile-currency-toggle / data-mobile-currency-list) et non
+       data-disclosure-toggle / data-disclosure-list : sans les bons
+       selecteurs, le bouton ne faisait rien. */
+    toggleSel = toggleSel || '[data-disclosure-toggle]';
+    listSel = listSel || '[data-disclosure-list]';
     var wrapper = document.querySelector(wrapperSel);
     if (!wrapper || wrapper.getAttribute('data-lab401-wired')) return;
-    var toggle = wrapper.querySelector('[data-disclosure-toggle]');
-    var list = wrapper.querySelector('[data-disclosure-list]');
+    var toggle = wrapper.querySelector(toggleSel);
+    var list = wrapper.querySelector(listSel);
     if (!toggle || !list) return;
     wrapper.setAttribute('data-lab401-wired', '1');
     function open() { list.style.display = 'block'; toggle.setAttribute('aria-expanded', 'true'); }
@@ -349,7 +355,7 @@
   }
   function wireCurrencyDisclosures() {
     wireDisclosure('[data-header-currency-selector]');
-    wireDisclosure('[data-mobile-currency]');
+    wireDisclosure('[data-mobile-currency]', '[data-mobile-currency-toggle]', '[data-mobile-currency-list]');
     wireDisclosure('[data-disclosure-country]');
   }
   function applyCountry(code, source) {
