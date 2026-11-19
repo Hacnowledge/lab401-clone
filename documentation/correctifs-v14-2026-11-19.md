@@ -607,9 +607,18 @@ suivante.
   local recalcule aussitôt ses totaux de ligne et son sous-total quand
   la TVA change.
 
-### Vérification en navigateur
+### Vérification en navigateur (2026-11-19 15:24–15:32)
 
-*(En attente — à compléter.)*
+**BON :**
+- Sélecteur de devise en tête : exactement **8 pays** (FR, DE, ES, IT, NL, BE, US, CA) — USD, CAD, EUR seulement. La version `?v=14` a bien cassé le cache.
+- Page panier et logo : toujours bons (panier local stable, aucun drapeau).
+- Le vieux panier figé à 379,00 $ (Sticker, O.MG, Flipper) n'apparaît plus nulle part dans le tiroir.
+
+**ENCORE CASSÉ (corrigé en v14.6) :**
+- Sélecteur de pays du **pied de page : toujours 71 pays** (livre, yen, franc suisse…). Le filtre de la v14.5 n'a pas réduit le pied de page : il retirait seulement le lien `<a>` (laissant un `<li>` vide) et ne se ré-appliquait pas si le thème reconstruisait la liste (clone mobile).
+- Bascule **Ex VAT / Inc VAT : les totaux de ligne et le sous-total ne bougent toujours pas** (prix unitaires OK : Flipper 149,17 € → 179,00 €, PortaPack 325,00 € → 390,00 €, mais lignes 298,34 € / 325,00 € et sous-total 623,34 € figés ; attendu en Inc VAT : 358,00 € / 390,00 € / 748,00 €). Cause trouvée : la bascule est une case à cocher `[data-tax-preference]` dont le gestionnaire appelait `processPrices()` sans émettre `lab401:prices` — l'`emitPrices()` de la v14.5 avait été ajouté dans `taxHandler.setTaxPreference`, une fonction que personne n'appelle.
+
+**Tiroir UpCart (DOM, invisible en usage normal) :** ne s'ouvre pas visuellement (aucun déclencheur : l'icône panier mène à cart.html, l'ajout montre un toast, pas de bouton collant). Sur cart.html après rechargement, il liste bien les articles locaux (bonnes quantités et montants) mais avec le mauvais symbole monétaire « $ » au lieu de « € », et il ne se met pas à jour après un changement de quantité (jusqu'au rechargement). Sur l'accueil et les fiches produit, il affiche « YOUR CART IS EMPTY » alors que le panier local contient des articles (il n'a pas encore rechargé `/cart.js`). Non corrigé : le tiroir ne s'ouvre jamais, donc invisible pour l'utilisateur.
 
 ### Tiroir UpCart — en attente de test
 
@@ -623,6 +632,43 @@ usage normal (le bouton panier mène à cart.html, l'ajout montre une
 bannière). Reste à vérifier en ouvrant le tiroir : affiche-t-il le panier
 local, ou l'instantané statique ? Si c'est l'instantané, il faudra retirer
 ou synchroniser `upcartPreloadedCart`.
+
+## v14.6 — TVA et pied de page corrigés (version JS v15)
+
+**Commit :** `5f73cd4a` (dernier lot 5/5 ; 1 939 fichiers au total, 5 lots), poussé le 2026-11-19 ~16:01.
+
+### Les deux restes de la vérification v14.5
+
+1. **Pied de page : toujours 71 pays.** Le filtre de la v14.5 retirait
+   seulement le lien `<a>` (laissant un `<li>` vide) et ne se
+   ré-appliquait pas si le thème reconstruisait la liste (clone mobile).
+2. **Bascule Ex VAT / Inc VAT : totaux figés.** L'`emitPrices()` de la
+   v14.5 avait été ajouté dans `taxHandler.setTaxPreference`, une fonction
+   que personne n'appelle : la bascule est une case à cocher
+   `[data-tax-preference]` dont le gestionnaire (ligne 838 de
+   `build-static-js.py`) appelait `setTaxPref()` + `processPrices()` sans
+   émettre `lab401:prices`.
+
+### Correctifs
+
+- **Bascule TVA** : le gestionnaire de la case à cocher émet désormais
+  `lab401:prices` (`emitPrices()`) — les totaux de ligne et le sous-total
+  du panier local se recalculent aussitôt.
+- **Pied de page** : `filterCountryDisclosures()` retire désormais le
+  `<li>` parent (pas seulement le lien) ; `watchCountryDisclosures()`
+  (MutationObserver sur `document.body` + re-filtrage à l'ouverture du
+  sélecteur) ré-applique le filtre si le thème reconstruit la liste.
+- **`lab401-static.js?v=15`** : version passée de 14 à 15 dans les
+  1 938 pages (pour forcer le rechargement du nouveau code).
+- **Restauration après redémarrage de la machine** : `/tmp/countries.json`
+  et `/tmp/rates_eur.json` sont effacés à chaque redémarrage (dossier
+  temporaire) — restaurés depuis `countries.json` (local) et en extrayant
+  les 166 taux du `lab401-static.js` généré. À noter : ces deux fichiers
+  temporaires doivent être restaurés avant chaque nouveau build.
+
+### Vérification en navigateur
+
+*(En attente — à compléter.)*
 
 ## Prochaine étape convenue — Checkout réel (Supabase + Stripe)
 
