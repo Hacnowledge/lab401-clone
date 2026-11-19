@@ -679,6 +679,58 @@ ou synchroniser `upcartPreloadedCart`.
 
 **Réserve secondaire (DOM seulement) :** le tiroir de panier affiche encore des montants en « $ » (« Checkout • $623.34 », « $748.01 ») et, à un moment, d'autres articles (Sticker Pack, O.MG Cable, Flipper ×1) — à confirmer séparément, le tiroir ne s'ouvre pas visuellement.
 
+### Débogage de la TVA (2026-11-19 16:05–16:15)
+
+**Cause trouvée (le cran de retard) :** `lab401-cart.js` est injecté
+dynamiquement par `lab401-static.js` (`s.src = base + '/lab401-cart.js?v=1'`,
+après l'initialisation). Si l'utilisateur bascule la TVA avant que
+`lab401-cart.js` soit chargé, l'événement `lab401:prices` part dans le
+vide (aucun écouteur inscrit) et les totaux restent figés ; après
+rechargement, le fichier est en cache, l'écouteur est actif, et les
+bascules fonctionnent aussitôt. Preuve : au premier chargement, les deux
+premières bascules n'ont rien recalculé (même après 5 s), puis après
+rechargement les bascules recalculent immédiatement dans les deux sens ;
+un clic « + » sur la quantité recalcule aussitôt (preuve que `renderCart()`
+lui-même est correct). Les prix unitaires changent toujours aussitôt car
+`processPrices()` les réécrit sur place (éléments `[data-tax-cents]`), sans
+passer par `renderCart()`. Les totaux ne portent plus de `data-tax-cents`
+après `renderCart()` (`setSubtotal` retire l'attribut), donc `processPrices`
+ne peut pas les toucher. Un seul `[data-cart-item-list]`, deux
+`[data-cart-total]` (haut et bas, tous deux mis à jour) : pas de doublon.
+Le thème ne peut pas produire de totaux TTC : `/cart.js` (intercepté)
+renvoie les prix en centimes EUR hors TVA.
+
+**Écart de 0,01 € :** `Lab401_priceValue` retournait le prix non arrondi
+(149,17 × 1,2 = 179,004) ; le total de ligne (179,004 × 2 = 358,008 →
+358,01) ne correspondait pas au prix unitaire affiché (179,00).
+
+## v14.7 — TVA recalculée aussitôt (course au chargement + arrondi)
+
+**Commit :** `d160536f` (dernier lot 5/5 ; 1 939 fichiers au total, 5 lots), poussé le 2026-11-19 ~16:41.
+
+### Correctifs
+
+- **Course au chargement** : le gestionnaire de la case à cocher TVA
+  appelle directement `window.Lab401Cart.renderCart()` en plus d'émettre
+  `lab401:prices` (si le panier est chargé, le recalcul a lieu même si
+  l'écouteur n'était pas inscrit) ; le chargement de `lab401-cart.js`
+  (désormais `?v=2`, pour casser le cache) ré-émet `lab401:prices` une
+  fois prêt (une bascule faite avant son chargement est rattrapée).
+- **Arrondi 0,01 €** : `Lab401_priceValue()` arrondit à 2 décimales
+  (179,004 → 179,00) — le total de ligne (179,00 × 2 = 358,00) correspond
+  au prix unitaire affiché, sous-total Inc VAT **748,00 €** (au lieu de
+  748,01 €). Les tables exactes CAD/USD (entiers) et les devises à
+  0 décimale ne sont pas affectées.
+- **`lab401-static.js?v=16`** : version passée de 15 à 16 dans les
+  1 938 pages.
+
+### Vérification en navigateur
+
+*(En attente — à compléter. À tester dès le premier chargement, sans
+rechargement préalable : basculer Ex VAT → Inc VAT aussitôt après
+l'arrivée sur cart.html et vérifier que les totaux suivent immédiatement,
+dans les deux sens, et que le sous-total Inc VAT est 748,00 €.)*
+
 ## Prochaine étape convenue — Checkout réel (Supabase + Stripe)
 
 **Statut : en attente du go de l'utilisateur (demandé le 2026-11-19).**
