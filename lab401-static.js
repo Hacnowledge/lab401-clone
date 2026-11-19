@@ -18,7 +18,7 @@
   var LS_TAX_PREF = 'tax_preference';
   var LS_TAX_RATE = 'tax_rate';
   var COUNTRIES = {"AD": {"name": "Andorre", "currency": "EUR", "symbol": "€"}, "AE": {"name": "Émirats arabes unis", "currency": "AED", "symbol": "د.إ"}, "AL": {"name": "Albanie", "currency": "ALL", "symbol": "L"}, "AT": {"name": "Autriche", "currency": "EUR", "symbol": "€"}, "AU": {"name": "Australie", "currency": "AUD", "symbol": "$"}, "BA": {"name": "Bosnie-Herzégovine", "currency": "BAM", "symbol": "КМ"}, "BE": {"name": "Belgique", "currency": "EUR", "symbol": "€"}, "BG": {"name": "Bulgarie", "currency": "EUR", "symbol": "€"}, "BQ": {"name": "Pays-Bas caribéens", "currency": "USD", "symbol": "$"}, "CA": {"name": "Canada", "currency": "CAD", "symbol": "$"}, "CH": {"name": "Suisse", "currency": "CHF", "symbol": "CHF"}, "CN": {"name": "Chine", "currency": "CNY", "symbol": "¥"}, "CY": {"name": "Chypre", "currency": "EUR", "symbol": "€"}, "CZ": {"name": "Tchéquie", "currency": "CZK", "symbol": "Kč"}, "DE": {"name": "Allemagne", "currency": "EUR", "symbol": "€"}, "DK": {"name": "Danemark", "currency": "DKK", "symbol": "kr."}, "DO": {"name": "République dominicaine", "currency": "DOP", "symbol": "$"}, "EE": {"name": "Estonie", "currency": "EUR", "symbol": "€"}, "ES": {"name": "Espagne", "currency": "EUR", "symbol": "€"}, "FI": {"name": "Finlande", "currency": "EUR", "symbol": "€"}, "FR": {"name": "France", "currency": "EUR", "symbol": "€"}, "GB": {"name": "Royaume-Uni", "currency": "GBP", "symbol": "£"}, "GG": {"name": "Guernesey", "currency": "GBP", "symbol": "£"}, "GI": {"name": "Gibraltar", "currency": "GBP", "symbol": "£"}, "GL": {"name": "Groenland", "currency": "DKK", "symbol": "kr."}, "GR": {"name": "Grèce", "currency": "EUR", "symbol": "€"}, "HK": {"name": "R.A.S. chinoise de Hong Kong", "currency": "HKD", "symbol": "$"}, "HR": {"name": "Croatie", "currency": "EUR", "symbol": "€"}, "HU": {"name": "Hongrie", "currency": "HUF", "symbol": "Ft"}, "IE": {"name": "Irlande", "currency": "EUR", "symbol": "€"}, "IS": {"name": "Islande", "currency": "ISK", "symbol": "kr"}, "IT": {"name": "Italie", "currency": "EUR", "symbol": "€"}, "JE": {"name": "Jersey", "currency": "GBP", "symbol": "£"}, "JO": {"name": "Jordanie", "currency": "JOD", "symbol": "د.ا"}, "JP": {"name": "Japon", "currency": "JPY", "symbol": "¥"}, "KR": {"name": "Corée du Sud", "currency": "KRW", "symbol": "₩"}, "KW": {"name": "Koweït", "currency": "KWD", "symbol": "د.ك"}, "LI": {"name": "Liechtenstein", "currency": "CHF", "symbol": "CHF"}, "LT": {"name": "Lituanie", "currency": "EUR", "symbol": "€"}, "LU": {"name": "Luxembourg", "currency": "EUR", "symbol": "€"}, "LV": {"name": "Lettonie", "currency": "EUR", "symbol": "€"}, "MC": {"name": "Monaco", "currency": "EUR", "symbol": "€"}, "MD": {"name": "Moldavie", "currency": "MDL", "symbol": "L"}, "ME": {"name": "Monténégro", "currency": "EUR", "symbol": "€"}, "MK": {"name": "Macédoine du Nord", "currency": "MKD", "symbol": "ден"}, "MO": {"name": "R.A.S. chinoise de Macao", "currency": "MOP", "symbol": "MOP$"}, "MT": {"name": "Malte", "currency": "EUR", "symbol": "€"}, "MX": {"name": "Mexique", "currency": "MXN", "symbol": "$"}, "NC": {"name": "Nouvelle-Calédonie", "currency": "XPF", "symbol": "₣"}, "NL": {"name": "Pays-Bas", "currency": "EUR", "symbol": "€"}, "NO": {"name": "Norvège", "currency": "NOK", "symbol": "kr"}, "NZ": {"name": "Nouvelle-Zélande", "currency": "NZD", "symbol": "$"}, "OM": {"name": "Oman", "currency": "OMR", "symbol": "ر.ع."}, "PH": {"name": "Philippines", "currency": "PHP", "symbol": "₱"}, "PL": {"name": "Pologne", "currency": "PLN", "symbol": "zł"}, "PT": {"name": "Portugal", "currency": "EUR", "symbol": "€"}, "QA": {"name": "Qatar", "currency": "QAR", "symbol": "ر.ق"}, "RO": {"name": "Roumanie", "currency": "RON", "symbol": "Lei"}, "RS": {"name": "Serbie", "currency": "RSD", "symbol": "РСД"}, "SE": {"name": "Suède", "currency": "SEK", "symbol": "kr"}, "SG": {"name": "Singapour", "currency": "SGD", "symbol": "$"}, "SI": {"name": "Slovénie", "currency": "EUR", "symbol": "€"}, "SK": {"name": "Slovaquie", "currency": "EUR", "symbol": "€"}, "SM": {"name": "Saint-Marin", "currency": "EUR", "symbol": "€"}, "TH": {"name": "Thaïlande", "currency": "THB", "symbol": "฿"}, "TW": {"name": "Taïwan", "currency": "TWD", "symbol": "$"}, "UA": {"name": "Ukraine", "currency": "UAH", "symbol": "₴"}, "US": {"name": "États-Unis", "currency": "USD", "symbol": "$"}, "VA": {"name": "État de la Cité du Vatican", "currency": "EUR", "symbol": "€"}, "XK": {"name": "Kosovo", "currency": "EUR", "symbol": "€"}, "ZA": {"name": "Afrique du Sud", "currency": "ZAR", "symbol": "R"}};
-  var RATES = {"EUR": 1, "AED": 4.039426, "AFN": 71.634871, "ALL": 90.52583, "AMD": 396.324895, "ANG": 1.968842, "AOA": 1043.054109, "ARS": 1707.35189, "AUD": 1.632161, "AWG": 1.968842, "AZN": 1.869705, "BAM": 1.95583, "BBD": 2.199823, "BDT": 137.249175, "BGN": 1.95583, "BHD": 0.413567, "BIF": 3309.810467, "BMD": 1.099912, "BND": 1.416996, "BOB": 12.823708, "BRL": 6.357444, "BSD": 1.099912, "BTN": 102.802386, "BWP": 15.939785, "BYN": 3.297336, "BZD": 2.199823, "CAD": 1.572003, "CDF": 2555.496241, "CHF": 0.924247, "CLF": 0.027785, "CLP": 1098.228673, "CNH": 7.331042, "CNY": 7.339606, "COP": 3650.61493, "CRC": 490.533696, "CUP": 26.397881, "CVE": 110.265, "CZK": 24.380711, "DJF": 195.477406, "DKK": 7.475115, "DOP": 66.672165, "DZD": 150.795343, "EGP": 59.037559, "ERN": 16.498675, "ETB": 184.113291, "FJD": 2.525353, "FKP": 0.833047, "FOK": 7.475115, "GBP": 0.833042, "GEL": 2.850707, "GGP": 0.833047, "GHS": 12.944512, "GIP": 0.833047, "GMD": 82.218372, "GNF": 9726.271402, "GTQ": 8.409167, "GYD": 230.115775, "HKD": 8.62607, "HNL": 29.63119, "HRK": 7.5345, "HTG": 144.323142, "HUF": 365.776244, "IDR": 20062.94136, "ILS": 3.569836, "IMP": 0.833047, "INR": 102.798428, "IQD": 1666.083333, "IRR": 2112831.830862, "ISK": 136.84152, "JEP": 0.833047, "JMD": 174.879181, "JOD": 0.779837, "JPY": 175.282804, "KES": 143.075772, "KGS": 96.145028, "KHR": 4472.118421, "KID": 1.63216, "KMF": 491.96775, "KRW": 1468.049022, "KWD": 0.341975, "KYD": 0.916593, "KZT": 488.899421, "LAK": 24567.965602, "LBP": 98442.096279, "LKR": 365.989367, "LRD": 186.436236, "LSL": 18.613072, "LYD": 7.108399, "MAD": 10.971751, "MDL": 20.067691, "MGA": 5001.131083, "MKD": 61.497, "MMK": 2310.168458, "MNT": 3961.232502, "MOP": 8.887058, "MRU": 44.786006, "MUR": 52.666719, "MVR": 16.999149, "MWK": 1917.656383, "MXN": 20.280644, "MYR": 4.501729, "MZN": 70.120108, "NAD": 18.613072, "NGN": 1470.951872, "NIO": 40.495502, "NOK": 10.580983, "NPR": 164.483817, "NZD": 1.999711, "OMR": 0.422913, "PAB": 1.099912, "PEN": 3.755912, "PGK": 4.977097, "PHP": 70.071339, "PKR": 304.346066, "PLN": 4.402128, "PYG": 6818.329038, "QAR": 4.003679, "RON": 5.348098, "RSD": 117.661618, "RUB": 90.751514, "RWF": 1627.57989, "SAR": 4.124669, "SBD": 8.822165, "SCR": 16.223646, "SDG": 491.868307, "SEK": 11.126197, "SGD": 1.417009, "SHP": 0.833047, "SLE": 25.369763, "SLL": 25369.628125, "SOS": 629.409259, "SRD": 41.332969, "SSP": 6315.077271, "STN": 24.5, "SYP": 133.920291, "SZL": 18.613072, "THB": 37.199751, "TJS": 10.119458, "TMT": 3.848357, "TND": 3.30498, "TOP": 2.637986, "TRY": 55.461893, "TTD": 7.882782, "TVD": 1.63216, "TWD": 36.222978, "TZS": 2892.124343, "UAH": 49.925576, "UGX": 4451.483065, "USD": 1.099852, "UYU": 44.733491, "UZS": 13175.021832, "VES": 1007.386656, "VND": 28273.411666, "VUV": 132.962586, "WST": 3.056837, "XAF": 655.957, "XCD": 2.969762, "XCG": 1.968842, "XDR": 0.817806, "XOF": 655.957, "XPF": 119.332, "YER": 260.188002, "ZAR": 18.613321, "ZMW": 22.640899, "ZWG": 29.2956, "ZWL": 29.2956};
+  var RATES = {"EUR": 1, "AED": 4.030196, "AFN": 71.802419, "ALL": 90.285973, "AMD": 395.691992, "ANG": 1.964343, "AOA": 1056.620265, "ARS": 1710.013269, "AUD": 1.632877, "AWG": 1.964343, "AZN": 1.865592, "BAM": 1.95583, "BBD": 2.194797, "BDT": 136.744467, "BGN": 1.95583, "BHD": 0.412622, "BIF": 3303.72894, "BMD": 1.097399, "BND": 1.414895, "BOB": 12.837158, "BRL": 6.363359, "BSD": 1.097399, "BTN": 102.511227, "BWP": 15.967963, "BYN": 3.295085, "BZD": 2.194797, "CAD": 1.571655, "CDF": 2551.56391, "CHF": 0.924889, "CLF": 0.027585, "CLP": 1090.321297, "CNH": 7.316315, "CNY": 7.328059, "COP": 3634.795118, "CRC": 488.317114, "CUP": 26.337565, "CVE": 110.265, "CZK": 24.390586, "DJF": 195.030767, "DKK": 7.47476, "DOP": 66.403357, "DZD": 150.540411, "EGP": 58.979171, "ERN": 16.460978, "ETB": 185.048525, "FJD": 2.52292, "FKP": 0.834, "FOK": 7.47476, "GBP": 0.833994, "GEL": 2.845824, "GGP": 0.834, "GHS": 12.929598, "GIP": 0.834, "GMD": 82.107963, "GNF": 9715.36801, "GTQ": 8.384974, "GYD": 229.761679, "HKD": 8.608297, "HNL": 29.502028, "HRK": 7.5345, "HTG": 144.101062, "HUF": 368.385489, "IDR": 19999.752795, "ILS": 3.588437, "IMP": 0.834, "INR": 102.501162, "IQD": 1663.519608, "IRR": 2119295.852443, "ISK": 136.945263, "JEP": 0.834, "JMD": 173.935739, "JOD": 0.778056, "JPY": 174.886879, "KES": 142.782084, "KGS": 96.003861, "KHR": 4465.236842, "KID": 1.63283, "KMF": 491.96775, "KRW": 1461.528828, "KWD": 0.341086, "KYD": 0.914498, "KZT": 487.772164, "LAK": 24534.980649, "LBP": 98217.16963, "LKR": 365.075057, "LRD": 184.326371, "LSL": 18.917292, "LYD": 7.097164, "MAD": 10.933703, "MDL": 20.081594, "MGA": 4996.265011, "MKD": 61.497, "MMK": 2305.434092, "MNT": 3948.061818, "MOP": 8.866578, "MRU": 44.776092, "MUR": 52.347717, "MVR": 16.954968, "MWK": 1915.439726, "MXN": 20.545781, "MYR": 4.515598, "MZN": 70.027708, "NAD": 18.917292, "NGN": 1471.730955, "NIO": 40.379953, "NOK": 10.633253, "NPR": 164.017963, "NZD": 1.998382, "OMR": 0.421946, "PAB": 1.097399, "PEN": 3.754368, "PGK": 4.934389, "PHP": 69.836265, "PKR": 303.628595, "PLN": 4.411999, "PYG": 6866.279646, "QAR": 3.994531, "RON": 5.347767, "RSD": 117.624908, "RUB": 90.370338, "RWF": 1626.816573, "SAR": 4.115245, "SBD": 8.807604, "SCR": 16.073072, "SDG": 491.111433, "SEK": 11.154081, "SGD": 1.414851, "SHP": 0.834, "SLE": 25.162655, "SLL": 25162.914459, "SOS": 628.440741, "SRD": 41.254316, "SSP": 6309.218669, "STN": 24.5, "SYP": 133.569088, "SZL": 18.917292, "THB": 37.269354, "TJS": 10.103339, "TMT": 3.839634, "TND": 3.350605, "TOP": 2.628365, "TRY": 55.391918, "TTD": 7.886542, "TVD": 1.63283, "TWD": 36.151043, "TZS": 2890.861781, "UAH": 49.666392, "UGX": 4470.683293, "USD": 1.097391, "UYU": 44.577422, "UZS": 13137.318384, "VES": 1007.395839, "VND": 28223.512458, "VUV": 133.058915, "WST": 3.05682, "XAF": 655.957, "XCD": 2.962976, "XCG": 1.964343, "XDR": 0.81649, "XOF": 655.957, "XPF": 119.332, "YER": 259.606199, "ZAR": 18.917365, "ZMW": 22.650832, "ZWG": 29.1924, "ZWL": 29.1924};
   var FORMATS = {"EUR": {"sym": "€", "pre": true, "dec": 2}, "AED": {"sym": "د.إ", "pre": false, "dec": 2}, "ALL": {"sym": "L", "pre": false, "dec": 2}, "AUD": {"sym": "$", "pre": true, "dec": 2}, "BAM": {"sym": "КМ", "pre": false, "dec": 2}, "USD": {"sym": "$", "pre": true, "dec": 2}, "CAD": {"sym": "$", "pre": true, "dec": 2}, "CHF": {"sym": "CHF", "pre": true, "dec": 2}, "CNY": {"sym": "¥", "pre": true, "dec": 2}, "CZK": {"sym": "Kč", "pre": false, "dec": 2}, "DKK": {"sym": "kr.", "pre": false, "dec": 2}, "DOP": {"sym": "$", "pre": true, "dec": 2}, "GBP": {"sym": "£", "pre": true, "dec": 2}, "HKD": {"sym": "$", "pre": true, "dec": 2}, "HUF": {"sym": "Ft", "pre": false, "dec": 2}, "ISK": {"sym": "kr", "pre": false, "dec": 2}, "JOD": {"sym": "د.ا", "pre": false, "dec": 2}, "JPY": {"sym": "¥", "pre": true, "dec": 0}, "KRW": {"sym": "₩", "pre": true, "dec": 0}, "KWD": {"sym": "د.ك", "pre": false, "dec": 2}, "MDL": {"sym": "L", "pre": false, "dec": 2}, "MKD": {"sym": "ден", "pre": false, "dec": 2}, "MOP": {"sym": "MOP$", "pre": false, "dec": 2}, "MXN": {"sym": "$", "pre": true, "dec": 2}, "XPF": {"sym": "₣", "pre": false, "dec": 2}, "NOK": {"sym": "kr", "pre": false, "dec": 2}, "NZD": {"sym": "$", "pre": true, "dec": 2}, "OMR": {"sym": "ر.ع.", "pre": false, "dec": 2}, "PHP": {"sym": "₱", "pre": true, "dec": 2}, "PLN": {"sym": "zł", "pre": false, "dec": 2}, "QAR": {"sym": "ر.ق", "pre": false, "dec": 2}, "RON": {"sym": "Lei", "pre": false, "dec": 2}, "RSD": {"sym": "РСД", "pre": false, "dec": 2}, "SEK": {"sym": "kr", "pre": false, "dec": 2}, "SGD": {"sym": "$", "pre": true, "dec": 2}, "THB": {"sym": "฿", "pre": true, "dec": 2}, "TWD": {"sym": "$", "pre": true, "dec": 2}, "UAH": {"sym": "₴", "pre": false, "dec": 2}, "ZAR": {"sym": "R", "pre": false, "dec": 2}};
   var EU_VAT = { AT: 1.2, BE: 1.21, BG: 1.2, HR: 1.25, CY: 1.19, CZ: 1.21, DK: 1.25, EE: 1.22, FI: 1.255, FR: 1.2, DE: 1.19, GR: 1.24, HU: 1.27, IE: 1.23, IT: 1.22, LV: 1.21, LT: 1.21, LU: 1.17, MT: 1.18, NL: 1.21, PL: 1.23, PT: 1.23, RO: 1.19, SK: 1.23, SI: 1.22, ES: 1.21, SE: 1.25 };
   var CAD_FALLBACK_RATE = 1.66;
@@ -335,14 +335,20 @@
   function updateLogoFlag(code) {
     /* Le drapeau du pays choisi apparait a cote du logo, pour TOUS les pays
        (modele .ca porte a toutes les devises) : le drapeau du theme
-       flag-xx.svg, 20x15, colle a droite du logo. */
-    var link = document.querySelector('a.site-logo');
-    if (!link) return;
-    var old = link.querySelector('.lab401-country-flag');
-    if (code && COUNTRIES[code]) {
-      if (old) {
-        old.src = flagUrl(code);
-      } else {
+       flag-xx.svg, 20x15, colle a droite du logo.
+       IMPORTANT : retirer d'abord TOUS les drapeaux deja presents dans le
+       lien du logo (pas seulement le notre). Un drapeau d'une autre source
+       (ex. US par defaut, ou un clone de l'en-tete fixe) resterait sinon
+       colle a cote du notre, les deux se chevauchant (bug signale 2026-11-18 :
+       drapeaux US + CA affiches ensemble). Traiter tous les liens .site-logo
+       (en-tete fixe clone l'en-tete), pas seulement le premier. */
+    var links = document.querySelectorAll('a.site-logo');
+    if (!links.length) return;
+    for (var li = 0; li < links.length; li++) {
+      var link = links[li];
+      var stale = link.querySelectorAll('img[src*="flag-"]');
+      for (var i = 0; i < stale.length; i++) stale[i].remove();
+      if (code && COUNTRIES[code]) {
         var img = document.createElement('img');
         img.className = 'flag-icon flag-icon--country lab401-country-flag';
         img.src = flagUrl(code); img.width = 20; img.height = 15;
@@ -352,7 +358,7 @@
         link.style.display = 'inline-flex';
         link.style.alignItems = 'center';
       }
-    } else if (old) old.remove();
+    }
   }
 
   /* ---------------- application du pays ---------------- */
@@ -452,6 +458,69 @@
   }
 
   /* ---------------- interceptions ---------------- */
+  /* Recherche predictive (suggestions en direct) : le theme (LiveSearch)
+     charge les suggestions depuis /<loc>/search/suggest (backend Shopify,
+     absent du clone statique -> 404). Le fetch echoue alors et les squelettes
+     de chargement restent affiches indefiniment (bug signale 2026-11-18 :
+     la barre de recherche ne montre jamais les produits).
+     On intercepte ce fetch et on repond avec les produits de l'index local,
+     dans le meme format HTML que la section predictive-search du theme. */
+  var searchIndexCache = null;
+  function loadSearchIndex() {
+    if (searchIndexCache) return Promise.resolve(searchIndexCache);
+    var url = (CFG.base || '') + '/lab401-search-index.json';
+    return fetch(url).then(function (r) {
+      if (!r.ok) throw new Error('search index ' + r.status);
+      return r.json();
+    }).then(function (j) { searchIndexCache = j; return j; });
+  }
+  function normQ(s) { return (s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, ''); }
+  function escHtml(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
+  function predictiveSearchHTML(q) {
+    var loc = CFG.locale || 'en';
+    var base = CFG.base || '';
+    return loadSearchIndex().then(function (all) {
+      var nq = normQ(q);
+      var words = nq.split(/\s+/).filter(Boolean);
+      if (!words.length) return '';
+      var hits = all.filter(function (p) {
+        if (p.locale !== loc) return false;
+        var hay = normQ(p.title + ' ' + p.handle);
+        return words.every(function (w) { return hay.indexOf(w) !== -1; });
+      }).slice(0, 6);
+      if (!hits.length) {
+        return '<div class="search-flydown--no-results" data-live-search-no-products><p>Aucun r\u00e9sultat pour &ldquo;' + escHtml(q) + '&rdquo;</p></div>';
+      }
+      var items = hits.map(function (p) {
+        var url = base + '/' + p.url;
+        var img = p.image ? (base + '/' + p.image) : '';
+        var price = p.price_cents != null ? '<span data-tax-cents="' + p.price_cents + '">\u20AC' + (p.price_cents / 100).toFixed(2) + '</span>' : '';
+        return '<a class="search-flydown--product" href="' + escHtml(url) + '">'
+          + '<div class="search-flydown--product-image">' + (img ? '<img src="' + escHtml(img) + '" alt="" loading="lazy">' : '') + '</div>'
+          + '<div class="search-flydown--product-text">'
+          + '<span class="search-flydown--product-title">' + escHtml(p.title) + '</span>'
+          + '<span class="search-flydown--product-price">' + price + '</span>'
+          + '</div></a>';
+      }).join('');
+      return '<div class="search-flydown--product-items">' + items + '</div>';
+    });
+  }
+  var nativeFetch = window.fetch && window.fetch.bind(window);
+  if (nativeFetch) {
+    window.fetch = function (input, init) {
+      var url = typeof input === 'string' ? input : (input && input.url) || '';
+      if (url.indexOf('/search/suggest') !== -1) {
+        var m = /[?&]q=([^&]*)/.exec(url);
+        var q = m ? decodeURIComponent(m[1].replace(/\+/g, ' ')) : '';
+        return predictiveSearchHTML(q).then(function (html) {
+          return new Response(html, { status: 200, headers: { 'Content-Type': 'text/html' } });
+        }).catch(function () {
+          return new Response('', { status: 200, headers: { 'Content-Type': 'text/html' } });
+        });
+      }
+      return nativeFetch(input, init);
+    };
+  }
   function closeOpenDisclosures() {
     $$('[data-disclosure-toggle][aria-expanded="true"], [data-mobile-currency-toggle][aria-expanded="true"], [data-mobile-lang-toggle][aria-expanded="true"]').forEach(function (t) {
       try { t.click(); } catch (e) {}
