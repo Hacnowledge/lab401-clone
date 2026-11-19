@@ -239,16 +239,6 @@
   };
 
   /* ---------------- selecteurs de devise ---------------- */
-  function setFlagImg(span, code) {
-    if (!span) return;
-    var img = span.querySelector('img');
-    if (img) { img.src = flagUrl(code); return; }
-    img = document.createElement('img');
-    img.className = 'flag-icon flag-icon--country';
-    img.src = flagUrl(code); img.width = 20; img.height = 15;
-    img.alt = ''; img.setAttribute('aria-hidden', 'true');
-    span.appendChild(img);
-  }
   function headerOption(c) {
     var info = COUNTRIES[c];
     var li = document.createElement('li');
@@ -256,7 +246,7 @@
     a.className = 'disclosure-list__item' + (c === state.country ? ' disclosure-list__item--current' : '');
     a.href = '#'; a.setAttribute('data-value', c); a.setAttribute('data-disclosure-option', '');
     if (c === state.country) a.setAttribute('aria-current', 'true');
-    a.innerHTML = '<span class="header-currency-selector__dropdown-flag"><img class="flag-icon flag-icon--country" src="' + flagUrl(c) + '" width="20" height="15" loading="lazy" alt="" aria-hidden="true"></span> <span class="disclosure-list__option">' + info.symbol + ' ' + info.currency + '</span>';
+    a.innerHTML = '<span class="disclosure-list__option">' + info.symbol + ' ' + info.currency + '</span>';
     li.appendChild(a);
     return li;
   }
@@ -267,7 +257,7 @@
     a.className = 'mobile-currency__option' + (c === state.country ? ' mobile-currency__option--current' : '');
     a.href = '#'; a.setAttribute('data-value', c); a.setAttribute('data-mobile-currency-option', '');
     if (c === state.country) a.setAttribute('aria-current', 'true');
-    a.innerHTML = '<span class="mobile-currency__option-flag"><img class="flag-icon flag-icon--country" src="' + flagUrl(c) + '" width="20" height="15" loading="lazy" alt="" aria-hidden="true"></span> <span>' + info.symbol + ' ' + info.currency + '</span>';
+    a.innerHTML = '<span>' + info.symbol + ' ' + info.currency + '</span>';
     li.appendChild(a);
     return li;
   }
@@ -290,19 +280,16 @@
     var shortLabel = info.symbol + ' ' + info.currency;
     var longLabel = info.name + ' (' + info.currency + ' ' + info.symbol + ')';
     $$('.header-currency-selector__toggle').forEach(function (btn) {
-      setFlagImg(btn.querySelector('.header-currency-selector__flag'), code);
       var lab = btn.querySelector('.header-currency-selector__label');
       if (lab) lab.textContent = ' ' + shortLabel + ' ';
     });
     $$('.mobile-currency__toggle').forEach(function (btn) {
-      setFlagImg(btn.querySelector('.mobile-currency__flag'), code);
       var nm = btn.querySelector('.mobile-currency__name');
       if (nm) nm.textContent = shortLabel;
     });
     $$('[data-disclosure-country]').forEach(function (box) {
       var toggle = box.querySelector('[data-disclosure-toggle]');
       if (toggle) {
-        setFlagImg(toggle.querySelector('[class*="__flag"]'), code);
         /* Le bouton contient un noeud texte (nom du pays) ET un span
            .disclosure-list__option-code (" (EUR \u20ac)") : il faut mettre
            a jour les deux, sinon on obtient "Canada (CAD $) (EUR \u20ac)". */
@@ -332,106 +319,27 @@
       if (cur) opt.setAttribute('aria-current', 'true'); else opt.removeAttribute('aria-current');
     });
   }
-  function isKeptLogoNode(n) {
-    return n.nodeType === 1 && n.classList &&
-      (n.classList.contains('site-logo-image') || n.classList.contains('lab401-country-flag'));
-  }
-  function cleanLogoLink(link) {
-    var kids = Array.prototype.slice.call(link.childNodes);
-    for (var i = 0; i < kids.length; i++) {
-      if (!isKeptLogoNode(kids[i])) link.removeChild(kids[i]);
-    }
-  }
-  var logoDiagCount = 0;
-  function logoDiag(node) {
-    /* Diagnostic temporaire v10 : le drapeau US reapparait apres nos
-       nettoyages, donc il est ajoute TARD par une autre source (aucun
-       script local ne l'insere). On note la source (pile d'appel) dans
-       le titre de l'onglet, lisible sans console, pour l'identifier puis
-       retirer ce diagnostic. */
-    if (logoDiagCount >= 3) return;
-    logoDiagCount++;
-    var desc = '';
-    try {
-      desc = node.nodeType === 3 ? 'TEXT:' + (node.nodeValue || '').slice(0, 20)
-        : 'EL:' + node.nodeName + '.' + (node.className || '');
-    } catch (e) { desc = '??'; }
-    var stack = '';
-    try { stack = (new Error().stack || '').split('\n').slice(2, 4).join(' | ').replace(/https?:\/\/[^\/]+/g, '').slice(0, 120); } catch (e) {}
-    try { document.title = 'DIAG logo ' + logoDiagCount + ' ' + desc + ' @ ' + stack; } catch (e) {}
-    try { window.__lab401LogoDiag = (window.__lab401LogoDiag || '') + '\n' + logoDiagCount + ' ' + desc + ' @ ' + stack; } catch (e) {}
-  }
-  function watchLogoLink(link) {
-    if (!window.MutationObserver || !link || link.getAttribute('data-lab401-logo-watched')) return;
-    link.setAttribute('data-lab401-logo-watched', '1');
-    new MutationObserver(function (mutations) {
-      for (var m = 0; m < mutations.length; m++) {
-        var added = mutations[m].addedNodes;
-        for (var i = 0; i < added.length; i++) {
-          var n = added[i];
-          if (isKeptLogoNode(n)) continue;
-          logoDiag(n);
-          try { link.removeChild(n); } catch (e) {}
-        }
-      }
-    }).observe(link, { childList: true });
-  }
-  function watchLogoLinks() {
-    var links = document.querySelectorAll('a.site-logo');
-    for (var li = 0; li < links.length; li++) {
-      cleanLogoLink(links[li]);
-      watchLogoLink(links[li]);
-    }
-    /* L'en-tete fixe clone l'en-tete plus tard : surveiller les nouveaux
-       liens logo ajoutes au document. */
-    if (window.MutationObserver && document.body && !watchLogoLinks._docWatched) {
-      watchLogoLinks._docWatched = true;
-      new MutationObserver(function (mutations) {
-        for (var m = 0; m < mutations.length; m++) {
-          var added = mutations[m].addedNodes;
-          for (var i = 0; i < added.length; i++) {
-            var n = added[i];
-            if (n.nodeType !== 1) continue;
-            if (n.matches && n.matches('a.site-logo')) { cleanLogoLink(n); watchLogoLink(n); }
-            var inner = n.querySelectorAll ? n.querySelectorAll('a.site-logo') : [];
-            for (var j = 0; j < inner.length; j++) { cleanLogoLink(inner[j]); watchLogoLink(inner[j]); }
-          }
-        }
-      }).observe(document.body, { childList: true, subtree: true });
-    }
-  }
-  function updateLogoFlag(code) {
-    /* Le drapeau du pays choisi apparait a cote du logo, pour TOUS les pays
-       (modele .ca porte a toutes les devises) : le drapeau du theme
-       flag-xx.svg, 20x15, colle a droite du logo.
-       IMPORTANT : retirer d'abord TOUT ce qui n'est pas l'image du logo dans
-       le lien (pas seulement les <img> de drapeau). Un drapeau americain
-       ajoute par une autre source (element non-<img> : texte/emoji, d'ou le
-       nom accessible « Lab401 🇺🇸 ») restait sinon colle a cote du notre,
-       les deux se chevauchant (bug signale 2026-11-18).
-       v10 : le nettoyage au demarrage ne suffisait pas, le drapeau US est
-       ajoute TARD (apres nos nettoyages) — un observateur garde donc
-       chaque lien logo en permanence et retire tout ajout etranger des
-       qu'il apparait, en notant sa source dans le titre (diagnostic).
-       Traiter tous les liens .site-logo (en-tete fixe clone l'en-tete),
-       pas seulement le premier. */
-    var links = document.querySelectorAll('a.site-logo');
-    if (!links.length) return;
-    for (var li = 0; li < links.length; li++) {
-      var link = links[li];
-      cleanLogoLink(link);
-      watchLogoLink(link);
-      if (code && COUNTRIES[code]) {
-        var img = document.createElement('img');
-        img.className = 'flag-icon flag-icon--country lab401-country-flag';
-        img.src = flagUrl(code); img.width = 20; img.height = 15;
-        img.alt = ''; img.setAttribute('aria-hidden', 'true');
-        img.style.cssText = 'margin-left:6px;vertical-align:middle;flex-shrink:0;';
-        link.appendChild(img);
-        link.style.display = 'inline-flex';
-        link.style.alignItems = 'center';
-      }
-    }
+  function injectNoFlagsCSS() {
+    /* Demande de l'utilisateur (2026-11-19) : plus AUCUN drapeau dans
+       l'en-tete / la banniere du site. Cela couvre :
+       - le badge US anime du theme (.site-logo::after, feuille
+         market-us.css du vrai site : un emoji drapeau US en ::after,
+         d'ou l'echec des nettoyages DOM v8/v9/v10 qui ne pouvaient pas
+         le retirer) ;
+       - les drapeaux SVG du selecteur de langue de l'en-tete ;
+       - les drapeaux des selecteurs de devise (boutons et listes).
+       Le drapeau de pays ajoute a cote du logo par l'ancienne fonction
+       de drapeau est supprime aussi (fonction retiree, ainsi que
+       l'observateur et le diagnostic v10). Hors banniere, rien n'est
+       touche (ex. ligne de stock produit, widget de langue flottant
+       en bas a droite). */
+    if (document.getElementById('lab401-no-flags-css')) return;
+    var st = document.createElement('style');
+    st.id = 'lab401-no-flags-css';
+    st.textContent =
+      '.site-logo::after{display:none!important}'
+      + 'header .flag-icon,header [class*="__flag"],header [class*="dropdown-flag"],.mobile-nav .flag-icon,.mobile-nav [class*="__flag"],.mobile-nav [class*="dropdown-flag"]{display:none!important}';
+    document.head.appendChild(st);
   }
 
   /* ---------------- application du pays ---------------- */
@@ -505,7 +413,6 @@
     populateCurrencyLists();
   wireCurrencyDisclosures();
     updateCurrencyButtons(code, info);
-    updateLogoFlag(code);
     /* Ne PAS appeler detectVariantPriceChanges() ici : un changement de
        pays/devise ne change pas la variante. Le texte affiche est alors
        dans l'ancienne devise ; le relire comme un prix EUR corromprait
@@ -733,9 +640,8 @@
     });
     populateCurrencyLists();
     injectMobileCurrencyCSS();
+    injectNoFlagsCSS();
     updateCurrencyButtons('FR', COUNTRIES['FR']);
-    updateLogoFlag(null);
-    watchLogoLinks();
     Promise.all([loadCadMap().catch(function () {}), loadUsdMap().catch(function () {})]).then(function () { processPrices(); });
     /* ?country=XX dans l'URL : force le pays (comme le vrai site) et le
        memorise, pour que les pages .ca / .us du clone fonctionnent. */
