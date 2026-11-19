@@ -139,6 +139,121 @@
     if (isCartPage()) renderCart();
   }, true);
 
+  /* ---------- API panier Shopify (pour le JS du theme) ---------- */
+  /* Le JS du theme Empire gere la page panier et le tiroir en appelant
+     l'API AJAX Shopify (/cart.js, /cart/add.js, /cart/change.js,
+     /cart/update.js). Sur le site statique ces URL n'existent pas : le
+     theme retombait sur l'instantane statique et fusionnait ses propres
+     articles avec le panier local (les deux paniers qui s'alternent).
+     On repond a ces appels avec le panier local, au format Shopify,
+     pour que le theme et notre script affichent le meme panier. */
+  function shopifyLine(vid, qty, info) {
+    var loc = info[LOCALE] || info.en || {};
+    var price = info.price || 0;
+    var compare = info.compare || null;
+    var title = loc.title || '';
+    var handle = loc.handle || '';
+    var opts = loc.options || [];
+    var variantTitle = opts.length ? opts.map(function (o) { return o[1]; }).join(' / ') : null;
+    var thumb = (info.thumb && info.thumb['240']) || (info.thumb && info.thumb['120']) || '';
+    var imgUrl = thumb ? (BASE + '/' + thumb) : '';
+    var rel = relPrefix();
+    var url = rel + 'products/' + handle + '.html';
+    return {
+      id: Number(vid),
+      variant_id: Number(vid),
+      key: String(vid) + ':local',
+      quantity: qty,
+      title: title,
+      price: price,
+      original_price: price,
+      discounted_price: price,
+      line_price: price * qty,
+      original_line_price: price * qty,
+      final_price: price,
+      final_line_price: price * qty,
+      compare_at_price: compare,
+      url: url,
+      handle: handle,
+      product_title: title,
+      product_description: '',
+      variant_title: variantTitle,
+      variant_options: opts.map(function (o) { return o[1]; }),
+      vendor: 'Lab401',
+      sku: '',
+      grams: 0,
+      taxable: true,
+      product_id: Number(vid),
+      product_has_only_default_variant: !opts.length,
+      gift_card: false,
+      requires_shipping: true,
+      image: imgUrl,
+      featured_image: { url: imgUrl, aspect_ratio: 1, alt: title },
+      options_with_values: opts.map(function (o) { return { name: o[0], value: o[1] }; }),
+      discounts: [],
+      line_level_discount_allocations: [],
+      line_level_total_discount: 0,
+      quantity_rule: { min: 1, max: null, increment: 1 },
+      has_components: false
+    };
+  }
+  function shopifyCart(d) {
+    var cart = load();
+    var items = [];
+    var total = 0;
+    cart.items.forEach(function (it) {
+      var info = d ? d[String(it.id)] : null;
+      if (!info) return;
+      items.push(shopifyLine(it.id, it.qty, info));
+      total += (info.price || 0) * it.qty;
+    });
+    return {
+      token: 'lab401-local',
+      note: null,
+      attributes: {},
+      original_total_price: total,
+      total_price: total,
+      total_discount: 0,
+      total_weight: 0,
+      item_count: totalQty(cart),
+      items: items,
+      requires_shipping: true,
+      currency: 'EUR',
+      items_subtotal_price: total,
+      cart_level_discount_applications: []
+    };
+  }
+  function jsonResponse(obj) {
+    return new Response(JSON.stringify(obj), {
+      status: 200, headers: { 'Content-Type': 'application/json' }
+    });
+  }
+  function parseBody(opts) {
+    var out = {};
+    try {
+      var body = opts && opts.body;
+      if (!body) return out;
+      if (body instanceof FormData) {
+        body.forEach(function (v, k) { out[k] = v; });
+      } else if (typeof body === 'string') {
+        if (body.charAt(0) === '{') {
+          var j = JSON.parse(body);
+          Object.keys(j).forEach(function (k) { out[k] = j[k]; });
+        } else {
+          var p = new URLSearchParams(body);
+          p.forEach(function (v, k) { out[k] = v; });
+        }
+      }
+    } catch (e) {}
+    return out;
+  }
+  function parseAddBody(opts) {
+    var b = parseBody(opts);
+    var vid = b.id != null ? b.id : null;
+    var qty = parseInt(b.quantity || '1', 10) || 1;
+    return { vid: vid, qty: qty };
+  }
+
   /* ---------- interception : fetch /cart/add (quickshop, theme) ---------- */
   if (window.fetch) {
     var origFetch = window.fetch;
@@ -146,31 +261,68 @@
       var u = '';
       try { u = String((url && url.url) || url || ''); } catch (e) {}
       var method = (opts && opts.method) ? String(opts.method).toUpperCase() : 'GET';
-      if (method === 'POST' && u.indexOf('/cart/add') !== -1) {
-        var vid = null, qty = 1;
-        try {
-          var body = opts && opts.body;
-          if (body instanceof FormData) {
-            vid = body.get('id');
-            qty = parseInt(body.get('quantity') || '1', 10) || 1;
-          } else if (typeof body === 'string') {
-            if (body.charAt(0) === '{') {
-              var j = JSON.parse(body);
-              vid = j.id; qty = parseInt(j.quantity || '1', 10) || 1;
-            } else {
-              var p = new URLSearchParams(body);
-              vid = p.get('id');
-              qty = parseInt(p.get('quantity') || '1', 10) || 1;
-            }
-          }
-        } catch (e) {}
-        if (vid && String(vid) !== 'not-selected') {
-          addVariant(vid, qty);
+      var path = u.split('?')[0];
+      var isCartJs = /\/cart\.js$/.test(path);
+      var isAddJs = /\/cart\/add\.js$/.test(path);
+      var isChangeJs = /\/cart\/change\.js$/.test(path);
+      var isUpdateJs = /\/cart\/update\.js$/.test(path);
+      /* API AJAX Shopify : repondre avec le panier local (format Shopify).
+         Ces cas passent AVANT le /cart/add generique, car '/cart/add' est
+         aussi un sous-texte de '/cart/add.js'. */
+      if (method === 'GET' && isCartJs) {
+        return getData().then(function (d) { return jsonResponse(shopifyCart(d)); });
+      }
+      if (method === 'POST' && isAddJs) {
+        var add = parseAddBody(opts);
+        if (add.vid && String(add.vid) !== 'not-selected') {
+          addVariant(add.vid, add.qty);
           toast();
           if (isCartPage()) renderCart();
-          return Promise.resolve(new Response(JSON.stringify({ ok: true }), {
-            status: 200, headers: { 'Content-Type': 'application/json' }
-          }));
+        }
+        return getData().then(function (d) {
+          var info = d ? d[String(add.vid)] : null;
+          return jsonResponse(info ? shopifyLine(add.vid, add.qty, info) : { ok: true });
+        });
+      }
+      if (method === 'POST' && isChangeJs) {
+        var ch = parseBody(opts);
+        var cart = load();
+        if (ch.line) {
+          var idx = parseInt(ch.line, 10) - 1;
+          var it = cart.items[idx];
+          if (it) setQty(it.id, parseInt(ch.quantity, 10));
+        } else if (ch.id) {
+          setQty(ch.id, parseInt(ch.quantity, 10));
+        }
+        if (isCartPage()) renderCart();
+        return getData().then(function (d) { return jsonResponse(shopifyCart(d)); });
+      }
+      if (method === 'POST' && isUpdateJs) {
+        var up = parseBody(opts);
+        var upd = up.updates;
+        if (upd) {
+          var cart2 = load();
+          if (Array.isArray(upd)) {
+            upd.forEach(function (q, i) {
+              var it2 = cart2.items[i];
+              if (it2) setQty(it2.id, parseInt(q, 10) || 0);
+            });
+          } else if (typeof upd === 'object') {
+            Object.keys(upd).forEach(function (vid2) {
+              setQty(vid2, parseInt(upd[vid2], 10) || 0);
+            });
+          }
+        }
+        if (isCartPage()) renderCart();
+        return getData().then(function (d) { return jsonResponse(shopifyCart(d)); });
+      }
+      if (method === 'POST' && u.indexOf('/cart/add') !== -1) {
+        var add2 = parseAddBody(opts);
+        if (add2.vid && String(add2.vid) !== 'not-selected') {
+          addVariant(add2.vid, add2.qty);
+          toast();
+          if (isCartPage()) renderCart();
+          return Promise.resolve(jsonResponse({ ok: true }));
         }
       }
       return origFetch.apply(this, arguments);
