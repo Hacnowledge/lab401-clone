@@ -336,18 +336,24 @@
     /* Le drapeau du pays choisi apparait a cote du logo, pour TOUS les pays
        (modele .ca porte a toutes les devises) : le drapeau du theme
        flag-xx.svg, 20x15, colle a droite du logo.
-       IMPORTANT : retirer d'abord TOUS les drapeaux deja presents dans le
-       lien du logo (pas seulement le notre). Un drapeau d'une autre source
-       (ex. US par defaut, ou un clone de l'en-tete fixe) resterait sinon
+       IMPORTANT : retirer d'abord TOUT ce qui n'est pas l'image du logo dans
+       le lien (pas seulement les <img> de drapeau). Un drapeau americain
+       ajoute par une autre source avant nous (element non-<img> : texte/emoji
+       ou autre balise, d'ou le nom accessible « Lab401 🇺🇸 ») restait sinon
        colle a cote du notre, les deux se chevauchant (bug signale 2026-11-18 :
-       drapeaux US + CA affiches ensemble). Traiter tous les liens .site-logo
-       (en-tete fixe clone l'en-tete), pas seulement le premier. */
+       drapeaux US + CA affiches ensemble, toujours present en v=8).
+       Traiter tous les liens .site-logo (en-tete fixe clone l'en-tete),
+       pas seulement le premier. */
     var links = document.querySelectorAll('a.site-logo');
     if (!links.length) return;
     for (var li = 0; li < links.length; li++) {
       var link = links[li];
-      var stale = link.querySelectorAll('img[src*="flag-"]');
-      for (var i = 0; i < stale.length; i++) stale[i].remove();
+      var kids = Array.prototype.slice.call(link.childNodes);
+      for (var i = 0; i < kids.length; i++) {
+        var n = kids[i];
+        if (n.nodeType === 1 && n.classList && n.classList.contains('site-logo-image')) continue;
+        link.removeChild(n);
+      }
       if (code && COUNTRIES[code]) {
         var img = document.createElement('img');
         img.className = 'flag-icon flag-icon--country lab401-country-flag';
@@ -495,11 +501,14 @@
         var url = base + '/' + p.url;
         var img = p.image ? (base + '/' + p.image) : '';
         var price = p.price_cents != null ? '<span data-tax-cents="' + p.price_cents + '">\u20AC' + (p.price_cents / 100).toFixed(2) + '</span>' : '';
-        return '<a class="search-flydown--product" href="' + escHtml(url) + '">'
-          + '<div class="search-flydown--product-image">' + (img ? '<img src="' + escHtml(img) + '" alt="" loading="lazy">' : '') + '</div>'
-          + '<div class="search-flydown--product-text">'
-          + '<span class="search-flydown--product-title">' + escHtml(p.title) + '</span>'
-          + '<span class="search-flydown--product-price">' + price + '</span>'
+        /* Texte sombre explicite (couleur + fond) : sans cela le titre et le
+           prix heritent du blanc du theme sur fond clair et sont illisibles
+           (meme defaut que la page de recherche, corrige en v=7). */
+        return '<a class="search-flydown--product" href="' + escHtml(url) + '" style="color:#111;">'
+          + '<div class="search-flydown--product-image" style="background:#fff;">' + (img ? '<img src="' + escHtml(img) + '" alt="" loading="lazy">' : '') + '</div>'
+          + '<div class="search-flydown--product-text" style="color:#111;">'
+          + '<span class="search-flydown--product-title" style="color:#111;">' + escHtml(p.title) + '</span>'
+          + '<span class="search-flydown--product-price" style="color:#111;">' + price + '</span>'
           + '</div></a>';
       }).join('');
       return '<div class="search-flydown--product-items">' + items + '</div>';
