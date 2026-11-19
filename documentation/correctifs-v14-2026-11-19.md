@@ -369,3 +369,98 @@ conformes, point 5 persistant.**
   + Flipper ×2, stickers supprimés) ; 307 + 494 = 801,00 $, les deux
   sous-totaux concordent. L'état graine (569,00 $) avait été vérifié en
   v14.1 après remise à zéro du panier.
+
+## v14.3 — Pastilles « Économisez » converties + liste des devises réduite (2026-11-19, commits e6663d1b, 1ee78060, 27c4706a)
+
+### Diagnostic du « bug euro » (signalé par l'utilisateur le 2026-11-19 13:25)
+
+L'utilisateur voyait « plein de pays qui n'utilisent pas l'euro qui
+affichent en ce moment euro » et trouvait la liste des devises trop longue.
+Diagnostic en navigateur (2026-11-19 13:27–13:31) : **la conversion des
+devises fonctionnait** (Canada, Australie, Japon, Royaume-Uni, France tous
+corrects ; les 27 entrées « € EUR » de la liste correspondent bien aux pays
+qui utilisent l'euro, Bulgarie incluse depuis 2026). L'impression « tout en
+euros » venait de deux choses :
+- **les pastilles de rabais restaient figées en euros dans toutes les
+  devises** (« SAVE €100.00 » sur le PortaPack même au Canada, « SAVE UP TO
+  €50.00 » sur le Proxmark 3, etc.) — c'est le bug principal ;
+- **la liste avait 71 pays, avec 27 entrées « € EUR » identiques** et
+  seulement un drapeau (pas de nom de pays), donc difficile à parcourir.
+
+### Correctif — pastilles converties dans la devise du visiteur
+
+`lab401-static.js` : nouvelle fonction `updateSavingsBadges()`, appelée dans
+`processPrices()` (donc à chaque changement de devise et après le chargement
+des tables). Pour chaque badge de carte (`[data-price-money-saved]`) et
+chaque pastille de vue liste (`.clx-save-pill`), l'économie est calculée
+comme **compare converti − prix converti**, en repartant des attributs EUR
+statiques (`item-price` / `item-compare_at_price` de la carte,
+`data-clx-price` de la ligne clx) — donc idempotent à chaque changement de
+devise. Ex. PortaPack en CAD : 620 − 474 = **146 $**.
+
+- **Économie jamais négative** (suite 1ee78060) : quand le compare exact
+  n'existe pas dans la table CAD/USD, l'économie est calculée sur
+  l'économie EUR convertie au taux, au lieu de mélanger un compare au taux
+  et un prix de table exacte. Cas trouvé par la vérification : USBKill V4 en
+  CAD affichait « $-6.00 » (compare au taux 232 $ − prix table 238 $) ; il
+  affiche maintenant **8,00 $** (4,95 € × 1,66).
+- **Format** (suite 27c4706a) : les badges utilisent `formatMajor`, le même
+  format que les prix (« $146.00 »), et non le format français (« 146,00 $ »).
+  Une première version utilisait le format français, mais la vérification a
+  montré que les prix du site sont affichés en format anglais par le JS —
+  les badges doivent suivre le même format pour rester cohérents.
+- **Pourquoi les économies varient d'un produit à l'autre** (ex. 10,00 € →
+  16,00 $ ; 100,00 € → 112,00 $ ou 146,00 $) : ce n'est PAS un bug — les
+  prix CAD/USD sont fixés par produit dans les tables exactes du vrai site,
+  pas par un taux unique. L'économie est donc (compare table − prix table)
+  par produit.
+
+### Correctif — liste des devises réduite (71 → 17 pays)
+
+`build-static-js.py` : nouvelle constante `SELECTOR_COUNTRIES` (FR, DE, ES,
+IT, NL, BE, US, CA, GB, CH, JP, AU, SE, NO, DK, PL, CZ). Le sélecteur
+n'affiche plus que ces 17 pays ; **la géolocalisation accepte toujours les
+71 pays** de `countries.json` (devise + TVA correctes pour tous) et le pays
+courant reste épinglé en tête de liste (ex. un visiteur autrichien garde
+l'Autriche en tête, en EUR).
+
+### Correctif — data-clx-price restés en USD
+
+21 lignes `data-clx-price` étaient restées en USD sur les 5 pages fraîches
+(`all-page-2..5`, `all-products-page-5`) : la regex de v14.2 ne capturait
+pas les variantes dont l'objet JSON contient un `featured_image` imbriqué.
+Corrigées par `fix-clx-price-pill.py` (appariement par `json.loads` des
+`.js`, robuste aux objets imbriqués) — 1 549 lignes vérifiées, 0 encore
+fausse — ainsi que les montants EUR des pastilles sur 31 pages de
+collections. Leçon : pour les `.js` de produits, toujours parser le JSON,
+jamais une regex `[^}]*?`.
+
+### Vérification v14.3 en vrai navigateur
+
+- **2026-11-19 13:38–13:49** (commit e6663d1b) : badge PortaPack FR/CAD
+  « ÉCONOMISEZ $146.00 » ✓ ; en EUR « ÉCONOMISEZ €100.00 » ✓ ; liste de
+  17 entrées exactement ✓ (Canada épinglé en tête, puis 6 pays € EUR,
+  US, GB, CH, JP, AU, SE, NO, DK, PL, CZ) ; prix CAD corrects (Flipper
+  247 $, PortaPack 474 $, HackRF Pro 704 $) ✓ ; pastilles en vue liste en
+  $ ✓ (« ÉCONOMISEZ JUSQU'À $16.00 » Proxmark 3, « $112.00 » Blade RF,
+  « $4.00 » NFCKill). Anomalies trouvées : USBKill V4 « $-6.00 » (négatif)
+  et badge en format « $146.00 » au lieu du format français des prix
+  (les rapports précédents avaient normalisé les prix en « 247,00 $ »).
+- **2026-11-19 13:53–14:03** (commit 1ee78060) : badge PortaPack
+  « ÉCONOMISEZ 146,00 $ » ✓ (format français) ; USBKill V4
+  « ÉCONOMISEZ JUSQU'À 8,00 $ » ✓ (positif). Précision : les prix
+  eux-mêmes sont en format anglais (« $247.00 », « $474.00 ») — seuls les
+  badges utilisaient alors le format français.
+- **Suite 27c4706a** : badges remis en `formatMajor` (« $146.00 ») pour
+  correspondre aux prix. **Vérifié en navigateur 2026-11-19 14:06–14:15 :**
+  badge PortaPack « ÉCONOMISEZ $146.00 » ✓, prix PortaPack $474.00 ✓, les
+  deux formats correspondent (symbole avant, point décimal) ; autres badges
+  confirmés (« ÉCONOMISEZ JUSQU'À $17.00 »). Le déploiement GitHub Pages a
+  pris ~9 minutes cette fois (l'ancien format « 146,00 $ » persistait
+  jusqu'à 14:15).
+
+### Note — PortaPack et Proxmark 5 au même prix
+
+Ce n'est PAS un bug : les deux coûtent 325,00 €. Ils diffèrent en CAD
+(474 $ contre 511 $) et en USD (325 $ contre 350 $) parce que le vrai site
+les prix différemment par marché (tables exactes).
