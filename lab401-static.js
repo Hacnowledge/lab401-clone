@@ -329,11 +329,19 @@
   function setToggleVisibility(visible) {
     $$('.vatToggle').forEach(function (t) { t.style.display = visible ? 'flex' : 'none'; });
   }
+  function emitPrices() {
+    /* Informe le panier local (lab401-cart.js) que les prix ont change :
+       il recalcule alors les totaux de ligne et le sous-total (qui
+       dependent de la devise, du pays et de la TVA). Sans cet evenement,
+       la bascule Ex VAT / Inc VAT ne changeait que les prix unitaires,
+       les totaux restaient figes jusqu'au rechargement. */
+    try { document.dispatchEvent(new CustomEvent('lab401:prices', { detail: { currency: state.currency, country: state.country } })); } catch (e) {}
+  }
   window.taxHandler = {
     getTaxPreference: function () { return state.taxPref; },
-    setTaxPreference: function (v) { setTaxPref(v); syncCheckboxes(); processPrices(); },
+    setTaxPreference: function (v) { setTaxPref(v); syncCheckboxes(); processPrices(); emitPrices(); },
     getTaxRate: function () { return state.taxRate; },
-    setTaxRate: function (r) { setTaxRate(r); processPrices(); },
+    setTaxRate: function (r) { setTaxRate(r); processPrices(); emitPrices(); },
     refresh: processPrices
   };
 
@@ -385,6 +393,24 @@
     li.appendChild(a);
     return li;
   }
+  function filterCountryDisclosures() {
+    /* Pied de page : le selecteur de pays du theme liste les 71 pays
+       (avec livre, yen, franc suisse, etc.). Decision de l'utilisateur
+       2026-11-19 : garder uniquement USD, CAD et EUR. On retire donc les
+       pays dont la devise n'est pas l'une des trois gardees, en gardant
+       le pays courant meme s'il n'est pas dans la liste (ex. un visiteur
+       autrichien garde l'Autriche, devise EUR). Le selecteur de langue
+       (EN/FR/ES) n'est pas touche. */
+    var keep = {};
+    SELECTOR_COUNTRIES.forEach(function (c) { keep[c] = true; });
+    if (state.country) keep[state.country] = true;
+    $$('[data-disclosure-country]').forEach(function (box) {
+      $$('[data-disclosure-option]', box).forEach(function (opt) {
+        var v = opt.getAttribute('data-value');
+        if (v && !keep[v]) opt.remove();
+      });
+    });
+  }
   function populateCurrencyLists() {
     /* Liste raccourcie (les plus importants seulement) ; le pays courant
        reste epingle en tete meme s'il n'est pas dans la liste (ex. un
@@ -402,6 +428,7 @@
       ml.innerHTML = '';
       order.forEach(function (c) { ml.appendChild(mobileOption(c)); });
     });
+    filterCountryDisclosures();
   }
   function updateCurrencyButtons(code, info) {
     var shortLabel = info.symbol + ' ' + info.currency;
