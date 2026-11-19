@@ -172,6 +172,43 @@
       } else el.textContent = text;
     } else el.textContent = text;
   }
+  /* Prix exact de la table CAD/USD (ou EUR), ou null si absent. Sert aux
+     economies : il ne faut JAMAIS melanger un compare au taux de repli et
+     un prix de table exacte (ex. USBKill V4 en CAD : compare au taux 232 $
+     - prix table 238 $ = economie negative de -6 $). */
+  function exactMajor(cents, handle, isCmp) {
+    var cur = state.currency;
+    if (cur === 'EUR') return cents / 100;
+    var eurMajor = cents / 100;
+    var exactMap = cur === 'CAD' ? CAD_MAP : (cur === 'USD' ? USD_MAP : null);
+    if (exactMap && handle && exactMap[handle]) {
+      var table = (isCmp && exactMap[handle].compare) ? exactMap[handle].compare : exactMap[handle].price;
+      var key = eurMajor.toFixed(2);
+      if (table && table[key] != null) return table[key];
+    }
+    return null;
+  }
+  /* Format d'une economie : comme les prix affiches par le theme, qui
+     utilise le format monetaire de la locale (FR/ES : "146,00 $", EN :
+     "$146.00"). formatMajor seul donne "$146.00" dans toutes les locales,
+     ce qui ne correspond pas aux prix en FR/ES. */
+  function formatSavings(major, cur) {
+    var f = fmt(cur);
+    if (CFG.locale === 'fr' || CFG.locale === 'es') {
+      var num = major.toFixed(f.dec).replace('.', ',');
+      return num + ' ' + f.sym;
+    }
+    return formatMajor(major, cur);
+  }
+  function savingsMajor(priceCents, cmpCents, handle) {
+    var exactCmp = exactMajor(cmpCents, handle, true);
+    var exactPrice = exactMajor(priceCents, handle, false);
+    var save;
+    if (exactCmp != null && exactPrice != null) save = exactCmp - exactPrice;
+    else save = convertMajor(cmpCents - priceCents, null, false);
+    if (state.taxPref && state.taxRate !== 1) save = save * state.taxRate;
+    return save;
+  }
   function processPrices() {
     updating = true;
     $$('[data-tax-cents]').forEach(function (el) {
@@ -208,13 +245,12 @@
       }
       var save = null;
       if (price != null && cmp != null && !isNaN(price) && !isNaN(cmp)) {
-        save = convertMajor(cmp, handle, true) - convertMajor(price, handle, false);
-        if (state.taxPref && state.taxRate !== 1) save = save * state.taxRate;
+        save = savingsMajor(price, cmp, handle);
       } else {
         var eur = parseEurText(el.textContent || '');
         if (eur != null) save = convertMajor(eur, null, false);
       }
-      if (save != null) setPrice(el, formatMajor(save, state.currency));
+      if (save != null) setPrice(el, formatSavings(save, state.currency));
     });
     $$('.clx-save-pill').forEach(function (el) {
       var row = el.closest ? el.closest('tr') : null;
@@ -239,8 +275,7 @@
       }
       var save = null;
       if (price != null && cmp != null && !isNaN(price) && !isNaN(cmp)) {
-        save = convertMajor(cmp, handle, true) - convertMajor(price, handle, false);
-        if (state.taxPref && state.taxRate !== 1) save = save * state.taxRate;
+        save = savingsMajor(price, cmp, handle);
       } else {
         var eur = parseEurText(el.textContent || '');
         if (eur != null) save = convertMajor(eur, null, false);
@@ -248,7 +283,7 @@
       if (save != null) {
         var txt = el.textContent || '';
         var nm = txt.match(/([€$£¥][\d,]+\.\d{2})/);
-        if (nm) el.textContent = txt.replace(nm[1], formatMajor(save, state.currency));
+        if (nm) el.textContent = txt.replace(nm[1], formatSavings(save, state.currency));
       }
     });
   }
