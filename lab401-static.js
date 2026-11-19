@@ -400,16 +400,45 @@
        pays dont la devise n'est pas l'une des trois gardees, en gardant
        le pays courant meme s'il n'est pas dans la liste (ex. un visiteur
        autrichien garde l'Autriche, devise EUR). Le selecteur de langue
-       (EN/FR/ES) n'est pas touche. */
+       (EN/FR/ES) n'est pas touche. On retire le <li> parent (pas seulement
+       le lien) pour que la liste ne garde pas de lignes vides, et on
+       re-applique le filtre si le theme reconstruit la liste (il clone
+       les selecteurs du pied de page pour le menu mobile). */
     var keep = {};
     SELECTOR_COUNTRIES.forEach(function (c) { keep[c] = true; });
     if (state.country) keep[state.country] = true;
     $$('[data-disclosure-country]').forEach(function (box) {
       $$('[data-disclosure-option]', box).forEach(function (opt) {
         var v = opt.getAttribute('data-value');
-        if (v && !keep[v]) opt.remove();
+        if (v && !keep[v]) {
+          var li = opt.closest ? opt.closest('li') : null;
+          if (li) li.remove(); else opt.remove();
+        }
       });
     });
+  }
+  function watchCountryDisclosures() {
+    /* Si le theme reconstruit la liste des pays (clone mobile, ouverture
+       du selecteur), re-appliquer le filtre. Debonce pour ne pas tourner
+       en boucle sur nos propres suppressions. */
+    var t = null;
+    function refilter() {
+      if (t) clearTimeout(t);
+      t = setTimeout(function () { t = null; filterCountryDisclosures(); }, 150);
+    }
+    try {
+      var obs = new MutationObserver(function (muts) {
+        for (var i = 0; i < muts.length; i++) {
+          var m = muts[i];
+          if (m.addedNodes && m.addedNodes.length) { refilter(); return; }
+        }
+      });
+      obs.observe(document.body, { childList: true, subtree: true });
+    } catch (e) {}
+    document.addEventListener('click', function (e) {
+      var t2 = e.target;
+      if (t2 && t2.closest && t2.closest('[data-disclosure-country] [data-disclosure-toggle]')) refilter();
+    }, true);
   }
   function populateCurrencyLists() {
     /* Liste raccourcie (les plus importants seulement) ; le pays courant
@@ -789,9 +818,10 @@
     });
     state.taxPref = localStorage.getItem(LS_TAX_PREF) === 'true';
     $$('[data-tax-preference]').forEach(function (cb) {
-      cb.addEventListener('change', function () { setTaxPref(cb.checked); syncCheckboxes(); processPrices(); });
+      cb.addEventListener('change', function () { setTaxPref(cb.checked); syncCheckboxes(); processPrices(); emitPrices(); });
     });
     populateCurrencyLists();
+    watchCountryDisclosures();
     injectMobileCurrencyCSS();
     injectHideLogoBadgeCSS();
     updateCurrencyButtons('FR', COUNTRIES['FR']);
