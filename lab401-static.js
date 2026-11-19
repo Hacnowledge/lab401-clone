@@ -127,8 +127,14 @@
     }
     var cp = canonicalPath();
     if (cp) {
+      /* Le canonical est relatif dans le clone ("hackrf-pro.html") : une fois
+         resolu, son chemin contient la base /lab401-clone. La retirer, sinon
+         le repli ne trouve jamais le handle et les pages produit tombent sur
+         le taux de repli (ex. HackRF Pro 664 $ au lieu de 704 $, Flipper
+         248 $ au lieu de 247 $). */
+      if (CFG.base && cp.indexOf(CFG.base) === 0) cp = cp.slice(CFG.base.length);
       var m2 = cp.match(/^\/(?:fr|it|es|de)?\/?products\/([^\/\?]+)/);
-      if (m2) return m2[1];
+      if (m2) return m2[1].replace(/\.html$/, '');
     }
     return null;
   }
@@ -237,6 +243,21 @@
     setTaxRate: function (r) { setTaxRate(r); processPrices(); },
     refresh: processPrices
   };
+
+  /* Conversion exposee au panier local (lab401-cart.js) : les totaux
+     (total de ligne, sous-total) ne sont PAS des prix unitaires, donc la
+     table exacte ne contient pas leur montant en EUR — ils doivent etre
+     calcules a partir du prix unitaire converti (table ou taux de repli),
+     sinon le total affiche melange table et taux (ex. 2 x 247 $ = 495 $).
+     priceValue applique aussi la TVA comme processPrices ; formatPrice
+     met en forme dans la devise courante. */
+  window.Lab401_priceValue = function (cents, handle, isCmp) {
+    var m = convertMajor(cents, handle, !!isCmp);
+    if (state.taxPref && state.taxRate !== 1) m = m * state.taxRate;
+    return m;
+  };
+  window.Lab401_formatPrice = function (major) { return formatMajor(major, state.currency); };
+  window.Lab401_currency = function () { return state.currency; };
 
   /* ---------------- selecteurs de devise ---------------- */
   function setFlagImg(span, code) {
@@ -427,6 +448,9 @@
        La detection des variantes reste active via l'observateur (ligne
        variantTimer), qui se declenche quand le theme met a jour les prix. */
     processPrices();
+    /* Le panier local (lab401-cart.js) recalcule ses totaux dans la devise
+       courante : il doit se re-rendre quand la devise change. */
+    try { document.dispatchEvent(new CustomEvent('lab401:prices', { detail: { currency: state.currency, country: state.country } })); } catch (e) {}
   }
   function loadCadMap() {
     var url = SCRIPT_URL ? SCRIPT_URL.slice(0, SCRIPT_URL.lastIndexOf('/') + 1) + 'lab401-cad-prices.json' : (CFG.base || '') + '/lab401-cad-prices.json';
@@ -648,7 +672,7 @@
     injectMobileCurrencyCSS();
     injectHideLogoBadgeCSS();
     updateCurrencyButtons('FR', COUNTRIES['FR']);
-    Promise.all([loadCadMap().catch(function () {}), loadUsdMap().catch(function () {})]).then(function () { processPrices(); });
+    Promise.all([loadCadMap().catch(function () {}), loadUsdMap().catch(function () {})]).then(function () { processPrices(); try { document.dispatchEvent(new CustomEvent('lab401:prices', { detail: { currency: state.currency, country: state.country } })); } catch (e) {} });
     /* ?country=XX dans l'URL : force le pays (comme le vrai site) et le
        memorise, pour que les pages .ca / .us du clone fonctionnent. */
     var urlCountry = null;

@@ -241,6 +241,21 @@
   function eur(cents) {
     return '€' + (cents / 100).toFixed(2);
   }
+  /* Prix unitaire dans la devise courante (table exacte CAD/USD ou taux de
+     repli, + TVA comme l'observateur) — c'est la valeur affichee par
+     lab401-static.js pour le prix unitaire. Les totaux (ligne, sous-total)
+     se calculent a partir de cette valeur, PAS a partir des cents EUR :
+     la table ne contient que les prix unitaires, donc un total en EUR
+     converti par l'observateur retomberait sur le taux de repli et ne
+     correspondrait pas a (prix unitaire affiche x quantite). */
+  function unitValueFor(priceCents, handle) {
+    if (window.Lab401_priceValue) return window.Lab401_priceValue(priceCents, handle, false);
+    return priceCents / 100;
+  }
+  function formatPrice(major) {
+    if (window.Lab401_formatPrice) return window.Lab401_formatPrice(major);
+    return eur(Math.round(major * 100));
+  }
   function esc(s) {
     return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
   }
@@ -259,6 +274,13 @@
     var price = info.price || 0;
     var compare = info.compare;
     var lineTotal = price * it.qty;
+    /* Total de ligne dans la devise courante (prix unitaire affiche x qty).
+       SANS data-tax-cents : l'observateur ne doit pas le reconvertir a
+       partir des cents EUR (il retomberait sur le taux de repli). */
+    var useHelpers = !!window.Lab401_priceValue;
+    var lineValue = unitValueFor(price, info[LOCALE] ? info[LOCALE].handle : '') * it.qty;
+    var lineText = useHelpers ? formatPrice(lineValue) : eur(lineTotal);
+    var lineAttrs = useHelpers ? '' : ' data-tax-cents="' + lineTotal + '"';
     var opts = info[LOCALE] ? info[LOCALE].options : [];
     var title = info[LOCALE] ? info[LOCALE].title : '';
     var handle = info[LOCALE] ? info[LOCALE].handle : '';
@@ -302,7 +324,7 @@
       '<svg class="icon-plus" aria-hidden="true" focusable="false" role="presentation" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M4 6L4 10H6V6H10V4H6V0H4L4 4H0V6H4Z" fill="currentColor"/></svg></button></div>' +
       '</div></quantity-selector></div>' +
       '<div class="cart-item__total"><span class="visually-hidden">Line total</span>' +
-      '<div class="money" aria-live="polite" data-cartitem-total data-default-price="' + price + '" data-tax-cents="' + lineTotal + '">' + eur(lineTotal) + '</div></div>' +
+      '<div class="money" aria-live="polite" data-cartitem-total data-default-price="' + price + '"' + lineAttrs + '>' + lineText + '</div></div>' +
       '<div class="cart-item__remove"><a class="cart-item__remove-link" href="/cart/change?line=' + line + '&amp;quantity=0" aria-label="remove ' + esc(title) + '" data-cartitem-remove data-no-instant data-vid="' + vid + '">' +
       '<svg class="icon-remove" aria-hidden="true" focusable="false" role="presentation" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10"><path fill="currentColor" d="M6.08785659,5 L9.77469752,1.31315906 L8.68684094,0.225302476 L5,3.91214341 L1.31315906,0.225302476 L0.225302476,1.31315906 L3.91214341,5 L0.225302476,8.68684094 L1.31315906,9.77469752 L5,6.08785659 L8.68684094,9.77469752 L9.77469752,8.68684094 L6.08785659,5 Z"/></svg></a></div>' +
       '</div></div></li>';
@@ -314,14 +336,25 @@
       '<p style="font-size:18px;margin:0 0 16px;">' + msg + '</p>' +
       '<a class="button-primary" href="' + rel + 'index.html">' + shop + '</a></li>';
   }
-  function setSubtotal(cents) {
-    var el = document.querySelector('[data-cart-total]');
-    if (!el) return;
-    // remplacer le noeud pour que l'observateur de conversion le reprenne
-    var repl = el.cloneNode(false);
-    repl.setAttribute('data-tax-cents', String(cents));
-    repl.textContent = eur(cents);
-    el.parentNode.replaceChild(repl, el);
+  function setSubtotal(centsEur, valueCur) {
+    /* TOUS les sous-totaux de la page (il y en a deux : en haut et en bas —
+       le second etait oublie, il restait fige sur la valeur statique).
+       Avec les helpers : texte dans la devise courante, sans data-tax-cents
+       (sinon l'observateur le reconvertirait au taux de repli). Sans
+       helpers : on remplace le noeud pour que l'observateur le reprenne. */
+    var els = document.querySelectorAll('[data-cart-total]');
+    for (var i = 0; i < els.length; i++) {
+      var el = els[i];
+      if (window.Lab401_priceValue && valueCur != null) {
+        el.removeAttribute('data-tax-cents');
+        el.textContent = formatPrice(valueCur);
+      } else {
+        var repl = el.cloneNode(false);
+        repl.setAttribute('data-tax-cents', String(centsEur));
+        repl.textContent = eur(centsEur);
+        el.parentNode.replaceChild(repl, el);
+      }
+    }
   }
   function setFooterVisible(show) {
     var right = document.querySelector('.cart-title-right');
@@ -335,6 +368,7 @@
     getData().then(function (d) {
       if (!d) return; // donnees indisponibles : garder le contenu statique
       var subtotal = 0;
+      var subtotalCur = 0;
       var html = '';
       if (!cart.items.length) {
         html = emptyHtml(rel);
@@ -345,11 +379,12 @@
           var info = d[String(it.id)];
           if (!info) return; // variante inconnue : ignoree
           subtotal += (info.price || 0) * it.qty;
+          subtotalCur += unitValueFor(info.price || 0, info[LOCALE] ? info[LOCALE].handle : '') * it.qty;
           html += itemHtml(it, info, i + 1, rel);
         });
       }
       list.innerHTML = html;
-      setSubtotal(subtotal);
+      setSubtotal(subtotal, subtotalCur);
       updateCount();
     });
   }
@@ -393,6 +428,13 @@
   updateCount();
   syncAllClx();
   if (isCartPage()) renderCart();
+  /* La devise peut se resoudre apres le premier rendu (geolocalisation) et
+     les tables de prix exactes (CAD/USD) chargent en asynchrone : quand
+     lab401-static.js signale que les prix sont a jour, on re-rend le
+     panier pour recalculer les totaux dans la bonne devise. */
+  document.addEventListener('lab401:prices', function () {
+    if (isCartPage()) renderCart();
+  });
 
   /* API de depannage (console du navigateur) */
   window.Lab401Cart = {
