@@ -1033,6 +1033,14 @@
  },
  {
   "locale": "en",
+  "title": "PortaPack H4M Pro | Standalone 100 kHz-6 GHz SDR",
+  "handle": "portapack-h4m-pro",
+  "url": "products/portapack-h4m-pro.html",
+  "price_cents": 32500,
+  "image": "cdn/shop/files/PortaPack---H4M-Pro---Front_w352.png"
+ },
+ {
+  "locale": "en",
   "title": "PPE 2-in-1 Fast USB-C Battery Charger | Dual LiPo",
   "handle": "ppe-2-in-1-fast-usb-c-battery-charger",
   "url": "products/ppe-2-in-1-fast-usb-c-battery-charger.html",
@@ -2489,6 +2497,14 @@
  },
  {
   "locale": "es",
+  "title": "PortaPack H4M Pro | SDR autónomo de 100 kHz a 6 GHz",
+  "handle": "portapack-h4m-pro",
+  "url": "es/products/portapack-h4m-pro.html",
+  "price_cents": 32500,
+  "image": "cdn/shop/files/PortaPack---H4M-Pro---Front_w352.png"
+ },
+ {
+  "locale": "es",
   "title": "PPE 2-in-1 Fast USB-C Battery Charger | Dual LiPo",
   "handle": "ppe-2-in-1-fast-usb-c-battery-charger",
   "url": "es/products/ppe-2-in-1-fast-usb-c-battery-charger.html",
@@ -3009,6 +3025,14 @@
  },
  {
   "locale": "fr",
+  "title": "Bus Pirate 5 Auxiliary Cable | Connexion à l&#39;analyseur logique",
+  "handle": "bus-pirate-5-cable-auxiliaire",
+  "url": "fr/products/bus-pirate-5-cable-auxiliaire.html",
+  "price_cents": 1500,
+  "image": "cdn/shop/files/Bus-Pirate-Aux-Cable_w352.png"
+ },
+ {
+  "locale": "fr",
   "title": "Bus Pirate 5 Auxiliary Cable Set | Cavaliers et répartiteurs",
   "handle": "bus-pirate-5-coloured-auxiliary-cable",
   "url": "fr/products/bus-pirate-5-coloured-auxiliary-cable.html",
@@ -3126,6 +3150,14 @@
   "url": "fr/products/digilab-module-kit.html",
   "price_cents": 1495,
   "image": "cdn/shop/files/DigiLab---Connected_100x100_crop_center.png"
+ },
+ {
+  "locale": "fr",
+  "title": "DigiLab for FlipperZero | SPI, I2C et analyse de signaux",
+  "handle": "digilab-pour-flipperzero",
+  "url": "fr/products/digilab-pour-flipperzero.html",
+  "price_cents": 6200,
+  "image": "cdn/shop/files/DigiLab---Connected_w352.png"
  },
  {
   "locale": "fr",
@@ -3462,6 +3494,14 @@
   "url": "fr/products/kiisu.html",
   "price_cents": 7900,
   "image": "cdn/shop/files/KIISU---PCB---Back_w1360_h1360_crop.png"
+ },
+ {
+  "locale": "fr",
+  "title": "Digilab Module Kit | Pack de capteurs I2C BMP280 et LM75A",
+  "handle": "kit-de-modules-digilab",
+  "url": "fr/products/kit-de-modules-digilab.html",
+  "price_cents": 1900,
+  "image": "cdn/shop/files/Digilab---Modules_w352.png"
  },
  {
   "locale": "fr",
@@ -3942,6 +3982,14 @@
   "url": "fr/products/pocket-usb-power-supply.html",
   "price_cents": 1999,
   "image": "cdn/shop/files/Hamster-Transparent_w600.gif"
+ },
+ {
+  "locale": "fr",
+  "title": "PortaPack H4M Pro | SDR autonome 100 kHz-6 GHz",
+  "handle": "portapack-h4m-pro",
+  "url": "fr/products/portapack-h4m-pro.html",
+  "price_cents": 32500,
+  "image": "cdn/shop/files/PortaPack---H4M-Pro---Front_w352.png"
  },
  {
   "locale": "fr",
