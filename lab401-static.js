@@ -239,6 +239,16 @@
   };
 
   /* ---------------- selecteurs de devise ---------------- */
+  function setFlagImg(span, code) {
+    if (!span) return;
+    var img = span.querySelector('img');
+    if (img) { img.src = flagUrl(code); return; }
+    img = document.createElement('img');
+    img.className = 'flag-icon flag-icon--country';
+    img.src = flagUrl(code); img.width = 20; img.height = 15;
+    img.alt = ''; img.setAttribute('aria-hidden', 'true');
+    span.appendChild(img);
+  }
   function headerOption(c) {
     var info = COUNTRIES[c];
     var li = document.createElement('li');
@@ -246,7 +256,7 @@
     a.className = 'disclosure-list__item' + (c === state.country ? ' disclosure-list__item--current' : '');
     a.href = '#'; a.setAttribute('data-value', c); a.setAttribute('data-disclosure-option', '');
     if (c === state.country) a.setAttribute('aria-current', 'true');
-    a.innerHTML = '<span class="disclosure-list__option">' + info.symbol + ' ' + info.currency + '</span>';
+    a.innerHTML = '<span class="header-currency-selector__dropdown-flag"><img class="flag-icon flag-icon--country" src="' + flagUrl(c) + '" width="20" height="15" loading="lazy" alt="" aria-hidden="true"></span> <span class="disclosure-list__option">' + info.symbol + ' ' + info.currency + '</span>';
     li.appendChild(a);
     return li;
   }
@@ -257,7 +267,7 @@
     a.className = 'mobile-currency__option' + (c === state.country ? ' mobile-currency__option--current' : '');
     a.href = '#'; a.setAttribute('data-value', c); a.setAttribute('data-mobile-currency-option', '');
     if (c === state.country) a.setAttribute('aria-current', 'true');
-    a.innerHTML = '<span>' + info.symbol + ' ' + info.currency + '</span>';
+    a.innerHTML = '<span class="mobile-currency__option-flag"><img class="flag-icon flag-icon--country" src="' + flagUrl(c) + '" width="20" height="15" loading="lazy" alt="" aria-hidden="true"></span> <span>' + info.symbol + ' ' + info.currency + '</span>';
     li.appendChild(a);
     return li;
   }
@@ -280,16 +290,19 @@
     var shortLabel = info.symbol + ' ' + info.currency;
     var longLabel = info.name + ' (' + info.currency + ' ' + info.symbol + ')';
     $$('.header-currency-selector__toggle').forEach(function (btn) {
+      setFlagImg(btn.querySelector('.header-currency-selector__flag'), code);
       var lab = btn.querySelector('.header-currency-selector__label');
       if (lab) lab.textContent = ' ' + shortLabel + ' ';
     });
     $$('.mobile-currency__toggle').forEach(function (btn) {
+      setFlagImg(btn.querySelector('.mobile-currency__flag'), code);
       var nm = btn.querySelector('.mobile-currency__name');
       if (nm) nm.textContent = shortLabel;
     });
     $$('[data-disclosure-country]').forEach(function (box) {
       var toggle = box.querySelector('[data-disclosure-toggle]');
       if (toggle) {
+        setFlagImg(toggle.querySelector('[class*="__flag"]'), code);
         /* Le bouton contient un noeud texte (nom du pays) ET un span
            .disclosure-list__option-code (" (EUR \u20ac)") : il faut mettre
            a jour les deux, sinon on obtient "Canada (CAD $) (EUR \u20ac)". */
@@ -319,26 +332,19 @@
       if (cur) opt.setAttribute('aria-current', 'true'); else opt.removeAttribute('aria-current');
     });
   }
-  function injectNoFlagsCSS() {
-    /* Demande de l'utilisateur (2026-11-19) : plus AUCUN drapeau dans
-       l'en-tete / la banniere du site. Cela couvre :
-       - le badge US anime du theme (.site-logo::after, feuille
-         market-us.css du vrai site : un emoji drapeau US en ::after,
-         d'ou l'echec des nettoyages DOM v8/v9/v10 qui ne pouvaient pas
-         le retirer) ;
-       - les drapeaux SVG du selecteur de langue de l'en-tete ;
-       - les drapeaux des selecteurs de devise (boutons et listes).
-       Le drapeau de pays ajoute a cote du logo par l'ancienne fonction
-       de drapeau est supprime aussi (fonction retiree, ainsi que
-       l'observateur et le diagnostic v10). Hors banniere, rien n'est
-       touche (ex. ligne de stock produit, widget de langue flottant
-       en bas a droite). */
-    if (document.getElementById('lab401-no-flags-css')) return;
+  function injectHideLogoBadgeCSS() {
+    /* Seul le drapeau a cote du logo est retire (demande de
+       l'utilisateur 2026-11-19 ~02:40) : le badge US anime du theme
+       (.site-logo::after, feuille market-us.css du vrai site : un emoji
+       drapeau US en ::after, d'ou l'echec des nettoyages DOM v8/v9/v10
+       qui ne pouvaient pas le retirer). Les drapeaux des selecteurs de
+       langue et de devise sont conserves tels quels : la v11 les avait
+       masques par erreur et la selection de langue semblait disparue,
+       la v12 les restaure (setFlagImg, options avec drapeaux). */
+    if (document.getElementById('lab401-hide-logo-badge-css')) return;
     var st = document.createElement('style');
-    st.id = 'lab401-no-flags-css';
-    st.textContent =
-      '.site-logo::after{display:none!important}'
-      + 'header .flag-icon,header [class*="__flag"],header [class*="dropdown-flag"],.mobile-nav .flag-icon,.mobile-nav [class*="__flag"],.mobile-nav [class*="dropdown-flag"]{display:none!important}';
+    st.id = 'lab401-hide-logo-badge-css';
+    st.textContent = '.site-logo::after{display:none!important}';
     document.head.appendChild(st);
   }
 
@@ -640,7 +646,7 @@
     });
     populateCurrencyLists();
     injectMobileCurrencyCSS();
-    injectNoFlagsCSS();
+    injectHideLogoBadgeCSS();
     updateCurrencyButtons('FR', COUNTRIES['FR']);
     Promise.all([loadCadMap().catch(function () {}), loadUsdMap().catch(function () {})]).then(function () { processPrices(); });
     /* ?country=XX dans l'URL : force le pays (comme le vrai site) et le
