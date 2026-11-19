@@ -464,3 +464,101 @@ jamais une regex `[^}]*?`.
 Ce n'est PAS un bug : les deux coûtent 325,00 €. Ils diffèrent en CAD
 (474 $ contre 511 $) et en USD (325 $ contre 350 $) parce que le vrai site
 les prix différemment par marché (tables exactes).
+
+## v14.4 — Un seul panier (le local), drapeau US retiré, devises USD/CAD/EUR
+
+**Commit :** `24253ca8` (6 fichiers), poussé le 2026-11-19 ~14:50.
+
+### Le bug signalé (captures téléphone 2026-11-19 14:17)
+
+- Le panier « s'alternait » entre deux états : le panier réel à 6 articles
+  (1 546,51 € : Flipper ×3, PandwaRF ×1, PortaPack ×2) et un panier à
+  3 articles (359,17 € : Sticker, O.MG, Flipper) ; le compteur indiquait 6
+  alors que 3 articles étaient visibles.
+- Un drapeau américain apparaissait à côté du logo, « comme s'il y avait
+  deux pages superposées ».
+- L'utilisateur : « Je crois que le squelette de mon site est endommagé. »
+
+### Diagnostic (navigateur, 2026-11-19 14:21–14:27)
+
+Ce n'était pas le squelette, mais **trois paniers incohérents qui
+coexistaient** :
+
+1. **Panier local** (localStorage, `lab401-cart.js`) : 6 articles,
+   1 546,51 € — le vrai panier de l'utilisateur.
+2. **Instantané statique du tiroir** : 3 articles, 359,17 € (379 $ sur
+   bureau) — jamais mis à jour par les ajouts ni par la devise.
+3. **Instantané statique de `cart.html`** : 3 articles (O.MG ×1,
+   Flipper ×2), 508,34 € / 801 $ CA.
+
+Le JS du thème Empire gère la page panier et le tiroir en appelant l'API
+AJAX Shopify (`/cart.js`, `/cart/add.js`, `/cart/change.js`,
+`/cart/update.js`). Sur le site statique ces URL n'existent pas (404) :
+le thème retombait sur l'instantané statique et fusionnait ses propres
+articles avec le panier local — la page panier affichait 9 articles
+(O.MG ×1, Flipper ×5, PandwaRF ×1, PortaPack ×2), compteur 9. Le passage
+page panier ↔ tiroir donnait l'impression d'une alternance. Le compteur
+compte la **quantité totale** (3 + 1 + 2 = 6), pas le nombre de produits
+distincts (3) : c'est le comportement normal d'un panier Shopify, mais
+il paraissait faux quand le mauvais panier s'affichait.
+
+**Drapeau :** aucun drapeau collé au logo sur bureau. Le drapeau US vu
+par l'utilisateur est le badge `.site-logo::after` (emoji 🇺🇸 dans
+`market-us.css`, avec animation) — le masquage par JS (`lab401-static.js`)
+n'agissait qu'après le chargement du script. Le drapeau des sélecteurs
+(langue/devise, en haut à droite) est normal : il indique le pays courant.
+
+### Correctifs
+
+- **`lab401-cart.js`** : intercepte désormais l'API AJAX Shopify et
+  répond avec le panier local au format Shopify :
+  - `GET /cart.js` → le panier local complet (`items`, `item_count`,
+    `total_price`, `currency: EUR`, prix en cents EUR).
+  - `POST /cart/add.js` → ajoute au localStorage, renvoie la ligne ajoutée.
+  - `POST /cart/change.js` → change la quantité (par `line` ou par `id`),
+    renvoie le panier mis à jour.
+  - `POST /cart/update.js` → met à jour les quantités (tableau ou objet),
+    renvoie le panier mis à jour.
+  - Ces cas passent AVANT l'interception générique `/cart/add` (qui est
+    aussi un sous-texte de `/cart/add.js`).
+  - Le thème et notre script affichent désormais le même panier : plus de
+    fusion, plus d'alternance.
+- **`cart.html` (EN, FR, ES)** : les 3 articles statiques retirés de la
+  liste (elle démarre vide, remplie par le JS) ; sous-total statique remis
+  à 0,00 € (était 359,17 €). Script `strip-cart-static.py` (analyse avec
+  comptage d'imbrication : un `<ul>` est imbriqué dans un article, une
+  regex non gourmande s'arrêtait au premier `</ul>`).
+- **`market-us.css`** : la règle `.site-logo:after` (drapeau US) remplacée
+  par `display:none` dans la feuille elle-même — le drapeau ne peut plus
+  apparaître, même avant le chargement du JS.
+- **`lab401-static.js`** : sélecteur de devises réduit à 8 pays, 3 devises
+  seulement (FR, DE, ES, IT, NL, BE → EUR ; US → USD ; CA → CAD) —
+  **décision de l'utilisateur 2026-11-19 14:19** (« garder dollar US,
+  dollar canadien et euro »). La géolocalisation accepte toujours les
+  71 pays (devise + TVA correctes pour tous).
+
+### Vérification en navigateur
+
+*(En attente du retour de la vérification v14.4 — à compléter.)*
+
+### Checkout — à part
+
+Le bouton Checkout ne peut pas fonctionner comme sur le vrai site : le
+formulaire poste vers `cart.html` (page statique, il recharge la page).
+Un vrai paiement par carte exige un serveur (création d'une session de
+paiement) — c'est le projet Supabase + Stripe (fork), déjà convenu dans
+son principe, à lancer sur le go de l'utilisateur. Voir la section
+suivante.
+
+## Prochaine étape convenue — Checkout réel (Supabase + Stripe)
+
+**Statut : en attente du go de l'utilisateur (demandé le 2026-11-19).**
+
+Pour que le checkout fonctionne comme sur le vrai site (paiement par
+carte, confirmation de commande), il faut un serveur : le site statique
+GitHub Pages ne peut pas traiter un paiement. La solution est le fork
+Lab401 + Supabase (comptes + vrai panier) avec Stripe pour le paiement,
+en étape séparée — déjà convenu dans son principe, après vérification de
+la copie par l'utilisateur. Préalables à clarifier avec lui : le compte
+Stripe du commerce (celui de son ami, propriétaire de la boutique), et
+son go pour lancer le chantier.
