@@ -332,28 +332,95 @@
       if (cur) opt.setAttribute('aria-current', 'true'); else opt.removeAttribute('aria-current');
     });
   }
+  function isKeptLogoNode(n) {
+    return n.nodeType === 1 && n.classList &&
+      (n.classList.contains('site-logo-image') || n.classList.contains('lab401-country-flag'));
+  }
+  function cleanLogoLink(link) {
+    var kids = Array.prototype.slice.call(link.childNodes);
+    for (var i = 0; i < kids.length; i++) {
+      if (!isKeptLogoNode(kids[i])) link.removeChild(kids[i]);
+    }
+  }
+  var logoDiagCount = 0;
+  function logoDiag(node) {
+    /* Diagnostic temporaire v10 : le drapeau US reapparait apres nos
+       nettoyages, donc il est ajoute TARD par une autre source (aucun
+       script local ne l'insere). On note la source (pile d'appel) dans
+       le titre de l'onglet, lisible sans console, pour l'identifier puis
+       retirer ce diagnostic. */
+    if (logoDiagCount >= 3) return;
+    logoDiagCount++;
+    var desc = '';
+    try {
+      desc = node.nodeType === 3 ? 'TEXT:' + (node.nodeValue || '').slice(0, 20)
+        : 'EL:' + node.nodeName + '.' + (node.className || '');
+    } catch (e) { desc = '??'; }
+    var stack = '';
+    try { stack = (new Error().stack || '').split('\n').slice(2, 4).join(' | ').replace(/https?:\/\/[^\/]+/g, '').slice(0, 120); } catch (e) {}
+    try { document.title = 'DIAG logo ' + logoDiagCount + ' ' + desc + ' @ ' + stack; } catch (e) {}
+    try { window.__lab401LogoDiag = (window.__lab401LogoDiag || '') + '\n' + logoDiagCount + ' ' + desc + ' @ ' + stack; } catch (e) {}
+  }
+  function watchLogoLink(link) {
+    if (!window.MutationObserver || !link || link.getAttribute('data-lab401-logo-watched')) return;
+    link.setAttribute('data-lab401-logo-watched', '1');
+    new MutationObserver(function (mutations) {
+      for (var m = 0; m < mutations.length; m++) {
+        var added = mutations[m].addedNodes;
+        for (var i = 0; i < added.length; i++) {
+          var n = added[i];
+          if (isKeptLogoNode(n)) continue;
+          logoDiag(n);
+          try { link.removeChild(n); } catch (e) {}
+        }
+      }
+    }).observe(link, { childList: true });
+  }
+  function watchLogoLinks() {
+    var links = document.querySelectorAll('a.site-logo');
+    for (var li = 0; li < links.length; li++) {
+      cleanLogoLink(links[li]);
+      watchLogoLink(links[li]);
+    }
+    /* L'en-tete fixe clone l'en-tete plus tard : surveiller les nouveaux
+       liens logo ajoutes au document. */
+    if (window.MutationObserver && document.body && !watchLogoLinks._docWatched) {
+      watchLogoLinks._docWatched = true;
+      new MutationObserver(function (mutations) {
+        for (var m = 0; m < mutations.length; m++) {
+          var added = mutations[m].addedNodes;
+          for (var i = 0; i < added.length; i++) {
+            var n = added[i];
+            if (n.nodeType !== 1) continue;
+            if (n.matches && n.matches('a.site-logo')) { cleanLogoLink(n); watchLogoLink(n); }
+            var inner = n.querySelectorAll ? n.querySelectorAll('a.site-logo') : [];
+            for (var j = 0; j < inner.length; j++) { cleanLogoLink(inner[j]); watchLogoLink(inner[j]); }
+          }
+        }
+      }).observe(document.body, { childList: true, subtree: true });
+    }
+  }
   function updateLogoFlag(code) {
     /* Le drapeau du pays choisi apparait a cote du logo, pour TOUS les pays
        (modele .ca porte a toutes les devises) : le drapeau du theme
        flag-xx.svg, 20x15, colle a droite du logo.
        IMPORTANT : retirer d'abord TOUT ce qui n'est pas l'image du logo dans
        le lien (pas seulement les <img> de drapeau). Un drapeau americain
-       ajoute par une autre source avant nous (element non-<img> : texte/emoji
-       ou autre balise, d'ou le nom accessible « Lab401 🇺🇸 ») restait sinon
-       colle a cote du notre, les deux se chevauchant (bug signale 2026-11-18 :
-       drapeaux US + CA affiches ensemble, toujours present en v=8).
+       ajoute par une autre source (element non-<img> : texte/emoji, d'ou le
+       nom accessible « Lab401 🇺🇸 ») restait sinon colle a cote du notre,
+       les deux se chevauchant (bug signale 2026-11-18).
+       v10 : le nettoyage au demarrage ne suffisait pas, le drapeau US est
+       ajoute TARD (apres nos nettoyages) — un observateur garde donc
+       chaque lien logo en permanence et retire tout ajout etranger des
+       qu'il apparait, en notant sa source dans le titre (diagnostic).
        Traiter tous les liens .site-logo (en-tete fixe clone l'en-tete),
        pas seulement le premier. */
     var links = document.querySelectorAll('a.site-logo');
     if (!links.length) return;
     for (var li = 0; li < links.length; li++) {
       var link = links[li];
-      var kids = Array.prototype.slice.call(link.childNodes);
-      for (var i = 0; i < kids.length; i++) {
-        var n = kids[i];
-        if (n.nodeType === 1 && n.classList && n.classList.contains('site-logo-image')) continue;
-        link.removeChild(n);
-      }
+      cleanLogoLink(link);
+      watchLogoLink(link);
       if (code && COUNTRIES[code]) {
         var img = document.createElement('img');
         img.className = 'flag-icon flag-icon--country lab401-country-flag';
@@ -668,6 +735,7 @@
     injectMobileCurrencyCSS();
     updateCurrencyButtons('FR', COUNTRIES['FR']);
     updateLogoFlag(null);
+    watchLogoLinks();
     Promise.all([loadCadMap().catch(function () {}), loadUsdMap().catch(function () {})]).then(function () { processPrices(); });
     /* ?country=XX dans l'URL : force le pays (comme le vrai site) et le
        memorise, pour que les pages .ca / .us du clone fonctionnent. */
