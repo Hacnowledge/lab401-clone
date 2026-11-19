@@ -1,11 +1,13 @@
 # Récapitulatif — projet Lab401 (clone statique de lab401.com)
 
-**Date du document : 2026-11-19 ~02:45, mis à jour ~03:20.** Ce fichier raconte tout ce qui a
+**Date du document : 2026-11-19 ~02:45, mis à jour ~03:45.** Ce fichier raconte tout ce qui a
 été fait dans ce projet et la discussion avec l'utilisateur (Pierre-Luc),
 pour reprendre le développement sans rien réapprendre. **État au moment
-de la mise à jour : la v12 est déployée (commit e90d969f) ; le PortaPack
-H4M Pro est ajouté aux collections et à l'accueil et déployé (commit
-5b0df951, « v13 ») ; vérification en navigateur en cours.**
+de la mise à jour : v12 et v13 déployées et vérifiées en navigateur
+(03:24–03:25) ; audit d'exhaustivité complet fait (0 produit oublié) ;
+documentation améliorée (anatomie des pages produits + rapport d'audit)
+en cours d'envoi sur GitHub. Question en attente : corriger ou non les
+pastilles « Économisez » affichées en € quand les prix sont en $ CAD.**
 
 ## 1. Demande initiale (2026-11-17)
 
@@ -140,11 +142,69 @@ va **créer lui-même les fichiers de développement** ensuite. Les 4
 fichiers sont rédigés localement dans `documentation/` (ce dossier) et
 seront poussés après sa relecture.
 
+### 2026-11-19 03:24–03:27 — Vérification en navigateur (v12 + v13) et question des pastilles
+
+Vérification en vrai navigateur (pages FR, `?country=ca`) : page
+PortaPack sans drapeau à côté du logo, drapeaux présents sur les
+sélecteurs, prix 474,00 $ (rég. 620,00 $) ; collection SDR : PortaPack
+3e ; accueil : SubGHz 2e et SDR 3e. Deux observations rapportées :
+(1) le bouton « Épuisé » de la page PortaPack est fidèle au vrai site
+(variante indisponible, `available: false` vérifié 03:26) ; (2) les
+pastilles « Économisez » affichent le montant en euros (« ÉCONOMISEZ
+€100.00 ») alors que les prix sont convertis en $ CAD — préexistant,
+toutes les cartes en solde. Question posée à l'utilisateur (choix) :
+corriger les pastilles en $ CAD ou les laisser comme ça — **réponse en
+attente**.
+
+### 2026-11-19 ~03:28 — Les drapeaux sont corrects, ne plus y toucher
+
+« Pour ce qui est des drapeaux, en ce moment c'est correct. Donc ne
+touche plus à rien pour les drapeaux. » Règle enregistrée : **les
+drapeaux sont gelés depuis la v12** (seul le drapeau du logo est retiré,
+sélecteurs intacts).
+
+### 2026-11-19 ~03:28–03:45 — Tour complet du site, audit d'exhaustivité, anatomie des pages produits
+
+L'utilisateur demande de refaire le tour du site au complet, d'améliorer
+encore la documentation et de s'assurer qu'aucun produit n'a été oublié
+— parce qu'on va ajouter des produits et qu'il faut savoir parfaitement
+comment les pages sont faites. Travail fait :
+
+- **Audit produits : 0 oublié.** `products.json` 182/locale (page 2 =
+  0), sitemap 181/locale, clone 183 EN / 186 FR / 183 ES. Le vrai site
+  compte 183 produits distincts par locale (182 + `rfid-field-detector`,
+  page live à 200 mais absent de `products.json` ET du sitemap).
+- **Audit collections (89/locale, comparaison automatisée) :** 57 sans
+  écart, 32 avec écart. Vrais écarts : PortaPack absent de 15
+  collections ; `all` réduite à sa page 1 (36/179) ; `all-products` EN
+  avec une page 5 vide (34 produits non listés, FR/ES complètes) ;
+  3 produits orphelins + 1 produit retirés du vrai site depuis la
+  capture (encore listés dans le clone). Fausse alerte écartée :
+  `rfid-badges` est vide sur le vrai site aussi (« No products »).
+- **Correction d'une erreur antérieure :** les 3 produits
+  `hak5-network-mitm-lan-turtle`, `proxmark-3-rdv4-flash-support`,
+  `usb-bluetooth-adaptor-hc-06` ne sont **pas** des 404 — leurs pages
+  répondent 200 ; ce sont des produits orphelins (dans aucune
+  collection, tous indisponibles).
+- **Anatomie complète d'une page produit** (`product-page-anatomy.md`,
+  nouveau fichier) : 11 sections, galerie PhotoSwipe, sélecteur de
+  variantes (select caché + radios visibles), bloc prix (fourchette),
+  bloc d'expédition personnalisé (`ShippingScheduler`, ligne de stock
+  statique, bloc masqué si indisponible), description riche (vidéos
+  `lite-youtube`), fichier `.js` (source de vérité), recommandations et
+  avis vides en statique, recette complète pour ajouter un produit.
+- **Documentation mise à jour** : `products.md`, `site-comprehension.md`,
+  `categories.md`, `recap-discussion.md` (ce fichier) corrigés +
+  nouveaux fichiers `product-page-anatomy.md` et
+  `audit-exhaustivite-2026-11-19.md`. Envoi sur GitHub en cours.
+
 ## 3. Décisions de l'utilisateur (à respecter)
 
 - **Clone à l'identique**, publié sur GitHub (dépôt Hacnowledge).
 - **Drapeaux :** seul le drapeau à côté du logo doit disparaître ; les
   sélecteurs de langue et de devise gardent leurs drapeaux (v12).
+  **Depuis le 2026-11-19 ~03:28 : les drapeaux sont corrects en ce
+  moment, ne plus rien y toucher.**
 - **Il crée lui-même les fichiers de développement** — les fichiers de
   ce dossier servent uniquement à comprendre le site.
 - **Prochaine étape convenue (sur son go seulement) :** fork de la copie
@@ -164,7 +224,16 @@ seront poussés après sa relecture.
   reconstruire si perdu).
 - **Exhaustivité :** le sitemap (181) et la collection « all » (181)
   ratent les produits épuisés. Source fiable : **`products.json` par
-  locale (182)** comparé au clone.
+  locale (182)** comparé au clone. **Mais aucune source n'est exhaustive
+  seule** (audit 2026-11-19) : le sitemap rate le PortaPack,
+  `products.json` rate `rfid-field-detector` (page live, absent des deux
+  flux), la collection « all » rate 3 produits — croiser les sources.
+- **Audit des collections :** agréger **toutes** les pages de pagination
+  du clone avant de comparer (sinon les « manquants » sont gonflés) ;
+  filtrer le bruit d'extraction (`/products/1`, `/products/i`… ne sont
+  pas des produits) ; vérifier sur la **page réelle** avant de conclure
+  qu'une collection du clone est vide (`rfid-badges` est vide sur le
+  vrai site aussi).
 - **Phase C de `clean-lab401.py` :** retire les `?v=` des URLs d'actifs
   (réappliquer la version courante ensuite) et laisse absolus les
   chemins `fr/de/es/it` (corriger avec `fix-locale-links.py`).
@@ -185,23 +254,26 @@ seront poussés après sa relecture.
 - **Drapeaux :** un `::after` CSS n'est pas dans le DOM — aucun nettoyage
   JavaScript ne peut le retirer ; il faut le masquer en CSS.
 
-## 5. Ce qui reste en suspens (2026-11-19 ~02:45)
+## 5. Ce qui reste en suspens (2026-11-19 ~03:45)
 
 | Sujet | État |
 |---|---|
-| **v12** (seul le drapeau du logo retiré) | Déployée (commit e90d969f) ; **vérification en navigateur en cours** (aucun drapeau à côté du logo, sélecteurs de langue/devise intacts avec drapeaux, recherche OK). |
-| **PortaPack ajouté** (SDR position 3/9, accueil SubGHz 2/4 + SDR 3/5, RF Tools 2/8) | Déployé (commit 5b0df951, « v13 ») ; **vérification en navigateur en cours**. Reste : position dans « all » (136/179 sur le vrai site) non ajoutée — la collection « all » du clone est une capture partielle (145/179). |
+| **v12** (seul le drapeau du logo retiré) | Déployée (commit e90d969f) ; **vérifiée en navigateur 03:24–03:25**. **Drapeaux gelés depuis ~03:28 (décision de l'utilisateur).** |
+| **PortaPack ajouté** (SDR position 3/9, accueil SubGHz 2/4 + SDR 3/5, RF Tools 2/8) | Déployé (commit 5b0df951, « v13 ») ; **vérifié en navigateur 03:24–03:25**. Reste : **15 autres collections** (voir `audit-exhaustivite-2026-11-19.md` § 4.1) + « all » (136/179) non ajoutés. |
+| **Pastilles « Économisez » en € quand les prix sont en $ CAD** | Question posée à l'utilisateur le 2026-11-19 ~03:27 (corriger ou laisser) — **réponse en attente**. Correctif possible : étendre la conversion JS aux `span[data-price-money-saved]` (montant = compare − prix), bump de version, push, vérification navigateur. |
 | **Table USD du PortaPack** | Corrigée et poussée (commit 5b0df951) : `{"325.00": 325.0}`, `{"425.00": 425.0}` (180 produits, comme la table CAD). |
+| **`all-products` EN : page 5 vide** (34 produits non listés) | À re-capturer (FR/ES complètes). |
+| **Collection `all` : page 1 seulement** (36/179) | Pages 2–5 à capturer. |
+| **Produits orphelins / retirés encore listés dans le clone** (§ 4.4 de l'audit) | Cartes à retirer de ~20 collections (pages produit à conserver). |
 | **Fork + Supabase** (comptes + vrai panier), Stripe à part | Sur son go seulement, après vérification de la copie par lui. |
 | **Fichier `fth`** (94 octets, ressemble à un jeton GitHub) dans le dépôt privé `Hacnowledge/api` | Feu vert demandé le 2026-11-18 ~09:13, jamais répondu. Supprimer ≠ révoquer. |
 | **Icônes de paiement du pied de page** en rectangles blancs (Bancontact, BLIK, Cartes Bancaires, MobilePay) | Cause non vérifiée. |
-| **Écart « all-products »** : clone 145 produits (page 5 vide, capture partielle) vs 179 sur le vrai site | À vérifier. |
 | **Écart de prix FR** (handles traduits : 15,00 € vs 9,95 €, 62,00 € vs 49,00 €, 19,00 € vs 14,95 €) | À confirmer sur le vrai site (voir `products.md` § 5). |
 | **Image de l'entrée EN `rfid-field-detector`** dans l'index (image du pied de page) | Défaut connu, non corrigé. 223 entrées de l'index utilisent cette image générique. |
 | **`all-products-page-5.html` sans `</body>`** | Seule page sans `lab401-static.js`. |
-| **3 produits EN 404 sur le vrai site** (retirés) | Pages locales conservées ; existent en ES. |
+| **3 produits orphelins** (`hak5-network-mitm-lan-turtle`, `proxmark-3-rdv4-flash-support`, `usb-bluetooth-adaptor-hc-06`) | Pages live (200), dans `products.json`, dans AUCUNE collection. Pages locales conservées. |
 | **Article FR** `/fr/blogs/news/construire-le-digilab-en-coulisses` | Sans fichier local (existe sous handle anglais). |
-| **Fichiers `documentation/`** (ce dossier) | Rédigés localement ; à pousser sur GitHub après relecture par l'utilisateur. |
+| **Fichiers `documentation/`** (ce dossier) | Poussés sur GitHub (commit c2d9a0e7, 2026-11-19 ~03:25) ; mise à jour (audit + anatomie) en cours d'envoi. |
 
 ## 6. Références
 
@@ -209,6 +281,10 @@ seront poussés après sa relecture.
   vérifications, limites).
 - `portapack-placement-research.md` — placement du PortaPack sur le vrai
   site (accueil, SDR, RF Tools, « all ») et prix USD.
+- `product-page-anatomy.md` — anatomie complète d'une page produit et
+  recette pour ajouter un produit (nouveau, 2026-11-19).
+- `audit-exhaustivite-2026-11-19.md` — audit complet (0 produit oublié,
+  écarts de collections, restes à faire) (nouveau, 2026-11-19).
 - `lab401-search-index.json` — index de recherche, 552 produits.
 - `site-clean/README.md` — ce qui ne fonctionne pas en statique.
 - `site-comprehension.md`, `categories.md`, `products.md` — dans ce

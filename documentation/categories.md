@@ -1,6 +1,20 @@
 # Catégories (collections) — clone Lab401
 
-**Date :** 2026-11-19. **Source des listes : le clone** (`site-clean/collections/`, locale EN), sauf mention contraire. Les prix sont les **prix EUR affichés** (première variante, `price_cents` de `lab401-search-index.json`) ; les prix barrés (compare-at) ne figurent pas dans l'index et ne sont donc pas reproduits ici, sauf pour le PortaPack (voir § SDR et RF Tools).
+**Date :** 2026-11-19, mise à jour ~03:45 (audit d'exhaustivité).
+**Source des listes : le clone** (`site-clean/collections/`, locale EN), sauf mention contraire. Les prix sont les **prix EUR affichés** (première variante, `price_cents` de `lab401-search-index.json`) ; les prix barrés (compare-at) ne figurent pas dans l'index et ne sont donc pas reproduits ici, sauf pour le PortaPack (voir § SDR et RF Tools).
+
+**Audit du 2026-11-19** (voir `audit-exhaustivite-2026-11-19.md`) : les
+listes ci-dessous viennent du clone ; elles diffèrent du vrai site dans
+32 collections sur 89. Les écarts principaux : le **PortaPack manque
+encore dans 15 collections** (v13 ne l'a ajouté qu'à `sdr-1`, `rf-tools`
+et à l'accueil) ; la collection `all` n'a que sa page 1 dans le clone
+(36/179) ; `all-products` EN a une page 5 vide (34 produits non listés,
+FR/ES complètes) ; les 3 produits orphelins
+(`hak5-network-mitm-lan-turtle`, `proxmark-3-rdv4-flash-support`,
+`usb-bluetooth-adaptor-hc-06`) sont encore listés dans certaines
+collections du clone alors que le vrai site les en a retirés. **La
+collection `rfid-badges` est vide dans le clone — mais aussi sur le vrai
+site** (« No products »), ce n'est pas un défaut du clone.
 
 **Lecture :** 89 collections EN dans le clone (même nombre en FR et en ES : 89 fichiers chacune). 4 collections sont vides dans le clone (message « collection is empty » sur la page) : `chameleon-mini`, `enterprise-tools`, `lea-tools`, `restricted-products`. Les doublons entre collections sont normaux : un même produit appartient à plusieurs collections (955 entrées produits au total sur la page 1 des collections, 1 408 en comptant toutes les pages de pagination).
 
@@ -16,8 +30,8 @@ Ces deux collections sont détaillées parce que le PortaPack H4M Pro doit y êt
 
 | | Vrai site (2026-11-19) | Clone (2026-11-19) |
 |---|---|---|
-| Nombre de produits | **9** | **8** (PortaPack manquant) |
-| Position du PortaPack | **3 / 9** | absent |
+| Nombre de produits | **9** | **9** (PortaPack ajouté en v13, commit 5b0df951) |
+| Position du PortaPack | **3 / 9** | **3 / 9** ✓ |
 
 **Vrai site — ordre complet :**
 

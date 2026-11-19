@@ -1,6 +1,7 @@
 # Compréhension du site — clone Lab401 (lab401.com)
 
-**Date :** 2026-11-19 ~02:45. **Objet :** comprendre le clone statique de
+**Date :** 2026-11-19 ~02:45, mise à jour ~03:45 (audit d'exhaustivité
++ anatomie des pages produits). **Objet :** comprendre le clone statique de
 lab401.com pour continuer son développement. **Clone :**
 `~/workspace/lab401-clone/site-clean/`, déployé sur
 https://hacnowledge.github.io/lab401-clone/ (dépôt
@@ -45,9 +46,11 @@ recherche, sélecteur de langue (EN/FR/ES), sélecteur de devise
 (« $ CAD », 71 pays), panier. Sur mobile : menu hamburger, mêmes
 sélecteurs en bas du menu.
 
-**Drapeaux :** depuis la v12 (en cours d'envoi au moment de la rédaction),
+**Drapeaux :** depuis la v12 (déployée et vérifiée 2026-11-19 03:24),
 **aucun drapeau à côté du logo** ; les sélecteurs de langue et de devise
 affichent de nouveau leurs drapeaux (voir § 7, saga des drapeaux).
+**Le 2026-11-19 ~03:28, l'utilisateur confirme que les drapeaux sont
+corrects en ce moment : ne plus rien y toucher.**
 
 ### Pied de page
 
@@ -62,9 +65,10 @@ vérifiée.
 (8) · Pentesting Hardware (7) · Newest Products (9) · RFID Tools (7) ·
 SubGHz Tools (4) · SDR Tools (5) · Hardware Auditing Tools (8) ·
 Hak5 Products (10) · Specialised RFID Badges (16) · Physical Audit Tools
-(10). Puis articles Academy, actualités du blog, pied de page. Dans le
-clone, ces sections existent mais le **PortaPack H4M Pro en est absent**
-(voir `categories.md` et `portapack-placement-research.md`).
+(10). Puis articles Academy, actualités du blog, pied de page. **Dans le
+clone (v13, 2026-11-19) : le PortaPack H4M Pro a été ajouté aux sections
+SubGHz Tools (2/4) et SDR Tools (3/5)** — vérifié en navigateur. Voir
+`categories.md` et `portapack-placement-research.md`.
 
 ## 3. Comment le clone est construit
 
@@ -144,16 +148,29 @@ complète.
   sous-total 359,17 €) ; quantités, suppression et passage en caisse ne
   fonctionnent pas sans Shopify.
 - **Formulaires** (contact, newsletter, avis) : affichés, sans soumission.
-- **Fonctions dynamiques absentes :** stocks en direct, recommandations,
-  avis vérifiés, filtres de collection (`?filter.*`, `?sort_by=`),
+- **Fonctions dynamiques absentes :** stocks en direct, recommandations
+  (« Vous aimerez aussi » : section vide, contenu chargé par AJAX depuis
+  `/recommendations/products`), avis vérifiés (grille vide, chargée par
+  JS), filtres de collection (`?filter.*`, `?sort_by=`),
   bannières de consentement / portefeuilles.
+- **Pagination des collections : 36 produits par page**
+  (`collections/<handle>-page-N.html`). La collection `all` n'a que sa
+  page 1 dans le clone (36/179) ; `all-products` EN a une page 5 vide
+  (capture ratée, 34 produits non listés) alors que FR/ES sont complètes
+  (181 cartes). Voir `audit-exhaustivite-2026-11-19.md`.
 - **Écarts préexistants :** `collections/all-products-page-5.html` n'a pas
-  de `</body>` (seule page sans `lab401-static.js`) ; 3 produits EN
-  renvoient 404 sur le vrai site (retirés : `hak5-network-mitm-lan-turtle`,
-  `proxmark-3-rdv4-flash-support`, `usb-bluetooth-adaptor-hc-06` — pages
-  locales conservées, existent en ES) ; l'article FR
+  de `</body>` (seule page sans `lab401-static.js`) ; **3 produits
+  « orphelins »** (`hak5-network-mitm-lan-turtle`,
+  `proxmark-3-rdv4-flash-support`, `usb-bluetooth-adaptor-hc-06`) : leurs
+  pages répondent **200** sur le vrai site (correction d'une erreur
+  antérieure qui les disait 404) mais ils ne sont dans **aucune
+  collection** — tous les 3 indisponibles ; l'article FR
   `/fr/blogs/news/construire-le-digilab-en-coulisses` n'a pas de fichier
   local (existe sous handle anglais).
+- **`rfid-badges` : page vide des deux côtés.** La page du vrai site
+  affiche elle-même « No products » (0 carte) alors que son
+  `products.json` liste 27 produits — le clone est fidèle, ce n'est pas
+  un défaut du clone.
 - **Défaut d'index connu :** l'entrée EN de `rfid-field-detector` utilise
   une mauvaise image (image du pied de page) — non corrigée.
 - **Taille :** ~1,2 Go / ~4 985 fichiers, au-dessus de la recommandation
@@ -185,11 +202,15 @@ complète.
   sélecteurs de langue/devise). Vérifié en navigateur 02:38 : aucun
   drapeau. **Mais** l'utilisateur a signalé que la sélection de langue
   semblait avoir disparu avec les drapeaux.
-- **v12 (en cours d'envoi au moment de la rédaction, 2026-11-19 ~02:45) :**
-  correction ciblée — **seul le drapeau à côté du logo est retiré**
-  (badge US masqué, aucun drapeau ajouté au logo) ; les drapeaux des
-  sélecteurs de langue et de devise sont **restaurés**. À vérifier en
-  navigateur après le déploiement (voir `recap-discussion.md`).
+- **v12 (déployée ~03:02, commit e90d969f, vérifiée en navigateur
+  03:24–03:25) :** correction ciblée — **seul le drapeau à côté du logo
+  est retiré** (badge US masqué, aucun drapeau ajouté au logo) ; les
+  drapeaux des sélecteurs de langue et de devise sont **restaurés**.
+  Vérifié : page PortaPack sans drapeau à côté du logo, drapeaux
+  présents sur les sélecteurs (France à côté de « Français », Canada à
+  côté de « $ CAD »), prix 474,00 $ (rég. 620,00 $), collection SDR et
+  accueil conformes. **Le 2026-11-19 ~03:28, l'utilisateur confirme que
+  les drapeaux sont corrects : ne plus rien y toucher.**
 
 ## 8. Pour continuer le développement
 
@@ -198,11 +219,17 @@ complète.
 - **Ne jamais pousser sans le « go » explicite de l'utilisateur** pour
   chaque chantier ; les poussées sont groupées pour limiter les
   validations.
-- **Prochaines étapes convenues (sur son go) :** ajouter le PortaPack
-  H4M Pro à la collection SDR, à l'accueil et à RF Tools (voir
-  `categories.md` et `portapack-placement-research.md`) ; ensuite fork +
+- **Prochaines étapes convenues (sur son go) :** le PortaPack est ajouté
+  à la collection SDR, à l'accueil et à RF Tools (v13, fait) — il reste
+  à l'ajouter à **15 autres collections**, à re-capturer
+  `all-products-page-5.html` (EN) et les pages 2–5 de la collection
+  `all` (voir `audit-exhaustivite-2026-11-19.md` § 5) ; ensuite fork +
   Supabase (comptes + vrai panier), Stripe en étape séparée.
 - **Fichiers de référence :** `INVENTORY.md` (inventaire complet),
   `portapack-placement-research.md` (placement PortaPack sur le vrai
-  site), `lab401-search-index.json` (552 produits), `README.md` dans
+  site), `product-page-anatomy.md` (anatomie complète d'une page produit
+  + recette pour ajouter un produit),
+  `audit-exhaustivite-2026-11-19.md` (audit complet 2026-11-19 : 0
+  produit oublié, écarts de collections),
+  `lab401-search-index.json` (552 produits), `README.md` dans
   `site-clean/` (limites du statique).

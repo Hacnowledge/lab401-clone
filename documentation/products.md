@@ -19,6 +19,13 @@ pas le sitemap (181 — il rate les produits épuisés) ni la collection
 « all » (179 sur le vrai site). Après les ajouts du 2026-11-18, plus rien
 ne manque d'après `products.json`.
 
+**Audit complet du 2026-11-19** (voir
+`audit-exhaustivite-2026-11-19.md`) : **0 produit oublié** dans les 3
+locales. Le vrai site compte 183 produits distincts par locale (182 de
+`products.json` + `rfid-field-detector`, absent de `products.json` ET du
+sitemap mais page live à 200) — le clone les a tous. Le sitemap a un
+produit de retard : `products.json` − sitemap = `portapack-h4m-pro`.
+
 **Différence FR (186 vs 183) :** 3 produits existent en FR sous des
 handles **traduits** en plus des handles anglais (voir § 5).
 
@@ -73,8 +80,8 @@ Il est maintenant établi par la **page d'accueil du vrai site** (marché
 US par défaut) : **$325.00 en solde, $425.00 régulier, économie de
 $100.00** (`data-tax-cents="32500"` / `"42500"`).
 
-**La table USD du clone doit être corrigée** (elle ne contient pas encore
-le PortaPack — valeur actuelle : `null`) :
+**La table USD du clone a été corrigée** (v13, commit 5b0df951,
+2026-11-19) :
 
 ```json
 "portapack-h4m-pro": {"price": {"325.00": 325.0}, "compare": {"425.00": 425.0}}
@@ -94,7 +101,7 @@ le PortaPack — valeur actuelle : `null`) :
 | **Prix EUR** | **325,00 €** (rég. 425,00 €) |
 | **Prix CAD** | **474,00 $** (rég. 620,00 $) |
 | **Prix USD** | **325,00 $** (rég. 425,00 $) — établi 2026-11-19, voir § 3 |
-| **Stock** | En stock (constaté sur le vrai site) |
+| **Stock** | **Indisponible** (`available: false`, vérifié sur le `.js` du vrai site le 2026-11-19 03:26) — le bouton est « Épuisé » et le bloc d'expédition est masqué par le script de la page. La ligne « En stock (🇪🇺 EU, 🇺🇸 US) » est un texte statique, affichée même pour ce produit (voir `product-page-anatomy.md` § 2.5). |
 | **Image principale** | `PortaPack---H4M-Pro---Front.png` (variantes `_w352`, `_512x512`, `_1024`…) |
 | **Fichiers clone** | `products/portapack-h4m-pro.html` (796 Ko), `.js`, `fr/…`, `es/…` |
 
@@ -120,15 +127,22 @@ more. »
 `portapack-placement-research.md`) :** accueil, section SubGHz Tools
 (position 2/4) et section SDR Tools (position 3/5) ; collection SDR
 (`sdr-1`, position 3/9) ; collection RF Tools (`rf-tools`, position 2/8) ;
-collection « all » (position 136/179). **Dans le clone, la page produit
-existe mais le produit est absent de tous ces endroits** (0 occurrence de
-`portapack-h4m-pro` sur les accueils, `sdr-1`, `rf-tools` et
-`all-products`) — correctif à venir (voir `recap-discussion.md`).
+collection « all » (position 136/179). **Dans le clone (v13, commit
+5b0df951) : ajouté à SDR, RF Tools et à l'accueil — vérifié en navigateur
+le 2026-11-19 03:24–03:25. Reste absent de 15 autres collections**
+(`frontpage`, `publica`, `hardware`, `pentesting`,
+`pentesting-implants`, `pentesting-iot`,
+`pentesting-red-team-equipment`, `ppb-sdr-devices`,
+`ppb-subghz-devices`, `sdr`, `sdr-portable-devices`,
+`sdr-spectrum-analysers`, `subghz-capture-sniff-replay`,
+`subghz-tools-remote-control-cloning`,
+`subghz-tools-spectrum-analysers`) **et de « all » / « all-products »**
+— voir `audit-exhaustivite-2026-11-19.md` § 4.1.
 
 ## 5. Les 3 handles FR ajoutés le 2026-11-18
 
 Les collections FR liaient vers ces handles, qui n'existaient qu'en
-handle anglais (le vrai site redirige 301 vers le français). Pages
+handle anglais (le vrai site redirige 302 vers le français). Pages
 créées sous handles français (+ leurs `.js`) ; les pages FR sous handles
 anglais sont conservées en plus. Vérifiées en 200 en direct.
 
@@ -146,14 +160,21 @@ le vrai site avant d'y toucher.
 
 ## 6. Cas particuliers
 
-- **3 produits EN retirés du vrai site (404 en direct) :**
+- **3 produits « orphelins » (correction d'une erreur antérieure) :**
   `hak5-network-mitm-lan-turtle`, `proxmark-3-rdv4-flash-support`,
-  `usb-bluetooth-adaptor-hc-06`. Pages locales conservées ; ces produits
-  existent en ES.
+  `usb-bluetooth-adaptor-hc-06` — ils avaient été notés « 404 sur le
+  vrai site (retirés) », c'est **faux** : leurs pages répondent **200**
+  (vérifié le 2026-11-19 avec les en-têtes navigateur ; les 404
+  d'avant étaient des faux négatifs anti-bot). Ils sont dans
+  `products.json` (182) mais **dans AUCUNE collection** du vrai site
+  (ni « all », ni les 89 collections) — tous les 3 indisponibles.
+  Le clone conserve leurs pages ET les garde dans les collections
+  (capture plus ancienne). Voir `audit-exhaustivite-2026-11-19.md`
+  § 2.3 et § 4.4. Ils existent en ES aussi.
 - **2 handles ES traduits** (même mécanisme qu'en FR) :
-  `bus-pirate-5-auxiliary-cable` → 301 → `cable-auxiliar-bus-pirate-5`,
+  `bus-pirate-5-auxiliary-cable` → `cable-auxiliar-bus-pirate-5`,
   `rubber-ducky-pocket-guide` → `rubber-ducky-guia-de-bolsillos` — pages
-  présentes dans le clone.
+  présentes dans le clone, handles canoniques en ES (200).
 - **`rfid-field-detector` :** l'entrée EN de l'index utilise une mauvaise
   image (`cdn/shop/files/Hamster-Transparent_w600.gif`, image du pied de
   page) — défaut connu, non corrigé. À noter : cette image sert
