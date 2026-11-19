@@ -188,18 +188,6 @@
     }
     return null;
   }
-  /* Format d'une economie : comme les prix affiches par le theme, qui
-     utilise le format monetaire de la locale (FR/ES : "146,00 $", EN :
-     "$146.00"). formatMajor seul donne "$146.00" dans toutes les locales,
-     ce qui ne correspond pas aux prix en FR/ES. */
-  function formatSavings(major, cur) {
-    var f = fmt(cur);
-    if (CFG.locale === 'fr' || CFG.locale === 'es') {
-      var num = major.toFixed(f.dec).replace('.', ',');
-      return num + ' ' + f.sym;
-    }
-    return formatMajor(major, cur);
-  }
   function savingsMajor(priceCents, cmpCents, handle) {
     var exactCmp = exactMajor(cmpCents, handle, true);
     var exactPrice = exactMajor(priceCents, handle, false);
@@ -250,7 +238,7 @@
         var eur = parseEurText(el.textContent || '');
         if (eur != null) save = convertMajor(eur, null, false);
       }
-      if (save != null) setPrice(el, formatSavings(save, state.currency));
+      if (save != null) setPrice(el, formatMajor(save, state.currency));
     });
     $$('.clx-save-pill').forEach(function (el) {
       var row = el.closest ? el.closest('tr') : null;
@@ -283,7 +271,7 @@
       if (save != null) {
         var txt = el.textContent || '';
         var nm = txt.match(/([€$£¥][\d,]+\.\d{2})/);
-        if (nm) el.textContent = txt.replace(nm[1], formatSavings(save, state.currency));
+        if (nm) el.textContent = txt.replace(nm[1], formatMajor(save, state.currency));
       }
     });
   }
