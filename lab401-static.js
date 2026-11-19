@@ -355,7 +355,13 @@
   window.Lab401_priceValue = function (cents, handle, isCmp) {
     var m = convertMajor(cents, handle, !!isCmp);
     if (state.taxPref && state.taxRate !== 1) m = m * state.taxRate;
-    return m;
+    /* Arrondir a 2 decimales : la TVA cree des fractions (149,17 x 1,2 =
+       179,004) ; sans arrondi, le total de ligne (179,004 x 2 = 358,008 ->
+       358,01) ne correspond pas au prix unitaire affiche (179,00), d'ou
+       un ecart de 0,01 EUR sur le sous-total (748,01 au lieu de 748,00).
+       Les devises a 0 decimale (JPY, etc.) et les tables exactes CAD/USD
+       (nombres entiers) ne sont pas affectees par cet arrondi. */
+    return Math.round(m * 100) / 100;
   };
   window.Lab401_formatPrice = function (major) { return formatMajor(major, state.currency); };
   window.Lab401_currency = function () { return state.currency; };
@@ -818,7 +824,14 @@
     });
     state.taxPref = localStorage.getItem(LS_TAX_PREF) === 'true';
     $$('[data-tax-preference]').forEach(function (cb) {
-      cb.addEventListener('change', function () { setTaxPref(cb.checked); syncCheckboxes(); processPrices(); emitPrices(); });
+      cb.addEventListener('change', function () {
+        setTaxPref(cb.checked); syncCheckboxes(); processPrices(); emitPrices();
+        /* Appel direct en plus de l'evenement : si lab401-cart.js n'etait
+           pas encore charge (ou son ecouteur pas encore inscrit) quand
+           l'evenement a ete emis, les totaux restaient figes avec un cran
+           de retard. L'appel direct recalcule des que le panier est la. */
+        try { if (window.Lab401Cart && window.Lab401Cart.renderCart) window.Lab401Cart.renderCart(); } catch (e) {}
+      });
     });
     populateCurrencyLists();
     watchCountryDisclosures();
@@ -863,7 +876,15 @@
 (function () {
   var base = (window.LAB401_STATIC && window.LAB401_STATIC.base) || '/lab401-clone';
   var s = document.createElement('script');
-  s.src = base + '/lab401-cart.js?v=1';
+  s.src = base + '/lab401-cart.js?v=2';
   s.defer = true;
+  /* Quand le panier local finit de se charger, re-emettre l'evenement :
+     une bascule de TVA faite avant son chargement a emis lab401:prices
+     dans le vide (aucun ecouteur inscrit), laissant les totaux figes avec
+     un cran de retard. Le re-emission recalcule les totaux avec la TVA /
+     devise courante des que le panier est pret. */
+  s.onload = function () {
+    try { document.dispatchEvent(new CustomEvent('lab401:prices', { detail: { currency: (window.Lab401_currency && window.Lab401_currency()) || 'EUR', country: null } })); } catch (e) {}
+  };
   document.head.appendChild(s);
 })();
