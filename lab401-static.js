@@ -517,6 +517,22 @@
     if (cc && cc.value) { e.preventDefault(); window.Lab401_switchCountry(cc.value); return; }
     var loc = form.querySelector('input[name="locale_code"]');
     if (loc && loc.value) { e.preventDefault(); window.Lab401_switchLocale(loc.value); }
+    /* Recherche : le formulaire du theme envoie vers /search (backend Shopify,
+       absent du clone statique -> 404). Rediriger vers la page de recherche
+       locale, qui cherche dans l'index local des produits (lab401-search-index.json). */
+    var act = form.getAttribute('action') || '';
+    if (act === '/search' || form.hasAttribute('data-live-search-form')) {
+      var qi = form.querySelector('input[name="q"]');
+      var q = qi ? qi.value.trim() : '';
+      if (q) {
+        e.preventDefault();
+        var loc2 = (CFG.locale || 'en');
+        var page = loc2 === 'en' ? 'search.html' : loc2 + '/search.html';
+        window.location.href = (CFG.base || '') + '/' + page + '?q=' + encodeURIComponent(q);
+      } else {
+        e.preventDefault();
+      }
+    }
   }, true);
 
   /* ---------------- observation des prix (variantes, contenu dynamique) ---------------- */
