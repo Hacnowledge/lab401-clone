@@ -724,12 +724,32 @@ renvoie les prix en centimes EUR hors TVA.
 - **`lab401-static.js?v=16`** : version passée de 15 à 16 dans les
   1 938 pages.
 
-### Vérification en navigateur
+### Vérification en navigateur (2026-11-19 16:41–16:47)
 
-*(En attente — à compléter. À tester dès le premier chargement, sans
-rechargement préalable : basculer Ex VAT → Inc VAT aussitôt après
-l'arrivée sur cart.html et vérifier que les totaux suivent immédiatement,
-dans les deux sens, et que le sous-total Inc VAT est 748,00 €.)*
+**TOUT EST BON.**
+
+**1. Bascule TVA dès le PREMIER chargement (test critique, sans
+rechargement préalable) — CORRIGÉE.** Nouvel onglet, arrivée directe sur
+cart.html, bascule immédiate Ex VAT → Inc VAT : les prix unitaires, les
+totaux de ligne ET le sous-total changent tous aussitôt. Le bogue de
+course au chargement est corrigé. Re-bascule vers Ex VAT : retour
+immédiat et exact (149,17 € / 298,34 € / 325,00 € / 623,34 €).
+
+**2. Arrondi — CORRIGÉ (après propagation).** Au premier chargement
+(16:42, juste après le push), le sous-total Inc VAT affichait encore
+748,01 € (ancienne version en cours de propagation). Après ~4 minutes
+puis un rechargement (16:46) : Flipper 179,00 €, ligne **358,00 €** ;
+PortaPack 390,00 €, ligne 390,00 € ; sous-total **748,00 €**. Exact.
+
+**3. Autres vérifications — toutes bonnes.** Pied de page : exactement
+8 pays. Tête : exactement 8 entrées. Page panier stable, bon panier
+local, sans alternance. Aucun drapeau collé au logo.
+
+**Observation secondaire (DOM seulement) :** le tiroir de panier masqué
+affiche encore des montants périmés en dollars (Flipper 169,00 $,
+total 379,00 $) et un contenu différent (Sticker Pack / O.MG Cable),
+non synchronisé avec la page panier en EUR. Le tiroir ne s'ouvre pas
+visuellement ; la page panier, elle, est correcte.
 
 ## Prochaine étape convenue — Checkout réel (Supabase + Stripe)
 
