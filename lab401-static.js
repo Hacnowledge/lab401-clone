@@ -680,3 +680,13 @@
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init, { once: true });
   else init();
 })();
+
+/* Panier local (localStorage) : le site est statique, /cart/add n'existe pas.
+   lab401-cart.js intercepte les ajouts, les quantites et les suppressions. */
+(function () {
+  var base = (window.LAB401_STATIC && window.LAB401_STATIC.base) || '/lab401-clone';
+  var s = document.createElement('script');
+  s.src = base + '/lab401-cart.js?v=1';
+  s.defer = true;
+  document.head.appendChild(s);
+})();
