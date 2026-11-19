@@ -666,9 +666,18 @@ ou synchroniser `upcartPreloadedCart`.
   les 166 taux du `lab401-static.js` généré. À noter : ces deux fichiers
   temporaires doivent être restaurés avant chaque nouveau build.
 
-### Vérification en navigateur
+### Vérification en navigateur (2026-11-19 16:01–16:03)
 
-*(En attente — à compléter.)*
+**BON :**
+- Sélecteur de pays du **pied de page : CORRIGÉ.** Exactement **8 pays** (Belgique, Canada, France, Allemagne, Italie, Pays-Bas, Espagne, États-Unis) — USD, CAD, EUR seulement. À la deuxième ouverture, la liste reste réduite : le filtre se ré-applique.
+- Sélecteur de devise en tête : toujours 8 pays. Page panier stable, aucun drapeau collé au logo.
+
+**ENCORE CASSÉ :**
+- Bascule **Ex VAT / Inc VAT : les totaux de ligne et le sous-total ne se recalculent toujours pas immédiatement** (reproduit 3 fois). Prix unitaires OK (Flipper 149,17 € → 179,00 €, PortaPack 325,00 € → 390,00 €), mais lignes 298,34 € / 325,00 € et sous-total 623,34 € figés. En re-basculant vers Ex VAT, les totaux affichent alors les valeurs Inc VAT (358,01 € / 390,00 € / 748,01 €) : **un cran de retard**, ils ne se recalculent qu'au (re)chargement.
+- **Écart de 0,01 €** après rechargement en Inc VAT : sous-total **748,01 €** au lieu de 748,00 € (ligne Flipper 358,01 € : 149,17 × 1,2 × 2 = 358,008 → 358,01, alors que le prix unitaire affiché est 179,00 €). Le total de ligne est calculé sur le prix non arrondi ; il devrait être calculé sur le prix unitaire arrondi (179,00 × 2 = 358,00).
+- **Débogage en cours** (tâche navigateur) : vérifier si l'événement `lab401:prices` est émis, si `renderCart()` tourne, et quel code réécrit les totaux (panier local ou thème via `/cart.js`).
+
+**Réserve secondaire (DOM seulement) :** le tiroir de panier affiche encore des montants en « $ » (« Checkout • $623.34 », « $748.01 ») et, à un moment, d'autres articles (Sticker Pack, O.MG Cable, Flipper ×1) — à confirmer séparément, le tiroir ne s'ouvre pas visuellement.
 
 ## Prochaine étape convenue — Checkout réel (Supabase + Stripe)
 
