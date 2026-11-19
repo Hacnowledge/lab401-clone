@@ -537,9 +537,32 @@ n'agissait qu'après le chargement du script. Le drapeau des sélecteurs
   dollar canadien et euro »). La géolocalisation accepte toujours les
   71 pays (devise + TVA correctes pour tous).
 
-### Vérification en navigateur
+### Vérification en navigateur (2026-11-19 14:38–14:48)
 
-*(En attente du retour de la vérification v14.4 — à compléter.)*
+**Page panier — BON.** Après vidage puis ajouts (Flipper ×3, PandwaRF ×1,
+PortaPack ×2) : exactement les 6 articles, sous-total 2 479,00 $ CAD /
+1 546,51 €, compteur 6, aucun Sticker ni O.MG. Stable après rechargement
+et 30 s d'attente : aucune alternance. Quantités +/− et suppression (X)
+correctes et persistantes (état final du test : Flipper ×4 + PortaPack ×1
+= 921,68 €, compteur 5). Le déploiement est confirmé (lab401-cart.js
+servi contient l'interception /cart.js).
+
+**Drapeau — BON.** Plus aucun drapeau collé au logo (accueil, fiches
+produit, panier). Seuls les drapeaux normaux des sélecteurs restent.
+
+**Réserves (corrigées en v14.5) :**
+- Sélecteur de devise en tête : 17 entrées au lieu de 8 — la version
+  `?v=13` de lab401-static.js était en cache, le navigateur gardait
+  l'ancienne liste. Pied de page : 71 pays (le sélecteur de pays du thème
+  n'était pas filtré). → v14.5 : version `?v=14` + filtre du pied de page.
+- Bascule Ex VAT : les prix unitaires changeaient aussitôt, mais les
+  totaux de ligne et le sous-total restaient en TTC (1 855,81 €) jusqu'au
+  rechargement. → v14.5 : `emitPrices()` sur changement de TVA.
+- Tiroir UpCart (en arrière-plan, invisible en usage normal) : contient
+  toujours l'instantané statique à 379,00 $ (`window.upcartPreloadedCart`).
+  Le bouton panier mène à cart.html (correcte), la bannière d'ajout ne
+  montre pas d'articles. À tester : ouvrir le tiroir pour voir s'il
+  recharge le panier local via /cart.js.
 
 ### Checkout — à part
 
@@ -549,6 +572,57 @@ Un vrai paiement par carte exige un serveur (création d'une session de
 paiement) — c'est le projet Supabase + Stripe (fork), déjà convenu dans
 son principe, à lancer sur le go de l'utilisateur. Voir la section
 suivante.
+
+## v14.5 — Devises USD/CAD/EUR partout (version JS v14), totaux TVA recalculés
+
+**Commit :** `46a47666` (dernier lot 5/5 ; 1 939 fichiers au total, 5 lots), poussé le 2026-11-19 ~15:23.
+
+### Les trois restes de la vérification v14.4
+
+1. **Sélecteur de devise en tête : 17 entrées au lieu de 8.** Le code
+   (SELECTOR_COUNTRIES = 8 pays) était bien déployé, mais le navigateur
+   gardait en cache l'ancien `lab401-static.js?v=13` (17 pays). Cause :
+   la version dans l'URL n'avait pas changé depuis v14.1.
+2. **Sélecteur de pays du pied de page : 71 pays.** C'est le sélecteur du
+   thème (`[data-disclosure-country]`), rempli en HTML statique — il
+   n'était pas touché par `populateCurrencyLists()` (qui ne gère que le
+   sélecteur de devise en tête et les listes mobiles).
+3. **Bascule Ex VAT / Inc VAT : totaux figés.** `taxHandler.setTaxPreference`
+   appelait `processPrices()` (prix unitaires) mais n'émettait pas
+   `lab401:prices`, donc `renderCart()` (totaux de ligne, sous-total) ne
+   se relançait pas.
+
+### Correctifs
+
+- **`lab401-static.js?v=14`** : version passée de 13 à 14 dans
+  `inject-localization.py` et dans les 1 938 pages HTML (le changement
+  d'URL force le navigateur à recharger le nouveau code).
+- **`filterCountryDisclosures()`** (dans `populateCurrencyLists()`) :
+  retire du sélecteur de pays du pied de page les pays dont la devise
+  n'est pas USD, CAD ou EUR ; le pays courant est gardé même s'il n'est
+  pas dans la liste des 8. Le sélecteur de langue (EN/FR/ES) n'est pas
+  touché.
+- **`emitPrices()`** : `taxHandler.setTaxPreference` et `setTaxRate`
+  émettent désormais `lab401:prices` après `processPrices()` — le panier
+  local recalcule aussitôt ses totaux de ligne et son sous-total quand
+  la TVA change.
+
+### Vérification en navigateur
+
+*(En attente — à compléter.)*
+
+### Tiroir UpCart — en attente de test
+
+Le tiroir latéral est l'application UpCart (bundle sur le CDN Shopify).
+Il démarre avec l'instantané statique `window.upcartPreloadedCart`
+(379,00 $ : Sticker, O.MG, Flipper) embarqué dans chaque page, mais il
+recharge ensuite le panier via `GET /cart.js` (fonction `getCartInner`,
+`Cache-Control: no-cache`) — que `lab401-cart.js` intercepte depuis v14.4
+et auquel il répond avec le panier local. Le tiroir est invisible en
+usage normal (le bouton panier mène à cart.html, l'ajout montre une
+bannière). Reste à vérifier en ouvrant le tiroir : affiche-t-il le panier
+local, ou l'instantané statique ? Si c'est l'instantané, il faudra retirer
+ou synchroniser `upcartPreloadedCart`.
 
 ## Prochaine étape convenue — Checkout réel (Supabase + Stripe)
 
